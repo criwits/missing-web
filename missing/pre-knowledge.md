@@ -20,7 +20,7 @@ $$1 \,\mathrm{TB}=1024\,\mathrm{GB}=1024\times1024\,\mathrm{MB}=1024^3\,\mathrm{
 
 我们使用方头括号「【】」来标记所有屏幕上字面显示的选项。例如，当我们希望你右键桌面上的图标
 
-![Untitled](%E4%B8%80%E4%BA%9B%E7%BA%A6%E5%AE%9A%E4%B8%8E%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86%2087fe7b4405644069821d5cf1e141ef83/Untitled.png)
+![Untitled](pre-knowledge/Untitled.png)
 
 时，我们会称「右键【此电脑】」。
 

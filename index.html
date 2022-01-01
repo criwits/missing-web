@@ -15,26 +15,41 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Your Missing Semester of Using Computer'
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script>
-    window.$docsify = {
+      name: '你缺失的那门计算机课',
       search: {
         paths: 'auto',
         placeholder: '搜索',
         noData: '啥都没找到',
         depth: 3,
       },
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      nameLink: 'https://missing.criwits.top/',
+      markdown: {
+            renderer: {
+                image: function(href, title, text) {
+                    // 按照原来的渲染 img
+                    var image_html = this.origin.image.apply(this, arguments)
+                    // 用 figure 包一下图片，实现居中
+                    return '<figure>' + image_html + '</figure>'
+                }
+            }
+        }
     }
   </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <style>
+  figure {
+      text-align: center
+  }
+  </style>
 </body>
 </html>

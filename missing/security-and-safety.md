@@ -20,15 +20,15 @@
 
 - 打开【设置】。【设置】位于开始菜单的左下角，【电源】按钮的上方：
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled.png)
+![Untitled](security-and-safety/Untitled.png)
 
 - 选择【应用】：
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%201.png)
+![Untitled](security-and-safety/Untitled%201.png)
 
 - 稍等片刻以使得列表完全加载。在这个界面上，会列出电脑中安装的所有软件。找到我们不想要的软件，然后点击两次【卸载】：
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%202.png)
+![Untitled](security-and-safety/Untitled%202.png)
 
 - 根据提示「下一步」操作。
 
@@ -36,25 +36,25 @@
 
 - 打开【设置】，它位于开始菜单右下角，【电源】按钮的左侧：
 
-![屏幕截图 2021-12-27 195340.jpg](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195340.jpg)
+![屏幕截图 2021-12-27 195340.jpg](security-and-safety/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195340.jpg)
 
 - 在页面左侧点击【应用】：
 
-![屏幕截图 2021-12-27 195553.jpg](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195553.jpg)
+![屏幕截图 2021-12-27 195553.jpg](security-and-safety/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195553.jpg)
 
 - 再在右侧点击【应用和功能】：
 
-![屏幕截图 2021-12-27 195636.jpg](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195636.jpg)
+![屏幕截图 2021-12-27 195636.jpg](security-and-safety/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195636.jpg)
 
 - 等待右侧下方的列表加载完成。这个列表就是你的电脑上安装的所有软件。找到你不想要的软件，点击这一行右侧的【 ⁝ 】，再点击【卸载】：
 
-![屏幕截图 2021-12-27 200052.jpg](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_200052.jpg)
+![屏幕截图 2021-12-27 200052.jpg](security-and-safety/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_200052.jpg)
 
 - 之后根据提示卸载即可。
 
 一般来说，卸载很快就能完成。但需要特别注意的是，**一些国产软件的卸载界面错综复杂，充斥有大量的无关选项（例如「再想想」「我要重装」等长得巨大却又不是继续卸载的按钮），因此在点选时务必十分小心。一些更流氓的国产软件在卸载界面上甚至有捆绑勾选，请千万注意。**例如：
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%203.png)
+![Untitled](security-and-safety/Untitled%203.png)
 
 卸载完成之后，可能需要重启电脑使得卸载完全进行。
 
@@ -62,7 +62,7 @@
 
 *注意：如果你在使用中压根没见过这样的窗口：*
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%204.png)
+![Untitled](security-and-safety/Untitled%204.png)
 
 *那么这一整节的内容可能对你的电脑不适用。*
 
@@ -99,7 +99,7 @@
 Windows 一直在不断的更新之中——这里的「更新」指的不是诸如「Windows 7」「Windows 10」这样的大版本的更新，而是那时不时阻碍我们关机睡觉的「Windows 更新」。打开电脑的【设置】，Windows 10 选择【更新与安全】、Windows 11 选择【Windows 更新】，你就能看到现在可用的一些 Windows 更新以及它们的状态。
 
 ![左：Windows 10 系统的「Windows 更新」页面；右：Windows 11 系统的「Windows 更新」页面
-**~~科技以换壳为本~~**](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Update.jpg)
+**~~科技以换壳为本~~**](security-and-safety/Update.jpg)
 
 左：Windows 10 系统的「Windows 更新」页面；右：Windows 11 系统的「Windows 更新」页面
 **~~科技以换壳为本~~**
@@ -120,7 +120,7 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 所谓流氓软件，就是指会恶意诱导用户下载、安装其他软件，「传染性」强，且难以卸载的软件。还记得在上一章中，我们亲眼目睹了由一个不干净的「高速下载器」捆绑安装的一大群软件吗？这个「高速下载器」就是典型的流氓软件，它所安装的这些软件中有不少更是「流氓软件」。流氓软件具有「传染性」，即一个流氓软件可能捆绑 5 个流氓软件下来，而这 5 个则可以捆绑更多其他流氓。最后落得的，就是一台被「玩坏了」的电脑（实验过程中，并没有任何真实电脑遭受伤害）：
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%205.png)
+![Untitled](security-and-safety/Untitled%205.png)
 
 远离流氓软件！
 
@@ -146,18 +146,18 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 1. 按哪个按钮可以卸载？
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%206.png)
+![Untitled](security-and-safety/Untitled%206.png)
 
 1. 按哪个按钮可以卸载？
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%207.png)
+![Untitled](security-and-safety/Untitled%207.png)
 
 1. 按哪个按钮可以卸载？
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%208.png)
+![Untitled](security-and-safety/Untitled%208.png)
 
 1. 如何操作可以卸载？
 
-![Untitled](%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039/Untitled%209.png)
+![Untitled](security-and-safety/Untitled%209.png)
 
 1. 清理电脑上的杀毒软件 / 安全软件，保留一个你用得最熟悉的。如果不知道哪个杀毒软件比较好，请看《Missing》软件篇。

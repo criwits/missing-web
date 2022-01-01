@@ -1,11 +1,7 @@
 # Your Missing Semester of Using Computer
-
 # 你缺失的那门计算机课
 
 ---
-
-$$\text{Dedicated to my dear Muxu.}\\\text{——Hans}$$
-
 ## 本教程更新地址
 
 [https://missing.criwits.top](https://missing.criwits.top)
@@ -16,35 +12,23 @@ $$\text{Dedicated to my dear Muxu.}\\\text{——Hans}$$
 
 ## 目录
 
-[序](missing/%E5%BA%8F%20c245c5b4e1bc43bd8f59f839a7b9f7c1.md)
+[序](missing/premble.md)
+- 基础篇
+  - [一些约定与预备知识](missing/pre-knowledge.md)
+  - [电脑以及电脑的组成](missing/computer-and-its-components.md)
+  - [文件与文件管理](missing/file-management.md)
+  - [软件的寻找与安装](missing/software-installation.md)
+  - [基本维护和安全防护](missing/security-and-safety.md)
+  - [遇到问题怎么办](missing/how-to-ask-questions.md)
 
-### 基础篇
+- 软件篇
 
-[一些约定与预备知识](missing/%E4%B8%80%E4%BA%9B%E7%BA%A6%E5%AE%9A%E4%B8%8E%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86%2087fe7b4405644069821d5cf1e141ef83.md)
+- 进阶篇
 
-[电脑以及电脑的组成](missing/%E7%94%B5%E8%84%91%E4%BB%A5%E5%8F%8A%E7%94%B5%E8%84%91%E7%9A%84%E7%BB%84%E6%88%90%207cfb6636a76d4339a2bdc44852f28678.md)
+- 附录
+  - [练习题答案](missing/answers.md)
 
-[文件与文件管理](missing/%E6%96%87%E4%BB%B6%E4%B8%8E%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%20b4cdb39e2de14a918edc919b0e5bf50b.md)
-
-[软件的寻找与安装](missing/%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%BB%E6%89%BE%E4%B8%8E%E5%AE%89%E8%A3%85%209f84340aaf67484a9e40073452164400.md)
-
-[基本维护和安全防护](missing/%E5%9F%BA%E6%9C%AC%E7%BB%B4%E6%8A%A4%E5%92%8C%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4%2067657fd2a68747638ee32506952ad039.md)
-
-[遇到问题怎么办](missing/%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E6%80%8E%E4%B9%88%E5%8A%9E%207b0a21153d6a46bd9b42cbb48be31bb5.md)
-
-### 软件篇
-
-[现在啥都木有]
-
-### 进阶篇
-
-[现在啥都木有]
-
-### 附录
-
-[练习题答案](missing/%E7%BB%83%E4%B9%A0%E9%A2%98%E7%AD%94%E6%A1%88%207767fa5156a3431f9c78f1236883ad66.md)
-
-[跋](missing/%E8%B7%8B%204febab7ce89b405cabdeb68c8e8869d1.md)
+[跋](missing/afterword.md)
 
 ## 版本修订
 
