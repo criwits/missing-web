@@ -148,16 +148,16 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 ![Untitled](security-and-safety/Untitled%206.png)
 
-1. 按哪个按钮可以卸载？
+2. 按哪个按钮可以卸载？
 
 ![Untitled](security-and-safety/Untitled%207.png)
 
-1. 按哪个按钮可以卸载？
+3. 按哪个按钮可以卸载？
 
 ![Untitled](security-and-safety/Untitled%208.png)
 
-1. 如何操作可以卸载？
+4. 如何操作可以卸载？
 
 ![Untitled](security-and-safety/Untitled%209.png)
 
-1. 清理电脑上的杀毒软件 / 安全软件，保留一个你用得最熟悉的。如果不知道哪个杀毒软件比较好，请看《Missing》软件篇。
+5. 清理电脑上的杀毒软件 / 安全软件，保留一个你用得最熟悉的。如果不知道哪个杀毒软件比较好，请看《Missing》软件篇。

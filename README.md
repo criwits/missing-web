@@ -22,9 +22,9 @@
   - [遇到问题怎么办](missing/how-to-ask-questions.md)
 
 - 软件篇
-
+（暂无）
 - 进阶篇
-
+（暂无）
 - 附录
   - [练习题答案](missing/answers.md)
 
