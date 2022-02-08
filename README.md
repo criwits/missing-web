@@ -1,34 +1,38 @@
-# 你缺失的那门计算机课
+# 你缺失的那门计算机课 / Your Missing Semester of Using Computer
 
 ---
 
-**本教程仍在持续更新当中……**
+> 本教程在持续更新之中，因此十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请将反馈发送到邮箱 [missing@criwits.top](mailto:missing@criwits.top)。
+> 
 
-这是一份适合「电脑小白」的电脑使用技巧手册。它涵盖了从基本的文件管理到软件的寻找和安装，从简要的硬件组成介绍到电脑的安全防护，从各种小的使用技巧到一批优良软件推荐的许多内容，旨在帮助对电脑操作不甚了解的所谓「小白」逐渐上手电脑的使用。
+这是一份适合「电脑小白」的电脑使用技巧手册。它以近乎「手把手教」的语言，介绍了从基本的文件管理到软件的寻找安装，从简要的硬件组成到电脑的安全防护，从小的使用技巧到优良软件推荐的许多内容，旨在帮助对电脑操作不甚了解的所谓「小白」逐渐上手电脑的使用。
 
 ## 目录
 
- - [序](missing/premble.md)
- - [一些约定与预备知识](missing/first-things-first.md)
- - 基础篇
-   - [电脑以及电脑的组成](missing/computer-and-its-components.md)
-   - [文件与文件管理](missing/file-and-file-management.md)
-   - [软件的寻找与安装](missing/software-installation.md)
-   - [基本维护和安全防护](missing/basic-maintenance.md)
-   - [遇到问题怎么办](missing/how-to-find-solutions.md)
- - 软件篇
-   - [Office 和 WPS——办公必备软件](missing/office-and-wps.md)
-   - [浏览器——网上冲浪必备工具](missing/browsers-and-how-to-choose.md)
- - 进阶篇
-   - [那些好用的键盘快捷键](missing/shortcut-keys.md)
- - 附录
-   - [练习题答案](missing/answers.md)
-   - [跋](missing/afterwords.md)
+- [序](missing/premble.md)
+- 基础篇
+  - [一些约定与预备知识](missing/first-things-first.md)
+  - [电脑以及电脑的组成](missing/computer-and-its-components.md)
+  - [文件与文件管理](missing/file-and-file-management.md)
+  - [软件的寻找与安装](missing/software-installation.md)
+  - [基本维护和安全防护](missing/basic-maintenance.md)
+  - [遇到问题怎么办](missing/how-to-find-solutions.md)
+- 软件篇
+  - [Office 和 WPS——办公样样行](missing/office-and-wps.md)
+  - [浏览器——网上冲浪必备](missing/browsers-and-how-to-choose.md)
+  - [压缩文件与压缩工具](missing/archive-formats-and-tools.md)
+- 进阶篇
+  - [那些好用的键盘快捷键](missing/shortcut-keys.md)
+  - [Windows 11 修整指南](missing/windows-11-optimization.md)
+- 附录
+  - [练习题答案](missing/answers.md)
+- [跋](missing/afterwords.md)
 
 ---
 
 ## 版本修订
 
+- Content update: 完成「压缩」一章 (2/8)
 - Engine changed: 更换页面引擎为 GitBook (2/8)
 - Content update: 完成「Office / WPS」「浏览器」两章 (1/29)
 - Breaking news: 教程的编写动机改变了，因此删去了「致谢」部分 (1/19)

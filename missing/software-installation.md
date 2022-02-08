@@ -180,7 +180,7 @@ D:\Program Files (x86)\Tencent\QQ
 
 事实上，这就是 Microsoft Store 的现状：作为推广「UWP 应用」的第一线，它没有什么很拿得出手的「杀手锏」；作为一个「xxx 软件中心」的替代品，它的应用相当不全。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
 
-## 虚拟机演示：「高速下载器」到底会干什么
+## 演示：「高速下载器」到底会干什么
 
 **请不要在自己电脑上尝试打开这种「高速下载器」**
 
@@ -223,13 +223,21 @@ D:\Program Files (x86)\Tencent\QQ
 ## 练习
 
 1. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
-![Untitled](software-installation/Untitled%2015.png)
+    
+    ![Untitled](software-installation/Untitled%2015.png)
+    
 2. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
-![Untitled](software-installation/Untitled%2016.png)
+    
+    ![Untitled](software-installation/Untitled%2016.png)
+    
 3. 下面画面中，怎样操作最可能不会下载到垃圾？
-![Untitled](software-installation/Untitled%2017.png)
+    
+    ![Untitled](software-installation/Untitled%2017.png)
+    
 4. 下面界面中有几个捆绑勾选？
-![Untitled](software-installation/Untitled%2018.png)
+    
+    ![Untitled](software-installation/Untitled%2018.png)
+    
 5. 下载「微信电脑版」，下面三个文件体积中哪一个最可能不是垃圾软件？
     1. 640 KB  
     2. 1.1 MB  
@@ -239,7 +247,7 @@ D:\Program Files (x86)\Tencent\QQ
     2. 安装微信电脑版：`D:\Program Files (x86)\Tencent\Wechat`  
     3. 安装 Vivado：`D:\软件\Xilinx\Vivado`  
     4. 安装网易云音乐：`桌面\我的软件\Cloudmusic`  
-7. 假设某个软件已经被安装在了一个地方，我现在想把这个软件放到另一个地方，可以直接剪切移动整个软件的目录到另一个地方吗？  
+7. 假设某个软件已经被安装在了一个地方，我现在想把这个软件放到另一个地方，可以直接剪切移动整个软件的目录到另一个地方吗？
 8. 查看自己电脑上 5 个不同软件的安装位置，并打开它们的安装目录，看一看里面的结构。
 
 ## 注释
