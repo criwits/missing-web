@@ -1,0 +1,19 @@
+{
+  "zipfile": "assets/export.zip",
+  "outdir": ".",
+  "main_page": { "short": "missing", "notion": "Missing (Private) 428f467c7ba649cab76a7e14e84698c6" },
+  "pages": [
+    { "short": "premble", "notion": "序 c245c5b4e1bc43bd8f59f839a7b9f7c1" },
+    { "short": "first-things-first", "notion": "一些约定与预备知识 87fe7b4405644069821d5cf1e141ef83" },
+    { "short": "computer-and-its-components", "notion": "电脑以及电脑的组成 7cfb6636a76d4339a2bdc44852f28678" },
+    { "short": "file-and-file-management", "notion": "文件与文件管理 b4cdb39e2de14a918edc919b0e5bf50b" },
+    { "short": "software-installation", "notion": "软件的寻找与安装 9f84340aaf67484a9e40073452164400" },
+    { "short": "basic-maintenance", "notion": "基本维护和安全防护 67657fd2a68747638ee32506952ad039" },
+    { "short": "how-to-find-solutions", "notion": "遇到问题怎么办 7b0a21153d6a46bd9b42cbb48be31bb5" },
+    { "short": "office-and-wps", "notion": "Office 和 WPS——办公必备软件 a767ca6bd652404f8124d4552b87703a" },
+    { "short": "browsers-and-how-to-choose", "notion": "浏览器——网上冲浪必备工具 c5c78a7c335c4db6b8943ebb258b2e97" },
+    { "short": "shortcut-keys", "notion": "那些好用的键盘快捷键 32832054df154c27950b7357f8d6e5ef" },
+    { "short": "answers", "notion": "练习题答案 7767fa5156a3431f9c78f1236883ad66" },
+    { "short": "afterwords", "notion": "跋 4febab7ce89b405cabdeb68c8e8869d1" }
+  ]
+}
