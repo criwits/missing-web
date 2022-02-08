@@ -1,7 +1,7 @@
 body {
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
-  font-family: "lucida grande", "lucida sans unicode", lucida, arial, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
   font-size: 14px;
   letter-spacing: .2px;
   text-size-adjust: 100%;
