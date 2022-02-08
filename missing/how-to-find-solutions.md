@@ -66,13 +66,8 @@
 ## 练习
 
 1. 如果你准备使用「Premiere」软件制作一个视频，但在导出时弹出了下面的窗口，你应该用什么样的搜索语句上网检索？
-
 ![Untitled](how-to-find-solutions/Untitled%204.png)
-
 2. 如果你准备打开一个小工具程序时，弹出了这样的窗口，你应该怎么办？
-
 ![Untitled](how-to-find-solutions/Untitled%205.png)
-
 3. 如果你准备打开一个应用时，弹出了这样的窗口，你应该怎么办？
-
 ![Untitled](how-to-find-solutions/Untitled%206.png)

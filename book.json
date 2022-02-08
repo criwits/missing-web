@@ -11,7 +11,7 @@
     "epub": "styles/epub.css"
   },
   "plugins": [
-    "back-to-top-button", "splitter", "hide-element", "custom-favicon", "popup", "-sharing", "sharing-plus", "intopic-toc", "katex-pp", "advanced-emoji"
+    "back-to-top-button", "splitter", "hide-element", "custom-favicon", "popup", "-sharing", "sharing-plus", "intopic-toc", "advanced-emoji", "katex-pp"
   ],
   "pluginsConfig": {
     "hide-element": {

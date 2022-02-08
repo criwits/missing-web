@@ -131,25 +131,16 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 ## 练习
 
 1. 按哪个按钮可以卸载？
-
 ![Untitled](basic-maintenance/Untitled%205.png)
-
 2. 按哪个按钮可以卸载？
-
 ![Untitled](basic-maintenance/Untitled%206.png)
-
 3. 按哪个按钮可以卸载？
-
 ![Untitled](basic-maintenance/Untitled%207.png)
-
 4. 如何操作可以卸载？
-
 ![Untitled](basic-maintenance/Untitled%208.png)
-
 5. 清理电脑上的杀毒软件 / 安全软件，保留一个你用得最熟悉的。如果不知道哪个杀毒软件比较好，请看《Missing》软件篇。
 
 ## 注释
 
 1. 如果你在使用中压根没见过这样的窗口（即 UAC 弹窗），那么这一整节的内容对你可能不适用：
-    
     ![Untitled](basic-maintenance/Untitled%203.png)

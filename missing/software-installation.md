@@ -223,21 +223,13 @@ D:\Program Files (x86)\Tencent\QQ
 ## 练习
 
 1. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
-
 ![Untitled](software-installation/Untitled%2015.png)
-
 2. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
-
 ![Untitled](software-installation/Untitled%2016.png)
-
 3. 下面画面中，怎样操作最可能不会下载到垃圾？
-
 ![Untitled](software-installation/Untitled%2017.png)
-
 4. 下面界面中有几个捆绑勾选？
-
 ![Untitled](software-installation/Untitled%2018.png)
-
 5. 下载「微信电脑版」，下面三个文件体积中哪一个最可能不是垃圾软件？
     1. 640 KB  
     2. 1.1 MB  
