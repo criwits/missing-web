@@ -1,3 +1,4 @@
+- [首页](README.md)
 - [序](missing/premble.md)
 -  基础篇
   - [一些约定与预备知识](missing/first-things-first.md)
