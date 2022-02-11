@@ -48,7 +48,7 @@
 
 - 第五条是 WPS 官网。注意看它的网址是 `www.wps.cn`，这是 WPS 的官方网站。
 - 第六条也是官网。
-- 第七条又是「腾讯电脑管家」的广告，打着所谓「绿色下载」「官方正版」的标签打广告，属于是不要脸至极。
+- 第七条又是「腾讯电脑管家」的广告。
 - 第八条是第三方下载站「华军软件园」的链接。我们在后面会提到，当官网不可用的时候，怎么从这种第三方下载站下载软件。
 
 鉴别一个网站到底是不是官网，我们主要可以观察这么几个地方：
@@ -100,7 +100,7 @@
 
 ### 另辟蹊径：软件公众号及其他小众渠道
 
-另一种「另辟蹊径」的方法，是通过一些「小众渠道」，例如一些软件集合的微信公众号来下载软件。这不失为一种好方法——那些人们口口相传的优质公众号一般会把常用软件的「干净」安装包分门别类地整理分享，与「xx 下载站」相比，免去了「高速下载器」的烦恼。
+另一种「另辟蹊径」的方法，是通过一些「小众渠道」，例如一些分享软件的微信公众号来下载软件。这不失为一种好方法——那些人们口口相传的优质公众号一般会把常用软件的「干净」安装包分门别类地整理分享，与「xx 下载站」相比，免去了「高速下载器」的烦恼。
 
 但是，这种公众号一般软件不是特别多——你总有一天没法从它们那里找到想要的软件。此外，这些公众号一般使用百度网盘来分享文件，而众所周知百度网盘是对非会员限速的，这必然对使用体验有一定影响。不过总的来说，这依然是一种值得推荐的方法。
 
@@ -155,7 +155,9 @@ D:\Program Files (x86)\Tencent\QQ
 
 ## 软件收费、破解和自由软件
 
-很多软件是需要购买的，包括 Windows 系统本身（一般你购买电脑时，电脑厂商已经帮你出了买 Windows 这部分钱）。常见的专业软件，从设计领域的 Adobe 家族的 Photoshop、Premiere，工程领域的 Autodesk 家族的 AutoCAD、3ds MAX，到开发领域的 JetBrains 家族的 IDEA、PyCharm，甚至于我们每天都在用的 Word 和 PowerPoint，这些软件全部都需要付费购买。
+很多软件是需要购买的，包括 Windows 系统本身（一般你购买电脑时，电脑厂商已经帮你出了买 Windows 这部分钱）。常见的专业软件，从平面设计领域的 Adobe 家族的 Photoshop、Premiere Pro，工程领域的 Autodesk 家族的 AutoCAD、3ds MAX，到开发领域的 JetBrains 家族的 IDEA、PyCharm，甚至于我们每天都在用的 Word 和 PowerPoint，这些软件全部都需要付费购买。下图是购买正版 Photoshop（俗称的 PS）软件的页面——定价 888 元一年。
+
+![Untitled](software-installation/Untitled%209.png)
 
 而由于这样或那样的原因，我们在实际生活中，或多或少都在「没有付费而白嫖这些软件」。这是因为我们使用的这些软件被「破解」了。破解之后，软件的计费功能失效，原本收费的软件通过某种方式变成了可以免费永久使用的软件。大体上，网上流传的破解软件一般有这么两种形式：
 
@@ -172,11 +174,13 @@ D:\Program Files (x86)\Tencent\QQ
 
 作为 Windows 亲爹的微软早在数年前就意识到，Windows 系统下一直缺少一个官方维护的、像 Apple 的 App Store 那样的「集中化」的软件中心，用户下载软件只能像上文那样上网去苦苦找寻。彼时的微软公司正打算进军手机行业，想要和安卓与 iOS 形成「三足鼎立」之势，微软于是心想：不如弄一种新的 app 格式，这种新的 app 不仅能在我们的 Windows 电脑上运行，还可以在手机上运行；然后我们再顺带弄一个全是这种新格式 app 的应用商店，可谓一举两得。于是微软就这么干了：这种新的 app 格式叫做「通用 Windows 平台应用」（Universal Windows Platform，简称「UWP 应用」），这个应用商店就是我们电脑里的「Microsoft Store」：
 
-![Untitled](software-installation/Untitled%209.png)
+![Untitled](software-installation/Untitled%2010.png)
 
 可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在近两年宣布「谢幕」。可是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。
 
 如果你有打开过「Microsoft Store」，你会发现，其中有一些应用是我们日常生活中的常用应用，而另外的大多数应用，我们都从来没有听说过。而事实上，如果你去仔细查看那里面的常用应用，会发现它们往往更新得没有官网勤快，有些甚至已经停止了更新。
+
+![Untitled](software-installation/Untitled%2011.png)
 
 事实上，这就是 Microsoft Store 的现状：作为推广「UWP 应用」的第一线，它没有什么很拿得出手的「杀手锏」；作为一个「xxx 软件中心」的替代品，它的应用相当不全。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
 
@@ -186,17 +190,17 @@ D:\Program Files (x86)\Tencent\QQ
 
 在上文中我们演示下载「SecureCRT」时，如果点选了「高速下载」，会得到这样一个只有 1 MB 的可执行文件：
 
-![Untitled](software-installation/Untitled%2010.png)
+![Untitled](software-installation/Untitled%2012.png)
 
 双击运行这个文件，会弹出这样的窗口：
 
-![Untitled](software-installation/Untitled%2011.png)
+![Untitled](software-installation/Untitled%2013.png)
 
 可以看到，右方有四个捆绑软件的复选框被默认勾选：「360 安全浏览器」「QQ 游戏大厅」「U 号租」「百度网盘」，右下方还有一个「六间房直播」。
 
 假设我们足够理智，取消勾选了这上面所有的勾，然后点击「快速安装」。等待进度条跑完之后，我们来到了这个界面：
 
-![Untitled](software-installation/Untitled%2012.png)
+![Untitled](software-installation/Untitled%2014.png)
 
 可以看到，这个界面上又有两个软件捆绑「绝地求生」和「傲视霸主」，以及一个「使用 360 安全导航」的复选框。
 
@@ -206,17 +210,17 @@ D:\Program Files (x86)\Tencent\QQ
 
 **警告：请勿模仿！**
 
-![Untitled](software-installation/Untitled%2013.png)
+![Untitled](software-installation/Untitled%2015.png)
 
-![Untitled](software-installation/Untitled%2014.png)
+![Untitled](software-installation/Untitled%2016.png)
 
-可以看到电脑已经被各种各样的流氓软件占领。
+可以看到电脑已经被乱七八糟的软件占领。
 
 我们得到的结论是：
 
 **所谓「高速下载器」最后下载到的就是你点击「普通下载」得到的东西，纯属脱裤子放屁。**
 
-**而「高速下载器」在整个过程中带有许多的捆绑勾选，一旦不留神你的电脑就会被垃圾软件充斥。**
+**而「高速下载器」在整个过程中带有许多的捆绑勾选，一旦不留神你的电脑就会被各种垃圾软件充斥。**
 
 *备注：这种流氓的「高速下载器」一般被我们称为「高速下崽器」。*
 
@@ -224,19 +228,19 @@ D:\Program Files (x86)\Tencent\QQ
 
 1. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2015.png)
+    ![Untitled](software-installation/Untitled%2017.png)
     
 2. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2016.png)
+    ![Untitled](software-installation/Untitled%2018.png)
     
 3. 下面画面中，怎样操作最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2017.png)
+    ![Untitled](software-installation/Untitled%2019.png)
     
 4. 下面界面中有几个捆绑勾选？
     
-    ![Untitled](software-installation/Untitled%2018.png)
+    ![Untitled](software-installation/Untitled%2020.png)
     
 5. 下载「微信电脑版」，下面三个文件体积中哪一个最可能不是垃圾软件？
     1. 640 KB  

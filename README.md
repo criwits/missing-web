@@ -2,6 +2,9 @@
 
 ---
 
+> **声明：本教程链接近期被腾讯网址安全中心误拦截为「有害内容」，我们已经向腾讯安全中心提交申诉。本站的网页公开存储于 [criwits/your-missing-semester-of-using-computer](https://github.com/criwits/your-missing-semester-of-using-computer)，网站为静态页面，不存在任何形式的恶意内容。**
+> 
+
 > 本教程在持续更新之中，因此十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请将反馈发送到邮箱 [missing@criwits.top](mailto:missing@criwits.top)。
 > 
 
@@ -10,28 +13,32 @@
 ## 目录
 
 - [序](missing/premble.md)
-- 基础篇
+-  基础篇
   - [一些约定与预备知识](missing/first-things-first.md)
   - [电脑以及电脑的组成](missing/computer-and-its-components.md)
   - [文件与文件管理](missing/file-and-file-management.md)
   - [软件的寻找与安装](missing/software-installation.md)
   - [基本维护和安全防护](missing/basic-maintenance.md)
   - [遇到问题怎么办](missing/how-to-find-solutions.md)
-- 软件篇
+-  软件篇
   - [Office 和 WPS——办公样样行](missing/office-and-wps.md)
   - [浏览器——网上冲浪必备](missing/browsers-and-how-to-choose.md)
   - [压缩文件与压缩工具](missing/archive-formats-and-tools.md)
-- 进阶篇
+  - [怎样寻找优质的教程](missing/how-to-find-tutorials.md)
+-  进阶篇
   - [那些好用的键盘快捷键](missing/shortcut-keys.md)
+  - [显示器的二三事](missing/screens-and-their-secrets.md)
   - [Windows 11 修整指南](missing/windows-11-optimization.md)
-- 附录
+-  附录
   - [练习题答案](missing/answers.md)
 - [跋](missing/afterwords.md)
-
+  
 ---
 
 ## 版本修订
 
+- Content update: 完成「显示器」一章 (2/11)
+- Content update: 完成「怎样寻找优质教程」一章（2/10）
 - Content update: 完成「压缩」一章 (2/8)
 - Engine changed: 更换页面引擎为 GitBook (2/8)
 - Content update: 完成「Office / WPS」「浏览器」两章 (1/29)
@@ -43,17 +50,20 @@
 
 ## 作者
 
-### [Hans Wan](https://criwits.top/)
-
-圣马家沟男子职业技术学院（平山村校区）计算机本科在读，喜欢写文章，Notion 重度使用者。
-
-### [Windy Deng](https://github.com/Wenti-D)
-
-岳麓山说唱学院机自专业在读，电脑高级玩家，音游重度玩家。生活宗旨是「摸鱼万岁！」。
+- [Hans Wan](https://criwits.top/)
+    
+    圣马家沟男子职业技术学院（平山村校区）计算机本科在读，喜欢瞎写东西，咸鱼一条。
+    
+- [Windy Deng](https://github.com/Wenti-D)
+    
+    岳麓山说唱学院机自专业在读，电脑高级玩家，音游重度玩家。生活宗旨是「摸鱼万岁！」。
+    
 
 ## 反馈
 
 若您对本教程有任何意见或建议，都请发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。
+
+现阶段，我们会用自己的个人邮箱（非上述邮箱）回复所有的反馈邮件。
 
 ## 著作权与许可
 
