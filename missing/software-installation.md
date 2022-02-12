@@ -21,7 +21,7 @@
 
 在上一章 [文件与文件管理](file-and-file-management.md) 中我们看到，一款 app 除了主程序（一个 `exe` 文件）外，还包含一大堆不可或缺的依赖文件和子文件夹，如下图所示：
 
-![Untitled](file-and-file-management/Untitled%2011.png)
+![Untitled](file-and-file-management/Untitled%2010.png)
 
 安装包的作用之一，便是把上面这一大堆文件按照它们能够工作的结构「释放」到我们的电脑中的指定位置。而除了「释放 app 的文件」之外，安装包还会做一些其他事情，例如设置一些文件的打开方式（上一章中提到的那张「表」）、调整一些系统内部的参数等。可以说，软件安装的过程，不仅仅是将一大堆文件「释放」或者说「提取」到系统中的某一个位置的过程，它还会对系统进行或多或少的调教与更改。这就是「安装包」存在的意义——它帮助我们完成了这复杂的「安装」过程。
 
@@ -66,7 +66,7 @@
 
 进入软件的官方网站之后，我们搜索「全部产品」「软件下载」之类的选项，就可以找到我们所需要的软件的安装包。例如从 WPS 的官网上下载 WPS 软件：
 
-![Untitled](software-installation/Untitled%201.png)
+![Download_WPS.png](software-installation/Download_WPS.png)
 
 ### 直面深渊：第三方软件站
 
@@ -76,25 +76,25 @@
 
 假设我们要下载「SecureCRT」这款软件。我们在百度上搜索「SecureCRT 下载」，并主动避开那些明显骗人的广告，点击了这个看似还能接受的「华军软件园」网站：
 
-![Untitled](software-installation/Untitled%202.png)
+![Untitled](software-installation/Untitled%201.png)
 
 重点来了：进入这个网站，**请主动避开所有「高速下载」「极速下载」「P2P 极速下载」这样的按钮**，选择「普通下载」「本地下载」这样的按钮：
 
-![Untitled](software-installation/Untitled%203.png)
+![Untitled](software-installation/Untitled%202.png)
 
 点击之后我们会跳转到这样一个「下载地址」的页面。同样地，我们不要点击「需优先下载高速下载器」之下的所有连接，而要点击「普通下载地址」下方的「通用网络下载」或者「电信网络下载」：
 
-![Untitled](software-installation/Untitled%204.png)
+![Untitled](software-installation/Untitled%203.png)
 
 使用下方两个链接下载到的文件是：
 
-![Untitled](software-installation/Untitled%205.png)
+![Untitled](software-installation/Untitled%204.png)
 
 体积约 50 MB，符合这个软件的体量；是一个压缩包，一般解压缩之后就能得到软件的安装包。
 
 而使用上方所谓「高速下载」下载到的文件是：
 
-![Untitled](software-installation/Untitled%206.png)
+![Untitled](software-installation/Untitled%205.png)
 
 体积只有 1 MB，而且是一个不明的「可执行文件」（`exe` 文件），这是不正常的。在本章的最后，我们会使用一台虚拟机来演示这「高速下载器」会干什么。
 
@@ -145,19 +145,19 @@ D:\Program Files (x86)\Tencent\QQ
 
 这就是在 D 盘安装 QQ 软件的一个很合适的路径。这样做能保持一个比较干净的目录结构。你的 D 盘下会因此多出 `Program Files` 和 `Program Files (x86)` 这样的两个文件夹，用来专门在 D 盘安装软件。
 
-![Untitled](software-installation/Untitled%207.png)
+![Change_C_to_D.png](software-installation/Change_C_to_D.png)
 
 如上图所示，一般把这个 `C` 改成 `D` ，就能得到一个不错的 D 盘安装软件的路径。
 
-![Untitled](software-installation/Untitled%208.png)
-
 如上图所示，有一些软件的安装包不是「下一步」型的，而只有一个「立即安装」的按钮。一般这种情况，可以展开「自定义安装」之类的选项，然后更改软件的安装位置。
+
+![Sogou_change_directory.png](software-installation/Sogou_change_directory.png)
 
 ## 软件收费、破解和自由软件
 
 很多软件是需要购买的，包括 Windows 系统本身（一般你购买电脑时，电脑厂商已经帮你出了买 Windows 这部分钱）。常见的专业软件，从平面设计领域的 Adobe 家族的 Photoshop、Premiere Pro，工程领域的 Autodesk 家族的 AutoCAD、3ds MAX，到开发领域的 JetBrains 家族的 IDEA、PyCharm，甚至于我们每天都在用的 Word 和 PowerPoint，这些软件全部都需要付费购买。下图是购买正版 Photoshop（俗称的 PS）软件的页面——定价 888 元一年。
 
-![Untitled](software-installation/Untitled%209.png)
+![Untitled](software-installation/Untitled%206.png)
 
 而由于这样或那样的原因，我们在实际生活中，或多或少都在「没有付费而白嫖这些软件」。这是因为我们使用的这些软件被「破解」了。破解之后，软件的计费功能失效，原本收费的软件通过某种方式变成了可以免费永久使用的软件。大体上，网上流传的破解软件一般有这么两种形式：
 
@@ -174,13 +174,13 @@ D:\Program Files (x86)\Tencent\QQ
 
 作为 Windows 亲爹的微软早在数年前就意识到，Windows 系统下一直缺少一个官方维护的、像 Apple 的 App Store 那样的「集中化」的软件中心，用户下载软件只能像上文那样上网去苦苦找寻。彼时的微软公司正打算进军手机行业，想要和安卓与 iOS 形成「三足鼎立」之势，微软于是心想：不如弄一种新的 app 格式，这种新的 app 不仅能在我们的 Windows 电脑上运行，还可以在手机上运行；然后我们再顺带弄一个全是这种新格式 app 的应用商店，可谓一举两得。于是微软就这么干了：这种新的 app 格式叫做「通用 Windows 平台应用」（Universal Windows Platform，简称「UWP 应用」），这个应用商店就是我们电脑里的「Microsoft Store」：
 
-![Untitled](software-installation/Untitled%2010.png)
+![Untitled](software-installation/Untitled%207.png)
 
 可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在近两年宣布「谢幕」。可是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。
 
 如果你有打开过「Microsoft Store」，你会发现，其中有一些应用是我们日常生活中的常用应用，而另外的大多数应用，我们都从来没有听说过。而事实上，如果你去仔细查看那里面的常用应用，会发现它们往往更新得没有官网勤快，有些甚至已经停止了更新。
 
-![Untitled](software-installation/Untitled%2011.png)
+![Untitled](software-installation/Untitled%208.png)
 
 事实上，这就是 Microsoft Store 的现状：作为推广「UWP 应用」的第一线，它没有什么很拿得出手的「杀手锏」；作为一个「xxx 软件中心」的替代品，它的应用相当不全。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
 
@@ -190,17 +190,17 @@ D:\Program Files (x86)\Tencent\QQ
 
 在上文中我们演示下载「SecureCRT」时，如果点选了「高速下载」，会得到这样一个只有 1 MB 的可执行文件：
 
-![Untitled](software-installation/Untitled%2012.png)
+![Untitled](software-installation/Untitled%209.png)
 
 双击运行这个文件，会弹出这样的窗口：
 
-![Untitled](software-installation/Untitled%2013.png)
+![Untitled](software-installation/Untitled%2010.png)
 
 可以看到，右方有四个捆绑软件的复选框被默认勾选：「360 安全浏览器」「QQ 游戏大厅」「U 号租」「百度网盘」，右下方还有一个「六间房直播」。
 
 假设我们足够理智，取消勾选了这上面所有的勾，然后点击「快速安装」。等待进度条跑完之后，我们来到了这个界面：
 
-![Untitled](software-installation/Untitled%2014.png)
+![Untitled](software-installation/Untitled%2011.png)
 
 可以看到，这个界面上又有两个软件捆绑「绝地求生」和「傲视霸主」，以及一个「使用 360 安全导航」的复选框。
 
@@ -210,9 +210,9 @@ D:\Program Files (x86)\Tencent\QQ
 
 **警告：请勿模仿！**
 
-![Untitled](software-installation/Untitled%2015.png)
+![Untitled](software-installation/Untitled%2012.png)
 
-![Untitled](software-installation/Untitled%2016.png)
+![Untitled](software-installation/Untitled%2013.png)
 
 可以看到电脑已经被乱七八糟的软件占领。
 
@@ -228,19 +228,19 @@ D:\Program Files (x86)\Tencent\QQ
 
 1. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2017.png)
+    ![Untitled](software-installation/Untitled%2014.png)
     
 2. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2018.png)
+    ![Untitled](software-installation/Untitled%2015.png)
     
 3. 下面画面中，怎样操作最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2019.png)
+    ![Untitled](software-installation/Untitled%2016.png)
     
 4. 下面界面中有几个捆绑勾选？
     
-    ![Untitled](software-installation/Untitled%2020.png)
+    ![Untitled](software-installation/Untitled%2017.png)
     
 5. 下载「微信电脑版」，下面三个文件体积中哪一个最可能不是垃圾软件？
     1. 640 KB  

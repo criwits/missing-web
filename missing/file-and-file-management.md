@@ -59,21 +59,21 @@
 
 在 Windows 10 中请点选文件夹窗口上方的【查看】选项卡，然后勾选【文件扩展名】这一项：
 
-![Untitled](file-and-file-management/Untitled%206.png)
+![Windows_10_set_full_filename.png](file-and-file-management/Windows_10_set_full_filename.png)
 
 在 Windows 11 中请点选文件夹窗口上方的【查看】菜单，然后勾选【显示】→【文件扩展名】：
 
-![Untitled](file-and-file-management/Untitled%207.png)
+![Untitled](file-and-file-management/Untitled%206.png)
 
 在打开这个选项之后，文件扩展名不仅是可见的，甚至是可以改变的——但如上文所说，扩展名不能随便改，因为改了之后系统就会用错误的工具去打开它。右键某一文件，选择【重命名】，你会看到系统会自动帮你选中文件的「主名」，而不选中「扩展名」。如果你执意更改文件的「扩展名」，系统会发出一个提示：
 
-![Untitled](file-and-file-management/Untitled%208.png)
+![Untitled](file-and-file-management/Untitled%207.png)
 
 ## 文件夹、路径和目录
 
 「文件夹」是一个用来存放其他文件的结构。不妨想象一下现实中的「文件夹」：
 
-![Untitled](file-and-file-management/Untitled%209.png)
+![Untitled](file-and-file-management/Untitled%208.png)
 
 在这样的一个「文件夹」中，可以放很多各类「文件」。而电脑中的文件夹除了能放文件之外，还可以放很多的「子文件夹」，即「文件夹里面的文件夹」。这个过程可以循环重复，因而一个文件夹的内部结构可以相当错综复杂。
 
@@ -95,7 +95,7 @@ D:\missing\源文件\
 
 目录（文件夹）一层一层的结构可以像这样从上到下画出来，称作「目录树」：
 
-![Untitled](file-and-file-management/Untitled%2010.png)
+![Untitled](file-and-file-management/Untitled%209.png)
 
 在目录树这种形式中，文件夹之间是「上下级」的关系，故「文件 A 在文件夹 B 中」也可以称作「文件 A 在文件夹 B 下」或者「A 在目录 B 下」甚至是「A 在 B 下」。也就是说，「下」这个字就是「在……里」的意思。
 
@@ -113,7 +113,7 @@ D:\missing\源文件\
 
 需要注意的是，电脑上的一款软件（或者说 app，在《Missing》中我们会同时使用这两种称呼）可能不仅仅只有一个程序，也就不止有一个可执行文件。下面是软件「网易云音乐」所在的文件夹中的一部分：
 
-![Untitled](file-and-file-management/Untitled%2011.png)
+![Untitled](file-and-file-management/Untitled%2010.png)
 
 可以看到，「网易云音乐」这个 app 有着这些文件：
 
@@ -132,11 +132,11 @@ D:\missing\源文件\
 
 一般来说，我们会双击桌面上的「网易云音乐」或者点击开始菜单中的「网易云音乐」。不管是桌面上的「网易云音乐」还是开始菜单里的「网易云音乐」，它们都是不是这个 app 本身——app 本身的样子我们在上面刚刚看过——而是另一种特殊类型的文件，称作「快捷方式」。
 
-![Untitled](file-and-file-management/Untitled%2012.png)
+![Untitled](file-and-file-management/Untitled%2011.png)
 
 「快捷方式」可以看成某个具体文件的单向「指针」或者说「替身」，指向电脑某个角落里的某个文件。它的扩展名是 `lnk`，但实际上不可见[³](file-and-file-management.md)。你桌面上的「网易云音乐」，指向的正是网易云音乐软件目录下的那个 `cloudmusic.exe` 文件。右击桌面上的【网易云音乐】，选择【属性】，会弹出这个快捷方式的详细信息：
 
-![Untitled](file-and-file-management/Untitled%2013.png)
+![Untitled](file-and-file-management/Untitled%2012.png)
 
 其中「目标」一栏填写的正是 `cloudmusic.exe` 这个可执行文件，即「网易云音乐」的主程序的路径：
 
@@ -158,7 +158,7 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 压缩文件是利用一种特殊的软件「压缩软件」，将一批文件和文件夹「打包」而成的一种单个文件。假设你有 8 个文件夹以及 7 个文件一共 15 个项目，你想一次性把它们分享给别人，那么把它们打包成一个压缩文件不失是一种好的选择。
 
-![Untitled](file-and-file-management/Untitled%2014.png)
+![Untitled](file-and-file-management/Untitled%2013.png)
 
 压缩文件有很多种类。最常用的是 `zip` 文件和 `rar` 文件，但后者的压缩软件是收费的[⁴](file-and-file-management.md)。我们建议在与他人交换文件的时候，只使用 `zip` 格式打包。
 
@@ -177,12 +177,12 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 - 右击压缩文件，选择【解压[⁵](file-and-file-management.md)到当前文件夹】或者【解压到 `<文件名>\`】。这两个选项的不同是：
     - 【解压到当前文件夹】会把压缩文件里的内容直接放在压缩文件的同一目录下。例如，如果一个压缩文件 `archive.zip` 里面有 `a.txt` 和 `b.txt` 两个文件，选择此选项，解压后 `a.txt` 和 `b.txt` 都和 `archive.zip` 在同一级目录。
         
-        ![Untitled](file-and-file-management/Untitled%2015.png)
+        ![Untitled](file-and-file-management/Untitled%2014.png)
         
 
 - 【解压到 `<文件名>\`】会把压缩文件里的内容放在一个子文件夹里面。在上面的例子中选择这个选项，会在 `archive.zip` 的同一级目录新建一个文件夹 `archive`，然后把 `a.txt` 和 `b.txt` 放在 `archive` 文件夹下。
     
-    ![Untitled](file-and-file-management/Untitled%2016.png)
+    ![Untitled](file-and-file-management/Untitled%2015.png)
     
 
 我们建议，为了不让自己的工作目录变得混乱，**除非你知道自己这样做的原因，否则使用「提取到 `<文件名>\`」**。
@@ -213,11 +213,11 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 - 右键要打开的这个 `jpg` 文件，选择【打开方式】，在里面选择【Adobe Photoshop】。
     
-    ![Untitled](file-and-file-management/Untitled%2017.png)
+    ![Untitled](file-and-file-management/Untitled%2016.png)
     
 - 如果上一步找不到「Adobe Photoshop」，那么选择【打开方式】→【选择其他应用】。然后在弹出的对话框中寻找【Adobe Photoshop】，点击并选择【确定】。注意 **不要** 勾选「始终使用此应用打开 `.jpg` 文件」。
     
-    ![Untitled](file-and-file-management/Untitled%2018.png)
+    ![Untitled](file-and-file-management/Untitled%2017.png)
     
 - 如果上一步还找不到「Adobe Photoshop」，而你确实电脑上装有 Photoshop，那么可能需要手动找到 Photoshop 的那个可执行文件，也就是它的 `exe` 文件。这个文件的路径——也就是软件的安装路径——在下一章我们会提到。一般来说是在 `C:\Program Files` 或者 `C:\Program Files (x86)` 之下的某个文件夹中。
 
@@ -275,7 +275,7 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 如前所言，Windows 系统默认为用户准备了几个文件夹来进行文件的分类。通过双击桌面上的【此电脑】，展开【文件夹】折叠项，你可以看到这些文件夹：
 
-![Untitled](file-and-file-management/Untitled%2019.png)
+![User_directories.png](file-and-file-management/User_directories.png)
 
 Windows 系统的本意，是希望用户可以借助这些文件夹来辅助进行文件的整理。可是，这些文件夹默认情况下全部位于 C 盘（路径是 `C:\用户\<你的用户名>\` ），而把大量的个人文件放在 C 盘是我们所不建议的。那这些系统「好心」准备给我们的文件夹就都不能使用了吗？答案是否定的——通过迁移这些文件夹到 D 盘，我们可以在利用好这些用户文件夹的同时，保证自己的数据安全和系统稳定。
 
@@ -284,13 +284,13 @@ Windows 系统的本意，是希望用户可以借助这些文件夹来辅助进
 
 我们打开 `C:\用户\<你的用户名>\` 可以看到全部的用户文件夹。这些文件夹涵盖了「桌面」「文档」「图片」「音乐」「视频」等多种类别，并且都配有形象的图标，如图：
 
-![Untitled](file-and-file-management/Untitled%2020.png)
+![Untitled](file-and-file-management/Untitled%2018.png)
 
 我们的目的是把这些文件夹「迁移」到 D 盘（或者其他的某个磁盘，这里以 D 盘为例）。这样，我们就可以充分地利用系统预置的这一批用户文件夹了。
 
 右击某个我们想要迁移的文件夹（比如【桌面】），选择【属性】，然后切换到【位置】选项卡，如图：
 
-![Untitled](file-and-file-management/Untitled%2021.png)
+![Untitled](file-and-file-management/Untitled%2019.png)
 
 我们将这里文本框中
 
@@ -312,7 +312,7 @@ D:\Desktop
 
 例如：
 
-![Untitled](file-and-file-management/Untitled%2022.png)
+![Untitled](file-and-file-management/Untitled%2020.png)
 
 点击【应用】，提示「文件夹 “D:\Desktop” 不存在，是否新建该文件夹」，选择【是】。
 
@@ -332,7 +332,7 @@ D:\Desktop
 
 迁移完成之后，你可以在迁移之后的位置（比如 D 盘）看到这些文件夹。它们现在不在原来的 `C:\用户\<你的用户名>\` 那里了。
 
-![Untitled](file-and-file-management/Untitled%2023.png)
+![Moved_user_directories.png](file-and-file-management/Moved_user_directories.png)
 
 ## 练习
 

@@ -143,7 +143,7 @@ Windows 可以使用在英特尔或者 AMD 处理器的电脑上——事实上�
 
 通过右键桌面上的【此电脑】并点选【属性】，你可以看到自己电脑 Windows 系统的版本。
 
-![Untitled](computer-and-its-components/Untitled%209.png)
+![Check_Windows_version.png](computer-and-its-components/Check_Windows_version.png)
 
 《Missing》假定读者使用的系统是 Windows 10 或者 Windows 11，其中所有的操作都是基于 Windows 10 简体中文版或者 Windows 11 简体中文版系统来描述的。如果你使用的 Windows 7、Windows 8 或者 Windows 8.1，其中大多数操作也都能正常使用。一些明确仅能用于 Windows 10 和 / 或 Windows 11 的操作和技巧会被标注。
 
@@ -155,7 +155,7 @@ Windows 可以使用在英特尔或者 AMD 处理器的电脑上——事实上�
     
     你可以通过按 `Ctrl` + `Shift` + `Esc` 来打开「任务管理器」。也可以右击【开始按钮】，选择【任务管理器】来打开它。
     
-    ![Untitled](computer-and-its-components/Untitled%2010.png)
+    ![Check_disk_status.png](computer-and-its-components/Check_disk_status.png)
     
 4. 你对「电路」的认知有多少？你是否好奇 CPU 是怎么运作的？从开关、导线、电池、灯泡组成的最简单「电路」到几乎无所不能「电脑」之间到底发生了什么奇妙的变化？《Missing》限于篇幅是不可能告诉你这些的。但是，你若有兴趣，可以去学习「电路电子技术」「数字电路与数字逻辑」「计算机体系结构」等相关内容。近年来，国际形势风云变幻，我国在芯片领域仍然存在许多短板。我们希望越来越多的有志青年能投身于包括但不限于体系结构、硬件组成、数字电路乃至微电子、半导体材料等领域，为我国芯片行业「补上短板」贡献自己的力量。
 

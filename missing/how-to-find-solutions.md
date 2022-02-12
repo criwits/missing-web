@@ -60,23 +60,23 @@
 
 在生活中，我们自己上网搜索答案的情况远远多于向他人提问的情况。因而，掌握如何有效地上网查找问题的解决方案，比上文讲述的提问技巧或许更加实用。
 
-搜索引擎与提问不同，我们不能直接在百度搜索框中粘贴图片，也不能在搜索框写太多东西。使用搜索引擎查找答案，我们需要使用「关键词」代替成段的语句来表征自己遇到的问题。对于我们常常见到的软件出错，一般都会有一个「错误代码」以及相应的错误文本。这个 **错误代码和错误文本就是最最重要的关键词之一**。它可能是这样：
+搜索引擎与提问不同，我们不能直接在百度搜索框中粘贴图片，也不能在搜索框写太多东西。使用搜索引擎查找答案，我们需要使用「关键词」代替成段的语句来表征自己遇到的问题。对于我们常常见到的软件出错，一般都会有一个「错误代码」以及相应的错误文本。这个 **错误代码和错误文本就是最最重要的关键词之一**。它可能是这样（`KERNEL_MODE_HEAP_CORRUPTION`）：
 
-![Untitled](how-to-find-solutions/Untitled%201.png)
+![Blue_screen_windows_10.png](how-to-find-solutions/Blue_screen_windows_10.png)
 
-可能是这样：
+可能是这样（`0x80070490`）：
 
-![Untitled](how-to-find-solutions/Untitled%202.png)
+![Green_err_code.png](how-to-find-solutions/Green_err_code.png)
 
-也可能是这样：
+也可能是这样（`126 - 找不到指定的模块`）：
 
-![Untitled](how-to-find-solutions/Untitled%203.png)
+![3Ds_Max_err_code.png](how-to-find-solutions/3Ds_Max_err_code.png)
 
 **另一个重要的关键词是发生问题的软件**。仅凭一个错误代码，你可能会找到有同一个错误代码的来自不同软件的不同问题。因此，搜索时我们务必需要带上「什么软件发生的这个错误」。对于蓝屏错误，软件就是「Windows 10」之类的具体版本；对于其他软件错误，尽量用简短的语句表示具体的软件，比如「CAD 2022」「Word 2019」等。
 
 一般来说，通过上面两个关键词一起搜索，我们已经能够通过搜索引擎定位到问题和相对应的答案了。例如：
 
-![Untitled](how-to-find-solutions/Untitled%204.png)
+![Untitled](how-to-find-solutions/Untitled%201.png)
 
 在这些教程类的文章中细细寻找，一般我们都可以解决遇到的问题。但在多如牛毛的搜索结果中筛选我们所需要的东西，也并非一件很容易的事情。一般来说，在搜索结果的时候我们可以注意下面几个方面：
 
@@ -87,12 +87,12 @@
 
 1. 如果你准备使用「Premiere」软件制作一个视频，但在导出时弹出了下面的窗口，你应该用什么样的搜索语句上网检索？
     
-    ![Untitled](how-to-find-solutions/Untitled%205.png)
+    ![Untitled](how-to-find-solutions/Untitled%202.png)
     
 2. 如果你准备打开一个小工具程序时，弹出了这样的窗口，你应该怎么办？
     
-    ![Untitled](how-to-find-solutions/Untitled%206.png)
+    ![Untitled](how-to-find-solutions/Untitled%203.png)
     
 3. 如果你准备打开一个应用时，弹出了这样的窗口，你应该怎么办？
     
-    ![Untitled](how-to-find-solutions/Untitled%207.png)
+    ![Untitled](how-to-find-solutions/Untitled%204.png)

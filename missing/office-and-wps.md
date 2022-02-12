@@ -82,9 +82,9 @@ Office 2013 开始，Office 的界面画风从原来的「拟物」变成了「�
 | PPT | pptx |
 | Excel | xlsx |
 
-这套新的格式尽管看起来扩展名只是多了个字母 `x`，但是与旧版格式是 **完全不兼容** 的。Office 2007 以及之后的各版本，可以打开新旧两种格式的文档，并且在保存文件时可以选择保存为新旧两种格式中的某一种。下图中，上方「Word 文档 (*.docx)」便是新格式，而下方「Word 97-2003 文档 (*.doc)」则是旧格式。
+这套新的格式尽管看起来扩展名只是多了个字母 `x`，但是与旧版格式是 **完全不兼容** 的。Office 2007 以及之后的各版本，可以打开新旧两种格式的文档，并且在保存文件时可以选择保存为新旧两种格式中的某一种。下图中，上方「Word 文档 (\*.docx)」便是新格式，而下方「Word 97-2003 文档 (\*.doc)」则是旧格式。
 
-![Untitled](office-and-wps/Untitled%205.png)
+![Word_formats.png](office-and-wps/Word_formats.png)
 
 新格式（即扩展名带 `x` 的那些格式）相比旧格式支持更多的功能和排版特性。在今天人们普遍使用 Office 2007 及以上版本的情况下，我们建议始终为自己的文档选用新格式，除非你有明确的理由去选用旧格式（现在的 Office 都是默认保存成新格式的）。
 
@@ -92,15 +92,15 @@ Office 2013 开始，Office 的界面画风从原来的「拟物」变成了「�
 
 Office 是付费软件。对于 Office 365，其付费方式是「订阅制」，每年都需要付费才能使用；对于年份版本的 Office，则采用「买断制」，一次购买便可永久使用。同一版本的 Office（例如 Office 2019），又根据包含子应用的多少、高级功能的有无、售后服务的等级等，分为不同的档次。例如「家庭与学生版」只包含 Word、PPT 和 Excel 三件套，没有 VBA 等高级开发功能；「专业增强版」则包含几乎所有的 Office 功能，但售价高昂。下图是在微软官网购买 Office 365 的产品介绍页面。
 
-![Untitled](office-and-wps/Untitled%206.png)
+![Untitled](office-and-wps/Untitled%205.png)
 
 如果需要购买 Office，可以前往[微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365)或者 Microsoft Store 进行购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心 / 正版软件服务中心来了解正版 Office 的获取方式。下图是哈工大深圳校区正版软件平台的截图，在这里可以获取到正版的各版本 Office。
 
-![Untitled](office-and-wps/Untitled%207.png)
+![Untitled](office-and-wps/Untitled%206.png)
 
 今天，许多笔记本电脑和品牌机台式机在出厂时会附赠用户一套正版 Office 软件。这种情况下，机器首次开机后内置的 Office 软件（例如 Word 和 PPT）都是可以直接使用的。我们只需要按照软件的提示，登录或创建一个自己的微软账号，即可完成正版验证。不过，如果你是在电脑城购买的电脑，或者使用的非品牌渠道的机器，那么很可能没有这项福利。下图是在京东平台购买某笔记本电脑时的 Office 附赠提示。
 
-![Untitled](office-and-wps/Untitled%208.png)
+![Untitled](office-and-wps/Untitled%207.png)
 
 Office 软件的安装方式比较简单。取决于你获取到软件的方式，如果你是通过 Microsoft Store 购买的 Office，那么直接在 Microsoft Store 点击「安装」就可以完成 Office 软件的安装。对于通过其他官方途径获取的 Office 安装器，大多数情况下也只需要简单地双击并按提示操作即可完成安装。
 
@@ -110,11 +110,11 @@ Office 这种软件自然免不了被盗版的命运。需要注意的是，在�
 
 即使你没有购买和安装过 Office，你或许仍会发现电脑的「开始菜单」中有 Office 甚至 Word、PPT、Excel 等软件的图标，例如：
 
-![Untitled](office-and-wps/Untitled%209.png)
+![Untitled](office-and-wps/Untitled%208.png)
 
 如果你尝试去点击这些 app，会发现打开了一个网页。在这个页面按提示登录微软账号，最后会来到这个页面：
 
-![Untitled](office-and-wps/Untitled%2010.png)
+![Untitled](office-and-wps/Untitled%209.png)
 
 这是微软提供的免费的「网页版」Office，类似于腾讯文档或金山文档等网页产品。点击左侧的 Word、Excel 等图标，会打开对应的网页版应用。这些网页版的 Office 可以免费使用，但功能受限，且只有在网络良好时才能正常工作，故只能作为没有安装 Office 的应急替代品。
 
@@ -126,7 +126,7 @@ Office 这种软件自然免不了被盗版的命运。需要注意的是，在�
 
 选择 Office 的另一个原因是，**Office 作为微软自家出品的软件，在 Windows 操作系统上具有相对出色的性能表现和操作体验。**在一众办公软件中，Office 的操作手感比较舒适，且与 WPS 相比，Office 界面简洁、没有繁杂的广告和其他多余功能。下图是在 Windows 11 系统上，Office 三件套软件的界面。
 
-![Untitled](office-and-wps/Untitled%2011.png)
+![Untitled](office-and-wps/Untitled%2010.png)
 
 ## WPS
 
@@ -140,7 +140,7 @@ WPS 是由[金山公司](https://www.kingsoft.com/)开发的国产免费软件�
 
 今天 WPS 的界面与近年新版 Office 软件的界面高度相似。下图是 WPS 文字 2019 版本的界面截图。
 
-![Untitled](office-and-wps/Untitled%2012.png)
+![Untitled](office-and-wps/Untitled%2011.png)
 
 ### 选择 WPS 的理由
 
@@ -148,7 +148,7 @@ WPS 对 Office 文件格式有着高度的兼容性，这意味着在绝大多�
 
 WPS 针对中国用户的使用习惯推出了一系列额外功能。WPS 有自己的模板库，称为「稻壳儿」。在稻壳儿中，你能找到各种各样的适合不同场景的文稿、幻灯片和表格模板，并将它们应用在自己的文档之中（可能需要额外付费）。在一些情况下，使用这些模板能够省时省力地制作出精美的文档。又比如，WPS 提供了自己的云服务平台（金山文档），借助金山文档能够实现多人协同编辑文件等高级功能。下图是「稻壳儿」中提供的部分模板。
 
-![Untitled](office-and-wps/Untitled%2013.png)
+![Untitled](office-and-wps/Untitled%2012.png)
 
 ## 练习
 
