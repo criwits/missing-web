@@ -2,14 +2,17 @@
 
 ---
 
-> **声明：本教程链接近期被腾讯网址安全中心误拦截为「有害内容」，我们已经向腾讯安全中心提交申诉。本站的网页公开存储于 [criwits/your-missing-semester-of-using-computer](https://github.com/criwits/your-missing-semester-of-using-computer)，网站为静态页面，不存在任何形式的恶意内容。**
-> 
-
 > 本教程在持续更新之中，因此十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请将反馈发送到邮箱 [missing@criwits.top](mailto:missing@criwits.top)。
 > 
 
-这是一份适合「电脑小白」的电脑使用技巧手册。它以近乎「手把手教」的语言，介绍了从基本的文件管理到软件的寻找安装，从简要的硬件组成到电脑的安全防护，从各种使用技巧到优良软件推荐的许多内容，旨在帮助对电脑操作不甚了解的所谓「小白」逐渐上手电脑的使用。
+这是一份适合「电脑小白」的电脑使用技巧手册。它以近乎「手把手教」的语言，介绍了从基本的文件管理到软件的寻找安装，从简要的硬件组成到电脑的安全防护，从各类使用技巧到优良软件推荐的许多内容，旨在帮助对电脑操作不甚了解的所谓「小白」逐渐上手电脑的使用。
 
+## 本教程的所有可用版本
+
+- 网页版：[https://missing.criwits.top/](https://missing.criwits.top/)
+- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)
+
+若您阅读网页版有困难（例如，网页加载过慢或图片无法显示），可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新可能不如网页版频繁。
 ## 目录
 
 - [序](missing/premble.md)
@@ -31,12 +34,15 @@
   - [Windows 11 修整指南](missing/windows-11-optimization.md)
 -  附录
   - [练习题答案](missing/answers.md)
+  - [「我的文件在哪里」——缺乏电脑常识的一代](missing/file-not-found.md)
 - [跋](missing/afterwords.md)
   
 ---
 
 ## 版本修订
 
+- PDF Ready: 第一版 PDF 出炉啦！(2/19)
+- Content update: 翻译了一篇国外报告「我的文件在哪里」作为附录的一部分 (2/15)
 - Checkpoint: 完成「跋」这一部分 (2/12)
 - Content update: 完成「显示器」一章 (2/11)
 - Content update: 完成「怎样寻找优质教程」一章（2/10）
@@ -70,7 +76,7 @@
 
 © Hans Wan & Windy Deng
 
-本教程所有文字以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。
+本教程中的所有文字，除非特别说明，均以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。
 
 为便于进行教学，文中引用了一些来自互联网公开资源的图片及其他非我们原创的内容。这些内容的著作权归属它们的原作者和 / 或版权所有方所有。若有侵权请联系我们删除。我们对这些内容的作者表示感谢。
 
