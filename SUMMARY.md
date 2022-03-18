@@ -21,4 +21,4 @@
 - 附录
   - [练习题答案](missing/answers.md)
   - [笔记本新机「开荒」指南](missing/new-laptop-setup.md)
-  - [跋](missing/afterwords.md)
+- [跋](missing/afterwords.md)
