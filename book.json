@@ -4,16 +4,15 @@
   "description": "Your Missing Semester of Using Computer",
   "language": "zh-hans",
   "styles": {
-    "website": "styles/website.css",
-    "ebook": "styles/ebook.css",
-    "pdf": "styles/pdf.css",
-    "mobi": "styles/mobi.css",
-    "epub": "styles/epub.css"
+    "website": "styles/website.css"
   },
   "plugins": [
     "back-to-top-button", "splitter", "hide-element", "custom-favicon", "popup", "-sharing", "sharing-plus", "intopic-toc", "advanced-emoji", "katex-pp"
   ],
   "pluginsConfig": {
+    "intopic-toc": {
+      "label": "文章目录"
+    },
     "hide-element": {
       "elements": [".gitbook-link"]
     },
