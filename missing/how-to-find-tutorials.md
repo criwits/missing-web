@@ -10,7 +10,7 @@
 
 在许多时候，软件的开发商会为自己的产品撰写文档。这些文档往往可以免费在互联网上获取到，而且相当权威和准确。将官方文档作为学习参考，不失一种不错的选择。
 
-例如，如果你想学习 Excel 软件中「函数」部分的使用，那么可以查阅微软官方的 Excel 文档，例如[这一份](https://support.microsoft.com/zh-cn/office/excel-%E5%87%BD%E6%95%B0-%E6%8C%89%E7%B1%BB%E5%88%AB%E5%88%97%E5%87%BA-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb)：
+例如，如果你想学习 Excel 软件中「函数」部分的使用，那么可以查阅微软官方的 Excel 文档，例如 [这一份](https://support.microsoft.com/zh-cn/office/excel-%E5%87%BD%E6%95%B0-%E6%8C%89%E7%B1%BB%E5%88%AB%E5%88%97%E5%87%BA-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb)：
 
 ![Untitled](how-to-find-tutorials/Untitled.png)
 
@@ -36,11 +36,11 @@
 
 在整个中文互联网上，有许许多多像我们一样的独立博客博主——所谓的「独立博客」，指的是有自己的网站（例如，《Missing》的网址是 [https://missing.criwits.top/](https://missing.criwits.top/)，这个网址完全由我们自己控制，不隶属于任何一个其他的平台），只登载作者自己的文章的博客。经验上来说，这些独立博客的内容质量一般较高，因此我们将它们放在推荐的第一位。
 
-比如，如果你想初步学习 $$\LaTeX$$ 的使用，那么《始终》博客上的[这篇](https://liam.page/2014/09/08/latex-introduction/)文章就是一个非常不错的选择：
+比如，如果你想初步学习 $$\LaTeX$$ 的使用，那么《始终》博客上的 [这篇](https://liam.page/2014/09/08/latex-introduction/) 文章就是一个非常不错的选择：
 
 ![Untitled](how-to-find-tutorials/Untitled%204.png)
 
-又比如，对于计算机相关方向的学习者，[廖雪峰](https://www.liaoxuefeng.com/)这个名字一定是不陌生的：
+又比如，对于计算机相关方向的学习者，[廖雪峰](https://www.liaoxuefeng.com/) 这个名字一定是不陌生的：
 
 ![Untitled](how-to-find-tutorials/Untitled%205.png)
 
@@ -76,7 +76,7 @@
 
 然而，今天的百度给我们带来的，除了便利，更多的是困扰。还记得 [软件的寻找与安装](software-installation.md) 中，我们演示搜索「WPS 下载」时，百度提供的整整一版的恶性广告吗？这些广告伴随着各种「洗稿文」「标题党」，为我们奉上了一场令人「大  快  朵  颐」的中文互联网盛宴。
 
-那我们就没有别的选择了吗？显然——不是。同样作为国际主流搜索引擎，[必应](https://cn.bing.com/)不仅在国内可以正常、流畅地访问，还支持外文结果搜索，因而是我们相当推荐的搜索引擎之一。
+那我们就没有别的选择了吗？显然——不是。同样作为国际主流搜索引擎，[必应](https://cn.bing.com/) 不仅在国内可以正常、流畅地访问，还支持外文结果搜索，因而是我们相当推荐的搜索引擎之一。
 
 ![Untitled](how-to-find-tutorials/Untitled%209.png)
 

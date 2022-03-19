@@ -75,7 +75,7 @@ Office 2013 开始，Office 的界面画风从原来的「拟物」变成了「�
 | PPT | ppt |
 | Excel | xls |
 
-自 Office 2007 开始，微软推出了一套新的 Office 文件格式——「Office 开放 XML 格式」（[Office Open XML](http://officeopenxml.com/)，简称「OOXML」）。这一套格式对应的扩展名如下表所示。
+自 Office 2007 开始，微软推出了一套新的 Office 文件格式——「Office 开放 XML 格式」（[Office Open XML](https://support.microsoft.com/zh-cn/office/open-xml-%E6%A0%BC%E5%BC%8F%E5%92%8C%E6%96%87%E4%BB%B6%E6%89%A9%E5%B1%95%E5%90%8D-5200d93c-3449-4380-8e11-31ef14555b18)，简称「OOXML」）。这一套格式对应的扩展名如下表所示。
 
 | 软件 | 扩展名 |
 | --- | --- |
@@ -95,7 +95,7 @@ Office 是付费软件。对于 Office 365，其付费方式是「订阅制」�
 
 ![Untitled](office-and-wps/Untitled%205.png)
 
-如果需要购买 Office，可以前往[微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365)或者 Microsoft Store 进行购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心 / 正版软件服务中心来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
+如果需要购买 Office，可以前往 [微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365) 或者 Microsoft Store 进行购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心 / 正版软件服务中心来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
 
 ![Untitled](office-and-wps/Untitled%206.png)
 
@@ -135,7 +135,7 @@ Office 这种软件自然免不了被盗版的命运。需要注意的是，在�
 
 ### WPS 的历史
 
-WPS 是由[金山公司](https://www.kingsoft.com/)开发的国产免费软件。WPS 的历史最早可以追溯到 1985 年，与很多人的臆想不同，WPS 并不是靠「模仿」Office 起家的。在那时，微软的 Office 还没有支持中文，而 WPS 作为一套独立的中文文字处理系统（word processing system, WPS），在中国市场上占有很大一席之地。1994 年，微软的 Office 开始进入中国市场。为了和 WPS 竞争市场，微软和金山达成协议，双方能够交叉使用对方的文件格式——这是 WPS 得以完整支持 Office 文件格式的原因。后来，WPS 逐渐失去市场优势，于是开始走上模仿 Office 的道路，从原来的单一「文字处理系统」变成了和 Office 相仿的办公软件套装，并在操作界面上有意地向 Office 靠拢。今天的 WPS 在办公软件的基础上，又加入了「协作办公」「云服务」等许多增值服务，建立了一整套自己的办公解决方案。
+WPS 是由 [金山公司](https://www.kingsoft.com/) 开发的国产免费软件。WPS 的历史最早可以追溯到 1985 年，与很多人的臆想不同，WPS 并不是靠「模仿」Office 起家的。在那时，微软的 Office 还没有支持中文，而 WPS 作为一套独立的中文文字处理系统（word processing system, WPS），在中国市场上占有很大一席之地。1994 年，微软的 Office 开始进入中国市场。为了和 WPS 竞争市场，微软和金山达成协议，双方能够交叉使用对方的文件格式——这是 WPS 得以完整支持 Office 文件格式的原因。后来，WPS 逐渐失去市场优势，于是开始走上模仿 Office 的道路，从原来的单一「文字处理系统」变成了和 Office 相仿的办公软件套装，并在操作界面上有意地向 Office 靠拢。今天的 WPS 在办公软件的基础上，又加入了「协作办公」「云服务」等许多增值服务，建立了一整套自己的办公解决方案。
 
 ### WPS 的使用
 
