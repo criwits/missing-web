@@ -31,6 +31,7 @@ jobs:
           app_build_command: "gitbook build"
         env:
           PLATFORM_NAME: "nodejs"
+          PLATFORM_VERSION: "14.18.3"
           NODE_VERSION: "14.18.3"
           PRE_BUILD_COMMAND: "npm install -g gitbook-cli && gitbook install"
 
