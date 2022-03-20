@@ -17,23 +17,27 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true
-      - name: Build And Deploy
+          submodules: true 
+      - name: Set up Node
+        uses: actions/setup-node@v1
+      - name: Install GitBook
+        run: |
+          npm install -g gitbook-cli          
+          gitbook install   
+      - name: Generate
+        run: |
+          gitbook build
+      - name: Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_GROUND_01EF5DD00 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "/_book" # Built app content directory - optional
-          app_build_command: "gitbook build"
-        env:
-          PLATFORM_NAME: "nodejs"
-          PLATFORM_VERSION: "14.18.3"
-          NODE_VERSION: "14.18.3"
-          PRE_BUILD_COMMAND: "npm install -g gitbook-cli && gitbook install"
+          app_location: "/_book"
+          api_location: ""
+	  output_location: ""
+	  skip_app_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
