@@ -17,6 +17,7 @@
   - [那些好用的键盘快捷键](missing/shortcut-keys.md)
   - [显示器的二三事](missing/screens-and-their-secrets.md)
   - [用户与微软账号](missing/user-and-ms-account.md)
+  - [蓝屏与解决蓝屏](missing/recover-from-bsod.md)
   - [Windows 11 修整指南](missing/windows-11-optimization.md)
 - 附录
   - [练习题答案](missing/answers.md)

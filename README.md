@@ -34,6 +34,7 @@
   - [那些好用的键盘快捷键](missing/shortcut-keys.md)
   - [显示器的二三事](missing/screens-and-their-secrets.md)
   - [用户与微软账号](missing/user-and-ms-account.md)
+  - [蓝屏与解决蓝屏](missing/recover-from-bsod.md)
   - [Windows 11 修整指南](missing/windows-11-optimization.md)
 - 附录
   - [练习题答案](missing/answers.md)
@@ -44,6 +45,7 @@
 
 ## 版本修订
 
+- Content update: 完成「蓝屏」一章 (11/20)
 - Every visit counts: 现在在网页底部可以看到网站的总访问量了 (3/19)
 - Content update: 完成「用户」一章 (3/17)
 - Content update: 完成「工具软件」一章 (3/14)
