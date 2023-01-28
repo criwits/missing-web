@@ -134,19 +134,19 @@ Bandizip的主界面大致如下图所示。可以看见，它的界面较为简
 
 ![屏幕截图 2022-02-08 194843.jpg](archive-formats-and-tools/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2022-02-08_194843.jpg)
 
-Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是「自动解压」。
+Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是「智能解压」。
 
-「压缩文件预览」是说，当你右击一个压缩文件时，若这个文件没有加密文件名¹，你的右键菜单便会显示出这个压缩包内部的部分文件；若是连文件名都加密了，那当然什么都看不见啦。可惜这个功能只支持旧式菜单，不支持 Windows 11 的新式菜单。
+「压缩文件预览」是说，当你右击一个压缩文件时，若这个文件没有加密文件名¹，你的右键菜单便会显示出这个压缩包内部的部分文件；若是连文件名都加密了，那当然什么都看不见啦。这个功能默认未启用，需要在 Bandizip 的【设置】→【上下文菜单】→【选择解压菜单】中开启。可惜这个功能只支持旧式菜单，不支持 Windows 11 的新式菜单。
 
-![Compressed_Preview.jpg](archive-formats-and-tools/Compressed_Preview.jpg)
+![Compressed_Preview.jpg](archive-formats-and-tools/Compressed_Preview.png)
 
-「自动解压」则是一种「傻瓜式解压操作」。还记得 [文件与文件管理](file-and-file-management.md) 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「自动解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个文件或文件夹时，Bandizip 便选择「解压到当前文件夹」；若有多个文件 / 文件夹， Bandizip 则会选择「解压到 xxxxxx\」。
+「智能解压」则是一种「傻瓜式解压操作」。还记得 [文件与文件管理](file-and-file-management.md) 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「智能解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个项目（无论文件或文件夹）时，Bandizip 便选择「解压到当前文件夹」；若有多个项目， Bandizip 则会选择「解压到 xxxxxx\」。
 
-举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 `D:\Touhou_Street.zip`，点击【自动解压】，那么图片就会被提取到 `D:\Touhou_Street\` 下；若这压缩包里面就一张图，则会被提取到 `D:\` 下。
+举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 `D:\Touhou_Street.zip`，点击【智能解压】，那么图片就会被提取到 `D:\Touhou_Street\` 下；若这压缩包里面就一张图，则会被提取到 `D:\` 下。
 
-「自动解压」既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议始终使用「自动解压」来解压文件，除非你有特殊目的。
+「智能解压」既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议始终使用「智能解压」来解压文件，除非你有特殊目的。
 
-![Auto_Decompress.jpg](archive-formats-and-tools/Auto_Decompress.jpg)
+![Smart_Extract.jpg](archive-formats-and-tools/Smart_Extract.jpg)
 
 ### WinRAR
 
@@ -169,7 +169,7 @@ WinRAR 的国际官网是 [https://www.rarlab.com/](https://www.rarlab.com/)，�
 ## 练习
 
 1. 简要用自己的话复述「压缩」这个过程。
-2. 自己制作几个压缩文件，然后分别用「解压到当前文件夹」「解压到 xxxxxx\」来解压它们，体会这两种解压方式的区别。思考 Bandizip 的「自动解压」到底有多「自动」。
+2. 自己制作几个压缩文件，然后分别用「解压到当前文件夹」「解压到 xxxxxx\」来解压它们，体会这两种解压方式的区别。思考 Bandizip 的「智能解压」到底有多「自动」。
 3. 你正在使用什么压缩软件？它的使用体验（界面美观度、操作难易度、是否有广告……）如何？
 
 ## 注释
