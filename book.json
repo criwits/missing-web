@@ -7,7 +7,7 @@
     "website": "styles/website.css"
   },
   "plugins": [
-    "back-to-top-button", "splitter", "hide-element", "custom-favicon", "popup", "-sharing", "sharing-plus", "intopic-toc", "advanced-emoji", "katex-pp", "extra-html"
+    "back-to-top-button", "splitter", "hide-element", "custom-favicon", "popup", "-sharing", "sharing-plus", "intopic-toc", "advanced-emoji", "katex-pp"
   ],
   "pluginsConfig": {
     "intopic-toc": {
@@ -29,13 +29,6 @@
       "all": [
          "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", "messenger","qq", "qzone","viber","whatsapp"
       ]
-    },
-    "extra-html": {
-      "footer": {
-        "files": [
-          "styles/busuanzi.html"
-        ]
-      }
     }
   }
 }
