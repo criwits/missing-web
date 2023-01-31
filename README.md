@@ -45,23 +45,24 @@
 
 ## 版本修订
 
-- Content update: 完成「蓝屏」一章 (11/20)
-- Every visit counts: 现在在网页底部可以看到网站的总访问量了 (3/19)
-- Content update: 完成「用户」一章 (3/17)
-- Content update: 完成「工具软件」一章 (3/14)
-- Content update: 完成「开荒」一章 (3/9)
-- PDF ready: 第一版 PDF 出炉啦！(2/19)
-- Checkpoint: 完成「跋」这一部分 (2/12)
-- Content update: 完成「显示器」一章 (2/11)
-- Content update: 完成「怎样寻找优质教程」一章（2/10）
-- Content update: 完成「压缩」一章 (2/8)
-- Engine changed: 更换页面引擎为 GitBook (2/8)
-- Content update: 完成「Office / WPS」「浏览器」两章 (1/29)
-- Breaking news: 教程的编写动机改变了，因此删去了「致谢」部分 (1/19)
-- First release: 完成「问题」一章，基础篇暂定完成，在域名上发布 (12/28)
-- Content update: 完成「维护与防护」一章 (12/27)
-- Content update: 完成「电脑组成」「文件管理」「软件安装」三章 (12/26)
-- First things first: 开坑 (12/25)
+- Checkpoint: 一周年了（大概），整点贺词 (23/2/1)
+- Content update: 完成「蓝屏」一章 (22/11/20)
+- Every visit counts: 现在在网页底部可以看到网站的总访问量了 (22/3/19)
+- Content update: 完成「用户」一章 (22/3/17)
+- Content update: 完成「工具软件」一章 (22/3/14)
+- Content update: 完成「开荒」一章 (22/3/9)
+- PDF ready: 第一版 PDF 出炉啦！(22/2/19)
+- Checkpoint: 完成「跋」这一部分 (22/2/12)
+- Content update: 完成「显示器」一章 (22/2/11)
+- Content update: 完成「怎样寻找优质教程」一章（22/2/10）
+- Content update: 完成「压缩」一章 (22/2/8)
+- Engine changed: 更换页面引擎为 GitBook (22/2/8)
+- Content update: 完成「Office / WPS」「浏览器」两章 (22/1/29)
+- Breaking news: 教程的编写动机改变了，因此删去了「致谢」部分 (22/1/19)
+- First release: 完成「问题」一章，基础篇暂定完成，在域名上发布 (21/12/28)
+- Content update: 完成「维护与防护」一章 (21/12/27)
+- Content update: 完成「电脑组成」「文件管理」「软件安装」三章 (21/12/26)
+- First things first: 开坑 (21/12/25)
 
 ## 作者
 
