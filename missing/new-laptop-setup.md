@@ -87,7 +87,7 @@
 
 1. 在这个界面尝试按 `Shift` + `F10`，如果没有效果，请再按 `Fn` + `Shift` + `F10`。
 2. 输入 `oobe\bypassnro.cmd`，然后按回车。电脑会重启。
-3. 再次来到连网界面，点击右下方【我没有 Internet 连接】。
+3. 再次来到联网界面，点击右下方【我没有 Internet 连接】。
 
 **若你发现上述方法不能跳过网络连接，请向我们提出反馈（发送邮件至 [missing@criwits.top](mailto:missing@criwits.top)）**。在这种极端情况下，你将只能选择连接到网络。
 
