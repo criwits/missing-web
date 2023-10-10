@@ -10,7 +10,7 @@
 ## 本教程的所有可用版本
 
 - 网页版：[https://missing.criwits.top/](https://missing.criwits.top/)
-- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)，[阿里云盘](https://www.aliyundrive.com/s/cVsLCYa4Xc6)
+- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（22/11/11 更新），~~[阿里云盘](https://www.aliyundrive.com/s/cVsLCYa4Xc6)~~（失效），[百度网盘](https://pan.baidu.com/s/1pXsJPLgKsOUcPwu0-cm04w?pwd=7eq0)（第三方提供，23/10/10 更新）
 
 若您阅读网页版有困难（例如，网页加载过慢或图片无法显示），可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新可能不如网页版频繁。
 
@@ -45,6 +45,8 @@
 
 ## 版本修订
 
+- Content update: 修正错漏、更新「显示器」「蓝屏」两章（23/10/9）
+- Content update: 更新落后内容（23/10/6）
 - Checkpoint: 一周年了（大概），整点贺词 (23/2/1)
 - Content update: 完成「蓝屏」一章 (22/11/20)
 - Every visit counts: 现在在网页底部可以看到网站的总访问量了 (22/3/19)
