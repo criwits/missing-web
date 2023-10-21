@@ -41,6 +41,7 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          rsync -avz --delete ./_book ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }}:${{ secrets.SERVER_MISSING_PATH }}
+          cd ./_book
+          rsync -avz --delete ./ ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }}:${{ secrets.SERVER_MISSING_PATH }}
           
 
