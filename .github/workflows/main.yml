@@ -35,12 +35,12 @@ jobs:
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh/
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          echo "${{ secrets.SERVER_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -t ed25519 ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
       - name: Deploy to Server
         run: |
-          rsync -avz --delete ./_book ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }}:/opt/missing/missing
+          rsync -avz --delete ./_book ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }}:${{ secrets.SERVER_MISSING_PATH }}
           
 
