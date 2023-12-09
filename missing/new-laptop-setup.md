@@ -40,7 +40,7 @@
 
 作为工业产品的笔记本电脑，因受限于品牌和机器本身的定位，以及生产厂商的加工制造水平，在外观上不可避免地会有一定的瑕疵或者缺陷。这些瑕疵和缺陷大都不影响功能，故很难作为正常渠道退换货的理由。但若在开机前的确发现了难以忍受的外观缺陷，我们依然可以尝试使用七天无理由退货渠道进行退换。
 
-常见的外观瑕疵和例子（**此处仅为随意从互联网上选取的例子，我们不对任何品牌的品质作出评价**）：屏轴两侧缝隙不对称（[例子 A](https://tousu.sina.com.cn/complaint/view/17351828965)，[例子 B](https://club.huawei.com/thread-29980049-1-1.html)），触控板两侧高矮不一致（[例子 C](https://www.dell.com/community/%E7%81%B5%E8%B6%8A%E7%AC%94%E8%AE%B0%E6%9C%AC/%E6%8A%95%E8%AF%89-%E7%81%B5%E8%B6%8A16-Plus%E5%93%81%E6%8E%A7%E6%9E%81%E5%B7%AE-%E5%94%AE%E5%90%8E%E4%B8%8D%E4%BD%9C%E4%B8%BA/td-p/8025463)，[例子 D](https://www.zhihu.com/question/445434723)），触控板两侧缝隙不一样大或者缝隙偏大（[例子 E](https://club.huawei.com/thread-30382374-1-1.html)），合上后屏幕和键盘缝隙偏大（[例子 F](https://www.zhihu.com/question/265987549)）等。
+常见的外观瑕疵和例子（**此处仅为随意从互联网上选取的例子，我们不对任何品牌的品质作出评价**）：屏轴两侧缝隙不对称（[例子 A](https://tousu.sina.com.cn/complaint/view/17351828965)），触控板两侧高矮不一致（[例子 B](https://www.dell.com/community/%E7%81%B5%E8%B6%8A%E7%AC%94%E8%AE%B0%E6%9C%AC/%E6%8A%95%E8%AF%89-%E7%81%B5%E8%B6%8A16-Plus%E5%93%81%E6%8E%A7%E6%9E%81%E5%B7%AE-%E5%94%AE%E5%90%8E%E4%B8%8D%E4%BD%9C%E4%B8%BA/td-p/8025463)，[例子 C](https://www.zhihu.com/question/445434723)），触控板两侧缝隙不一样大或者缝隙偏大（[例子 D](https://club.huawei.com/thread-30382374-1-1.html)），合上后屏幕和键盘缝隙偏大（[例子 E](https://www.zhihu.com/question/265987549)）等。
 
 ![Untitled](new-laptop-setup/Untitled%203.png)
 
