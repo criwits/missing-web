@@ -76,6 +76,14 @@ SpaceSniffer——直白的名字，专注于磁盘空间分析嗅探。在你�
 
 ![SpaceSniffer.jpg](tools-software/SpaceSniffer.jpg)
 
+### WizTree
+
+官网下载地址：[https://diskanalyzer.com/download](https://diskanalyzer.com/download)，左侧的「DOWNLOAD INSTALLER」是安装版，右侧的「DOWNLOAD PORTABLE」是便携版。
+
+虽说 WizTree 干的事情其实和上面的 SpaceSniffer 差不多，但是相较后者而言它有几个优点：超快分析——500 G 左右的固态硬盘只需 10 秒不到；多种视图——包括框图可视化、文件夹占比排序、文件类型占比排序等；实时响应——你删了什么东西它马上就知道，并给你标出来。但美中不足的是，它的免费版右上角有个「捐助请求」，只有捐点钱才能去掉。
+
+![WizTree](tools-software/WizTree.png)
+
 ### Everything
 
 官网下载地址：[https://www.voidtools.com/zh-cn/downloads/](https://www.voidtools.com/zh-cn/downloads/)
