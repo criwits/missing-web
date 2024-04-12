@@ -145,7 +145,7 @@ Beginning dump of physical memory.
 
 现在，我们的电脑已经会自动在蓝屏发生时收集内存信息并形成内存转储文件了。而想要分析这些内存转储文件，我们需要特殊的工具——WinDbg（Windows 调试器）。
 
-打开 Microsoft Store，也就是微软应用商店，在上面搜索「WinDbg」，跳出来的第一个应用会是「WinDbg Preview」（没错它还是预览版），点击【获取】，等待一会，就安装好了。如果不想在 Microsoft Store 安装，也可以去微软提供的 [WinDbg 官方页面](https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/)下载。
+打开 Microsoft Store，也就是微软应用商店，在上面搜索「WinDbg」，跳出来的第一个应用就会是它，点击【获取】，等待一会，就安装好了。如果不想在 Microsoft Store 安装，也可以去微软提供的 [WinDbg 官方页面](https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/)下载。
 
 ![WinDbg](recover-from-bsod/WinDbg.png)
 
