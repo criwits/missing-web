@@ -35,6 +35,7 @@
   - [显示器的二三事](missing/screens-and-their-secrets.md)
   - [用户与微软账号](missing/user-and-ms-account.md)
   - [蓝屏与解决蓝屏](missing/recover-from-bsod.md)
+  - [成为空间管理大师](missing/manage-storage.md)
   - [Windows 11 修整指南](missing/windows-11-optimization.md)
 - 附录
   - [练习题答案](missing/answers.md)
@@ -45,10 +46,11 @@
 
 ## 版本修订
 
-- Content update: 更新一些小地方（23/12/12）
+- Content update: 完成「空间管理」一章 (24/4/18)
+- Content update: 更新一些小地方 (23/12/12)
 - Housewarming: 迁移到境内服务器，大幅优化访问速度 (23/10/21)
-- Content update: 修正错漏、更新「显示器」「蓝屏」两章（23/10/9）
-- Content update: 更新落后内容（23/10/6）
+- Content update: 修正错漏、更新「显示器」「蓝屏」两章 (23/10/9)
+- Content update: 更新落后内容 (23/10/6)
 - Checkpoint: 一周年了（大概），整点贺词 (23/2/1)
 - Content update: 完成「蓝屏」一章 (22/11/20)
 - Every visit counts: 现在在网页底部可以看到网站的总访问量了 (22/3/19)
@@ -58,7 +60,7 @@
 - PDF ready: 第一版 PDF 出炉啦！(22/2/19)
 - Checkpoint: 完成「跋」这一部分 (22/2/12)
 - Content update: 完成「显示器」一章 (22/2/11)
-- Content update: 完成「怎样寻找优质教程」一章（22/2/10）
+- Content update: 完成「怎样寻找优质教程」一章 (22/2/10)
 - Content update: 完成「压缩」一章 (22/2/8)
 - Engine changed: 更换页面引擎为 GitBook (22/2/8)
 - Content update: 完成「Office / WPS」「浏览器」两章 (22/1/29)
