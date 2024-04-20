@@ -132,7 +132,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 当然你也可以打开「开始菜单」后，直接键入「Internet Explorer」来找到它。
 
-而最新的 Windows 10，以及 Windows 11 中，IE 已经被移除出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】。
+而在 Windows 11，以及最新的 Windows 10 中，IE 已经被移除出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】。
 
 ![Edge_IE_Mode_1.png](browsers-and-how-to-choose/Edge_IE_Mode_1.png)
 
