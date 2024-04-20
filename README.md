@@ -9,8 +9,8 @@
 
 ## 本教程的所有可用版本
 
-- 网页版：[https://missing.criwits.top/](https://missing.criwits.top/)
-- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（22/11/11 更新），~~[阿里云盘](https://www.aliyundrive.com/s/cVsLCYa4Xc6)~~（失效），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
+- 网页版：[https://www.criwits.top/missing](https://www.criwits.top/missing) 或 [https://missing.criwits.top](https://missing.criwits.top)
+- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（24/4/20 更新），~~[阿里云盘](https://www.aliyundrive.com/s/cVsLCYa4Xc6)~~（失效），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
 
 若您阅读网页版有困难（例如，网页加载过慢或图片无法显示），可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新可能不如网页版频繁。
 
@@ -46,6 +46,7 @@
 
 ## 版本修订
 
+- Content update: 修些小地方 (24/4/20)
 - Content update: 完成「空间管理」一章 (24/4/18)
 - Content update: 更新一些小地方 (23/12/12)
 - Housewarming: 迁移到境内服务器，大幅优化访问速度 (23/10/21)
@@ -53,7 +54,7 @@
 - Content update: 更新落后内容 (23/10/6)
 - Checkpoint: 一周年了（大概），整点贺词 (23/2/1)
 - Content update: 完成「蓝屏」一章 (22/11/20)
-- Every visit counts: 现在在网页底部可以看到网站的总访问量了 (22/3/19)
+- ~~Every visit counts: 现在在网页底部可以看到网站的总访问量了 (22/3/19)~~
 - Content update: 完成「用户」一章 (22/3/17)
 - Content update: 完成「工具软件」一章 (22/3/14)
 - Content update: 完成「开荒」一章 (22/3/9)
@@ -83,7 +84,7 @@
 
 ## 著作权与许可
 
-版权所有 © 2021–2023 Hans Wan 和 Windy Deng
+版权所有 © 2021–2024 Hans Wan 和 Windy Deng
 
 本教程中的所有文字，除非特别说明，均以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。本教程所有内容「按原样」提供，并且不含有任何明示或者暗示的担保。我们不保证本教程中任何部分的绝对正确。若您认为本文中叙述的方法、技巧等知识与您从其他地方看到的不同或相悖，请遵循您自己的判断。
 

@@ -95,9 +95,9 @@ Chromium 套壳千千万，但我们始终最推荐 Chrome 自身，正所谓「
 
 ![Untitled](browsers-and-how-to-choose/Untitled%209.png)
 
-Chrome 性能出色，界面干净简洁，没有多余繁杂的功能栏，设计优雅美观。Chrome 稍微影响使用的缺点，可能是在国内无法稳定地使用「同步」等功能。这「同步」功能，是指在浏览器上登录自己的账号之后，就能同步自己的收藏夹、历史记录、密码本等数据，实现多设备联动。由于 Chrome 的老东家是谷歌，而谷歌服务无法正常在大陆地区访问，这造成一般情况下我们只能不登录使用 Chrome。不过，在自己对同步功能依赖不深的情况下，这一缺点也是可以忽略的。
+Chrome 性能出色，界面干净简洁，没有多余繁杂的功能栏，设计优雅美观。Chrome 稍微影响使用的缺点，可能是在内地无法稳定地使用「同步」等功能。这「同步」功能，是指在浏览器上登录自己的账号之后，就能同步自己的收藏夹、历史记录、密码本等数据，实现多设备联动。由于 Chrome 的老东家是谷歌，而谷歌服务无法正常在中国内地访问，这造成一般情况下我们只能不登录使用 Chrome。不过，在自己对同步功能依赖不深的情况下，这一缺点也是可以忽略的。
 
-Chrome 浏览器的官方下载地址是 [https://www.google.cn/intl/zh-CN/chrome/](https://www.google.cn/intl/zh-CN/chrome/)。此链接是可以在中国大陆地区直接访问并正常下载的。下载安装之后的 Chrome 也是可以正常在中国大陆地区更新的。~~（难能可贵难能可贵）~~
+Chrome 浏览器的官方下载地址是 [https://www.google.cn/intl/zh-CN/chrome/](https://www.google.cn/intl/zh-CN/chrome/)。此链接是可以在中国内地直接访问并正常下载的。下载安装之后的 Chrome 也是可以正常在中国内地更新的。~~（难能可贵难能可贵）~~
 
 ## Firefox：星星之火，正将燎原
 
@@ -108,9 +108,9 @@ Firefox——或者说火狐——是今天 Chrome 垄断浏览器市场背景�
 Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firefox 同样设计得较为合理美观。Firefox 是可以在国内正常使用同步功能的。具体来说，在国内能够下载到的 Firefox 有两个版本：
 
 - 国际版 Firefox，即全球通用的 Firefox，从 Firefox 国际官网上下载到的 Firefox 就是这个版本。使用国际版 Firefox 的同步功能时，你的账号和数据可能会存储在国外。国际版 Firefox 可以正常在国内使用同步等功能。
-- 中国版 Firefox，是由国内与 Mozilla 的合资公司发行的针对中国市场供应的 Firefox。与国际版 Firefox 最大的不同是，使用中国版 Firefox 的同步功能时，你的账号和数据会存储在国内。这是因为我国法律出于国家安全的考量，要求在国内落地的互联网服务提供商不能把用户的数据存储在境外，但用户可以自己选择使用国内或国外的产品。
+- 中国版 Firefox，是由国内与 Mozilla 的合资公司发行的针对中国市场供应的 Firefox。与国际版 Firefox 最大的不同是，使用中国版 Firefox 的同步功能时，你的账号和数据会存储在国内。这是因为我国法律出于国家安全的考量，要求在国内落地的互联网服务提供商不能把用户的数据存储在境外。
 
-国际版 Firefox 可以在 [https://www.mozilla.org/zh-CN/firefox/new/](https://www.mozilla.org/zh-CN/firefox/new/) 下载到；中国版 Firefox 可以在 [https://www.firefox.com.cn/](https://www.firefox.com.cn/) 下载到。我们偏向更推荐使用国际版 Firefox，尽管二者在功能和性能上并无二致（中国版 Firefox 内置了一些所谓的「实用插件」，但都没什么用）。
+国际版 Firefox 可以在 [https://www.mozilla.org/zh-CN/firefox/new/](https://www.mozilla.org/zh-CN/firefox/new/) 下载到；中国版 Firefox 可以在 [https://www.firefox.com.cn/](https://www.firefox.com.cn/) 下载到。二者在功能和性能上并无二致（中国版 Firefox 内置了一些所谓的「实用插件」，但都没什么用），用户可以自行选择。惟需注意：国际版和中国版 Firefox 账号不互通。
 
 ## Edge：微软最后的妥协
 
@@ -126,13 +126,13 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 上文中说过，国内有些网站必须要用 IE 浏览器才能工作。「这样那样的历史原因」便是：这些网站开发得比较早，在那时 IE 还大行其道，因此它们的一些特殊功能（主要是安全相关的功能）是针对 IE 浏览器的部分专有特性开发的。如上文所言，后来斗转星移，IE 最终退出了这个时代，但那些网站却没来得及更新技术。这些网站主要有中国人民银行征信平台、教师资格证报名平台等。
 
-在 Windows 10 系统中，IE 11——也就是 IE 的最后一个版本——得以作为系统的一部分而保留。你可以通过【开始】→【Windows 附件】→【Internet Explorer】来打开它：
+在早期的 Windows 10 系统中，IE 11——也就是 IE 的最后一个版本——得以作为系统的一部分而保留。你可以通过【开始】→【Windows 附件】→【Internet Explorer】来打开它：
 
 ![Untitled](browsers-and-how-to-choose/Untitled%2012.png)
 
 当然你也可以打开「开始菜单」后，直接键入「Internet Explorer」来找到它。
 
-而在 Windows 11 中，IE 已经被移除出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】。
+而最新的 Windows 10，以及 Windows 11 中，IE 已经被移除出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】。
 
 ![Edge_IE_Mode_1.png](browsers-and-how-to-choose/Edge_IE_Mode_1.png)
 
