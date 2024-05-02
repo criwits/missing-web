@@ -2,25 +2,48 @@
 
 // @import "plugins/numbered";
 
-img[src$='#center']
-{
+img[src$='#center'] {
     display: block;
-    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+    margin: 0.7rem auto;
+    /* you can replace the vertical '0.7rem' by
                             whatever floats your boat, but keep the
                             horizontal 'auto' for this to work */
     /* whatever else styles you fancy here */
 }
 
-img[src$='#floatleft']
-{
-    float:left;
-    margin: 0.7rem;      /* this margin is totally up to you */
+img[src$='#floatleft'] {
+    float: left;
+    margin: 0.7rem;
+    /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
 
-img[src$='#floatright']
-{
-    float:right;
-    margin: 0.7rem;      /* this margin is totally up to you */
+img[src$='#floatright'] {
+    float: right;
+    margin: 0.7rem;
+    /* this margin is totally up to you */
     /* whatever else styles you fancy here */
+}
+
+.footer {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+    padding: 10px 0px;
+    width: 100%;
+    font-size: smaller;
+    line-height: 3.2ex;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #888;
+}
+
+.kerning {
+    padding: 0 2px;
+}
+
+.beian-mono {
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 }
