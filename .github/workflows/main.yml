@@ -12,17 +12,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set up Node
-        uses: actions/setup-node@v1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.125.4'
+          extended: true
 
-      - name: Install GitBook
-        run: |
-          npm install -g gitbook-cli          
-          gitbook install
-          
       - name: Generate
         run: |
-          gitbook build
+          hugo
           
       - name: Deploy to Github Pages
         uses: s0/git-publish-subdir-action@develop
