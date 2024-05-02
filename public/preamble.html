@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head><script src="/missing/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=missing/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="序#按理来说，对于所谓「Z 世代」的年轻人，熟练地使用电脑应该是他们的生活必备技能。
+但事实却出乎我们意料。据我们观察，许多同学对电脑的使用也并不熟悉，甚至可以说是陌生：他们可能在网上被下载到各种「P2P 高速下载器」，面对着满电脑的流氓软件而不知所措；他们可能对着别人发来的 zip 或 7z 文件一头雾水，对「压缩」和「解压缩」都不甚熟悉；他们可能装着四五个浏览器、三四个杀毒软件，更可能分不清自己电脑的「内存」和「硬盘」……
+有人说，这是智能手机的普及造成的。诚然，使用电脑与使用手机相比，「复杂」了不止一个数量级；而随着智能手机的不断发展，人们借助一部手机就能完成许多事情，电脑似乎已经不再需要了。可是，尽管几年前就有人说「电脑现在已经是夕阳产业了」，但事实却是：至少在当下，我们仍然得学会去用电脑，不说多么「精通」，但至少要能知道「软件怎么找怎么装」「出现小问题怎么办」「xx 文件怎么打开」「怎么把文件打包」等等这些「21 世纪的常识」。
+中小学的《信息技术》课堂、大学的《大学计算机基础》课程本应起到教授这些知识的作用。可惜，事与愿违——很多时候，我们在这些课堂上学到的东西，可能一辈子都用不到；真正需要学的东西，却缺失了：
+我们一辈子可能也不会再尝试用 Excel 排出张三李四不及格的科目有哪些，不会再折腾复杂到毫无意义的页眉和页脚，不会再碰和动画制作和网页相关的任何内容。但我们未来必然有无数次会需要去网上下载一个新的软件，会无数次遇到各种各样的软件错误、闪退或者崩溃，会无数次因为 Windows 更新导致这样或那样的问题，会无数次遇到电脑沾上垃圾软件而奇慢无比无法使用……
+这份《你缺失的计算机课》是一份为「电脑小白」准备的电脑操作指南。它的英文名字是「Your Missing Semester of Using Computer」，也可以理解成「你本应上过的电脑课」。我们会假定读者基本不了解电脑的操作，换言之就是所谓「电脑小白」，用尽量通俗易懂的语言，告诉读者「电脑最好怎么用」。
+这份教程会在文中简称自己为「《你缺计课》」或者「本教程」。本教程的得名参考了麻省理工大学（MIT）的《计算机教育中缺失的一课 (The Missing Semester of Your CS Education)》。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/missing/preamble.html">
+  <meta property="og:site_name" content="你缺失的那门计算机课">
+  <meta property="og:title" content="序">
+  <meta property="og:description" content="序#按理来说，对于所谓「Z 世代」的年轻人，熟练地使用电脑应该是他们的生活必备技能。
+但事实却出乎我们意料。据我们观察，许多同学对电脑的使用也并不熟悉，甚至可以说是陌生：他们可能在网上被下载到各种「P2P 高速下载器」，面对着满电脑的流氓软件而不知所措；他们可能对着别人发来的 zip 或 7z 文件一头雾水，对「压缩」和「解压缩」都不甚熟悉；他们可能装着四五个浏览器、三四个杀毒软件，更可能分不清自己电脑的「内存」和「硬盘」……
+有人说，这是智能手机的普及造成的。诚然，使用电脑与使用手机相比，「复杂」了不止一个数量级；而随着智能手机的不断发展，人们借助一部手机就能完成许多事情，电脑似乎已经不再需要了。可是，尽管几年前就有人说「电脑现在已经是夕阳产业了」，但事实却是：至少在当下，我们仍然得学会去用电脑，不说多么「精通」，但至少要能知道「软件怎么找怎么装」「出现小问题怎么办」「xx 文件怎么打开」「怎么把文件打包」等等这些「21 世纪的常识」。
+中小学的《信息技术》课堂、大学的《大学计算机基础》课程本应起到教授这些知识的作用。可惜，事与愿违——很多时候，我们在这些课堂上学到的东西，可能一辈子都用不到；真正需要学的东西，却缺失了：
+我们一辈子可能也不会再尝试用 Excel 排出张三李四不及格的科目有哪些，不会再折腾复杂到毫无意义的页眉和页脚，不会再碰和动画制作和网页相关的任何内容。但我们未来必然有无数次会需要去网上下载一个新的软件，会无数次遇到各种各样的软件错误、闪退或者崩溃，会无数次因为 Windows 更新导致这样或那样的问题，会无数次遇到电脑沾上垃圾软件而奇慢无比无法使用……
+这份《你缺失的计算机课》是一份为「电脑小白」准备的电脑操作指南。它的英文名字是「Your Missing Semester of Using Computer」，也可以理解成「你本应上过的电脑课」。我们会假定读者基本不了解电脑的操作，换言之就是所谓「电脑小白」，用尽量通俗易懂的语言，告诉读者「电脑最好怎么用」。
+这份教程会在文中简称自己为「《你缺计课》」或者「本教程」。本教程的得名参考了麻省理工大学（MIT）的《计算机教育中缺失的一课 (The Missing Semester of Your CS Education)》。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+<title>序 | 你缺失的那门计算机课</title>
+<link rel="manifest" href="/missing/manifest.json">
+<link rel="icon" href="/missing/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/missing/preamble.html">
+<link rel="stylesheet" href="/missing/book.min.1109b488ae863dd48ec30011f70dd30abf793dd5091bb3d299915df4eee117e4.css" integrity="sha256-EQm0iK6GPdSOwwAR9w3TCr95PdUJG7PSmZFd9O7hF&#43;Q=" crossorigin="anonymous">
+  <script defer src="/missing/flexsearch.min.js"></script>
+  <script defer src="/missing/zh.search.min.4326e07cffb7753f8b2653d6a92c1ce37f614bfff45257482a3490293b85b2e4.js" integrity="sha256-QybgfP&#43;3dT&#43;LJlPWqSwc439hS//0UldIKjSQKTuFsuQ=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/missing/"><span>你缺失的那门计算机课</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="http://localhost:1313/missing/">首页</a></li>
+<li><a href="http://localhost:1313/missing/preamble.html">序</a></li>
+<li>基础篇
+<ul>
+<li><a href="http://localhost:1313/missing/first-things-first.html">一些约定与预备知识</a></li>
+<li><a href="http://localhost:1313/missing/computer-and-its-components.html">认识你的电脑</a></li>
+<li><a href="http://localhost:1313/missing/file-and-file-management.html">文件与文件管理</a></li>
+<li><a href="http://localhost:1313/missing/software-installation.html">软件的寻找与安装</a></li>
+<li><a href="http://localhost:1313/missing/basic-maintenance.html">基本维护和安全防护</a></li>
+<li><a href="http://localhost:1313/missing/how-to-find-solutions.html">遇到问题怎么办</a></li>
+</ul>
+</li>
+<li>软件篇
+<ul>
+<li><a href="http://localhost:1313/missing/office-and-wps.html">Office 和 WPS——办公样样行</a></li>
+<li><a href="http://localhost:1313/missing/browsers-and-how-to-choose.html">浏览器——网上冲浪必备</a></li>
+<li><a href="http://localhost:1313/missing/archive-formats-and-tools.html">压缩文件与压缩工具</a></li>
+<li><a href="http://localhost:1313/missing/tools-software.html">工具类软件推荐</a></li>
+<li><a href="http://localhost:1313/missing/how-to-find-tutorials.html">怎样寻找优质的教程</a></li>
+</ul>
+</li>
+<li>进阶篇
+<ul>
+<li><a href="http://localhost:1313/missing/shortcut-keys.html">那些好用的键盘快捷键</a></li>
+<li><a href="http://localhost:1313/missing/screens-and-their-secrets.html">显示器的二三事</a></li>
+<li><a href="http://localhost:1313/missing/user-and-ms-account.html">用户与微软账号</a></li>
+<li><a href="http://localhost:1313/missing/recover-from-bsod.html">蓝屏与解决蓝屏</a></li>
+<li><a href="http://localhost:1313/missing/manage-storage.html">成为空间管理大师</a></li>
+<li><a href="http://localhost:1313/missing/windows-11-optimization.html">Windows 11 修整指南</a></li>
+</ul>
+</li>
+<li>附录
+<ul>
+<li><a href="http://localhost:1313/missing/answers.html">练习题答案</a></li>
+<li><a href="http://localhost:1313/missing/new-laptop-setup.html">笔记本新机「开荒」指南</a></li>
+</ul>
+</li>
+<li><a href="http://localhost:1313/missing/afterwords.html">跋</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/missing/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>序</strong>
+
+  <label for="toc-control">
+    
+    <img src="/missing/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#序">序</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="序">
+  序
+  <a class="anchor" href="#%e5%ba%8f">#</a>
+</h1>
+<p>按理来说，对于所谓「Z 世代」的年轻人，熟练地使用电脑应该是他们的生活必备技能。</p>
+<p>但事实却出乎我们意料。据我们观察，许多同学对电脑的使用也并不熟悉，甚至可以说是陌生：他们可能在网上被下载到各种「P2P 高速下载器」，面对着满电脑的流氓软件而不知所措；他们可能对着别人发来的 <code>zip</code> 或 <code>7z</code> 文件一头雾水，对「压缩」和「解压缩」都不甚熟悉；他们可能装着四五个浏览器、三四个杀毒软件，更可能分不清自己电脑的「内存」和「硬盘」……</p>
+<p>有人说，这是智能手机的普及造成的。诚然，使用电脑与使用手机相比，「复杂」了不止一个数量级；而随着智能手机的不断发展，人们借助一部手机就能完成许多事情，电脑似乎已经不再需要了。可是，尽管几年前就有人说「电脑现在已经是夕阳产业了」，但事实却是：至少在当下，我们仍然得学会去用电脑，不说多么「精通」，但至少要能知道「软件怎么找怎么装」「出现小问题怎么办」「xx 文件怎么打开」「怎么把文件打包」等等这些「21 世纪的常识」。</p>
+<p>中小学的《信息技术》课堂、大学的《大学计算机基础》课程本应起到教授这些知识的作用。可惜，事与愿违——很多时候，我们在这些课堂上学到的东西，可能一辈子都用不到；真正需要学的东西，却缺失了：</p>
+<p>我们一辈子可能也不会再尝试用 Excel 排出张三李四不及格的科目有哪些，不会再折腾复杂到毫无意义的页眉和页脚，不会再碰和动画制作和网页相关的任何内容。但我们未来必然有无数次会需要去网上下载一个新的软件，会无数次遇到各种各样的软件错误、闪退或者崩溃，会无数次因为 Windows 更新导致这样或那样的问题，会无数次遇到电脑沾上垃圾软件而奇慢无比无法使用……</p>
+<p>这份《你缺失的计算机课》是一份为「电脑小白」准备的电脑操作指南。它的英文名字是「Your Missing Semester of Using Computer」，也可以理解成「你本应上过的电脑课」。我们会假定读者基本不了解电脑的操作，换言之就是所谓「电脑小白」，用尽量通俗易懂的语言，告诉读者「电脑最好怎么用」。</p>
+<p>这份教程会在文中简称自己为「《你缺计课》」或者「本教程」。本教程的得名参考了麻省理工大学（MIT）的《<a href="https://missing.csail.mit.edu/">计算机教育中缺失的一课 (The Missing Semester of Your CS Education)</a>》。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#序">序</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

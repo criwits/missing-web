@@ -1,0 +1,23 @@
+baseURL: https://www.criwits.top/missing
+title: 你缺失的那门计算机课
+theme: hugo-book
+
+defaultContentLanguage: zh
+
+# Book config
+disablePathToLower: true
+enableGitInfo: true
+publishDir: _book
+uglyURLs: true
+
+# Needed for mermaid/katex shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+params:
+  BookTheme: "auto"
+  BookMenuBundle: /menu

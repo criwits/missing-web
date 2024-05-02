@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head><script src="/missing/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=missing/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="文件与文件管理#在这一部分，我们将重新介绍你可能所不知道的「文件」以及「文件」的管理，以及一些实用的文件管理的技巧。看完这一部分，你将可以找到下面这些问题的答案：
+为什么很多人说「不建议把文件放在桌面上」？ C 盘总是「红了」，为什么？为什么有人建议把软件装到 D 盘里？ 「扩展名」是什么？「打开方式」又是什么？为什么有时候我电脑上的 Word 文档就打不开了？ 如上一章所言，硬盘是电脑中存放数据的地方，而「文件」则是数据存放的具体形式。你所撰写的 Word 文档、制作的 PPT 幻灯片、从网上下载的图片，乃至各个 app 或者说软件本身，都以文件的形式存储在硬盘上。
+这一部分，我们将具体介绍「文件」和文件的管理。这是《你缺计课》需要动手实践的第一章，更是我们合理、有效地使用电脑的第一课。
+硬盘的分区#打开桌面上的【此电脑】（但其实打开的窗口本名叫「文件资源管理器」），我们可以看到一个或几个「盘」，例如 C 盘、D 盘等。这样的「盘」学名叫做「分区」，顾名思义，它们是将硬盘上的空间人为地划分成了一些子空间。
+例如，上图是一台电脑「此电脑」中的分区。可以看到，这两个分区一个大小为 175 GB，另一个大小为 299 GB，相加为 474 GB——这是这台电脑的硬盘可用总空间。
+划分分区的意义，在于帮助我们更好地管理文件。分区划分之后，各个分区之间就仿佛被「隔离」开来了。即使我们「格式化」一个分区（这样会删除这个分区中的所有文件），也不会影响另外一个分区里面的文件。
+在 Windows 系统中，分区会被给予两个标识符，或者说「名字」：
+一个是「盘符」，盘符是一个英文字母加上冒号 : 构成的。我们所称呼的「C 盘」「D 盘」正是指盘符中的那个字母。如上图，左方分区的盘符是 C: ，右方分区的盘符是 D: 。盘符一般在被指定之后就不方便更换了。在今天，Windows 系统中的盘符都是从字母 C 开始¹的。 另一个是「卷标」，这是一个可选的标识符，它是一定长度的文本。在上图中，C 盘的卷标是「Windows」，D 盘的卷标是「Files」。盘符的作用是让系统和软件识别分区，而卷标的作用是帮助我们用户更加直观地了解分区的作用，因而卷标是可以随时更换的。事实上，通过右键某一分区，选择【重命名】，就可以更换卷标了。如果你什么都不写，它默认叫做「本地磁盘」。 我们在 认识你的电脑 中提到，操作系统本身也是一个大软件，那么这个软件放在硬盘上的哪呢？对于 Windows 而言，整个 Windows 系统默认放在 C 盘里。双击打开电脑 C 盘，你会看到一些你可能不熟悉的文件夹，例如 Windows 文件夹，Windows 系统自己的许多文件就存在其中。
+也许你听过「不要把软件安装到 C 盘」这样的说法。这是有根据的。系统本身就已经很庞大，系统自身工作产生的一些文件也会被自动地放在 C 盘内，导致 C 盘本身空间就容易变得局促。如果还将大量的软件装在 C 盘，会让 C 盘更加「不堪重负」，结果就是——红了。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/missing/file-and-file-management.html">
+  <meta property="og:site_name" content="你缺失的那门计算机课">
+  <meta property="og:title" content="文件与文件管理">
+  <meta property="og:description" content="文件与文件管理#在这一部分，我们将重新介绍你可能所不知道的「文件」以及「文件」的管理，以及一些实用的文件管理的技巧。看完这一部分，你将可以找到下面这些问题的答案：
+为什么很多人说「不建议把文件放在桌面上」？ C 盘总是「红了」，为什么？为什么有人建议把软件装到 D 盘里？ 「扩展名」是什么？「打开方式」又是什么？为什么有时候我电脑上的 Word 文档就打不开了？ 如上一章所言，硬盘是电脑中存放数据的地方，而「文件」则是数据存放的具体形式。你所撰写的 Word 文档、制作的 PPT 幻灯片、从网上下载的图片，乃至各个 app 或者说软件本身，都以文件的形式存储在硬盘上。
+这一部分，我们将具体介绍「文件」和文件的管理。这是《你缺计课》需要动手实践的第一章，更是我们合理、有效地使用电脑的第一课。
+硬盘的分区#打开桌面上的【此电脑】（但其实打开的窗口本名叫「文件资源管理器」），我们可以看到一个或几个「盘」，例如 C 盘、D 盘等。这样的「盘」学名叫做「分区」，顾名思义，它们是将硬盘上的空间人为地划分成了一些子空间。
+例如，上图是一台电脑「此电脑」中的分区。可以看到，这两个分区一个大小为 175 GB，另一个大小为 299 GB，相加为 474 GB——这是这台电脑的硬盘可用总空间。
+划分分区的意义，在于帮助我们更好地管理文件。分区划分之后，各个分区之间就仿佛被「隔离」开来了。即使我们「格式化」一个分区（这样会删除这个分区中的所有文件），也不会影响另外一个分区里面的文件。
+在 Windows 系统中，分区会被给予两个标识符，或者说「名字」：
+一个是「盘符」，盘符是一个英文字母加上冒号 : 构成的。我们所称呼的「C 盘」「D 盘」正是指盘符中的那个字母。如上图，左方分区的盘符是 C: ，右方分区的盘符是 D: 。盘符一般在被指定之后就不方便更换了。在今天，Windows 系统中的盘符都是从字母 C 开始¹的。 另一个是「卷标」，这是一个可选的标识符，它是一定长度的文本。在上图中，C 盘的卷标是「Windows」，D 盘的卷标是「Files」。盘符的作用是让系统和软件识别分区，而卷标的作用是帮助我们用户更加直观地了解分区的作用，因而卷标是可以随时更换的。事实上，通过右键某一分区，选择【重命名】，就可以更换卷标了。如果你什么都不写，它默认叫做「本地磁盘」。 我们在 认识你的电脑 中提到，操作系统本身也是一个大软件，那么这个软件放在硬盘上的哪呢？对于 Windows 而言，整个 Windows 系统默认放在 C 盘里。双击打开电脑 C 盘，你会看到一些你可能不熟悉的文件夹，例如 Windows 文件夹，Windows 系统自己的许多文件就存在其中。
+也许你听过「不要把软件安装到 C 盘」这样的说法。这是有根据的。系统本身就已经很庞大，系统自身工作产生的一些文件也会被自动地放在 C 盘内，导致 C 盘本身空间就容易变得局促。如果还将大量的软件装在 C 盘，会让 C 盘更加「不堪重负」，结果就是——红了。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+<title>文件与文件管理 | 你缺失的那门计算机课</title>
+<link rel="manifest" href="/missing/manifest.json">
+<link rel="icon" href="/missing/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/missing/file-and-file-management.html">
+<link rel="stylesheet" href="/missing/book.min.1109b488ae863dd48ec30011f70dd30abf793dd5091bb3d299915df4eee117e4.css" integrity="sha256-EQm0iK6GPdSOwwAR9w3TCr95PdUJG7PSmZFd9O7hF&#43;Q=" crossorigin="anonymous">
+  <script defer src="/missing/flexsearch.min.js"></script>
+  <script defer src="/missing/zh.search.min.4326e07cffb7753f8b2653d6a92c1ce37f614bfff45257482a3490293b85b2e4.js" integrity="sha256-QybgfP&#43;3dT&#43;LJlPWqSwc439hS//0UldIKjSQKTuFsuQ=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/missing/"><span>你缺失的那门计算机课</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="http://localhost:1313/missing/">首页</a></li>
+<li><a href="http://localhost:1313/missing/preamble.html">序</a></li>
+<li>基础篇
+<ul>
+<li><a href="http://localhost:1313/missing/first-things-first.html">一些约定与预备知识</a></li>
+<li><a href="http://localhost:1313/missing/computer-and-its-components.html">认识你的电脑</a></li>
+<li><a href="http://localhost:1313/missing/file-and-file-management.html">文件与文件管理</a></li>
+<li><a href="http://localhost:1313/missing/software-installation.html">软件的寻找与安装</a></li>
+<li><a href="http://localhost:1313/missing/basic-maintenance.html">基本维护和安全防护</a></li>
+<li><a href="http://localhost:1313/missing/how-to-find-solutions.html">遇到问题怎么办</a></li>
+</ul>
+</li>
+<li>软件篇
+<ul>
+<li><a href="http://localhost:1313/missing/office-and-wps.html">Office 和 WPS——办公样样行</a></li>
+<li><a href="http://localhost:1313/missing/browsers-and-how-to-choose.html">浏览器——网上冲浪必备</a></li>
+<li><a href="http://localhost:1313/missing/archive-formats-and-tools.html">压缩文件与压缩工具</a></li>
+<li><a href="http://localhost:1313/missing/tools-software.html">工具类软件推荐</a></li>
+<li><a href="http://localhost:1313/missing/how-to-find-tutorials.html">怎样寻找优质的教程</a></li>
+</ul>
+</li>
+<li>进阶篇
+<ul>
+<li><a href="http://localhost:1313/missing/shortcut-keys.html">那些好用的键盘快捷键</a></li>
+<li><a href="http://localhost:1313/missing/screens-and-their-secrets.html">显示器的二三事</a></li>
+<li><a href="http://localhost:1313/missing/user-and-ms-account.html">用户与微软账号</a></li>
+<li><a href="http://localhost:1313/missing/recover-from-bsod.html">蓝屏与解决蓝屏</a></li>
+<li><a href="http://localhost:1313/missing/manage-storage.html">成为空间管理大师</a></li>
+<li><a href="http://localhost:1313/missing/windows-11-optimization.html">Windows 11 修整指南</a></li>
+</ul>
+</li>
+<li>附录
+<ul>
+<li><a href="http://localhost:1313/missing/answers.html">练习题答案</a></li>
+<li><a href="http://localhost:1313/missing/new-laptop-setup.html">笔记本新机「开荒」指南</a></li>
+</ul>
+</li>
+<li><a href="http://localhost:1313/missing/afterwords.html">跋</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/missing/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>文件与文件管理</strong>
+
+  <label for="toc-control">
+    
+    <img src="/missing/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#文件与文件管理">文件与文件管理</a>
+      <ul>
+        <li><a href="#硬盘的分区">硬盘的分区</a></li>
+        <li><a href="#文件文件名和文件类型">文件、文件名和文件类型</a></li>
+        <li><a href="#文件夹路径和目录">文件夹、路径和目录</a></li>
+        <li><a href="#程序本身可执行文件exe-文件">程序本身——可执行文件（<code>exe</code> 文件）</a></li>
+        <li><a href="#文件的替身快捷方式">文件的「替身」——快捷方式</a></li>
+        <li><a href="#合多为一精简空间压缩文件">合多为一，精简空间——压缩文件</a></li>
+        <li><a href="#文件的打开方式">文件的打开方式</a></li>
+        <li><a href="#管理好你的文件">管理好你的文件</a>
+          <ul>
+            <li><a href="#为文件安家">为文件安家</a></li>
+            <li><a href="#定期打扫">定期打扫</a></li>
+            <li><a href="#更改用户文件夹的存储位置-">更改用户文件夹的存储位置 *</a></li>
+          </ul>
+        </li>
+        <li><a href="#练习">练习</a></li>
+        <li><a href="#注释">注释</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="文件与文件管理">
+  文件与文件管理
+  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e4%b8%8e%e6%96%87%e4%bb%b6%e7%ae%a1%e7%90%86">#</a>
+</h1>
+<blockquote class="book-hint info">
+  <p>在这一部分，我们将重新介绍你可能所不知道的「文件」以及「文件」的管理，以及一些实用的文件管理的技巧。看完这一部分，你将可以找到下面这些问题的答案：</p>
+<ul>
+<li>为什么很多人说「不建议把文件放在桌面上」？</li>
+<li>C 盘总是「红了」，为什么？为什么有人建议把软件装到 D 盘里？</li>
+<li>「扩展名」是什么？「打开方式」又是什么？为什么有时候我电脑上的 Word 文档就打不开了？</li>
+</ul>
+</blockquote>
+
+<p>如上一章所言，硬盘是电脑中存放数据的地方，而「文件」则是数据存放的具体形式。你所撰写的 Word 文档、制作的 PPT 幻灯片、从网上下载的图片，乃至各个 app 或者说软件本身，都以文件的形式存储在硬盘上。</p>
+<p>这一部分，我们将具体介绍「文件」和文件的管理。这是《你缺计课》需要动手实践的第一章，更是我们合理、有效地使用电脑的第一课。</p>
+<h2 id="硬盘的分区">
+  硬盘的分区
+  <a class="anchor" href="#%e7%a1%ac%e7%9b%98%e7%9a%84%e5%88%86%e5%8c%ba">#</a>
+</h2>
+<p>打开桌面上的【此电脑】<del>（但其实打开的窗口本名叫「文件资源管理器」）</del>，我们可以看到一个或几个「盘」，例如 C 盘、D 盘等。这样的「盘」学名叫做「分区」，顾名思义，它们是将硬盘上的空间人为地划分成了一些子空间。</p>
+<p><img src="file-and-file-management/Untitled.png" alt="Untitled" /></p>
+<p>例如，上图是一台电脑「此电脑」中的分区。可以看到，这两个分区一个大小为 175 GB，另一个大小为 299 GB，相加为 474 GB——这是这台电脑的硬盘可用总空间。</p>
+<p>划分分区的意义，在于帮助我们更好地管理文件。分区划分之后，各个分区之间就仿佛被「隔离」开来了。即使我们「格式化」一个分区（这样会删除这个分区中的所有文件），也不会影响另外一个分区里面的文件。</p>
+<p><img src="file-and-file-management/Untitled%201.png" alt="Untitled" /></p>
+<p>在 Windows 系统中，分区会被给予两个标识符，或者说「名字」：</p>
+<ul>
+<li>一个是「<strong>盘符</strong>」，盘符是一个英文字母加上冒号 <code>:</code> 构成的。我们所称呼的「C 盘」「D 盘」正是指盘符中的那个字母。如上图，左方分区的盘符是 <code>C:</code> ，右方分区的盘符是 <code>D:</code> 。盘符一般在被指定之后就不方便更换了。在今天，Windows 系统中的盘符都是从字母 C 开始¹的。</li>
+<li>另一个是「<strong>卷标</strong>」，这是一个可选的标识符，它是一定长度的文本。在上图中，C 盘的卷标是「Windows」，D 盘的卷标是「Files」。盘符的作用是让系统和软件识别分区，而卷标的作用是帮助我们用户更加直观地了解分区的作用，因而卷标是可以随时更换的。事实上，通过右键某一分区，选择【重命名】，就可以更换卷标了。如果你什么都不写，它默认叫做「本地磁盘」。</li>
+</ul>
+<p><img src="file-and-file-management/Untitled%202.png" alt="Untitled" /></p>
+<p>我们在 <a href="http://localhost:1313/missing/computer-and-its-components.html">认识你的电脑</a> 中提到，操作系统本身也是一个大软件，那么这个软件放在硬盘上的哪呢？对于 Windows 而言，整个 Windows 系统默认放在 C 盘里。双击打开电脑 C 盘，你会看到一些你可能不熟悉的文件夹，例如 <code>Windows</code> 文件夹，Windows 系统自己的许多文件就存在其中。</p>
+<p>也许你听过「不要把软件安装到 C 盘」这样的说法。这是有根据的。系统本身就已经很庞大，系统自身工作产生的一些文件也会被自动地放在 C 盘内，导致 C 盘本身空间就容易变得局促。如果还将大量的软件装在 C 盘，会让 C 盘更加「不堪重负」，结果就是——红了。</p>
+<p>在本章的后续部分，以及 <a href="http://localhost:1313/missing/software-installation.html">软件的寻找与安装</a> 中，我们会详细介绍，怎样把我们的软件以及其他东西放在 C 盘以外的地方，以及这样做的其他好处。</p>
+<h2 id="文件文件名和文件类型">
+  文件、文件名和文件类型
+  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e6%96%87%e4%bb%b6%e5%90%8d%e5%92%8c%e6%96%87%e4%bb%b6%e7%b1%bb%e5%9e%8b">#</a>
+</h2>
+<p>「文件」是数据存储在硬盘上的形式。这么说可能有些抽象，直观地说，文件就是我们每天都打交道的东西：</p>
+<p><img src="file-and-file-management/Untitled%203.png" alt="Untitled" /></p>
+<p>文件有自己的「名字」，称为「文件名」。在 Windows 系统中，文件名可以分成三个部分：</p>
+<ul>
+<li>「主名」是指文件名中，点号 <code>.</code> 之前的部分。这部分内容可以自定，相当于人类的姓名。上图中， <code>如何让富婆爱上我</code> 和 <code>一夜暴富指南</code> 等都是文件的主名。</li>
+<li>「点号」是指文件名中间的那个 <code>.</code> 。</li>
+<li>「扩展名」是指文件名中，点号 <code>.</code> 之后的部分²。扩展名展示着文件的类型，它会告诉操作系统，这个文件应该用什么方式来打开。例如，上图中 <code>每天一个长寿秘诀.txt</code> 中的 <code>txt</code> 就是这个文件的扩展名，它说明这个文件是一个「文本文档」，应该使用「记事本」打开。</li>
+</ul>
+<p><img src="file-and-file-management/Untitled%204.png" alt="Untitled" /></p>
+<p>扩展名也是可以人为改变的，但这样往往会出问题——试想，对于上图中的 <code>高等数学不挂速成.mp4</code>，它本来是一个 <code>mp4</code> 文件，即「视频文件」，应该用看视频的软件打开。如果你强行把它改成 <code>txt</code>，系统就会用「记事本」来打开一个「视频文件」——用错误的工具打开文件。</p>
+<p>如果你的电脑上，文件的扩展名没有被显示（也就是说你只能看到文件的主名），像这样：</p>
+<p><img src="file-and-file-management/Untitled%205.png" alt="Untitled" /></p>
+<p>在 Windows 10 中请点选文件夹窗口上方的【查看】选项卡，然后勾选【文件扩展名】这一项：</p>
+<p><img src="file-and-file-management/Windows_10_set_full_filename.png" alt="Windows_10_set_full_filename.png" /></p>
+<p>在 Windows 11 中请点选文件夹窗口上方的【查看】菜单，然后勾选【显示】→【文件扩展名】：</p>
+<p><img src="file-and-file-management/Untitled%206.png" alt="Untitled" /></p>
+<p>在打开这个选项之后，文件扩展名不仅是可见的，还是可以改变的——但如上文所说，扩展名不能随便改，因为改了之后系统就会用错误的工具去打开它。右键某一文件，选择【重命名】，你会看到系统会自动帮你选中文件的「主名」，而不选中「扩展名」。如果你执意更改文件的「扩展名」，系统会发出一个提示：</p>
+<p><img src="file-and-file-management/Untitled%207.png" alt="Untitled" /></p>
+<p>「那既然这样，我不想不小心突然间改掉文件的扩展名，还不如不开呢。」如果你有这样的想法，那么另一重危险正悄然降临。且看下面的两个文件：</p>
+<p><img src="file-and-file-management/fake_doc.png" alt="Fake Doc" /></p>
+<p>这两个「高数速成秘籍」看起来完全一样，就是两个正常的 Word 文档，但众所周知，一个目录下不可能存在两个文件名相同的文件，显然这里面必然有猫腻。现在打开文件扩展名，这两个文件的名称变成了下面这个样子，可见，其中一个居然是可执行文件（<code>exe</code>）格式，即一个应用程序（详见下文），只是图标故意被做成了 Word 文档的样子。所以，看不到扩展名的话，指不定哪天有居心叵测的人发来一个这样伪装的病毒，那可就不好了。</p>
+<p><img src="file-and-file-management/fake_doc_revealed.png" alt="Fake Doc Revealed" /></p>
+<h2 id="文件夹路径和目录">
+  文件夹、路径和目录
+  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e5%a4%b9%e8%b7%af%e5%be%84%e5%92%8c%e7%9b%ae%e5%bd%95">#</a>
+</h2>
+<p>「文件夹」是一个用来存放其他文件的结构。不妨想象一下现实中的「文件夹」：</p>
+<p><img src="file-and-file-management/Untitled%208.png" alt="Untitled" /></p>
+<p>在这样的一个「文件夹」中，可以放很多各类「文件」。而电脑中的文件夹除了能放文件之外，还可以放很多的「子文件夹」，即「文件夹里面的文件夹」。这个过程可以循环重复，因而一个文件夹的内部结构可以相当错综复杂。</p>
+<p>如果抽象地把整个电脑看成一个巨大的「文件夹」，那么不同的分区就是这个巨大「文件夹」之下的几个子文件夹，我们的某一份文件就是在这些子文件夹之下的某一个角落里。假设在 D 盘的 <code>missing</code> 文件夹之中有一个叫做 <code>源文件</code> 的子文件夹，在这个子文件夹中有一个文件叫 <code>第三章.docx</code>，我们用这种方式表示这个 <code>第三章.docx</code> 文件在整个电脑中的位置：</p>
+<pre tabindex="0"><code>D:\missing\源文件\第三章.docx
+</code></pre><p>这一长串东西表示出 <code>第三章.docx</code> 这个文件在电脑中的具体位置，我们把一长串东西称为 <code>第三章.docx</code> 这个文件的「路径」（严格来说叫做「绝对路径」）。不难发现，路径是从「分区」（也就是「盘」）开始，用反斜杠 <code>\</code> 作为分隔，一级一级文件夹地展开，最后到具体的文件。类似的，不只是文件，文件夹的路径也可以用这样的方式来表示，例如</p>
+<pre tabindex="0"><code>D:\missing\源文件\
+</code></pre><p>表示的就是 <code>源文件</code> 这个文件夹在电脑中的位置。一个文件 / 文件夹的「路径」是唯一确定的；一个「路径」也能唯一确定一个文件 / 文件夹。</p>
+<p>也许你有听说过「目录」这个名字。其实「目录」就是文件夹。例如这个说法「打开目录 <code>D:\missing\public\</code>」指的就是打开 D 盘中 <code>missing</code> 文件夹里的 <code>public</code> 文件夹。</p>
+<p>目录（文件夹）一层一层的结构可以像这样从上到下画出来，称作「目录树」：</p>
+<p><img src="file-and-file-management/Untitled%209.png" alt="Untitled" /></p>
+<p>在目录树这种形式中，文件夹之间是「上下级」的关系，故「文件 A 在文件夹 B 中」也可以称作「文件 A 在文件夹 B 下」或者「A 在目录 B 下」甚至是「A 在 B 下」。也就是说，「下」这个字就是「在……里」的意思。</p>
+<p>借助目录树这样的结构，我们就能理解「根目录」这个概念了。一个盘的「根目录」指的是这个盘之下的第一级目录——恰好是目录树的「根」，例如 C 盘根目录就指的是路径 <code>C:\</code> 。</p>
+<h2 id="程序本身可执行文件exe-文件">
+  程序本身——可执行文件（<code>exe</code> 文件）
+  <a class="anchor" href="#%e7%a8%8b%e5%ba%8f%e6%9c%ac%e8%ba%ab%e5%8f%af%e6%89%a7%e8%a1%8c%e6%96%87%e4%bb%b6exe-%e6%96%87%e4%bb%b6">#</a>
+</h2>
+<p>这一节我们介绍一种类型特殊的文件——「可执行文件」。我们提到，数据是以文件的形式存储在硬盘上的，比如你所撰写的 Word 文档，它们都存储成了扩展名为 <code>doc</code> 或者 <code>docx</code> 的文件；你所下载的图片，它们的扩展名则往往是 <code>jpg</code> 、 <code>png</code> 或者 <code>gif</code> 。而我们又提到，软件或者说 app 也是以文件的形式存储在硬盘上的。那么，软件本身是什么格式的文件呢？</p>
+<p>一个软件的核心是一个或多个「程序」，而程序是以「可执行文件」的形式存储的。<strong>普通的文件，需要用其他的某个软件才能正常打开；而「可执行文件」双击就能运行自身，这就是「可执行」（Executable）的意思。</strong></p>
+<p>可执行文件的扩展名是 <code>exe</code>。对于这种类型的文件，系统不会想着用别的软件去打开它，而是直接运行它自身。可执行文件有时被直接称为「程序文件」或者「程序」。</p>
+<p>需要注意的是，电脑上的一款软件（或者说 app，在本教程中我们会同时使用这两种称呼）可能不仅仅只有一个程序，也就不止一个可执行文件。下面是软件「网易云音乐」所在的文件夹中的一部分：</p>
+<p><img src="file-and-file-management/Untitled%2010.png" alt="Untitled" /></p>
+<p>可以看到，「网易云音乐」这个 app 有着这些文件：</p>
+<ul>
+<li>可执行文件 <code>cloudmusic.exe</code>，这个是 app 的主体，即「网易云音乐」的主程序。</li>
+<li>可执行文件 <code>cloudmusic_reporter.exe</code>，<code>cloudmusic_util.exe</code> 等。这些文件是 app 运行时的其他辅助程序。它们往往无法单独运行，而 <code>cloudmusic.exe</code> 这个主文件脱离它们也不能正常运行。</li>
+<li>一大堆的 <code>dll</code> 和其他格式的文件。这些是 app 工作时不可或缺的依赖文件。</li>
+<li>一些子文件夹，存储着 app 运行需要的另外一些东西。</li>
+</ul>
+<p>每次我们启动「网易云音乐」，运行的都是 <code>cloudmusic.exe</code> 这个可执行文件。然而，这个文件的运行离不开放在它边上的那一堆辅助文件——如果你把 <code>cloudmusic.exe</code> 复制到另外的一个地方，双击运行，大概率会直接报错；即使不报错，功能也必然有不正常。</p>
+<p>在下一章我们在介绍软件的安装时会继续说明这个问题。</p>
+<h2 id="文件的替身快捷方式">
+  文件的「替身」——快捷方式
+  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e7%9a%84%e6%9b%bf%e8%ba%ab%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f">#</a>
+</h2>
+<p>你是怎么启动「网易云音乐」的呢？</p>
+<p>一般来说，我们会双击桌面上的「网易云音乐」或者点击开始菜单中的「网易云音乐」。不管是桌面上的「网易云音乐」还是开始菜单里的「网易云音乐」，它们都是不是这个 app 本身——app 本身的样子我们在上面刚刚看过——而是另一种特殊类型的文件，称作「快捷方式」。</p>
+<p><img src="file-and-file-management/Untitled%2011.png" alt="Untitled" /></p>
+<p>「快捷方式」可以看成某个具体文件的单向「指针」或者说「替身」，指向电脑某个角落里的某个文件。它的扩展名是 <code>lnk</code>，但实际上不可见³。你桌面上的「网易云音乐」，指向的正是网易云音乐软件目录下的那个 <code>cloudmusic.exe</code> 文件。右击桌面上的【网易云音乐】，选择【属性】，会弹出这个快捷方式的详细信息：</p>
+<p><img src="file-and-file-management/Untitled%2012.png" alt="Untitled" /></p>
+<p>其中「目标」一栏填写的正是 <code>cloudmusic.exe</code> 这个可执行文件，即「网易云音乐」的主程序的路径：</p>
+<pre tabindex="0"><code>D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
+</code></pre><p>因此，你双击打开这个「网易云音乐」快捷方式，就会打开 <code>cloudmusic.exe</code> 这个文件。如果你<strong>删掉了这个快捷方式，它并不会影响 <code>cloudmusic.exe</code> 这个文件，不会影响你电脑上安装的网易云音乐本身。</strong></p>
+<p><strong>（因此，卸载软件绝不是把桌面上的「快捷方式」删掉就完事的）</strong></p>
+<p>所有类型的文件以及文件夹都可以制作无数个快捷方式。如果你想给自己的某个文件 / 文件夹制作一个快捷方式，只需右键它，选择【发送到】→【桌面快捷方式】，就能在桌面生成一个指向这个文件的快捷方式了。这个快捷方式可以挪到系统的任何地方，也可以复制粘贴出很多个副本。它们全都指向原来的那个文件本身。</p>
+<p>一般来说，快捷方式的图标左下角会有一个「↗」符号。这个符号标志着这个文件并非某文件本身而是一个快捷方式。</p>
+<h2 id="合多为一精简空间压缩文件">
+  合多为一，精简空间——压缩文件
+  <a class="anchor" href="#%e5%90%88%e5%a4%9a%e4%b8%ba%e4%b8%80%e7%b2%be%e7%ae%80%e7%a9%ba%e9%97%b4%e5%8e%8b%e7%bc%a9%e6%96%87%e4%bb%b6">#</a>
+</h2>
+<p>压缩文件并不是什么「特殊类型」的文件，但这里我们依然把它单独拿出来介绍。</p>
+<p>压缩文件是利用一种特殊的软件「压缩软件」，将一批文件和文件夹「打包」而成的一种单个文件。假设你有 8 个文件夹以及 7 个文件一共 15 个项目，你想一次性把它们分享给别人，那么把它们打包成一个压缩文件不失是一种好的选择。</p>
+<p><img src="file-and-file-management/Untitled%2013.png" alt="Untitled" /></p>
+<p>压缩文件有很多种类。最常用的是 <code>zip</code> 文件和 <code>rar</code> 文件，但后者的压缩软件是收费的⁴。我们建议在与他人交换文件的时候，只使用 <code>zip</code> 格式打包。</p>
+<p>如果你电脑上已经安装有压缩软件，那么可以参照下面的方法将一批文件打包成一个压缩包：</p>
+<ul>
+<li>
+<p>选中你要打包的文件。可以是一个文件 / 文件夹，也可以是一群文件 / 文件夹。</p>
+</li>
+<li>
+<p>右击，选择【添加到压缩包】或者类似的选项。</p>
+</li>
+<li>
+<p>设置参数，例如压缩格式（推荐 <code>zip</code> 格式）、压缩后的文件的文件名以及压缩方式。</p>
+<p>一般来说，压缩后的文件的体积要比原来松散文件的体积小（所谓「压缩」）。具体而言，在压缩时可以选择「更快压缩」和「更小体积」之类的选项，前者压缩、解压都更快，但压缩时体积缩小得不明显；后者压缩、解压相对较慢，但压缩后体积可能缩小得更多。</p>
+</li>
+<li>
+<p>开始压缩。压缩完成后，在原来的文件的相同目录下，就会生产一个 <code>&lt;文件名&gt;.zip</code> 的文件。</p>
+</li>
+</ul>
+<p>如果收到一个压缩文件，我们一般需要将它解压。如果你电脑上已经安装有压缩软件，那么可以参照下面的方法来解压缩：</p>
+<ul>
+<li>右击压缩文件，选择【解压⁵到当前文件夹】或者【解压到 <code>&lt;文件名&gt;\</code>】。这两个选项的不同是：
+<ul>
+<li>
+<p>【解压到当前文件夹】会把压缩文件里的内容直接放在压缩文件的同一目录下。例如，如果一个压缩文件 <code>archive.zip</code> 里面有 <code>a.txt</code> 和 <code>b.txt</code> 两个文件，选择此选项，解压后 <code>a.txt</code> 和 <code>b.txt</code> 都和 <code>archive.zip</code> 在同一级目录。</p>
+<p><img src="file-and-file-management/Untitled%2014.png" alt="Untitled" /></p>
+</li>
+<li>
+<p>【解压到 <code>&lt;文件名&gt;\</code>】会把压缩文件里的内容放在一个子文件夹里面。在上面的例子中选择这个选项，会在 <code>archive.zip</code> 的同一级目录新建一个文件夹 <code>archive</code>，然后把 <code>a.txt</code> 和 <code>b.txt</code> 放在 <code>archive</code> 文件夹下。</p>
+<p><img src="file-and-file-management/Untitled%2015.png" alt="Untitled" /></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>我们建议，为了不让自己的工作目录变得混乱，<strong>除非你知道自己这样做的原因，否则总是使用「解压到 <code>&lt;文件名&gt;\</code>」</strong>。（想想为什么？）</p>
+<p>如果我们只是想查看一个压缩文件的内容，而不把它解压，或者只提取出压缩文件中的一个文件，在系统装有压缩软件的情况下可以直接双击打开压缩文件。直接双击打开压缩文件，压缩软件会展示出其中的内容。双击这里面的单个文件可以临时取出这一个文件并打开它，拖拽其中的单个文件到其他地方可以只取出这一个文件而不解压整个压缩文件。</p>
+<p>有关压缩格式和压缩软件以及它们的使用的更多细节，请参见 <a href="http://localhost:1313/missing/archive-formats-and-tools.html">压缩文件与压缩工具</a>。</p>
+<h2 id="文件的打开方式">
+  文件的打开方式
+  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e7%9a%84%e6%89%93%e5%bc%80%e6%96%b9%e5%bc%8f">#</a>
+</h2>
+<p>在前文中说到，不同类型的文件需要用不同的 app 来打开。对于一个特定的文件类型，打开它的 app 称为它的「打开方式」。如果「打开方式」不对，就会出现问题。</p>
+<p>容易想到，Word 文档 <code>doc</code> 和 <code>docx</code> 文件的打开方式就是 Word 软件或者 WPS 软件；图片 <code>jpg</code>、 <code>png</code> 等的打开方式就是各种看图软件；PDF 文档 <code>pdf</code> 的打开方式就是 PDF 阅读器，例如 Acrobat 或者 SumatraPDF……</p>
+<blockquote>
+<p>可执行文件的打开方式是什么呢？这个问题这里不作回答，因为这不构成一个问题。</p>
+</blockquote>
+<p>系统内部维护有一张「表」，这个「表」记录了已知的文件类型（扩展名）和对应的打开方式。你可以把这张表想象成这样：</p>
+<table>
+<thead>
+<tr>
+<th>扩展名</th>
+<th>用什么软件打开</th>
+<th>软件主程序的路径在哪</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>txt</td>
+<td>记事本</td>
+<td>C:\Windows\system32\notepad.exe</td>
+</tr>
+<tr>
+<td>docx</td>
+<td>Word</td>
+<td>C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE</td>
+</tr>
+<tr>
+<td>mp3</td>
+<td>网易云音乐</td>
+<td>D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe</td>
+</tr>
+<tr>
+<td>……</td>
+<td>……</td>
+<td>……</td>
+</tr>
+</tbody>
+</table>
+<p>有了这张表，系统就能自动地帮我们选择文件对应的打开方式。有时，我们不想要用这张表帮我们预置的方式来打开文件。比如，打开 <code>jpg</code> 图片的默认方式是「图片」软件，但如果我们想 <strong>暂时</strong> 用「Photoshop」来打开它，我们可以这样做：</p>
+<ul>
+<li>
+<p>右键要打开的这个 <code>jpg</code> 文件，选择【打开方式】，在里面选择【Adobe Photoshop】。</p>
+<p><img src="file-and-file-management/Untitled%2016.png" alt="Untitled" /></p>
+</li>
+<li>
+<p>如果上一步找不到「Adobe Photoshop」，那么选择【打开方式】→【选择其他应用】。然后在弹出的对话框中寻找【Adobe Photoshop】，点击并选择【确定】。注意 <strong>不要</strong> 勾选「始终使用此应用打开 <code>.jpg</code> 文件」。</p>
+<p><img src="file-and-file-management/Untitled%2017.png" alt="Untitled" /></p>
+</li>
+<li>
+<p>如果上一步还找不到「Adobe Photoshop」，而你确实电脑上装有 Photoshop，那么可能需要手动找到 Photoshop 的那个可执行文件，也就是它的 <code>exe</code> 文件。这个文件的路径——也就是软件的安装路径——在下一章我们会提到。一般来说是在 <code>C:\Program Files</code> 或者 <code>C:\Program Files (x86)</code> 之下的某个文件夹中。</p>
+</li>
+</ul>
+<p>**如果你想永久地指派某一文件的打开方式，则可以在上面步骤的基础上，勾选【始终使用此应用打开 <code>xxx</code> 文件】。**这样，系统内部的那张「表」就会被更改，系统以后都会用你指派的新应用来打开这种文件。</p>
+<p>除了你手动更改之外，这张「表」还可能在这些情况被更改：</p>
+<ul>
+<li>系统安装更新，即 Windows 更新之后，这张表可能会被重置而丢失一些项目，造成某些文件突然无法打开。这有可能是由于你使用的对应软件并不是原版，而是某种「精简版」。</li>
+<li>新安装一个软件时，软件安装程序可能写入新的表项，来为即将安装的新软件的文件类型配置打开方式。</li>
+<li>Windows 的各种恶性 bug 和恶心操作。例如，Windows 会时不时用 Microsoft Edge 代替其他软件来打开网页文件和 <code>pdf</code> 文件等。 <del>（微软你坏事做尽）</del></li>
+</ul>
+<p>如果你的文件关联某天突然失效，即某种类型的文件突然无法打开，但对应的软件工作正常，那么可以考虑是否是上面的原因。</p>
+<h2 id="管理好你的文件">
+  管理好你的文件
+  <a class="anchor" href="#%e7%ae%a1%e7%90%86%e5%a5%bd%e4%bd%a0%e7%9a%84%e6%96%87%e4%bb%b6">#</a>
+</h2>
+<p>管理好我们的文件，不外乎两个方面：</p>
+<ul>
+<li>对自己的文件进行整理归类。比起将所有文件「随手乱放」，如果我们将自己的文件按它们的性质、类别等归类存放，必然有助于提升我们的工作效率。</li>
+<li>不把（重要）文件放在 C 盘。在前文我们说了，C 盘是 Windows 系统整个所在的地方。尽管发生这种情况的概率很低，但当我们的电脑因为这样或那样的原因损坏，而需要重装系统的时候，你会不得不失去 C 盘的所有文件——安装系统的第一步就是格式化 C 盘。让自己的文件远离 C 盘，是合理管理我们的文件的重要部分。</li>
+</ul>
+<h3 id="为文件安家">
+  为文件安家
+  <a class="anchor" href="#%e4%b8%ba%e6%96%87%e4%bb%b6%e5%ae%89%e5%ae%b6">#</a>
+</h3>
+<p>首先为你要放的文件选择一个合适的位置。</p>
+<p>桌面，以及 Windows 系统预置的那些文件夹（「文档」「视频」「图片」等，打开【此电脑】就可以直接看到），除非按照后文所介绍的方法更改位置，否则全部是 C 盘内部的空间，因此在你手动更改它们的位置之前，<strong>不建议</strong> 将自己的文件放在这些地方。</p>
+<p>另一方面，非 C 盘的分区，例如 D 盘甚至后续更多的磁盘分区，都是可以考虑的存放自己资料的位置。</p>
+<p>找到一个合适的位置后，我们便可以建立一套自己的分类方法来对文件进行整理和分类。</p>
+<ul>
+<li>例如你有一些「学习资源」，你便可以在 D 盘或是什么别的盘建立一个名为「学习资源」的文件夹，再在其下——无论是按学科（例如「高数」「线代」「物理」），还是按时间（例如「大一上」「大一下」）——建立更多的子文件夹，来为它们进行更为详尽的分类。</li>
+<li>再例如你有许多「大片」，你也可以按照地区、上映时间甚至是主演什么的为它们分类。不过鉴于大片不仅是名气大，占用空间也大，我们推荐腾出一个分区（甚至是一块硬盘）来存放它们。</li>
+</ul>
+<p>总的来说，**「为你的文件进行合理分类」<strong>与</strong>「将你的硬盘进行合理分配」**便是这里的核心思想。</p>
+<h3 id="定期打扫">
+  定期打扫
+  <a class="anchor" href="#%e5%ae%9a%e6%9c%9f%e6%89%93%e6%89%ab">#</a>
+</h3>
+<p>电脑里面的东西总是随着我们的日常使用而越积越多 <del>（这里点名 QQ 的 <code>FileRecv</code> 和 <code>Image</code> 文件夹，藏得又深，又乱七八糟；还有微软的更新，一更一大堆）</del> ，所以定期检查你不需要的东西然后扔掉它们显得尤为重要。</p>
+<p>对于系统分区 C 盘来说，你不去动它，它也会被塞入一些诸如系统临时文件、Windows 更新文件等等这些。我们推荐新手用户们运用一些诸如「火绒安全软件」「360 电脑管家」之类的 app 中的清理功能进行文件的清理。</p>
+<p>但是上述软件并不会把我们日常中积累的用户文件（例如你收到的课件、文档等）也清理掉，但在日常使用过程中，我们也会不可避免地产生许许多多的冗余文件，或是曾经需要而现在不再需要的文件。这里不妨就来看看上文所讲的那个 <code>FileRecv</code> 文件夹：</p>
+<ul>
+<li>这个文件夹默认位于 <code>文档\Tencent Files\&lt;QQ 号&gt;\</code> 处，每个不同的 QQ 号都有一个属于自己的个人文件夹。如果你没有按照后文「更改用户文件夹的存储位置」迁移「文档」文件夹的话，这东西也在 C 盘里，因为「文档」是在 C 盘里的；</li>
+<li>点开 <code>FileRecv</code>，你在使用 QQ 的过程中接收到的所有文件都在此处，其中通过手机发给电脑的文件存储于专属子文件夹 <code>MobileFile</code> 中；</li>
+<li>将 <code>FileRecv</code> 文件夹中的所有文件检查一遍，有用的就如上文所述归类、无用的则直接删除，这就大功告成了。</li>
+</ul>
+<p>事实上 QQ 为用户提供了更改用户个人文件夹位置的功能，但是似乎更改的时候并不会将你曾经接收的文件一并移走，着实不好用，这里并不推荐。</p>
+<p>同样地，在你已经归好类的文件体系中，也要时不时进行检查，删去冗余与无用文件，这样能够保持你的文件系统简而精。《礼记·大学》载：「苟日新，日日新，又日新。」如是而已。</p>
+<h3 id="更改用户文件夹的存储位置-">
+  更改用户文件夹的存储位置 *
+  <a class="anchor" href="#%e6%9b%b4%e6%94%b9%e7%94%a8%e6%88%b7%e6%96%87%e4%bb%b6%e5%a4%b9%e7%9a%84%e5%ad%98%e5%82%a8%e4%bd%8d%e7%bd%ae-">#</a>
+</h3>
+<p>上文提到了一个叫做 <code>文档</code> 的文件夹，它是系统预置的一个用户文件夹。在介绍这一部分之前，我们先简单提一下「用户文件夹」是什么。</p>
+<p>如前所言，Windows 系统默认为用户准备了几个文件夹来进行文件的分类。通过双击桌面上的【此电脑】，展开【文件夹】折叠项，你可以看到这些文件夹：</p>
+<p><img src="file-and-file-management/User_directories.png" alt="User_directories.png" /></p>
+<p>Windows 系统的本意，是希望用户可以借助这些文件夹来辅助进行文件的整理。可是，这些文件夹默认情况下全部位于 C 盘（路径是 <code>C:\用户\&lt;你的用户名&gt;\</code> ），而把大量的个人文件放在 C 盘是我们所不建议的。那这些系统「好心」准备给我们的文件夹就都不能使用了吗？答案是否定的——通过迁移这些文件夹到 D 盘，我们可以在利用好这些用户文件夹的同时，保证自己的数据安全和系统稳定。</p>
+<blockquote>
+<p>看到这几个文件夹中的「桌面」，你是否会有点奇怪？桌面为什么也是这里的一部分呢？事实上，桌面的本质也是一个用户文件夹。桌面上你放的文件、各个 app 的快捷方式都在这个文件夹中。</p>
+</blockquote>
+<p>我们打开 <code>C:\用户\&lt;你的用户名&gt;\</code> 可以看到全部的用户文件夹。这些文件夹涵盖了「桌面」「文档」「图片」「音乐」「视频」等多种类别，并且都配有形象的图标，如图：</p>
+<p><img src="file-and-file-management/Untitled%2018.png" alt="Untitled" /></p>
+<p>我们的目的是把这些文件夹「迁移」到 D 盘（或者其他的某个磁盘，这里以 D 盘为例）。这样，我们就可以充分地利用系统预置的这一批用户文件夹了。</p>
+<p>右击某个我们想要迁移的文件夹（比如【桌面】），选择【属性】，然后切换到【位置】选项卡，如图：</p>
+<p><img src="file-and-file-management/Untitled%2019.png" alt="Untitled" /></p>
+<p>我们将这里文本框中</p>
+<pre tabindex="0"><code>C:\Users\&lt;你的用户名&gt;\
+</code></pre><p>这一部分**（注意：最后一个 <code>Desktop</code>、 <code>Documents</code> 之类的名字不要动！）**⁶改成</p>
+<pre tabindex="0"><code>D:\
+</code></pre><p><strong>也就是说，对于「桌面」而言，改完之后的完整路径是</strong></p>
+<pre tabindex="0"><code>D:\Desktop
+</code></pre><p>例如：</p>
+<p><img src="file-and-file-management/Untitled%2020.png" alt="Untitled" /></p>
+<p>点击【应用】，提示「文件夹 “D:\Desktop” 不存在，是否新建该文件夹」，选择【是】。</p>
+<p>紧接着提示「是否要将所有文件从原位置移动到新位置」，选择【是】。</p>
+<p>一般来说移动操作很快就会完成。完成后，点击【确定】。这样「桌面」文件夹就被成功地迁移到了 D 盘。你可以打开 <code>D:\桌面</code> 来查看其中的内容，与你桌面上真正看到的东西应该大同小异。</p>
+<blockquote>
+<p>对于桌面而言，现在你放在桌面上的文件本质上就存在 D 盘里了。但我们依然不建议你在桌面上放太多文件——因为这样不方便你自己寻找。</p>
+</blockquote>
+<p><strong>强烈建议进行迁移的用户文件夹有：「文档」「桌面」「下载」。</strong></p>
+<p><strong>建议进行迁移的用户文件夹有：「视频」「图片」「音乐」。</strong></p>
+<p>迁移完成之后，你可以在迁移之后的位置（比如 D 盘）看到这些文件夹。它们现在不在原来的 <code>C:\用户\&lt;你的用户名&gt;\</code> 那里了。</p>
+<p><img src="file-and-file-management/Moved_user_directories.png" alt="Moved_user_directories.png" /></p>
+<h2 id="练习">
+  练习
+  <a class="anchor" href="#%e7%bb%83%e4%b9%a0">#</a>
+</h2>
+<ol>
+<li>
+<p>查看自己电脑的几个分区的「卷标」，并依照自己的文件分类习惯修改成自己所喜欢的名字。例如，叫「资料」或者「Files」就比「新加卷」或者没有卷标（会显示「本地磁盘」）要直观得多。</p>
+</li>
+<li>
+<p>尝试把一个图片文件的扩展名改成 <code>txt</code>，然后用「记事本」打开它。你看到了什么？<em>记得改回来哦！</em></p>
+</li>
+<li>
+<p>试着迁移用户文件夹到 D 盘或者其他非 C 盘的分区，然后利用这些用户文件夹帮助自己整理文件。</p>
+<p>注意迁移的时候千万看清楚目标路径是完整的 <code>D:\Documents</code>、 <code>D:\Desktop</code> 这样的路径，而不是光秃秃的一个 <code>D:\</code>。</p>
+</li>
+<li>
+<p>整理你的 QQ 文件接收文件夹 <code>FileRecv</code>。</p>
+</li>
+<li>
+<p>选择你自己的几个文件和文件夹，把它们打包成一个压缩文件 <code>MyArchive.zip</code>，复制到其他的某个地方，尝试两种不同的解压方式「解压到当前位置」「解压到 MyArchive\」。</p>
+</li>
+<li>
+<p>创建一个文档（可以是纯文本文件 <code>txt</code> 或者 Word 文档 <code>docx</code> 等）并写入一些内容，然后制作它的两个快捷方式，并把这两个快捷方式放在两个与源文件都不一样的地方。试着双击打开那两个快捷方式，你发现了什么？删掉两个快捷方式中的一个，源文件被删除了吗？另一个快捷方式还在吗？</p>
+</li>
+</ol>
+<h2 id="注释">
+  注释
+  <a class="anchor" href="#%e6%b3%a8%e9%87%8a">#</a>
+</h2>
+<ol>
+<li>这是因为 A 和 B 两个盘符在过去是留给「软盘」的，但软盘早就已经成为历史了，不过这个习惯却保留了下来。</li>
+<li>有时候我们称呼文件的扩展名时也会把点号包含进去。下面两种说法是等价的：
+<ul>
+<li>某文件的扩展名是 <code>txt</code>。</li>
+<li>某文件的扩展名是 <code>.txt</code>。</li>
+</ul>
+</li>
+<li>千万不要手动把一个正常文件的扩展名改成 <code>lnk</code>，否则就很难改回来了。</li>
+<li>具体来说，大多数压缩工具都可以解压 <code>rar</code> 格式的压缩包，但只有 WinRAR 这一款压缩工具可以制作这种格式的压缩包；而这款工具是收费的。详见 <a href="http://localhost:1313/missing/archive-formats-and-tools.html">压缩文件与压缩工具</a>。</li>
+<li>部分压缩工具称「解压」为「提取」，是同一个词（Extract）的不同翻译。</li>
+<li>如果你不小心把一个用户文件夹的位置设置成了某个磁盘的根目录（比如说 <code>D:\</code>），会触发 Windows 系统的一个 bug，导致很难再改回来。<del>（辣鸡 Windows）</del></li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#文件与文件管理">文件与文件管理</a>
+      <ul>
+        <li><a href="#硬盘的分区">硬盘的分区</a></li>
+        <li><a href="#文件文件名和文件类型">文件、文件名和文件类型</a></li>
+        <li><a href="#文件夹路径和目录">文件夹、路径和目录</a></li>
+        <li><a href="#程序本身可执行文件exe-文件">程序本身——可执行文件（<code>exe</code> 文件）</a></li>
+        <li><a href="#文件的替身快捷方式">文件的「替身」——快捷方式</a></li>
+        <li><a href="#合多为一精简空间压缩文件">合多为一，精简空间——压缩文件</a></li>
+        <li><a href="#文件的打开方式">文件的打开方式</a></li>
+        <li><a href="#管理好你的文件">管理好你的文件</a>
+          <ul>
+            <li><a href="#为文件安家">为文件安家</a></li>
+            <li><a href="#定期打扫">定期打扫</a></li>
+            <li><a href="#更改用户文件夹的存储位置-">更改用户文件夹的存储位置 *</a></li>
+          </ul>
+        </li>
+        <li><a href="#练习">练习</a></li>
+        <li><a href="#注释">注释</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

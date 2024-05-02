@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head><script src="/missing/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=missing/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="成为空间管理大师#本章会为大家在用电脑时非常苦恼的一件事——硬盘空间吃紧，来提供一些建议与小技巧，看完本章，下面的问题你应该有了眉目：
+为什么我的 C 盘不知不觉就红了？C 盘要多大才合适？ 分区快满了（「红了」）怎么办？ 我怎么把我的某个分区扩大/缩小一点？ 有没有什么办法把 C 盘一些占空间又不能动的东西移到别处去？ 在正式进入这一章之前，请大声朗读三遍以下八字真言，并时刻牢记于心：
+数据无价，谨慎操作！
+Data is Precious, Operate Carefully!
+就作者观察到身边朋友所见的电脑日常问题中，除了「软件怎么不能用」「为什么电脑变慢了」这样笼统的问题外，最多的抱怨就是「我电脑又满了」，而这「满」，大部分指的是系统分区 C 盘。本章的所有内容，正是围绕「怎么样让我的电脑不那么满」这一需求展开的。
+给 C 盘分点空间#早年间，大约到 Windows 7 时代为止，C 盘空间大小并没有今天这般令人苦恼。彼时的日常用户，为 C 盘提供约 60 GB 空间，就能满足这台电脑以后一直使用的需求。Windows 8 系列暂且不论（反正也没多少人用），自 Windows 10 时代开始，系统本身与后续使用对空间的需求似乎迅速提升了。人们想着:「大概为 C 盘分个 100 GB 应该差不多吧。」然而事与愿违，如此想法总是导致了这样的事情：
+但是，系统在初装时只占用了 20 至 30 GB 不等的空间，而为空间所困的大家都会想着把软件尽量装到其他分区中，但为何用着用着 C 盘还是变成「红盘」了呢？这是因为软件所占的空间不止是本体，还有它在运行期间所产生的各种数据。
+用 WizTree 分析一下 C 盘（详见工具类软件推荐），你可能会发现，占空间最多的部分，除了系统文件夹 Windows 以外，还有应用程序相关的文件夹（Program Files、Program Files (x86)，以及 Program Data）、你自己的用户文件夹，以及可能有一个神秘的 hyberfil.sys 文件。让我们来一一探查。
+程序文件夹#你如果留心观察过软件的安装过程，或者仔细阅读了软件的寻找与安装一章，就会知道 Program Files 与 Program Files (x86) 两个文件夹是用来存放软件本体的文件夹。不过，实际上它们存放的是「为所有用户安装的软件」，至于只为一个用户安装的软件，我们后面再说。那么，为什么要分两个文件夹呢？这还要从 CPU 说起。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/missing/manage-storage.html">
+  <meta property="og:site_name" content="你缺失的那门计算机课">
+  <meta property="og:title" content="空间管理大师">
+  <meta property="og:description" content="成为空间管理大师#本章会为大家在用电脑时非常苦恼的一件事——硬盘空间吃紧，来提供一些建议与小技巧，看完本章，下面的问题你应该有了眉目：
+为什么我的 C 盘不知不觉就红了？C 盘要多大才合适？ 分区快满了（「红了」）怎么办？ 我怎么把我的某个分区扩大/缩小一点？ 有没有什么办法把 C 盘一些占空间又不能动的东西移到别处去？ 在正式进入这一章之前，请大声朗读三遍以下八字真言，并时刻牢记于心：
+数据无价，谨慎操作！
+Data is Precious, Operate Carefully!
+就作者观察到身边朋友所见的电脑日常问题中，除了「软件怎么不能用」「为什么电脑变慢了」这样笼统的问题外，最多的抱怨就是「我电脑又满了」，而这「满」，大部分指的是系统分区 C 盘。本章的所有内容，正是围绕「怎么样让我的电脑不那么满」这一需求展开的。
+给 C 盘分点空间#早年间，大约到 Windows 7 时代为止，C 盘空间大小并没有今天这般令人苦恼。彼时的日常用户，为 C 盘提供约 60 GB 空间，就能满足这台电脑以后一直使用的需求。Windows 8 系列暂且不论（反正也没多少人用），自 Windows 10 时代开始，系统本身与后续使用对空间的需求似乎迅速提升了。人们想着:「大概为 C 盘分个 100 GB 应该差不多吧。」然而事与愿违，如此想法总是导致了这样的事情：
+但是，系统在初装时只占用了 20 至 30 GB 不等的空间，而为空间所困的大家都会想着把软件尽量装到其他分区中，但为何用着用着 C 盘还是变成「红盘」了呢？这是因为软件所占的空间不止是本体，还有它在运行期间所产生的各种数据。
+用 WizTree 分析一下 C 盘（详见工具类软件推荐），你可能会发现，占空间最多的部分，除了系统文件夹 Windows 以外，还有应用程序相关的文件夹（Program Files、Program Files (x86)，以及 Program Data）、你自己的用户文件夹，以及可能有一个神秘的 hyberfil.sys 文件。让我们来一一探查。
+程序文件夹#你如果留心观察过软件的安装过程，或者仔细阅读了软件的寻找与安装一章，就会知道 Program Files 与 Program Files (x86) 两个文件夹是用来存放软件本体的文件夹。不过，实际上它们存放的是「为所有用户安装的软件」，至于只为一个用户安装的软件，我们后面再说。那么，为什么要分两个文件夹呢？这还要从 CPU 说起。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+<title>空间管理大师 | 你缺失的那门计算机课</title>
+<link rel="manifest" href="/missing/manifest.json">
+<link rel="icon" href="/missing/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/missing/manage-storage.html">
+<link rel="stylesheet" href="/missing/book.min.1109b488ae863dd48ec30011f70dd30abf793dd5091bb3d299915df4eee117e4.css" integrity="sha256-EQm0iK6GPdSOwwAR9w3TCr95PdUJG7PSmZFd9O7hF&#43;Q=" crossorigin="anonymous">
+  <script defer src="/missing/flexsearch.min.js"></script>
+  <script defer src="/missing/zh.search.min.4326e07cffb7753f8b2653d6a92c1ce37f614bfff45257482a3490293b85b2e4.js" integrity="sha256-QybgfP&#43;3dT&#43;LJlPWqSwc439hS//0UldIKjSQKTuFsuQ=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/missing/"><span>你缺失的那门计算机课</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="http://localhost:1313/missing/">首页</a></li>
+<li><a href="http://localhost:1313/missing/preamble.html">序</a></li>
+<li>基础篇
+<ul>
+<li><a href="http://localhost:1313/missing/first-things-first.html">一些约定与预备知识</a></li>
+<li><a href="http://localhost:1313/missing/computer-and-its-components.html">认识你的电脑</a></li>
+<li><a href="http://localhost:1313/missing/file-and-file-management.html">文件与文件管理</a></li>
+<li><a href="http://localhost:1313/missing/software-installation.html">软件的寻找与安装</a></li>
+<li><a href="http://localhost:1313/missing/basic-maintenance.html">基本维护和安全防护</a></li>
+<li><a href="http://localhost:1313/missing/how-to-find-solutions.html">遇到问题怎么办</a></li>
+</ul>
+</li>
+<li>软件篇
+<ul>
+<li><a href="http://localhost:1313/missing/office-and-wps.html">Office 和 WPS——办公样样行</a></li>
+<li><a href="http://localhost:1313/missing/browsers-and-how-to-choose.html">浏览器——网上冲浪必备</a></li>
+<li><a href="http://localhost:1313/missing/archive-formats-and-tools.html">压缩文件与压缩工具</a></li>
+<li><a href="http://localhost:1313/missing/tools-software.html">工具类软件推荐</a></li>
+<li><a href="http://localhost:1313/missing/how-to-find-tutorials.html">怎样寻找优质的教程</a></li>
+</ul>
+</li>
+<li>进阶篇
+<ul>
+<li><a href="http://localhost:1313/missing/shortcut-keys.html">那些好用的键盘快捷键</a></li>
+<li><a href="http://localhost:1313/missing/screens-and-their-secrets.html">显示器的二三事</a></li>
+<li><a href="http://localhost:1313/missing/user-and-ms-account.html">用户与微软账号</a></li>
+<li><a href="http://localhost:1313/missing/recover-from-bsod.html">蓝屏与解决蓝屏</a></li>
+<li><a href="http://localhost:1313/missing/manage-storage.html">成为空间管理大师</a></li>
+<li><a href="http://localhost:1313/missing/windows-11-optimization.html">Windows 11 修整指南</a></li>
+</ul>
+</li>
+<li>附录
+<ul>
+<li><a href="http://localhost:1313/missing/answers.html">练习题答案</a></li>
+<li><a href="http://localhost:1313/missing/new-laptop-setup.html">笔记本新机「开荒」指南</a></li>
+</ul>
+</li>
+<li><a href="http://localhost:1313/missing/afterwords.html">跋</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/missing/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>空间管理大师</strong>
+
+  <label for="toc-control">
+    
+    <img src="/missing/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#成为空间管理大师">成为空间管理大师</a>
+      <ul>
+        <li><a href="#给-c-盘分点空间">给 C 盘分点空间</a>
+          <ul>
+            <li><a href="#程序文件夹">程序文件夹</a></li>
+            <li><a href="#用户文件夹">用户文件夹</a></li>
+            <li><a href="#休眠文件">休眠文件</a></li>
+            <li><a href="#所以-c-盘到底该多大">所以 C 盘到底该多大？</a></li>
+          </ul>
+        </li>
+        <li><a href="#影分身文件链接">影分身——文件链接</a>
+          <ul>
+            <li><a href="#符号链接">符号链接</a></li>
+            <li><a href="#硬链接">硬链接</a></li>
+            <li><a href="#目录联接-">目录联接 *</a></li>
+          </ul>
+        </li>
+        <li><a href="#拯救红盘">拯救「红盘」</a>
+          <ul>
+            <li><a href="#清理磁盘">清理磁盘</a></li>
+            <li><a href="#分区大挪移">分区大挪移</a></li>
+            <li><a href="#暗度陈仓">暗度陈仓</a></li>
+            <li><a href="#治本之道">「治本」之道</a></li>
+          </ul>
+        </li>
+        <li><a href="#练习">练习</a></li>
+        <li><a href="#注释">注释</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="成为空间管理大师">
+  成为空间管理大师
+  <a class="anchor" href="#%e6%88%90%e4%b8%ba%e7%a9%ba%e9%97%b4%e7%ae%a1%e7%90%86%e5%a4%a7%e5%b8%88">#</a>
+</h1>
+<blockquote class="book-hint info">
+  <p>本章会为大家在用电脑时非常苦恼的一件事——硬盘空间吃紧，来提供一些建议与小技巧，看完本章，下面的问题你应该有了眉目：</p>
+<ul>
+<li>为什么我的 C 盘不知不觉就红了？C 盘要多大才合适？</li>
+<li>分区快满了（「红了」）怎么办？</li>
+<li>我怎么把我的某个分区扩大/缩小一点？</li>
+<li>有没有什么办法把 C 盘一些占空间又不能动的东西移到别处去？</li>
+</ul>
+</blockquote>
+
+<p>在正式进入这一章之前，请大声朗读三遍以下八字真言，并时刻牢记于心：</p>
+<p align="center" style="font-size: 24px; font-weight: bold;">数据无价，谨慎操作！<br>Data is Precious, Operate Carefully!</p>
+<p>就作者观察到身边朋友所见的电脑日常问题中，除了「软件怎么不能用」「为什么电脑变慢了」这样笼统的问题外，最多的抱怨就是「我电脑又满了」，而这「满」，大部分指的是系统分区 C 盘。本章的所有内容，正是围绕「怎么样让我的电脑不那么满」这一需求展开的。</p>
+<h2 id="给-c-盘分点空间">
+  给 C 盘分点空间
+  <a class="anchor" href="#%e7%bb%99-c-%e7%9b%98%e5%88%86%e7%82%b9%e7%a9%ba%e9%97%b4">#</a>
+</h2>
+<p>早年间，大约到 Windows 7 时代为止，C 盘空间大小并没有今天这般令人苦恼。彼时的日常用户，为 C 盘提供约 60 GB 空间，就能满足这台电脑以后一直使用的需求。Windows 8 系列暂且不论（反正也没多少人用），自 Windows 10 时代开始，系统本身与后续使用对空间的需求似乎迅速提升了。人们想着:「大概为 C 盘分个 100 GB 应该差不多吧。」然而事与愿违，如此想法总是导致了这样的事情：</p>
+<p><img src="manage-storage/Red_C_Drive.png" alt="Red C" /></p>
+<p>但是，系统在初装时只占用了 20 至 30 GB 不等的空间，而为空间所困的大家都会想着把软件尽量装到其他分区中，但为何用着用着 C 盘还是变成「红盘」了呢？这是因为软件所占的空间不止是本体，还有它在运行期间所产生的各种数据。</p>
+<p><img src="manage-storage/Scan_C_Drive.png" alt="Scan C" /></p>
+<p>用 WizTree 分析一下 C 盘（详见<a href="http://localhost:1313/missing/tools-software.html#WizTree">工具类软件推荐</a>），你可能会发现，占空间最多的部分，除了系统文件夹 <code>Windows</code> 以外，还有应用程序相关的文件夹（<code>Program Files</code>、<code>Program Files (x86)</code>，以及 <code>Program Data</code>）、你自己的用户文件夹，以及可能有一个神秘的 <code>hyberfil.sys</code> 文件。让我们来一一探查。</p>
+<h3 id="程序文件夹">
+  程序文件夹
+  <a class="anchor" href="#%e7%a8%8b%e5%ba%8f%e6%96%87%e4%bb%b6%e5%a4%b9">#</a>
+</h3>
+<p>你如果留心观察过软件的安装过程，或者仔细阅读了<a href="http://localhost:1313/missing/software-installation.html#安装软件">软件的寻找与安装</a>一章，就会知道 <code>Program Files</code> 与 <code>Program Files (x86)</code> 两个文件夹是用来存放软件本体的文件夹。不过，实际上它们存放的是「为所有用户安装的软件」，至于只为一个用户安装的软件，我们后面再说。那么，为什么要分两个文件夹呢？这还要从 CPU 说起。</p>
+<p>CPU 中有一个用于临时存储数据的结构——寄存器，寄存器能存多少位二进制数，就决定了这块 CPU 是多少位的。1980 年前后，Intel 公司推出了一系列经典 CPU，其型号以 80x86 为格式，其中 x 是一个数字，代表代数。这些 CPU 广泛用于个人电脑，我们今天使用的 Intel CPU 就是从它们发展而来。而自 80386 开始的 CPU 采用了 32 位架构，奠定了今天 CPU 位宽的基础，于是人们把个人电脑常用的 32 位 CPU 架构称作「x86」，下图是一块 80386（后来改名叫 i386）CPU。</p>
+<p><img src="manage-storage/i386.jpg" alt="i386" /></p>
+<p>但是随着时间流逝，人们对内存的需求越来越大，32 位 CPU 只能供应 
+<link rel="stylesheet" href="/missing/katex/katex.min.css" />
+<script defer src="/missing/katex/katex.min.js"></script>
+<script defer src="/missing/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \( 2^{32}\)
+</span>
+ 字节（即 4 GB）内存使用，所以人们在 32 位 CPU 的基础上发展了 64 位 CPU 来支持更大的内存。相应地，操作系统显然需要与 CPU 匹配，于是现今的操作系统大都是 64 位。但应用软件还有不少仍是 32 位的，故操作系统把软件文件夹分了两个，<code>Program Files</code> 用来存放 64 位的软件，而 <code>Program Files (x86)</code> 存放 32 位的。</p>
+<p>至于 <code>Program Data</code> 文件夹，平时它的存在感似乎微乎其微，毕竟它是一个隐藏文件夹。启用「显示隐藏文件」选项，你就可以在 C 盘根目录看到它。这个文件夹的作用，顾名思义，用来存放应用程序的数据。但是这里还要加上一些限定词，是用来存放「适用于所有用户」的数据。所以，<strong>即便你选择把软件安装到了别的分区，它仍然可能在使用过程中往 C 盘放东西。</strong></p>
+<p>在 <a href="user-and-ms-account%22%3e%7d%7d">用户与微软账户</a> 中我们知道了「多用户」的事情，而这 <code>Program Data</code> 文件夹存放的数据是不随用户变化而变化的「全局数据」。那用户自己特定的数据呢？这个问题的答案呼之欲出。</p>
+<h3 id="用户文件夹">
+  用户文件夹
+  <a class="anchor" href="#%e7%94%a8%e6%88%b7%e6%96%87%e4%bb%b6%e5%a4%b9">#</a>
+</h3>
+<p>用户文件夹里面的内容，我们一般见得多的就是「桌面」「文档」「下载」等等默认几个挂在资源管理器左侧栏的文件夹，但即便你不喜欢往这里面塞东西，你的用户文件夹还是可能非常庞大，毕竟，不只有你自己会往用户文件夹塞东西。</p>
+<p>首先打开 <code>文档</code> 文件夹，里面可能会有一些以软件名称或软件开发商名称命名的文件夹。这些文件夹正是那些软件存放用户文件的地方，例如一些游戏的存档，软件保存的文档、工程文件等等。这些是软件认为你用得着的数据。</p>
+<p>再打开你的用户文件夹，它位于 <code>C:\Users\&lt;你的用户名&gt;</code>，这里有一个隐藏的 <code>AppData</code> 文件夹，是存放所有软件用于你这个用户的数据，整个用户文件夹「看不见的内容」大多都在这里面。它里面有三个子文件夹：</p>
+<ul>
+<li><code>Roaming</code>：意为「漫游」，如果你在别的电脑上登录了相同账户，那么这部分内容会同步过去；</li>
+<li><code>Local</code>：意为「本地」，这个文件夹一般是三个中最大的，存放那些「只为当前用户安装的软件本体」与「当前账户本地使用的所有软件数据」，不会同步；</li>
+<li><code>LocalLow</code>：意为「本地低权限」，软件处于类似「受限模式」下可以访问的数据（例如浏览器的无痕模式），里面内容最少，也不会同步。</li>
+</ul>
+<p>值得一提的是，按下 <code>Windows</code> + <code>R</code>，或直接在资源管理器的地址栏内，输入 <code>%appdata%</code> 就能进入上述 <code>Roaming</code> 文件夹，而输入 <code>%localappdata%</code> 则是 <code>Local</code> 文件夹。</p>
+<p><img src="manage-storage/AppData.png" alt="AppData" /></p>
+<p><code>AppData</code> 文件夹一般不能乱动，软件通常会自己管理里面的内容。如果你对自己没有十足的信心，移动、删除里面的内容很有可能造成软件工作异常。不到万不得已的时候，不要考虑动它。</p>
+<p><img src="manage-storage/Dev_Tool_Files.png" alt="Dev Tool Files" /></p>
+<p>此外，如果你是开发人员，装了许许多多软件开发工具，那么打开用户文件夹时映入眼帘的很可能会是一大列以 <code>.</code> 开头的文件夹。这些文件夹全部都是不同 IDE 放在这里的数据，包括但不限于软件包、SDK、插件等等内容，这些也占据了相当一部分的空间。</p>
+<h3 id="休眠文件">
+  休眠文件
+  <a class="anchor" href="#%e4%bc%91%e7%9c%a0%e6%96%87%e4%bb%b6">#</a>
+</h3>
+<p>说到「休眠」，笔记本电脑用户可能会较为熟悉，盖子一合，电脑自动熄屏，进入看起来关了机的状态，这就是休眠。但是休眠为了快速唤醒，快速回到之前的工作状态，肯定不能从头开始加载系统与应用程序，于是操作系统采取了这样的方法：准备休眠时把内存中所有内容复制到硬盘某块区域，唤醒时再将它加载回内存，这就实现了快速恢复至休眠前的状态。而这「硬盘某块区域」，就是名为 <code>hiberfil.sys</code> 的休眠文件。</p>
+<p><img src="manage-storage/Hibernate_File.png" alt="Hibernate File" /></p>
+<p>那照这么说来，这休眠文件岂不是需要有机器的内存总量那么多？默认情形下的确如此，且系统会预先将这一部分空间分配给休眠文件使用，无论它用不用得着这么多。于是这无形之中占据了 C 盘一大块空间。所幸，这些都是可以调整的。</p>
+<p>你如果用不着休眠功能，可以通过命令将它关掉。首先按下 <code>Windows</code> + <code>X</code>，选择【Windows PowerShell 管理员】或【终端（管理员）】等类似选项，在打开的窗口中输入下面的命令，回车执行即可关闭休眠功能：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span>powercfg /h off
+</span></span></code></pre></div><p>如果想用休眠功能，但又不希望休眠文件占用太多空间，也可以通过命令进行调整。参照上面的方法，将执行的命令换成下面这条即可：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span>powercfg /h /size 40
+</span></span></code></pre></div><p>这将使得休眠文件大小变为内存总量的 40%，40 可以换成你想要的数值，但不能小于 40。</p>
+<h3 id="所以-c-盘到底该多大">
+  所以 C 盘到底该多大？
+  <a class="anchor" href="#%e6%89%80%e4%bb%a5-c-%e7%9b%98%e5%88%b0%e5%ba%95%e8%af%a5%e5%a4%9a%e5%a4%a7">#</a>
+</h3>
+<p>其实这个问题并没有一个决定性的答案，在此我们只能根据我们日常观察到的困境与不同的使用情况为大家提供一个参考数值。首先，不要往 C 盘里面乱堆东西，记得时时清理。<strong>如果你不搞软件开发，但为了工作生活日常使用，我们推荐为 C 盘分出约 200 GB 的空间；若你是开发人员，C 盘空间很可能需要 300 甚至 400 GB 的空间。</strong> 事实上，这么多的空间足以考虑使用一块单独的固态硬盘作为 C 盘整个分区使用了 <del>（要是你买了 1 T 以上的当我没说）</del>。</p>
+<p>当然了，如果你喜欢往 C 盘塞东西，无论是「桌面」也好，还是「文档」也好，另一种方案就是真的拿一块单独的、巨大的硬盘作为整个 C 盘，不考虑分区，也就不用考虑「软件装哪」这样的问题，不过我们实在不推荐这样。在曾经的机械硬盘时代，由于磁盘的转速一定，那么磁盘上外圈的读取速度就要快于内圈，分区可以把外圈的部分留给需要速度的数据，例如操作系统，而剩下的就可以分给其他的个人数据。但如今固态硬盘大行其道，它不存在所谓「转速」「寻道」等概念，所以也就无所谓分区，我们分区更多是为了方便管理文件。</p>
+<h2 id="影分身文件链接">
+  影分身——文件链接
+  <a class="anchor" href="#%e5%bd%b1%e5%88%86%e8%ba%ab%e6%96%87%e4%bb%b6%e9%93%be%e6%8e%a5">#</a>
+</h2>
+<p>在 <a href="http://localhost:1313/missing/file-and-file-management.html#文件的「替身」——快捷方式">文件与文件管理</a> 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 <code>lnk</code> 的文件。「不同类型的文件需要用不同的 app 来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。</p>
+<p>不妨试一试用记事本来打开一个快捷方式<a href="#%e6%b3%a8%e9%87%8a">¹</a>：</p>
+<ul>
+<li>在桌面按住 <code>Shift</code> 点右键，选择【在此处打开 PowerShell 窗口】；</li>
+<li>先输入 <code>dir</code>，你就可以看到目前你桌面上的所有文件与文件夹；</li>
+<li>再挑一个快捷方式，输入 <code>notepad &lt;快捷方式（带扩展名）&gt;</code>，你就会看到你选的快捷方式的「真面目」。</li>
+</ul>
+<p>那么有没有一种「更强力的快捷方式」，让无论是哪个应用都知道去找目标文件呢？这就是文件链接。文件链接有两种类型——「硬链接」与「符号链接」（又称「软链接」），让我们来看看它们是个什么玩意。</p>
+<h3 id="符号链接">
+  符号链接
+  <a class="anchor" href="#%e7%ac%a6%e5%8f%b7%e9%93%be%e6%8e%a5">#</a>
+</h3>
+<p>符号链接的行为有点像快捷方式，即一个指向其目标的「指针」，只不过，快捷方式只对资源管理器有效，而符号链接则对几乎任何软件来说都是快捷方式。既然它的行为类似快捷方式，那关于「删了它会怎么样」之类的问题想必不用多费口舌。总结起来就几句话：删除链接不会影响本体；删除本体则链接还在，但是找不到目标。</p>
+<p><img src="manage-storage/Symbolic_Link.png" alt="Symbolic Link" /></p>
+<p>要想创建符号链接，你可以使用命令提示符中的 <code>mklink</code> 命令或者 PowerShell 中的 <code>New-Item</code> 命令。这两种方法各有优劣，需要根据实际情况来决定使用哪一种。欲使用 <code>mklink</code>，按照以下步骤来：</p>
+<ol>
+<li>按下 <code>Windows</code> + <code>R</code>，输入 <code>cmd</code> 并回车以打开命令提示符窗口；</li>
+<li>如果你的目标是一个文件，请使用如下语法：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> &lt;链接所在路径&gt; &lt;本体所在路径&gt;
+</span></span></code></pre></div>如果是文件夹，则需指定 <code>/d</code> 选项，即：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> /d &lt;链接所在路径&gt; &lt;本体所在路径&gt;
+</span></span></code></pre></div>此前提到的 <code>%appdata%</code> 这样的特殊路径语法也可以使用，带空格的路径记得打上双引号。</li>
+</ol>
+<p>欲使用 <code>New-Item</code>（简写为 <code>ni</code>），按照以下步骤来：</p>
+<ol>
+<li>按下 <code>Windows</code> + <code>X</code>，选择【PowerShell】或【终端】；</li>
+<li>使用如下语法创建符号链接：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>ni &lt;链接所在路径&gt; -i SymbolicLink -ta &lt;本体所在路径&gt;
+</span></span></code></pre></div>这种方式对文件与文件夹都有效，但 PowerShell 无法识别 <code>%appdata%</code> 这样的特殊路径语法。同样，带空格的路径记得打上双引号。</li>
+</ol>
+<p>看上去 <code>New-Item</code> 可以用一个命令搞定文件与文件夹，挺通用，但目前它有一个重大问题——无法处理带西文方括号（「<code>[</code>」和「<code>]</code>」）的路径。所以**如果有路径包含了西文方括号，请使用 <code>mklink</code>。**如果提示什么「权限不足」之类的信息，请用管理员权限再试一次。</p>
+<p>实际上，在创建符号链接的时候，不需要让两者的名称一致，例如你可以创建一个名为 <code>114514</code> 的链接，但它指向你的 <code>高数秘籍.txt</code>。然而，若是这样做，虽然文件资源管理器知道它指向的是个什么东西，也知道用什么软件来打开目标，但其他应用可就不一定了。故我们<strong>推荐创建链接时使用与目标完全一致的名称。</strong></p>
+<h3 id="硬链接">
+  硬链接
+  <a class="anchor" href="#%e7%a1%ac%e9%93%be%e6%8e%a5">#</a>
+</h3>
+<p>硬链接的作用，一言以蔽之——从多个位置访问、修改磁盘上同一块内容。看起来好像和符号链接没差多少，但，请看下图。</p>
+<p><img src="manage-storage/Hard_Link.png" alt="Hard Link" /></p>
+<p>以一个文件为目标建立硬链接，其实是与目标文件对应的硬盘数据相连接。从某种意义上而言，这些连接到同一块数据的不同文件，彼此之间都是硬链接关系。这样一来，如果我们打开其中一个文件做修改，这实际上是通过其中一个文件修改了硬盘数据，那么再打开其他硬链接的文件，我们会发现内容是我们刚刚修改过的。譬如上图中，给 <code>E:\高数秘籍.txt</code> 加一句话，那么查看 <code>E:\高数攻略.txt</code> 则会发现也多了一句完全一样的话。但若删除一部分链接（例如删除 <code>E:\高数攻略.txt</code>），只要这块数据仍存有链接，那么它就不会被真正删除。也就是说，要想删除硬链接过的文件，需要删除链接到同块数据的所有文件。</p>
+<p>要想建立硬链接，同样是使用 <code>mklink</code> 或者 <code>New-Item</code> 命令。然而，由于绑定了磁盘上的数据，<strong>硬链接无法跨磁盘分区建立</strong>。欲使用 <code>mklink</code>，按照以下步骤来：</p>
+<ol>
+<li>按下 <code>Windows</code> + <code>R</code>，输入 <code>cmd</code> 并回车，打开命令提示符窗口；</li>
+<li>如果目标是一个文件，请使用如下语法：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> /h &lt;链接所在路径&gt; &lt;本体所在路径&gt;
+</span></span></code></pre></div>如果是文件夹，则需附加指定 <code>/d</code> 选项，即：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> /h /d &lt;链接所在路径&gt; &lt;本体所在路径&gt;
+</span></span></code></pre></div>带空格的路径记得打上双引号。</li>
+</ol>
+<p>欲使用 <code>New-Item</code>，按照以下步骤来：</p>
+<ol>
+<li>按下 <code>Windows</code> + <code>X</code>，选择【PowerShell】或【终端】；</li>
+<li>使用如下语法创建符号链接：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>ni &lt;链接所在路径&gt; -i HardLink -ta &lt;本体所在路径&gt;
+</span></span></code></pre></div>它对文件与文件夹都有效，但也无法处理带西文方括号的路径，无法识别特殊路径语法。当然，带空格的路径记得打上双引号。</li>
+</ol>
+<p>按照硬链接的行为，**无论一份数据有多少硬链接，磁盘上都应该只有一份文件的数据，只占一份文件的空间。**事实的确如此，但文件资源管理器不这么想——有多少链接，它就给你算多少份文件大小，于是乎，就有了这样占用空间比整个硬盘还大的奇景：</p>
+<p><img src="manage-storage/Interesting_Storage_Size.png" alt="Interesting_Storage_Size" /></p>
+<h3 id="目录联接-">
+  目录联接 *
+  <a class="anchor" href="#%e7%9b%ae%e5%bd%95%e8%81%94%e6%8e%a5-">#</a>
+</h3>
+<p>如果你看到过 <code>mklink</code> 的语法说明（没看到的可以现在看看，执行 <code>mklink</code> 就行），你可能会发现在指定链接类型时，除了指定文件夹的 <code>/d</code> 与指定硬链接的 <code>/h</code> 选项以外，居然还有一个 <code>/j</code> 选项，按底下的说明，它是「目录联接」。</p>
+<p>目录联接其实类似于文件夹符号链接，要是只用在自己电脑的文件上，那就没什么两样，但要是通过网络访问其他电脑上的文件，那就有差别了。</p>
+<p>假定有 Reimu 和 Marisa 两台电脑，二者之间通过网络共享数据，即它们的路径分别为 <code>\\Reimu</code> 与 <code>\\Marisa</code>。Reimu 有一个文件夹，本地路径是 <code>C:\Folder</code>，除此之外还有一个文件夹符号链接 <code>C:\SymLink</code> 与一个目录联接 <code>C:\Junc</code>，它们均指向 <code>C:\Folder</code>。现在 Marisa 要通过网络来访问这个符号链接与目录联接，则 Reimu 那边的目录联接对 Marisa 来说的路径是 <code>\\Reimu\C$\Junc</code>，指向了 <code>\\Reimu\C$\Folder</code>——正确的位置；但是，符号链接的路径是 <code>\\Reimu\C$\SymLink</code>，却指向了 <code>\\Marisa\C$\Folder</code>——Marisa 自己这边的位置！</p>
+<p>这告诉我们，符号链接并不会循着网络位置来寻找目标，而只是在本地寻找。故若需要为网络访问为目的制作链接，请使用目录联接。</p>
+<h2 id="拯救红盘">
+  拯救「红盘」
+  <a class="anchor" href="#%e6%8b%af%e6%95%91%e7%ba%a2%e7%9b%98">#</a>
+</h2>
+<p>如果很不幸，你的某些分区已经「红了」，那就必须采取一些措施以解决燃眉之急了。</p>
+<h3 id="清理磁盘">
+  清理磁盘
+  <a class="anchor" href="#%e6%b8%85%e7%90%86%e7%a3%81%e7%9b%98">#</a>
+</h3>
+<p>很多人在提到「清理硬盘空间」的时候总会联想到✕✕卫士与〇〇管家中的「垃圾清理」功能，但实际上 Windows 自带了清理硬盘空间的小工具——「磁盘清理」。</p>
+<p>要寻找磁盘清理工具，Windows 10 可以右击某个分区，点击【属性】，再点击【磁盘清理】，就可以打开清理对应分区的磁盘清理工具了。</p>
+<p><img src="manage-storage/Win_10_Disk_Clean.png" alt="Win 10 Disk Clean" /></p>
+<p>但是 Windows 11 中的这个地方被换成了「详细信息」。要找到磁盘清理，最快的方法是按下 <code>Windows</code> + <code>S</code>，输入「磁盘清理」就能找到，打开它，选择你需要清理的分区即可。</p>
+<p><img src="manage-storage/Search_For_Disk_Clean.jpg" alt="Search For Disk Clean" /></p>
+<p>等待系统扫描可以清理的文件，一个窗口将会出现在屏幕上，询问你想要清除的项目。如果你不是以管理员的权限来运行它，那么左下方会有一个「清理系统文件」的按钮，可以点击它来清理更多内容。事实上，这些地方所列出的可清理内容（包括所谓的「系统文件」）均是系统在使用过程中产生的临时文件或不那么重要的内容，如果你的空间吃紧，可以考虑全部删除。</p>
+<p><img src="manage-storage/Disk_Clean.png" alt="Disk Clean" /></p>
+<p>除此之外，Windows 11 系统也可以转到【设置】→【系统】→【存储】→【清理建议】中清理系统产生的临时文件。不过要注意的是，比起「磁盘清理」工具，这里的清理内容还能包含你的「下载」文件夹。</p>
+<p><img src="manage-storage/Clean_Suggestion.jpg" alt="Clean Suggest" /></p>
+<p>除此之外，按下 <code>Windows</code> + <code>R</code>，输入 <code>%temp%</code> 按回车，你就来到了你用户文件夹下的本地临时文件夹。如果实在没东西可删，这里的所有内容你都可以删除（不是 <code>Temp</code> 文件夹本身，是它里面的所有内容），不过删除之前建议重启电脑。</p>
+<p>但对于某些应用产生的垃圾（比如什么 QQ、微信），以及你自己用不到的个人文件，Windows 肯定无能为力了。关于这部分内容，就像我们在 <a href="http://localhost:1313/missing/file-and-file-management.html#定期打扫">文件与文件管理</a> 中说的那样——定期整理、定期打扫才是最好的方式。</p>
+<h3 id="分区大挪移">
+  分区大挪移
+  <a class="anchor" href="#%e5%88%86%e5%8c%ba%e5%a4%a7%e6%8c%aa%e7%a7%bb">#</a>
+</h3>
+<p>在<a href="http://localhost:1313/missing/new-laptop-setup.html#划分新的分区">笔记本新机「开荒」指南</a>中，我们已经介绍过如何给新电脑从默认分区中拆出一个新分区来。但是，如果你换了块硬盘，或者使用了奇怪的操作，可能就会遇到这样的尴尬事情：</p>
+<p><img src="manage-storage/Unexpandable_C.png" alt="Unexpandable C" /></p>
+<p>想要扩展空间的分区被卡在了另外动不了的分区之间，或者想要把中间的分区移动到尾部，空出来的部分给其他分区……如此这般情形 Windows 自带的磁盘管理显然无能为力。这时，我们必须求助第三方软件了，现在介绍强大的硬盘分区软件——DiskGenius。</p>
+<p><img src="manage-storage/DiskGenius.png" alt="Disk Genius" /></p>
+<p>DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁盘迁移等操作（其实它还支持数据恢复，不过免费版不提供）。它有免费版，以及付费的标准版和专业版三种版本，不过我们普通用户所需的功能，免费版就已经包含在内了。免费版可以前往<a href="https://www.diskgenius.cn/download.php">官网下载页面</a>下载。</p>
+<p>值得一提的是，DiskGenius 的启动画面上也会写有本章开头的「八字真言」，再一次提醒我们「数据无价」这不争的事实，也提醒我们自己的数据一定要做好备份，尤其是在这样需要对硬件进行危险的操作之前。</p>
+<p>打开 DiskGenius，你电脑上所有的磁盘信息均会映入眼帘：左侧是你所有磁盘与分区的列表，上方有当前磁盘的使用情况，中间一大块则是选中分区的信息。想要操作某个分区，就再上方选中那个分区，点击右键即可。</p>
+<p><img src="manage-storage/Part_Operation.png" alt="Part Operation" /></p>
+<p>现在，让我们来尝试将之前那磁盘尾部的 30 GB 空间分给在中间的 C 盘。右击空闲区域之前的那一个小分区，选择【调整分区大小】，接着，软件会弹出这样的界面：</p>
+<p><img src="manage-storage/Adjust_Part.png" alt="Adjust Part" /></p>
+<p>上方的条条是选中的分区与它周围空闲空间的情况，下面是此次调整的详细参数。你可以选择在上面的条条中直接操作，也可以选择在底下的参数中做精细调整。如果你要删除某个分区，记得先把里面的所有文件移出来或做备份。</p>
+<p>但这次我们的任务只是想把这个小分区移到末尾去，直接在上方条条中将这个小分区拖到末尾即可（注意鼠标光标的形状，别把分区拉大了）。如果想要指定分区的容量，最好还是在底下的参数中直接输入你想要的数值。</p>
+<p><img src="manage-storage/Merge_To_C.png" alt="Merge To C" /></p>
+<p>拖过去之后，下方「分区前部的空间」右侧下拉框就有用了，在这里选择【合并到 本地磁盘(C:)】，然后点击【开始】，点两下【是】。由于我们在操作系统盘，DiskGenius 会弹出「需要重启到 Windows PE」的警告，请仔细阅读警告，按其行事，然后再点【确定】，软件将开始工作。这段时间你可以喝杯茶，看看电脑上还有没有【确定】要点。一切顺利的话，电脑重启完毕后，你就能看到一个更大的 C 盘了！</p>
+<p><img src="manage-storage/Larger_C.png" alt="Larger C" /></p>
+<p>以上就是 DiskGenius 分区管理的基本使用方法，之后你就可以参照这样的做法，依据你的喜好来调整电脑上硬盘的分区情况了。</p>
+<h3 id="暗度陈仓">
+  暗度陈仓
+  <a class="anchor" href="#%e6%9a%97%e5%ba%a6%e9%99%88%e4%bb%93">#</a>
+</h3>
+<p>怎么个「暗度陈仓」法？就是说把文件/文件夹的本体移到别处有空的位置，但在原位置放上一个同名，且指向新位置的符号链接。如此一来，软件们都会认为这里还留着原本的文件/文件夹，除了删除之外，照用不误。</p>
+<p>众所周知，C 盘里的文件大都是重要的系统文件，不能轻易移动。所以<strong>这个办法是走投无路的选项之一</strong>，除非你非常理解你在做什么。不过说是「不能轻易移动」，但其实有一些文件夹还是可以动的。完全不能移动的有：</p>
+<ul>
+<li><code>Windows</code> 文件夹：系统本体；</li>
+<li><code>Program</code> 开头的三个文件夹自身：程序文件夹的根；</li>
+<li><code>Users</code> 文件夹自身：所有用户文件夹的根。</li>
+</ul>
+<p>可以移动的有：</p>
+<ul>
+<li>你的用户文件夹（不建议全移走）；</li>
+<li><code>Program Files</code> 与 <code>Program Files (x86)</code> 里面<strong>你自己装上去的程序</strong>（不推荐，不如直接在安装的时候装到别处）。</li>
+</ul>
+<p>其余的文件/文件夹均不推荐移动。也就是说，只有在实在没有办法的前提下，优先移动你用户文件夹内或前述 <code>Local</code>、<code>Roaming</code> 文件夹内的大型文件/文件夹。例如，Mathematica 安装的本地文档位置在 <code>%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn</code>，这是一个占用空间几 GB 的文件夹。我们可以将它移到别处，譬如 <code>F:\Link\Documentation.zh-Hans-cn</code>，再在原位置建立同名的文件夹符号链接即可：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> /d <span style="color:#e6db74">&#34;</span>%localappdata%<span style="color:#e6db74">\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn&#34;</span> <span style="color:#e6db74">&#34;F:\Link\Documentation.zh-Hans-cn&#34;</span>
+</span></span></code></pre></div><p>但是这「暗度陈仓」的弊端也很明显。如果你一番操作下来，建立了许多符号链接，虽然这么一来 C 盘的空间压力减轻了，但是文件之间的相互关系却变得更加混乱了。如果在放置文件本体时随性而为，那只会让混乱不堪的文件指向关系更加雪上加霜。</p>
+<p>而 Windows 没有提供从文件本体查看是否有符号链接指向它的功能，所以，我们无法知道文件本体它应当所在的原位置，也无法知道它还有没有用。更有甚者，我们可能会忘记这个文件的作用，结果误删了它。这无形之中增加了文件管理的难度。所以，如果你决定要「暗度陈仓」，请<strong>一定要留下必要的笔记或说明，并使用一个专用的文件夹来存放符号链接的本体。</strong></p>
+<h3 id="治本之道">
+  「治本」之道
+  <a class="anchor" href="#%e6%b2%bb%e6%9c%ac%e4%b9%8b%e9%81%93">#</a>
+</h3>
+<p>说真的，最能解决此类问题的方法就是加/换一块更大的硬盘，<strong>当上面那些方法依然解决不了那举步维艰的空间时，买一块更大的硬盘是唯一的解决方案。</strong></p>
+<p>但换硬盘面临的重大问题是：旧硬盘上的内容该怎么处理。如果你换的不是系统盘，那问题不大，将数据复制粘贴即可。但如果是系统盘，那一般而言有两种方案：</p>
+<ul>
+<li>为新硬盘安装新系统，舍弃旧硬盘的系统，想办法把旧硬盘的部分数据移到新硬盘；</li>
+<li>把原来硬盘上的所有内容原封不动地搬到新硬盘中。</li>
+</ul>
+<p>如果选择前者，你需要在新硬盘上安装系统，再找出旧硬盘中你需要的文件，复制到新硬盘上。如果选择后者，则可以考虑使用 DiskGenius 的「系统迁移」功能协助你的操作。</p>
+<p>打开 DiskGenius，选中待迁移的磁盘，在上方点击【系统迁移】，软件会弹出窗口来询问迁移的目标磁盘，选择你的新硬盘。默认情况下，DiskGenius 只会迁移与系统有关的分区，如果你的硬盘上还有别的数据分区，则需要进一步配置。</p>
+<p><img src="manage-storage/Configure_System_Migration.png" alt="Configure System Migration" /></p>
+<p>点击中间右侧的【分区管理】，在弹出的窗口中点击【添加分区】，选择你需要的分区，点【确定】即可添加。</p>
+<p><img src="manage-storage/Select_Migrating_Partition.png" alt="Select Migrating Partition" /></p>
+<p>回到刚才的窗口，勾选【完成后，更改电脑启动顺序】，点击【开始】，软件将会询问你想采用的执行方式，可以选择【热迁移】，它会立即开始迁移工作，不过我们不建议这时还运行别的程序。这时你可以喝杯茶，等待软件完成工作，然后重启电脑。重启之后，你会发现现在的系统已经位于刚刚换上来的那块硬盘了，而原来的硬盘你可以选择格式化，让它来做点别的事情。</p>
+<p><img src="manage-storage/Migration_Result.png" alt="Migration Result" /></p>
+<h2 id="练习">
+  练习
+  <a class="anchor" href="#%e7%bb%83%e4%b9%a0">#</a>
+</h2>
+<ol>
+<li>将一个文件/文件夹移到别处，再在原位置建立符号链接、硬链接及快捷方式，照常使用、访问它，看看三者有什么不同。</li>
+<li>尝试用「磁盘清理」工具清一下你的所有分区。</li>
+<li>查看你电脑上的分区情况，以及是否存在细小的未分配空间，若有必要，可以试着重新分区。（记得备份数据！）</li>
+</ol>
+<h2 id="注释">
+  注释
+  <a class="anchor" href="#%e6%b3%a8%e9%87%8a">#</a>
+</h2>
+<ol>
+<li>直接在记事本里面点【打开】是不行的，因为「打开」操作调用了文件资源管理器。</li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#成为空间管理大师">成为空间管理大师</a>
+      <ul>
+        <li><a href="#给-c-盘分点空间">给 C 盘分点空间</a>
+          <ul>
+            <li><a href="#程序文件夹">程序文件夹</a></li>
+            <li><a href="#用户文件夹">用户文件夹</a></li>
+            <li><a href="#休眠文件">休眠文件</a></li>
+            <li><a href="#所以-c-盘到底该多大">所以 C 盘到底该多大？</a></li>
+          </ul>
+        </li>
+        <li><a href="#影分身文件链接">影分身——文件链接</a>
+          <ul>
+            <li><a href="#符号链接">符号链接</a></li>
+            <li><a href="#硬链接">硬链接</a></li>
+            <li><a href="#目录联接-">目录联接 *</a></li>
+          </ul>
+        </li>
+        <li><a href="#拯救红盘">拯救「红盘」</a>
+          <ul>
+            <li><a href="#清理磁盘">清理磁盘</a></li>
+            <li><a href="#分区大挪移">分区大挪移</a></li>
+            <li><a href="#暗度陈仓">暗度陈仓</a></li>
+            <li><a href="#治本之道">「治本」之道</a></li>
+          </ul>
+        </li>
+        <li><a href="#练习">练习</a></li>
+        <li><a href="#注释">注释</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
