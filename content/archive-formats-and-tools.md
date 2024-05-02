@@ -169,9 +169,11 @@ Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是�
 
 WinRAR 是 RAR 格式的作者设计的软件。顾名思义，WinRAR 最大的特点就是「RAR」——它（可能）是 Windows 平台上唯一一款能够支持制作 RAR 格式压缩包的压缩软件。除了 RAR 格式外，它也支持 ZIP、7z、TAR 等各种其他压缩格式的压缩和解压。WinRAR 的软件界面如下图所示。
 
-![Untitled](archive-formats-and-tools/Untitled%206.png)
+![WinRAR 的主界面](archive-formats-and-tools/WinRAR_main_window.png#center)
 
 WinRAR 是收费的商业软件——换言之，这款软件需要购买才能合法使用。WinRAR 在中国也提供了一个「个人免费版本」，这个版本包含恶性弹窗广告——与 Bandizip 那种不同，WinRAR 的广告在打开压缩文件的时候也会弹出。如果你能接受那样的弹窗广告，那么 WinRAR 也许是一个不错的选择。
+
+![WinRAR 的弹窗广告](archive-formats-and-tools/WinRAR_ad.png#center)
 
 WinRAR 的国际官网是 [https://www.rarlab.com/](https://www.rarlab.com/)，但如果要下载「个人免费版」，请访问 WinRAR 国内代理官网 [http://www.winrar.com.cn/index.htm](http://www.winrar.com.cn/index.htm)。
 

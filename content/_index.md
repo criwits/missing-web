@@ -52,6 +52,7 @@ type: docs
 
 ## 版本修订
 
+- Content update: 修些小地方 (24/5/3)
 - Engine changed: 更换页面引擎为 Hugo (24/5/3)
 - Content update: 修些小地方 (24/4/20)
 - Content update: 完成「空间管理」一章 (24/4/18)

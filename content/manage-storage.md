@@ -25,11 +25,11 @@ type: docs
 
 早年间，大约到 Windows 7 时代为止，C 盘空间大小并没有今天这般令人苦恼。彼时的日常用户，为 C 盘提供约 60 GB 空间，就能满足这台电脑以后一直使用的需求。Windows 8 系列暂且不论（反正也没多少人用），自 Windows 10 时代开始，系统本身与后续使用对空间的需求似乎迅速提升了。人们想着:「大概为 C 盘分个 100 GB 应该差不多吧。」然而事与愿违，如此想法总是导致了这样的事情：
 
-![Red C](manage-storage/Red_C_Drive.png)
+![Red C](manage-storage/Red_C_Drive.png#center)
 
 但是，系统在初装时只占用了 20 至 30 GB 不等的空间，而为空间所困的大家都会想着把软件尽量装到其他分区中，但为何用着用着 C 盘还是变成「红盘」了呢？这是因为软件所占的空间不止是本体，还有它在运行期间所产生的各种数据。
 
-![Scan C](manage-storage/Scan_C_Drive.png)
+![Scan C](manage-storage/Scan_C_Drive.png#center)
 
 用 WizTree 分析一下 C 盘（详见[工具类软件推荐]({{<ref "tools-software.md#WizTree">}})），你可能会发现，占空间最多的部分，除了系统文件夹 `Windows` 以外，还有应用程序相关的文件夹（`Program Files`、`Program Files (x86)`，以及 `Program Data`）、你自己的用户文件夹，以及可能有一个神秘的 `hyberfil.sys` 文件。让我们来一一探查。
 
@@ -39,7 +39,7 @@ type: docs
 
 CPU 中有一个用于临时存储数据的结构——寄存器，寄存器能存多少位二进制数，就决定了这块 CPU 是多少位的。1980 年前后，Intel 公司推出了一系列经典 CPU，其型号以 80x86 为格式，其中 x 是一个数字，代表代数。这些 CPU 广泛用于个人电脑，我们今天使用的 Intel CPU 就是从它们发展而来。而自 80386 开始的 CPU 采用了 32 位架构，奠定了今天 CPU 位宽的基础，于是人们把个人电脑常用的 32 位 CPU 架构称作「x86」，下图是一块 80386（后来改名叫 i386）CPU。
 
-![i386](manage-storage/i386.jpg)
+![i386](manage-storage/i386.jpg#floatleft)
 
 但是随着时间流逝，人们对内存的需求越来越大，32 位 CPU 只能供应 {{<katex>}} 2^{32}{{</katex>}} 字节（即 4 GB）内存使用，所以人们在 32 位 CPU 的基础上发展了 64 位 CPU 来支持更大的内存。相应地，操作系统显然需要与 CPU 匹配，于是现今的操作系统大都是 64 位。但应用软件还有不少仍是 32 位的，故操作系统把软件文件夹分了两个，`Program Files` 用来存放 64 位的软件，而 `Program Files (x86)` 存放 32 位的。
 
@@ -60,11 +60,11 @@ CPU 中有一个用于临时存储数据的结构——寄存器，寄存器能�
 
 值得一提的是，按下 `Windows` + `R`，或直接在资源管理器的地址栏内，输入 `%appdata%` 就能进入上述 `Roaming` 文件夹，而输入 `%localappdata%` 则是 `Local` 文件夹。
 
-![AppData](manage-storage/AppData.png)
+![AppData](manage-storage/AppData.png#center)
 
 `AppData` 文件夹一般不能乱动，软件通常会自己管理里面的内容。如果你对自己没有十足的信心，移动、删除里面的内容很有可能造成软件工作异常。不到万不得已的时候，不要考虑动它。
 
-![Dev Tool Files](manage-storage/Dev_Tool_Files.png)
+![Dev Tool Files](manage-storage/Dev_Tool_Files.png#center)
 
 此外，如果你是开发人员，装了许许多多软件开发工具，那么打开用户文件夹时映入眼帘的很可能会是一大列以 `.` 开头的文件夹。这些文件夹全部都是不同 IDE 放在这里的数据，包括但不限于软件包、SDK、插件等等内容，这些也占据了相当一部分的空间。
 
@@ -72,7 +72,7 @@ CPU 中有一个用于临时存储数据的结构——寄存器，寄存器能�
 
 说到「休眠」，笔记本电脑用户可能会较为熟悉，盖子一合，电脑自动熄屏，进入看起来关了机的状态，这就是休眠。但是休眠为了快速唤醒，快速回到之前的工作状态，肯定不能从头开始加载系统与应用程序，于是操作系统采取了这样的方法：准备休眠时把内存中所有内容复制到硬盘某块区域，唤醒时再将它加载回内存，这就实现了快速恢复至休眠前的状态。而这「硬盘某块区域」，就是名为 `hiberfil.sys` 的休眠文件。
 
-![Hibernate File](manage-storage/Hibernate_File.png)
+![Hibernate File](manage-storage/Hibernate_File.png#floatright)
 
 那照这么说来，这休眠文件岂不是需要有机器的内存总量那么多？默认情形下的确如此，且系统会预先将这一部分空间分配给休眠文件使用，无论它用不用得着这么多。于是这无形之中占据了 C 盘一大块空间。所幸，这些都是可以调整的。
 
@@ -111,7 +111,7 @@ powercfg /h /size 40
 
 符号链接的行为有点像快捷方式，即一个指向其目标的「指针」，只不过，快捷方式只对资源管理器有效，而符号链接则对几乎任何软件来说都是快捷方式。既然它的行为类似快捷方式，那关于「删了它会怎么样」之类的问题想必不用多费口舌。总结起来就几句话：删除链接不会影响本体；删除本体则链接还在，但是找不到目标。
 
-![Symbolic Link](manage-storage/Symbolic_Link.png)
+![Symbolic Link](manage-storage/Symbolic_Link.png#center)
 
 要想创建符号链接，你可以使用命令提示符中的 `mklink` 命令或者 PowerShell 中的 `New-Item` 命令。这两种方法各有优劣，需要根据实际情况来决定使用哪一种。欲使用 `mklink`，按照以下步骤来：
 
@@ -143,7 +143,7 @@ powercfg /h /size 40
 
 硬链接的作用，一言以蔽之——从多个位置访问、修改磁盘上同一块内容。看起来好像和符号链接没差多少，但，请看下图。
 
-![Hard Link](manage-storage/Hard_Link.png)
+![Hard Link](manage-storage/Hard_Link.png#center)
 
 以一个文件为目标建立硬链接，其实是与目标文件对应的硬盘数据相连接。从某种意义上而言，这些连接到同一块数据的不同文件，彼此之间都是硬链接关系。这样一来，如果我们打开其中一个文件做修改，这实际上是通过其中一个文件修改了硬盘数据，那么再打开其他硬链接的文件，我们会发现内容是我们刚刚修改过的。譬如上图中，给 `E:\高数秘籍.txt` 加一句话，那么查看 `E:\高数攻略.txt` 则会发现也多了一句完全一样的话。但若删除一部分链接（例如删除 `E:\高数攻略.txt`），只要这块数据仍存有链接，那么它就不会被真正删除。也就是说，要想删除硬链接过的文件，需要删除链接到同块数据的所有文件。
 
@@ -171,7 +171,7 @@ powercfg /h /size 40
 
 按照硬链接的行为，**无论一份数据有多少硬链接，磁盘上都应该只有一份文件的数据，只占一份文件的空间。**事实的确如此，但文件资源管理器不这么想——有多少链接，它就给你算多少份文件大小，于是乎，就有了这样占用空间比整个硬盘还大的奇景：
 
-![Interesting_Storage_Size](manage-storage/Interesting_Storage_Size.png)
+![Interesting_Storage_Size](manage-storage/Interesting_Storage_Size.png#center)
 
 ### 目录联接 *
 
@@ -193,19 +193,19 @@ powercfg /h /size 40
 
 要寻找磁盘清理工具，Windows 10 可以右击某个分区，点击【属性】，再点击【磁盘清理】，就可以打开清理对应分区的磁盘清理工具了。
 
-![Win 10 Disk Clean](manage-storage/Win_10_Disk_Clean.png)
+![Win 10 Disk Clean](manage-storage/Win_10_Disk_Clean.png#center)
 
 但是 Windows 11 中的这个地方被换成了「详细信息」。要找到磁盘清理，最快的方法是按下 `Windows` + `S`，输入「磁盘清理」就能找到，打开它，选择你需要清理的分区即可。
 
-![Search For Disk Clean](manage-storage/Search_For_Disk_Clean.jpg)
+![Search For Disk Clean](manage-storage/Search_For_Disk_Clean.jpg#center)
 
 等待系统扫描可以清理的文件，一个窗口将会出现在屏幕上，询问你想要清除的项目。如果你不是以管理员的权限来运行它，那么左下方会有一个「清理系统文件」的按钮，可以点击它来清理更多内容。事实上，这些地方所列出的可清理内容（包括所谓的「系统文件」）均是系统在使用过程中产生的临时文件或不那么重要的内容，如果你的空间吃紧，可以考虑全部删除。
 
-![Disk Clean](manage-storage/Disk_Clean.png)
+![Disk Clean](manage-storage/Disk_Clean.png#center)
 
 除此之外，Windows 11 系统也可以转到【设置】→【系统】→【存储】→【清理建议】中清理系统产生的临时文件。不过要注意的是，比起「磁盘清理」工具，这里的清理内容还能包含你的「下载」文件夹。
 
-![Clean Suggest](manage-storage/Clean_Suggestion.jpg)
+![Clean Suggest](manage-storage/Clean_Suggestion.jpg#center)
 
 除此之外，按下 `Windows` + `R`，输入 `%temp%` 按回车，你就来到了你用户文件夹下的本地临时文件夹。如果实在没东西可删，这里的所有内容你都可以删除（不是 `Temp` 文件夹本身，是它里面的所有内容），不过删除之前建议重启电脑。
 
@@ -215,11 +215,11 @@ powercfg /h /size 40
 
 在[笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md#划分新的分区">}})中，我们已经介绍过如何给新电脑从默认分区中拆出一个新分区来。但是，如果你换了块硬盘，或者使用了奇怪的操作，可能就会遇到这样的尴尬事情：
 
-![Unexpandable C](manage-storage/Unexpandable_C.png)
+![Unexpandable C](manage-storage/Unexpandable_C.png#center)
 
 想要扩展空间的分区被卡在了另外动不了的分区之间，或者想要把中间的分区移动到尾部，空出来的部分给其他分区……如此这般情形 Windows 自带的磁盘管理显然无能为力。这时，我们必须求助第三方软件了，现在介绍强大的硬盘分区软件——DiskGenius。
 
-![Disk Genius](manage-storage/DiskGenius.png)
+![Disk Genius](manage-storage/DiskGenius.png#center)
 
 DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁盘迁移等操作（其实它还支持数据恢复，不过免费版不提供）。它有免费版，以及付费的标准版和专业版三种版本，不过我们普通用户所需的功能，免费版就已经包含在内了。免费版可以前往[官网下载页面](https://www.diskgenius.cn/download.php)下载。
 
@@ -227,21 +227,21 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 
 打开 DiskGenius，你电脑上所有的磁盘信息均会映入眼帘：左侧是你所有磁盘与分区的列表，上方有当前磁盘的使用情况，中间一大块则是选中分区的信息。想要操作某个分区，就再上方选中那个分区，点击右键即可。
 
-![Part Operation](manage-storage/Part_Operation.png)
+![Part Operation](manage-storage/Part_Operation.png#center)
 
 现在，让我们来尝试将之前那磁盘尾部的 30 GB 空间分给在中间的 C 盘。右击空闲区域之前的那一个小分区，选择【调整分区大小】，接着，软件会弹出这样的界面：
 
-![Adjust Part](manage-storage/Adjust_Part.png)
+![Adjust Part](manage-storage/Adjust_Part.png#center)
 
 上方的条条是选中的分区与它周围空闲空间的情况，下面是此次调整的详细参数。你可以选择在上面的条条中直接操作，也可以选择在底下的参数中做精细调整。如果你要删除某个分区，记得先把里面的所有文件移出来或做备份。
 
 但这次我们的任务只是想把这个小分区移到末尾去，直接在上方条条中将这个小分区拖到末尾即可（注意鼠标光标的形状，别把分区拉大了）。如果想要指定分区的容量，最好还是在底下的参数中直接输入你想要的数值。
 
-![Merge To C](manage-storage/Merge_To_C.png)
+![Merge To C](manage-storage/Merge_To_C.png#center)
 
 拖过去之后，下方「分区前部的空间」右侧下拉框就有用了，在这里选择【合并到 本地磁盘(C:)】，然后点击【开始】，点两下【是】。由于我们在操作系统盘，DiskGenius 会弹出「需要重启到 Windows PE」的警告，请仔细阅读警告，按其行事，然后再点【确定】，软件将开始工作。这段时间你可以喝杯茶，看看电脑上还有没有【确定】要点。一切顺利的话，电脑重启完毕后，你就能看到一个更大的 C 盘了！
 
-![Larger C](manage-storage/Larger_C.png)
+![Larger C](manage-storage/Larger_C.png#center)
 
 以上就是 DiskGenius 分区管理的基本使用方法，之后你就可以参照这样的做法，依据你的喜好来调整电脑上硬盘的分区情况了。
 
@@ -283,15 +283,15 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 打开 DiskGenius，选中待迁移的磁盘，在上方点击【系统迁移】，软件会弹出窗口来询问迁移的目标磁盘，选择你的新硬盘。默认情况下，DiskGenius 只会迁移与系统有关的分区，如果你的硬盘上还有别的数据分区，则需要进一步配置。
 
-![Configure System Migration](manage-storage/Configure_System_Migration.png)
+![Configure System Migration](manage-storage/Configure_System_Migration.png#center)
 
 点击中间右侧的【分区管理】，在弹出的窗口中点击【添加分区】，选择你需要的分区，点【确定】即可添加。
 
-![Select Migrating Partition](manage-storage/Select_Migrating_Partition.png)
+![Select Migrating Partition](manage-storage/Select_Migrating_Partition.png#center)
 
 回到刚才的窗口，勾选【完成后，更改电脑启动顺序】，点击【开始】，软件将会询问你想采用的执行方式，可以选择【热迁移】，它会立即开始迁移工作，不过我们不建议这时还运行别的程序。这时你可以喝杯茶，等待软件完成工作，然后重启电脑。重启之后，你会发现现在的系统已经位于刚刚换上来的那块硬盘了，而原来的硬盘你可以选择格式化，让它来做点别的事情。
 
-![Migration Result](manage-storage/Migration_Result.png)
+![Migration Result](manage-storage/Migration_Result.png#center)
 
 ## 练习
 
