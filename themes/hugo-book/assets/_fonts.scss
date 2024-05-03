@@ -1,47 +1,89 @@
-/* roboto-300italic - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 300;
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
-  src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
-       url('fonts/roboto-v19-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v19-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Inter Variable'), url('fonts/InterVariable.woff2') format('woff2');
 }
-/* roboto-regular - latin */
+
 @font-face {
-  font-family: 'Roboto';
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local('Inter Variable Italic'), url('fonts/InterVariable-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local('Inter Variable'), url('fonts/InterVariable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter var';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local('Inter Variable Italic'), url('fonts/InterVariable-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto'), local('Roboto-Regular'),
-       url('fonts/roboto-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Inter Regular'), url("fonts/Inter-Regular.woff2") format("woff2");
 }
-/* roboto-700 - latin */
+
 @font-face {
-  font-family: 'Roboto';
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter Italic'), url("fonts/Inter-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Roboto Bold'), local('Roboto-Bold'),
-       url('fonts/roboto-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Inter Bold'), url("fonts/Inter-Bold.woff2") format("woff2");
 }
 
-/* roboto-mono-regular - latin */
+@font-face {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Inter Bold Italic'), url("fonts/Inter-BoldItalic.woff2") format("woff2");
+}
+
 @font-face {
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local('Roboto Mono'), local('RobotoMono-Regular'),
-       url('fonts/roboto-mono-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-mono-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('fonts/roboto-mono-v6-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/roboto-mono-v6-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: InterVariable, sans-serif;
+  }
 }
 
 code {
