@@ -1,3 +1,8 @@
+---
+title: Windows 11 修整指南
+type: docs
+---
+
 # Windows 11 修整指南
 
 {{< hint info >}}

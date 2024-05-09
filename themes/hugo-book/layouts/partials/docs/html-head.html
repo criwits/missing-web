@@ -5,7 +5,7 @@
 
 {{- template "_internal/opengraph.html" . -}}
 
-<title>{{ partial "docs/title" . }} | {{ .Site.Title -}}</title>
+<title>{{ partial "docs/title" . }} | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 
 {{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate "manifest.json" . }}
 <link rel="manifest" href="{{ $manifest.RelPermalink }}">
