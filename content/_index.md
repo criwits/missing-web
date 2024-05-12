@@ -15,9 +15,10 @@ type: docs
 ## 本教程的所有可用版本
 
 - 网页版：[https://www.criwits.top/missing](https://www.criwits.top/missing) 或 [https://missing.criwits.top](https://missing.criwits.top)
-- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（24/4/20 更新），~~[阿里云盘](https://www.aliyundrive.com/s/cVsLCYa4Xc6)~~（失效），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
+- PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（24/4/20 更新），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
+- GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)
 
-若您阅读网页版有困难（例如，网页加载过慢或图片无法显示），可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新可能不如网页版频繁。
+若您阅读网页版有困难（例如，网页加载过慢或图片无法显示），可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新可能不如网页版频繁。若您想要查看本教程的源代码，可以访问 GitHub 仓库。
 
 ## 目录
 
@@ -29,6 +30,7 @@ type: docs
   - [软件的寻找与安装]({{<ref "software-installation.md">}})
   - [基本维护和安全防护]({{<ref "basic-maintenance.md">}})
   - [遇到问题怎么办]({{<ref "how-to-find-solutions.md">}})
+  - [那些好用的键盘快捷键]({{<ref "shortcut-keys.md">}})
 - 软件篇
   - [Office 和 WPS——办公样样行]({{<ref "office-and-wps.md">}})
   - [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})
@@ -36,12 +38,23 @@ type: docs
   - [工具类软件推荐]({{<ref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<ref "how-to-find-tutorials.md">}})
 - 进阶篇
-  - [那些好用的键盘快捷键]({{<ref "shortcut-keys.md">}})
   - [显示器的二三事]({{<ref "screens-and-their-secrets.md">}})
   - [用户与微软账号]({{<ref "user-and-ms-account.md">}})
   - [蓝屏与解决蓝屏]({{<ref "recover-from-bsod.md">}})
   - [成为空间管理大师]({{<ref "manage-storage.md">}})
+  - 指令集、操作系统与应用生态（敬请期待）
+      <!-- 内容预告：近些年，包括苹果、华为在内的厂商都在推出基于 ARM 架构的处理器，而微软也在 Windows 10 之后推出了 Windows 10 on ARM。这使得对应的机器无法直接运行传统的 x86 程序。然而，许多人在购买电脑时并不知道这一点，导致了一些不必要的困扰。在这一章，我们将介绍一些基本的计算机体系结构知识，用生动形象的例子开始讲解计算机的「心脏」——CPU，以及 CPU 的指令集，介绍操作系统、应用软件与它的关系，并提出一些当前选购电脑应当注意的问题。 -->
   - [Windows 11 修整指南]({{<ref "windows-11-optimization.md">}})
+- 超越篇（敬请期待）
+  - 从加减乘除到 AI 对话
+      <!-- 内容预告：近年来，人工智能生成内容（AIGC）技术逐渐成熟，AI 对话、AI 绘画、AI 写作等应用层出不穷。人工智能技术的不断发展，让我们看到了未来的无限可能。在这一章，我们将带领大家体验一把 AIGC 的魅力，然后简要地解释 AI 背后的基本原理，最后展望人工智能技术的未来发展方向。 -->
+  - 构建一个云上的世界
+      <!-- 内容预告：云计算是这些年来的热门话题，它的出现改变了人们对「算力」的理解。本章将从大家身边的云计算应用——从云盘到云游戏，从云办公到云开发，从云存储到云计算——开始讲起，展望云计算的未来发展方向。 -->
+  - 以密码之剑护网安之盾
+      <!-- 内容预告：网络世界，通信仿佛隔空喊话，密码技术则保护着我们的信息不被窥探。现实世界，国境之外纷争不断，网络安全也是一场没有硝烟的战争。密码学是一门古老的学科，早在千年前的古代，人们就开始使用密码来保护信息；网络安全是今天国家安全的重要组成部分，也是每个人都应该了解的知识。在这一章，我们将带领大家走进密码学的世界，了解密码学的基本原理，然后简要地介绍网络安全的基本概念，最后展望密码学和网络安全的未来发展方向。 -->
+  - 「程序」是怎样炼成的
+      <!-- 内容预告：你是否早就疑惑，各种各样的 app 是如何诞生的？今天，各种「少儿编程」的广告铺天盖地，基本的程序设计能力好像也成了必备技能。在这一章，我们不讲具体编程语言的语法，而是从程序的基本构成开始讲起，介绍程序设计的基本原理，然后简要地介绍一些常见的编程语言，最后展望程序设计的未来发展方向。 -->
+  - 更多选题敬请期待……
 - 附录
   - [练习题答案]({{<ref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
@@ -52,6 +65,7 @@ type: docs
 
 ## 版本修订
 
+- Every visit counts again: 现在在网页底部又可以看到网站的访问量了 (24/5/12)
 - Content update: 修些小地方 (24/5/3)
 - Engine changed: 更换页面引擎为 Hugo (24/5/3)
 - Content update: 修些小地方 (24/4/20)
