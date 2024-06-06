@@ -1,3 +1,9 @@
 /* You can override SASS variables here. */
 
 // @import "plugins/dark";
+
+$hint-colors: (
+    info: #6bf,
+    warning: #ffc266,
+    danger: #f44,
+)

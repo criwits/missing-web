@@ -32,6 +32,15 @@
     }
   }
 
+  h1,
+  h2 {
+    font-weight: 600;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
   h4,
   h5,
   h6 {
@@ -90,7 +99,8 @@
     margin: $padding-16 0;
     padding: $padding-8 $padding-16 $padding-8 ($padding-16 - $padding-4); //to keep total left space 16dp
 
-    border-inline-start: $padding-4 solid var(--gray-200);
+    border-inline-start: $padding-4 solid var(--gray-500);
+    background-color: #f1f2f3;
     border-radius: $border-radius;
 
     :first-child {
@@ -159,6 +169,7 @@
     padding: $padding-16;
     border: $padding-1 solid var(--gray-200);
     border-radius: $border-radius;
+    background-color: lighten($color: #90ee90, $amount: 15);
 
     summary {
       line-height: 1;
