@@ -139,6 +139,29 @@
   ul,
   ol {
     padding-inline-start: $padding-16 * 2;
+
+    .alph li {
+      list-style-type: upper-alpha;
+    }
+    
+    .bracket-num {
+      counter-reset: bracket-num 0;
+      list-style: none;
+      padding: 0;
+
+      li {
+        counter-increment: bracket-num 1;
+      }
+
+      li::before {
+        content: "(" counter(bracket-num, decimal) ").";
+        display: inline-flex;
+        justify-content: left;
+        margin-left: .5em;
+        margin-right: .5em;
+        width: 2em;
+      }
+    }
   }
 
   dl {

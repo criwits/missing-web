@@ -103,7 +103,7 @@ Office 是付费软件。对于 Office 365，其付费方式是「订阅制」�
 
 ![Untitled](office-and-wps/Untitled%205.png)
 
-如果需要购买 Office，可以前往 [微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365) 或者 Microsoft Store 进行购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心 / 正版软件服务中心来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
+如果需要购买 Office，可以前往[微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365)或者 Microsoft Store 进行购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心 / 正版软件服务中心来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
 
 ![Untitled](office-and-wps/Untitled%206.png)
 
@@ -133,7 +133,7 @@ Office 这种软件自然免不了被盗版的命运。需要注意的是，在�
 
 在今天，Office 文件格式（即 `doc`、`pptx` 等文件格式）在人们的日常工作中有着绝对无可动摇的地位——绝大多数的工作资料都是通过这套格式的文件进行交换的。Office 作为推出这套格式的本家，自然与这套格式最为契合。因此，**选择 Office 的最主要原因，便是它对 Office 文件格式的无缝支持**。WPS 尽管对这套格式也有着相当高的支持度，但在少数情况下，仍然会出现排版错乱、内容丢失等情况。至于其他办公软件，大多对于 Office 文件格式的支持只能说「勉强」。
 
-选择 Office 的另一个原因是，**Office 作为微软自家出品的软件，在 Windows 操作系统上具有相对出色的性能表现和操作体验。**在一众办公软件中，Office 的操作手感比较舒适，且与 WPS 相比，Office 界面简洁、没有繁杂的广告和其他多余功能。下图是在 Windows 11 系统上，Office 三件套软件的界面。
+选择 Office 的另一个原因是，**Office 作为微软自家出品的软件，在 Windows 操作系统上具有相对出色的性能表现和操作体验。** 在一众办公软件中，Office 的操作手感比较舒适，且与 WPS 相比，Office 界面简洁、没有繁杂的广告和其他多余功能。下图是在 Windows 11 系统上，Office 三件套软件的界面。
 
 ![Untitled](office-and-wps/Untitled%2010.png)
 

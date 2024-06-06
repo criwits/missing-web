@@ -35,7 +35,7 @@ Notepad3 是一款用来替代系统内置「记事本」的文本编辑器。�
 
 ![Untitled](tools-software/Untitled.png)
 
-与 Notepad3 类似的软件还有 Notepad++ 和 Sublime 等。这里我们 **不推荐** 大家使用 Notepad++——尽管网上许多教程推荐它，尽管那也是一款非常优秀的文本编辑器。Notepad++ 的主要开发者屡次让政治立场混入技术世界，以「自由」之名行「渗透」之实，因而还需要大家审慎对待。
+与 Notepad3 类似的软件还有 Notepad++ 和 Sublime 等。这里我们**不推荐**大家使用 Notepad++——尽管网上许多教程推荐它，尽管那也是一款非常优秀的文本编辑器。Notepad++ 的主要开发者屡次让政治立场混入技术世界，以「自由」之名行「渗透」之实，因而还需要大家审慎对待。
 
 ### SumatraPDF
 
