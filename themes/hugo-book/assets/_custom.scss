@@ -47,3 +47,13 @@ img[src$='#floatright'] {
 .beian-mono {
     font-family: 'Roboto Mono', monospace;
 }
+
+.footnotes::before {
+    content: "注释";
+    display: block;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5em;
+    margin-bottom: 1rem;
+}
