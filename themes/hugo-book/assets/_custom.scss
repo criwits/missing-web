@@ -48,12 +48,17 @@ img[src$='#floatright'] {
     font-family: 'Roboto Mono', monospace;
 }
 
-.footnotes::before {
-    content: "注释";
-    display: block;
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 1;
-    margin-top: 1.5em;
-    margin-bottom: 1rem;
+.footnotes {
+    hr {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    hr::after {
+        content: "注释";
+        display: block;
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-top: 0.5em;
+    }
 }
