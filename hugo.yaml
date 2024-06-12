@@ -22,5 +22,5 @@ markup:
     startLevel: 1
 
 params:
-  BookTheme: "auto"
+  BookTheme: "light"
   BookMenuBundle: /menu

@@ -71,6 +71,7 @@ type: docs
 
 ## 版本修订
 
+- Format, fix and fine-tune: 调整网页版格式，修复一些错误，微调表述 (24/6/12)
 - Content update: 更新落后内容，调整图片格式 (24/5/25)
 - Every visit counts again: 现在在网页底部又可以看到网站的访问量了 (24/5/12)
 - Content update: 修些小地方 (24/5/3)
