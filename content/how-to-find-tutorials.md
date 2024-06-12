@@ -41,7 +41,7 @@ type: docs
 
 在整个中文互联网上，有许许多多像我们一样的独立博客博主——所谓的「独立博客」，指的是有自己的网站（例如，本教程的网址是 [https://missing.criwits.top/](https://missing.criwits.top/)，这个网址完全由我们自己控制，不隶属于任何一个其他的平台），只登载作者自己的文章的博客。经验上来说，这些独立博客的内容质量一般较高，因此我们将它们放在推荐的第一位。
 
-比如，如果你想初步学习 $$\LaTeX$$ 的使用，那么《始终》博客上的 [这篇](https://liam.page/2014/09/08/latex-introduction/) 文章就是一个非常不错的选择：
+比如，如果你想初步学习 {{<katex>}}\LaTeX{{</katex>}} 的使用，那么《始终》博客上的 [这篇](https://liam.page/2014/09/08/latex-introduction/) 文章就是一个非常不错的选择：
 
 ![Untitled](how-to-find-tutorials/Untitled%204.png)
 
