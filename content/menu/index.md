@@ -11,6 +11,7 @@ headless = true
   - [软件的寻找与安装]({{<ref "software-installation.md">}})
   - [基本维护和安全防护]({{<ref "basic-maintenance.md">}})
   - [遇到问题怎么办]({{<ref "how-to-find-solutions.md">}})
+  - [那些好用的键盘快捷键]({{<ref "shortcut-keys.md">}})
 - 软件篇
   - [Office 和 WPS——办公样样行]({{<ref "office-and-wps.md">}})
   - [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})
@@ -18,7 +19,6 @@ headless = true
   - [工具类软件推荐]({{<ref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<ref "how-to-find-tutorials.md">}})
 - 进阶篇
-  - [那些好用的键盘快捷键]({{<ref "shortcut-keys.md">}})
   - [显示器的二三事]({{<ref "screens-and-their-secrets.md">}})
   - [用户与微软账号]({{<ref "user-and-ms-account.md">}})
   - [蓝屏与解决蓝屏]({{<ref "recover-from-bsod.md">}})
