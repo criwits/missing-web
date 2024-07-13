@@ -22,12 +22,12 @@ ChatGPT 的发布打开了 AIGC 大规模应用世界的大门。随后，谷歌
 ChatGPT 的发布打开了 AIGC 大规模应用世界的大门。随后，谷歌、Meta、微软等行业巨头纷纷推出了自己的 AIGC 产品；与此同时，许多国内人工智能研究机构、高校和企业也不甘落后，各种国产模型如雨后春笋般出现。这些产品各自有着不同的特色和应用场景，琳琅满目，让人目不暇接。由智谱 AI 和清华大学 KEG 联合开发的 GLM/ChatGLM 模型则是其中的佼佼者，它在生成内容质量和速度上都有着相当不错的表现。「智谱清言」是智谱 AI 官方推出的体验平台，提供了包括 ChatGLM 在内的多种 AIGC 模型供用户使用。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-07-13T00:22:58+08:00">
+    <meta property="article:modified_time" content="2024-07-13T16:29:18+08:00">
 <title>从加减乘除到 AI 对话 | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 <link rel="manifest" href="/missing/manifest.json">
 <link rel="icon" href="/missing/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/missing/book.min.34dfc2dcf9424a5b15e0bb075a4a262c2374a0b22f869f4159b55e0137da4767.css" integrity="sha256-NN/C3PlCSlsV4LsHWkomLCN0oLIvhp9BWbVeATfaR2c=">
-<script defer src="/missing/zh.search.min.faebe7894e3d28e21281aa56f6ba3d8e21891fdc147f66df483201ac7d3ec83a.js" integrity="sha256-&#43;uvniU49KOISgapW9ro9jiGJH9wUf2bfSDIBrH0&#43;yDo="></script>
+<script defer src="/missing/zh.search.min.aeb5eaf388303cdf8d98ccac6a4c808366637ff1e38c651b8192c8818bc09430.js" integrity="sha256-rrXq84gwPN&#43;NmMysakyAg2Zjf/HjjGUbgZLIgYvAlDA="></script>
 
   
 
@@ -168,6 +168,7 @@ https://github.com/alex-shpak/hugo-book
           <ul>
             <li><a href="#ai-的本质预测">AI 的本质——「预测」</a></li>
             <li><a href="#线性回归损失和梯度下降">线性回归、损失和梯度下降</a></li>
+            <li><a href="#ai-训练的本质">AI 训练的本质</a></li>
           </ul>
         </li>
       </ul>
@@ -293,12 +294,12 @@ https://github.com/alex-shpak/hugo-book
   线性回归、损失和梯度下降
   <a class="anchor" href="#%e7%ba%bf%e6%80%a7%e5%9b%9e%e5%bd%92%e6%8d%9f%e5%a4%b1%e5%92%8c%e6%a2%af%e5%ba%a6%e4%b8%8b%e9%99%8d">#</a>
 </h3>
-<p>诸如 AI 对话那样的模型，其内部的「预测」算法极为复杂，在这里我们不可能详细展开。相反地，我们选择一个最简单的「预测」问题——线性回归，来展示 AI 模型的基本原理。</p>
+<p>诸如 AI 对话那样的模型，其内部的「预测」算法极为复杂，我们无法在这里详细展开。相反地，我们选择一个简单得多的「预测」问题——「租金预测」，来展示 AI 模型工作和训练的基本原理。</p>
 <h4 id="租金预测问题">
   租金预测问题
   <a class="anchor" href="#%e7%a7%9f%e9%87%91%e9%a2%84%e6%b5%8b%e9%97%ae%e9%a2%98">#</a>
 </h4>
-<p>假设我们现在有一个非常简单的任务——根据一间房屋的面积，预测它的租金。在这个问题中，「面积」就是「已知的信息」，房屋的租金则是对应的「未知的信息」。为了「经验」来解决这个预测问题，我们收集了该地区 20 套出租屋的面积和租金数据，如下表所示：</p>
+<p>假设我们现在要根据一间房屋的面积，预测它的租金。在这个问题中，「面积」就是「已知的信息」，房屋的租金则是对应的「未知的信息」。为了获取「经验」来解决这个预测问题，我们收集了该地区 20 套出租屋的面积和租金数据，如下表所示：</p>
 <table>
 <thead>
 <tr>
@@ -393,9 +394,9 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 </tbody>
 </table>
-<p>我们可以将这些数据绘制成散点图，横轴是房屋的面积（平方米），纵轴是房屋的租金（元/月）。如下图所示：</p>
+<p>这些数据将被用来「训练」我们的模型。我们可以将这些数据绘制成散点图，横轴是房屋的面积（平方米），纵轴是房屋的租金（元/月）。如下图所示：</p>
 <p><img src="bring-intelligence-to-machines/House_price_vs_size.png" alt="房屋面积与租金的关系" /></p>
-<p>从图上我们可以直观地看见，我们可以尝试用一条直线来解释刻画和租金之间的关系。具体地说，如果把面积记作 
+<p>从图上我们可以直观地看见，我们可以用一条直线来刻画和租金之间的关系——具体地说，如果把面积记作 
 <link rel="stylesheet" href="/missing/katex/katex.min.css" />
 <script defer src="/missing/katex/katex.min.js"></script>
 <script defer src="/missing/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
@@ -409,19 +410,26 @@ https://github.com/alex-shpak/hugo-book
   \[y = ax &#43; b\]
 </span>
 
-来刻画。这个方程就是我们的「模型」，其中 <span>
+来描述。这个方程就是我们的「模型」，其中 <span>
   \(a\)
 </span>
  和 <span>
   \(b\)
 </span>
- 是这个模型的「权重」。现在，我们的目标就是：对上面那 20 个房屋数据进行「学习」，来找到最合适的 <span>
+ 是这个模型的「权重」。<span>
   \(a\)
 </span>
  和 <span>
   \(b\)
 </span>
-，这样我们的模型就可以胜任「预测租金」的任务了。由于模型直观表现在图像上，就是一条直线，因此这个问题称为「线性回归」问题。</p>
+ 的值决定了这条直线长什么样，也就决定了我们的模型对租金的预测效果。</p>
+<p>现在，我们的目标就是：对上面那 20 个房屋数据进行「学习」，来找到<strong>最合适</strong>的 <span>
+  \(a\)
+</span>
+ 和 <span>
+  \(b\)
+</span>
+，这样我们的模型就可以胜任「预测租金」的任务了。由于这个模型是一个线性方程，这个问题又被称为「线性回归」问题。</p>
 <h4 id="损失函数">
   「损失」函数
   <a class="anchor" href="#%e6%8d%9f%e5%a4%b1%e5%87%bd%e6%95%b0">#</a>
@@ -432,22 +440,27 @@ https://github.com/alex-shpak/hugo-book
  和 <span>
   \(b\)
 </span>
-，我们就得定义什么是「合适」。我们说我们的模型预测得「好」，就是指我们的模型预测的租金和实际租金尽可能接近。为了量化这种「接近」，我们可以把那 20 个房屋的面积 <span>
+，我们就得定义什么是「合适」。</p>
+<p>我们说我们的模型预测得「好」，是指在某个面积下，<strong>模型预测的租金</strong>和<strong>实际租金</strong>尽可能接近。因此，我们可以把那 20 个房屋的面积 <span>
   \(x_i\)
 </span>
- 代入我们的模型，计算出预测的租金 <span>
-  \(\hat{y_i} = ax_i &#43; b\)
+（<span>
+  \(i=1,2,\cdots,20\)
 </span>
-。显然，我们会希望所有的 <span>
+）逐一代入我们的模型，预测出对应的租金 <span>
+  \[\hat{y_i} = ax_i &#43; b\text{。}\]
+</span>
+。
+显然，我们会希望所有的 <span>
   \(\hat{y_i}\)
 </span>
- 和对应的实际租金 <span>
+ 和相应的实际租金 <span>
   \(y_i\)
 </span>
  之间的差 <span>
   \((\hat{y_i} - y_i)\)
 </span>
- 都能越小越好。怀着这样的想法，我们可以把所有的差的平方加起来，得到一个「损失」值：
+ 都能越小越好。怀着这样的想法，我们可以把所有的差的平方加起来，得到一个「差距和」，称为「损失」，即
 <span>
   \[L = \sum_{i=1}^{20} (\hat{y_i} - y_i)^2 = \sum_{i=1}^{20} (ax_i &#43; b - y_i)^2\]
 </span>
@@ -458,17 +471,18 @@ https://github.com/alex-shpak/hugo-book
  和 <span>
   \(b\)
 </span>
- 的值，使上面的损失函数 <span>
+ 的值，使上面的损失 <span>
   \(L\)
 </span>
- 最小。观察上面的式子，在那 20 个样本点给定，也就是说 <span>
+ 最小。</p>
+<p>观察上面的式子，在那 20 个样本点给定，也就是说 <span>
   \(x_i\)
 </span>
  和 <span>
   \(y_i\)
 </span>
 （<span>
-  \(i = 1, 2, \ldots, 20\)
+  \(i = 1, 2, \cdots, 20\)
 </span>
 ）都是定值的情况下，<span>
   \(L\)
@@ -491,49 +505,61 @@ https://github.com/alex-shpak/hugo-book
  的函数，我们记作 <span>
   \(L(a, b)\)
 </span>
-。现在，「训练」的过程，就变成了找到这个函数的最小值的过程。</p>
+。</p>
+<p>现在，模型的训练问题，就被我们抽象成了求这个函数 <span>
+  \(L(a, b)\)
+</span>
+ 的最小值点的问题。</p>
 <h4 id="梯度下降">
   梯度下降
   <a class="anchor" href="#%e6%a2%af%e5%ba%a6%e4%b8%8b%e9%99%8d">#</a>
 </h4>
-<p>那——如何找到这个函数的最小值呢？在这个例子中，我们的损失函数
+<p>我们如何找到这个函数的最小值点呢？在这个例子中，我们的损失函数
 <span>
   \[L(a, b) = \sum_{i=1}^{20} (ax_i &#43; b - y_i)^2\]
 </span>
 
-比较简单，我们可以直接通过求（偏）导数的方式找到最小值。计算得到
+比较简单，我们可以直接通过求（偏）导数的方式找到最小值点。但是，当模型的参数量不是 2 而是 2000 甚至 2 千万时，当模型不再是线性的而是复杂函数构成时，直接「解」出最小值就不太可行了。我们需要寻找一个「通用」的方法，对于任何一个损失函数，都可以有效地找到我们需要的最小值点——哪怕不十分精确，但是足够接近就可以。这个方法就是「梯度下降」。</p>
+<details >
+  <summary>直接求损失函数的最小值点</summary>
+  <div class="markdown-inner">
+    <p>计算得到
 <span>
-  \[\left\{
+[\left{
 \begin{aligned}
-\frac{\partial L}{\partial a} &amp;= 2 \sum_{i=1}^{20} x_i (ax_i &#43; b - y_i)\text{，} \\
-\frac{\partial L}{\partial b} &amp;= 2 \sum_{i=1}^{20} (ax_i &#43; b - y_i)\text{，}
+\frac{\partial L}{\partial a} &amp;= 2 \sum_{i=1}^{20} x_i (ax_i + b - y_i)\text{，} \
+\frac{\partial L}{\partial b} &amp;= 2 \sum_{i=1}^{20} (ax_i + b - y_i)\text{，}
 \end{aligned}
-\right.\]
-</span>
-
-令
+\right.]
+</span></p>
+<p>令
 <span>
-  \[\frac{\partial L}{\partial a} = \frac{\partial L}{\partial b} = 0\text{，}\]
-</span>
-
-则可以解出
+[\frac{\partial L}{\partial a} = \frac{\partial L}{\partial b} = 0\text{，}]
+</span></p>
+<p>则可以解出
 <span>
-  \[\left\{
+[\left{
 \begin{aligned}
-a &amp;= \frac{\sum_{i=1}^{20} x_i y_i - \frac{1}{20} \sum_{i=1}^{20} x_i \sum_{i=1}^{20} y_i}{\sum_{i=1}^{20} x_i^2 - \frac{1}{20} (\sum_{i=1}^{20} x_i)^2}\text{，} \\
+a &amp;= \frac{\sum_{i=1}^{20} x_i y_i - \frac{1}{20} \sum_{i=1}^{20} x_i \sum_{i=1}^{20} y_i}{\sum_{i=1}^{20} x_i^2 - \frac{1}{20} (\sum_{i=1}^{20} x_i)^2}\text{，} \
 b &amp;= \frac{1}{20} \sum_{i=1}^{20} y_i - a \frac{1}{20} \sum_{i=1}^{20} x_i\text{。}
 \end{aligned}
-\right.\]
+\right.]
+</span></p>
+<p>可以证明，这一组 <span>
+(a)
 </span>
+和 <span>
+(b)
+</span>
+使得损失函数 <span>
+(L(a, b))
+</span>
+达到最小值。</p>
+<p>这种算法称为「最小二乘法」。</p>
 
-可以证明，这一组 <span>
-  \(a\)
-</span>
- 和 <span>
-  \(b\)
-</span>
- 的值，就是我们的模型的最优解。</p>
-<p>但是，采用这种方法有一个非常重要的前提——损失函数简单，可以直接求出最小值。这种方法对于线性回归这个例子或许够用，但是当模型的参数量不是 2 而是 2000 甚至 2 千万时，当模型不再是线性的而是复杂函数构成时，用这样的方法直接「解」出最小值就不太可行了。我们需要寻找一个「不那么精确，但是能用」的方法，这就是「梯度下降」。</p>
+  </div>
+</details>
+
 <p>让我们先把刚刚的损失函数放到一边，考虑一个（可导，但是无法直接解出导数零点的）一元函数 <span>
   \(f(x)\)
 </span>
@@ -581,6 +607,11 @@ b &amp;= \frac{1}{20} \sum_{i=1}^{20} y_i - a \frac{1}{20} \sum_{i=1}^{20} x_i\t
 </span>
 ，即使这个函数非常复杂，只要它可导（微），我们就可以从一个随机的起点开始，用梯度下降的方法逐步找到它的最小值点。模型训练的过程，核心就是这一梯度下降的过程。</p>
 <p>当然，在实际的训练过程中，我们会用到许多优化的技巧，比如「随机梯度下降」、「Adam 优化器」等，以加速训练的过程。但是，无论怎样的优化技巧，它们的本质都是在「梯度下降」的基础上进行的。</p>
+<h3 id="ai-训练的本质">
+  AI 训练的本质
+  <a class="anchor" href="#ai-%e8%ae%ad%e7%bb%83%e7%9a%84%e6%9c%ac%e8%b4%a8">#</a>
+</h3>
+<p>在看完上面的例子之后，我们可以自然而然地进行推广，逐渐认识到 AI 训练的本质：首先，</p>
 </article>
  
       
@@ -646,6 +677,7 @@ b &amp;= \frac{1}{20} \sum_{i=1}^{20} y_i - a \frac{1}{20} \sum_{i=1}^{20} x_i\t
           <ul>
             <li><a href="#ai-的本质预测">AI 的本质——「预测」</a></li>
             <li><a href="#线性回归损失和梯度下降">线性回归、损失和梯度下降</a></li>
+            <li><a href="#ai-训练的本质">AI 训练的本质</a></li>
           </ul>
         </li>
       </ul>
