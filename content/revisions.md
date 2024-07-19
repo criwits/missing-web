@@ -1,0 +1,39 @@
+---
+title: 版本修订
+type: docs
+---
+
+# 版本修订
+
+这里记录了本作品自面世以来的所有内容更新和修订。每次更新和修订都会在这里记录，以便读者查阅。
+
+- AI now: 基本完成「从加减乘除到 AI 对话」一章 (24/7/19)
+- Format, fix and fine-tune: 调整网页版格式，修复一些错误，微调表述 (24/6/12)
+- Content update: 更新落后内容，调整图片格式 (24/5/25)
+- Every visit counts again: 现在在网页底部又可以看到网站的访问量了 (24/5/12)
+- Content update: 修些小地方 (24/5/3)
+- Engine changed: 更换页面引擎为 Hugo (24/5/3)
+- Content update: 修些小地方 (24/4/20)
+- Content update: 完成「空间管理」一章 (24/4/18)
+- Content update: 更新一些小地方 (23/12/12)
+- Housewarming: 迁移到境内服务器，大幅优化访问速度 (23/10/21)
+- Content update: 修正错漏、更新「显示器」「蓝屏」两章 (23/10/9)
+- Content update: 更新落后内容 (23/10/6)
+- Checkpoint: 一周年了（大概），整点贺词 (23/2/1)
+- Content update: 完成「蓝屏」一章 (22/11/20)
+- ~~Every visit counts: 现在在网页底部可以看到网站的总访问量了 (22/3/19)~~
+- Content update: 完成「用户」一章 (22/3/17)
+- Content update: 完成「工具软件」一章 (22/3/14)
+- Content update: 完成「开荒」一章 (22/3/9)
+- PDF ready: 第一版 PDF 出炉啦！(22/2/19)
+- Checkpoint: 完成「跋」这一部分 (22/2/12)
+- Content update: 完成「显示器」一章 (22/2/11)
+- Content update: 完成「怎样寻找优质教程」一章 (22/2/10)
+- Content update: 完成「压缩」一章 (22/2/8)
+- Engine changed: 更换页面引擎为 GitBook (22/2/8)
+- Content update: 完成「Office / WPS」「浏览器」两章 (22/1/29)
+- Breaking news: 教程的编写动机改变了，因此删去了「致谢」部分 (22/1/19)
+- First release: 完成「问题」一章，基础篇暂定完成，在域名上发布 (21/12/28)
+- Content update: 完成「维护与防护」一章 (21/12/27)
+- Content update: 完成「电脑组成」「文件管理」「软件安装」三章 (21/12/26)
+- First things first: 开坑 (21/12/25)

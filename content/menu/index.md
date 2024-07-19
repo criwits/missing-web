@@ -24,6 +24,8 @@ headless = true
   - [蓝屏与解决蓝屏]({{<ref "recover-from-bsod.md">}})
   - [成为空间管理大师]({{<ref "manage-storage.md">}})
   - [Windows 11 修整指南]({{<ref "windows-11-optimization.md">}})
+- 超越篇
+  - [从加减乘除到 AI 对话]({{<ref "bring-intelligence-to-machines.md">}})
 - 附录
   - [练习题答案]({{<ref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
