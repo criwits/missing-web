@@ -26,12 +26,12 @@ Data is Precious, Operate Carefully!
 用 WizTree 分析一下 C 盘（详见 工具类软件推荐），你可能会发现，占空间最多的部分，除了系统文件夹 Windows 以外，还有应用程序相关的文件夹（Program Files、Program Files (x86)，以及 Program Data）、你自己的用户文件夹，以及可能有一个神秘的 hyberfil.sys 文件。让我们来一一探查。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-07-25T11:51:51+08:00">
+    <meta property="article:modified_time" content="2024-07-31T23:10:56+08:00">
 <title>空间管理大师 | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 <link rel="manifest" href="/missing/manifest.json">
 <link rel="icon" href="/missing/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/missing/book.min.34dfc2dcf9424a5b15e0bb075a4a262c2374a0b22f869f4159b55e0137da4767.css" integrity="sha256-NN/C3PlCSlsV4LsHWkomLCN0oLIvhp9BWbVeATfaR2c=">
-<script defer src="/missing/zh.search.min.efa6f908fbf45b23da9d5903288874d07466603eeb998ff4293b155122984399.js" integrity="sha256-76b5CPv0WyPanVkDKIh00HRmYD7rmY/0KTsVUSKYQ5k="></script>
+<script defer src="/missing/zh.search.min.ebaf4d89b7b95e7f0cfc8c77030db64c2710e65abd0844a3f9b726af990b57cf.js" integrity="sha256-669Nibe5Xn8M/Ix3Aw22TCcQ5lq9CESj&#43;bcmr5kLV88="></script>
 
   
 
@@ -180,11 +180,18 @@ https://github.com/alex-shpak/hugo-book
             <li><a href="#用-diskgenius-进行高级分区调整">用 DiskGenius 进行高级分区调整</a></li>
           </ul>
         </li>
-        <li><a href="#拯救红盘还有别的办法吗">拯救「红盘」还有别的办法吗？</a>
+        <li><a href="#拯救红盘的其他方法">拯救「红盘」的其他方法</a>
           <ul>
             <li><a href="#清理磁盘">清理磁盘</a></li>
             <li><a href="#暗度陈仓">暗度陈仓</a></li>
             <li><a href="#治本之道">「治本」之道</a></li>
+          </ul>
+        </li>
+        <li><a href="#文件链接-">文件链接 *</a>
+          <ul>
+            <li><a href="#符号链接">符号链接</a></li>
+            <li><a href="#硬链接">硬链接</a></li>
+            <li><a href="#目录联接-">目录联接 *</a></li>
           </ul>
         </li>
         <li><a href="#练习">练习</a></li>
@@ -313,10 +320,13 @@ https://github.com/alex-shpak/hugo-book
 <p><img src="manage-storage/Merge_To_C.png#center" alt="Merge To C" /></p>
 <p>拖过去之后，下方「分区前部的空间」右侧下拉框就有用了，在这里选择【合并到 本地磁盘(C:)】，然后点击【开始】，点两下【是】。由于我们在操作系统盘，DiskGenius 会弹出「需要重启到 Windows PE」的警告，请仔细阅读警告，按其行事，然后再点【确定】，软件将开始工作。这段时间你可以喝杯茶，看看电脑上还有没有【确定】要点。一切顺利的话，电脑重启完毕后，你就能看到一个更大的 C 盘了！</p>
 <p><img src="manage-storage/Larger_C.png#center" alt="Larger C" /></p>
-<p>以上就是 DiskGenius 分区管理的基本使用方法，之后你就可以参照这样的做法，依据你的喜好来调整电脑上硬盘的分区情况了。</p>
-<h2 id="拯救红盘还有别的办法吗">
-  拯救「红盘」还有别的办法吗？
-  <a class="anchor" href="#%e6%8b%af%e6%95%91%e7%ba%a2%e7%9b%98%e8%bf%98%e6%9c%89%e5%88%ab%e7%9a%84%e5%8a%9e%e6%b3%95%e5%90%97">#</a>
+<blockquote>
+<p>正常来说，进行分区调整是不需要重新启动的，这个例子中重启的原因是我们调整的范围涉及到 C 盘，而 C 盘上 Windows 操作系统本身正在运行，所以需要重启到一个独立的临时系统环境（即 Windows PE）中进行操作。</p>
+</blockquote>
+<p>以上就是 DiskGenius 分区管理的基本使用方法。不同于「磁盘管理」工具只能对分区的尾部进行调整，DiskGenius 不仅可以将分区向前、向后扩大或缩小，还可以移动分区在整个磁盘中的位置，这使得它成为了一个非常强大的磁盘管理工具。</p>
+<h2 id="拯救红盘的其他方法">
+  拯救「红盘」的其他方法
+  <a class="anchor" href="#%e6%8b%af%e6%95%91%e7%ba%a2%e7%9b%98%e7%9a%84%e5%85%b6%e4%bb%96%e6%96%b9%e6%b3%95">#</a>
 </h2>
 <p>进行分区调整总是存在风险的。由于上节我们已经看到，要进行分区间的空间转移，必然进行文件的移动，这就意味着有可能会出现文件损坏的情况。所以，如果你的硬盘空间不是特别紧张，我们还是建议你不要轻易进行分区调整。在这里，我们将介绍一些方法，帮助你释放硬盘空间。</p>
 <h3 id="清理磁盘">
@@ -338,11 +348,47 @@ https://github.com/alex-shpak/hugo-book
   暗度陈仓
   <a class="anchor" href="#%e6%9a%97%e5%ba%a6%e9%99%88%e4%bb%93">#</a>
 </h3>
-<p>怎么个「暗度陈仓」法？如果我们可以把文件/文件夹的本体移到别处有空的位置，但在原位置放上一个「链接」，让软件们都会认为这里还留着原本的文件/文件夹而照用不误，就可以在一定程度上缓解空间紧张问题了。这种「链接」就是 Windows 中的「文件链接」。</p>
-<h4 id="文件链接">
-  文件链接
-  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e9%93%be%e6%8e%a5">#</a>
-</h4>
+<p>怎么个「暗度陈仓」法？如果我们可以把文件/文件夹的本体移到别处有空的位置，但在原位置放上一个「链接」，让软件们都会认为这里还留着原本的文件/文件夹而照用不误，就可以在一定程度上缓解空间紧张问题了。Windows 提供的「符号链接」功能就可以帮我们实现这个目的。</p>
+<p>符号链接可以简单地理解为一个虚拟的文件 / 文件夹，它指向了一个真实的文件 / 文件夹。例如，我可以在 <code>C:\Missing</code> 下建立一个指向 <code>D:\Chatpers</code> 的符号链接 <code>C:\Missing\Chapters</code>。这样，对于大多数应用程序来说，访问 <code>C:\Missing\Chapters</code> 就相当于在访问 <code>D:\Chapters</code>，程序可以在其中读写文件，但实际上文件存放在 D 盘中。这样，我们就可以把一些大文件 / 文件夹移到其他分区，再在原位置建立符号链接，从而释放 C 盘空间。</p>
+<p>众所周知，C 盘里的文件大都是重要的系统文件，不能轻易移动。所以<strong>这个办法是走投无路的选项之一</strong>，除非你非常理解你在做什么。不过说是「不能轻易移动」，但其实有一些文件夹还是可以动的。完全不能移动的有：</p>
+<ul>
+<li><code>Windows</code> 文件夹：系统本体；</li>
+<li><code>Program</code> 开头的三个文件夹自身：程序文件夹的根；</li>
+<li><code>Users</code> 文件夹自身：所有用户文件夹的根。</li>
+</ul>
+<p>可以移动的有：</p>
+<ul>
+<li>你的用户文件夹（不建议全移走）；</li>
+<li><code>Program Files</code> 与 <code>Program Files (x86)</code> 里面<strong>你自己装上去的程序</strong>（不推荐，不如直接在安装的时候装到别处）。</li>
+</ul>
+<p>其余的文件/文件夹均不推荐移动。也就是说，只有在实在没有办法的前提下，优先移动你用户文件夹内或前述 <code>Local</code>、<code>Roaming</code> 文件夹内的大型文件/文件夹。例如，Mathematica 安装的本地文档位置在 <code>%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn</code>，这是一个占用空间几 GB 的文件夹。我们可以将它移到别处，譬如 <code>F:\Link\Documentation.zh-Hans-cn</code>，再在原位置建立同名的文件夹符号链接即可。</p>
+<p>要建立符号链接，首先按 <code>Windows</code> + <code>S</code>，搜索 <code>cmd</code>，右击【命令提示符】，选择【以管理员身份运行】。在弹出的窗口中输入下面的命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> /d <span style="color:#e6db74">&#34;</span>%localappdata%<span style="color:#e6db74">\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn&#34;</span> <span style="color:#e6db74">&#34;F:\Link\Documentation.zh-Hans-cn&#34;</span>
+</span></span></code></pre></div><p>其中 <code>%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn</code> 是符号链接的位置，<code>F:\Link\Documentation.zh-Hans-cn</code> 是符号链接指向的位置，也就是本体的实际位置。<code>/d</code> 表示「目录」，表示建立的符号链接是用于文件夹的。如果你移动的是文件而非文件夹，可以将 <code>/d</code> 删掉。</p>
+<p>但是这「暗度陈仓」的弊端也很明显。如果你一番操作下来，建立了许多符号链接，虽然这么一来 C 盘的空间压力减轻了，但是文件之间的相互关系却变得更加混乱了。如果在放置文件本体时随性而为，那只会让混乱不堪的文件指向关系更加雪上加霜。</p>
+<p>而 Windows 没有提供从文件本体查看是否有符号链接指向它的功能，所以，我们无法知道文件本体它应当所在的原位置，也无法知道它还有没有用。更有甚者，我们可能会忘记这个文件的作用，结果误删了它。这无形之中增加了文件管理的难度。所以，如果你决定要「暗度陈仓」，请<strong>一定要留下必要的笔记或说明，并使用一个专用的文件夹来存放符号链接的本体。</strong></p>
+<h3 id="治本之道">
+  「治本」之道
+  <a class="anchor" href="#%e6%b2%bb%e6%9c%ac%e4%b9%8b%e9%81%93">#</a>
+</h3>
+<p>说真的，最能解决此类问题的方法就是加/换一块更大的硬盘，<strong>当上面那些方法依然解决不了那举步维艰的空间时，买一块更大的硬盘是唯一的解决方案。</strong></p>
+<p>但换硬盘面临的重大问题是：旧硬盘上的内容该怎么处理。如果你换的不是系统盘，那问题不大，将数据复制粘贴即可。但如果是系统盘，那一般而言有两种方案：</p>
+<ul>
+<li>为新硬盘安装新系统，舍弃旧硬盘的系统，想办法把旧硬盘的部分数据移到新硬盘；</li>
+<li>把原来硬盘上的所有内容原封不动地搬到新硬盘中。</li>
+</ul>
+<p>如果选择前者，你需要在新硬盘上安装系统，再找出旧硬盘中你需要的文件，复制到新硬盘上。如果选择后者，则可以考虑使用 DiskGenius 的「系统迁移」功能协助你的操作。</p>
+<p>打开 DiskGenius，选中待迁移的磁盘，在上方点击【系统迁移】，软件会弹出窗口来询问迁移的目标磁盘，选择你的新硬盘。默认情况下，DiskGenius 只会迁移与系统有关的分区，如果你的硬盘上还有别的数据分区，则需要进一步配置。</p>
+<p><img src="manage-storage/Configure_System_Migration.png#center" alt="Configure System Migration" /></p>
+<p>点击中间右侧的【分区管理】，在弹出的窗口中点击【添加分区】，选择你需要的分区，点【确定】即可添加。</p>
+<p><img src="manage-storage/Select_Migrating_Partition.png#center" alt="Select Migrating Partition" /></p>
+<p>回到刚才的窗口，勾选【完成后，更改电脑启动顺序】，点击【开始】，软件将会询问你想采用的执行方式，可以选择【热迁移】，它会立即开始迁移工作，不过我们不建议这时还运行别的程序。这时你可以喝杯茶，等待软件完成工作，然后重启电脑。重启之后，你会发现现在的系统已经位于刚刚换上来的那块硬盘了，而原来的硬盘你可以选择格式化，让它来做点别的事情。</p>
+<p><img src="manage-storage/Migration_Result.png#center" alt="Migration Result" /></p>
+<h2 id="文件链接-">
+  文件链接 *
+  <a class="anchor" href="#%e6%96%87%e4%bb%b6%e9%93%be%e6%8e%a5-">#</a>
+</h2>
+<p>上文中，我们简单介绍了「符号链接」，这是一种可以让文件/文件夹指向其他文件/文件夹的方法。其实，符号链接是「文件链接」的一种，Windows 还提供了其他类型的文件链接。本节我们将深入介绍文件链接的概念与使用方法。</p>
 <p>在 <a href="https://www.criwits.top/missing/file-and-file-management.html#文件的「替身」——快捷方式">文件与文件管理</a> 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 <code>lnk</code> 的文件。「不同类型的文件需要用不同的 app 来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。</p>
 <p>不妨试一试用记事本来打开一个快捷方式<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>：</p>
 <ul>
@@ -351,10 +397,10 @@ https://github.com/alex-shpak/hugo-book
 <li>再挑一个快捷方式，输入 <code>notepad &lt;快捷方式（带扩展名）&gt;</code>，你就会看到你选的快捷方式的「真面目」。</li>
 </ul>
 <p>那么有没有一种「更强力的快捷方式」，让无论是哪个应用都知道去找目标文件呢？这就是文件链接。文件链接有两种类型——「硬链接」与「符号链接」（又称「软链接」），让我们来看看它们是个什么玩意。</p>
-<h5 id="符号链接">
+<h3 id="符号链接">
   符号链接
   <a class="anchor" href="#%e7%ac%a6%e5%8f%b7%e9%93%be%e6%8e%a5">#</a>
-</h5>
+</h3>
 <p>符号链接的行为有点像快捷方式，即一个指向其目标的「指针」，只不过，快捷方式只对资源管理器有效，而符号链接则对几乎任何软件来说都是快捷方式。既然它的行为类似快捷方式，那关于「删了它会怎么样」之类的问题想必不用多费口舌。总结起来就几句话：删除链接不会影响本体；删除本体则链接还在，但是找不到目标。</p>
 <p><img src="manage-storage/Symbolic_Link.png#center" alt="Symbolic Link" /></p>
 <p>要想创建符号链接，你可以使用命令提示符中的 <code>mklink</code> 命令或者 PowerShell 中的 <code>New-Item</code> 命令。这两种方法各有优劣，需要根据实际情况来决定使用哪一种。欲使用 <code>mklink</code>，按照以下步骤来：</p>
@@ -375,10 +421,10 @@ https://github.com/alex-shpak/hugo-book
 </ol>
 <p>看上去 <code>New-Item</code> 可以用一个命令搞定文件与文件夹，挺通用，但目前它有一个重大问题——无法处理带西文方括号（「<code>[</code>」和「<code>]</code>」）的路径。所以<strong>如果有路径包含了西文方括号，请使用 <code>mklink</code>。</strong> 如果提示什么「权限不足」之类的信息，请用管理员权限再试一次。</p>
 <p>实际上，在创建符号链接的时候，不需要让两者的名称一致，例如你可以创建一个名为 <code>114514</code> 的链接，但它指向你的 <code>高数秘籍.txt</code>。然而，若是这样做，虽然文件资源管理器知道它指向的是个什么东西，也知道用什么软件来打开目标，但其他应用可就不一定了。故我们<strong>推荐创建链接时使用与目标完全一致的名称。</strong></p>
-<h5 id="硬链接">
+<h3 id="硬链接">
   硬链接
   <a class="anchor" href="#%e7%a1%ac%e9%93%be%e6%8e%a5">#</a>
-</h5>
+</h3>
 <p>硬链接的作用，一言以蔽之——从多个位置访问、修改磁盘上同一块内容。看起来好像和符号链接没差多少，但，请看下图。</p>
 <p><img src="manage-storage/Hard_Link.png#center" alt="Hard Link" /></p>
 <p>以一个文件为目标建立硬链接，其实是与目标文件对应的硬盘数据相连接。从某种意义上而言，这些连接到同一块数据的不同文件，彼此之间都是硬链接关系。这样一来，如果我们打开其中一个文件做修改，这实际上是通过其中一个文件修改了硬盘数据，那么再打开其他硬链接的文件，我们会发现内容是我们刚刚修改过的。譬如上图中，给 <code>E:\高数秘籍.txt</code> 加一句话，那么查看 <code>E:\高数攻略.txt</code> 则会发现也多了一句完全一样的话。但若删除一部分链接（例如删除 <code>E:\高数攻略.txt</code>），只要这块数据仍存有链接，那么它就不会被真正删除。也就是说，要想删除硬链接过的文件，需要删除链接到同块数据的所有文件。</p>
@@ -400,50 +446,14 @@ https://github.com/alex-shpak/hugo-book
 </ol>
 <p>按照硬链接的行为，<strong>无论一份数据有多少硬链接，磁盘上都应该只有一份文件的数据，只占一份文件的空间。</strong> 事实的确如此，但文件资源管理器不这么想——有多少链接，它就给你算多少份文件大小，于是乎，就有了这样占用空间比整个硬盘还大的奇景：</p>
 <p><img src="manage-storage/Interesting_Storage_Size.png#center" alt="Interesting_Storage_Size" /></p>
-<h5 id="目录联接-">
+<h3 id="目录联接-">
   目录联接 *
   <a class="anchor" href="#%e7%9b%ae%e5%bd%95%e8%81%94%e6%8e%a5-">#</a>
-</h5>
+</h3>
 <p>如果你看到过 <code>mklink</code> 的语法说明（没看到的可以现在看看，执行 <code>mklink</code> 就行），你可能会发现在指定链接类型时，除了指定文件夹的 <code>/d</code> 与指定硬链接的 <code>/h</code> 选项以外，居然还有一个 <code>/j</code> 选项，按底下的说明，它是「目录联接」。</p>
 <p>目录联接其实类似于文件夹符号链接，要是只用在自己电脑的文件上，那就没什么两样，但要是通过网络访问其他电脑上的文件，那就有差别了。</p>
 <p>假定有 Reimu 和 Marisa 两台电脑，二者之间通过网络共享数据，即它们的路径分别为 <code>\\Reimu</code> 与 <code>\\Marisa</code>。Reimu 有一个文件夹，本地路径是 <code>C:\Folder</code>，除此之外还有一个文件夹符号链接 <code>C:\SymLink</code> 与一个目录联接 <code>C:\Junc</code>，它们均指向 <code>C:\Folder</code>。现在 Marisa 要通过网络来访问这个符号链接与目录联接，则 Reimu 那边的目录联接对 Marisa 来说的路径是 <code>\\Reimu\C$\Junc</code>，指向了 <code>\\Reimu\C$\Folder</code>——正确的位置；但是，符号链接的路径是 <code>\\Reimu\C$\SymLink</code>，却指向了 <code>\\Marisa\C$\Folder</code>——Marisa 自己这边的位置！</p>
 <p>这告诉我们，符号链接并不会循着网络位置来寻找目标，而只是在本地寻找。故若需要为网络访问为目的制作链接，请使用目录联接。</p>
-<h4 id="用文件链接来解决空间问题">
-  用文件链接来解决空间问题
-  <a class="anchor" href="#%e7%94%a8%e6%96%87%e4%bb%b6%e9%93%be%e6%8e%a5%e6%9d%a5%e8%a7%a3%e5%86%b3%e7%a9%ba%e9%97%b4%e9%97%ae%e9%a2%98">#</a>
-</h4>
-<p>众所周知，C 盘里的文件大都是重要的系统文件，不能轻易移动。所以<strong>这个办法是走投无路的选项之一</strong>，除非你非常理解你在做什么。不过说是「不能轻易移动」，但其实有一些文件夹还是可以动的。完全不能移动的有：</p>
-<ul>
-<li><code>Windows</code> 文件夹：系统本体；</li>
-<li><code>Program</code> 开头的三个文件夹自身：程序文件夹的根；</li>
-<li><code>Users</code> 文件夹自身：所有用户文件夹的根。</li>
-</ul>
-<p>可以移动的有：</p>
-<ul>
-<li>你的用户文件夹（不建议全移走）；</li>
-<li><code>Program Files</code> 与 <code>Program Files (x86)</code> 里面<strong>你自己装上去的程序</strong>（不推荐，不如直接在安装的时候装到别处）。</li>
-</ul>
-<p>其余的文件/文件夹均不推荐移动。也就是说，只有在实在没有办法的前提下，优先移动你用户文件夹内或前述 <code>Local</code>、<code>Roaming</code> 文件夹内的大型文件/文件夹。例如，Mathematica 安装的本地文档位置在 <code>%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn</code>，这是一个占用空间几 GB 的文件夹。我们可以将它移到别处，譬如 <code>F:\Link\Documentation.zh-Hans-cn</code>，再在原位置建立同名的文件夹符号链接即可：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span><span style="color:#66d9ef">mklink</span> /d <span style="color:#e6db74">&#34;</span>%localappdata%<span style="color:#e6db74">\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn&#34;</span> <span style="color:#e6db74">&#34;F:\Link\Documentation.zh-Hans-cn&#34;</span>
-</span></span></code></pre></div><p>但是这「暗度陈仓」的弊端也很明显。如果你一番操作下来，建立了许多符号链接，虽然这么一来 C 盘的空间压力减轻了，但是文件之间的相互关系却变得更加混乱了。如果在放置文件本体时随性而为，那只会让混乱不堪的文件指向关系更加雪上加霜。</p>
-<p>而 Windows 没有提供从文件本体查看是否有符号链接指向它的功能，所以，我们无法知道文件本体它应当所在的原位置，也无法知道它还有没有用。更有甚者，我们可能会忘记这个文件的作用，结果误删了它。这无形之中增加了文件管理的难度。所以，如果你决定要「暗度陈仓」，请<strong>一定要留下必要的笔记或说明，并使用一个专用的文件夹来存放符号链接的本体。</strong></p>
-<h3 id="治本之道">
-  「治本」之道
-  <a class="anchor" href="#%e6%b2%bb%e6%9c%ac%e4%b9%8b%e9%81%93">#</a>
-</h3>
-<p>说真的，最能解决此类问题的方法就是加/换一块更大的硬盘，<strong>当上面那些方法依然解决不了那举步维艰的空间时，买一块更大的硬盘是唯一的解决方案。</strong></p>
-<p>但换硬盘面临的重大问题是：旧硬盘上的内容该怎么处理。如果你换的不是系统盘，那问题不大，将数据复制粘贴即可。但如果是系统盘，那一般而言有两种方案：</p>
-<ul>
-<li>为新硬盘安装新系统，舍弃旧硬盘的系统，想办法把旧硬盘的部分数据移到新硬盘；</li>
-<li>把原来硬盘上的所有内容原封不动地搬到新硬盘中。</li>
-</ul>
-<p>如果选择前者，你需要在新硬盘上安装系统，再找出旧硬盘中你需要的文件，复制到新硬盘上。如果选择后者，则可以考虑使用 DiskGenius 的「系统迁移」功能协助你的操作。</p>
-<p>打开 DiskGenius，选中待迁移的磁盘，在上方点击【系统迁移】，软件会弹出窗口来询问迁移的目标磁盘，选择你的新硬盘。默认情况下，DiskGenius 只会迁移与系统有关的分区，如果你的硬盘上还有别的数据分区，则需要进一步配置。</p>
-<p><img src="manage-storage/Configure_System_Migration.png#center" alt="Configure System Migration" /></p>
-<p>点击中间右侧的【分区管理】，在弹出的窗口中点击【添加分区】，选择你需要的分区，点【确定】即可添加。</p>
-<p><img src="manage-storage/Select_Migrating_Partition.png#center" alt="Select Migrating Partition" /></p>
-<p>回到刚才的窗口，勾选【完成后，更改电脑启动顺序】，点击【开始】，软件将会询问你想采用的执行方式，可以选择【热迁移】，它会立即开始迁移工作，不过我们不建议这时还运行别的程序。这时你可以喝杯茶，等待软件完成工作，然后重启电脑。重启之后，你会发现现在的系统已经位于刚刚换上来的那块硬盘了，而原来的硬盘你可以选择格式化，让它来做点别的事情。</p>
-<p><img src="manage-storage/Migration_Result.png#center" alt="Migration Result" /></p>
 <h2 id="练习">
   练习
   <a class="anchor" href="#%e7%bb%83%e4%b9%a0">#</a>
@@ -529,11 +539,18 @@ https://github.com/alex-shpak/hugo-book
             <li><a href="#用-diskgenius-进行高级分区调整">用 DiskGenius 进行高级分区调整</a></li>
           </ul>
         </li>
-        <li><a href="#拯救红盘还有别的办法吗">拯救「红盘」还有别的办法吗？</a>
+        <li><a href="#拯救红盘的其他方法">拯救「红盘」的其他方法</a>
           <ul>
             <li><a href="#清理磁盘">清理磁盘</a></li>
             <li><a href="#暗度陈仓">暗度陈仓</a></li>
             <li><a href="#治本之道">「治本」之道</a></li>
+          </ul>
+        </li>
+        <li><a href="#文件链接-">文件链接 *</a>
+          <ul>
+            <li><a href="#符号链接">符号链接</a></li>
+            <li><a href="#硬链接">硬链接</a></li>
+            <li><a href="#目录联接-">目录联接 *</a></li>
           </ul>
         </li>
         <li><a href="#练习">练习</a></li>

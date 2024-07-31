@@ -26,12 +26,12 @@ AIGC 的诞生具有里程碑式的意义。在 AIGC 技术大规模应用之前
 模型的本质是复杂的数学运算，其中的大量参数并非人们直接设定，而是通过「学习」得来。这个「学习」的过程称为「训练」，它需要大量的数据和计算资源。例如，要训练一个能够实现 AI 对话的模型，人们需要准备大量的采集自现实生活的对话数据，模型能通过这些数据学习到对话的规律，从而逐渐具有对话的能力。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-07-25T11:51:51+08:00">
+    <meta property="article:modified_time" content="2024-07-31T23:10:56+08:00">
 <title>从加减乘除到 AI 对话 | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 <link rel="manifest" href="/missing/manifest.json">
 <link rel="icon" href="/missing/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/missing/book.min.34dfc2dcf9424a5b15e0bb075a4a262c2374a0b22f869f4159b55e0137da4767.css" integrity="sha256-NN/C3PlCSlsV4LsHWkomLCN0oLIvhp9BWbVeATfaR2c=">
-<script defer src="/missing/zh.search.min.efa6f908fbf45b23da9d5903288874d07466603eeb998ff4293b155122984399.js" integrity="sha256-76b5CPv0WyPanVkDKIh00HRmYD7rmY/0KTsVUSKYQ5k="></script>
+<script defer src="/missing/zh.search.min.ebaf4d89b7b95e7f0cfc8c77030db64c2710e65abd0844a3f9b726af990b57cf.js" integrity="sha256-669Nibe5Xn8M/Ix3Aw22TCcQ5lq9CESj&#43;bcmr5kLV88="></script>
 
   
 
@@ -185,7 +185,14 @@ https://github.com/alex-shpak/hugo-book
             <li><a href="#模型在变核心未变">模型在变，核心未变</a></li>
           </ul>
         </li>
-        <li><a href="#大模型gpu-和-ai-芯片">大模型、GPU 和 AI 芯片</a></li>
+        <li><a href="#大模型gpu-和-ai-芯片">大模型、GPU 和 AI 芯片</a>
+          <ul>
+            <li><a href="#大模型的烦恼">大模型的烦恼</a></li>
+            <li><a href="#gpu-的副业">GPU 的「副业」</a></li>
+            <li><a href="#ai-芯片的崛起">AI 芯片的崛起</a></li>
+          </ul>
+        </li>
+        <li><a href="#展望一个与-ai-共处的未来">展望一个与 AI 共处的未来</a></li>
       </ul>
     </li>
   </ul>
@@ -621,8 +628,73 @@ https://github.com/alex-shpak/hugo-book
   大模型、GPU 和 AI 芯片
   <a class="anchor" href="#%e5%a4%a7%e6%a8%a1%e5%9e%8bgpu-%e5%92%8c-ai-%e8%8a%af%e7%89%87">#</a>
 </h2>
-<p>人们已经发现，不断增大 AI 模型的规模，增加参数的数量，就能显著地提升模型的效果。现在，人们把模型参数量特别大的模型称为「大模型」<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。例如前文大家体验的 GLM 模型，其开源版本 GLM-4 的参数量就能达到 90 亿个。一些大模型的参数量甚至能达到上百亿。下表展示了目前一些流行大语言模型的参数量。</p>
-<p>(未完)</p>
+<h3 id="大模型的烦恼">
+  大模型的烦恼
+  <a class="anchor" href="#%e5%a4%a7%e6%a8%a1%e5%9e%8b%e7%9a%84%e7%83%a6%e6%81%bc">#</a>
+</h3>
+<p>人们已经发现，不断增大 AI 模型的规模，增加参数的数量，就能显著地提升模型的效果。现在，人们把模型参数量特别大的模型称为「大模型」<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。例如前文大家体验的 GLM 模型，其开源版本 GLM-4 的参数量就能达到 90 亿个。一些大模型的参数量能达到上百亿甚至更多。下表展示了目前一些流行大语言模型的参数量。</p>
+<table>
+<thead>
+<tr>
+<th>模型名称</th>
+<th>参数量</th>
+<th>开发机构</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPT-3</td>
+<td>175 亿</td>
+<td>OpenAI</td>
+</tr>
+<tr>
+<td>GPT-4</td>
+<td>未知，据称达 1.8 万亿</td>
+<td>OpenAI</td>
+</tr>
+<tr>
+<td>GLM-3-6b</td>
+<td>60 亿</td>
+<td>智谱 AI 和清华大学 KEG 实验室</td>
+</tr>
+<tr>
+<td>GLM-4-9b</td>
+<td>90 亿</td>
+<td>智谱 AI</td>
+</tr>
+<tr>
+<td>Llama 3.1</td>
+<td>80 亿——4 千亿</td>
+<td>Google</td>
+</tr>
+</tbody>
+</table>
+<p>在上一节中我们已经知道，对模型进行训练，本质是对它的参数进行调整优化。然而，对于这些参数量轻松破亿的大模型来说，训练它们是一件非常困难的事情——巨大的参数量，意味着巨大的计算量。试想，按上一节的思路，如果我们对这些参数逐个地求导来进行梯度下降，就算我们的 CPU 速度再快，也不知道得算到何年何月才能完成一轮训练。寻找高效的训练方法，就成为了一个重要的问题。</p>
+<h3 id="gpu-的副业">
+  GPU 的「副业」
+  <a class="anchor" href="#gpu-%e7%9a%84%e5%89%af%e4%b8%9a">#</a>
+</h3>
+<p>我们仔细分析模型训练的过程，可以发现它的两个特征：</p>
+<ul>
+<li><strong>可并行性</strong>：在模型训练的过程中，我们需要在大量的数据上进行计算。这些数据之间的计算是相互独立的，因此我们可以同时对多个数据进行计算，提高计算效率。同时，许多模型在设计时也引入了可并行的结构。这些特点使得模型训练过程可以被很好地并行化，即将一个任务分拆成多个小任务同时进行。</li>
+<li><strong>以矩阵运算为主</strong>：在具体的模型训练实现中，诸如求解梯度、梯度下降等操作，通常都被转化为矩阵运算来进行。因此，模型训练的实质是大量的矩阵运算。</li>
+</ul>
+<p>这两个特点使得模型训练的过程在传统的 CPU 上并不能高效地进行——我们的 CPU 通常只有几个核心，能够同时进行的计算任务有限；同时，CPU 是一种通用计算芯片，它主打的是「会算的多」，而不是「能算得快」，针对矩阵运算这一种特定的计算任务，CPU 并没有进行过多的优化。自然而然地，我们需要寻找一个更加适合模型训练的计算设备，而用来进行图形处理的显卡（GPU）就进入了我们的视野。</p>
+<p>GPU 作为一种专门用来进行图形处理的设备，其设计上有着与 CPU 不同的特点。首先，为了满足图形处理需要的极高同步率，GPU 拥有着大量的计算单元，它们可以同时进行大量的计算任务，这样我们在用 GPU 打游戏、看视频时，才不会出现卡顿和撕裂。其次，由于图形最终以像素点组成的图像在屏幕上展现，而图像的本质便是矩阵，因此 GPU 在设计上就针对各种矩阵运算做了大量的优化。GPU 的这两个特性给我们带来了更好的视觉体验，也让它成为了进行模型训练的理想设备——让 GPU 干点儿训练模型的「副业」，可能会有意想不到的效果。</p>
+<p>2007 年，GPU 巨头英伟达（NVIDIA）推出了 CUDA 平台，让人们可以利用这一平台在英伟达的 GPU 上进行各种计算任务。随后的 2009 年，由 AMD 和苹果等联合推出的 OpenCL 平台则在更多品牌的 GPU 上带来了类似的功能。与这些平台相对应的各种机器学习框架也随之应运而生，极大地便利了 AI 模型的设计、训练和应用的过程。时过境迁，CUDA 技术伴随着英伟达的迅速发展不断占据着市场，英伟达 GPU 最终成为了 AI 模型训练的「标配」。</p>
+<h3 id="ai-芯片的崛起">
+  AI 芯片的崛起
+  <a class="anchor" href="#ai-%e8%8a%af%e7%89%87%e7%9a%84%e5%b4%9b%e8%b5%b7">#</a>
+</h3>
+<p>虽然 GPU 在 AI 模型训练中具有较好的性能，但是作为「图形处理器」的它，训练 AI 模型终究是一种「副业」。人们开始在 GPU 的基础之上，设计一种专门用来进行 AI 模型训练的芯片，这就是「AI 芯片」。与 GPU 相比，AI 芯片不再有着图形处理的「包袱」，不需要考虑与图形处理相关的部分，而可以把更多的资源投入到 AI 模型训练的优化上。从 GPU 到 AI 芯片，副业转正。</p>
+<p>作为老牌 GPU 厂商的英伟达，早在 2016 年就推出了专门用来进行 AI 计算的 GPU 系列——Tesla P100，专门针对 AI 计算进行了优化，性能大幅提升。此后，英伟达又推出了一系列专门用来进行 AI 计算的 GPU，如 Tesla V100、A100 等。这些 GPU 采用了更加先进的架构，性能更加强大，成为了 AI 训练的「标杆」。这些芯片虽然被称为「GPU」，但是已经没有了视频输出等图形处理的功能，而是完全的 AI 芯片。与「显卡」一词类比地，我们把这样的产品也称为「计算卡」。</p>
+<p>与此同时，其他厂商，尤其是我国的科技公司亦不甘落后。谷歌、华为、阿里巴巴等公司都推出了自己的 AI 芯片，如谷歌的 TPU、华为的昇腾系列、阿里巴巴的 Ali-NPU 等。它们的出现不仅为 AI 计算提供了更多的选择，为市场注入了更多的活力，客观上也推动着 AI 技术的发展。</p>
+<h2 id="展望一个与-ai-共处的未来">
+  展望一个与 AI 共处的未来
+  <a class="anchor" href="#%e5%b1%95%e6%9c%9b%e4%b8%80%e4%b8%aa%e4%b8%8e-ai-%e5%85%b1%e5%a4%84%e7%9a%84%e6%9c%aa%e6%9d%a5">#</a>
+</h2>
+<p>谈到「人工智能」四个字，你会感到什么？是未来已至，还是脊背发凉？</p>
+<p>相信通过阅读这一章，你会逐渐开始对 AI「袪魅」。在今天，一切看似神奇的 AI 技术，都只不过是基于海量学习得到的统计规律进行的某种「预测」。而「意识」这一人类独有的特质，在任何时候都无法被这样的预测机器所取代。技术只能而且必然会被人类掌握在自己手中，而不是反过来；AI 只能而且必然会成为人类的「工具」，为人类服务，为我们带来更好的生活。</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -704,7 +776,14 @@ https://github.com/alex-shpak/hugo-book
             <li><a href="#模型在变核心未变">模型在变，核心未变</a></li>
           </ul>
         </li>
-        <li><a href="#大模型gpu-和-ai-芯片">大模型、GPU 和 AI 芯片</a></li>
+        <li><a href="#大模型gpu-和-ai-芯片">大模型、GPU 和 AI 芯片</a>
+          <ul>
+            <li><a href="#大模型的烦恼">大模型的烦恼</a></li>
+            <li><a href="#gpu-的副业">GPU 的「副业」</a></li>
+            <li><a href="#ai-芯片的崛起">AI 芯片的崛起</a></li>
+          </ul>
+        </li>
+        <li><a href="#展望一个与-ai-共处的未来">展望一个与 AI 共处的未来</a></li>
       </ul>
     </li>
   </ul>
