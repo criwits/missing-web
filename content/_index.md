@@ -68,11 +68,11 @@ type: docs
 
 ## 版本修订
 
+- AI full: 「AI 对话」一章修订完毕 (24/10/4)
 - AI now: 基本完成「从加减乘除到 AI 对话」一章 (24/7/19)
 - Format, fix and fine-tune: 调整网页版格式，修复一些错误，微调表述 (24/6/12)
 - Content update: 更新落后内容，调整图片格式 (24/5/25)
 - Every visit counts again: 现在在网页底部又可以看到网站的访问量了 (24/5/12)
-- Content update: 修些小地方 (24/5/3)
 - [查看更多……]({{<ref "revisions.md">}})
 
 ## 作者
