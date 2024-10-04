@@ -38,7 +38,7 @@ type: docs
 - 软件篇
   - [Office 和 WPS——办公样样行]({{<ref "office-and-wps.md">}})
   - [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})
-  - 电子邮箱——天涯若比邻（敬请期待）
+  - 邮件与通信——天涯若比邻（敬请期待）
   - [压缩文件与压缩工具]({{<ref "archive-formats-and-tools.md">}})
   - [工具类软件推荐]({{<ref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<ref "how-to-find-tutorials.md">}})
