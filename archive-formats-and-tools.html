@@ -22,12 +22,12 @@ Ask not what your country can do for you—ask what you can do for your country.
 1 not 2 3 4 5 6 7 8—1 2 8 5 6 7 3 4.">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-10-04T16:56:28+08:00">
+    <meta property="article:modified_time" content="2024-10-04T18:23:06+08:00">
 <title>压缩文件与压缩工具 | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 <link rel="manifest" href="/missing/manifest.json">
 <link rel="icon" href="/missing/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/missing/book.min.34dfc2dcf9424a5b15e0bb075a4a262c2374a0b22f869f4159b55e0137da4767.css" integrity="sha256-NN/C3PlCSlsV4LsHWkomLCN0oLIvhp9BWbVeATfaR2c=">
-<script defer src="/missing/zh.search.min.649f206d3154787e05ff8251fc19474d7d74d0a2a263ab07c9fcee74061106a9.js" integrity="sha256-ZJ8gbTFUeH4F/4JR/BlHTX100KKiY6sHyfzudAYRBqk="></script>
+<script defer src="/missing/zh.search.min.ea9d43cb5db9a8ed1b8c6c5c303efa13bd55325eb4d2b78e505c76da9cb16dc7.js" integrity="sha256-6p1Dy125qO0bjGxcMD76E71VMl600reOUFx22pyxbcc="></script>
 
   
 
@@ -269,9 +269,17 @@ https://github.com/alex-shpak/hugo-book
  和原来式子的对应关系，就能用它们替代原先的复杂式子进行一些计算，等到合适的时候再代换回去。这样的「对应关系」就是「字典」，代换后的式子就是「压缩文件」。</p>
 <p>也许你会想，这个句子长得这么对称，完全是一种特殊情况，这么做是能大幅缩减空间；对于更加普遍的情况这样也适用吗？事实上，在我们电脑上所存储的文件中——从常见的 Word 文档到各种各样的可执行文件——都包含有大量的冗余内容，这些冗余内容反复出现，完全可以用这种方式被压缩。</p>
 <p>尽管压缩策略都是「换元法」，但具体到压缩的实现上，一千个人或许会设计出一千种方案。首先是字典生成方法的设计。我们需要明确，字典是压缩工具在「阅读」完整个待压缩的文件后现场编纂的。压缩工具会以某种方式扫描所有待压缩的文件，经过一系列数学的运算后，编制出适合这些文件的高效字典。例如，上面的例子中「not」是否编入字典，就可能影响到最终的压缩效率。字典编得好不好，很大程度上决定了这个压缩策略的好坏。</p>
-<p>另外，我们上面介绍的这种压缩是一种很「笨」的压缩。举个例子，如果我们灵活地将这个句式作为一整个字典项：</p>
-<pre tabindex="0"><code>what ____ can do for
-</code></pre><p>其中 <code>____</code> 是一个空位，可以放一些别的单词进去，那么可能又可以进一步省下空间——原句的前后两个分句都有这个句式。在具体的文件压缩场景中，除了「完全相同的冗余项」，「长相近似的片段」也不少，利用这种方式或许能得到更不错的压缩效率。</p>
+<p>另外，我们上面介绍的这种压缩是一种很「笨」的压缩。举个例子，相信大家都学过《汉乐府·江南》，诗是这样写的：</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">江南可采莲，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">莲叶何田田，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶间。</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶东，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶西，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶南，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶北。</p>
+<p>看起来后面几句都有相似的结构。那么，如果把这样的一个句式作为一个字典项：</p>
+<pre tabindex="0"><code>鱼戏莲叶＿
+</code></pre><p>其中 <code>＿</code> 是一个空位，可以放一些别的字进去，这样一来，压缩过程可能又可以进一步省下空间——诗的好几句都有这个句式。在具体的文件压缩场景中，除了「完全相同的冗余项」，「长相近似的片段」也不少，利用这种方式或许能得到更不错的压缩效率。</p>
 <p>这就是不同压缩文件格式（或者说种类）之间产生差异的根源。不同压缩文件格式有着不同的「压缩算法」，对应着不同的字典生成策略、「换元」策略以及更多这里没有提及的技术细节。这些压缩文件格式有些技术公开，有的则并不公开；有的适用于一类特定文件，有的适用于另一些特定文件。下面我们会介绍一些常用的压缩文件格式。</p>
 <h2 id="常见的压缩文件格式">
   常见的压缩文件格式
@@ -354,9 +362,9 @@ https://github.com/alex-shpak/hugo-book
 <p>「压缩文件预览」是说，当你右击一个压缩文件时，若这个文件没有加密文件名<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，你的右键菜单便会显示出这个压缩包内部的部分文件；若是连文件名都加密了，那当然什么都看不见啦。这个功能默认未启用，需要在 Bandizip 的【设置】→【上下文菜单】→【选择解压菜单】中开启。可惜这个功能只支持旧式菜单，不支持 Windows 11 的新式菜单。</p>
 <p><img src="archive-formats-and-tools/Compressed_Preview.png" alt="Compressed_Preview.jpg" /></p>
 <p>「智能解压」则是一种「傻瓜式解压操作」。还记得 <a href="https://www.criwits.top/missing/file-and-file-management.html">文件与文件管理</a> 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「智能解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个项目（无论文件或文件夹）时，Bandizip 便选择「解压到当前文件夹」；若有多个项目， Bandizip 则会选择「解压到 xxxxxx\」。</p>
-<p>举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 <code>D:\Touhou_Street.zip</code>，点击【智能解压】，那么图片就会被提取到 <code>D:\Touhou_Street\</code> 下；若这压缩包里面就一张图，则会被提取到 <code>D:\</code> 下。</p>
+<p>举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 <code>D:\Touhou_Street.zip</code>，点击【智能解压到此处】，那么图片就会被提取到 <code>D:\Touhou_Street\</code> 下；若这压缩包里面就一张图，则会被提取到 <code>D:\</code> 下。</p>
 <p>「智能解压」既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议始终使用「智能解压」来解压文件，除非你有特殊目的。</p>
-<p><img src="archive-formats-and-tools/Smart_Extract.jpg" alt="Smart_Extract.jpg" /></p>
+<p><img src="archive-formats-and-tools/Smart_Extract.png" alt="Smart_Extract.jpg" /></p>
 <h3 id="winrar">
   WinRAR
   <a class="anchor" href="#winrar">#</a>
