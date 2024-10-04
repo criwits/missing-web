@@ -44,12 +44,12 @@
 搜索引擎与提问不同，我们不能直接在百度搜索框中粘贴图片，也不能在搜索框写太多东西。使用搜索引擎查找答案，我们需要使用「关键词」代替成段的语句来表征自己遇到的问题。对于我们常常见到的软件出错，一般都会有一个「错误代码」以及相应的错误文本。这个 错误代码和错误文本就是最最重要的关键词之一。它可能是这样（KERNEL_MODE_HEAP_CORRUPTION，关于蓝屏的处理详见 蓝屏与解决蓝屏）：">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-09-09T16:21:06+08:00">
+    <meta property="article:modified_time" content="2024-10-04T16:56:28+08:00">
 <title>遇到问题怎么办 | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 <link rel="manifest" href="/missing/manifest.json">
 <link rel="icon" href="/missing/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/missing/book.min.34dfc2dcf9424a5b15e0bb075a4a262c2374a0b22f869f4159b55e0137da4767.css" integrity="sha256-NN/C3PlCSlsV4LsHWkomLCN0oLIvhp9BWbVeATfaR2c=">
-<script defer src="/missing/zh.search.min.c3a8ed2458ca22acb8609b4cc543e1f8fd5e0389ffb2334f13eee5313f0ec4e8.js" integrity="sha256-w6jtJFjKIqy4YJtMxUPh&#43;P1eA4n/sjNPE&#43;7lMT8OxOg="></script>
+<script defer src="/missing/zh.search.min.649f206d3154787e05ff8251fc19474d7d74d0a2a263ab07c9fcee74061106a9.js" integrity="sha256-ZJ8gbTFUeH4F/4JR/BlHTX100KKiY6sHyfzudAYRBqk="></script>
 
   
 
@@ -193,6 +193,13 @@ https://github.com/alex-shpak/hugo-book
         </li>
         <li><a href="#向他人提问的艺术">向他人提问的艺术</a></li>
         <li><a href="#上网查找问题的解决方案">上网查找问题的解决方案</a></li>
+        <li><a href="#或者问问-ai">……或者问问 AI？</a>
+          <ul>
+            <li><a href="#问问题">问问题</a></li>
+            <li><a href="#找方法">找方法</a></li>
+            <li><a href="#搜集信息">搜集信息</a></li>
+          </ul>
+        </li>
         <li><a href="#练习">练习</a></li>
       </ul>
     </li>
@@ -285,6 +292,35 @@ https://github.com/alex-shpak/hugo-book
 <li><strong>关注「更新时间」。</strong> 很多网站都会显示一篇文章是于什么时候发布的。当我们搜索解决问题的教程的时候，遵循「越新越好」的原则。例如，对于同样一类错误，一篇 2016 年的文章和一篇 2021 年的文章都给出了解决方法，那我们就优先选择 2021 年的那篇文章。</li>
 <li><strong>警惕洗稿文。</strong> 一些网站上广泛存在大量洗稿、抄袭而来的教程文章。这些文章最大的问题是东拼西凑，内容不完整，有些还混有不少机翻的内容。在寻找教程的时候，尽量不要选择这样的文章。</li>
 </ul>
+<h2 id="或者问问-ai">
+  ……或者问问 AI？
+  <a class="anchor" href="#%e6%88%96%e8%80%85%e9%97%ae%e9%97%ae-ai">#</a>
+</h2>
+<p>近几年，生成式 AI 大行其道，它为我们提供类似与人谈话一般的体验，而不少人也将其作为自己的「得力助手」，无论是遇到了问题，还是想寻找灵感，又或是不想自己动手，都可以请 AI 助手来「帮忙」。久而久之，许多人面对问题的第一想法渐渐变成了「问问 AI 吧」。</p>
+<p>但是，普通用户可能有所不知，虽然这「AI 助手」看起来手眼通天，无所不晓，可它的背后，是由人们日常产生的超大量语料作为原料而训练出的「大语言模型」。大语言模型工作的本质是「预测」，以我们对它说的话作为输入，根据训练结果，来预测给出什么样回答的几率是最高的。欲了解更多关于生成式 AI 的话题，可以读一读超越篇的 <a href="https://www.criwits.top/missing/bring-intelligence-to-machines.html">从加减乘除到 AI 对话</a>。</p>
+<p>所以，<strong>记住「它只是一个语言模型」</strong>，再来看看我们能向它求助哪些问题。</p>
+<h3 id="问问题">
+  问问题
+  <a class="anchor" href="#%e9%97%ae%e9%97%ae%e9%a2%98">#</a>
+</h3>
+<p>「问问题」是指「询问一些存在具体答案的问题」，譬如生活常识、数学题等等。例如我们问：「2 + 3 = ？」根据语料，大模型预测人们给出类似「2 + 3 = 5」的回答的几率最大，所以它也会给出这样类似的回答。</p>
+<p><img src="how-to-find-solutions/2&#43;3.png" alt="2&#43;3" /></p>
+<p>所以说，<strong>如果你问出来的是人们早已找到准确答案的问题，AI 会有更多的可能预测出包含正确答案的语句</strong>，因为答案已经包含在训练用的语料库中。但如果我们问奇葩点的问题呢？</p>
+<p><img src="how-to-find-solutions/191810th_of_pi.png" alt="1919810th of pi" /></p>
+<p>此时我们就要对它给出的结果持怀疑态度了。用一些专门计算圆周率的软件算一算，你会发现，圆周率的第 1 919 810 位小数是 9。所以，<strong>稍微复杂或刁钻一些的问题，它很可能给出错误的答案</strong>。这也再一次向我们揭示「它是一个语言模型」的本质，它做的只是预测，而非真正在思考、计算。</p>
+<h3 id="找方法">
+  找方法
+  <a class="anchor" href="#%e6%89%be%e6%96%b9%e6%b3%95">#</a>
+</h3>
+<p>「找方法」则是说「寻求达到一个目的的途径」，譬如「怎么学一门语言」「如何解决软件出现的错误」这样的疑问，而模型的回复往往是达成这些事的一些方法。如果说「问问题」得到的解答，我们限于自己的知识水平无法轻易验证，那么<strong>这里得到的方法，则「试试便知」</strong>。当然了，<strong>AI 给出的方法不一定有效</strong>，如果你发现真的没用，不妨去咨询目标领域内的专业人士寻求帮助。</p>
+<p><img src="how-to-find-solutions/Seek_for_methods.png" alt="Seek for methods" /></p>
+<h3 id="搜集信息">
+  搜集信息
+  <a class="anchor" href="#%e6%90%9c%e9%9b%86%e4%bf%a1%e6%81%af">#</a>
+</h3>
+<p>另一种「问 AI」的情形，是获取一些信息，例如「地球上人口最多的前十个国家」「嫦娥五号的任务持续时间」等等这样的信息。但是，由于 AI 训练时的语料所限，它能给我们提供的信息只到训练时语料所涵盖的时间为止。所以问它时事新闻，它很可能会给出与事实大相径庭的回复。</p>
+<p>而为了解决这个问题，目前公开给大众使用的 AI 对话工具，基本上联动了搜索引擎。<strong>当检测到用户要求的输入可能是时事新闻时，对话工具会自动调用搜索引擎搜索相关关键词</strong>，并由模型整理结果，给出输出。如果你询问的 AI 对话工具没有，或者不确定有没有，联动搜索引擎，那最好还是手动搜索求证为好。</p>
+<p><img src="how-to-find-solutions/2024_Olympics_Medal.png" alt="2024 Olympics Medal" /></p>
 <h2 id="练习">
   练习
   <a class="anchor" href="#%e7%bb%83%e4%b9%a0">#</a>
@@ -366,6 +402,13 @@ https://github.com/alex-shpak/hugo-book
         </li>
         <li><a href="#向他人提问的艺术">向他人提问的艺术</a></li>
         <li><a href="#上网查找问题的解决方案">上网查找问题的解决方案</a></li>
+        <li><a href="#或者问问-ai">……或者问问 AI？</a>
+          <ul>
+            <li><a href="#问问题">问问题</a></li>
+            <li><a href="#找方法">找方法</a></li>
+            <li><a href="#搜集信息">搜集信息</a></li>
+          </ul>
+        </li>
         <li><a href="#练习">练习</a></li>
       </ul>
     </li>
