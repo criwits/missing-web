@@ -50,13 +50,23 @@ Ask not what your country can do for you—ask what you can do for your country.
 
 尽管压缩策略都是「换元法」，但具体到压缩的实现上，一千个人或许会设计出一千种方案。首先是字典生成方法的设计。我们需要明确，字典是压缩工具在「阅读」完整个待压缩的文件后现场编纂的。压缩工具会以某种方式扫描所有待压缩的文件，经过一系列数学的运算后，编制出适合这些文件的高效字典。例如，上面的例子中「not」是否编入字典，就可能影响到最终的压缩效率。字典编得好不好，很大程度上决定了这个压缩策略的好坏。
 
-另外，我们上面介绍的这种压缩是一种很「笨」的压缩。举个例子，如果我们灵活地将这个句式作为一整个字典项：
+另外，我们上面介绍的这种压缩是一种很「笨」的压缩。举个例子，相信大家都学过《汉乐府·江南》，诗是这样写的：
+
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">江南可采莲，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">莲叶何田田，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶间。</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶东，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶西，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶南，</p>
+<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶北。</p>
+
+看起来后面几句都有相似的结构。那么，如果把这样的一个句式作为一个字典项：
 
 ```
-what ____ can do for
+鱼戏莲叶＿
 ```
 
-其中 `____` 是一个空位，可以放一些别的单词进去，那么可能又可以进一步省下空间——原句的前后两个分句都有这个句式。在具体的文件压缩场景中，除了「完全相同的冗余项」，「长相近似的片段」也不少，利用这种方式或许能得到更不错的压缩效率。
+其中 `＿` 是一个空位，可以放一些别的字进去，这样一来，压缩过程可能又可以进一步省下空间——诗的好几句都有这个句式。在具体的文件压缩场景中，除了「完全相同的冗余项」，「长相近似的片段」也不少，利用这种方式或许能得到更不错的压缩效率。
 
 这就是不同压缩文件格式（或者说种类）之间产生差异的根源。不同压缩文件格式有着不同的「压缩算法」，对应着不同的字典生成策略、「换元」策略以及更多这里没有提及的技术细节。这些压缩文件格式有些技术公开，有的则并不公开；有的适用于一类特定文件，有的适用于另一些特定文件。下面我们会介绍一些常用的压缩文件格式。
 
@@ -159,11 +169,11 @@ Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是�
 
 「智能解压」则是一种「傻瓜式解压操作」。还记得 [文件与文件管理]({{<ref "file-and-file-management.md">}}) 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「智能解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个项目（无论文件或文件夹）时，Bandizip 便选择「解压到当前文件夹」；若有多个项目， Bandizip 则会选择「解压到 xxxxxx\」。
 
-举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 `D:\Touhou_Street.zip`，点击【智能解压】，那么图片就会被提取到 `D:\Touhou_Street\` 下；若这压缩包里面就一张图，则会被提取到 `D:\` 下。
+举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 `D:\Touhou_Street.zip`，点击【智能解压到此处】，那么图片就会被提取到 `D:\Touhou_Street\` 下；若这压缩包里面就一张图，则会被提取到 `D:\` 下。
 
 「智能解压」既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议始终使用「智能解压」来解压文件，除非你有特殊目的。
 
-![Smart_Extract.jpg](archive-formats-and-tools/Smart_Extract.jpg)
+![Smart_Extract.jpg](archive-formats-and-tools/Smart_Extract.png)
 
 ### WinRAR
 

@@ -38,7 +38,7 @@ type: docs
 - 软件篇
   - [Office 和 WPS——办公样样行]({{<ref "office-and-wps.md">}})
   - [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})
-  - 电子邮箱——天涯若比邻（敬请期待）
+  - 邮件与通信——天涯若比邻（敬请期待）
   - [压缩文件与压缩工具]({{<ref "archive-formats-and-tools.md">}})
   - [工具类软件推荐]({{<ref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<ref "how-to-find-tutorials.md">}})
@@ -68,11 +68,11 @@ type: docs
 
 ## 版本修订
 
+- AI full: 「AI 对话」一章修订完毕 (24/10/4)
 - AI now: 基本完成「从加减乘除到 AI 对话」一章 (24/7/19)
 - Format, fix and fine-tune: 调整网页版格式，修复一些错误，微调表述 (24/6/12)
 - Content update: 更新落后内容，调整图片格式 (24/5/25)
 - Every visit counts again: 现在在网页底部又可以看到网站的访问量了 (24/5/12)
-- Content update: 修些小地方 (24/5/3)
 - [查看更多……]({{<ref "revisions.md">}})
 
 ## 作者
