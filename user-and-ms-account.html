@@ -36,12 +36,12 @@ Windows 操作系统中的「用户」 # 在我们第一次启动 Windows 系统
 但 Windows 为我们提供了一套「假手于人」的机制。Administrator 这个重量级用户是不能亲自下场的，但我们可以「借」它的身份来做事。还记得前文提到，右击一个程序选择【以管理员身份运行】，就可以赋予程序提升的权限吗？所谓的「以管理员身份运行」，就是「以 Administrator 的身份运行」；而 Administrator 有着很高的权限，我们就能以它的身份赋予程序高权限。那个「UAC 弹窗」的本质，就是某个程序在尝试借 Administrator 的身份来执行自己时系统弹出的警告。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-10-08T11:24:33+08:00">
+    <meta property="article:modified_time" content="2024-10-10T17:55:04+08:00">
 <title>用户与微软账号 | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 <link rel="manifest" href="/missing/manifest.json">
 <link rel="icon" href="/missing/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/missing/book.min.34dfc2dcf9424a5b15e0bb075a4a262c2374a0b22f869f4159b55e0137da4767.css" integrity="sha256-NN/C3PlCSlsV4LsHWkomLCN0oLIvhp9BWbVeATfaR2c=">
-<script defer src="/missing/zh.search.min.b54f8129d702cd4a009d9456050e994b3479ba4fd4df871fea9def48e7d20784.js" integrity="sha256-tU&#43;BKdcCzUoAnZRWBQ6ZSzR5uk/U34cf6p3vSOfSB4Q="></script>
+<script defer src="/missing/zh.search.min.5497dd684f842a3a915c2749c831c9d63dc8cd003eaf8f6cf14af65a97247262.js" integrity="sha256-VJfdaE&#43;EKjqRXCdJyDHJ1j3IzQA&#43;r49s8Ur2WpckcmI="></script>
 
   
 
@@ -273,10 +273,10 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>打开【此电脑】，观察你的磁盘图标上是否有挂锁图案。若有，请务必阅读这部分内容。</p>
 <p><img src="user-and-ms-account/Untitled%204.png" alt="Untitled" /></p>
-<p>磁盘图标带挂锁图案，说明你的电脑启用了「设备加密」。一些商务本在出厂的时候会启用这个功能。这功能启用后，硬盘上的所有数据都是加密存储的，而那用来解密的，<strong>长达 48 位</strong>的密钥，存储在电脑内部的一个安全芯片中。这个安全芯片会在电脑开机时检查系统安全情况——例如，开机过程中有无恶意软件作祟，电脑是否有被恶意开启并篡改过设置等。当这个芯片确认安全后，它就会向系统通报密钥并进行解密。整个过程中，用户看不到密钥。</p>
+<p>磁盘图标带挂锁图案，说明你的电脑启用了「设备加密」。一些商务本在出厂的时候会启用这个功能。这功能启用后，硬盘上的所有数据都是加密存储的，而那用来解密的，<strong>长达 48 位字符</strong>的密钥，存储在电脑内部的一个安全芯片中。这个安全芯片会在电脑开机时检查系统安全情况——例如，开机过程中有无恶意软件作祟，电脑是否有被恶意开启并篡改过设置等。当这个芯片确认安全后，它就会向系统通报密钥并进行解密。整个过程中，用户看不到密钥。</p>
 <p>在某些极端情况下，这个芯片可能产生「误判」。一旦它认为启动环境不安全，就会拦截启动过程，不再向系统通报密钥。这时你将会在开机时卡在这个画面：</p>
 <p><img src="user-and-ms-account/Untitled%205.png" alt="Untitled" /></p>
-<p>可是，我们作为普通用户，从来没见过那 48 位长的「密钥」的真面目啊。这时，如果你使用过微软帐号来登录系统，那么你不必担心找不到这个密钥，微软会自动帮你把它备份到云端。你只需要打开 <a href="https://account.microsoft.com/devices/recoverykey">https://account.microsoft.com/devices/recoverykey</a> 这个链接，按提示登录微软帐号，即可找到自己设备的 48 位密钥。<del>虽然但是，谁愿意手打 48 位密钥啊。</del></p>
+<p>可是，我们作为普通用户，从来没见过那 48 个字符长的「密钥」的真面目啊。这时，如果你使用过微软帐号来登录系统，那么你不必担心找不到这个密钥，微软会自动帮你把它备份到云端。你只需要打开 <a href="https://account.microsoft.com/devices/recoverykey">https://account.microsoft.com/devices/recoverykey</a> 这个链接，按提示登录微软帐号，即可找到自己设备的 48 字符长的密钥。<del>虽然但是，谁愿意手打那么长的密钥啊。</del></p>
 <p><img src="user-and-ms-account/Bitlocker_Unfinished.png#center" alt="Bitlocker_Unfinished" /></p>
 <p>如果你在新机配置时没有登录微软账号，电脑上的设备加密可能会处于「还差最后一块拼图」的状态，此时的磁盘图标会出现上图那样的黄色警告标志。而打开【设置】→【更新和安全】→【设备加密】，则会看到「你需要 Microsoft 帐户才能完成此设备的加密」的警告信息。</p>
 <p><img src="user-and-ms-account/Bitlocker_Info.png" alt="Bitlocker_Info" /></p>
