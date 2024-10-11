@@ -52,13 +52,15 @@ Ask not what your country can do for you—ask what you can do for your country.
 
 另外，我们上面介绍的这种压缩是一种很「笨」的压缩。举个例子，相信大家都学过《汉乐府·江南》，诗是这样写的：
 
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">江南可采莲，</p>
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">莲叶何田田，</p>
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶间。</p>
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶东，</p>
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶西，</p>
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶南，</p>
-<p style="margin-left: 2.5em; margin-top: -3px; margin-bottom: -3px;">鱼戏莲叶北。</p>
+{{< hint quoting >}}
+江南可采莲，<br>
+莲叶何田田，<br>
+鱼戏莲叶间。<br>
+鱼戏莲叶东，<br>
+鱼戏莲叶西，<br>
+鱼戏莲叶南，<br>
+鱼戏莲叶北。
+{{< /hint >}}
 
 看起来后面几句都有相似的结构。那么，如果把这样的一个句式作为一个字典项：
 
