@@ -3,3 +3,4 @@ node_modules/*
 _book/*
 temp/*
 public/
+.hugo_build.lock
