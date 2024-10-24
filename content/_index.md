@@ -47,7 +47,7 @@ type: docs
   - [用户与微软账号]({{<ref "user-and-ms-account.md">}})
   - [蓝屏与解决蓝屏]({{<ref "recover-from-bsod.md">}})
   - [成为空间管理大师]({{<ref "manage-storage.md">}})
-  - 万言皆数——字符与编码规则（敬请期待）
+  - [万言皆数——字符与编码规则]({{<ref "characters-and-encodings.md">}})
   - 指令集、操作系统与应用生态（敬请期待）
       <!-- 内容预告：近些年，包括苹果、华为在内的厂商都在推出基于 ARM 架构的处理器，而微软也在 Windows 10 之后推出了 Windows 10 on ARM。这使得对应的机器无法直接运行传统的 x86 程序。然而，许多人在购买电脑时并不知道这一点，导致了一些不必要的困扰。在这一章，我们将介绍一些基本的计算机体系结构知识，用生动形象的例子开始讲解计算机的「心脏」——CPU，以及 CPU 的指令集，介绍操作系统、应用软件与它的关系，并提出一些当前选购电脑应当注意的问题。 -->
   - [Windows 11 修整指南]({{<ref "windows-11-optimization.md">}})
@@ -69,11 +69,11 @@ type: docs
 
 ## 版本修订
 
+- Encodings update: 完成「万言皆数——字符与编码规则」的初稿 (24/10/24)
 - AI full: 「AI 对话」一章修订完毕 (24/10/4)
 - AI now: 基本完成「从加减乘除到 AI 对话」一章 (24/7/19)
 - Format, fix and fine-tune: 调整网页版格式，修复一些错误，微调表述 (24/6/12)
 - Content update: 更新落后内容，调整图片格式 (24/5/25)
-- Every visit counts again: 现在在网页底部又可以看到网站的访问量了 (24/5/12)
 - [查看更多……]({{<ref "revisions.md">}})
 
 ## 作者
