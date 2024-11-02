@@ -83,7 +83,7 @@ Chrome 浏览器诞生不久就开始迅猛发展并占领市场。这有着多�
 
 时间一转眼到了 2018 年。那年末，微软搞了一个大新闻，要将 Edge 迁移到 Chromium 内核——换句话就是，把 Edge 原来的技术扔掉不要，新的 Edge 将是一款 Chromium 套壳的浏览器。新 Edge 最终在 2020 年正式问世，全称「Microsoft Edge」。这或许是微软的一次翻身——近两年，Edge 浏览器的市场份额开始稳步上升，一方面得益于 Chromium 内核的强大，另一方面则是微软借 Windows 来强行推荐 Edge。如果你使用的是 Windows 10 或 11，你一定在系统的许多地方都能看见微软强行推荐 Edge 的身影：
 
-![Untitled](browsers-and-how-to-choose/Untitled%207.png)
+![Untitled](browsers-and-how-to-choose/Untitled%207.png#center)
 
 而 IE 真的成为弃子了。2021 年 5 月 20 日，微软官宣即将停止支持 IE 浏览器，IE 将于 2022 年 6 月 15 日彻底「退役」。诞生于第一次浏览器大战的 IE 在那时碾压对手网景，却最终在第二次浏览器大战中成为历史。在今天，除了因国内有一些网站由于这样那样的历史原因必须要使用 IE 浏览器才能正常工作外，我们已经没有任何理由去使用 IE 浏览器。
 
@@ -134,7 +134,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 在早期的 Windows 10 系统中，IE 11——也就是 IE 的最后一个版本——得以作为系统的一部分而保留。你可以通过【开始】→【Windows 附件】→【Internet Explorer】来打开它：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2012.png)
+![Untitled](browsers-and-how-to-choose/Untitled%2012.png#center)
 
 当然你也可以打开「开始菜单」后，直接键入「Internet Explorer」来找到它。
 
@@ -144,7 +144,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 设置完之后关闭 Edge 再重新打开。然后，用 Edge 打开你需要用 IE 打开的网页，点击右上角【⋯】并选择【在 Internet Explorer 模式下重新加载】：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2013.png)
+![Untitled](browsers-and-how-to-choose/Untitled%2013.png#center)
 
 这样网页就相当于是通过 IE 打开了。当然，对于 Windows 10 上的 Edge，也可以用这个方法进入「Internet Explorer 模式」，从而打开那些只支持 IE 浏览器的网站。
 
@@ -173,7 +173,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 各大浏览器一般都给出了一键将自己设置成默认浏览器的入口。我们只需要进入浏览器的「设置」「选项」等类似的页面，寻找「默认浏览器」的相关字眼，按提示操作即可完成设置。例如，对于火狐浏览器，点选【≡】→【设置】就能看到默认浏览器的相关选项。
 
-![Untitled](browsers-and-how-to-choose/Untitled%2015.png)
+![Untitled](browsers-and-how-to-choose/Untitled%2015.png#center)
 
 在系统中手动选择默认浏览器则相对麻烦。在 Windows 10 系统中，你可以通过打开系统【设置】→【应用】→【默认应用】→【Web 浏览器】来选定一款浏览器作为你的默认浏览器：
 
@@ -187,7 +187,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
     
 - 点击后，将「`.htm`」「`.html`」「HTTP」「HTTPS」四个项目设置成这款浏览器（图中只展示了其中的两个）：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2017.png)
+![Untitled](browsers-and-how-to-choose/Untitled%2017.png#center)
 
 ## 练习
 
