@@ -37,7 +37,7 @@ type: docs
 
 Windows 11 在「文件资源管理器」（包括桌面）中引入了一套新的右键菜单：
 
-![屏幕截图 2022-02-08 154624.jpg](windows-11-optimization/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2022-02-08_154624.jpg)
+![屏幕截图 2022-02-08 154624.jpg](windows-11-optimization/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2022-02-08_154624.jpg#center)
 
 这套新的右键菜单虽然相比旧式菜单略显美观，但在很多时候并不实用：先不说这个新式菜单的 bug（例如「属性」之下的选项在第一次唤出菜单时不见了），由于今天的大多数应用仍然没有接入这套新的菜单系统，很多时候我们不得不在右键后点选【显示更多选项】这一项来打开旧式菜单以找到我们需要的功能。
 
@@ -54,7 +54,7 @@ reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpr
 
 这样设置之后，在文件资源管理器（包括桌面）中右键，都将继续使用旧式菜单：
 
-![Untitled](windows-11-optimization/Untitled.png)
+![Untitled](windows-11-optimization/Untitled.png#center)
 
 如果需要返回新版菜单，使用下面这行命令：
 

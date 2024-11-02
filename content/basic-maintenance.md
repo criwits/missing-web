@@ -71,7 +71,7 @@ type: docs
 
 此时，程序需要「提升自己的权限」来完成自己的工作，这个过程称为「提权」。而下面展示的这种弹窗（「你要允许此应用对你的设备进行更改吗」，称为「UAC 弹窗」），则是程序在向系统申请「提权」时，系统对用户的提示。这样就能解释，为什么在大多数安装或者卸载软件的时候，系统都会弹出这个窗口询问我们；而只有我们点击【是】，安装或者卸载才能正常继续了。
 
-![Untitled](basic-maintenance/Untitled%203.png)
+![Untitled](basic-maintenance/Untitled%203.png#center)
 
 那么这种「UAC 弹窗」的意义是什么呢？想象一下这个场景：你电脑上的某个垃圾软件留下的「种子」正在蠢蠢欲动，想要给你电脑安装一套流氓软件。然而，在一开始，这枚「种子」是没有足够权限的，因此它邪恶的计划就这样直接被粉碎了——没有提升的权限，它就没有办法进行软件安装。这也告诉了我们一个重要的事实：**如果电脑弹出了不明的「UAC 弹窗」，请一律拒绝。**
 
@@ -141,7 +141,7 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 1. 按哪个按钮可以卸载？
     
-    ![Untitled](basic-maintenance/Untitled%205.png)
+    ![Untitled](basic-maintenance/Untitled%205.png#center)
     
 2. 按哪个按钮可以卸载？
     
@@ -160,4 +160,4 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 [^1]: 如果你在使用中压根没见过这样的窗口（即 UAC 弹窗），那么这一整节的内容对你可能不适用：
     
-    ![Untitled](basic-maintenance/Untitled%209.png)
+    ![Untitled](basic-maintenance/Untitled%209.png#center)

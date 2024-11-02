@@ -42,7 +42,7 @@ Microsoft Office 是由微软（也就是 Windows 系统它爹）开发的办公
 
 最新版本的 Office 三件套的软件图标如下图所示。
 
-![Untitled](office-and-wps/Untitled.png)
+![Untitled](office-and-wps/Untitled.png#center)
 
 ### Office 的历史与版本
 
@@ -119,7 +119,7 @@ Office 这种软件自然免不了被盗版的命运。需要注意的是，在�
 
 即使你没有购买和安装过 Office，你或许仍会发现电脑的「开始菜单」中有 Office 甚至 Word、PPT、Excel 等软件的图标，例如：
 
-![Untitled](office-and-wps/Untitled%208.png)
+![Untitled](office-and-wps/Untitled%208.png#center)
 
 如果你尝试去点击这些 app，会发现打开了一个网页。在这个页面按提示登录微软账号，最后会来到这个页面：
 

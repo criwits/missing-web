@@ -111,7 +111,7 @@ type: docs
 SID，即「安全标识符」（security identifier），用于在操作系统中唯一地标识安全主体或安全组。所谓「安全主体」和「安全组」包括了用户、组和计算机账户，换言之，SID 就是操作系统给这台电脑上的所有用户派发的「身份证」，靠着这个「身份证」，操作系统才能识别用户、准许用户访问自己的资源。
 
 既然我们想改变自己用户的信息，那么很显然记下当前用户的 SID 是非常有必要的。按下 `Windows` + `X`，选择【终端】或【PowerShell】，输入 `whoami /user`，回车，即可看到当前用户的 SID。SID 是随机生成的，所以要是看到和下图一样的，不妨去买张彩票？
-![Get_SID](user-and-ms-account/Get_SID.png)
+![Get_SID](user-and-ms-account/Get_SID.png#center)
 
 ### 新建一个管理员账户
 
