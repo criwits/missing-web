@@ -93,17 +93,17 @@ type: docs
 
 点击之后我们会跳转到这样一个「下载地址」的页面。同样地，我们不要点击「需优先下载高速下载器」之下的所有连接，而要点击「普通下载地址」下方的「通用网络下载」或者「电信网络下载」：
 
-![Untitled](software-installation/Untitled%203.png)
+![Untitled](software-installation/Untitled%203.png#center)
 
 使用下方两个链接下载到的文件是：
 
-![Untitled](software-installation/Untitled%204.png)
+![Untitled](software-installation/Untitled%204.png#center)
 
 体积约 50 MB，符合这个软件的体量；是一个压缩包，一般解压缩之后就能得到软件的安装包。
 
 而使用上方所谓「高速下载」下载到的文件是：
 
-![Untitled](software-installation/Untitled%205.png)
+![Untitled](software-installation/Untitled%205.png#center)
 
 体积只有 1 MB，而且是一个不明的「可执行文件」（`exe` 文件），这是不正常的。在本章的最后，我们会使用一台虚拟机来演示这「高速下载器」会干什么。
 
@@ -166,7 +166,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 很多软件是需要购买的，包括 Windows 系统本身（一般你购买电脑时，电脑厂商已经帮你出了买 Windows 这部分钱）。常见的专业软件，从平面设计领域的 Adobe 家族的 Photoshop、Premiere Pro，工程领域的 Autodesk 家族的 AutoCAD、3ds MAX，到开发领域的 JetBrains 家族的 IDEA、PyCharm，甚至于我们每天都在用的 Word 和 PowerPoint，这些软件全部都需要付费购买。下图是购买正版 Photoshop（俗称的 PS）软件的页面——定价 888 元一年。
 
-![Untitled](software-installation/Untitled%206.png)
+![Untitled](software-installation/Untitled%206.png#center)
 
 而由于这样或那样的原因，我们在实际生活中，或多或少都在「没有付费而白嫖这些软件」。这是因为我们使用的这些软件被「破解」了。破解之后，软件的计费功能失效，原本收费的软件通过某种方式变成了可以免费永久使用的软件。大体上，网上流传的破解软件一般有这么两种形式：
 
@@ -183,7 +183,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 作为 Windows 亲爹的微软早在数年前就意识到，Windows 系统下一直缺少一个官方维护的、像 Apple 的 App Store 那样的「集中化」的软件中心，用户下载软件只能像上文那样上网去苦苦找寻。彼时的微软公司正打算进军手机行业，想要和安卓与 iOS 形成「三足鼎立」之势，微软于是心想：不如弄一种新的 app 格式，这种新的 app 不仅能在我们的 Windows 电脑上运行，还可以在手机上运行；然后我们再顺带弄一个全是这种新格式 app 的应用商店，可谓一举两得。于是微软就这么干了：这种新的 app 格式叫做「通用 Windows 平台应用」（Universal Windows Platform，简称「UWP 应用」），这个应用商店就是我们电脑里的「Microsoft Store」：
 
-![Untitled](software-installation/Untitled%207.png)
+![Untitled](software-installation/Untitled%207.png#center)
 
 可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在近两年宣布「谢幕」。可是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。
 
@@ -203,7 +203,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 在上文中我们演示下载「SecureCRT」时，如果点选了「高速下载」，会得到这样一个只有 1 MB 的可执行文件：
 
-![Untitled](software-installation/Untitled%209.png)
+![Untitled](software-installation/Untitled%209.png#center)
 
 双击运行这个文件，会弹出这样的窗口：
 
@@ -235,9 +235,11 @@ D:\Program Files (x86)\Tencent\QQ\
 
 我们得到的结论是：
 
+{{<hint quoting>}}
 **所谓「高速下载器」最后下载到的就是你点击「普通下载」得到的东西，纯属脱裤子放屁。**
 
-**而「高速下载器」在整个过程中带有许多的捆绑勾选，一旦不留神你的电脑就会被各种垃圾软件充斥。**
+**而「高速下载器」在整个过程中带有许多捆绑勾选，一旦不留神，各种垃圾软件就会充斥你的电脑。**
+{{</hint>}}
 
 *备注：这种流氓的「高速下载器」一般被我们称为「高速下崽器」。*
 
@@ -249,7 +251,7 @@ D:\Program Files (x86)\Tencent\QQ\
     
 2. 下面画面中，点击哪个按钮最可能不会下载到垃圾？
     
-    ![Untitled](software-installation/Untitled%2015.png)
+    ![Untitled](software-installation/Untitled%2015.png#center)
     
 3. 下面画面中，怎样操作最可能不会下载到垃圾？
     
