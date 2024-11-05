@@ -74,15 +74,18 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+// 从某个神秘的字体 CDN 整点思源黑体
+@import url('https://static.zeoseven.com/zsft/69/main/result.css');
+
 body {
-  font-family: Inter, sans-serif;
+  font-family: Inter, 'Noto Sans CJK SC', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
   /* fix for Chrome */
 }
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: InterVariable, sans-serif;
+    font-family: InterVariable, 'Noto Sans CJK SC', sans-serif;
   }
 }
 
