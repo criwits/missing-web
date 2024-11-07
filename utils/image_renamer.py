@@ -29,7 +29,11 @@ for line in content:
     if line.lstrip().startswith("!["):
         start_index = line.index("![")
         image_path = line.split("(")[1].split(")")[0]
+        # remove #floatleft, #floatright, #center
+        align = image_path.split("#")[1] if "#" in image_path else None
+        image_path = image_path.split("#")[0]
         image_name = os.path.basename(image_path)
+        image_name_ext = image_name.split(".")[1]
         image_path_abs = os.path.join(assets_folder_abs, unquote(image_name))
         image_path_abs = os.path.abspath(image_path_abs)
 
@@ -38,8 +42,7 @@ for line in content:
             plt.imshow(plt.imread(image_path_abs))
             plt.show()
             new_name = input("Enter new name: ")
-            new_name_no_ext = new_name.split(".")[0]
-            new_image_path = os.path.join(assets_folder_abs, new_name)
+            new_image_path = os.path.join(assets_folder_abs, new_name + "." + image_name_ext)
             new_image_path = os.path.abspath(new_image_path)
 
             place = input("Where? (l/c/r): ")
@@ -47,10 +50,12 @@ for line in content:
                 place = "floatleft"
             elif place == "r":
                 place = "floatright"
-            else:
+            elif place == "c":
                 place = "center"
+            else:
+                place = "center" if align is None else align
             
-            new_line = line[:start_index] + f"![{new_name_no_ext}]({assets_folder_name}/{new_name}#{place})"
+            new_line = line[:start_index] + f"![{new_name}]({assets_folder_name}/{new_name}.{image_name_ext}#{place})"
             print(new_line)
             new_content.append(new_line)
             os.rename(image_path_abs, new_image_path)

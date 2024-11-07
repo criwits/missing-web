@@ -28,11 +28,11 @@ type: docs
 - 打开系统【设置】。
 - 选择【应用】：
     
-    ![Untitled](basic-maintenance/Untitled.png)
+    ![Applications_10](basic-maintenance/Applications_10.png#center)
     
 - 稍等片刻以使得列表完全加载。在这个界面上，会列出电脑中安装的所有软件。找到我们不想要的软件，然后点击两次【卸载】：
     
-    ![Untitled](basic-maintenance/Untitled%201.png)
+    ![Uninstalling_an_app_10](basic-maintenance/Uninstalling_an_app_10.png#center)
     
 - 根据提示进行卸载操作即可。
 
@@ -41,21 +41,21 @@ type: docs
 - 打开系统【设置】。
 - 在界面左侧点击【应用】：
     
-    ![屏幕截图 2021-12-27 195553.jpg](basic-maintenance/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195553.jpg)
+    ![Applications_11](basic-maintenance/Applications_11.jpg#center)
     
 - 再在右侧点击【应用和功能】：
     
-    ![屏幕截图 2021-12-27 195636.jpg](basic-maintenance/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_195636.jpg)
+    ![Applications_and_Functions_11](basic-maintenance/Applications_and_Functions_11.jpg#center)
     
 - 等待右侧下方的列表加载完成。这个列表就是你的电脑上安装的所有软件。找到你不想要的软件，点击这一行右侧的【 ⁝ 】，再点击【卸载】：
     
-    ![屏幕截图 2021-12-27 200052.jpg](basic-maintenance/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2021-12-27_200052.jpg)
+    ![Uninstall_an_app_11](basic-maintenance/Uninstall_an_app_11.jpg#center)
     
 - 之后根据提示卸载即可。
 
 一般来说，卸载很快就能完成。但需要特别注意的是，**一些软件的卸载界面错综复杂，充斥有大量的无关选项（例如【再想想】【我要重装】），因此在点选时务必十分小心。甚至有些软件在卸载完成后会诱导用户装一个新的其他软件，请千万注意。** 例如：
 
-![Untitled](basic-maintenance/Untitled%202.png)
+![360_confusing_button](basic-maintenance/360_confusing_button.png#center)
 
 卸载完成之后，可能需要重启电脑使得卸载完全进行。
 
@@ -71,7 +71,7 @@ type: docs
 
 此时，程序需要「提升自己的权限」来完成自己的工作，这个过程称为「提权」。而下面展示的这种弹窗（「你要允许此应用对你的设备进行更改吗」，称为「UAC 弹窗」），则是程序在向系统申请「提权」时，系统对用户的提示。这样就能解释，为什么在大多数安装或者卸载软件的时候，系统都会弹出这个窗口询问我们；而只有我们点击【是】，安装或者卸载才能正常继续了。
 
-![Untitled](basic-maintenance/Untitled%203.png#center)
+![UAC_popup](basic-maintenance/UAC_popup.png#center)
 
 那么这种「UAC 弹窗」的意义是什么呢？想象一下这个场景：你电脑上的某个垃圾软件留下的「种子」正在蠢蠢欲动，想要给你电脑安装一套流氓软件。然而，在一开始，这枚「种子」是没有足够权限的，因此它邪恶的计划就这样直接被粉碎了——没有提升的权限，它就没有办法进行软件安装。这也告诉了我们一个重要的事实：**如果电脑弹出了不明的「UAC 弹窗」，请一律拒绝。**
 
@@ -93,7 +93,7 @@ type: docs
 
 Windows 一直在不断的更新之中——这里的「更新」指的不是诸如「Windows 7」「Windows 10」这样的大版本的更新，而是那时不时阻碍我们关机睡觉的「Windows 更新」。打开电脑的【设置】，Windows 10 选择【更新与安全】（下左图）、Windows 11 选择【Windows 更新】（下右图），你就能看到现在可用的一些 Windows 更新以及它们的状态。
 
-![Update.jpg](basic-maintenance/Update.jpg)
+![Update.jpg](basic-maintenance/Update.jpg#center)
 
 在今天的 Windows 10 或者 Windows 11 系统中，Windows 更新主要会包括以下这些内容：
 
@@ -111,7 +111,7 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 所谓流氓软件，就是指会恶意诱导用户下载、安装其他软件，「传染性」强，且难以卸载的软件，又称为「恶意软件」。还记得在上一章中，我们目睹了由一个不干净的「高速下载器」捆绑安装的一大群软件吗？这个「高速下载器」就是典型的流氓软件，它所安装的这些软件中有不少更是「流氓软件」。流氓软件具有「传染性」，即一个流氓软件可能捆绑安装 5 个流氓软件，而这 5 个则可以捆绑更多同类（真是「一生二，二生三，三生万物」啊）。最后落得的，就是一台被「玩坏了」的电脑（实验过程中，并没有任何真实电脑遭受伤害）：
 
-![Untitled](basic-maintenance/Untitled%204.png)
+![Computer_with_unwanted_apps](basic-maintenance/Computer_with_unwanted_apps.png#center)
 
 {{< hint danger >}}
 
@@ -141,23 +141,23 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 1. 按哪个按钮可以卸载？
     
-    ![Untitled](basic-maintenance/Untitled%205.png#center)
+    ![Uninstalling_1](basic-maintenance/Uninstalling_1.png#center)
     
 2. 按哪个按钮可以卸载？
     
-    ![Untitled](basic-maintenance/Untitled%206.png)
+    ![Uninstalling_2](basic-maintenance/Uninstalling_2.png#center)
     
 3. 按哪个按钮可以卸载？
     
-    ![Untitled](basic-maintenance/Untitled%207.png)
+    ![Uninstalling_3](basic-maintenance/Uninstalling_3.png#center)
     
 4. 如何操作可以卸载？
     
-    ![Untitled](basic-maintenance/Untitled%208.png)
+    ![Uninstalling_4](basic-maintenance/Uninstalling_4.png#center)
     
 5. 清理电脑上的杀毒软件 / 安全软件，保留一个你用得最熟悉的。
 
 
 [^1]: 如果你在使用中压根没见过这样的窗口（即 UAC 弹窗），那么这一整节的内容对你可能不适用：
     
-    ![Untitled](basic-maintenance/Untitled%209.png#center)
+    ![UAC_popup_2](basic-maintenance/UAC_popup_2.png#center)
