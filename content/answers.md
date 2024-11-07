@@ -34,7 +34,7 @@ type: docs
     
 2. 「普通下载地址」下方的四个：
     
-    ![Four_downloads](Four_downloads.png)
+    ![Four_downloads](answers/Four_downloads.png)
     
 3. 取消勾选「使用搜狗软件助手下载软件」，然后寻找「普通下载」按钮。
 4. 5 个。
@@ -46,19 +46,19 @@ type: docs
 
 1. 左方没有高亮的【继续卸载】按钮：
     
-    ![Continue_uninstalling](Continue_uninstalling.png)
+    ![Continue_uninstalling](answers/Continue_uninstalling.png)
     
 2. 左方没有高亮的【确认卸载】按钮：
     
-    ![Confirm_uninstalling](Confirm_uninstalling.png)
+    ![Confirm_uninstalling](answers/Confirm_uninstalling.png)
     
 3. 右下方的【残忍卸载】小字：
     
-    ![Uninstall_now](Uninstall_now.png)
+    ![Uninstall_now](answers/Uninstall_now.png)
     
 4. 先点选【卸载】，然后寻找「残忍卸载」之类的按钮：
     
-    ![Real_uninstall](Real_uninstall.png)
+    ![Real_uninstall](answers/Real_uninstall.png)
     
 5. 略。
 
