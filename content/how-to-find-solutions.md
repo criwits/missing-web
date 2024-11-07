@@ -34,7 +34,7 @@ type: docs
 
 运行库是一种「你平常感知不到，但它们非常重要」的存在。不妨现在查看一下你电脑的应用列表（方法请参见 [基本维护和安全防护]({{<ref "basic-maintenance.md">}}) 一章），你或许能找到名为「Microsoft Visual C++」的一个或一群软件：
 
-![Untitled](how-to-find-solutions/Untitled.png)
+![MS_CPP_redises](how-to-find-solutions/MS_CPP_redises.png#center)
 
 这就是「Visual C++」运行库（有时简称「VC++」或「VC」）。你也许会纳闷自己从来没有手动安装过它们，这是因为它们可能是在一些其他软件安装时被「顺带」安装上的。
 
@@ -68,21 +68,21 @@ type: docs
 
 搜索引擎与提问不同，我们不能直接在百度搜索框中粘贴图片，也不能在搜索框写太多东西。使用搜索引擎查找答案，我们需要使用「关键词」代替成段的语句来表征自己遇到的问题。对于我们常常见到的软件出错，一般都会有一个「错误代码」以及相应的错误文本。这个 **错误代码和错误文本就是最最重要的关键词之一**。它可能是这样（`KERNEL_MODE_HEAP_CORRUPTION`，关于蓝屏的处理详见 [蓝屏与解决蓝屏]({{<ref "recover-from-bsod.md">}})）：
 
-![Blue_screen_windows_10.png](how-to-find-solutions/Blue_screen_windows_10.png)
+![Blue_screen_windows_10.png](how-to-find-solutions/Blue_screen_windows_10.png#center)
 
 可能是这样（`0x80070490`）：
 
-![Green_err_code.png](how-to-find-solutions/Green_err_code.png)
+![Green_err_code.png](how-to-find-solutions/Green_err_code.png#center)
 
 也可能是这样（`126 - 找不到指定的模块`）：
 
-![3Ds_Max_err_code.png](how-to-find-solutions/3Ds_Max_err_code.png)
+![3Ds_Max_err_code.png](how-to-find-solutions/3Ds_Max_err_code.png#center)
 
 **另一个重要的关键词是发生问题的软件**。仅凭一个错误代码，你可能会找到有同一个错误代码的来自不同软件的不同问题。因此，搜索时我们务必要带上「什么软件发生的这个错误」。对于蓝屏错误，软件就是「Windows 10」之类的具体版本；对于其他软件错误，尽量用简短的语句表示具体的软件，比如「CAD 2022」「Word 2019」等。
 
 一般来说，通过上面两个关键词一起搜索，我们已经能够通过搜索引擎定位到问题和相对应的答案了。例如：
 
-![Untitled](how-to-find-solutions/Untitled%201.png)
+![Searching_for_err_code](how-to-find-solutions/Searching_for_err_code.png#center)
 
 在这些教程类的文章中细细寻找，一般我们都可以解决遇到的问题。但在多如牛毛的搜索结果中筛选我们所需要的东西，也并非一件很容易的事情。一般来说，在搜索结果的时候我们可以注意下面几个方面：
 
@@ -101,11 +101,11 @@ type: docs
 
 「问问题」是指「询问一些存在具体答案的问题」，譬如生活常识、数学题等等。例如我们问：「2 + 3 = ？」根据语料，大模型预测人们给出类似「2 + 3 = 5」的回答的几率最大，所以它也会给出这样类似的回答。
 
-![2+3](how-to-find-solutions/2+3.png)
+![2+3](how-to-find-solutions/2+3.png#center)
 
 所以说，**如果你问出来的是人们早已找到准确答案的问题，AI 会有更多的可能预测出包含正确答案的语句**，因为答案已经包含在训练用的语料库中。但如果我们问奇葩点的问题呢？
 
-![1919810th of pi](how-to-find-solutions/191810th_of_pi.png)
+![1919810th of pi](how-to-find-solutions/191810th_of_pi.png#center)
 
 此时我们就要对它给出的结果持怀疑态度了。用一些专门计算圆周率的软件算一算，你会发现，圆周率的第 1 919 810 位小数是 9。所以，**稍微复杂或刁钻一些的问题，它很可能给出错误的答案**。这也再一次向我们揭示「它是一个语言模型」的本质，它做的只是预测，而非真正在思考、计算。
 
@@ -113,7 +113,7 @@ type: docs
 
 「找方法」则是说「寻求达到一个目的的途径」，譬如「怎么学一门语言」「如何解决软件出现的错误」这样的疑问，而模型的回复往往是达成这些事的一些方法。如果说「问问题」得到的解答，我们限于自己的知识水平无法轻易验证，那么**这里得到的方法，则「试试便知」**。当然了，**AI 给出的方法不一定有效**，如果你发现真的没用，不妨去咨询目标领域内的专业人士寻求帮助。
 
-![Seek for methods](how-to-find-solutions/Seek_for_methods.png)
+![Seek for methods](how-to-find-solutions/Seek_for_methods.png#center)
 
 ### 搜集信息
 
@@ -121,18 +121,18 @@ type: docs
 
 而为了解决这个问题，目前公开给大众使用的 AI 对话工具，基本上联动了搜索引擎。**当检测到用户要求的输入可能是时事新闻时，对话工具会自动调用搜索引擎搜索相关关键词**，并由模型整理结果，给出输出。如果你询问的 AI 对话工具没有，或者不确定有没有，联动搜索引擎，那最好还是手动搜索求证为好。
 
-![2024 Olympics Medal](how-to-find-solutions/2024_Olympics_Medal.png)
+![2024 Olympics Medal](how-to-find-solutions/2024_Olympics_Medal.png#center)
 
 ## 练习
 
 1. 如果你准备使用「Premiere」软件制作一个视频，但在导出时弹出了下面的窗口，你应该用什么样的搜索语句上网检索？
     
-    ![Untitled](how-to-find-solutions/Untitled%202.png)
+    ![Encoder_error](how-to-find-solutions/Encoder_error.png#center)
     
 2. 如果你准备打开一个小工具程序时，弹出了这样的窗口，你应该怎么办？
     
-    ![Untitled](how-to-find-solutions/Untitled%203.png)
+    ![Requiring_dotNET](how-to-find-solutions/Requiring_dotNET.png#center)
     
 3. 如果你准备打开一个应用时，弹出了这样的窗口，你应该怎么办？
     
-    ![Untitled](how-to-find-solutions/Untitled%204.png)
+    ![Requiring_MSVC](how-to-find-solutions/Requiring_MSVC.png#center)

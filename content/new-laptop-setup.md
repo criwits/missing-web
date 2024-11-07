@@ -22,7 +22,7 @@ type: docs
 
 在网上购买的新电脑，一定是躺在八角尖尖的包装箱里送到我们手中的。拆去在包装箱外另外套的一层快递运输箱（部分商家没有单独使用运输箱，直接用笔记本的包装箱贴快递标签运输），我们就能看到电脑的包装箱。
 
-![Untitled](new-laptop-setup/Untitled.png)
+![Unboxing](new-laptop-setup/Unboxing.png#center)
 
 ### 检查封条
 
@@ -30,13 +30,13 @@ type: docs
 
 不过，若你的电脑不是在品牌官方旗舰店购买的，而是在第三方店家，且第三方店家为你加装了额外配置，那么寄到手中的包装箱有可能没有封条，毕竟第三方自行加装硬件免不了需要拆机。换句话说，在第三方购买，有封条最好，没封条拉倒。
 
-![Untitled](new-laptop-setup/Untitled%201.png)
+![Checking_label](new-laptop-setup/Checking_label.png#center)
 
 ### 检查产品信息
 
 包装箱的侧面一般会贴有一张写有机器信息的贴纸。**请务必关注此贴纸上的型号、配置、机器颜色等信息是否与你所购买的机器一致，** 建议拍下此贴纸以备不时之需。特别注意此贴纸上含有许多非常重要的机器信息，如机器的序列号、微软正版软件的注册码等，因此请不要把贴纸的照片随意发给他人。
 
-![Untitled](new-laptop-setup/Untitled%202.png)
+![Checking_info](new-laptop-setup/Checking_info.png#center)
 
 在检查完以上内容并确认无误后，我们便可以打开包装箱，取出我们的机器了。
 
@@ -50,7 +50,7 @@ type: docs
 
 常见的外观瑕疵和例子（**此处仅为随意从互联网上选取的例子，我们不对任何品牌的品质作出评价**）：屏轴两侧缝隙不对称（[例子 A](https://tousu.sina.com.cn/complaint/view/17351828965)），触控板两侧高矮不一致（[例子 B](https://www.dell.com/community/%E7%81%B5%E8%B6%8A%E7%AC%94%E8%AE%B0%E6%9C%AC/%E6%8A%95%E8%AF%89-%E7%81%B5%E8%B6%8A16-Plus%E5%93%81%E6%8E%A7%E6%9E%81%E5%B7%AE-%E5%94%AE%E5%90%8E%E4%B8%8D%E4%BD%9C%E4%B8%BA/td-p/8025463)，[例子 C](https://www.zhihu.com/question/445434723)），触控板两侧缝隙不一样大或者缝隙偏大（[例子 D](https://club.huawei.com/thread-30382374-1-1.html)），合上后屏幕和键盘缝隙偏大（[例子 E](https://www.zhihu.com/question/265987549)）等。
 
-![Untitled](new-laptop-setup/Untitled%203.png)
+![Examples_of_small_problems](new-laptop-setup/Examples_of_small_problems.png#center)
 
 再次强调，这些外观瑕疵（尤其是不影响功能的外观瑕疵，比如缝隙不对称）很多是由加工精度和制造水平决定的，而厂商永远是按照产品的**定位**（通俗来讲，就是**售价**）来决定选用何种加工精度和制造工艺的。换言之，这些「瑕疵」依然能够符合质量检测的要求。因此，厂商有权拒绝以上述原因作为理由的退换货需求。**我们建议大家在开机前仔细检查外观瑕疵，这是因为在此时我们可以直接使用电商平台「七天无理由」退货功能进行退货（开机联网后就不能了），从而避免一些不必要的纠纷。**
 
@@ -81,7 +81,7 @@ type: docs
 
 如果你的电脑预装的是 Windows 10 系统，那么在第一次开机进行到这个界面时：
 
-![Untitled](new-laptop-setup/Untitled%204.png)
+![Windows_10_skip_internet](new-laptop-setup/Windows_10_skip_internet.png#center)
 
 点击屏幕左下角的【现在跳过】，即可跳过联网步骤。
 
@@ -89,7 +89,7 @@ type: docs
 
 如果你的电脑预装的是 Windows 11，那么你会发现，**首次开机的联网步骤没有「跳过」按钮**，如下图：
 
-![Untitled](new-laptop-setup/Untitled%205.png)
+![Windows_11_no_skip_internet](new-laptop-setup/Windows_11_no_skip_internet.png#center)
 
 这是 Windows 11 **非常愚蠢** 的一个的设定——它要求我们必须联网才能完成首次开机。 ~~辣鸡微软，断我后路。~~ 为了避免联网激活造成七天无理由失效，我们就需要用一些「特殊方法」来强行跳过联网步骤。取决于你拿到机器的时间，请按下面的步骤依次尝试：
 
@@ -153,33 +153,33 @@ type: docs
 
 首先明确，我们是可以无损地从一个已有分区的尾部「切」出一个新的分区的，前提是已有分区的剩余空间足够大。因此，如果你的新电脑的分区结构像这样（只有一个 C 盘）：
 
-![Untitled](new-laptop-setup/Untitled%206.png)
+![One_partition](new-laptop-setup/One_partition.png#center)
 
 我们可以在它的尾部划分一个新的分区（D 盘）。操作流程如下：
 
 - 右击【此电脑】，选择【管理】，再在左侧点击【磁盘管理】。
     
-    ![Untitled](new-laptop-setup/Untitled%207.png)
+    ![Computer_management](new-laptop-setup/Computer_management.png#center)
     
 - 在「磁盘管理」界面中，我们可以看到电脑的分区情况（C 盘前后的没有盘符的分区是系统工作需要的隐藏分区）。右击我们需要「切」的分区（C 盘），选择【压缩卷】。
     
-    ![Untitled](new-laptop-setup/Untitled%208.png)
+    ![Compress_volume](new-laptop-setup/Compress_volume.png#center)
     
 - 稍等片刻，然后，在这个对话框中【输入压缩空间量】处输入你需要「切」出的大小。一般来说，我们建议将 C 盘保留 150—200 GB，剩下的空间都可以划分给新的分区。此处填写的容量单位是 MB。
     
-    ![Untitled](new-laptop-setup/Untitled%209.png)
+    ![Setting_size](new-laptop-setup/Setting_size.png#center)
     
 - 点击【压缩】。稍等片刻，我们就可以看到在 C 盘的后方多出了一段「未分配」空间。右击它，选择【新建简单卷】。
     
-    ![Untitled](new-laptop-setup/Untitled%2010.png)
+    ![Create_new_volume](new-laptop-setup/Create_new_volume.png#center)
     
 - 点击三次【下一页】，你可以在「格式化分区」这一步为新分区指定一个有意义的卷标。如果你不更改，它默认是「新加卷」。
     
-    ![Untitled](new-laptop-setup/Untitled%2011.png)
+    ![Setting_label](new-laptop-setup/Setting_label.png#center)
     
 - 完成向导，你将得到一个新的分区。
     
-    ![Untitled](new-laptop-setup/Untitled%2012.png)
+    ![Two_partitions](new-laptop-setup/Two_partitions.png#center)
     
 
 ## 登录微软账号

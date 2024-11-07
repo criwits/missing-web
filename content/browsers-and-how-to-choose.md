@@ -20,7 +20,7 @@ type: docs
 
 浏览器是我们「网上冲浪」必备工具。当你访问一个网站，比如说 [https://missing.criwits.top/](https://missing.criwits.top/)，这个网站的内容就顺着网线和 Wi-Fi 传输到了你的设备（手机或电脑或其他）上。浏览器所做的事情，就是将这些内容按它们所设计的样子「排版」或者说「呈现」，使其能完整、正确地展现在你的屏幕上。同时，浏览器还负责与你进行交互：假如你点了一下这个网站上的某个按钮，浏览器就要去「理解」你的点击动作，并执行相应的功能。
 
-![Untitled](browsers-and-how-to-choose/Untitled.png)
+![How_browser_works](browsers-and-how-to-choose/How_browser_works.png#center)
 
 正如做数学题有人做得快有人做得慢，「排版」同一个网页，有的浏览器排得又快又好，有的则要花费更长的时间。浏览器之间的最直观区别，就体现在同一网络下打开网页的不同速度上。当然，不同的浏览器也有自己的特色，有的可以帮忙屏蔽一些广告，有的可以帮你记忆各种密码，有的能与「某某电脑管家」联动来保障安全，有的则只被用来下载其他浏览器。「IE 浏览器」「火狐浏览器」「谷歌浏览器」「360 极速浏览器」「QQ 浏览器」……这些名字或许你早已有所耳闻，但它们究竟孰优孰劣，可能还需要深入了解才能知晓。
 
@@ -34,13 +34,13 @@ type: docs
 
 让我们将时间的指针拨到 30 年前。二十世纪九十年代，互联网刚刚进入民用领域，市面上开始出现各种各样的早期网络浏览器，它们的出现拉开了一场没有硝烟的「战争」的序幕。
 
-![Untitled](browsers-and-how-to-choose/Untitled%201.png#floatright)
+![Netscape_logo](browsers-and-how-to-choose/Netscape_logo.png#floatright)
 
 这些早期网络浏览器的作者中，有一个叫马克·安德森的人比较有商业头脑——他嗅到了互联网时代的机遇。1994 年，他和自己的伙伴成立了「网景通讯」公司，并推出了一款商业化的浏览器软件——「网景浏览器」。网景浏览器以「共享软件」的方式运作——即软件本身需要交钱购买，但是可以先免费试用。由于网景浏览器相比竞品（虽说那时本来也没什么竞品）更加实用、稳定，网景很快统领了浏览器的市场，并成为了互联网领域的「绝对标准」。右图是网景公司的 logo。
 
 微软见网景在互联网领域如鱼得水赚了大钱，心里很不是滋味，于是也想在浏览器领域分一杯羹。1995 年，微软发布了「Internet Explorer」，它简写来就是「IE」。IE 在一开始并没有取得什么竞争上的优势——一开始，它不如网景浏览器稳定，有着更多的安全漏洞并更容易死机。但到了 1997 年，微软发布 IE 4.0，这个版本的 IE 做了几件大事：一是**它变成了 Windows 系统中的一部分**~~（捆绑安装）~~，二是它终于做得比网景更好了。自此之后，IE 迅雷不及掩耳地抢占了大量市场份额。到了 1998 年，网景被 AOL 公司收购，原来的浏览器开发团队也解散了。下面是 IE 4.0 的软件界面：
 
-![IE4](browsers-and-how-to-choose/IE4.png)
+![IE4](browsers-and-how-to-choose/IE4.png#center)
 
 至此，微软在这一场与网景的较量之中胜出，IE 浏览器成为了浏览器界的老大，第一次浏览器大战结束。
 
@@ -52,15 +52,15 @@ type: docs
 
 时间来到 2003 年，苟延残喘的网景公司最终解散。解散当天，AOL 也分离了与 Mozilla 的关系，Mozilla 成了一个独立的「基金会」。所谓「基金会」，就是说自身不以营利为目的，而依赖社区——或者说大众——的力量进行开发，依赖用户的捐赠来维持运行。不久后，Mozilla 将自己开发的，「传承」自网景的浏览器赋予「Firefox」的名字，即「火狐」。由开放社区贡献的火狐得到了人们的认可，数年间就占领了超过 20% 的浏览器市场。下图是自 2004 年以来火狐浏览器的图标变化。
 
-![Untitled](browsers-and-how-to-choose/Untitled%203.png)
+![Firefox_envolution](browsers-and-how-to-choose/Firefox_envolution.png#center)
 
 微软见火狐迅速占领市场，来者不善，于是着手为 IE 添加新的功能，以让它能与火狐抗衡。2006 年，微软发布了 IE 7，在界面和功能上都有了许多改变，但却在性能上惨不忍睹，在新标准支持方面也实在难以恭维。又由于为 IE 7 护航的 Windows Vista 实在太拉，IE 7 几乎没有取得什么成功。后来的 IE 8 尽管做了很大改进，但在新标准支持方面仍然表现差劲，与竞争对手间存在很大的差距。IE 的市场份额因而不断走向下坡，而火狐的占有率则在 2008 年前后冲上了 30% 的高峰。
 
-![IE8](browsers-and-how-to-choose/IE8.png)
+![IE8](browsers-and-how-to-choose/IE8.png#center)
 
 与此同时，越来越多的企业和组织意识到了浏览器市场的重要性。除了 Mozilla 的火狐和微软的 IE 外，其他许多竞争者也参与到了这场新的浏览器大战中。2008 年，谷歌公司 ~~（也就是某个官网都打不开的公司）~~ 推出了一款全新浏览器——Chrome 浏览器，也就是我们俗称的「谷歌浏览器」。下面展示的是今天 Chrome 浏览器的画面。
 
-![Untitled](browsers-and-how-to-choose/Untitled%205.png)
+![Missing_homepage_in_Chrome](browsers-and-how-to-choose/Missing_homepage_in_Chrome.png#center)
 
 Chrome 浏览器诞生不久就开始迅猛发展并占领市场。这有着多方面的原因：第一，谷歌公司自身的体量强大，因而能够借助自己的网络生态——例如谷歌搜索、谷歌邮箱（Gmail）等访问量巨大的网站——来「助推」Chrome 浏览器。第二，谷歌的确投入了人力物力进行 Chrome 浏览器的开发，一直以来，Chrome 浏览器在性能上与竞争对手相比都有着不小的优势。
 
@@ -69,27 +69,27 @@ Chrome 浏览器诞生不久就开始迅猛发展并占领市场。这有着多�
 
 前面我们提到过，火狐浏览器是「开源」的软件，它的源代码自诞生以来一直都是公开的——这意味着，任何人都可以在遵守一定约定的前提下，自由地修改和发布它。这样，火狐浏览器就能「集思广益」，以社区之力推进开发。谷歌看到了这种模式的优势，但又不想让自己的得意之作完全被众人窥探，于是谷歌想了个办法，它将 Chrome 浏览器的核心部分拿出来，以「Chromium」这个名字开源。顺带说一句，「Chrome」是「铬金属」，「Chromium」是「铬元素」，外在与内核，正是照应了它们的名字。有了 Chromium，社区大众可以拿它去进行二次开发和改进，谷歌则将这之中的开发进展不断地吸收回 Chrome。这样就形成了一个由开放的 Chromium「反哺」封闭的 Chrome 的过程。如果你正在使用 Chrome 浏览器，不妨打开【设置】→【关于 Chrome】，你就能看到这样一句话：「Chrome 的诞生离不开 Chromium 开源项目以及其他开源软件」。
 
-![About_chrome.png](browsers-and-how-to-choose/About_chrome.png)
+![About_chrome.png](browsers-and-how-to-choose/About_chrome.png#center)
 
 众所周知，Chrome 浏览器好用，而谷歌又把它核心部分给公开了，这让许多其他厂商有了新的想法：从零开始重新设计一个浏览器实在太难，但浏览器着实赚钱（主要是广告效应，以及可以借浏览器来推广自家的其他功能），不如就把这 Chromium 借来，套上一个外壳，做成自己的浏览器好了。由于国内特殊的网络环境，谷歌的一些服务在大陆无法使用，这更给予了国内一些互联网大厂打造自己浏览器的动力。「360 极速浏览器」「QQ 浏览器」「2345 王牌浏览器」「世界之窗浏览器」等这些国产浏览器，都是在 Chromium 的基础上「套壳」而来的产物——它们都使用着和 Chrome 一样的核心技术，只是披上了不同的外衣，附加了各自的独有功能，比如「网络安全」「账户同步」等。在这些浏览器的有关页面上，我们也都能找到它们与 Chromium 的关系。例如，下图是 360 极速浏览器的介绍页，这里的「Chrome 内核」指的就是 Chromium。
 
-![360_ee.png](browsers-and-how-to-choose/360_ee.png)
+![360_ee.png](browsers-and-how-to-choose/360_ee.png#center)
 
 再比如说，QQ 浏览器的「关于」页面中就写明了此版本浏览器所依赖的 Chrome 内核版本，呃，以及 IE 内核版本 ~~（不过现在 Chromium 都版本 120+ 了你怎么还在用 94 啊？）~~：
 
-![QQ Browser](browsers-and-how-to-choose/QQ_Browser.png)
+![QQ Browser](browsers-and-how-to-choose/QQ_Browser.png#center)
 
 就连微软——又是你微软——也在最后走上了套壳 Chromium 的道路。先回头看看 IE 浏览器，它自 2013 年的 IE 11 以来就没有再更新过大版本。倒是在 2015 年前后，微软发布了一款新的浏览器「Edge」，彼时的 Edge 还是在 IE 的基础上开发的，可以算是 IE 的正统后继者——连 IE 的缺点也一并后继了。于是之后几年，Edge 一直不温不火，尽管它和 Windows 10 捆绑，但市场占有率一直比较低迷。~~毕竟 IE 是什么乐色（垃圾）大家都懂，那几年的 Edge 只能说稍微比过去的 IE 好那么一丁点。~~
 
 时间一转眼到了 2018 年。那年末，微软搞了一个大新闻，要将 Edge 迁移到 Chromium 内核——换句话就是，把 Edge 原来的技术扔掉不要，新的 Edge 将是一款 Chromium 套壳的浏览器。新 Edge 最终在 2020 年正式问世，全称「Microsoft Edge」。这或许是微软的一次翻身——近两年，Edge 浏览器的市场份额开始稳步上升，一方面得益于 Chromium 内核的强大，另一方面则是微软借 Windows 来强行推荐 Edge。如果你使用的是 Windows 10 或 11，你一定在系统的许多地方都能看见微软强行推荐 Edge 的身影：
 
-![Untitled](browsers-and-how-to-choose/Untitled%207.png#center)
+![Windows_11_suggesting_Edge](browsers-and-how-to-choose/Windows_11_suggesting_Edge.png#center)
 
 而 IE 真的成为弃子了。2021 年 5 月 20 日，微软官宣即将停止支持 IE 浏览器，IE 将于 2022 年 6 月 15 日彻底「退役」。诞生于第一次浏览器大战的 IE 在那时碾压对手网景，却最终在第二次浏览器大战中成为历史。在今天，除了因国内有一些网站由于这样那样的历史原因必须要使用 IE 浏览器才能正常工作外，我们已经没有任何理由去使用 IE 浏览器。
 
 Chrome 很优秀，这让 Chromium 套壳的浏览器，例如「360 极速浏览器」都有相对不错的用户体验，再加上这些做套壳的厂商一般都会在浏览器中附加一些自己设计的小功能，让它们在一定程度上更易于使用，Chrome 系浏览器（包括新 Edge）的市场份额在近年来已经差不多 70%。说 Chrome 垄断了浏览器市场，一点也不为过。下图是自 2009 年至今的全球电脑端浏览器份额曲线图，其中绿线是 Chrome 以及 Chromium 套壳浏览器。
 
-![Untitled](browsers-and-how-to-choose/Untitled%208.png)
+![Browser_market_share](browsers-and-how-to-choose/Browser_market_share.png#center)
 
 与此同时，火狐——火狐是独立的、不同于 Chromium 的内核——的日子变得不太好过了。在 2010 年之前，火狐的市场份额还比较高，且有上升迹象，但在 Chrome 大行其道后就开始逐步下降。虽说火狐在性能上不差，但很多时候还是比不过 Chrome，再加上火狐毕竟是「用爱发电」，在宣传等方面肯定不如谷歌以及那些套壳大厂来得猛。如今，火狐只剩下不到 10% 的市场占有率。
 
@@ -99,7 +99,7 @@ Chrome 很优秀，这让 Chromium 套壳的浏览器，例如「360 极速浏�
 
 Chromium 套壳千千万，但我们始终最推荐 Chrome 自身，正所谓「一直被模仿从未被超越」。
 
-![Untitled](browsers-and-how-to-choose/Untitled%209.png)
+![Chrome_download_page](browsers-and-how-to-choose/Chrome_download_page.png#center)
 
 Chrome 性能出色，界面干净简洁，没有多余繁杂的功能栏，设计优雅美观。Chrome 稍微影响使用的缺点，可能是在内地无法稳定地使用「同步」等功能。这「同步」功能，是指在浏览器上登录自己的账号之后，就能同步自己的收藏夹、历史记录、密码本等数据，实现多设备联动。由于 Chrome 的老东家是谷歌，而谷歌服务无法正常在中国内地访问，这造成一般情况下我们只能不登录使用 Chrome。不过，在自己对同步功能依赖不深的情况下，这一缺点也是可以忽略的。
 
@@ -109,7 +109,7 @@ Chrome 浏览器的官方下载地址是 [https://www.google.cn/intl/zh-CN/chrom
 
 Firefox——或者说火狐——是今天 Chrome 垄断浏览器市场背景之下还在「坚守」的浏览器之一。
 
-![Untitled](browsers-and-how-to-choose/Untitled%2010.png)
+![Missing_homepage_in_Firefox](browsers-and-how-to-choose/Missing_homepage_in_Firefox.png#center)
 
 Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firefox 同样设计得较为合理美观。Firefox 是可以在国内正常使用同步功能的。具体来说，在国内能够下载到的 Firefox 有两个版本：
 
@@ -122,7 +122,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 这里的「Edge」说的是使用 Chromium 内核的新 Edge，它的图标蓝中带点绿。老 Edge 的图标是蓝色的「e」，不过今天已经不容易见到，因此这里不考虑它。
 
-![Untitled](browsers-and-how-to-choose/Untitled%2011.png)
+![Missing_homepage_in_Edge](browsers-and-how-to-choose/Missing_homepage_in_Edge.png#center)
 
 由于使用了 Chromium 内核，新 Edge 的性能自然和 Chrome 站到了同一梯队。在外观上，新 Edge 和 Chrome 基本一致，但加入了一些比较有用的小功能，例如「垂直标签页」等。Edge 使用微软账号登录，因而也能在国内正常同步。对于想使用 Chrome 却苦于同步等功能的用户来说，新 Edge 是他们非常不错的一个选择。
 
@@ -134,17 +134,17 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 在早期的 Windows 10 系统中，IE 11——也就是 IE 的最后一个版本——得以作为系统的一部分而保留。你可以通过【开始】→【Windows 附件】→【Internet Explorer】来打开它：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2012.png#center)
+![IE_in_old_Windows_10](browsers-and-how-to-choose/IE_in_old_Windows_10.png#center)
 
 当然你也可以打开「开始菜单」后，直接键入「Internet Explorer」来找到它。
 
 而在 Windows 11，以及最新的 Windows 10 中，IE 已经被移除出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】。
 
-![Edge_IE_Mode_1.png](browsers-and-how-to-choose/Edge_IE_Mode_1.png)
+![Edge_IE_Mode_1.png](browsers-and-how-to-choose/Edge_IE_Mode_1.png#center)
 
 设置完之后关闭 Edge 再重新打开。然后，用 Edge 打开你需要用 IE 打开的网页，点击右上角【⋯】并选择【在 Internet Explorer 模式下重新加载】：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2013.png#center)
+![Reload_in_IE_mode](browsers-and-how-to-choose/Reload_in_IE_mode.png#center)
 
 这样网页就相当于是通过 IE 打开了。当然，对于 Windows 10 上的 Edge，也可以用这个方法进入「Internet Explorer 模式」，从而打开那些只支持 IE 浏览器的网站。
 
@@ -152,7 +152,7 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 最后我们再来说说那些国产套 Chromium 壳的浏览器们。这些浏览器数量庞大，其中不乏优质作品，也有许多流氓软件。一般来说，大厂的产品如「360 安全浏览器」「360 极速浏览器」「QQ 浏览器」「搜狗高速浏览器」等，往往还属于比较可以接受的选择；而「2345 加速浏览器」「极速浏览器」这种名不见经传甚至有流氓软件背景的产品，我们十分不建议使用。下图是 360 安全浏览器的官网介绍。
 
-![Untitled](browsers-and-how-to-choose/Untitled%2014.png)
+![360_se_homepage](browsers-and-how-to-choose/360_se_homepage.png#center)
 
 这些国产套壳浏览器有着以下 Chrome 难以提供的功能：
 
@@ -173,21 +173,21 @@ Firefox 的性能稍弱于 Chrome，不过差距并不大。在界面上，Firef
 
 各大浏览器一般都给出了一键将自己设置成默认浏览器的入口。我们只需要进入浏览器的「设置」「选项」等类似的页面，寻找「默认浏览器」的相关字眼，按提示操作即可完成设置。例如，对于火狐浏览器，点选【≡】→【设置】就能看到默认浏览器的相关选项。
 
-![Untitled](browsers-and-how-to-choose/Untitled%2015.png#center)
+![Firefox_default_browser](browsers-and-how-to-choose/Firefox_default_browser.png#center)
 
 在系统中手动选择默认浏览器则相对麻烦。在 Windows 10 系统中，你可以通过打开系统【设置】→【应用】→【默认应用】→【Web 浏览器】来选定一款浏览器作为你的默认浏览器：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2016.png)
+![Setting_default_browser](browsers-and-how-to-choose/Setting_default_browser.png#center)
 
 而在 Windows 11 中，微软为了强行推荐新 Edge 浏览器，将手动选择默认浏览器的功能砍掉了 ~~微软你真的坏事做尽~~，要想在系统中将一款浏览器设置成默认浏览器需要这样操作：
 
 - 打开系统【设置】→【应用】→【默认应用】，然后找到你希望设置成默认浏览器的浏览器：
     
-    ![Windows_11_default_browser.png](browsers-and-how-to-choose/Windows_11_default_browser.png)
+    ![Windows_11_default_browser.png](browsers-and-how-to-choose/Windows_11_default_browser.png#center)
     
 - 点击后，将「`.htm`」「`.html`」「HTTP」「HTTPS」四个项目设置成这款浏览器（图中只展示了其中的两个）：
 
-![Untitled](browsers-and-how-to-choose/Untitled%2017.png#center)
+![Setting_default_browser_Windows_11](browsers-and-how-to-choose/Setting_default_browser_Windows_11.png#center)
 
 ## 练习
 

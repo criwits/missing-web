@@ -17,17 +17,17 @@ type: docs
 
 例如，如果你想学习 Excel 软件中「函数」部分的使用，那么可以查阅微软官方的 Excel 文档，例如 [这一份](https://support.microsoft.com/zh-cn/office/excel-%E5%87%BD%E6%95%B0-%E6%8C%89%E7%B1%BB%E5%88%AB%E5%88%97%E5%87%BA-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb)：
 
-![Untitled](how-to-find-tutorials/Untitled.png)
+![MS_document_for_Excel](how-to-find-tutorials/MS_document_for_Excel.png#center)
 
 这份官方文档不仅对每一个 Excel 函数都有介绍，并且还附上了各种使用例，因而比较容易学习。下面分别是 `SUM` 和 `MATCH` 两个函数的介绍中给出的例子与解释。
 
-![Untitled](how-to-find-tutorials/Untitled%201.png)
+![MS_document_for_Excel_2](how-to-find-tutorials/MS_document_for_Excel_2.png#center)
 
-![Untitled](how-to-find-tutorials/Untitled%202.png)
+![MS_document_for_Excel_3](how-to-find-tutorials/MS_document_for_Excel_3.png#center)
 
 又比如说，你想了解 Photoshop 的使用，那么 Adobe 官方也有制作一系列「新手向」的教程（甚至还有视频，带中文字幕，顺便附赠用到的素材）。
 
-![Untitled](how-to-find-tutorials/Untitled%203.png)
+![Adobe_document_for_PS](how-to-find-tutorials/Adobe_document_for_PS.png#center)
 
 一般来说，我们可以通过访问软件的官方网站（不知道怎么找官网？请参看 [软件的寻找与安装]({{<ref "software-installation.md">}})），并在官方网站寻找名为「帮助」或「支持」的栏目来查找官方文档 / 官方教程。此外，你也可以直接在网上搜索「<软件名>  官方文档」「<软件名> 帮助 支持」等来尝试直接寻找相关的官方文档。
 
@@ -43,11 +43,11 @@ type: docs
 
 比如，如果你想初步学习 {{<katex>}}\LaTeX{{</katex>}} 的使用，那么《始终》博客上的 [这篇](https://liam.page/2014/09/08/latex-introduction/) 文章就是一个非常不错的选择：
 
-![Untitled](how-to-find-tutorials/Untitled%204.png)
+![LaTeX_tutorial](how-to-find-tutorials/LaTeX_tutorial.png#center)
 
 又比如，对于计算机相关方向的学习者，[廖雪峰](https://www.liaoxuefeng.com/) 这个名字一定是不陌生的：
 
-![Untitled](how-to-find-tutorials/Untitled%205.png)
+![LXF_mainpage](how-to-find-tutorials/LXF_mainpage.png#center)
 
 但将独立博客上的文章作为教程，缺点也很明显：首先，这样的内容通常「可遇不可求」——毕竟，这些博客分散在互联网的各处，能不能发现「宝藏」，全靠运气。其次，这些文章的覆盖面终究有限。博主们大都不是专门做教程的人，因而不太可能讲解到我们所需要学习的每一款软件。
 
@@ -59,7 +59,7 @@ type: docs
 
 对于各种网络平台，我们可以直接在它们的搜索框中检索关键字，然后依据点击量或评论数等来轻松地筛选出更可能是优质内容的教程：
 
-![Untitled](how-to-find-tutorials/Untitled%206.png)
+![Searching_Revit_tutorials_on_bilibili](how-to-find-tutorials/Searching_Revit_tutorials_on_bilibili.png#center)
 
 而微信公众号——某种程度上它更像是低门槛的独立博客——则更多地依赖「口口相传」这样的方式来获得关注。如同我们在 [软件的寻找与安装](software-installation.md) 中提到的那种「软件分享」类的公众号，这里的「教程类」公众号也需要我们主动地「挖掘」，大家可以通过其他的途径去了解自己领域的优良公众号。
 
@@ -78,11 +78,11 @@ type: docs
 
 那我们就没有别的选择了吗？显然——不是。同样作为国际主流搜索引擎，[必应](https://cn.bing.com/) 不仅在国内可以正常、流畅地访问，还支持外文结果搜索，广告相对较少，因而是我们相当推荐的搜索引擎之一。
 
-![Untitled](how-to-find-tutorials/Untitled%209.png)
+![Searching_with_bing](how-to-find-tutorials/Searching_with_bing.png#center)
 
 若你同样也忍受不了百度日渐增多的广告和推送，那么或许必应是适合你的下一款搜索引擎。不妨尝试将必应设置为你的默认搜索引擎或主页。顺带说一句，必应每天都会更换一章首页封面图片，当做壁纸也是一个不错的选择哦！
 
-![Untitled](how-to-find-tutorials/Untitled%2010.png)
+![Bing_wallpaper](how-to-find-tutorials/Bing_wallpaper.png#center)
 
 ## 练习
 

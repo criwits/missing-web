@@ -307,7 +307,7 @@ Windows 系统的本意，是希望用户可以借助这些文件夹来辅助进
 
 右击某个我们想要迁移的文件夹（比如【桌面】），选择【属性】，然后切换到【位置】选项卡，如图：
 
-![Untitled](file-and-file-management/Untitled%2019.png)
+![Changing_place_of_Desktop](file-and-file-management/Changing_place_of_Desktop.png#center)
 
 我们将这里文本框中
 
@@ -329,7 +329,7 @@ D:\Desktop
 
 例如：
 
-![Untitled](file-and-file-management/Untitled%2020.png)
+![Changing_place_of_Desktop_2](file-and-file-management/Changing_place_of_Desktop_2.png#center)
 
 点击【应用】，提示「文件夹 “D:\Desktop” 不存在，是否新建该文件夹」，选择【是】。
 
@@ -348,7 +348,7 @@ D:\Desktop
 
 迁移完成之后，你可以在迁移之后的位置（比如 D 盘）看到这些文件夹。它们现在不在原来的 `C:\用户\<你的用户名>\` 那里了。
 
-![Moved_user_directories.png](file-and-file-management/Moved_user_directories.png)
+![Moved_user_directories.png](file-and-file-management/Moved_user_directories.png#center)
 
 ## 练习
 
