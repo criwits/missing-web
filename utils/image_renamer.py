@@ -41,11 +41,31 @@ for line in content:
             new_name_no_ext = new_name.split(".")[0]
             new_image_path = os.path.join(assets_folder_abs, new_name)
             new_image_path = os.path.abspath(new_image_path)
+
+            place = input("Where? (l/c/r): ")
+            if place == "l":
+                place = "floatleft"
+            elif place == "r":
+                place = "floatright"
+            else:
+                place = "center"
             
-            new_line = line[:start_index] + f"![{new_name_no_ext}]({assets_folder_name}/{new_name})"
+            new_line = line[:start_index] + f"![{new_name_no_ext}]({assets_folder_name}/{new_name}#{place})"
             print(new_line)
             new_content.append(new_line)
             os.rename(image_path_abs, new_image_path)
+        elif "#" not in line:
+            print(f"Unplaced image found: {image_path}")
+            place = input("Where? (l/c/r): ")
+            if place == "l":
+                place = "floatleft"
+            elif place == "r":
+                place = "floatright"
+            else:
+                place = "center"
+            new_line = line[:start_index] + f"{line[start_index:-1]}#{place})"
+            print(new_line)
+            new_content.append(new_line)
         else:
             new_content.append(line)
     else:
