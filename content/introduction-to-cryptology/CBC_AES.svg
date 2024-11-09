@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="CBC_AES.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="620.37643"
+     inkscape:cy="259.4175"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker206"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path206" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Color Shift"
+       id="filter19"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="hueRotate"
+         values="296"
+         result="color1"
+         id="feColorMatrix18" />
+      <feColorMatrix
+         type="saturate"
+         values="0.6"
+         result="fbSourceGraphic"
+         id="feColorMatrix19" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26" />
+      <feColorMatrix
+         id="feColorMatrix27"
+         type="hueRotate"
+         values="296"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix28"
+         type="saturate"
+         values="0.6"
+         result="color2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Color Shift"
+       id="filter21"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="hueRotate"
+         values="296"
+         result="color1"
+         id="feColorMatrix20" />
+      <feColorMatrix
+         type="saturate"
+         values="0.6"
+         result="fbSourceGraphic"
+         id="feColorMatrix21" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix29" />
+      <feColorMatrix
+         id="feColorMatrix30"
+         type="hueRotate"
+         values="296"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix31"
+         type="saturate"
+         values="0.6"
+         result="color2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Color Shift"
+       id="filter23"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="hueRotate"
+         values="296"
+         result="color1"
+         id="feColorMatrix22" />
+      <feColorMatrix
+         type="saturate"
+         values="0.6"
+         result="fbSourceGraphic"
+         id="feColorMatrix23" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix32" />
+      <feColorMatrix
+         id="feColorMatrix33"
+         type="hueRotate"
+         values="296"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix34"
+         type="saturate"
+         values="0.6"
+         result="color2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Color Shift"
+       id="filter25"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="hueRotate"
+         values="296"
+         result="color1"
+         id="feColorMatrix24" />
+      <feColorMatrix
+         type="saturate"
+         values="0.6"
+         result="fbSourceGraphic"
+         id="feColorMatrix25" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix35" />
+      <feColorMatrix
+         id="feColorMatrix36"
+         type="hueRotate"
+         values="296"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix37"
+         type="saturate"
+         values="0.6"
+         result="color2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Color Shift"
+       id="filter96"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="hueRotate"
+         values="101"
+         result="color1"
+         id="feColorMatrix95" />
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         result="color2"
+         id="feColorMatrix96" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g47"
+       transform="translate(-24.047535,11.263128)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#00ff45;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect39"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#009c2a;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect40"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#00cd37;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect41"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#008324;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect42"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#004011;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect44"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#00280d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect45"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#00e33c;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect46"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#006f1e;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect47"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="36.767033"
+       y="51.730339"
+       id="text47"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="36.702209"
+         y="51.730339">初始化向量</tspan></text>
+    <g
+       id="g103"
+       transform="translate(49.42222,-18.033457)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#00a62d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect96"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00cc37;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect97"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#001c07;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect98"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#00360f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect99"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#000f04;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect100"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#00b43b;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect101"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#00771f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect102"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#00e73e;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect103"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="110.23679"
+       y="22.303175"
+       id="text103"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="110.17197"
+         y="22.303175"
+         id="tspan104">明文信息 1</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 110.18739,38.275092 V 51.156133"
+       id="path105" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;line-height:1.62;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="110.1874"
+       y="62.933083"
+       id="text105"><tspan
+         sodipodi:role="line"
+         id="tspan105"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.7"
+         x="110.12258"
+         y="62.933083">⊕</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="121.29684"
+       y="61.859097"
+       id="text106"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="121.23203"
+         y="61.859097"
+         id="tspan106">异或</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 73.628849,59.60981 H 101.47347"
+       id="path106"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g113"
+       transform="translate(49.42222,106.79401)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#004b15;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect106"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00ff42;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect107"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#006f1c;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect108"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#007f23;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect109"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#00b530;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect110"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#003111;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect111"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#00b42f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect112"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#007720;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect113"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="110.23679"
+       y="147.13065"
+       id="text113"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="110.17197"
+         y="147.13065"
+         id="tspan113">密文信息 1</tspan></text>
+    <g
+       id="g115"
+       transform="translate(-10.894383,20.307023)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect114"
+         width="30.376553"
+         height="15.943993"
+         x="105.89351"
+         y="82.471306" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="121.13823"
+         y="92.613586"
+         id="text115"><tspan
+           sodipodi:role="line"
+           id="tspan115"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6"
+           x="121.0734"
+           y="92.613586">AES 加密</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 110.18739,120.43399 v 12.88104"
+       id="path115" />
+    <g
+       id="g122"
+       transform="translate(49.42222,35.437615)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#005c19;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect115"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#003e10;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect116"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#00ce35;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect117"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#00621c;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect118"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#004411;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect119"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#009932;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect120"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#009025;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect121"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#00a72d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect122"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 110.18739,64.589218 v 9.936803"
+       id="path122"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 110.18739,88.879181 v 8.096654"
+       id="path123"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 84.041475,110.75032 h 6.142358"
+       id="path124"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="77.111603"
+       y="112.90932"
+       id="text124"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="77.046783"
+         y="112.90932"
+         id="tspan124">密钥</tspan></text>
+    <g
+       id="g185"
+       transform="translate(139.72422,-18.033457)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#00a62d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect178"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00cc37;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect179"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#001c07;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect180"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#00360f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect181"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#000f04;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect182"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#00b43b;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect183"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#00771f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect184"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#00e73e;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect185"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="200.5388"
+       y="22.303175"
+       id="text185"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="200.47398"
+         y="22.303175"
+         id="tspan185">明文信息 2</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 200.48939,38.275092 V 51.156133"
+       id="path185" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;line-height:1.62;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="200.48941"
+       y="62.933083"
+       id="text186"><tspan
+         sodipodi:role="line"
+         id="tspan186"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.7"
+         x="200.42459"
+         y="62.933083">⊕</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="211.59885"
+       y="61.859097"
+       id="text187"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="211.53403"
+         y="61.859097"
+         id="tspan187">异或</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker206)"
+       d="m 191.77547,59.60981 h -34.52382 v 95.67505 h -13.6012"
+       id="path187"
+       sodipodi:nodetypes="cccc" />
+    <g
+       id="g194"
+       transform="translate(139.72422,106.79401)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#008826;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect187"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00a32a;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect188"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#004912;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect189"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#00270b;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect190"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#00741f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect191"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#00c845;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect192"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#00ff43;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect193"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#005116;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect194"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="200.5388"
+       y="147.13065"
+       id="text194"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="200.47398"
+         y="147.13065"
+         id="tspan194">密文信息 2</tspan></text>
+    <g
+       id="g195"
+       transform="translate(79.407621,20.307023)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect195"
+         width="30.376553"
+         height="15.943993"
+         x="105.89351"
+         y="82.471306" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="121.13823"
+         y="92.613586"
+         id="text195"><tspan
+           sodipodi:role="line"
+           id="tspan195"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6"
+           x="121.0734"
+           y="92.613586">AES 加密</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 200.48939,120.43399 v 12.88104"
+       id="path195" />
+    <g
+       id="g203"
+       transform="translate(139.72422,35.437615)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#008724;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect196"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00300d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect197"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#004a13;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect198"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#005117;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect199"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#00b82f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect200"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#00dc48;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect201"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#005115;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect202"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#006b1d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect203"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 200.48939,64.589218 v 9.936803"
+       id="path203"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 200.48939,88.879181 v 8.096654"
+       id="path204"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 174.34348,110.75032 h 6.14235"
+       id="path205"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="167.4136"
+       y="112.90932"
+       id="text205"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="167.34879"
+         y="112.90932"
+         id="tspan205">密钥</tspan></text>
+    <g
+       id="g213"
+       transform="translate(230.28646,-18.033457)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#00a62d;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect206"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00cc37;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect207"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#001c07;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect208"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#00360f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect209"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#000f04;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect210"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#00b43b;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect211"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#00771f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect212"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#00e73e;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect213"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="291.10104"
+       y="22.303175"
+       id="text213"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="291.03622"
+         y="22.303175"
+         id="tspan213">明文信息 3</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 291.05163,38.275092 V 51.156133"
+       id="path213" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;line-height:1.62;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="291.05167"
+       y="62.933083"
+       id="text214"><tspan
+         sodipodi:role="line"
+         id="tspan214"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.7"
+         x="290.98685"
+         y="62.933083">⊕</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="302.1611"
+       y="61.859097"
+       id="text215"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="302.09628"
+         y="61.859097"
+         id="tspan215">异或</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker206)"
+       d="m 282.33771,59.60981 h -34.52382 v 95.67505 h -13.6012"
+       id="path215"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="291.10104"
+       y="147.13065"
+       id="text222"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="291.03622"
+         y="147.13065"
+         id="tspan222">密文信息 3</tspan></text>
+    <g
+       id="g223"
+       transform="translate(169.96986,20.307023)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect223"
+         width="30.376553"
+         height="15.943993"
+         x="105.89351"
+         y="82.471306" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="121.13823"
+         y="92.613586"
+         id="text223"><tspan
+           sodipodi:role="line"
+           id="tspan223"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6"
+           x="121.0734"
+           y="92.613586">AES 加密</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 291.05163,120.43399 v 12.88104"
+       id="path223" />
+    <g
+       id="g231"
+       transform="translate(230.28646,35.437615)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#001405;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect224"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#003e11;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect225"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#00390f;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect226"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#004814;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect227"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#005215;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect228"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#006e24;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect229"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#008e25;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect230"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#00be34;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect231"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 291.05163,64.589218 v 9.936803"
+       id="path231"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 291.05163,88.879181 v 8.096654"
+       id="path232"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 264.90572,110.75032 h 6.14235"
+       id="path233"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+       x="257.97586"
+       y="112.90932"
+       id="text233"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.147"
+         x="257.91104"
+         y="112.90932"
+         id="tspan233">密钥</tspan></text>
+    <g
+       id="g240"
+       transform="translate(230.08398,106.79401)"
+       style="filter:url(#filter96)">
+      <rect
+         style="fill:#00ff47;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect233"
+         width="7.9372077"
+         height="7.9372077"
+         x="29.01635"
+         y="44.370293" />
+      <rect
+         style="fill:#00c332;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect234"
+         width="7.9372077"
+         height="7.9372077"
+         x="36.953556"
+         y="44.370293" />
+      <rect
+         style="fill:#00d434;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect235"
+         width="7.9372077"
+         height="7.9372077"
+         x="44.890762"
+         y="44.370293" />
+      <rect
+         style="fill:#00f645;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect236"
+         width="7.9372077"
+         height="7.9372077"
+         x="52.827969"
+         y="44.370293" />
+      <rect
+         style="fill:#004914;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect237"
+         width="7.9372077"
+         height="7.9372077"
+         x="60.765175"
+         y="44.370293" />
+      <rect
+         style="fill:#009b36;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect238"
+         width="7.9372077"
+         height="7.9372077"
+         x="68.702377"
+         y="44.370293" />
+      <rect
+         style="fill:#002b0b;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect239"
+         width="7.9372077"
+         height="7.9372077"
+         x="76.639587"
+         y="44.370293" />
+      <rect
+         style="fill:#009228;fill-opacity:1;stroke-width:0.147;stroke-linecap:round;stroke-linejoin:round"
+         id="rect240"
+         width="7.9372077"
+         height="7.9372077"
+         x="84.576797"
+         y="44.370293" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 325.28055,155.25073 h 6.14235"
+       id="path240"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:1.62;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.129646px;word-spacing:-0.0079375px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="345.59384"
+       y="155.68924"
+       id="text240"><tspan
+         sodipodi:role="line"
+         id="tspan240"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.6"
+         x="345.52902"
+         y="155.68924">……</tspan></text>
+  </g>
+</svg>
