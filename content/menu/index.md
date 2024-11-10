@@ -27,7 +27,7 @@ headless = true
   - [Windows 11 修整指南]({{<ref "windows-11-optimization.md">}})
 - 超越篇
   - [从加减乘除到 AI 对话]({{<ref "bring-intelligence-to-machines.md">}})
-  - [以密码之剑护网安之盾]({{<ref "introduction-to-cryptology.md">}})
+  - [以密码之剑护网安之城]({{<ref "introduction-to-cryptology.md">}})
 - 附录
   - [练习题答案]({{<ref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
