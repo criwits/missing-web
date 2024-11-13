@@ -7,7 +7,7 @@
    viewBox="0 0 147.67241 115"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="Signing_with_CA.svg"
    inkscape:export-filename=".\Signing_with_CA.png"
    inkscape:export-xdpi="200"
@@ -27,11 +27,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:export-bgcolor="#ffffffff"
-     inkscape:zoom="1.4805976"
-     inkscape:cx="228.6239"
-     inkscape:cy="232.00091"
+     inkscape:zoom="2.0938812"
+     inkscape:cx="289.4147"
+     inkscape:cy="219.44893"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -161,8 +161,9 @@
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#ff7800;stroke-width:0.442;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="M 72.909855,28.818795 H 132.67825"
-       id="path17" />
+       d="m 72.909855,28.818795 c 19.119798,9.958453 38.981265,10.76372 59.768395,0"
+       id="path17"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:3.87881px;line-height:1.1;font-family:'PT Root UI';-inkscape-font-specification:'PT Root UI Bold';letter-spacing:0px;fill:none;stroke:#000000;stroke-width:1.41177;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -187,8 +188,9 @@
          id="tspan19">数字签名</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#634eff;stroke-width:0.442;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="M 72.909855,57.92191 H 132.67825"
-       id="path19" />
+       d="m 72.909855,57.92191 c 19.423066,-10.744238 39.392735,-9.736456 59.768395,0"
+       id="path19"
+       sodipodi:nodetypes="cc" />
     <g
        id="g26"
        transform="translate(75.816142,5.7184116)"
@@ -250,19 +252,19 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:3.87881px;line-height:1.1;font-family:'PT Root UI';-inkscape-font-specification:'PT Root UI Bold';letter-spacing:0px;fill:none;stroke:#000000;stroke-width:1.41177;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:bold;font-size:3.87881px;line-height:1.2;font-family:'PT Root UI';-inkscape-font-specification:'PT Root UI Bold';letter-spacing:0px;fill:none;stroke:#000000;stroke-width:1.41177;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        x="97.85083"
        y="42.613079"
        id="text27"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41177"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41177"
          x="97.85083"
          y="42.613079"
          id="tspan27">一同</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41177"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41177"
          x="97.85083"
-         y="46.914661"
+         y="47.328884"
          id="tspan28">发送</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.442;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
@@ -760,7 +762,7 @@
          id="tspan70"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.65681"
          x="93.715309"
-         y="89.103783">神秘人士</tspan></text>
+         y="89.103783">信用大户</tspan></text>
     <g
        id="g76"
        transform="rotate(180,64.353607,63.254689)"

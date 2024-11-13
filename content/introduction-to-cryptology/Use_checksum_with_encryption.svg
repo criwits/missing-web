@@ -7,7 +7,7 @@
    viewBox="0 0 108.52064 96.78603"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="Use_checksum_with_encryption.svg"
    inkscape:export-filename="Use_checksum_with_encryption.png"
    inkscape:export-xdpi="300"
@@ -26,13 +26,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4843401"
-     inkscape:cx="240.51092"
-     inkscape:cy="196.38357"
+     inkscape:zoom="2.0991739"
+     inkscape:cx="125.28738"
+     inkscape:cy="153.63186"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#ffffffff" />
@@ -155,24 +155,24 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan2"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan1">Your Missing </tspan></tspan><tspan
+           id="tspan7"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan6">Your Missing </tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan4"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan3">Semester of </tspan></tspan><tspan
+           id="tspan10"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan8">Semester of </tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan13"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan12">Using </tspan></tspan><tspan
+           id="tspan14"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan11">Using </tspan></tspan><tspan
            x="99.082031"
            y="144.0461"
-           id="tspan23"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan22">Computer</tspan></tspan></text>
+           id="tspan21"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan20">Computer</tspan></tspan></text>
     </g>
     <g
        id="g26"
@@ -194,19 +194,21 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan27"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan24">20438174&#10;</tspan></tspan><tspan
+           id="tspan23"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan22">20438174
+</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan39"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan38">09149731&#10;</tspan></tspan><tspan
+           id="tspan26"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan25">09149731
+</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan41"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan40">......</tspan></tspan></text>
+           id="tspan30"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan28">......</tspan></tspan></text>
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
@@ -222,14 +224,14 @@
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="28.15803"
-       y="52.88443"
+       x="36.000622"
+       y="47.422623"
        id="text9"><tspan
          sodipodi:role="line"
          id="tspan9"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="28.15803"
-         y="52.88443">计算校验和</tspan></text>
+         style="writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         x="36.000622"
+         y="47.422623">计算校验和</tspan></text>
     <path
        id="path9"
        style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -243,24 +245,24 @@
        y="0"><tspan
          x="99.082031"
          y="122.04608"
-         id="tspan43"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan42">Your Missing </tspan></tspan><tspan
+         id="tspan39"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan38">Your Missing </tspan></tspan><tspan
          x="99.082031"
          y="129.37942"
-         id="tspan45"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan44">Semester of </tspan></tspan><tspan
+         id="tspan41"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan40">Semester of </tspan></tspan><tspan
          x="99.082031"
          y="136.71275"
-         id="tspan47"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan46">Using </tspan></tspan><tspan
+         id="tspan91"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan90">Using </tspan></tspan><tspan
          x="99.082031"
          y="144.0461"
-         id="tspan49"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan48">Computer</tspan></tspan></text>
+         id="tspan93"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan92">Computer</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,34.437016,22.435862)"
@@ -270,19 +272,21 @@
        y="0"><tspan
          x="99.082031"
          y="122.04608"
-         id="tspan51"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan50">20438174&#10;</tspan></tspan><tspan
+         id="tspan95"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan94">20438174
+</tspan></tspan><tspan
          x="99.082031"
          y="129.37942"
-         id="tspan53"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan52">09149731&#10;</tspan></tspan><tspan
+         id="tspan97"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan96">09149731
+</tspan></tspan><tspan
          x="99.082031"
          y="136.71275"
-         id="tspan55"><tspan
-           style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan54">......</tspan></tspan></text>
+         id="tspan99"><tspan
+           style="text-align:start;fill:#000000;stroke:none"
+           id="tspan98">......</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.345, 1.035;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="M 59.224941,51.75109 H 71.687904"
@@ -291,36 +295,17 @@
        id="path12"
        style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 72.664776,42.790652 -3.840594,-3.841109 v 2.776058 c 0,0.590041 0.475011,1.065051 1.065051,1.065052 z" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 46.565438,34.14488 h 17.75352 v 3.876312"
-       id="path13" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 46.565438,65.390622 h 17.75352 V 61.51431"
-       id="path14" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="53.509132"
-       y="64.435844"
-       id="text14"><tspan
-         sodipodi:role="line"
-         id="tspan14"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="53.509132"
-         y="64.435844">拼接</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="53.509132"
-       y="36.681431"
+       x="51.268391"
+       y="48.508789"
        id="text15"><tspan
          sodipodi:role="line"
          id="tspan15"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="53.509132"
-         y="36.681431">拼接</tspan></text>
+         x="51.268391"
+         y="48.508789">拼接</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect15"
@@ -374,36 +359,36 @@
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="75.229721"
+       x="75.180206"
        y="48.5229"
        id="text17"><tspan
          sodipodi:role="line"
          id="tspan17"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="75.229721"
+         x="75.180206"
          y="48.5229">加密</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect17"
        width="13.038732"
        height="14.75912"
-       x="38.258766"
+       x="36.872379"
        y="88.523979"
        ry="1.0600189" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="43.008072"
+       x="41.621685"
        y="93.984161"
        id="text18"><tspan
          sodipodi:role="line"
          id="tspan18"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="43.008072"
+         x="41.621685"
          y="93.984161">密文</tspan></text>
     <g
        id="g18"
-       transform="matrix(0.5820944,0,0,0.5820944,-3.269773,69.29698)"
+       transform="matrix(0.5820944,0,0,0.5820944,-4.6561603,69.29698)"
        style="stroke-width:0.656251;stroke-dasharray:none">
       <rect
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.656251;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
@@ -430,22 +415,23 @@
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 52.479687,95.903541 h 7.31763"
-       id="path19" />
+       d="m 51.0933,95.903541 h 7.31763"
+       id="path19"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="54.166771"
+       x="52.780384"
        y="94.847404"
        id="text19"><tspan
          sodipodi:role="line"
          id="tspan19"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="54.166771"
+         x="52.780384"
          y="94.847404">解密</tspan></text>
     <g
        id="g23"
-       transform="translate(6.110576,9.9702564)">
+       transform="translate(4.7241887,9.9702564)">
       <path
          id="path20"
          style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -459,24 +445,24 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan57"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan56">Your Missing </tspan></tspan><tspan
+           id="tspan101"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan100">Your Missing </tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan59"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan58">Semester of </tspan></tspan><tspan
+           id="tspan103"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan102">Semester of </tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan61"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan60">Using </tspan></tspan><tspan
+           id="tspan105"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan104">Using </tspan></tspan><tspan
            x="99.082031"
            y="144.0461"
-           id="tspan63"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan62">Computer</tspan></tspan></text>
+           id="tspan107"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan106">Computer</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,31.007047,58.7993)"
@@ -486,19 +472,21 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan65"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan64">20438174&#10;</tspan></tspan><tspan
+           id="tspan109"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan108">20438174
+</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan67"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan66">09149731&#10;</tspan></tspan><tspan
+           id="tspan111"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan110">09149731
+</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan69"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan68">......</tspan></tspan></text>
+           id="tspan113"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan112">......</tspan></tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.345, 1.035;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          d="M 55.794972,88.114528 H 68.257935"
@@ -528,24 +516,24 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan71"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan70">Your Missing </tspan></tspan><tspan
+           id="tspan115"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan114">Your Missing </tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan73"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan72">Semester of </tspan></tspan><tspan
+           id="tspan117"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan116">Semester of </tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan75"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan74">Using </tspan></tspan><tspan
+           id="tspan119"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan118">Using </tspan></tspan><tspan
            x="99.082031"
            y="144.0461"
-           id="tspan77"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan76">Computer</tspan></tspan></text>
+           id="tspan121"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan120">Computer</tspan></tspan></text>
     </g>
     <g
        id="g27"
@@ -567,50 +555,33 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan79"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan78">20438174&#10;</tspan></tspan><tspan
+           id="tspan123"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan122">20438174
+</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan81"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan80">09149731&#10;</tspan></tspan><tspan
+           id="tspan125"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan124">09149731
+</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan83"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan82">......</tspan></tspan></text>
+           id="tspan127"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan126">......</tspan></tspan></text>
     </g>
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 76.074357,93.087407 h 7.317628"
-       id="path27" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 76.074357,103.3625 h 7.317628"
-       id="path28" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="77.837547"
-       y="92.031273"
-       id="text28"><tspan
-         sodipodi:role="line"
-         id="tspan28"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="77.837547"
-         y="92.031273">分拆</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="77.837547"
-       y="102.38248"
+       x="75.70845"
+       y="94.835938"
        id="text29"><tspan
          sodipodi:role="line"
          id="tspan29"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="77.837547"
-         y="102.38248">分拆</tspan></text>
+         x="75.70845"
+         y="94.835938">分拆</tspan></text>
     <g
        id="g30"
        transform="translate(84.581875,31.919559)">
@@ -631,19 +602,21 @@
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan85"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan84">20438174&#10;</tspan></tspan><tspan
+           id="tspan129"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan128">20438174
+</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan87"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan86">09149731&#10;</tspan></tspan><tspan
+           id="tspan131"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan130">09149731
+</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan89"><tspan
-             style="text-align:start;text-anchor:start;fill:#000000;stroke:none"
-             id="tspan88">......</tspan></tspan></text>
+           id="tspan133"><tspan
+             style="text-align:start;fill:#000000;stroke:none"
+             id="tspan132">......</tspan></tspan></text>
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
@@ -652,17 +625,17 @@
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.6;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="104.32442"
+       x="103.9743"
        y="90.279716"
        id="text31"><tspan
          sodipodi:role="line"
          id="tspan31"
          style="line-height:1.6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="104.32442"
+         x="103.9743"
          y="90.279716">计算</tspan><tspan
          sodipodi:role="line"
          style="line-height:1.6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="104.32442"
+         x="103.9743"
          y="93.101944"
          id="tspan32">校验和</tspan></text>
     <path
@@ -697,30 +670,31 @@
          y="48.5229">发送</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 28.249348,95.903537 h 9.04531"
-       id="path34" />
+       d="m 28.249348,95.903537 7.71487,0"
+       id="path34"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="30.942326"
+       x="29.962002"
        y="94.847404"
        id="text35"><tspan
          sodipodi:role="line"
          id="tspan35"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
-         x="30.942326"
+         x="29.962002"
          y="94.847404">接收</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:4.33542px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.847972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        x="70.45887"
-       y="25.128839"
+       y="26.389256"
        id="text36"><tspan
          sodipodi:role="line"
          id="tspan36"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.847969;stroke-opacity:1"
          x="70.45887"
-         y="25.128839">发送方</tspan></text>
+         y="26.389256">发送方</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:4.33542px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.847972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -732,5 +706,28 @@
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.847969;stroke-opacity:1"
          x="70.454536"
          y="78.782028">接收方</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3822222;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.0646,38.467185 3.361111,0 v 24.508098 l -3.291088,0"
+       id="path1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       d="m 49.506182,49.569849 h 7.807793"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       d="m 49.506182,49.569849 h 7.807793"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.345555;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideRounded);marker-end:url(#ArrowWideRounded)"
+       d="m 83.414814,90.904792 h -2.673746 v 13.814378 h 2.723259"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.345555;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 74.700377,95.903541 H 80.64204"
+       id="path6" />
   </g>
 </svg>
