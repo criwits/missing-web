@@ -28,6 +28,7 @@ headless = true
 - 超越篇
   - [从加减乘除到 AI 对话]({{<ref "bring-intelligence-to-machines.md">}})
   - [以密码之剑护网安之城]({{<ref "introduction-to-cryptology.md">}})
+  - [「程序」是怎样炼成的]({{<ref "program-and-arch.md">}})
 - 附录
   - [练习题答案]({{<ref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
