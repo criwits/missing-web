@@ -2,13 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="76.007622mm"
+   height="18.474934mm"
+   viewBox="0 0 76.007622 18.474934"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="Partition_structure.svg"
+   inkscape:export-filename="Partition_structure.png"
+   inkscape:export-xdpi="416"
+   inkscape:export-ydpi="416"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.0334082"
-     inkscape:cx="230.15546"
-     inkscape:cy="62.702611"
+     inkscape:zoom="5.7513469"
+     inkscape:cx="133.18619"
+     inkscape:cy="33.470421"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -37,10 +40,11 @@
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-35.577248,-20.49505)">
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.310999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       d="m 51.708179,23.185873 0,3.135585"
+       d="m 51.708179,23.185873 v 3.135585"
        id="path1"
        sodipodi:nodetypes="cc" />
     <path
@@ -100,7 +104,7 @@
        id="text9"><tspan
          sodipodi:role="line"
          id="tspan9"
-         style="stroke-width:0.311;writing-mode:lr-tb;text-anchor:middle;text-align:center;fill:#000000;fill-opacity:1"
+         style="text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.311"
          x="51.266556"
          y="21.729734" /></text>
     <text
@@ -230,7 +234,7 @@
          id="tspan20"
          style="stroke-width:0.311"
          x="86.918289"
-         y="37.250137">375 GB</tspan></text>
+         y="37.250137">325 GB</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.2;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
