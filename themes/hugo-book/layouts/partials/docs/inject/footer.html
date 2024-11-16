@@ -1,5 +1,8 @@
 <div class="footer">
-    感谢您阅读《你缺计课》！<br>
+    <p style="margin-top: 0;">感谢您阅读《你缺计课》！<br>
+    当前页面最后更新于 {{ .GitInfo.AuthorDate | time.Format "2006 年 1 月 2 日" | default "未知" }} <br>
+    </p>
+    <p>
     <a href="https://www.criwits.top/">计算机技术学习札记</a> · <a href="https://www.criwits.top/terms">使用条款</a><br>
 
     <a href="https://beian.miit.gov.cn/" target="_blank">粤<span class="kerning">ICP</span>备<span
@@ -7,11 +10,24 @@
             class="beian-mono">1</span></a><br>
     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502009325" target="_blank">粤公网安备<span
             class="beian-mono kerning">44030502009325</span>号</a><br>
-    <br>
-
-    全站 PV <span id="busuanzi_value_site_pv">统计中</span> · 全站 UV <span id="busuanzi_value_site_uv">统计中</span><br>
-    以上统计信息由 <a href="https://cn.vercount.one/" target="_blank">Vercount</a> 提供<br>
-    统计起始日期：2024 年 5 月 9 日
-
-
+    </p>
+    <span id="easter_egg_placeholder"></span>
 </div>
+<script defer>
+    const random_number = Math.floor(Math.random() * 10);
+    const easter_eggs = [
+        "乌拉呀哈~呀哈乌拉！",
+        "点击<a href='https://www.bilibili.com/video/BV1GJ411x7h7/'>这里</a>轻松一下！",
+        "愿《你缺计课》能顺利在书店里和你见面！",
+        "欢迎报考哈工大！",
+        "欢迎报考哈工大（深圳）！",
+        "欢迎报考华中科技大学！",
+        "把我们分享给更多的人吧🥺！",
+        "<span style='text-decoration: line-through;'>你能 V 我 50 吗？</span>",
+    ]
+    const placeholder = document.getElementById('easter_egg_placeholder');
+    if (random_number < 5) {
+        placeholder.innerHTML = easter_eggs[Math.floor(Math.random() * easter_eggs.length)];
+        console.log("恭喜你发现了彩蛋！");
+    }
+</script>
