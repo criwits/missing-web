@@ -1,6 +1,6 @@
 <div class="footer">
     <p style="margin-top: 0;">感谢您阅读《你缺计课》！<br>
-    当前页面最后更新于 {{ .GitInfo.AuthorDate | time.Format "2006 年 1 月 2 日" | default "未知" }} <br>
+    当前页面最后更新于 {{ .GitInfo.CommitDate | time.Format "2006 年 1 月 2 日" | default "未知" }} <br>
     </p>
     <p>
     <a href="https://www.criwits.top/">计算机技术学习札记</a> · <a href="https://www.criwits.top/terms">使用条款</a><br>
