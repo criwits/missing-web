@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="51.682674mm"
+   height="17.802202mm"
+   viewBox="0 0 51.682674 17.802202"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Compress_and_decompress.svg"
+   inkscape:export-filename="Compress_and_decompress.png"
+   inkscape:export-xdpi="266"
+   inkscape:export-ydpi="266"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#d2d2d2"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#454545"
+     inkscape:document-units="mm"
+     inkscape:zoom="4"
+     inkscape:cx="103.75"
+     inkscape:cy="11.125"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="0.80000001"
+       markerHeight="0.80000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.897992,-83.86486)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="63.263142"
+       y="94.115875"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f5f5f;fill-opacity:1;stroke-width:0.3"
+         x="63.263142"
+         y="94.115875">█████.██</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="61.146473"
+       y="91.104576"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f5f5f;fill-opacity:1;stroke-width:0.3"
+         x="61.146473"
+         y="91.104576">██.██</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.106371;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.579087,95.397787 -1.245554,-0.0101 v 2.35761 h 1.706924 v -1.75188 z"
+       id="path15"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="61.852032"
+       y="97.148674"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f5f5f;fill-opacity:1;stroke-width:0.3"
+         x="61.852032"
+         y="97.148674">███.██</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.106371;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.579087,92.364996 -1.245554,-0.01015 v 2.357613 h 1.706924 v -1.75188 z"
+       id="path16"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.106371;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.579087,89.3537 -1.245554,-0.01015 v 2.357613 h 1.706924 v -1.75188 z"
+       id="path17"
+       sodipodi:nodetypes="cccccc" />
+    <g
+       id="g4"
+       transform="matrix(0.64976756,0,0,0.77534097,26.549826,13.733509)">
+      <path
+         id="rect1"
+         style="fill:#ffdc67;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+         d="m 43.747201,93.990129 c -0.04956,0 -0.08992,0.03984 -0.08992,0.0894 v 0.479557 c 0,0.0014 4.52e-4,0.0027 5.16e-4,0.0041 -5.9e-5,0.0016 -5.16e-4,0.0031 -5.16e-4,0.0047 v 1.687752 c 0,0.06758 0.05489,0.121957 0.122473,0.121957 h 3.619934 c 0.06758,0 0.121956,-0.05438 0.121956,-0.121957 v -1.687752 c 0,-0.06758 -0.05438,-0.122473 -0.121956,-0.122473 h -1.890324 v -0.365869 c 0,-0.04956 -0.03984,-0.0894 -0.0894,-0.0894 z" />
+      <path
+         id="rect2"
+         style="fill:#ffb644;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+         d="m 43.747201,93.990129 c -0.04956,0 -0.0894,0.03984 -0.0894,0.0894 v 0.774113 c 0,0.04956 0.03984,0.0894 0.0894,0.0894 h 1.671215 c 0.04956,0 0.08393,-0.04091 0.0894,-0.0894 l 0.03375,-0.285254 h 1.873113 c 0.0285,0 0.05168,-0.02266 0.05168,-0.05116 v -0.01964 c 0,-0.0285 -0.02317,-0.05168 -0.05168,-0.05168 h -1.855572 l -0.04922,-0.366386 c -0.0074,-0.05514 -0.04191,-0.0894 -0.09147,-0.0894 z"
+         sodipodi:nodetypes="sssssscsssscsss" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="60.237717"
+       y="88.139824"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f5f5f;fill-opacity:1;stroke-width:0.3"
+         x="60.237717"
+         y="88.139824">███</tspan></text>
+    <g
+       id="g5"
+       transform="matrix(0.64976756,0,0,0.77534097,26.549826,10.990468)">
+      <path
+         id="path4"
+         style="fill:#ffdc67;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+         d="m 43.747201,93.990129 c -0.04956,0 -0.08992,0.03984 -0.08992,0.0894 v 0.479557 c 0,0.0014 4.52e-4,0.0027 5.16e-4,0.0041 -5.9e-5,0.0016 -5.16e-4,0.0031 -5.16e-4,0.0047 v 1.687752 c 0,0.06758 0.05489,0.121957 0.122473,0.121957 h 3.619934 c 0.06758,0 0.121956,-0.05438 0.121956,-0.121957 v -1.687752 c 0,-0.06758 -0.05438,-0.122473 -0.121956,-0.122473 h -1.890324 v -0.365869 c 0,-0.04956 -0.03984,-0.0894 -0.0894,-0.0894 z" />
+      <path
+         id="path5"
+         style="fill:#ffb644;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+         d="m 43.747201,93.990129 c -0.04956,0 -0.0894,0.03984 -0.0894,0.0894 v 0.774113 c 0,0.04956 0.03984,0.0894 0.0894,0.0894 h 1.671215 c 0.04956,0 0.08393,-0.04091 0.0894,-0.0894 l 0.03375,-0.285254 h 1.873113 c 0.0285,0 0.05168,-0.02266 0.05168,-0.05116 v -0.01964 c 0,-0.0285 -0.02317,-0.05168 -0.05168,-0.05168 h -1.855572 l -0.04922,-0.366386 c -0.0074,-0.05514 -0.04191,-0.0894 -0.09147,-0.0894 z"
+         sodipodi:nodetypes="sssssscsssscsss" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#5f5f5f;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="61.648827"
+       y="85.396782"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5f5f5f;fill-opacity:1;stroke-width:0.3"
+         x="61.648827"
+         y="85.396782">█████</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+       x="61.271538"
+       y="101.49561"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.18"
+         x="61.271538"
+         y="101.49561">一堆文件与文件夹</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 71.748504,90.363825 H 83.956038"
+       id="path6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 85.47895,91.951326 H 73.271416"
+       id="path8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="78.203056"
+       y="89.288071"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38"
+         x="78.203056"
+         y="89.288071">压缩</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="78.483696"
+       y="94.573318"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:0.38"
+         x="78.483696"
+         y="94.573318">解压</tspan></text>
+    <g
+       id="g13"
+       transform="translate(0.89296875,8.8635416)">
+      <rect
+         style="fill:#cf4500;fill-opacity:1;stroke:#961f00;stroke-width:0.077397;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9"
+         width="1.2753527"
+         height="4.0250096"
+         x="87.544495"
+         y="80.096031"
+         rx="0.051485013"
+         ry="0.048127808" />
+      <rect
+         style="fill:#9ae100;fill-opacity:1;stroke:#36ab00;stroke-width:0.077397;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10"
+         width="1.2753527"
+         height="4.0250096"
+         x="88.957458"
+         y="80.096031"
+         rx="0.051485013"
+         ry="0.048127808" />
+      <rect
+         style="fill:#00b6ff;fill-opacity:1;stroke:#0074ab;stroke-width:0.077397;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11"
+         width="1.2753527"
+         height="4.0250096"
+         x="90.361519"
+         y="80.096031"
+         rx="0.051485013"
+         ry="0.048127808" />
+      <g
+         id="g12"
+         transform="translate(-0.01179707,-0.1727491)">
+        <rect
+           style="fill:#ffdd66;fill-opacity:1;stroke:#b0a140;stroke-width:0.06;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect12"
+           width="4.2912107"
+           height="1.2650391"
+           x="87.461327"
+           y="81.648766"
+           rx="0.051452264"
+           ry="0.051452264" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.05833px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffdd66;fill-opacity:1;stroke:#b0a140;stroke-width:0.0600001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           x="89.597939"
+           y="82.666519"
+           id="text12"><tspan
+             sodipodi:role="line"
+             id="tspan12"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.05833px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.06"
+             x="89.597939"
+             y="82.666519">ZIP</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+       x="99.106956"
+       y="91.550987"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.18"
+         x="99.106956"
+         y="91.550987">Archive.zip</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.2;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round"
+       x="96.659561"
+       y="101.49561"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Sarasa Gothic SC';-inkscape-font-specification:'Sarasa Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.18"
+         x="96.659561"
+         y="101.49561">压缩文件</tspan></text>
+  </g>
+</svg>
