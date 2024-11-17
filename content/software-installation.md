@@ -164,7 +164,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 这就是在 D 盘安装 QQ 软件的一个很合适的路径。这样做能保持一个比较干净的目录结构。你的 D 盘下会因此多出 `Program Files` 和 `Program Files (x86)` 这样的两个文件夹，用来专门在 D 盘安装软件。
 
-![Change_C_to_D.png](software-installation/Change_C_to_D.png)
+![Change_C_to_D.png](software-installation/Change_C_to_D.png#center)
 
 如上图所示，一般把这个 `C` 改成 `D` ，就能得到一个不错的 D 盘安装软件的路径。
 
