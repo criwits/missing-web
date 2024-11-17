@@ -23,20 +23,10 @@ type: docs
 
 上一章我们介绍了软件的寻找与安装，这里我们介绍软件的卸载。软件的安装需要通过安装包来进行，而软件的卸载则是安装的逆过程，除了删除软件自身的文件之外，还会撤销一些写入系统的修改，解除一些文件关联等。因此，软件的卸载也需要通过软件自身提供的卸载工具进行，而不是直接「删除」了事。
 
-在 Windows 10 系统上，一般的软件卸载可以按下面的步骤进行：
+卸载软件一般可以按下面的步骤进行：
 
-- 打开系统【设置】。
-- 选择【应用】：
-    
-    ![Applications_10](basic-maintenance/Applications_10.png#center)
-    
-- 稍等片刻以使得列表完全加载。在这个界面上，会列出电脑中安装的所有软件。找到我们不想要的软件，然后点击两次【卸载】：
-    
-    ![Uninstalling_an_app_10](basic-maintenance/Uninstalling_an_app_10.png#center)
-    
-- 根据提示进行卸载操作即可。
-
-而在 Windows 11 上则是这样：
+{{< tabs >}}
+{{% tab "Windows 11" %}}
 
 - 打开系统【设置】。
 - 在界面左侧点击【应用】：
@@ -52,6 +42,23 @@ type: docs
     ![Uninstall_an_app_11](basic-maintenance/Uninstall_an_app_11.jpg#center)
     
 - 之后根据提示卸载即可。
+
+{{% /tab %}}
+{{% tab "Windows 10" %}}
+
+- 打开系统【设置】。
+- 选择【应用】：
+    
+    ![Applications_10](basic-maintenance/Applications_10.png#center)
+    
+- 稍等片刻以使得列表完全加载。在这个界面上，会列出电脑中安装的所有软件。找到我们不想要的软件，然后点击两次【卸载】：
+    
+    ![Uninstalling_an_app_10](basic-maintenance/Uninstalling_an_app_10.png#center)
+    
+- 根据提示进行卸载操作即可。
+
+{{% /tab %}}
+{{< /tabs >}}
 
 一般来说，卸载很快就能完成。但需要特别注意的是，**一些软件的卸载界面错综复杂，充斥有大量的无关选项（例如【再想想】【我要重装】），因此在点选时务必十分小心。甚至有些软件在卸载完成后会诱导用户装一个新的其他软件，请千万注意。** 例如：
 
@@ -160,4 +167,4 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 [^1]: 如果你在使用中压根没见过这样的窗口（即 UAC 弹窗），那么这一节的内容对你可能不适用。你可以去 [用户与微软账号]({{<ref "user-and-ms-account.md">}}) 一章了解更多信息。
     
-    ![UAC_popup_2](basic-maintenance/UAC_popup_2.png#center)
+    ![UAC_popup_2](basic-maintenance/UAC_popup.png#center)
