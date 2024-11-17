@@ -315,6 +315,16 @@ ul.pagination {
   will-change: transform, margin, opacity;
 }
 
+.mobile-hint {
+  display: none;
+}
+
+@media screen and (max-width: $mobile-warning-breakpoint-large) and (min-width: $mobile-breakpoint) {
+  .mobile-hint {
+    display: block;
+  }
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
   #menu-control,
   #toc-control {
@@ -334,6 +344,12 @@ ul.pagination {
 
   .book-header {
     display: block;
+  }
+
+  @media screen and (max-width: $mobile-warning-breakpoint-small) {
+    .mobile-hint {
+      display: block;
+    }
   }
 
   #menu-control:focus ~ main label[for="menu-control"] {
