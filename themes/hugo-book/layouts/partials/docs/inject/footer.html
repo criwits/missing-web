@@ -22,11 +22,13 @@
         "欢迎报考哈工大！",
         "欢迎报考哈工大（深圳）！",
         "欢迎报考华中科技大学！",
+        "欢迎报考湖南大学！",
         "把我们分享给更多的人吧🥺！",
+        "疑？悟！",
         "<span style='text-decoration: line-through;'>你能 V 我 50 吗？</span>",
     ]
     const placeholder = document.getElementById('easter_egg_placeholder');
-    if (random_number < 5) {
+    if (random_number < 4) {
         placeholder.innerHTML = easter_eggs[Math.floor(Math.random() * easter_eggs.length)];
         console.log("恭喜你发现了彩蛋！");
     }
