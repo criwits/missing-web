@@ -21,6 +21,8 @@ $menu-width: 16rem !default;
 $toc-width: 16rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
+$mobile-warning-breakpoint-small: $mobile-breakpoint * 0.6 !default;
+$mobile-warning-breakpoint-large: $mobile-breakpoint * 1.2 !default;
 
 $hint-colors: (
   info: #6bf,
