@@ -44,10 +44,15 @@ for input_file in args.input:
         text = f.read()
         text = preprocess_md(text)
 
-        with open(os.path.join(temp_dir, "temp.md"), "w", encoding="utf-8") as temp:
-            temp.write(text)
-            temp.flush()
+        temp = open(os.path.join(temp_dir, "temp.md"), "w", encoding="utf-8")
+        temp.write(text)
+        temp.flush()
 
-            output_name = os.path.basename(input_file).replace(".md", ".docx")
-            output_path = os.path.join(args.output, output_name) if args.output else output_name
-            subprocess.run(["pandoc", temp.name, "-o", output_path, "--reference-doc", args.template, "--resource-path", resource_path])
+        output_name = os.path.basename(input_file).replace(".md", ".docx")
+        output_path = os.path.join(args.output, output_name) if args.output else output_name
+        subprocess.run(["pandoc", temp.name, "-o", output_path, "--reference-doc", args.template, "--resource-path", resource_path])
+
+        temp.close()
+        os.remove(temp.name)
+
+os.rmdir(temp_dir)
