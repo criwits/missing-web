@@ -51,6 +51,7 @@ type: docs
   - [练习题答案]({{<ref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
   - [企业名称对照]({{<ref "company-name-reference.md">}})
+  - [二次创作指南]({{<ref "adapt-guide.md">}})
 - [跋]({{<ref "afterwords.md">}})
 
 ---
@@ -92,7 +93,7 @@ type: docs
 
 ![CC BY-NC-SA](misc/CC_logo.png#floatright)
 
-《你缺失的那门计算机课》网页版（下称「本作品」）中的所有原创内容，除非特别说明，均以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。
+《你缺失的那门计算机课》网页版（下称「本作品」）中的所有原创内容，除非特别说明，均以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。请参阅 [二次创作指南]({{<ref "adapt-guide.md">}}) 了解更多信息。
 
 本作品所有内容「按原样」提供，并且不含有任何明示或者暗示的担保。我们不保证本作品中任何部分的绝对正确。若您认为本文中叙述的内容与您从其他地方看到的不同甚至相悖，请遵循您自己的判断。
 
