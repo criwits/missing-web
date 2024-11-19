@@ -62,12 +62,14 @@ type: docs
 - PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（24/4/20 更新），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（PDF 版）
 
-若您阅读网页版有困难（例如，网页加载过慢或图片无法显示），可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新可能不如网页版频繁。若您想要查看网页版和 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
+若您阅读网页版有困难，可以下载 PDF 版本来阅读。但请注意，PDF 版本的更新不如网页版频繁，同时已与网页版内容相差较多。若您想要查看网页版和 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
 
 ## 修订记录
 
 {{< commit_info >}}
 
+- Content update: 基本完成「『程序』是怎样炼成的」一章，亟待收尾和修订 (24/11/19)
+- Content update:「以密码之剑护网安之城」一章基本修订完毕 (24/11/19)
 - Content update: 基本完成「以密码之剑护网安之城」一章，亟待修订 (24/11/11)
 - Content update: 完成「万言皆数——字符与编码规则」的初稿 (24/10/24)
 - Content update: 「AI 对话」一章修订完毕 (24/10/4)
