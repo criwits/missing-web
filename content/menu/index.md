@@ -33,6 +33,7 @@ headless = true
   - [练习题答案]({{<ref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
   - [企业名称对照]({{<ref "company-name-reference.md">}})
+  - [二次创作指南]({{<ref "adapt-guide.md">}})
 - [跋]({{<ref "afterwords.md">}})
 
 
