@@ -319,9 +319,25 @@ ul.pagination {
   display: none;
 }
 
+.auto-columns-show {
+  display: flex;
+}
+
+.auto-columns-hide {
+  display: none;
+}
+
 @media screen and (max-width: $mobile-warning-breakpoint-large) and (min-width: $mobile-breakpoint) {
   .mobile-hint {
     display: block;
+  }
+
+  .auto-columns-show {
+    display: none
+  }
+  
+  .auto-columns-hide {
+    display: inline;
   }
 }
 
@@ -349,6 +365,14 @@ ul.pagination {
   @media screen and (max-width: $mobile-warning-breakpoint-small) {
     .mobile-hint {
       display: block;
+    }
+
+    .auto-columns-show {
+      display: none
+    }
+    
+    .auto-columns-hide {
+      display: inline;
     }
   }
 

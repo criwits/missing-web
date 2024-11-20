@@ -15,6 +15,7 @@ type: docs
 
 ## 目录
 
+{{<auto_columns>}}
 - [序]({{<ref "preamble.md">}})
 - 基础篇
   - [一些约定与预备知识]({{<ref "first-things-first.md">}})
@@ -31,6 +32,7 @@ type: docs
   - [压缩文件与压缩工具]({{<ref "archive-formats-and-tools.md">}})
   - [工具类软件推荐]({{<ref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<ref "how-to-find-tutorials.md">}})
+<--->
 - 进阶篇
   - [显示器的二三事]({{<ref "screens-and-their-secrets.md">}})
   - [用户与微软账号]({{<ref "user-and-ms-account.md">}})
@@ -49,6 +51,7 @@ type: docs
   - [企业名称对照]({{<ref "company-name-reference.md">}})
   - [二次创作指南]({{<ref "adapt-guide.md">}})
 - [跋]({{<ref "afterwords.md">}})
+{{</auto_columns>}}
 
 ---
 

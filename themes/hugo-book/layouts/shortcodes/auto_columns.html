@@ -1,0 +1,13 @@
+<div class="auto-columns-show book-columns flex flex-wrap">
+    {{ range split .Inner "<--->" }}
+    <div class="flex-even markdown-inner">
+      {{ . | markdownify }}
+    </div>
+    {{ end }}
+</div>
+<div class="auto-columns-hide">
+    {{ $rendered := .Inner }}
+    {{ $rendered := replace $rendered "\n<--->" "" }}
+    {{ $rendered | markdownify }}
+</div>
+  
