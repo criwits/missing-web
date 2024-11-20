@@ -198,4 +198,4 @@ type: docs
 
 ## 安装软件，开始使用吧！
 
-按照自己的喜好安装各种软件，并享受新电脑吧！安装软件的具体细节，不妨参阅 [软件的寻找与安装]({{<ref "software-installation.md">}})、[浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})、[压缩文件与压缩工具]({{<ref "archive-formats-and-tools.md">}})、[工具类软件推荐]({{<ref "tools-software.md">}}) 等「软件篇」的章节。
+按照自己的喜好安装各种软件，并享受新电脑吧！安装软件的具体细节，不妨参阅 [软件的寻找与安装]({{<ref "software-installation.md">}})，以及 [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})、[压缩文件与压缩工具]({{<ref "archive-formats-and-tools.md">}})、[工具类软件推荐]({{<ref "tools-software.md">}}) 等「软件篇」的章节。
