@@ -319,11 +319,11 @@ ul.pagination {
   display: none;
 }
 
-.auto-columns-show {
+.auto-columns-wide {
   display: flex;
 }
 
-.auto-columns-hide {
+.auto-columns-narrow {
   display: none;
 }
 
@@ -332,12 +332,12 @@ ul.pagination {
     display: block;
   }
 
-  .auto-columns-show {
+  .auto-columns-wide {
     display: none
   }
   
-  .auto-columns-hide {
-    display: inline;
+  .auto-columns-narrow {
+    display: block;
   }
 }
 
@@ -367,12 +367,12 @@ ul.pagination {
       display: block;
     }
 
-    .auto-columns-show {
+    .auto-columns-wide {
       display: none
     }
     
-    .auto-columns-hide {
-      display: inline;
+    .auto-columns-narrow {
+      display: block;
     }
   }
 
