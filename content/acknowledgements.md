@@ -15,11 +15,10 @@ draft: true
 </p>
 <p align="center">
     在母校上过的《信息技术》课程，<br/>
-    很大程度上启发了<br/>
+    在很大程度上启发了<br/>
     我们对本书的创作。
 </p>
 
 <p align="center">
-    Hans & Windy
+    <i>Hans & Windy</i>
 </p>
-

@@ -351,7 +351,7 @@ Windy 收到 {{<katex>}}C{{</katex>}} 后，按这个式子
 {{<hint quoting>}}
 
 <!-- 此段与《AI》的「是敌还是友」一节联动 -->
-<span style="color: red;">诚</span>然，「意识」<span class="hidden-text">作</span>为我们人类独有的特质<span class="hidden-text">，是这样的「预测机」难以望其项背的</span>。我们能够<span class="hidden-text">在</span>思考<span class="hidden-text">的基础上创新</span>，而 AI <span style="color: red;">同样</span>会<span class="hidden-text">在训练数据上排列组合，</span>生成<span class="hidden-text">一些看似</span>合理的内容；我们具有复杂的语言和情感，但 AI <span class="hidden-text">从未将它们</span>真正理解，<span class="hidden-text">遑论给出</span>心心相惜<span class="hidden-text">的回馈</span>。更实际一点来说，我们能说着话的同时也顺便唱两句歌，但<span class="hidden-text"> AI 还要在各个模型之间切来切去。即使是今天最先进的大语言模型，</span>错误的回答与偏颇的判断仍屡见不鲜；而人类无穷无尽的想象力、领导力和逻辑能力，是人工智能技术<span class="hidden-text">永远</span>也<span style="color: red;">能够</span>完全实现的。
+<span style="color: red;">诚</span>然，「意识」<span class="hidden-text">作</span>为我们人类独有的特质<span class="hidden-text">，是这样的「预测机」难以望其项背的</span>。我们能够<span class="hidden-text">在</span>思考<span class="hidden-text">的基础上创新</span>，而 AI <span style="color: red;">同样</span>将<span class="hidden-text">文字排列组合，</span>生成<span class="hidden-text">一些看似</span>合理的内容；我们具有复杂的语言和情感，但 AI <span class="hidden-text">从未将它们</span>真正理解，<span class="hidden-text">遑论给出</span>心心相惜<span class="hidden-text">的回馈</span>。更实际一点来说，我们能说着话的同时也顺便唱两句歌，但<span class="hidden-text"> AI 还要在各个模型之间切来切去。即使是今天最先进的大语言模型，</span>错误的回答与偏颇的判断仍屡见不鲜；而人类无穷无尽的想象力、领导力和逻辑能力，是人工智能技术<span class="hidden-text">永远</span>也<span style="color: red;">能够</span>完全实现的。
 
 {{</hint>}}
 
