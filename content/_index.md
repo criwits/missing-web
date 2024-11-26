@@ -81,8 +81,8 @@ type: docs
 
 《你缺失的那门计算机课》编委会：
 
-- [Hans Wan](https://criwits.top/about)
-- [Windy Deng](https://github.com/Wenti-D)
+- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪，没事会瞎写东西，喜欢睡觉。
+- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨「摸鱼万岁！」。
 
 ## 反馈
 
