@@ -117,7 +117,7 @@ ul.pagination {
   }
 
   a.active {
-    color: var(--color-link);
+    font-weight: bolder;
   }
 
   input.toggle + label + ul {

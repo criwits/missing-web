@@ -16,41 +16,41 @@ type: docs
 ## 目录
 
 {{<auto_columns>}}
-- [序]({{<ref "preamble.md">}})
+- [序]({{<relref "preamble.md">}})
 - 基础篇
-  - [一些约定与预备知识]({{<ref "first-things-first.md">}})
-  - [认识你的电脑]({{<ref "computer-and-its-components.md">}})
-  - [文件与文件管理]({{<ref "file-and-file-management.md">}})
-  - [软件的寻找与安装]({{<ref "software-installation.md">}})
-  - [基本维护和安全防护]({{<ref "basic-maintenance.md">}})
-  - [遇到问题怎么办]({{<ref "how-to-find-solutions.md">}})
-  - [那些好用的键盘快捷键]({{<ref "shortcut-keys.md">}})
+  - [一些约定与预备知识]({{<relref "first-things-first.md">}})
+  - [认识你的电脑]({{<relref "computer-and-its-components.md">}})
+  - [文件与文件管理]({{<relref "file-and-file-management.md">}})
+  - [软件的寻找与安装]({{<relref "software-installation.md">}})
+  - [基本维护和安全防护]({{<relref "basic-maintenance.md">}})
+  - [遇到问题怎么办]({{<relref "how-to-find-solutions.md">}})
+  - [那些好用的键盘快捷键]({{<relref "shortcut-keys.md">}})
 - 软件篇
-  - [Office 和 WPS——办公样样行]({{<ref "office-and-wps.md">}})
-  - [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}})
+  - [Office 和 WPS——办公样样行]({{<relref "office-and-wps.md">}})
+  - [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}})
   - 邮件与通信——天涯若比邻（敬请期待）
-  - [压缩文件与压缩工具]({{<ref "archive-formats-and-tools.md">}})
-  - [工具类软件推荐]({{<ref "tools-software.md">}})
-  - [怎样寻找优质的教程]({{<ref "how-to-find-tutorials.md">}})
+  - [压缩文件与压缩工具]({{<relref "archive-formats-and-tools.md">}})
+  - [工具类软件推荐]({{<relref "tools-software.md">}})
+  - [怎样寻找优质的教程]({{<relref "how-to-find-tutorials.md">}})
 <--->
 - 进阶篇
-  - [显示器的二三事]({{<ref "screens-and-their-secrets.md">}})
-  - [用户与微软账号]({{<ref "user-and-ms-account.md">}})
-  - [蓝屏与解决蓝屏]({{<ref "recover-from-bsod.md">}})
-  - [成为空间管理大师]({{<ref "manage-storage.md">}})
-  - [万言皆数——字符与编码规则]({{<ref "characters-and-encodings.md">}})
-  - [Windows 11 修整指南]({{<ref "windows-11-optimization.md">}})
+  - [显示器的二三事]({{<relref "screens-and-their-secrets.md">}})
+  - [用户与微软账号]({{<relref "user-and-ms-account.md">}})
+  - [蓝屏与解决蓝屏]({{<relref "recover-from-bsod.md">}})
+  - [成为空间管理大师]({{<relref "manage-storage.md">}})
+  - [万言皆数——字符与编码规则]({{<relref "characters-and-encodings.md">}})
+  - [Windows 11 修整指南]({{<relref "windows-11-optimization.md">}})
 - 超越篇
-  - [从加减乘除到 AI 对话]({{<ref "bring-intelligence-to-machines.md">}})
-  - [以密码之剑护网安之城]({{<ref "introduction-to-cryptology.md">}})
-  - [「程序」是怎样炼成的]({{<ref "program-and-arch.md">}})
-  - [云上世界，万物互联]({{<ref "cloud-computing-and-iot.md">}})
+  - [从加减乘除到 AI 对话]({{<relref "bring-intelligence-to-machines.md">}})
+  - [以密码之剑护网安之城]({{<relref "introduction-to-cryptology.md">}})
+  - [「程序」是怎样炼成的]({{<relref "program-and-arch.md">}})
+  - [云上世界，万物互联]({{<relref "cloud-computing-and-iot.md">}})
 - 附录
-  - [练习题答案]({{<ref "answers.md">}})
-  - [笔记本新机「开荒」指南]({{<ref "new-laptop-setup.md">}})
-  - [企业名称对照]({{<ref "company-name-reference.md">}})
-  - [二次创作指南]({{<ref "adapt-guide.md">}})
-- [跋]({{<ref "afterwords.md">}})
+  - [练习题答案]({{<relref "answers.md">}})
+  - [笔记本新机「开荒」指南]({{<relref "new-laptop-setup.md">}})
+  - [企业名称对照]({{<relref "company-name-reference.md">}})
+  - [二次创作指南]({{<relref "adapt-guide.md">}})
+- [跋]({{<relref "afterwords.md">}})
 {{</auto_columns>}}
 
 ---
@@ -73,7 +73,7 @@ type: docs
 - Content update: 完成「万言皆数——字符与编码规则」的初稿 (24/10/24)
 - Content update: 「AI 对话」一章修订完毕 (24/10/4)
 - Content update: 基本完成「从加减乘除到 AI 对话」一章 (24/7/19)
-- [查看更多……]({{<ref "revisions.md">}})
+- [查看更多……]({{<relref "revisions.md">}})
 
 ## 作者
 
@@ -95,7 +95,7 @@ type: docs
 
 ![CC BY-NC-SA](misc/CC_logo.png#floatright)
 
-《你缺失的那门计算机课》网页版（下称「本作品」）中的所有原创内容，除非特别说明，均以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。请参阅 [二次创作指南]({{<ref "adapt-guide.md">}}) 了解更多信息。
+《你缺失的那门计算机课》网页版（下称「本作品」）中的所有原创内容，除非特别说明，均以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议许可。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。请参阅 [二次创作指南]({{<relref "adapt-guide.md">}}) 了解更多信息。
 
 本作品所有内容「按原样」提供，并且不含有任何明示或者暗示的担保。我们不保证本作品中任何部分的绝对正确。若您认为本文中叙述的内容与您从其他地方看到的不同甚至相悖，请遵循您自己的判断。
 

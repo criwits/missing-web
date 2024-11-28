@@ -6,7 +6,7 @@ type: docs
 # 压缩文件与压缩工具
 
 {{< hint info >}}
-在 [文件与文件管理]({{<ref "file-and-file-management.md">}}) 一章中，我们简要介绍了「压缩文件」：利用各种各样的压缩工具，我们可以将一组零散的文件和文件夹「打包」成一个体积稍小的文件，这个体积稍小的文件就是「压缩文件」。压缩文件有许多不同的种类，用来完成压缩流程的压缩工具也各有特色。看完这一部分，你或许可以找到这些问题的答案：
+在 [文件与文件管理]({{<relref "file-and-file-management.md">}}) 一章中，我们简要介绍了「压缩文件」：利用各种各样的压缩工具，我们可以将一组零散的文件和文件夹「打包」成一个体积稍小的文件，这个体积稍小的文件就是「压缩文件」。压缩文件有许多不同的种类，用来完成压缩流程的压缩工具也各有特色。看完这一部分，你或许可以找到这些问题的答案：
 
 - 为什么压缩文件还有这么多种？它们的区别有哪些？
 - RAR 格式为什么这么特殊？我电脑上的压缩工具为什么不能制作这种格式的压缩文件？
@@ -145,7 +145,7 @@ RAR 格式的压缩率通常比 ZIP 高上不少。除此之外，它还支持�
 
 7-Zip 的官方下载地址是 [https://www.7-zip.org/](https://www.7-zip.org/)。如果访问这个链接有困难，可以选择 [https://sparanoid.com/lab/7z/](https://sparanoid.com/lab/7z/)。
 
-由于 7-Zip 的界面复古，且不支持 Windows 11 的新式右键菜单（参见 [Windows 11 修整指南]({{<ref "windows-11-optimization.md">}})），一些有志之士在 7-Zip 的基础上开发了 NanaZip。现阶段（2022 年初），NanaZip 可以看成换了好看主题并且支持 Windows 11 新式右键菜单的 7-Zip。下面是 NanaZip 的界面。
+由于 7-Zip 的界面复古，且不支持 Windows 11 的新式右键菜单（参见 [Windows 11 修整指南]({{<relref "windows-11-optimization.md">}})），一些有志之士在 7-Zip 的基础上开发了 NanaZip。现阶段（2022 年初），NanaZip 可以看成换了好看主题并且支持 Windows 11 新式右键菜单的 7-Zip。下面是 NanaZip 的界面。
 
 ![NanaZip](archive-formats-and-tools/NanaZip.png#center)
 
@@ -169,7 +169,7 @@ Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是�
 
 ![Compressed_Preview.jpg](archive-formats-and-tools/Compressed_Preview.png#center)
 
-「智能解压」则是一种「傻瓜式解压操作」。还记得 [文件与文件管理]({{<ref "file-and-file-management.md">}}) 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「智能解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个项目（无论文件或文件夹）时，Bandizip 便选择「解压到当前文件夹」；若有多个项目， Bandizip 则会选择「解压到 xxxxxx\」。
+「智能解压」则是一种「傻瓜式解压操作」。还记得 [文件与文件管理]({{<relref "file-and-file-management.md">}}) 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「智能解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个项目（无论文件或文件夹）时，Bandizip 便选择「解压到当前文件夹」；若有多个项目， Bandizip 则会选择「解压到 xxxxxx\」。
 
 举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 `D:\Touhou_Street.zip`，点击【智能解压到此处】，那么图片就会被提取到 `D:\Touhou_Street\` 下；若这压缩包里面就一张图，则会被提取到 `D:\` 下。
 
@@ -191,7 +191,7 @@ WinRAR 的国际官网是 [https://www.rarlab.com/](https://www.rarlab.com/)，�
 
 ### 国产压缩软件
 
-最后我们再来介绍一下压缩软件中的「深水区」——国产压缩软件们。和 [浏览器——网上冲浪必备]({{<ref "browsers-and-how-to-choose.md">}}) 一样，国产压缩软件也良莠不齐，其中不乏佳作也不少流氓软件。由于除了 RAR 之外的几乎所有压缩格式都是公开的，因此几乎所有的国产压缩软件都和前文介绍的 7-Zip 或 Bandizip 一样，支持绝大多数格式压缩文件的解压，但不支持 RAR 格式压缩文件的制作。例如，下面是「360 压缩」的客服人员对「『360 压缩』能否压缩 RAR 格式」这一问题的答复：
+最后我们再来介绍一下压缩软件中的「深水区」——国产压缩软件们。和 [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}}) 一样，国产压缩软件也良莠不齐，其中不乏佳作也不少流氓软件。由于除了 RAR 之外的几乎所有压缩格式都是公开的，因此几乎所有的国产压缩软件都和前文介绍的 7-Zip 或 Bandizip 一样，支持绝大多数格式压缩文件的解压，但不支持 RAR 格式压缩文件的制作。例如，下面是「360 压缩」的客服人员对「『360 压缩』能否压缩 RAR 格式」这一问题的答复：
 
 ![360Zip_not_supporting_rar_compress](archive-formats-and-tools/360Zip_not_supporting_rar_compress.png#center)
 

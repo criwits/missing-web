@@ -70,6 +70,13 @@
     &:visited {
       color: var(--color-visited-link);
     }
+    &[href^="http"]::after {
+      content: url("svg/external.svg");
+      vertical-align: baseline;
+      margin-left: 2px;
+      width: 10px;
+      display: inline-block;
+    }
   }
 
   img {
