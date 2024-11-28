@@ -2,13 +2,21 @@
 
 这是[《你缺失的那门计算机课》网页版](https://www.criwits.top/missing)的源码仓库。本仓库使用 [Hugo](https://gohugo.io/) 生成静态网页，使用修改过的 [Book](https://themes.gohugo.io/themes/hugo-book/) 主题。
 
+## 作品简介
+
+这是一份适合「电脑小白」的电脑使用手册。它平易近人，娓娓道来，介绍了从基本的文件管理，到软件的寻找安装，再到各类使用技巧与优良软件推荐的许多内容，旨在帮助读者在信息化时代更灵活地使用电脑。
+
+这也是一份面向当下和未来的信息时代指南。它立足今天，探索变革，讲述了当今热门的生成式 AI、网络安全、物联网与云计算等前沿技术的概念、原理和应用，能够引导读者立于数字化时代的潮头，把握科技发展的方向。
+
+零门槛、易理解、有深度，与时俱进、开放共享——这是《你缺失的那门计算机课》不断追求的目标，也是我们努力的方向。
+
 ## 如何使用
 
 通常情况下，您直接访问 [我们的网址](https://www.criwits.top/missing) 即可查看本书的内容。如果您想在本地预览本书的内容，可以按照以下步骤操作：
 
-1. 安装 [Hugo](https://gohugo.io/)。
+1. 安装 [Hugo](https://gohugo.io/)，推荐使用 0.125.4 版本。
 2. 克隆本仓库到本地。
-3. 在本仓库根目录下运行 `hugo server`。
+3. 在本仓库根目录下运行 `hugo server`，然后访问打印的地址。
 
 ## 贡献
 
@@ -26,4 +34,4 @@
 
 本作品中出现的所有商标，无论是否标注有 ® 或 ™ 及其他商标标识，其所有权都归属它们各自的持有者所有。本作品中所提及和展示的所有计算机软件的著作权等知识产权归属于各自的开发者和 / 或权利所有方所有。
 
-本作品使用 [Hugo](https://gohugo.io/) 生成。Hugo 采用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 协议授权。网页所使用的主题修改自 [Book](https://themes.gohugo.io/themes/hugo-book/) ，原作者为 Alex Shpak，原主题采用 [MIT](https://opensource.org/licenses/MIT) 协议授权。
+本作品网页使用 [Hugo](https://gohugo.io/) 生成。Hugo 采用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 协议授权。网页所使用的主题修改自 [Book](https://themes.gohugo.io/themes/hugo-book/) ，原作者为 Alex Shpak，原主题采用 [MIT](https://opensource.org/licenses/MIT) 协议授权。
