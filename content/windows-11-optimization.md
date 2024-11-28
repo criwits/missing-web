@@ -6,7 +6,7 @@ type: docs
 # Windows 11 修整指南
 
 {{< hint info >}}
-2021 年 10 月 5 日，微软发布了~~又新又好的~~ Windows 11。在那之后，许多品牌的笔记本电脑和台式机开始出厂即预装这款新系统，一些原本使用 Windows 10 的同学也~~在微软的蛊惑之下~~升级到了 Windows 11。
+2021 年 10 月 5 日，微软发布了~~又新又好的~~ Windows 11。在那之后，许多品牌的笔记本电脑和台式机开始出厂即预装这款新系统，一些原本使用 Windows 10 的用户也~~在微软的蛊惑之下~~升级到了 Windows 11。
 
 一方面，Windows 11 在外观和部分使用体验上有着不小进步；但另一方面，Windows 11 在很多地方都让人「火大」——性能损失、花式 bug、部分操作反人类……为了让现阶段的 Windows 11 变得更好用一些，我们总结了一些对 Windows 11 系统进行「修整」的方法和技巧，以供大家参考使用。
 
@@ -146,4 +146,37 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Bloc
 
 这两个文件可以一直留着，以备不时之需。
 
-此外，若不喜欢繁琐的操作，更简单的方法是求助于第三方软件，例如 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/)，不过它也附带了其他「回退到旧版」的功能，例如右键菜单或任务栏等，可以自行了解。
+此外，若不喜欢繁琐的操作，更简单的方法是求助于第三方软件，例如 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/)。它也附带了其他「回退到旧版」的功能，例如右键菜单或任务栏等，可以自行了解。
+
+## 禁止资源管理器中的 `F1` 打开 Edge 浏览器搜索帮助
+
+在 Windows 10 和 Windows 11 中，在「资源管理器」中按下 `F1` 键，会自动调用 Edge 浏览器并打开一个必应搜索帮助的页面。该功能不随用户修改默认浏览器而改变，而搜索出来的帮助内容则完全没有帮助作用：
+
+![没用的帮助](windows-11-optimization/F1_help_browser.png#center)
+
+可以通过如下的方式，禁用这一行为。此方法在 Windows 10 中亦可使用。
+
+- 找一个你喜欢的地方，新建一个文件，命名为 `disable_f1_help_in_explorer.reg`（注意，此文件的扩展名是 `reg`，记得预先将「显示文件扩展名」打开）；
+- 用记事本打开刚才新建的文件（或者右键选择【编辑】），然后写入如下内容，保存：
+  ```
+  Windows Registry Editor Version 5.00
+
+  [HKEY_CURRENT_USER\SOFTWARE\Classes\Typelib\{8cec5860-07a1-11d9-b15e-000d56bfe6ee}\1.0\0\win32]
+  @=""
+
+  [HKEY_CURRENT_USER\SOFTWARE\Classes\Typelib\{8cec5860-07a1-11d9-b15e-000d56bfe6ee}\1.0\0\win64]
+  @=""
+  ```
+- 关掉记事本，双击刚才编辑的文件，点两下【是】，然后点击【确定】。
+- 此时在资源管理器中按 F1 键，就不会再打开 Edge 浏览器了。
+
+如果想恢复该功能，则使用如下的内容：
+
+```
+Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Typelib\{8cec5860-07a1-11d9-b15e-000d56bfe6ee}\1.0\0]
+
+```
+
+你可以将这两个 `reg` 文件留着，以备不时之需。
