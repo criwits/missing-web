@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="WDP_software_manager.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.6150976"
+     inkscape:cx="376.75741"
+     inkscape:cy="332.48764"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter18"
+       x="-0.084597011"
+       y="-0.13692912"
+       width="1.169194"
+       height="1.341363">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.156863"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="5.015674"
+         id="feGaussianBlur17" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="6.000000"
+         id="feOffset17" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite17" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite18" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f6f6f6;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.266;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter18)"
+       id="rect1"
+       width="143.86581"
+       height="88.882614"
+       x="38.799267"
+       y="39.273235"
+       rx="1.0537252"
+       ry="1.0537252" />
+    <g
+       id="g19"
+       transform="matrix(0.76748335,-0.76748335,0.76748335,0.76748335,26.364426,124.96458)">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#585858;stroke-width:0.265999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 150.56509,42.735677 v 3.491817"
+         id="path18" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#585858;stroke-width:0.265999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 152.311,44.481585 h -3.49182"
+         id="path19" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#585858;stroke-width:0.288999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 167.20177,44.887068 2.30024,10e-7"
+       id="path20" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.82223px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';letter-spacing:0px;fill:#838383;fill-opacity:1;stroke:none;stroke-width:0.288999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="43.497341"
+       y="44.623936"
+       id="text21"><tspan
+         sodipodi:role="line"
+         style="fill:#838383;fill-opacity:1;stroke:none;stroke-width:0.289"
+         x="43.497341"
+         y="44.623936"
+         id="tspan22">卸载 WDP 软件管家</tspan></text>
+    <g
+       id="g28"
+       transform="matrix(0.93829106,0,0,0.93829106,0.5362447,6.0585294)">
+      <rect
+         style="fill:#4889d7;fill-opacity:1;stroke:none;stroke-width:0.505923;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect24"
+         width="27.378616"
+         height="30.001089"
+         x="69.217545"
+         y="66.694733"
+         rx="3.1905048"
+         ry="3.1905048" />
+      <path
+         id="rect23"
+         style="fill:#61a8ff;fill-opacity:1;stroke:none;stroke-width:0.262726;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 81.361986,62.24943 c -0.522847,0 -0.943612,0.420765 -0.943612,0.943612 V 64.733 H 67.867719 c -0.530694,0 -0.958081,0.427387 -0.958081,0.958081 v 5.007446 c 0,0.530694 0.427387,0.958081 0.958081,0.958081 h 30.078267 c 0.530694,0 0.958082,-0.427387 0.958082,-0.958081 v -5.007446 c 0,-0.530694 -0.427388,-0.958081 -0.958082,-0.958081 H 85.395331 v -1.539958 c 0,-0.522847 -0.420764,-0.943612 -0.943611,-0.943612 z" />
+      <g
+         id="g27"
+         transform="translate(-1.0397692)">
+        <rect
+           style="fill:#4678b5;fill-opacity:1;stroke:none;stroke-width:0.20084;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect25"
+           width="5.3881016"
+           height="19.540846"
+           x="73.134499"
+           y="74.57132"
+           rx="2.6940508"
+           ry="2.6940508" />
+        <rect
+           style="fill:#4678b5;fill-opacity:1;stroke:none;stroke-width:0.20084;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect26"
+           width="5.3881016"
+           height="19.540846"
+           x="81.252571"
+           y="74.57132"
+           rx="2.6940508"
+           ry="2.6940508" />
+        <rect
+           style="fill:#4678b5;fill-opacity:1;stroke:none;stroke-width:0.20084;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect27"
+           width="5.3881016"
+           height="19.540846"
+           x="89.370644"
+           y="74.57132"
+           rx="2.6940508"
+           ry="2.6940508" />
+      </g>
+    </g>
+    <g
+       id="g30"
+       transform="translate(-7.5413633,2.7107685)">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:6.08521px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';letter-spacing:0px;fill:#838383;fill-opacity:1;stroke:none;stroke-width:0.623131;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="106.59146"
+         y="74.083717"
+         id="text28"><tspan
+           sodipodi:role="line"
+           style="fill:#515151;fill-opacity:1;stroke:none;stroke-width:0.623133"
+           x="106.59146"
+           y="74.083717"
+           id="tspan28">卸载完成！</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';letter-spacing:0px;fill:#838383;fill-opacity:1;stroke:none;stroke-width:0.623131;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="106.59146"
+         y="81.158447"
+         id="text29"><tspan
+           sodipodi:role="line"
+           style="font-size:4.23333px;line-height:1.3;fill:#8f8f8f;fill-opacity:1;stroke:none;stroke-width:0.623133"
+           x="106.59146"
+           y="81.158447"
+           id="tspan29">立即体验 WDP 软件管家简洁版</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.23333px;line-height:1.3;fill:#8f8f8f;fill-opacity:1;stroke:none;stroke-width:0.623133"
+           x="106.59146"
+           y="86.661774"
+           id="tspan30">广告更少，功能更强，性能提升</tspan></text>
+    </g>
+    <g
+       id="g33"
+       transform="translate(0.80144942)">
+      <rect
+         style="fill:#d1d1d1;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.288999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect31"
+         width="34.498436"
+         height="11.463429"
+         x="72.846794"
+         y="109.03666"
+         rx="1.4601769"
+         ry="1.4601769" />
+      <rect
+         style="fill:#2f61ff;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.288999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect33"
+         width="34.498436"
+         height="11.463429"
+         x="112.51621"
+         y="109.03666"
+         rx="1.4601769"
+         ry="1.4601769" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.39075px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';letter-spacing:0px;fill:#838383;fill-opacity:1;stroke:none;stroke-width:0.449616;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="74.743759"
+         y="116.34026"
+         id="text31"><tspan
+           sodipodi:role="line"
+           style="fill:#515151;fill-opacity:1;stroke:none;stroke-width:0.449618"
+           x="74.743759"
+           y="116.34026"
+           id="tspan31">感谢使用，再见</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.39075px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';letter-spacing:0px;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:0.449616;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="114.41318"
+         y="116.34026"
+         id="text33"><tspan
+           sodipodi:role="line"
+           style="fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:0.449618"
+           x="114.41318"
+           y="116.34026"
+           id="tspan33">下载安装简洁版</tspan></text>
+    </g>
+  </g>
+</svg>

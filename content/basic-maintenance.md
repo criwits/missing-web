@@ -62,7 +62,7 @@ type: docs
 
 一般来说，卸载很快就能完成。但需要特别注意的是，**一些软件的卸载界面错综复杂，充斥有大量的无关选项（例如【再想想】【我要重装】），因此在点选时务必十分小心。甚至有些软件在卸载完成后会诱导用户装一个新的其他软件，请千万注意。** 例如：
 
-![360_confusing_button](basic-maintenance/360_confusing_button.png#center)
+![confusing_button](basic-maintenance/WDP_software_manager.png#center)
 
 卸载完成之后，可能需要重启电脑使得卸载完全进行。
 
