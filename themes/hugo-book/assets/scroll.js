@@ -33,42 +33,14 @@ document.addEventListener('DOMContentLoaded', function () {
         timeoutId = setTimeout(hideButtons, 2000);
     }
 
-    // 平滑滚动函数
-    function smoothScroll(targetPosition) {
-        const startPosition = window.scrollY;
-        const distance = targetPosition - startPosition;
-        const duration = 500; // 动画持续时间（毫秒）
-        let startTime = null;
-
-        function animation(currentTime) {
-            if (!startTime) startTime = currentTime;
-            const elapsedTime = currentTime - startTime;
-            const progress = Math.min(elapsedTime / duration, 1); // 限制 progress 最大为 1
-            const easeInOutQuad = progress < 0.5
-                ? 2 * progress * progress
-                : 1 - Math.pow(-2 * progress + 2, 2) / 2; // easeInOutQuad 函数
-            const scrollY = startPosition + distance * easeInOutQuad;
-
-            window.scrollTo(0, scrollY);
-
-            if (elapsedTime < duration) {
-                requestAnimationFrame(animation);
-            }
-        }
-
-        requestAnimationFrame(animation);
-    }
-
     // 滚动到顶部
     scrollToTopBtn.addEventListener('click', () => {
-        // window.scrollTo({ top: 0, behavior: 'smooth' });
-        smoothScroll(0);
+        window.scrollTo(0, 0);
     });
 
     // 滚动到底部
     scrollToBottomBtn.addEventListener('click', () => {
-        // window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        smoothScroll(document.body.scrollHeight);
+        window.scrollTo(0, document.body.scrollHeight);
     });
 
     // 鼠标悬停或触摸时提高不透明度
