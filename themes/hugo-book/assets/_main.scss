@@ -431,3 +431,19 @@ ul.pagination {
     padding: $padding-16 * 2 $padding-16;
   }
 }
+
+// Scroll buttons
+.scroll-buttons {
+  position: fixed;
+  right: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  user-select: none;
+  bottom: 32px;
+  left: unset;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.scroll-buttons:hover {
+  opacity: 1;
+}

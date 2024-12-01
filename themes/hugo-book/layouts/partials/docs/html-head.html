@@ -30,6 +30,9 @@
 <script defer src="{{ $swJS.RelPermalink }}" integrity="{{ $swJS.Data.Integrity }}"></script>
 {{ end -}}
 
+{{ $scrollJS := resources.Get "scroll.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
+
 {{- template "_internal/google_analytics.html" . -}}
 
 <!-- RSS -->

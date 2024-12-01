@@ -108,4 +108,4 @@ type: docs
 全站 PV：<span id="busuanzi_value_site_pv">统计中</span><br>
 全站 UV：<span id="busuanzi_value_site_uv">统计中</span><br>
 
-以上统计信息由 <a href="https://cn.vercount.one/" target="_blank">Vercount</a> 提供，统计起始日期：2024 年 5 月 9 日。
+以上统计信息由 <a href="https://cn.vercount.one/" target="_blank">Vercount</a> 提供，统计起始于 2024 年 5 月 9 日。
