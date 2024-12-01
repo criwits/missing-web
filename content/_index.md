@@ -17,6 +17,8 @@ type: docs
 
 ## 目录
 
+《你缺失的那门计算机课》网页版目录如下，您可以点击各标题跳转到对应的章节。
+
 {{<auto_columns>}}
 - [序]({{<relref "preamble.md">}})
 - 基础篇
@@ -59,7 +61,7 @@ type: docs
 
 ## 本作品的各种版本
 
-- 网页版：[https://www.criwits.top/missing](https://www.criwits.top/missing)
+- 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
 - PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（24/4/20 更新），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（PDF 版）
 
@@ -81,8 +83,8 @@ type: docs
 
 《你缺失的那门计算机课》编委会：
 
-- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪，没事会瞎写东西，喜欢睡觉。
-- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨「摸鱼万岁！」。
+- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪和睡觉。
+- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨「摸鱼万岁！」
 
 ## 反馈
 
@@ -107,7 +109,7 @@ type: docs
 
 ## 统计信息
 
-全站 PV：<span id="busuanzi_value_site_pv">统计中</span><br>
-全站 UV：<span id="busuanzi_value_site_uv">统计中</span><br>
+- 全站页面浏览量：<span id="busuanzi_value_site_pv">统计中</span>
+- 全站独立访客数：<span id="busuanzi_value_site_uv">统计中</span>
 
 以上统计信息由 <a href="https://cn.vercount.one/" target="_blank">Vercount</a> 提供，统计起始于 2024 年 5 月 9 日。
