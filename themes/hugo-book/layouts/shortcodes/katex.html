@@ -6,8 +6,14 @@
 {{- .Page.Scratch.Set "katex" true -}}
 {{- end -}}
 
+{{- if in .Params "display" -}}
+<div style="overflow-x: auto;">
+{{- end -}}
 <span {{- with .Get "class" }} class="{{ . }}"{{ end }}>
   {{ cond (in .Params "display") "\\[" "\\(" -}}
   {{- trim .Inner "\n" -}}
   {{- cond (in .Params "display") "\\]" "\\)" }}
 </span>
+{{- if in .Params "display" -}}
+</div>  
+{{- end -}}
