@@ -32,7 +32,7 @@ type: docs
 - 软件篇
   - [Office 和 WPS——办公样样行]({{<relref "office-and-wps.md">}})
   - [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}})
-  - 邮件与通信——天涯若比邻（敬请期待）
+  - [电子邮件与即时通信]({{<relref "mail-and-instant-messaging.md">}})
   - [压缩文件与压缩工具]({{<relref "archive-formats-and-tools.md">}})
   - [工具类软件推荐]({{<relref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<relref "how-to-find-tutorials.md">}})
@@ -71,6 +71,7 @@ type: docs
 
 {{< commit_info >}}
 
+- Content update: 基本完成「电子邮件与即时通信」一章，等待绘图和修订 (24/12/2)
 - Content update: 基本完成「云上世界，万物互联」一章，等待绘图和修订 (24/12/2)
 - Content update: 基本完成「『程序』是怎样炼成的」一章，亟待收尾和修订 (24/11/19)
 - Content update:「以密码之剑护网安之城」一章基本修订完毕 (24/11/19)

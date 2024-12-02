@@ -15,6 +15,7 @@ headless = true
 - <span style="color: var(--gray-500)">软件篇</span>
   - [Office 和 WPS——办公样样行]({{<relref "office-and-wps.md">}})
   - [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}})
+  - [电子邮件与即时通信]({{<relref "mail-and-instant-messaging.md">}})
   - [压缩文件与压缩工具]({{<relref "archive-formats-and-tools.md">}})
   - [工具类软件推荐]({{<relref "tools-software.md">}})
   - [怎样寻找优质的教程]({{<relref "how-to-find-tutorials.md">}})
