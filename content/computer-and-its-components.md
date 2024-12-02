@@ -44,8 +44,6 @@ type: docs
 
 ![Two CPUs](computer-and-its-components/Two_CPUs.png#center)
 
-（左图作者 4300streetcar，来自 Wikimedia，采用 CC BY 4.0 协议授权；右图为自制）
-
 > 你可能会疑惑：这两个 CPU 为什么看起来「长」得很不一样？这是因为笔记本 CPU 为了节省空间，会直接将「晶片」（➋，芯片的核心部分，由硅制成）裸露在外；而台式机 CPU 为了保护晶片，会在其外罩上一层金属盖 ➊。
 
 处理器是电脑工作的核心，因此，**处理器的性能就很大程度上决定了电脑的性能，决定了我们使用这台电脑流不流畅、玩游戏卡不卡、工作效率高不高**。在今天，全世界电脑芯片基本上是由两家美国公司设计[^1]的，其中一家叫做「英特尔」（Intel），另一家叫做「AMD」。
@@ -60,13 +58,13 @@ type: docs
   | 超高端 | 酷睿 i9 | 酷睿 Ultra 9 |      |
   | 说明 | 传统的酷睿系列，自 2008 年沿用至今 | 2024 年发布的新系列，主要应用在高端笔记本电脑产品上，增加了针对 AI 应用的优化|2024 年发布的新系列，针对笔记本电脑产品进行了能耗方面的优化|
   
-  如果你现在在用笔记本电脑，不妨瞄一眼键盘下方是否有这样一个蓝色（也有可能是灰色或黑色）的贴纸：
+  大多数使用英特尔 CPU 的电脑会在机器上贴上类似下图的蓝色（或灰色、黑色）贴纸。如果你现在在用笔记本电脑，不妨在键盘下方或电脑底部找一找有没有它。
 
-![搭载 Intel CPU 的笔记本电脑，往往贴有这样的贴纸（图片来源：Intel）](computer-and-its-components/Intel_stickers.png#center)
+![Intel Sticker](computer-and-its-components/Intel_sticker.png#center)
 
-- AMD 公司现在主要的 CPU 产品线称作「锐龙」（Ryzen），而「锐龙」系列也分成了 3 个档次——「R5」「R7」和「R9」[^2]。如果你现在用笔记本电脑，不妨瞄一眼键盘下方是否有这样一个红色的贴纸：
+- AMD 公司现在主要的 CPU 产品线称作「锐龙」（Ryzen），而「锐龙」系列也分成了 3 个档次——「R5」「R7」和「R9」[^2]。大多数使用 AMD CPU 的电脑会粘贴类似下图的橙黑或橙灰色贴纸。
 
-![搭载 AMD CPU 的笔记本电脑，则往往贴有这样的贴纸（图片来源：AMD）](computer-and-its-components/AMD_stickers.png#center)
+![AMD Sticker](computer-and-its-components/AMD_sticker.png#center)
 
 > 除了英特尔和 AMD 之外，亦有一些厂商能够生产电脑的 CPU，例如苹果、高通，以及国产厂商龙芯、华为等。不过，这些厂商生产的 CPU 与英特尔、AMD 的 CPU 往往并不兼容，使用这些 CPU 的电脑需要使用专用的系统和软件。想了解更多有关这些 CPU 的细节？请阅读本书超越篇的 [「程序」是怎样炼成的]({{<relref "program-and-arch.md">}})。
 >
