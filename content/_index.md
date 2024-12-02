@@ -50,10 +50,11 @@ type: docs
   - [「程序」是怎样炼成的]({{<relref "program-and-arch.md">}})
   - [云上世界，万物互联]({{<relref "cloud-computing-and-iot.md">}})
 - 附录
-  - [练习题答案]({{<relref "answers.md">}})
   - [笔记本新机「开荒」指南]({{<relref "new-laptop-setup.md">}})
-  - [企业名称对照]({{<relref "company-name-reference.md">}})
+  - [练习题答案]({{<relref "answers.md">}})
   - [二次创作指南]({{<relref "adapt-guide.md">}})
+  - [企业名称对照]({{<relref "company-name-reference.md">}})
+  - [借物表]({{<relref "attribution-of-external-content.md">}})
 - [跋]({{<relref "afterwords.md">}})
 {{</auto_columns>}}
 
