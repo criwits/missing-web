@@ -11,7 +11,7 @@ type: docs
 
 ### 许可协议的继承性
 
-《你缺计课》使用的 CC BY-NC-SA 4.0 协议具有「继承性」。这意味着，任何基于本作品所二次创作的作品，都必须同样采用这一协议。二创作品应当在其合适的地方标注「本作品采用 CC BY-NC-SA 4.0 协议许可」等说明文字，并提供该许可协议的[原文](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)或[链接](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)。
+《你缺计课》使用的 CC BY-NC-SA 4.0 协议具有「继承性」。这意味着，任何基于本作品所二次创作的作品，都必须同样采用这一协议。二创作品应当在其合适的地方标注「本作品采用 CC BY-NC-SA 4.0 协议许可」等说明文字，并提供该许可协议的 [原文](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 或 [链接](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)。
 
 ### 禁止用于商业用途
 
@@ -25,7 +25,7 @@ type: docs
 
 ### 必须正确署名
 
-任何基于本作品的二创作品都必须在其合适的地方，说明其是基于原作品（《你缺失的那门计算机课》网页版）进行二次创作得来，并正确标注原作者信息（Hans Wan 和 Windy Deng），以及附上[本作品的链接](https://www.criwits.top/missing)。同时，还需要清楚说明原作品「以 CC BY-NC-SA 4.0 协议许可」并提供该许可协议的[原文](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)或[链接](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)。
+任何基于本作品的二创作品都必须在其合适的地方，说明其是基于原作品（《你缺失的那门计算机课》网页版）进行二次创作得来，并正确标注原作者信息（Hans Wan 和 Windy Deng），以及附上 [本作品的链接](https://www.criwits.top/missing)。同时，还需要清楚说明原作品「以 CC BY-NC-SA 4.0 协议许可」并提供该许可协议的 [原文](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 或 [链接](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)。
 
 以上要求是必须遵守的合规性要求。例如，一集基于本作品录制的讲解视频，可通过在片尾或片头展示如下的说明文字来满足这些要求。
 
@@ -65,7 +65,7 @@ type: docs
 
 排版方面，对于中西文混排的句子，我们建议在所有西文（拉丁字母和阿拉伯数字）和汉字之间留有约 1/4 个汉字宽度的水平空隙。可以用半角空格来维持这一空隙。
 
-如果二创作品的展示载体不能较好地区分前后“引号”，我们建议在横排文本中使用「直角引号」来代替“弯引号”，就像网页版《你缺计课》所做的那样。但请注意：在横排文本中使用直角引号不符合国家标准，不应在任何书面或印刷作品中使用。
+如果二创作品的展示载体不能较好地区分前后 “弯引号”，我们建议在横排文本中使用「直角引号」来代替 “弯引号”，就像网页版《你缺计课》所做的那样。但请注意：在横排文本中使用直角引号不符合国家标准，不应在任何书面或印刷作品中使用。
 
 我们建议清晰、合理地标记所有「在屏幕上显示的原文」，例如，使用方头括号「打开【此电脑】」，或在文字下方<span style="background: #adf">增加衬底</span>。
 

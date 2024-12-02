@@ -71,12 +71,12 @@ type: docs
 
 {{< commit_info >}}
 
+- Content update: 基本完成「云上世界，万物互联」一章，等待绘图和修订 (24/12/2)
 - Content update: 基本完成「『程序』是怎样炼成的」一章，亟待收尾和修订 (24/11/19)
 - Content update:「以密码之剑护网安之城」一章基本修订完毕 (24/11/19)
 - Content update: 基本完成「以密码之剑护网安之城」一章，亟待修订 (24/11/11)
 - Content update: 完成「万言皆数——字符与编码规则」的初稿 (24/10/24)
 - Content update: 「AI 对话」一章修订完毕 (24/10/4)
-- Content update: 基本完成「从加减乘除到 AI 对话」一章 (24/7/19)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 作者
