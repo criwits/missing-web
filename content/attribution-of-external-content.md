@@ -27,10 +27,10 @@ type: docs
 1. 英特尔 i5-13600K CPU 的正面照片<br>
    [*Intel Core i5 13600K*](https://commons.wikimedia.org/wiki/File:Intel_Core_i5_13600K.jpg) by 4300streetcar. Modified.<br>
    Licensed under CC BY 4.0.
-2. 英特尔酷睿 Ultra 品牌标识<br>
+2. 英特尔酷睿品牌标识<br>
    [Badges](https://download.intel.com/newsroom/2023/client-computing/2023-new-intel-badges.zip) are downloaded from [Intel Announces Major Brand Update Ahead of Upcoming Meteor Lake Launch](https://www.intel.com/content/www/us/en/newsroom/news/intel-announces-major-brand-update-upcoming-meteor-lake-launch.html). Cropped to proper size.<br>
    © 2024 Intel Corporation. Intel, the Intel logo and other Intel marks are trademarks of Intel Corporation or its subsidiaries.
-3. AMD 锐龙 R7 品牌标识<br>
+3. AMD 锐龙品牌标识<br>
    [Badge](https://www.amd.com/content/dam/amd/en/images/logos/products/2462924-amd-ryzen-7-badge.png) is downloaded from [Streaming Powered by AMD Ryzen™ Processors](https://www.amd.com/en/products/processors/laptop/ryzen/streaming.html). Cropped to proper size.<br>
    © 2024 Advanced Micro Devices, Inc. AMD and AMD Arrow logo, AMD Ryzen™, Ryzen & Ryzen Logo are trademarks of Advanced Micro Devices, Inc. 
 4. 台式机内存条<br>
