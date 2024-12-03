@@ -33,9 +33,9 @@ type: docs
 3. AMD 锐龙 R7 品牌标识<br>
    [Badge](https://www.amd.com/content/dam/amd/en/images/logos/products/2462924-amd-ryzen-7-badge.png) is downloaded from [Streaming Powered by AMD Ryzen™ Processors](https://www.amd.com/en/products/processors/laptop/ryzen/streaming.html). Cropped to proper size.<br>
    © Advanced Micro Devices, Inc. AMD and AMD Arrow logo, AMD Ryzen™, Ryzen & Ryzen Logo are trademarks of Advanced Micro Devices, Inc. 
-<!-- 4. 台式机内存<br>
+4. 台式机内存条<br>
    [View of the Samsung M378A2K43CB1-CTD DDR4 RAM](https://commons.wikimedia.org/wiki/File:Samsung_DDR4-RAM_20210612_001.png) by PantheraLeo1359531. Modified.<br>
    Licensed under CC BY 4.0
-5. 笔记本电脑内存<br>
+5. 笔记本电脑内存条<br>
    [DDR3 SD-RAM SO-DIMM](https://www.flickr.com/photos/25548012@N02/10852366514/) by Felix5413. Modified.<br>
    Licensed by CC BY 2.0 Generic. -->
