@@ -9,7 +9,7 @@ type: docs
 我们的图片版权标注工作还在进行，因此本列表并不完整。
 {{</hint>}}
 
-在《你缺失的那门计算机课》中，为便于进行讲解，我们使用了一些来自互联网的图片等素材。我们在此按章节逐一列出它们的来源、作者和版权信息，供读者查阅。我们对这些内容的作者表示衷心的感谢。
+在《你缺失的那门计算机课》中，为便于进行讲解，我们使用了一些来自互联网的图片等素材。在此，我们按章节逐一列出它们的来源、作者和版权信息，供读者查阅。我们对这些内容的作者表示衷心的感谢。
 
 本书中提及和展示的商标、标志及相关知识产权，无论是否标注有 ® 或 ™ 及其他标识，均归它们各自的权利持有人所有。引用这些商标或标志仅用于识别和介绍相关产品、服务或公司，并无意侵犯其商标或版权。鉴于许多商标和标志图像的版权与授权方式难以界定，我们将它们一并在本页列出，并注明它们的原始来源。
 
@@ -29,13 +29,21 @@ type: docs
    Licensed under CC BY 4.0.
 2. 英特尔酷睿 Ultra 品牌标识<br>
    [Badges](https://download.intel.com/newsroom/2023/client-computing/2023-new-intel-badges.zip) are downloaded from [Intel Announces Major Brand Update Ahead of Upcoming Meteor Lake Launch](https://www.intel.com/content/www/us/en/newsroom/news/intel-announces-major-brand-update-upcoming-meteor-lake-launch.html). Cropped to proper size.<br>
-   © Intel Corporation. Intel, the Intel logo and other Intel marks are trademarks of Intel Corporation or its subsidiaries.
+   © 2024 Intel Corporation. Intel, the Intel logo and other Intel marks are trademarks of Intel Corporation or its subsidiaries.
 3. AMD 锐龙 R7 品牌标识<br>
    [Badge](https://www.amd.com/content/dam/amd/en/images/logos/products/2462924-amd-ryzen-7-badge.png) is downloaded from [Streaming Powered by AMD Ryzen™ Processors](https://www.amd.com/en/products/processors/laptop/ryzen/streaming.html). Cropped to proper size.<br>
-   © Advanced Micro Devices, Inc. AMD and AMD Arrow logo, AMD Ryzen™, Ryzen & Ryzen Logo are trademarks of Advanced Micro Devices, Inc. 
+   © 2024 Advanced Micro Devices, Inc. AMD and AMD Arrow logo, AMD Ryzen™, Ryzen & Ryzen Logo are trademarks of Advanced Micro Devices, Inc. 
 4. 台式机内存条<br>
    [View of the Samsung M378A2K43CB1-CTD DDR4 RAM](https://commons.wikimedia.org/wiki/File:Samsung_DDR4-RAM_20210612_001.png) by PantheraLeo1359531. Modified.<br>
    Licensed under CC BY 4.0
 5. 笔记本电脑内存条<br>
-   [DDR3 SD-RAM SO-DIMM](https://www.flickr.com/photos/25548012@N02/10852366514/) by Felix5413. Modified.<br>
-   Licensed by CC BY 2.0 Generic. -->
+   [*DDR3 SD-RAM SO-DIMM*](https://www.flickr.com/photos/25548012@N02/10852366514/) by Felix5413. Modified.<br>
+   Licensed under CC BY 2.0 Generic. 
+6. NVMe 固态硬盘<br>
+   [A Samsung 980 Pro m.2 PCIe NVMe SSD with 1TB of storage capacity](https://commons.wikimedia.org/wiki/File:Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg) by D-Kuru/Wikimedia Commons. <br>
+   Licensed under CC BY-SA 4.0.
+7. NVIDIA 官网展示的 MSI GeForce RTX 4070 Super 显卡<br>
+   Screenshot of [MSI GeForce RTX 4070 SUPER 12G GAMING SLIM WUKONG EDITION](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/msi-geforce-rtx-4070-super-12g-gaming-slim-wukong-edition/).<br>
+   © 2024 Micro-Star Int'l Co.Ltd. MSI is a registered trademark of Micro-Star Int'l Co.Ltd. All rights reserved.<br>
+   © 2024 NVIDIA, the NVIDIA logo, GeForce, SHIELD, and NVIDIA G-SYNC are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries.<br>
+   © Game Science Interactive Technology Co., Ltd. All Rights Reserved.
