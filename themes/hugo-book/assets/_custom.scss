@@ -70,3 +70,40 @@ rt {
 .hidden-text {
     background-color: black;
 }
+
+.hover-change {
+    display: flex;
+    position: relative;
+    transition: opacity 0.4s linear;
+
+    &:hover {
+        .hover-change-before {
+            opacity: 0;
+        }
+
+        .hover-change-after {
+            opacity: 1;
+            margin-left: initial;
+        }
+    }
+
+    .hover-change-before {
+        display: inline-block;
+        position: static;
+        transition: inherit;
+    }
+
+    .hover-change-after {
+        display: inline-block;
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        transition: inherit;
+    }
+}
+
+.hover-change-after:hover {
+    opacity: 0;
+    margin-left: -9999px;
+}
+

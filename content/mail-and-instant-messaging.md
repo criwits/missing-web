@@ -176,26 +176,10 @@ type: docs
 
 （这里可以合成一张上古 QQ 的界面）
 
-<style>
-    .huoxingwen-text::after {
-        content: "恉甴蘩躰牸、貹亻辟牸、ㄖ韓彣，じ人芨漢芓扌斥忿後菂蔀閒禾口ㄚ𝕚些牛寺姝苻呺詛匼亻而晟棏彣茡。";
-    }
-    .huoxingwen-text:hover::after {
-        content: "指由繁体字、生僻字、日韩文，以及汉字拆分后的部件和一些特殊符号组合而成的文字。";
-    }
-    input[type="checkbox"] {
-        display: none; /* 隐藏 checkbox */
-    }
-
-    input[type="checkbox"]:checked + .huoxingwen-text::after {
-        content: "指由繁体字、生僻字、日韩文，以及汉字拆分后的部件和一些特殊符号组合而成的文字。";
-    }
-</style>
-
 [^886]: 「拜拜喽」的谐音。
 [^ggmm]: GG 指男生，MM 指女生。
 [^kongjian]: 指在 QQ 空间留言。
-[^huoxingwen]: <input type="checkbox" id="toggle"><label class="huoxingwen-text" for="toggle"></label>
+[^huoxingwen]: <div class="hover-change"><div class="hover-change-before">恉甴蘩躰牸、貹亻辟牸、ㄖ韓彣，じ人芨漢芓扌斥忿後菂蔀閒禾口ㄚ𝕚些牛寺姝苻呺詛匼亻而晟棏彣茡。</div><div class="hover-change-after">指由繁体字、生僻字、日韩文，以及汉字拆分后的部件和一些特殊符号组合而成的文字。</div></div>
 
 在 2013 年及以前，Windows 上的 QQ 以年份为版本号，如「QQ 2010」「QQ 2013」。在 2014 年，腾讯开始转而以数字命名 QQ 版本，第一个如此命名的版本是 QQ 5.0。到今天（2024 年），Windows 端的 QQ 已经更新到了 9.x 版本。今天的 QQ 功能越来越多样，除了基本的聊天功能之外，还有「QQ 频道」「QQ 游戏」以及金融和支付功能。
 
