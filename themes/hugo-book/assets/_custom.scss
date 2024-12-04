@@ -107,6 +107,46 @@ rt {
     margin-left: -9999px;
 }
 
+@media screen and (max-width: $mobile-breakpoint) {
+    .book-page {
+        padding: 0px 1rem;
+    }
+    .book-header {
+        position: sticky;
+        top: 0;
+        padding: 1rem;
+        margin: 0 -1rem 1rem -1rem;
+        z-index: 9999;
+        background: white;
+    }
+
+    .book-menu-checked {
+        visibility: initial;
+    }
+
+    .book-menu-checked .book-menu-content-checked {
+        transform: translateX($menu-width);
+        box-shadow: 0 0 $padding-8 rgba(0, 0, 0, 0.1);
+    }
+
+    .book-page-checked {
+        opacity: 0.25;
+    }
+    
+    .book-menu-overlay-checked {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .book-header-checked {
+      display: block;
+    }
+}
+
 // Mobile hint and Auto Columns
 // Default case: no hint, wide columns
 
@@ -149,8 +189,8 @@ rt {
   bottom: 32px;
   left: unset;
   transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-}
 
-.scroll-buttons:hover {
-  opacity: 1;
+  &:hover {
+    opacity: 1;
+  }
 }
