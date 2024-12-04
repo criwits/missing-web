@@ -8,6 +8,7 @@ const menuOverlay = document.querySelector(".book-menu-overlay");
 
 const tocControlChkbox = document.querySelector("#toc-control");
 const tocTab = document.querySelector(".book-header>aside");
+const tocTabOverlay = document.querySelector(".book-toc-overlay");
 const tocAnchors = tocTab.querySelectorAll("a");
 
 menuControlChkbox.addEventListener("change", () => {
@@ -27,8 +28,10 @@ menuControlChkbox.addEventListener("change", () => {
 tocControlChkbox.addEventListener("change", () => {
     if (tocControlChkbox.checked) {
         tocTab.classList.remove("hidden");
+        tocTabOverlay.classList.add("book-toc-overlay-checked");
     } else {
         tocTab.classList.add("hidden");
+        tocTabOverlay.classList.remove("book-toc-overlay-checked");
     }
 })
 
@@ -37,6 +40,7 @@ tocAnchors.forEach(a => {
         if (tocControlChkbox.checked) {
             tocControlChkbox.checked = false;
             tocTab.classList.add("hidden");
+            tocTabOverlay.classList.remove("book-toc-overlay-checked");
         }
     })
 });

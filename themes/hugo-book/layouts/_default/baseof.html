@@ -32,6 +32,7 @@
       {{ template "comments" . }} <!-- Comments block -->
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
+      <label for="toc-control" class="hidden book-toc-overlay"></label>
     </div>
 
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}

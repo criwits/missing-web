@@ -337,50 +337,50 @@ ul.pagination {
     display: block;
   }
 
-  #menu-control:focus ~ main label[for="menu-control"] {
-    @include outline;
-  }
+  // #menu-control:focus ~ main label[for="menu-control"] {
+  //   @include outline;
+  // }
 
-  #menu-control:checked ~ main {
-    .book-menu {
-      visibility: initial;
-    }
+  // #menu-control:checked ~ main {
+  //   .book-menu {
+  //     visibility: initial;
+  //   }
 
-    .book-menu .book-menu-content {
-      transform: translateX($menu-width);
-      box-shadow: 0 0 $padding-8 rgba(0, 0, 0, 0.1);
-    }
+  //   .book-menu .book-menu-content {
+  //     transform: translateX($menu-width);
+  //     box-shadow: 0 0 $padding-8 rgba(0, 0, 0, 0.1);
+  //   }
 
-    .book-page {
-      opacity: 0.25;
-    }
+  //   .book-page {
+  //     opacity: 0.25;
+  //   }
 
-    .book-menu-overlay {
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
-  }
+  //   .book-menu-overlay {
+  //     display: block;
+  //     position: absolute;
+  //     top: 0;
+  //     bottom: 0;
+  //     left: 0;
+  //     right: 0;
+  //   }
+  // }
 
-  #toc-control:focus ~ main label[for="toc-control"] {
-    @include outline;
-  }
+  // #toc-control:focus ~ main label[for="toc-control"] {
+  //   @include outline;
+  // }
 
-  #toc-control:checked ~ main {
-    .book-header aside {
-      display: block;
-    }
-  }
+  // #toc-control:checked ~ main {
+  //   .book-header aside {
+  //     display: block;
+  //   }
+  // }
 
-  //for RTL support
-  body[dir="rtl"] #menu-control:checked + main {
-    .book-menu .book-menu-content {
-      transform: translateX(-$menu-width);
-    }
-  }
+  // //for RTL support
+  // body[dir="rtl"] #menu-control:checked + main {
+  //   .book-menu .book-menu-content {
+  //     transform: translateX(-$menu-width);
+  //   }
+  // }
 }
 
 // Extra space for big screens
