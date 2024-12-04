@@ -1,8 +1,10 @@
+const header = document.querySelector('.book-header');
+const bookPage = document.querySelector(".book-page");
+
 const menuControlChkbox = document.querySelector("#menu-control");
 const menuTab = document.querySelector(".book-menu");
 const menuTabContent = document.querySelector(".book-menu-content");
 const menuOverlay = document.querySelector(".book-menu-overlay");
-const bookPage = document.querySelector(".book-page");
 
 const tocControlChkbox = document.querySelector("#toc-control");
 const tocTab = document.querySelector(".book-header>aside");
@@ -37,4 +39,13 @@ tocAnchors.forEach(a => {
             tocTab.classList.add("hidden");
         }
     })
+});
+
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        header.style.boxShadow = '0 0 0.3rem rgba(0, 0, 0, 0.1)';
+    } else {
+        header.style.boxShadow = 'none';
+    }
 });

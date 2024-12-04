@@ -119,6 +119,9 @@ rt {
         z-index: 9999;
         background: white;
     }
+    .book-header:not(:first-child) {
+        box-shadow: 0 5.5;
+    }
 
     .book-menu-checked {
         visibility: initial;

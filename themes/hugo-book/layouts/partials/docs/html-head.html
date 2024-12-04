@@ -33,8 +33,8 @@
 {{ $scrollJS := resources.Get "scroll.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
 
-{{ $sidetabJS := resources.Get "side-tab-toggle.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $sidetabJS.RelPermalink }}" integrity="{{ $sidetabJS.Data.Integrity }}"></script>
+{{ $headerCtrlJS := resources.Get "header-controller.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
 
 {{- template "_internal/google_analytics.html" . -}}
 
