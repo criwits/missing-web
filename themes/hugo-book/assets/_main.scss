@@ -316,32 +316,6 @@ ul.pagination {
   will-change: transform, margin, opacity;
 }
 
-.mobile-hint {
-  display: none;
-}
-
-.auto-columns-wide {
-  display: flex;
-}
-
-.auto-columns-narrow {
-  display: none;
-}
-
-@media screen and (max-width: $mobile-warning-breakpoint-large) and (min-width: $mobile-breakpoint) {
-  .mobile-hint {
-    display: block;
-  }
-
-  .auto-columns-wide {
-    display: none
-  }
-  
-  .auto-columns-narrow {
-    display: block;
-  }
-}
-
 @media screen and (max-width: $mobile-breakpoint) {
   #menu-control,
   #toc-control {
@@ -361,20 +335,6 @@ ul.pagination {
 
   .book-header {
     display: block;
-  }
-
-  @media screen and (max-width: $mobile-warning-breakpoint-small) {
-    .mobile-hint {
-      display: block;
-    }
-
-    .auto-columns-wide {
-      display: none
-    }
-    
-    .auto-columns-narrow {
-      display: block;
-    }
   }
 
   #menu-control:focus ~ main label[for="menu-control"] {
@@ -430,20 +390,4 @@ ul.pagination {
   .book-toc .book-toc-content {
     padding: $padding-16 * 2 $padding-16;
   }
-}
-
-// Scroll buttons
-.scroll-buttons {
-  position: fixed;
-  right: 8px;
-  cursor: pointer;
-  opacity: 0.7;
-  user-select: none;
-  bottom: 32px;
-  left: unset;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-}
-
-.scroll-buttons:hover {
-  opacity: 1;
 }

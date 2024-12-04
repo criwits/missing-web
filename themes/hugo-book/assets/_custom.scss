@@ -107,3 +107,50 @@ rt {
     margin-left: -9999px;
 }
 
+// Mobile hint and Auto Columns
+// Default case: no hint, wide columns
+
+.mobile-hint {
+  display: none;
+}
+
+.auto-columns-wide {
+  display: flex;
+}
+
+.auto-columns-narrow {
+  display: none;
+}
+
+// Shrink when the screen is narrow enough
+
+@media screen and (max-width: $mobile-warning-breakpoint-large) and (min-width: $mobile-breakpoint), 
+       screen and (max-width: $mobile-breakpoint) and (max-width: $mobile-warning-breakpoint-small) {
+  .mobile-hint {
+    display: block;
+  }
+
+  .auto-columns-wide {
+    display: none
+  }
+  
+  .auto-columns-narrow {
+    display: block;
+  }
+}
+
+// Scroll buttons
+.scroll-buttons {
+  position: fixed;
+  right: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  user-select: none;
+  bottom: 32px;
+  left: unset;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.scroll-buttons:hover {
+  opacity: 1;
+}
