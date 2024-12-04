@@ -25,4 +25,4 @@ markup:
 params:
   BookTheme: "light"
   BookMenuBundle: /menu
-  BookSearch: true
+  BookSearch: false

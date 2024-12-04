@@ -107,6 +107,11 @@ rt {
     margin-left: -9999px;
 }
 
+.book-menu-separator {
+    margin: 0.5rem 0;
+    border-top: 1px solid #ddd;
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
     .book-page {
         padding: 0px 1rem;
