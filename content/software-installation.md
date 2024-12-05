@@ -201,7 +201,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 作为 Windows 亲爹的微软早在数年前就意识到，Windows 系统下一直缺少一个官方维护的、像 Apple 的 App Store 那样的「集中化」的软件中心，用户下载软件只能像上文那样上网去苦苦找寻。彼时的微软公司正打算进军手机行业，想要和安卓与 iOS 形成「三足鼎立」之势，微软于是心想：不如弄一种新的 app 格式，这种新的 app 不仅能在我们的 Windows 电脑上运行，还可以在手机上运行；然后我们再顺带弄一个全是这种新格式 app 的应用商店，可谓一举两得。于是微软就这么干了：这种新的 app 格式叫做「通用 Windows 平台应用」（Universal Windows Platform，简称「UWP 应用」），这个应用商店就是我们电脑里的「Microsoft Store」：
 
-![Untitled](software-installation/Untitled%207.png#center)
+![MS Store](software-installation/Microsoft_Store.png#center)
 
 可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在近两年宣布「谢幕」。可是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。
 
@@ -245,9 +245,9 @@ D:\Program Files (x86)\Tencent\QQ\
 
 {{< /hint >}}
 
-![Untitled](software-installation/Untitled%2012.png#center)
+![Untitled](software-installation/Computer_with_unwanted_software.png#center)
 
-![Untitled](software-installation/Untitled%2013.png#center)
+![Untitled](software-installation/Computer_with_unwanted_software_2.png#center)
 
 可以看到电脑已经被乱七八糟的软件占领。
 
