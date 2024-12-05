@@ -83,8 +83,11 @@ body {
   /* fix for Chrome */
 }
 
-.no-palt-punct {
-  font-feature-settings: 'liga' 1, 'calt' 1, 'palt' 0;
+.force-compress-punct {
+  font-feature-settings: 'liga' 1, 'calt' 1, 'palt' 1;
+}
+.force-no-wrap {
+  white-space: nowrap;
 }
 
 @supports (font-variation-settings: normal) {
