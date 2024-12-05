@@ -34,7 +34,7 @@
 <script defer src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
 {{ $headerCtrlJS := resources.Get "header-controller.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
-{{ $zhPunctJS := resources.Get "zh-punct.js" |  resources.Fingerprint }}
+{{ $zhPunctJS := resources.Get "zh-punct.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $zhPunctJS.RelPermalink }}" integrity="{{ $zhPunctJS.Data.Integrity }}"></script>
 
 {{- template "_internal/google_analytics.html" . -}}
