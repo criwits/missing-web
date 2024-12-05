@@ -42,7 +42,7 @@ type: docs
   - [用户与微软账号]({{<relref "user-and-ms-account.md">}})
   - [蓝屏与解决蓝屏]({{<relref "recover-from-bsod.md">}})
   - [成为空间管理大师]({{<relref "manage-storage.md">}})
-  - [万言皆数——字符与编码规则]({{<relref "characters-and-encodings.md">}})
+  - [万言皆数：字符与编码规则]({{<relref "characters-and-encodings.md">}})
   - [Windows 11 修整指南]({{<relref "windows-11-optimization.md">}})
 - 超越篇
   - [从加减乘除到 AI 对话]({{<relref "bring-intelligence-to-machines.md">}})
@@ -78,7 +78,7 @@ type: docs
 - Content update: 基本完成「『程序』是怎样炼成的」一章，亟待收尾和修订 (24/11/19)
 - Content update:「以密码之剑护网安之城」一章基本修订完毕 (24/11/19)
 - Content update: 基本完成「以密码之剑护网安之城」一章，亟待修订 (24/11/11)
-- Content update: 完成「万言皆数——字符与编码规则」的初稿 (24/10/24)
+- Content update: 完成「万言皆数：字符与编码规则」的初稿 (24/10/24)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 作者

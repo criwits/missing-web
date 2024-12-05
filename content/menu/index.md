@@ -24,7 +24,7 @@ headless = true
   - [用户与微软账号]({{<relref "user-and-ms-account.md">}})
   - [蓝屏与解决蓝屏]({{<relref "recover-from-bsod.md">}})
   - [成为空间管理大师]({{<relref "manage-storage.md">}})
-  - [万言皆数——字符与编码规则]({{<relref "characters-and-encodings.md">}})
+  - [万言皆数：字符与编码规则]({{<relref "characters-and-encodings.md">}})
   - [Windows 11 修整指南]({{<relref "windows-11-optimization.md">}})
 - <span style="color: var(--gray-500)">超越篇</span>
   - [从加减乘除到 AI 对话]({{<relref "bring-intelligence-to-machines.md">}})

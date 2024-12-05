@@ -25,8 +25,8 @@ img[src$='#floatright'] {
     /* whatever else styles you fancy here */
 }
 
-h1, h2, h3, h4, h5, sup {
-    scroll-margin-top: 36px;
+h1, h2, h3, h4, h5, sup, li[id^="fn:"] {
+    scroll-margin-top: 72px;
 }
 
 .footer {
@@ -35,13 +35,13 @@ h1, h2, h3, h4, h5, sup {
     width: 100%;
     font-size: smaller;
     line-height: 3.2ex;
-    color: #aaa;
+    color: var(--gray-500);
     text-decoration: none;
 }
 
 .footer a {
     text-decoration: none;
-    color: #888;
+    color: var(--gray-800);
 }
 
 .kerning {
@@ -113,7 +113,7 @@ rt {
 
 .book-menu-separator {
     margin: 0.5rem 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--gray-200);
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
