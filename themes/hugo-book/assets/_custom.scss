@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5, sup, li[id^="fn:"] {
     }
 }
 
+.footnote-ref {
+    margin: 1pt;
+}
+
 rt {
     font-size: 65%;
 }
