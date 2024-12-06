@@ -34,6 +34,10 @@
 <script defer src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
 {{ $headerCtrlJS := resources.Get "header-controller.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
+{{ $imageAlignCtrlJS := resources.Get "image-align-controller.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $imageAlignCtrlJS.RelPermalink }}" integrity="{{ $imageAlignCtrlJS.Data.Integrity }}"></script>
+
+
 
 {{- template "_internal/google_analytics.html" . -}}
 
