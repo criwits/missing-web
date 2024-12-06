@@ -124,7 +124,7 @@ D:\missing\源文件
 
 也许你有听说过「目录」这个名字。其实「目录」就是文件夹。例如这个说法「打开目录 `D:\missing\public`」指的就是打开 D 盘中 `missing` 文件夹里的 `public` 文件夹。
 
-目录（文件夹）一层一层的结构可以像这样从上到下画出来，称作「目录树」。树的特点是从一个「根」开始，生长出许多的枝叶，这和文件夹「一层套一层」的结构是一致的。下面便展示了一个目录树，与现实中的树不同的是，目录树是倒着的，根在上，叶子在下。
+目录（文件夹）一层一层的结构可以像这样从上到下画出来，称作「目录树」。树的特点是从一个「根」开始，生长出许多的枝叶，这和文件夹「一层套一层」的结构是一致的。下面便展示了一个目录树，它的根是文件夹 `Documents`，而其他的文件和文件夹则是它的枝叶。与现实中的树不同的是，目录树是倒着的，根在上，叶子在下。
 
 ![一棵目录树](file-and-file-management/Tree.png#center)
 
@@ -203,11 +203,11 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 如果收到一个压缩文件，我们一般需要将它解压。如果你电脑上已经安装有压缩软件，那么可以参照下面的方法来解压缩：
 
 - 右击压缩文件，选择【解压[^5]到当前文件夹】或者【解压到 `<文件名>\`】。这两个选项的不同是：
-    ![解压到当前文件夹](file-and-file-management/Extract_to_same_directory.png#floatright)
     - 【解压到当前文件夹】会把压缩文件里的内容直接放在压缩文件的同一目录下。例如，如果一个压缩文件 `archive.zip` 里面有 `a.txt` 和 `b.txt` 两个文件，选择此选项，解压后 `a.txt` 和 `b.txt` 都和 `archive.zip` 在同一级目录。
         
-    ![解压到文件夹](file-and-file-management/Extract_to_separate_directory.png#floatright)
     - 【解压到 `<文件名>\`】会把压缩文件里的内容放在一个子文件夹里面。在上面的例子中选择这个选项，会在 `archive.zip` 的同一级目录新建一个文件夹 `archive`，然后把 `a.txt` 和 `b.txt` 放在 `archive` 文件夹下。
+
+![两种解压方式](file-and-file-management/Extract.png#center)
         
 我们建议，为了不让自己的工作目录变得混乱，**尽量使用「解压到 `<文件名>\`」**。（想想为什么？）
 
@@ -228,9 +228,9 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 | 扩展名 | 用什么软件打开 | 软件主程序的路径在哪                                        |
 | ------ | -------------- | ----------------------------------------------------------- |
-| txt    | 记事本         | C:\Windows\system32\notepad.exe                             |
-| docx   | Word           | C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE |
-| mp3    | 网易云音乐     | D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe    |
+| txt    | 记事本         | `C:\Windows\system32\notepad.exe`                             |
+| docx   | Word           | `C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE` |
+| mp3    | 网易云音乐     | `D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe`    |
 | ……   | ……           | ……                                                        |
 
 有了这张表，系统就能自动地帮我们选择文件对应的打开方式。有时，我们不想要用这张表帮我们预置的方式来打开文件。比如，打开 `png` 图片的默认方式是「照片」软件，但如果我们想**暂时**用「画图」来打开它，我们可以这样做：

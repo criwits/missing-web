@@ -36,6 +36,8 @@
 <script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
 {{ $zhPunctJS := resources.Get "zh-punct.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $zhPunctJS.RelPermalink }}" integrity="{{ $zhPunctJS.Data.Integrity }}"></script>
+{{ $imageAlignCtrlJS := resources.Get "image-align-controller.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $imageAlignCtrlJS.RelPermalink }}" integrity="{{ $imageAlignCtrlJS.Data.Integrity }}"></script>
 
 {{- template "_internal/google_analytics.html" . -}}
 

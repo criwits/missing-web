@@ -2,26 +2,27 @@
 
 // @import "plugins/numbered";
 
-img[src$='#center'] {
-    display: block;
-    margin: 0.7rem auto;
-    /* you can replace the vertical '0.7rem' by
-                            whatever floats your boat, but keep the
-                            horizontal 'auto' for this to work */
-    /* whatever else styles you fancy here */
-}
-
-img[src$='#floatleft'] {
+img.image-floatleft, img[src$='#floatleft'] {
     float: left;
     margin: 0.7rem;
     /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
 
-img[src$='#floatright'] {
+img.image-floatright, img[src$='#floatright'] {
     float: right;
     margin: 0.7rem;
     /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img.image-center, img[src$='#center'] {
+    float: none;
+    display: block;
+    margin: 0.7rem auto;
+    /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
     /* whatever else styles you fancy here */
 }
 
@@ -65,6 +66,10 @@ h1, h2, h3, h4, h5, sup, li[id^="fn:"] {
         font-weight: 600;
         padding-top: 0.5em;
     }
+}
+
+.footnote-ref {
+    margin: 1pt;
 }
 
 rt {
