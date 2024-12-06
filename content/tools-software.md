@@ -35,7 +35,7 @@ Notepad3 是一款用来替代系统内置「记事本」的文本编辑器。�
 
 ![Untitled](tools-software/Untitled.png)
 
-与 Notepad3 类似的软件还有 Notepad++ 和 Sublime 等。这里我们**不推荐**大家使用 Notepad++——尽管网上许多教程推荐它，尽管那也是一款非常优秀的文本编辑器。Notepad++ 的主要开发者屡次让政治立场混入技术世界，以「自由」之名行「渗透」之实，因而还需要大家审慎对待。
+与 Notepad3 类似的软件还有 Notepad++ 和 Sublime 等。这里我们**不推荐**使用 Notepad++——尽管网上许多教程推荐它，尽管那也是一款非常优秀的文本编辑器。Notepad++ 的主要开发者屡次让政治立场混入技术世界，以「自由」之名行「渗透」之实，因而还需要大家审慎对待。
 
 ### SumatraPDF
 
@@ -53,11 +53,9 @@ SumatraPDF 是一个小巧（安装包不到 10 MB）却功能强大的 PDF 阅�
 
 官网下载地址：[https://www.videolan.org/vlc/](https://www.videolan.org/vlc/)
 
-VLC Media Player 是一个出色的本地视频播放器，它支持几乎所有常见格式的视频文件的播放，可以说是一个「万能」的播放器。与 VLC 类似的软件还有 PotPlayer，但 VLC 是开源而自由的软件，因而我们在这里推荐 VLC。
+VLC Media Player 是一款开源的本地视频播放器，它界面简洁、功能强大，无需额外安装各种解码器，就能支持几乎所有常见格式的视频文件的播放，可以说是一个「万能播放器」。与 VLC Media Player 类似的软件还有 PotPlayer，不过受限于网络环境，后者在内地往往难以下载到官方版本，因此我们不作推荐。
 
-![Untitled](tools-software/Untitled%202.png)
-
-*The Crimson Wing: Mystery of the Flamingos* (C) Disney / Disneynature. All rights reserved.
+![VLC](tools-software/VLC.png#center)
 
 ## 网络类
 
@@ -130,6 +128,33 @@ PowerToys 是由微软主导，集合社区之力共同开发的一套小工具�
   ![Powertoys Run](tools-software/Powertoys_Run.png)
 
 - 文本提取器：快速屏幕 OCR 识别。
+
+### ExplorerPatcher
+
+{{<hint danger>}}
+
+ExplorerPatcher 是一款 **第三方** 的 Windows 界面优化工具，它不可避免地会对系统的核心组件进行修改，因此可能会造成系统不稳定。
+
+在安装使用 ExplorerPatcher 前，请务必阅读其说明页面和下载页面的介绍（只有英文），当中详细介绍了可能存在的冲突、问题及对应的解决方案。
+
+{{</hint>}}
+
+官网说明页面：[https://github.com/valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
+
+官网下载地址：[https://github.com/valinet/ExplorerPatcher/releases](https://github.com/valinet/ExplorerPatcher/releases)
+
+觉得 Windows 11 的任务栏不好用？界面上有按钮移除不掉？觉得资源管理器地址栏太宽？一切尽在 ExplorerPatcher！ExplorerPatcher 是一款开源工具，可以对 Windows 10/11 的任务栏、文件资源管理器、开始菜单等系统组件进行多样的调整。在它的官网下载 `ep_setup.exe` 文件，双击即可自动启动安装。安装完成后，按 `Windows` + `S` 并搜索「ExplorerPatcher」，点击【属性 (ExplorerPatcher)】即可打开 ExplorerPatcher:
+
+![EP](tools-software/EP_open.png#center)
+
+在 ExplorerPatcher 界面的左方，列出了「任务栏」「托盘菜单」「文件管理器」等模块。点击每个模块，都可以看到各种各样的高级选项，而这些选项很多是无法通过系统设置进行直接修改的，比如「更改文件传输对话框的样式」「修改部分系统快捷键的功能」「禁用 Windows 11 窗口圆角」。对于 Windows 11，ExplorerPatcher 甚至提供了一系列「回退到 Windows 10」的功能，比如：使用 Windows 10 风格的任务栏、开始菜单和资源管理器。下图展示了在 Windows 11 上，借助 ExplorerPatcher「cosplay」成 Windows 10 的效果。
+
+![EP_cosplay](tools-software/EP_cosplay.png#center)
+
+> 有一些「回退到旧版」的功能不需要 ExplorerPatcher 也能实现，请参见 [Windows 11 优化指南]({{<relref "windows-11-optimization.md">}})。
+>
+
+需要注意的是，正如其「ExplorerPatcher」（意为「资源管理器补丁」）之名，ExplorerPatcher 是通过对系统部件「打补丁」的方式实现功能的，而这些补丁有可能随着 Windows 更新而失效，或者对系统的稳定性造成一定影响。如果需要卸载 ExplorerPatcher，既可以在系统设置中以普通 app 的方式卸载，可以在它的主界面左侧选择【设置与卸载】，然后选择【卸载 ExplorerPatcher】。
 
 ## 练习
 

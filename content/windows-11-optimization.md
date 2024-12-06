@@ -146,7 +146,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Bloc
 
 这两个文件可以一直留着，以备不时之需。
 
-此外，若不喜欢繁琐的操作，更简单的方法是求助于第三方软件，例如 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/)。它也附带了其他「回退到旧版」的功能，例如右键菜单或任务栏等，可以自行了解。
+此外，若不喜欢繁琐的操作，更简单的方法是求助于第三方软件，例如 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/)。ExplorerPatcher 也附带了其他「回退到旧版」的功能，例如右键菜单或任务栏等，我们在 [工具类软件推荐]({{<relref "tools-software.md">}}) 中已有介绍。
 
 ## 禁止资源管理器中的 `F1` 打开 Edge 浏览器搜索帮助
 

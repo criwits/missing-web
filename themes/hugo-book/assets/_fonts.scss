@@ -80,7 +80,7 @@
 body {
   font-family: Inter, 'Noto Sans CJK SC', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
-  text-spacing-trim: trim-both; // 反正放在这里，有朝一日浏览器会支持的吧。
+  // text-spacing-trim: trim-both; // 反正放在这里，有朝一日浏览器会支持的吧。
   /* fix for Chrome */
 }
 
