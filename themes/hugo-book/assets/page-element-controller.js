@@ -1,17 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-    renderPunct();
-});
+/* 常量 */
+const wrapContextLength = 3; // 禁折区上下文长度
+const floatImageWidthThreshold = 0.7; // 浮动图片宽度阈值
 
-let resizeTimer;
-
-window.addEventListener('resize', function() {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function() {
-        destroyPunct();
-        renderPunct();
-    }, 100);
-});
-
+/* 中文行首尾标点挤压 */
 function destroyPunct() {
     const article = document.querySelector('article');
     const spans = article.querySelectorAll('.force-no-wrap');
@@ -109,7 +100,6 @@ function renderPunct() {
     }
     
     function compressPunct(node, headPuncts, tailPuncts) {
-        const wrapContextLength = 2;
         const text = node.nodeValue; // 获取文本内容
         const parent = node.parentNode; // 父节点
     
@@ -191,3 +181,46 @@ function renderPunct() {
       return merged;
     }
 }
+
+/* 浮动图片对齐 */
+function clearImages(images) {
+    images.forEach(img => {
+        img.classList.remove('image-center');
+    });
+}
+
+function ctrlImages(images) {
+    images.forEach(img => {
+        const src = img.src;
+        
+        if (src.endsWith('#floatleft') || src.endsWith('#floatright')) {
+            const bookPage = document.querySelector('.book-page');
+            const bookPageWidth = bookPage.clientWidth;
+            
+            if (img.clientWidth > floatImageWidthThreshold * bookPageWidth) {
+                img.classList.add('image-center'); // 添加 img-center 类
+            }
+        }
+    });
+}
+
+/* 加载器 */
+
+let resizeTimer;
+
+window.onload = function() {
+    const images = document.querySelectorAll('img');
+    ctrlImages(images);
+    renderPunct();
+
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            clearImages(images);
+            ctrlImages(images);
+            destroyPunct();
+            renderPunct();
+        }, 300);
+    });
+}
+
