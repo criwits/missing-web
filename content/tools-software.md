@@ -113,14 +113,22 @@ PowerToys 是由微软主导，集合社区之力共同开发的一套小工具�
 - 始终置顶：快速将桌面上已经打开的任意窗口置顶。
 - 唤醒：保持电脑处于唤醒状态（即不会自动休眠、睡眠或关机）。
 - 颜色选择器：识别并提取屏幕上任意一点的颜色，获取它在各种颜色表示方式下的色值。
+  
   ![Color Picker](tools-software/Color_Picker.png)
+
 - File Locksmith：识别哪些程序正在占用文件，当删除文件时显示「此文件正被占用」时非常有用。
+  
   ![File Locksmith](tools-software/File_Locksmith.png)
+
 - 资源管理器加载项：在资源管理器中提供 SVG、PDF 等文件的图标中预览。
+  
   ![Explorer Addon](tools-software/Explorer_Addon.png)
+
 - 键盘管理器：重映射按键，例如设置按下 `A` 键其实是按下 `Ctrl` + `C` 快捷键等。
 - PowerToys Run：非常强大的快速启动器与搜索工具，输入一些关键字，它可以让你快速打开浏览器进行搜索、运行电脑上含有关键字的应用，甚至是搜索文件名含有关键字的文件（前提是令 Windows 编制好索引）。除此之外，使用特殊的指令，还可以快速进行数学计算、单位换算、执行命令行指令、打开指定路径等等，花样繁多。
+  
   ![Powertoys Run](tools-software/Powertoys_Run.png)
+
 - 文本提取器：快速屏幕 OCR 识别。
 
 ## 练习
