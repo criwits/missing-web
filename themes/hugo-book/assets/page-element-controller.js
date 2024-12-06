@@ -1,6 +1,7 @@
 /* 常量 */
 const wrapContextLength = 3; // 禁折区上下文长度
 const floatImageWidthThreshold = 0.7; // 浮动图片宽度阈值
+const rerenderInterval = 300; // 重新渲染间隔
 
 /* 中文行首尾标点挤压 */
 function destroyPunct() {
@@ -54,8 +55,11 @@ function renderPunct() {
     
             // 如果该标点是 node 的首个字符或者最后一个字符，打印「首」或「尾」
             if (index === 0) {
-                // 结点首，行首标点需要挤压，但是结点首不一定是行首
-                previousNode = node.previousSibling;
+                // 只处理 <p>、<h1>、<h2>、<h3>、<h4>、<h5>、<h6> 和 <li> 下的首尾标点
+                if (!node.parentNode || !['P', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'LI'].includes(node.parentNode.tagName)) {
+                    continue;
+                }
+                const previousNode = node.previousSibling;
                 if (previousNode === null) {
                     headPuncts.push(index)
                 }
@@ -125,9 +129,9 @@ function renderPunct() {
             }
         }
     
-        let mergedIntervals = mergeIntervals(spanIntervals);
-        let spanInIndexes = mergedIntervals.map(interval => interval[0]);
-        let spanOutIndexes = mergedIntervals.map(interval => interval[1]);
+        const mergedIntervals = mergeIntervals(spanIntervals);
+        const spanInIndexes = mergedIntervals.map(interval => interval[0]);
+        const spanOutIndexes = mergedIntervals.map(interval => interval[1]);
     
         const wrappedParts = text.split('').map((char, index) => {
             let result = char;
@@ -220,7 +224,7 @@ window.onload = function() {
             ctrlImages(images);
             destroyPunct();
             renderPunct();
-        }, 300);
+        }, rerenderInterval);
     });
 }
 
