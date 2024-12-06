@@ -236,7 +236,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 上文中，我们简单介绍了「符号链接」，这是一种可以让文件/文件夹指向其他文件/文件夹的方法。其实，符号链接是「文件链接」的一种，Windows 还提供了其他类型的文件链接。本节我们将深入介绍文件链接的概念与使用方法。
 
-在 [文件与文件管理]({{<relref "file-and-file-management.md#文件的「替身」——快捷方式">}}) 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 `lnk` 的文件。「不同类型的文件需要用不同的 app 来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。
+在 [文件与文件管理]({{<relref "file-and-file-management.md#文件的替身快捷方式">}}) 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 `lnk` 的文件。「不同类型的文件需要用不同的 app 来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。
 
 不妨试一试用记事本来打开一个快捷方式[^1]：
 - 在桌面按住 `Shift` 点右键，选择【在此处打开 PowerShell 窗口】；
@@ -311,7 +311,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 ![Interesting_Storage_Size](manage-storage/Interesting_Storage_Size.png#center)
 
-### 目录联接 *
+### 目录联接
 
 如果你看到过 `mklink` 的语法说明（没看到的可以现在看看，执行 `mklink` 就行），你可能会发现在指定链接类型时，除了指定文件夹的 `/d` 与指定硬链接的 `/h` 选项以外，居然还有一个 `/j` 选项，按底下的说明，它是「目录联接」。
 
