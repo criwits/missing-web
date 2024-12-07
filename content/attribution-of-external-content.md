@@ -52,7 +52,7 @@ type: docs
 
 ## 电子邮件与即时通信
 
-1. QQ 2010 主界面示意图
+1. QQ 2010 主界面示意图<br>
    Downloaded from [情感的容器　被寄托了的QQ2010视觉设计](http://cdc.tencent.com/?p=2200) ([archive](https://web.archive.org/web/20140816090252/http://cdc.tencent.com/?p=2200)).<br>
    © 猕猴桃 and Tencent CDC.
 
