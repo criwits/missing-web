@@ -1,8 +1,7 @@
 <img id="scroll_to_top" src="/missing/svg/page_top.svg" draggable="false" class="scroll-buttons"  style="bottom: 64px;" alt="回到顶部" />
 <img id="scroll_to_bottom" src="/missing/svg/page_bottom.svg" draggable="false" class="scroll-buttons" style="bottom: 32px;" alt="前往底部" />
 
-<script async src="https://cn.vercount.one/js"></script>
-
+<!--本地脚本-->
 {{ $easterEggsJS := resources.Get "easter-eggs.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $easterEggsJS.RelPermalink }}" integrity="{{ $easterEggsJS.Data.Integrity }}"></script>
 {{ $scrollJS := resources.Get "scroll.js" | resources.Minify | resources.Fingerprint }}
@@ -11,3 +10,6 @@
 <script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
 {{ $pageElmtCtrlJS := resources.Get "page-element-controller.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $pageElmtCtrlJS.RelPermalink }}" integrity="{{ $pageElmtCtrlJS.Data.Integrity }}"></script>
+
+<!--第三方脚本-->
+<script defer src="https://cn.vercount.one/js"></script>
