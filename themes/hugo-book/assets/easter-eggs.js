@@ -11,14 +11,17 @@ const easter_eggs = [
     "疑？悟！",
     "<span style='text-decoration: line-through;'>你能 V 我 50 吗？</span>", // 请固定为最后一个
 ]
-const placeholder = document.getElementById('easter_egg_placeholder');
-if (random_number < 4) {
-    placeholder.innerHTML = easter_eggs[Math.floor(Math.random() * easter_eggs.length)];
-    console.log("恭喜你发现了彩蛋！");
-} else {
-    today = new Date();
-    if (today.getDay() === 4) {
-        placeholder.innerHTML = easter_eggs[easter_eggs.length - 1];
-        console.log("本来你没有彩蛋的，但是今天是疯狂星期四！");
+
+document.addEventListener("DOMContentLoaded", function () {
+    const placeholder = document.getElementById('easter_egg_placeholder');
+    if (random_number < 4) {
+        placeholder.innerHTML = easter_eggs[Math.floor(Math.random() * easter_eggs.length)];
+        console.log("恭喜你发现了彩蛋！");
+    } else {
+        today = new Date();
+        if (today.getDay() === 4) {
+            placeholder.innerHTML = easter_eggs[easter_eggs.length - 1];
+            console.log("本来你没有彩蛋的，但是今天是疯狂星期四！");
+        }
     }
-}
+});

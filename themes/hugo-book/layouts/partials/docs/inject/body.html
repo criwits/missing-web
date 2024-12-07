@@ -1,2 +1,20 @@
 <img id="scroll_to_top" src="/missing/svg/page_top.svg" draggable="false" class="scroll-buttons"  style="bottom: 64px;" alt="回到顶部" />
 <img id="scroll_to_bottom" src="/missing/svg/page_bottom.svg" draggable="false" class="scroll-buttons" style="bottom: 32px;" alt="前往底部" />
+
+{{ $easterEggsJS := resources.Get "easter-eggs.js" | resources.Minify | resources.Fingerprint }}
+<script async src="{{ $easterEggsJS.RelPermalink }}" integrity="{{ $easterEggsJS.Data.Integrity }}"></script>
+{{ $scrollJS := resources.Get "scroll.js" | resources.Minify | resources.Fingerprint }}
+<script async src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
+{{ $headerCtrlJS := resources.Get "header-controller.js" | resources.Minify | resources.Fingerprint }}
+<script async src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
+{{ $pageElmtCtrlJS := resources.Get "page-element-controller.js" | resources.Minify | resources.Fingerprint }}
+<script async src="{{ $pageElmtCtrlJS.RelPermalink }}" integrity="{{ $pageElmtCtrlJS.Data.Integrity }}"></script>
+
+<script async src="https://cn.vercount.one/js"></script>
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/pjax/0.2.8/pjax.min.js"></script>
+<script>
+    const pjax = new Pjax({
+        selectors: ["title", "meta", ".book-menu-content", ".book-toc-content"]
+    });
+    console.log('Pjax is ready!');
+</script> -->

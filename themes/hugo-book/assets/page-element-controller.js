@@ -209,10 +209,8 @@ function ctrlImages(images) {
 }
 
 /* 加载器 */
-
-let resizeTimer;
-
 window.onload = function() {
+    let resizeTimer;
     const images = document.querySelectorAll('img');
     ctrlImages(images);
     renderPunct();

@@ -1,8 +1,8 @@
 {{- if not (.Page.Scratch.Get "katex") -}}
-<!-- Include katext only first time -->
-<link rel="stylesheet" href="{{ "katex/katex.min.css" | relURL }}" />
-<script defer src="{{ "katex/katex.min.js" | relURL }}"></script>
-<script defer src="{{ "katex/auto-render.min.js" | relURL }}" onload="renderMathInElement(document.body);"></script>
+<!-- Include katex only first time -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/katex.min.css" />
+<script defer src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 {{- .Page.Scratch.Set "katex" true -}}
 {{- end -}}
 

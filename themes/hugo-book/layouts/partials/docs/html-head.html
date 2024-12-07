@@ -30,13 +30,6 @@
 <script defer src="{{ $swJS.RelPermalink }}" integrity="{{ $swJS.Data.Integrity }}"></script>
 {{ end -}}
 
-{{ $scrollJS := resources.Get "scroll.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
-{{ $headerCtrlJS := resources.Get "header-controller.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
-{{ $pageElmtCtrlJS := resources.Get "page-element-controller.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $pageElmtCtrlJS.RelPermalink }}" integrity="{{ $pageElmtCtrlJS.Data.Integrity }}"></script>
-
 {{- template "_internal/google_analytics.html" . -}}
 
 <!-- RSS -->
