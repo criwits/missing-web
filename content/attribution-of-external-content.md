@@ -47,3 +47,9 @@ type: docs
    © 2024 Micro-Star Int'l Co.Ltd. MSI is a registered trademark of Micro-Star Int'l Co.Ltd. All rights reserved.<br>
    © 2024 NVIDIA, the NVIDIA logo, GeForce, SHIELD, and NVIDIA G-SYNC are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries.<br>
    © Game Science Interactive Technology Co., Ltd. All Rights Reserved.
+
+## 电子邮件与即时通信
+
+1. QQ 2010 主界面示意图
+   Downloaded from [情感的容器　被寄托了的QQ2010视觉设计](http://cdc.tencent.com/?p=2200) ([archive](https://web.archive.org/web/20140816090252/http://cdc.tencent.com/?p=2200)).<br>
+   © 猕猴桃 and Tencent CDC.
