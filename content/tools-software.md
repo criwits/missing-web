@@ -147,14 +147,14 @@ ExplorerPatcher 是一款 **第三方** 的 Windows 界面优化工具，它不�
 
 ![EP](tools-software/EP_open.png#center)
 
-在 ExplorerPatcher 界面的左方，列出了「任务栏」「托盘菜单」「文件管理器」等模块。点击每个模块，都可以看到各种各样的高级选项，而这些选项很多是无法通过系统设置进行直接修改的，比如「更改文件传输对话框的样式」「修改部分系统快捷键的功能」「禁用 Windows 11 窗口圆角」。对于 Windows 11，ExplorerPatcher 甚至提供了一系列「回退到 Windows 10」的功能，比如：使用 Windows 10 风格的任务栏、开始菜单和资源管理器。下图展示了在 Windows 11 上，借助 ExplorerPatcher「cosplay」成 Windows 10 的效果。
+ExplorerPatcher 界面的左方，列出了「任务栏」「托盘菜单」「文件管理器」等模块。点击每个模块，都可以看到各种各样的高级选项，而这些选项很多是无法通过系统设置直接修改的，比如「更改文件传输对话框的样式」「修改部分系统快捷键的功能」「禁用 Windows 11 窗口圆角」。对于 Windows 11，ExplorerPatcher 甚至提供了一系列「回退到 Windows 10」的功能，比如：使用 Windows 10 风格的任务栏、开始菜单和资源管理器。下图展示了在 Windows 11 上，借助 ExplorerPatcher「cosplay」成 Windows 10 的效果。
 
 ![EP_cosplay](tools-software/EP_cosplay.png#center)
 
 > 有一些「回退到旧版」的功能不需要 ExplorerPatcher 也能实现，请参见 [Windows 11 优化指南]({{<relref "windows-11-optimization.md">}})。
 >
 
-需要注意的是，正如其「ExplorerPatcher」（意为「资源管理器补丁」）之名，ExplorerPatcher 是通过对系统部件「打补丁」的方式实现功能的，而这些补丁有可能随着 Windows 更新而失效，或者对系统的稳定性造成一定影响。如果需要卸载 ExplorerPatcher，既可以在系统设置中以普通 app 的方式卸载，可以在它的主界面左侧选择【设置与卸载】，然后选择【卸载 ExplorerPatcher】。
+需要注意的是，正如其「ExplorerPatcher」（意为「资源管理器补丁」）之名，ExplorerPatcher 是通过对系统部件「打补丁」的方式实现功能的，而这些补丁有可能随着 Windows 更新而失效，或者对系统的稳定性造成一定影响。如果需要卸载 ExplorerPatcher，既可以在系统设置中以普通 app 的方式卸载，也可以在它的主界面左侧选择【设置与卸载】，然后选择【卸载 ExplorerPatcher】。
 
 ## 练习
 

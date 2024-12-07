@@ -20,7 +20,9 @@ type: docs
 1. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 2. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 3. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-4. [CC BY 2.0 Generic](https://creativecommons.org/licenses/by/2.0/)
+4. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+5. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+6. [CC BY 2.0 Generic](https://creativecommons.org/licenses/by/2.0/)
 
 ## 认识你的电脑
 
@@ -53,3 +55,18 @@ type: docs
 1. QQ 2010 主界面示意图
    Downloaded from [情感的容器　被寄托了的QQ2010视觉设计](http://cdc.tencent.com/?p=2200) ([archive](https://web.archive.org/web/20140816090252/http://cdc.tencent.com/?p=2200)).<br>
    © 猕猴桃 and Tencent CDC.
+
+## 「程序」是怎样炼成的
+
+1. 8086 处理器<br>
+   [*KL Intel D8086*](https://upload.wikimedia.org/wikipedia/commons/e/e1/KL_Intel_D8086.jpg) by Konstantin Lanzet. Edited.<br>
+   Licensed under CC BY-SA 3.0.
+2. ARM 徽标<br>
+   [*Arm logo 2017*](https://upload.wikimedia.org/wikipedia/commons/7/77/Arm_logo_2017.svg) by ARM Holdings. Transformed from SVG to PNG.<br>
+   Under public domain.
+3. ARM 610 核心照片<br>
+   [*GPS ARM610 die*](https://upload.wikimedia.org/wikipedia/commons/9/9a/GPS_ARM610_die.JPG) by Pauli Rautakorpi. Edited to proper aspect ratio.<br>
+   Licensed under CC BY 3.0.
+4. 龙芯 3A6000 照片<br>
+   [Screenshot from a video by 极客湾Geekerwan about the "Loongson 3A6000" microprocessor.](https://upload.wikimedia.org/wikipedia/commons/a/a9/Video_%C3%BCber_den_Loongson_3A6000_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_44.png) Cropped to proper size.<br>
+   Licensed under CC BY 3.0.
