@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="163.36971mm"
+   height="75.277977mm"
+   viewBox="0 0 163.36971 75.277977"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Branch_and_loop.svg"
+   inkscape:export-filename="Branch_and_loop.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5017488"
+     inkscape:cx="281.33867"
+     inkscape:cy="36.623969"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="146"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:export-bgcolor="#ffffffff">
+    <sodipodi:guide
+       position="117.86675,12.204289"
+       orientation="0,-1"
+       id="guide14"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.15236695,-0.85710089)">
+    <rect
+       style="fill:#fffce6;stroke:#000000;stroke-width:0.6181;stroke-linecap:round;stroke-dasharray:none"
+       id="rect1"
+       width="21.012156"
+       height="21.012156"
+       x="45.033764"
+       y="-1.1081096"
+       transform="matrix(0.93706328,0.34915958,-0.93706328,0.34915958,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="44.211792"
+       y="24.152027"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="44.211792"
+         y="24.152027">满足某个条件？</tspan></text>
+    <rect
+       style="fill:#c7e4ff;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2"
+       width="25.305309"
+       height="10.231067"
+       x="5.7653522"
+       y="38.082767" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="18.48591"
+       y="44.670849"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="18.48591"
+         y="44.670849">做些什么</tspan></text>
+    <rect
+       style="fill:#c7e4ff;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="25.305309"
+       height="10.231067"
+       x="55.6507"
+       y="38.082767" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="68.371262"
+       y="44.670849"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="68.371262"
+         y="44.670849">做些别的事</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="M 23.641854,22.637873 H 18.400395 V 37.569424"
+       id="path3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="m 62.825102,22.637873 h 5.241459 v 14.931551"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.48006px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:0.87876;stroke-linecap:round;stroke-dasharray:none"
+       x="20.963589"
+       y="21.653252"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87876"
+         x="20.963589"
+         y="21.653252">是</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.48006px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:0.87876;stroke-linecap:round;stroke-dasharray:none"
+       x="65.726433"
+       y="21.653252"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87876"
+         x="65.726433"
+         y="21.653252">否</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.313339,48.524119 v 5.855285 h 50.019084 v -5.979867"
+       id="path5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="M 43.237854,5.8241403 V 14.793938"
+       id="path6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="m 43.237854,54.566275 v 8.969798"
+       id="path7" />
+    <rect
+       style="fill:#fffce6;stroke:#000000;stroke-width:0.6181;stroke-linecap:round;stroke-dasharray:none"
+       id="rect7"
+       width="21.012156"
+       height="21.012156"
+       x="88.860931"
+       y="-44.935276"
+       transform="matrix(0.93706328,0.34915958,-0.93706328,0.34915958,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="126.34945"
+       y="24.152027"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="126.34945"
+         y="24.152027">满足某个条件？</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="M 125.37551,5.8241403 V 14.793938"
+       id="path8" />
+    <rect
+       style="fill:#c7e4ff;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8"
+       width="25.305309"
+       height="10.231067"
+       x="112.72285"
+       y="38.082767" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="125.44342"
+       y="44.670849"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="125.44342"
+         y="44.670849">做些什么</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="m 125.37551,29.992764 v 7.568267"
+       id="path9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="M 112.5976,43.229445 H 96.900449 V 22.611367 h 8.314121"
+       id="path10" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+       d="m 144.97296,22.673657 6.06033,0.440459 V 53.339549 H 125.3986 l 0,10.086504"
+       id="path11"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.48006px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:0.87876;stroke-linecap:round;stroke-dasharray:none"
+       x="123.2833"
+       y="32.865501"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87876"
+         x="123.2833"
+         y="32.865501">是</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.48006px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:0.87876;stroke-linecap:round;stroke-dasharray:none"
+       x="147.61493"
+       y="21.653252"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87876"
+         x="147.61493"
+         y="21.653252">否</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="43.282478"
+       y="69.836121"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="43.282478"
+         y="69.836121">分支结构</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.88023px;line-height:1.3;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#fffce6;stroke:#000000;stroke-width:1.37488;stroke-linecap:round;stroke-dasharray:none"
+       x="125.41044"
+       y="69.836121"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.37488"
+         x="125.41044"
+         y="69.836121">循环结构</tspan></text>
+  </g>
+</svg>
