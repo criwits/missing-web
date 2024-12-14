@@ -128,6 +128,9 @@ PowerToys 是由微软主导，集合社区之力共同开发的一套小工具�
   ![Powertoys Run](tools-software/Powertoys_Run.png)
 
 - 文本提取器：快速屏幕 OCR 识别。
+- PowerRename：文件批量重命名。
+
+  ![PowerRename](tools-software/PowerRename.png)
 
 ### ExplorerPatcher
 
@@ -151,7 +154,7 @@ ExplorerPatcher 界面的左方，列出了「任务栏」「托盘菜单」「�
 
 ![EP_cosplay](tools-software/EP_cosplay.png#center)
 
-> 有一些「回退到旧版」的功能不需要 ExplorerPatcher 也能实现，请参见 [Windows 11 优化指南]({{<relref "windows-11-optimization.md">}})。
+> 有一些「回退到旧版」的功能不需要 ExplorerPatcher 也能实现，详情请参见 [Windows 11 优化指南]({{<relref "windows-11-optimization.md">}})。
 >
 
 需要注意的是，正如其「ExplorerPatcher」（意为「资源管理器补丁」）之名，ExplorerPatcher 是通过对系统部件「打补丁」的方式实现功能的，而这些补丁有可能随着 Windows 更新而失效，或者对系统的稳定性造成一定影响。如果需要卸载 ExplorerPatcher，既可以在系统设置中以普通 app 的方式卸载，也可以在它的主界面左侧选择【设置与卸载】，然后选择【卸载 ExplorerPatcher】。
