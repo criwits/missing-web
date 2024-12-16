@@ -1,6 +1,6 @@
 # 《你缺失的那门计算机课》网页版
 
-这是[《你缺失的那门计算机课》网页版](https://www.criwits.top/missing)的源码仓库。本仓库使用 [Hugo](https://gohugo.io/) 生成静态网页，使用修改过的 [Book](https://themes.gohugo.io/themes/hugo-book/) 主题。
+这是 [《你缺失的那门计算机课》网页版](https://www.criwits.top/missing) 的源码仓库。本仓库使用 [Hugo](https://gohugo.io/) 生成静态网页，使用修改过的 [Book](https://themes.gohugo.io/themes/hugo-book/) 主题。
 
 ## 作品简介
 
