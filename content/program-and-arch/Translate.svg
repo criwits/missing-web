@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="162.20386mm"
+   height="42.606544mm"
+   viewBox="0 0 162.20386 42.606544"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Translate.svg"
+   inkscape:export-filename="Translate.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5017488"
+     inkscape:cx="291.99291"
+     inkscape:cy="94.556428"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="146"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.24916106,-0.24916106)">
+    <rect
+       style="fill:#cce5ff;fill-opacity:1;stroke:none;stroke-width:0.249062;stroke-linecap:round"
+       id="rect9"
+       width="37.029617"
+       height="32.668671"
+       x="78.79171"
+       y="5.3360496"
+       rx="1.5913826"
+       ry="1.5913826" />
+    <rect
+       style="fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.300118;stroke-linecap:round"
+       id="rect1"
+       width="53.767048"
+       height="32.668671"
+       x="7.9418683"
+       y="5.3360496"
+       rx="1.8405441"
+       ry="1.8405441" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.78086px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.788277;stroke-linecap:round"
+       x="34.84903"
+       y="9.2398758"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.788277"
+         x="34.84903"
+         y="9.2398758">用于 x86-64 的程序</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.154717;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="34.822849"
+       y="15.55571"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.154717;stroke-width:0.963277"
+         x="34.822849"
+         y="15.55571">002D: c7 45 fc 0c 00 00 00</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.498113;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="34.822849"
+       y="20.289772"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.498113;stroke-width:0.963277"
+         x="34.822849"
+         y="20.289772">0034: c7 45 f8 22 00 00 00</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="24.628187"
+       y="25.023834"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:0.963277"
+         x="24.628187"
+         y="25.023834">003B: 8b 55 fc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.422642;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="24.628187"
+       y="29.757893"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.422642;stroke-width:0.963277"
+         x="24.628187"
+         y="29.757893">003E: 8b 45 f8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.14717;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="22.079523"
+       y="34.491955"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.14717;stroke-width:0.963277"
+         x="22.079523"
+         y="34.491955">0041: 01 d0</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.14717;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1;marker-end:url(#marker8)"
+       d="M 62.995522,21.670385 H 77.178294"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.78086px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.788277;stroke-linecap:round"
+       x="70.161644"
+       y="20.54417"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.788277"
+         x="70.161644"
+         y="20.54417">转译</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.78086px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.788277;stroke-linecap:round"
+       x="97.298172"
+       y="9.2398758"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.788277"
+         x="97.298172"
+         y="9.2398758">相同功能的 ARM 指令</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.154717;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="97.316719"
+       y="15.55571"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.154717;stroke-width:0.963277"
+         x="97.316719"
+         y="15.55571">e3 a0 30 0c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.498113;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="97.306519"
+       y="20.102901"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.498113;stroke-width:0.963277"
+         x="97.306519"
+         y="20.102901">e5 0b 30 08</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.630189;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="97.313316"
+       y="24.650093"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.630189;stroke-width:0.963277"
+         x="97.313316"
+         y="24.650093">e3 a0 30 22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0.743396;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="97.316719"
+       y="29.197281"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:0.743396;stroke-width:0.963277"
+         x="97.316719"
+         y="29.197281">e5 0b 30 0c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39822px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.963277;stroke-linecap:round"
+       x="97.306519"
+       y="33.744473"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:0.963277"
+         x="97.306519"
+         y="33.744473">e5 1b 20 08</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:0.14717;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1;marker-end:url(#marker8)"
+       d="m 117.17195,21.670385 h 14.18277"
+       id="path15" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.78086px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.788277;stroke-linecap:round"
+       x="124.33806"
+       y="20.54417"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.788277"
+         x="124.33806"
+         y="20.54417">运行</tspan></text>
+    <g
+       id="g21"
+       transform="translate(-6.6027684,-12.682698)">
+      <rect
+         style="fill:#000000;fill-opacity:0.743396;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+         id="rect15"
+         width="19.683723"
+         height="19.746016"
+         x="139.5925"
+         y="24.480076"
+         rx="0.78160948"
+         ry="0.78160948" />
+      <circle
+         style="fill:#d6d6d6;fill-opacity:0.743396;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-opacity:1"
+         id="path16"
+         cx="141.52348"
+         cy="26.239777"
+         r="0.467177" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.07427px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.587985;stroke-linecap:round"
+         x="141.37479"
+         y="36.07235"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;text-anchor:start;fill:#d0d0d0;fill-opacity:1;stroke-width:0.587985"
+           x="141.37479"
+           y="36.07235">Missing SoC</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;text-anchor:start;fill:#d0d0d0;fill-opacity:1;stroke-width:0.587985"
+           x="141.37479"
+           y="38.372704"
+           id="tspan18">03A9P 2035CHN</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;text-anchor:start;fill:#d0d0d0;fill-opacity:1;stroke-width:0.587985"
+           x="141.37479"
+           y="40.673061"
+           id="tspan20">ARM</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.78086px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d7d7d7;fill-opacity:1;stroke:none;stroke-width:0.788277;stroke-linecap:round"
+       x="142.91782"
+       y="10.061253"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.788277"
+         x="142.91782"
+         y="10.061253">ARM CPU</tspan></text>
+  </g>
+</svg>
