@@ -56,6 +56,12 @@ type: docs
    Downloaded from [情感的容器　被寄托了的QQ2010视觉设计](http://cdc.tencent.com/?p=2200) ([archive](https://web.archive.org/web/20140816090252/http://cdc.tencent.com/?p=2200)).<br>
    © 猕猴桃 and Tencent CDC.
 
+## 从加减乘除到 AI 对话
+
+1. NVIDIA V100 计算卡<br>
+   [Original picture](https://www.nvidia.com/content/dam/en-zz/es_em/Solutions/Data-Center/tesla-v100/data-center-tesla-v100-pcie-625-ud@2x.jpg) downloaded from [NVIDIA V100 | NVIDIA](https://www.nvidia.com/pt-br/data-center/v100/).<br>
+   © 2024 NVIDIA, the NVIDIA logo, GeForce, SHIELD, and NVIDIA G-SYNC are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries.<br>
+
 ## 「程序」是怎样炼成的
 
 1. 8086 处理器<br>
