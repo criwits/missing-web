@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="157.2944mm"
+   height="99.406059mm"
+   viewBox="0 0 157.2944 99.406059"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="VMs.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="0.96896321"
+     inkscape:cx="273.4882"
+     inkscape:cy="339.53817"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.568795,-15.557873)">
+    <rect
+       style="fill:#e2d8e6;fill-opacity:1;stroke:none;stroke-width:1.64238;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect1"
+       width="42.85215"
+       height="88.365013"
+       x="32.484756"
+       y="21.293234"
+       rx="3.0809817"
+       ry="3.0809817" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="55.193531"
+       y="26.879898"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:3"
+         x="55.193531"
+         y="26.879898">一台「物理机」</tspan></text>
+    <rect
+       style="fill:#d99da4;fill-opacity:1;stroke:#bf7996;stroke-width:0.650076;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect2"
+       width="37.299885"
+       height="14.360642"
+       x="35.260887"
+       y="29.729559"
+       rx="1.5029353"
+       ry="1.3568054" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="53.891781"
+       y="38.524895"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+         x="53.891781"
+         y="38.524895">20 核 CPU</tspan></text>
+    <rect
+       style="fill:#d6f4d0;fill-opacity:1;stroke:#c2debb;stroke-width:0.590821;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect3"
+       width="37.159264"
+       height="20.429956"
+       x="35.3312"
+       y="46.88916"
+       rx="1.4339588"
+       ry="1.4339588" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="53.680115"
+       y="58.708569"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+         x="53.680115"
+         y="58.708569">128 GB 内存</tspan></text>
+    <rect
+       style="fill:#d0edf4;fill-opacity:1;stroke:#bbd5de;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect4"
+       width="36.957996"
+       height="36.919876"
+       x="35.431831"
+       y="70.086784"
+       rx="1.4735433"
+       ry="1.4735433" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="53.881195"
+       y="90.172318"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+         x="53.881195"
+         y="90.172318">4 TB 硬盘</tspan></text>
+    <g
+       id="g25"
+       transform="translate(0,-0.31691034)">
+      <g
+         id="g7"
+         transform="translate(-1.5667307,-11.954444)">
+        <g
+           id="g5"
+           transform="translate(1.4230457,10.672843)">
+          <rect
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect5"
+             width="11.463735"
+             height="7.0849776"
+             x="79.255684"
+             y="29.660839"
+             rx="0"
+             ry="0" />
+          <path
+             sodipodi:type="star"
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path5"
+             inkscape:flatsided="true"
+             sodipodi:sides="3"
+             sodipodi:cx="84.032532"
+             sodipodi:cy="28.779202"
+             sodipodi:r1="8.2097988"
+             sodipodi:r2="4.1048994"
+             sodipodi:arg1="2.0943951"
+             sodipodi:arg2="3.1415927"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
+             inkscape:transform-center-x="-1.2612675"
+             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="87.50399"
+           y="45.440388"
+           id="text7"><tspan
+             sodipodi:role="line"
+             id="tspan7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
+             x="87.50399"
+             y="45.440388">分配</tspan></text>
+      </g>
+      <rect
+         style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect7"
+         width="77.059105"
+         height="17.731573"
+         x="97.634644"
+         y="23.055939"
+         rx="3.2294581"
+         ry="3.2294581" />
+      <g
+         id="g17"
+         transform="translate(0,-11.759469)">
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:3.00246px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:2.12773;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.50756"
+           y="41.383263"
+           id="text8"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:2.12773"
+             x="104.50756"
+             y="41.383263"
+             id="tspan9">虚拟机</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:7.84459px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:5.55916;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.51767"
+           y="48.501194"
+           id="text10"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';fill:#000000;fill-opacity:1;stroke-width:5.55916"
+             x="104.51767"
+             y="48.501194"
+             id="tspan10">1</tspan></text>
+      </g>
+      <rect
+         style="fill:#d99da4;fill-opacity:1;stroke:#bf7996;stroke-width:0.583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect17"
+         width="14.942865"
+         height="12.472627"
+         x="110.84245"
+         y="25.685413"
+         rx="1.1784248"
+         ry="1.1784248" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="118.18688"
+         y="33.536743"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="118.18688"
+           y="33.536743">2 核</tspan></text>
+      <rect
+         style="fill:#d6f4d0;fill-opacity:1;stroke:#c2debb;stroke-width:0.6067;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect18"
+         width="16.213295"
+         height="12.448926"
+         x="127.91329"
+         y="25.697262"
+         rx="1.4758643"
+         ry="1.4758643" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="135.9756"
+         y="33.460541"
+         id="text18"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="135.9756"
+           y="33.460541">8 GB</tspan></text>
+      <rect
+         style="fill:#d0edf4;fill-opacity:1;stroke:#bbd5de;stroke-width:0.559;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect19"
+         width="25.723635"
+         height="12.296135"
+         x="146.18423"
+         y="25.773659"
+         rx="1.2117493"
+         ry="1.2117493" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="158.9635"
+         y="33.460541"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="158.9635"
+           y="33.460541">50 GB</tspan></text>
+    </g>
+    <g
+       id="g31"
+       transform="translate(0,22.263707)">
+      <g
+         id="g27"
+         transform="translate(-1.5667307,-11.954444)">
+        <g
+           id="g26"
+           transform="translate(1.4230457,10.672843)">
+          <rect
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect25"
+             width="11.463735"
+             height="7.0849776"
+             x="79.255684"
+             y="29.660839"
+             rx="0"
+             ry="0" />
+          <path
+             sodipodi:type="star"
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path25"
+             inkscape:flatsided="true"
+             sodipodi:sides="3"
+             sodipodi:cx="84.032532"
+             sodipodi:cy="28.779202"
+             sodipodi:r1="8.2097988"
+             sodipodi:r2="4.1048994"
+             sodipodi:arg1="2.0943951"
+             sodipodi:arg2="3.1415927"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
+             inkscape:transform-center-x="-1.2612675"
+             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="87.50399"
+           y="45.440388"
+           id="text26"><tspan
+             sodipodi:role="line"
+             id="tspan26"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
+             x="87.50399"
+             y="45.440388">分配</tspan></text>
+      </g>
+      <rect
+         style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect27"
+         width="77.059105"
+         height="17.731573"
+         x="97.634644"
+         y="23.055939"
+         rx="3.2294581"
+         ry="3.2294581" />
+      <g
+         id="g28"
+         transform="translate(0,-11.759469)">
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:3.00246px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:2.12773;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.50756"
+           y="41.383263"
+           id="text27"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:2.12773"
+             x="104.50756"
+             y="41.383263"
+             id="tspan27">虚拟机</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:7.84459px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:5.55916;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.51767"
+           y="48.501194"
+           id="text28"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';fill:#000000;fill-opacity:1;stroke-width:5.55916"
+             x="104.51767"
+             y="48.501194"
+             id="tspan28">2</tspan></text>
+      </g>
+      <rect
+         style="fill:#d99da4;fill-opacity:1;stroke:#bf7996;stroke-width:0.583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect28"
+         width="14.942865"
+         height="12.472627"
+         x="110.84245"
+         y="25.685413"
+         rx="1.1784248"
+         ry="1.1784248" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="118.18688"
+         y="33.536743"
+         id="text29"><tspan
+           sodipodi:role="line"
+           id="tspan29"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="118.18688"
+           y="33.536743">4 核</tspan></text>
+      <rect
+         style="fill:#d6f4d0;fill-opacity:1;stroke:#c2debb;stroke-width:0.6067;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect29"
+         width="16.213295"
+         height="12.448926"
+         x="127.91329"
+         y="25.697262"
+         rx="1.4758643"
+         ry="1.4758643" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="135.9756"
+         y="33.460541"
+         id="text30"><tspan
+           sodipodi:role="line"
+           id="tspan30"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="135.9756"
+           y="33.460541">16 GB</tspan></text>
+      <rect
+         style="fill:#d0edf4;fill-opacity:1;stroke:#bbd5de;stroke-width:0.559;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect30"
+         width="25.723635"
+         height="12.296135"
+         x="146.18423"
+         y="25.773659"
+         rx="1.2117493"
+         ry="1.2117493" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="158.9635"
+         y="33.460541"
+         id="text31"><tspan
+           sodipodi:role="line"
+           id="tspan31"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="158.9635"
+           y="33.460541">200 GB</tspan></text>
+    </g>
+    <g
+       id="g37"
+       transform="translate(0,44.844324)">
+      <g
+         id="g33"
+         transform="translate(-1.5667307,-11.954444)">
+        <g
+           id="g32"
+           transform="translate(1.4230457,10.672843)">
+          <rect
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect31"
+             width="11.463735"
+             height="7.0849776"
+             x="79.255684"
+             y="29.660839"
+             rx="0"
+             ry="0" />
+          <path
+             sodipodi:type="star"
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path31"
+             inkscape:flatsided="true"
+             sodipodi:sides="3"
+             sodipodi:cx="84.032532"
+             sodipodi:cy="28.779202"
+             sodipodi:r1="8.2097988"
+             sodipodi:r2="4.1048994"
+             sodipodi:arg1="2.0943951"
+             sodipodi:arg2="3.1415927"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
+             inkscape:transform-center-x="-1.2612675"
+             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="87.50399"
+           y="45.440388"
+           id="text32"><tspan
+             sodipodi:role="line"
+             id="tspan32"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
+             x="87.50399"
+             y="45.440388">分配</tspan></text>
+      </g>
+      <rect
+         style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect33"
+         width="77.059105"
+         height="17.731573"
+         x="97.634644"
+         y="23.055939"
+         rx="3.2294581"
+         ry="3.2294581" />
+      <g
+         id="g34"
+         transform="translate(0,-11.759469)">
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:3.00246px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:2.12773;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.50756"
+           y="41.383263"
+           id="text33"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:2.12773"
+             x="104.50756"
+             y="41.383263"
+             id="tspan33">虚拟机</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:7.84459px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:5.55916;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.51767"
+           y="48.501194"
+           id="text34"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';fill:#000000;fill-opacity:1;stroke-width:5.55916"
+             x="104.51767"
+             y="48.501194"
+             id="tspan34">3</tspan></text>
+      </g>
+      <rect
+         style="fill:#d99da4;fill-opacity:1;stroke:#bf7996;stroke-width:0.583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect34"
+         width="14.942865"
+         height="12.472627"
+         x="110.84245"
+         y="25.685413"
+         rx="1.1784248"
+         ry="1.1784248" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="118.18688"
+         y="33.536743"
+         id="text35"><tspan
+           sodipodi:role="line"
+           id="tspan35"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="118.18688"
+           y="33.536743">8 核</tspan></text>
+      <rect
+         style="fill:#d6f4d0;fill-opacity:1;stroke:#c2debb;stroke-width:0.6067;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect35"
+         width="16.213295"
+         height="12.448926"
+         x="127.91329"
+         y="25.697262"
+         rx="1.4758643"
+         ry="1.4758643" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="135.9756"
+         y="33.460541"
+         id="text36"><tspan
+           sodipodi:role="line"
+           id="tspan36"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="135.9756"
+           y="33.460541">32 GB</tspan></text>
+      <rect
+         style="fill:#d0edf4;fill-opacity:1;stroke:#bbd5de;stroke-width:0.559;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect36"
+         width="25.723635"
+         height="12.296135"
+         x="146.18423"
+         y="25.773659"
+         rx="1.2117493"
+         ry="1.2117493" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="158.9635"
+         y="33.460541"
+         id="text37"><tspan
+           sodipodi:role="line"
+           id="tspan37"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="158.9635"
+           y="33.460541">500 GB</tspan></text>
+    </g>
+    <g
+       id="g43"
+       transform="translate(0,67.424941)">
+      <g
+         id="g39"
+         transform="translate(-1.5667307,-11.954444)">
+        <g
+           id="g38"
+           transform="translate(1.4230457,10.672843)">
+          <rect
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="rect37"
+             width="11.463735"
+             height="7.0849776"
+             x="79.255684"
+             y="29.660839"
+             rx="0"
+             ry="0" />
+          <path
+             sodipodi:type="star"
+             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+             id="path37"
+             inkscape:flatsided="true"
+             sodipodi:sides="3"
+             sodipodi:cx="84.032532"
+             sodipodi:cy="28.779202"
+             sodipodi:r1="8.2097988"
+             sodipodi:r2="4.1048994"
+             sodipodi:arg1="2.0943951"
+             sodipodi:arg2="3.1415927"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
+             inkscape:transform-center-x="-1.2612675"
+             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="87.50399"
+           y="45.440388"
+           id="text38"><tspan
+             sodipodi:role="line"
+             id="tspan38"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
+             x="87.50399"
+             y="45.440388">分配</tspan></text>
+      </g>
+      <rect
+         style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect39"
+         width="77.059105"
+         height="17.731573"
+         x="97.634644"
+         y="23.055939"
+         rx="3.2294581"
+         ry="3.2294581" />
+      <g
+         id="g40"
+         transform="translate(0,-11.759469)">
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:3.00246px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:2.12773;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.50756"
+           y="41.383263"
+           id="text39"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#000000;fill-opacity:1;stroke-width:2.12773"
+             x="104.50756"
+             y="41.383263"
+             id="tspan39">虚拟机</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:7.84459px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:5.55916;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+           x="104.51767"
+           y="48.501194"
+           id="text40"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';fill:#000000;fill-opacity:1;stroke-width:5.55916"
+             x="104.51767"
+             y="48.501194"
+             id="tspan40">4</tspan></text>
+      </g>
+      <rect
+         style="fill:#d99da4;fill-opacity:1;stroke:#bf7996;stroke-width:0.583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect40"
+         width="14.942865"
+         height="12.472627"
+         x="110.84245"
+         y="25.685413"
+         rx="1.1784248"
+         ry="1.1784248" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="118.18688"
+         y="33.536743"
+         id="text41"><tspan
+           sodipodi:role="line"
+           id="tspan41"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="118.18688"
+           y="33.536743">6 核</tspan></text>
+      <rect
+         style="fill:#d6f4d0;fill-opacity:1;stroke:#c2debb;stroke-width:0.6067;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect41"
+         width="16.213295"
+         height="12.448926"
+         x="127.91329"
+         y="25.697262"
+         rx="1.4758643"
+         ry="1.4758643" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="135.9756"
+         y="33.460541"
+         id="text42"><tspan
+           sodipodi:role="line"
+           id="tspan42"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="135.9756"
+           y="33.460541">16 GB</tspan></text>
+      <rect
+         style="fill:#d0edf4;fill-opacity:1;stroke:#bbd5de;stroke-width:0.559;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect42"
+         width="25.723635"
+         height="12.296135"
+         x="146.18423"
+         y="25.773659"
+         rx="1.2117493"
+         ry="1.2117493" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="158.9635"
+         y="33.460541"
+         id="text43"><tspan
+           sodipodi:role="line"
+           id="tspan43"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:3"
+           x="158.9635"
+           y="33.460541">150 GB</tspan></text>
+    </g>
+  </g>
+</svg>
