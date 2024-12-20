@@ -61,13 +61,15 @@ VLC Media Player 是一款开源的本地视频播放器，它界面简洁、功
 
 这一节介绍「网络类」实用工具，例如下载器。
 
-### Motrix
+### Motrix & ImFile
 
-官网下载地址：[https://motrix.app/zh-CN/](https://motrix.app/zh-CN/)
+Motrix 下载地址：[https://motrix.app/zh-CN/](https://motrix.app/zh-CN/)
 
-Motrix，如它在网页上宣传的那样，是「一款全能的下载工具」，它基本上支持所有常见的资源协议的下载，包括 HTTP、FTP，以及群众喜闻乐见的磁力链接等。它界面精巧、代码开源、使用方便，是一款不可多得的优良下载工具。
+ImFile 官网下载地址：[https://imfile.io/](https://imfile.io/)
 
-![Motrix.jpg](tools-software/Motrix.jpg)
+Motrix，如它在网页上宣传的那样，是「一款全能的下载工具」，它基本上支持所有常见的资源协议的下载，包括 HTTP、FTP，以及群众喜闻乐见的磁力链接等。它界面精巧、代码开源、使用方便，是一款不可多得的优良下载工具。不过，在 2024 年底，该软件已经一年余未更新，因此可能存在一些未修复的问题。ImFile 则是 Motrix 的一个「复刻版」，由另外的作者在 Motrix 的基础上改进、维护，和 Motrix 保持了类似的操作体验，并引入了新功能，修复了一些问题。
+
+![Motrix](tools-software/Motrix.jpg)
 
 ## 文件类
 

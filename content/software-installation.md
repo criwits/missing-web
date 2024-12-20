@@ -27,7 +27,7 @@ type: docs
 
 在上一章 [文件与文件管理]({{<relref "file-and-file-management.md">}}) 中我们看到，一款 app 除了主程序（一个 `exe` 文件）外，还包含一大堆不可或缺的依赖文件和子文件夹，如右下图所示：
 
-![软件文件](file-and-file-management/NCM_directory.png#floatright)
+![「网易云音乐」软件的组成](file-and-file-management/NCM_directory.png#floatright)
 
 安装包的作用之一，便是把上面这一大堆文件按照它们能够工作的结构「释放」到我们的电脑中的指定位置。而除了「释放 app 的文件」之外，安装包还会做一些其他事情，例如设置一些文件的打开方式（上一章中提到的那张「表」）、调整一些系统内部的参数等。可以说，软件安装的过程，不仅仅是将一大堆文件「释放」或者说「提取」到系统中的某一个位置的过程，它还会对系统进行或多或少的调教与更改。这就是「安装包」存在的意义——它帮助我们完成了这复杂的「安装」过程。
 
@@ -41,7 +41,7 @@ type: docs
 
 然而，**搜索引擎中存在大量广告，且为了吸引点击量而常常放在前面，所以搜索结果中靠前的结果并不一定是官网**。例如，我们想要下载「WPS」，直接在某搜索引擎上搜索「WPS 下载」，我们会得到这样的搜索结果：
 
-![ADs](software-installation/Ads_in_search_engine.png#center)
+![在搜索引擎中搜索「WPS 下载」的结果](software-installation/Ads_in_search_engine.png#center)
 
 如上图，我们搜索「WPS 下载」，结果中：
 
@@ -63,15 +63,32 @@ type: docs
 
 [^steam]: 如果你想快速去到 Steam 的官网，可以直接访问 [s.team](https://s.team)。
 
-进入软件的官方网站之后，我们搜索「全部产品」「软件下载」之类的选项，就可以找到我们所需要的软件的安装包。例如从 WPS 的官网上下载 WPS 软件：
+当我们下载的软件是不那么常见的国外软件时，这一问题会变得更加严重。我们在相同的平台上搜索「OBS 下载」（指 OBS Studio，一款开源的屏幕录制与直播软件），会得到这样的搜索结果：
 
-![Download_WPS.png](software-installation/Download_WPS.png)
+![在搜索引擎中搜索「OBS 下载」的结果](software-installation/Ads_in_search_engine_2.png#center)
 
-当我们下载的软件是不那么常见的国外软件时，这一问题会变得更加严重。我们在相同的平台上搜索「OBS 下载」（OBS Studio 是一款开源的屏幕录制与直播软件），会得到这样的搜索结果：
+作为一款国外软件，图中 ➊ 至 ➍ 的由国内公司提供的内容显然都不可能是官网。而对于 ➎，虽然它看起来好像是 OBS Studio 官方的，但请注意其域名以「.cn」结尾，这是我国的顶级域名。自然，一个国外的开源软件项目，正常来说亦不会使用我国的顶级域作为官网网址。事实上，➏ 所对应的 `obsproject.com` 网址，才是 OBS Studio 真正的官网。
 
-![ADs](software-installation/Ads_in_search_engine_2.png#center)
+进入软件的官方网站之后，我们搜索「全部产品」「软件下载」之类的选项，就可以找到我们所需要的软件的安装包。对于那些支持多种不同操作系统的软件，**我们需要选择包含「Windows」或「Win」字样，或扩展名为 `exe` 的选项**。如果软件还有「32 位」「64 位」，或者「32-bit」「64-bit」以及「x86」「x64」之分，我们还需要查看自己操作系统的类型。打开系统设置，选择【系统】→【系统信息】（Windows 10 则是【关于】），在【设备规格】下找到【系统类型】一栏，然后根据下表选择合适的下载项。
 
-作为一款国外软件，图中 ➊ 至 ➍ 的由国内公司提供的内容显然都不可能是官网。而对于 ➎，虽然它看起来好像是 OBS 官方的，但请注意其域名以「.cn」结尾，这是我国的顶级域名。自然，一个国外的开源软件项目，正常来说亦不会使用我国的顶级域作为官网网址。事实上，➏ 所对应的 `obsproject.com` 网址，才是 OBS 真正的官网。
+| 系统类型                           | 建议选择                                 | 备注                                                                                                               |
+| ---------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| 32 位操作系统, 基于 x86 的处理器   | 32 位、32-bit、x86、i386、win32          | 只能下载 32 位软件                                                                                                 |
+| 32 位操作系统, 基于 x64 的处理器   | 32 位、32-bit、x86、i386、win32          | 只能下载 32 位软件                                                                                                 |
+| 64 位操作系统, 基于 x64 的处理器   | 64 位、64-bit、x64、x86-64、amd64、win64 | 优先下载 64 位软件，但一般 32 位亦可使用                                                                           |
+| 64 位操作系统, 基于 ARM64 的处理器 | ARM、arm64、aarch64                      | 此类处理器比较特殊[^arch]，优先下载含有 ARM 等字样的软件，若无，则尝试使用 64 位软件，若无法使用则再尝试 32 位软件 |
+
+[^arch]: 有关这些的具体细节，请参见本书超越篇的 [「程序」是怎样炼成的]({{<relref "program-and-arch.md">}}) 一章。
+
+> 一些软件可能有「安装版」和「便携版」之分——前者像普通软件一样，需要安装使用，而后者不必安装，下载后可以直接运行（可能需要解压）。一般来说，安装版文件名含有「setup」字样，而便携版可能有「portable」字样。一般我们建议下载安装版。
+
+例如，在 WPS 官网下载 WPS 软件：
+
+![在 WPS 官网下载软件](software-installation/Download_WPS.png#center)
+
+或是在 OBS Studio 官网下载 OBS Studio 软件：
+
+![在 OBS Studio 官网下载软件](software-installation/OBS.png#center)
 
 ### 直面深渊：第三方软件站
 
@@ -86,52 +103,52 @@ type: docs
 
 假设我们要下载「OBS Studio」这款软件。我们在网上搜索「OBS 下载」，并主动避开那些广告，找到了这个名为「某某之家」的第三方软件站：
 
-![OBS Third Party Download](software-installation/OBS_third_party.png#center)
+![下载 OBS Studio 的第三方网站](software-installation/OBS_third_party.png#center)
 
 重点来了：进入这个网站后，**请避开所有【高速下载】【极速下载】【安全下载】【P2P 下载】这样的按钮**，并且不要点击任何广告。相反地，我们选择【普通下载】【本地下载】这样的按钮：
 
-![Download Page 1](software-installation/Download_page_1.png#center)
+![只能选择【本地下载】【普通下载】等选项](software-installation/Download_page_1.png#center)
 
 点击之后我们会跳转到这样一个「下载地址」的页面。同样地，我们不要点击「优先使用 xxx 管家下载」之下的所有链接，而要点击「普通下载地址」下方的【通用网络下载】等链接：
 
-![Download Page 2](software-installation/Download_page_2.png#center)
+![只能选择【通用网络下载】等选项](software-installation/Download_page_2.png#center)
 
 我们使用下方【通用网络下载】得到的文件是一个体积约 133 MB 的压缩包，符合这个软件的体量。将这个压缩包解压，我们就能得到 OBS Studio 的安装包。
 
-![Real OBS](software-installation/Real_OBS.png#center)
+![真的 OBS Studio 安装包](software-installation/Real_OBS.png#center)
 
 而使用上方所谓【安全下载】下载到的文件是：
 
-![Fake OBS](software-installation/Fake_OBS.png#center)
+![假的 OBS Studio 安装包](software-installation/Fake_OBS.png#center)
 
 体积只有 20.3 MB，而且是一个不明的「可执行文件」（`exe` 文件）。与前面相比，这个文件就显得很可疑了。事实上，它不是 OBS Studio 的安装包，而是一个名不见经传的「某某某管家」的安装包。这个「某某某管家」软件可能会恶意地给我们的电脑安装许多来历不明的软件。我们使用国际知名的杀毒软件「卡巴斯基」对其进行扫描，软件提示称：
 
-![Kaspersky 1](software-installation/Kaspersky_app_warning.png#center)
+![卡巴斯基对可疑文件的扫描说明](software-installation/Kaspersky_app_warning.png#center)
 
 而在卡巴斯基提供的网页版说明上，则对这种威胁有更详细的解释：
 
-![Kaspersky 2](software-installation/Kaspersky_website_warning.png#center)
+![卡巴斯基官网对威胁的详细介绍](software-installation/Kaspersky_website_warning.png#center)
 
-在本章的最后，我们会向大家展示这个使用【安全下载】得到的可疑文件运行后的效果。
+在本章的最后，我们会向大家展示这个使用【安全下载】得到的可疑文件究竟是什么。
 
 ### 另辟蹊径：软件公众号及其他小众渠道
 
-另一种「另辟蹊径」的方法，是通过一些「小众渠道」，例如一些分享软件的微信公众号来下载软件。这不失为一种好方法——那些人们口口相传的优质公众号一般会把常用软件的「干净」安装包分门别类地整理分享，与「xx 下载站」相比，免去了「高速下载器」的烦恼。
+另一种「另辟蹊径」的方法，是通过一些「小众渠道」，例如一些分享软件的微信公众号来下载软件。这不失为一种好方法——那些人们口口相传的优质公众号一般会把常用软件的「干净」安装包分门别类地整理分享，与「xx 下载站」相比，免去了下载到恶意软件的烦恼。
 
-但是，这种公众号一般软件不是特别多——你总有一天没法从它们那里找到想要的软件。此外，这些公众号一般使用各种网盘平台来分享文件，而这些网盘平台通常会对非会员用户限速的，这必然对使用体验有一定影响。不过总的来说，这依然是一种值得推荐的方法。
+但是，这种公众号一般软件不是特别多——你总有一天没法从它们那里找到想要的软件。此外，这些公众号一般使用各种网盘平台来分享文件，而这些网盘平台通常会对非会员用户限速，这必然对使用体验有一定影响。不过总的来说，这依然是一种值得推荐的方法。
 
 > 对于这类公众号，我们并没有做太多的收集，因此无法在此推荐。大家可以在 B 站、贴吧、微博等地方自行寻路。
 > 
 
 ### 他山之石：第三方的「软件管家」
 
-除了手动在网上——无论是在官网，从第三方下载站，还是从那些整理网站的公众号上——下载软件的安装包之外，有一些第三方的「软件管家」也能帮助我们找到所需要的软件。这些软件管家有的是电脑厂商所维护的，例如「联想软件管家」「华为软件管家」；有的是一些公司所维护的，比如「360 软件管家」「腾讯软件管家」等（名字不一定是这样，可以类比）。
+除了手动在网上——无论是在官网，从第三方下载站，还是从那些整理网站的公众号上——下载软件的安装包之外，有一些第三方的「软件管家」也能帮助我们找到所需要的软件。这些软件管家有的是电脑厂商所维护的，例如「联想软件管家」「华为软件管家」；有的是一些公司所维护的，比如「360 软件管家」「腾讯软件中心」等。
 
 一般来说，那些由电脑厂商所维护的「软件管家」，往往相对干净、不带「全家桶」式的捆绑；而那些第三方企业维护的「软件管家」，一般都会或多或少地提示用户安装它们的「全家桶」。比如，如果你使用「360 软件管家」，那它可能就用某些手段提示用户去安装「360 安全卫士」以及一系列其他软件。因此，你可以根据自身机器的实际情况，按需选择这样的「软件管家」类 app。
 
 ## 安装软件
 
-假设经过与「神奇」网站的「斗智斗勇」，你成功地下载到了某款软件的安装包。取决于软件，你下载到的可能是下面三种文件中的某一种：
+假设经过与各种网站的「斗智斗勇」，你成功地下载到了某款软件的安装包。取决于软件，你下载到的可能是下面三种文件中的某一种：
 
 - 一个光秃秃的 `exe` 文件或者 `msi` 文件。我们直接双击这个文件就能启动安装进程。
     ![单文件安装包](software-installation/Single_file_installer.png#center)
@@ -140,7 +157,7 @@ type: docs
 - 一个扩展名是 `iso` 的文件。我们右击这个 `iso` 文件，选择【打开方式】→【文件资源管理器】，然后在弹出的新窗口中找到「`setup.exe`」「`install.exe`」等名字的程序双击打开[^1]。
     ![镜像文件安装包](software-installation/Image_Installer.png#center)
 
-> 还有一种软件，称「绿色版」或「便携版」（portable）软件，没有「安装」这一过程。要么是单单一个 `exe` 文件，点开就能用；要么以压缩包形式出现，但是「开箱即用」——解压后直接运行主程序就可以用，就像下面这样。
+> 对于那些「绿色版」或「便携版」软件，没有「安装」这一过程。要么是单单一个 `exe` 文件，点开就能用；要么以压缩包形式出现，但是「开箱即用」——解压后直接运行主程序就可以用，就像下面这样。
 > ![便携版软件](software-installation/Portable_app.png#center)
 
 启动安装器后，我们一般按提示【下一步】操作即可完成安装。但是此过程中也要留心！跨过了「高速下载器」的坎，可不要又掉进了捆绑软件的坑。**有一些软件在安装程序中也会像「高速下载器」一样勾选了一些捆绑软件、浏览器主页等选项**，这些选项可能出现在安装过程中的**任何阶段**，一定要注意取消勾选再进行下一步。
@@ -151,9 +168,7 @@ type: docs
 
 > 在 [认识你的电脑]({{<relref "computer-and-its-components.md#硬盘">}}) 一章介绍「硬盘」时，我们说有些电脑会混合使用固态硬盘和机械硬盘。一般这种情况下，C 盘位于固态硬盘上，而后续的分区有可能位于机械硬盘上，你可以在任务管理器中查看分区和硬盘的对应关系。在这种情况下，我们建议将常用软件安装在 C 盘或者固态硬盘的分区上。
 
-一般来说，软件默认会把自己「释放」在以下两个路径之一，它们分别是「64 位」和「32 位」软件[^softarch]的默认安装位置（也可能没有 `<厂商名字>` 一层）。
-
-[^softarch]: 什么是「32 位」和「64 位」呢？你可以在超越篇的 [「程序」是怎样炼成的]({{<relref "program-and-arch.md">}}) 一章中找到答案。
+一般来说，软件默认会把自己「释放」在以下两个路径之一，它们分别是「64 位」和「32 位」软件的默认安装位置（也可能没有 `<厂商名字>` 一层）。
 
 ```
 C:\Program Files\<厂商名字>\<软件名字>\
@@ -172,11 +187,11 @@ D:\Program Files (x86)\Tencent\QQ\
 
 这就是在 D 盘安装 QQ 软件的一个很合适的路径。这样做能保持一个比较干净的目录结构。你的 D 盘下会因此多出 `Program Files` 和 `Program Files (x86)` 这样的两个文件夹，用来专门在 D 盘安装软件。
 
-![Change_C_to_D.png](software-installation/Change_C_to_D.png#center)
+![将安装路径修改到 D 盘](software-installation/Change_C_to_D.png#center)
 
 如上图所示，一般把这个 `C` 改成 `D` ，就能得到一个不错的 D 盘安装软件的路径。
 
-![Sogou_change_directory.png](software-installation/Sogou_change_directory.png)
+![一些软件需要先展开「自定义安装」等选项，再修改路径](software-installation/Sogou_change_directory.png)
 
 如上图所示，有一些软件的安装包不是「下一步」型的，而只有一个「立即安装」的按钮。一般这种情况，可以展开「自定义安装」之类的选项，然后更改软件的安装位置。
 
@@ -184,7 +199,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 很多软件是需要购买的，包括 Windows 系统本身（一般你购买电脑时，电脑厂商已经帮你出了买 Windows 这部分钱）。常见的专业软件，从平面设计领域的 Adobe 家族的 Photoshop、Premiere Pro，工程领域的 Autodesk 家族的 AutoCAD、3ds MAX，到开发领域的 JetBrains 家族的 IDEA、PyCharm，甚至于我们每天都在用的 Word 和 PowerPoint，这些软件全部都需要付费购买。下图是购买正版 Photoshop（俗称的 PS）软件的页面——定价 888 元一年。
 
-![Untitled](software-installation/Untitled%206.png#center)
+![Adobe Creative Cloud 定价](software-installation/Untitled%206.png#center)
 
 而由于这样或那样的原因，我们在实际生活中，或多或少都在「没有付费而白嫖这些软件」。这是因为我们使用的这些软件被「破解」了。破解之后，软件的计费功能失效，原本收费的软件通过某种方式变成了可以免费永久使用的软件。大体上，网上流传的破解软件一般有这么两种形式：
 
@@ -201,13 +216,13 @@ D:\Program Files (x86)\Tencent\QQ\
 
 作为 Windows 亲爹的微软早在数年前就意识到，Windows 系统下一直缺少一个官方维护的、像 Apple 的 App Store 那样的「集中化」的软件中心，用户下载软件只能像上文那样上网去苦苦找寻。彼时的微软公司正打算进军手机行业，想要和安卓与 iOS 形成「三足鼎立」之势，微软于是心想：不如弄一种新的 app 格式，这种新的 app 不仅能在我们的 Windows 电脑上运行，还可以在手机上运行；然后我们再顺带弄一个全是这种新格式 app 的应用商店，可谓一举两得。于是微软就这么干了：这种新的 app 格式叫做「通用 Windows 平台应用」（Universal Windows Platform，简称「UWP 应用」），这个应用商店就是我们电脑里的「Microsoft Store」：
 
-![MS Store](software-installation/Microsoft_Store.png#center)
+![开始菜单中的 Microsoft Store](software-installation/Microsoft_Store.png#center)
 
 可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在近两年宣布「谢幕」。可是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。
 
 如果你有打开过「Microsoft Store」，你会发现，其中有一些应用是我们日常生活中的常用应用，而另外的大多数应用，我们都从来没有听说过。而事实上，如果你去仔细查看那里面的常用应用，会发现它们往往更新得没有官网勤快，有些甚至已经停止了更新。
 
-![Untitled](software-installation/Untitled%208.png)
+![Microsoft Store 中的软件](software-installation/Untitled%208.png)
 
 事实上，这就是 Microsoft Store 的现状：作为推广「UWP 应用」的第一线，它没有什么很拿得出手的「杀手锏」；作为一个「xxx 软件中心」的替代品，它的应用相当不全。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
 
@@ -221,21 +236,21 @@ D:\Program Files (x86)\Tencent\QQ\
 
 在上文中我们演示下载「OBS Studio」时，如果点选了【安全下载】，会得到这样一个只有 20 MB 的可执行文件：
 
-![Fake OBS](software-installation/Fake_OBS_installer.png#center)
+![假的 OBS Studio 安装包](software-installation/Fake_OBS_installer.png#center)
 
 若是双击运行这个文件，Windows 会弹出一个这样一个窗口，询问【你要允许此应用对你的设备进行更改吗？】这个窗口称为「UAC 弹窗」，在下一章 [基本维护与安全防护]({{<relref "basic-maintenance.md">}}) 我们会详细地介绍它。假设我们以为这个可执行文件就是 OBS Studio 的安装器，自然就放心地选择了【是】。这时，眼前自动弹出了进度条，看似正在为我们安装 OBS Studio：
 
-![Fake OBS Installing](software-installation/Fake_OBS_install.png#center)
+![假的 OBS Studio 安装过程](software-installation/Fake_OBS_install.png#center)
 
 然而，这个窗口的左下角提示着我们事情并不简单。这个程序并没有为我们安装 OBS Studio；相反地，它安装的是「某某某管家」，同时还会更改我们浏览器的主页为「安全导航」。在安装进程结束后，我们的桌面上多了两样东西：一是我们通过【通用网络下载】就能得到的那个 133 MB 的「真正的」OBS Studio，另一个，则是一款 ~~图标和 Microsoft Store 神似的~~「某某某管家」：
 
-![Unwanted Software](software-installation/Unwanted_software.png#center)
+![被捆绑安装的某某某官家](software-installation/Unwanted_software.png#center)
 
 显然，这「管家」并不是我们需要的东西，而那个 OBS Studio 真正的安装包，我们原本只需在网页上就能直接下载，经由这么折腾一通，如同「脱裤子放屁」。
 
 比起「脱裤子放屁」，更危险的事情是：我们并不知道那些「捆绑安装」而来的软件，是否会继续静默地在我们不知情的情况下，继续安装更多我们不想要的软件。尽管这个「某某某管家」经我们观测并没有在短时间内下载大量可疑软件，但在 2022 年 3 月「3·15 晚会」整治乱象之前，我们曾记录过一款在类似网站上下载到的「光速下载器」的行为。在它的界面上，我们可以可以看到右方有四个捆绑软件的复选框被默认勾选：
 
-![Lightning Downloader](software-installation/Lightning_downloader.png#center)
+![某个恶意的「光速下载器」](software-installation/Lightning_downloader.png#center)
 
 如果我们没有取消上面的这些勾选，那会是什么结局呢？我们在当时也作了记录。
 
@@ -245,9 +260,9 @@ D:\Program Files (x86)\Tencent\QQ\
 
 {{< /hint >}}
 
-![Untitled](software-installation/Computer_with_unwanted_software.png#center)
+![充满捆绑软件的系统桌面](software-installation/Computer_with_unwanted_software.png#center)
 
-![Untitled](software-installation/Computer_with_unwanted_software_2.png#center)
+![充满捆绑软件的系统开始菜单](software-installation/Computer_with_unwanted_software_2.png#center)
 
 可以看到电脑已经被乱七八糟的软件占领。
 
