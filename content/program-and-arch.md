@@ -6,10 +6,6 @@ type: docs
 
 # 「程序」是怎样炼成的
 
-{{<hint danger>}}
-🚧本章文字部分已经完成，但是相关插图还未绘制。
-{{</hint>}}
-
 {{<mobile_warning>}}
 
 {{<hint info>}}
