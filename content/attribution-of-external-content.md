@@ -50,6 +50,12 @@ type: docs
    © 2024 NVIDIA, the NVIDIA logo, GeForce, SHIELD, and NVIDIA G-SYNC are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries.<br>
    © Game Science Interactive Technology Co., Ltd. All Rights Reserved.
 
+## 浏览器——网上冲浪必备
+
+1. 浏览器份额变化图<br>
+   [Original data](https://gs.statcounter.com/press) by Statcounter. Made into line chart.<br>
+   Licensed under CC BY-SA 3.0.
+
 ## 电子邮件与即时通信
 
 1. QQ 2010 主界面示意图<br>

@@ -61,7 +61,7 @@ VLC Media Player 是一款开源的本地视频播放器，它界面简洁、功
 
 这一节介绍「网络类」实用工具，例如下载器。
 
-### Motrix & ImFile
+### Motrix 和 ImFile
 
 Motrix 下载地址：[https://motrix.app/zh-CN/](https://motrix.app/zh-CN/)
 
