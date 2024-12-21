@@ -22,20 +22,7 @@ type: docs
 
 双击桌面上的【此电脑】，就能打开「**文件资源管理器**」，简称「**资源管理器**」。在其中，我们可以看到一个或几个「盘」，例如 C 盘、D 盘等。这样的「盘」学名叫做「分区」，顾名思义，它们是将硬盘上的空间人为地划分成了一些子空间。
 
-{{< details title="操作速查卡：在桌面上显示【此电脑】等图标" open=false >}}
-<!-- 此卡隶属《认识电脑》一章 -->
-
-对于 Windows 10 和 Windows 11，若想在桌面上显示【此电脑】，请先打开系统设置，然后选择【个性化】，找到【主题】。
-
-![打开设置](computer-and-its-components/Open_personalization_in_settings.png#center)
-
-然后，在界面下方找到【桌面图标设置】（Windows 10 可能显示在界面右方），勾选【计算机】（即【此电脑】），再点击【应用】。你也可以把其他几个常用的图标勾选上，比如【用户文件】、【回收站】等。
-
-![勾选计算机](computer-and-its-components/Select_This_PC.png#center)
-
-这样，你的桌面上就会显示那些对应的图标了。
-
-{{< /details >}}
+> 如果你的电脑上没有【此电脑】图标，请先按 [认识你的电脑]({{<relref "computer-and-its-components.md#硬盘">}}) 中的方法让它在桌面上显示。
 
 ![两个分区](file-and-file-management/Partitions.png#center)
 
@@ -77,20 +64,13 @@ type: docs
 >
 > ![扩展名不显示](file-and-file-management/5_files_not_showing_extensions.png#center)
 >
-> 请参见下面的操作速查卡进行设置。
->
-
-{{< details title="操作速查卡：设置显示文件扩展名" open=true >}}
-
-在 Windows 10 中请点选文件夹窗口上方的【查看】选项卡，然后勾选【文件扩展名】这一项：
-
-![Windows 10 设置完整文件名](file-and-file-management/Windows_10_set_full_filename.png#center)
-
-在 Windows 11 中请点选文件夹窗口上方的【查看】菜单，然后勾选【显示】→【文件扩展名】：
-
-![Windows 11 设置完整文件名](file-and-file-management/Windows_11_set_full_filename.png#center)
-
-{{< /details >}}
+> 在 Windows 10 中请点选文件夹窗口上方的【查看】选项卡，然后勾选【文件扩展名】这一项：
+> 
+> ![Windows 10 设置完整文件名](file-and-file-management/Windows_10_set_full_filename.png#center)
+> 
+> 在 Windows 11 中请点选文件夹窗口上方的【查看】菜单，然后勾选【显示】→【文件扩展名】：
+> 
+> ![Windows 11 设置完整文件名](file-and-file-management/Windows_11_set_full_filename.png#center)
 
 扩展名也是可以人为改变的，但这样往往会出问题——试想，对于上图中的 `数字逻辑设计第 13 讲.ppt`，它本来是一个 `ppt` 文件，即「PPT 幻灯片」，应该用 PowerPoint 或 WPS 打开。如果你强行把它改成 `txt`，系统就会用「记事本」来打开一个「PPT 幻灯片」——用错误的工具打开文件。因此，扩展名不能随便改，因为改了之后系统就会用错误的工具去打开它。右键某一文件，选择【重命名】，你会看到系统会自动帮你选中文件的「主名」，而不选中「扩展名」。如果你执意更改文件的「扩展名」，系统会发出一个提示：
 

@@ -77,11 +77,7 @@ type: docs
 
 按 `Ctrl` + `Shift` + `Esc` 打开「任务管理器」，选择【性能】页面，就能看见 CPU 的型号、基准频率（标注为【基准速度】）和核心数（标注为【内核】）。
 
-{{< details title="操作速查卡：打开「任务管理器」" open=true >}}
-  
-你可以通过按 `Ctrl` + `Shift` + `Esc` 来打开「任务管理器」。也可以右击【开始按钮】，选择【任务管理器】来打开它。
-
-{{< /details >}}
+> 你也可以右击【开始按钮】，选择【任务管理器】来打开「任务管理器」。
 
 ![CPU](computer-and-its-components/Check_CPU.png#center)
 
@@ -123,21 +119,15 @@ type: docs
 
 > 如果你在桌面上没有看到【此电脑】图标，你也可以按下 `Windows` + `E` 组合键来打开文件资源管理器，然后在左侧的导航栏中找到【此电脑】。
 >
-> 如果你想在桌面上显示【此电脑】图标，可以参考下面的操作速查卡。
-
-{{< details title="操作速查卡：在桌面上显示【此电脑】等图标" open=false >}}
-
-对于 Windows 10 和 Windows 11，若想在桌面上显示【此电脑】，请先打开系统设置，然后选择【个性化】，找到【主题】。
-
-![打开设置](computer-and-its-components/Open_personalization_in_settings.png#center)
-
-然后，在界面下方找到【桌面图标设置】（Windows 10 可能显示在界面右方），勾选【计算机】（即【此电脑】），再点击【应用】。你也可以把其他几个常用的图标勾选上，比如【用户文件】、【回收站】等。
-
-![勾选计算机](computer-and-its-components/Select_This_PC.png#center)
-
-这样，你的桌面上就会显示那些对应的图标了。
-
-{{< /details >}}
+> 如果你想在桌面上显示【此电脑】图标，请先打开系统设置，然后选择【个性化】，找到【主题】。
+> 
+> ![打开设置](computer-and-its-components/Open_personalization_in_settings.png#center)
+> 
+> 然后，在界面下方找到【桌面图标设置】（Windows 10 可能显示在界面右方），勾选【计算机】（即【此电脑】），再点击【应用】。你也可以把其他几个常用的图标勾选上，比如【用户文件】、【回收站】等。
+> 
+> ![勾选计算机](computer-and-its-components/Select_This_PC.png#center)
+> 
+> 这样，你的桌面上就会显示那些对应的图标了。
 
 **硬盘对电脑使用体验的影响，主要是「打开软件的速度」，包括「开机的速度」**。这是很容易理解的，因为数据和软件本身原先都是存在硬盘里的，处理器从硬盘里「拿」数据的速度就直接影响着软件启动或者说加载的时间。
 
