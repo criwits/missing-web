@@ -31,11 +31,11 @@ type: docs
 - 打开系统设置。
 - 在界面左侧点击【应用】，然后在右侧选择【安装的应用】（部分版本称【应用和功能】）。
     
-    ![Applications_11](basic-maintenance/Applications_11.png#center)
+    ![在 Windows 11 中打开应用列表](basic-maintenance/Applications_11.png#center)
     
 - 等待右侧下方的列表加载完成。这个列表就是你的电脑上安装的所有软件。找到你不想要的软件，点击这一行右侧的【 ⁝ 】，再点击【卸载】：
     
-    ![Uninstall_an_app_11](basic-maintenance/Uninstall_an_app_11.png#center)
+    ![在 Windows 11 卸载一个软件](basic-maintenance/Uninstall_an_app_11.png#center)
     
 - 之后根据提示卸载即可。
 
@@ -45,11 +45,11 @@ type: docs
 - 打开系统【设置】。
 - 选择【应用】：
     
-    ![Applications_10](basic-maintenance/Applications_10.png#center)
+    ![在 Windows 10 中打开应用列表](basic-maintenance/Applications_10.png#center)
     
 - 稍等片刻以使得列表完全加载。在这个界面上，会列出电脑中安装的所有软件。找到我们不想要的软件，然后点击两次【卸载】：
     
-    ![Uninstalling_an_app_10](basic-maintenance/Uninstalling_an_app_10.png#center)
+    ![在 Windows 10 中卸载一个软件](basic-maintenance/Uninstalling_an_app_10.png#center)
     
 - 根据提示进行卸载操作即可。
 
@@ -58,7 +58,7 @@ type: docs
 
 一般来说，卸载很快就能完成。但需要特别注意的是，一些软件的卸载界面错综复杂，**充斥有大量的无关选项**（例如【再想想】【我要重装】），因此在点选时务必十分小心。**甚至有些软件在卸载完成后会诱导用户装一个新的其他软件，请千万注意**。例如：
 
-![confusing_button](basic-maintenance/WDP_software_manager.png#center)
+![诱导重新安装的按钮](basic-maintenance/WDP_software_manager.png#center)
 
 有些 app 可能会在卸载完成后，提示你需要重启电脑来进行一些最后的清理工作。通常，我们可以选择立即重启；如果你手头还正需要使用电脑，也可以在合适的时候手动重启。
 
@@ -74,7 +74,7 @@ type: docs
 
 此时，程序需要「提升自己的权限」来完成自己的工作，这个过程称为「提权」。而下面展示的这种弹窗（「你要允许此应用对你的设备进行更改吗」，称为「UAC 弹窗」），则是程序在向系统申请「提权」时，系统对用户的提示。这样就能解释，为什么在大多数安装或者卸载软件的时候，系统都会弹出这个窗口询问我们；而只有我们点击【是】，安装或者卸载才能正常继续了。
 
-![UAC_popup](basic-maintenance/UAC_popup.png#center)
+![一个 UAC 弹窗](basic-maintenance/UAC_popup.png#center)
 
 那么这种「UAC 弹窗」的意义是什么呢？想象一下这个场景：你电脑上的某个垃圾软件留下的「种子」正在蠢蠢欲动，想要给你电脑安装一套恶意软件。然而，在一开始，这枚「种子」是没有足够权限的，因此它邪恶的计划就这样直接被粉碎了——没有提升的权限，它就没有办法进行软件安装。这也告诉了我们一个重要的事实：**如果电脑弹出了不明的「UAC 弹窗」，请一律拒绝**。
 
@@ -86,7 +86,7 @@ type: docs
 
 合理使用各种杀毒软件、安全软件（后文统称「安全软件」）可以保护你的电脑安全，然而不合理地使用它们，会极大地影响我们电脑的使用体验。今天，市面上有大量优秀的国内外安全软件供我们选择——例如，国产的「360 安全卫士」「火绒安全软件」「瑞星杀毒软件」，以及国外的「卡巴斯基」「诺顿」等。同时，Windows 操作系统亦内置了一款「Windows 安全中心」（旧称「Windows Defender」），它也提供了强大的病毒防护和安全保护等功能，如下图所示。这里，我们不具体地推荐某一款安全软件，而是会向你介绍一些相对「合理」地使用这类软件的方法。
 
-![Windows Security](basic-maintenance/Windows_Security.png#center)
+![Windows 安全中心](basic-maintenance/Windows_Security.png#center)
 
 首先，**永远不要在电脑上同时安装多于一个安全软件**。例如，安装了「360 安全卫士」或者「360 杀毒」，就不要再安装「火绒安全软件」或者「腾讯电脑管家」。如果你同时安装多个安全软件，不仅没有必要，它们之间还会因权限冲突而互相「攻击」 ~~（这就是养蛊）~~ 。
 
@@ -96,13 +96,13 @@ type: docs
 
 我们安装安全软件是为了保障电脑的安全，而不是希望这些软件来拖慢我们电脑的运行速度。因此，合理地使用这些软件，也需要我们对它们进行「调教」。具体地说，我们可以**关闭那些无用的功能和提示**，例如每次开机时的「用时 xx 秒，打败全国 xx 人」的提示，桌面上碍事的「一键加速」加速球，各种「资讯」弹窗广告和「猜你喜欢」搜索框等。这些东西与「安全」毫不相关，反而可能影响使用体验。将它们关闭，可以让我们的电脑更加「清爽」的同时，也不会影响到安全软件的正常工作。以「360 安全卫士」为例，我们可以在软件设置的【开机小助手】【推广设置】【广告资讯设置】等页面中，关闭我们不需要的功能，如下图所示。
 
-![Disable 360 Ads](basic-maintenance/Disable_360_ads.png#center)
+![「360 安全卫士」的部分设置项](basic-maintenance/Disable_360_ads.png#center)
 
 ## Windows 更新——让人又爱又恨的「更新」
 
 Windows 一直在不断的更新之中——这里的「更新」指的不是诸如「Windows 7」「Windows 10」这样的大版本的更新，而是那时不时阻碍我们关机睡觉的「Windows 更新」。打开电脑的【设置】，Windows 10 选择【更新与安全】（下左图）、Windows 11 选择【Windows 更新】（下右图），你就能看到现在可用的一些 Windows 更新以及它们的状态。
 
-![Update.jpg](basic-maintenance/Update.jpg#center)
+![Windows 更新](basic-maintenance/Update.jpg#center)
 
 在今天的 Windows 10 或者 Windows 11 系统中，Windows 更新主要会包括以下这些内容：
 
@@ -120,7 +120,7 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 所谓恶意软件，就是指那些诱导用户下载、安装其他软件，「传染性」强，且难以卸载的软件，又称为「流氓软件」。在上一章最后，我们目睹了在恶意软件横行的年代，一个不干净的「高速下载器」捆绑安装的一大群软件。这个「高速下载器」就是典型的恶意软件，它所安装的这些软件中有不少更是「恶意软件」。恶意软件具有「传染性」，即一个恶意软件可能捆绑安装 5 个恶意软件，而这 5 个则可以捆绑更多同类（真是「一生二，二生三，三生万物」啊）。最后落得的，就是一台被「玩坏了」的电脑（实验过程中，并没有任何真实电脑遭受伤害）：
 
-![Computer_with_unwanted_apps](basic-maintenance/Computer_with_unwanted_apps.png#center)
+![充满被捆绑安装的软件的电脑](basic-maintenance/Computer_with_unwanted_apps.png#center)
 
 {{< hint danger >}}
 
@@ -150,23 +150,23 @@ Windows 一直在不断的更新之中——这里的「更新」指的不是诸
 
 1. 按哪个按钮可以卸载？
     
-    ![Uninstalling_1](basic-maintenance/Uninstalling_1.png#center)
+    ![问题 1 图](basic-maintenance/Uninstalling_1.png#center)
     
 2. 按哪个按钮可以卸载？
     
-    ![Uninstalling_2](basic-maintenance/Uninstalling_2.png#center)
+    ![问题 2 图](basic-maintenance/Uninstalling_2.png#center)
     
 3. 按哪个按钮可以卸载？
     
-    ![Uninstalling_3](basic-maintenance/Uninstalling_3.png#center)
+    ![问题 3 图](basic-maintenance/Uninstalling_3.png#center)
     
 4. 如何操作可以卸载？
     
-    ![Uninstalling_4](basic-maintenance/Uninstalling_4.png#center)
+    ![问题 4 图](basic-maintenance/Uninstalling_4.png#center)
     
 5. 清理电脑上的杀毒软件 / 安全软件，保留一个你用得最熟悉的。
 
 
 [^1]: 如果你在使用中压根没见过这样的窗口（即 UAC 弹窗），那么这一节的内容对你可能不适用。你可以去 [用户与微软账号]({{<relref "user-and-ms-account.md">}}) 一章了解更多信息。
     
-    ![UAC_popup_2](basic-maintenance/UAC_popup.png#center)
+    ![UAC 弹窗](basic-maintenance/UAC_popup.png#center)

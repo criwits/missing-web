@@ -106,13 +106,13 @@ RAR 格式的压缩率通常比 ZIP 高上不少。除此之外，它还支持�
 
 一般而言，压缩工具软件安装之后，一系列压缩文件相关的选项就会出现在文件右键菜单中。例如，当安装「NanaZip」这款压缩工具后，右键菜单就会多出这些选项：
 
-![Context_menu_of_NanaZip](archive-formats-and-tools/Context_menu_of_NanaZip.png#center)
+![NanaZip 的上下文菜单](archive-formats-and-tools/Context_menu_of_NanaZip.png#center)
 
 这些选项能帮助你解压压缩包和制作新的压缩包。例如，上图中【提取到 “MicrosoftTeams-x64\”】就能把这个压缩包解压，再把其中的所有内容放在一个名叫 `MicrosoftTeams-x64` 的文件夹下；而上图中【添加到压缩包…】就可以将选中的文件压缩，具体用什么格式则会在后续的窗口中设定。
 
 如果你直接双击打开一个压缩包，一般来说就可以直接查看其中的内容，而不解包这个压缩包：
 
-![Opening_an_archive](archive-formats-and-tools/Opening_an_archive.png#center)
+![直接打开一个压缩包](archive-formats-and-tools/Opening_an_archive.png#center)
 
 如果你双击这份列表中的某一个文件，那么压缩工具一般会将**这一个文件**（而不是整个压缩包）解压到一个**临时位置**，并将其打开。这一切都是临时的，这个临时解压出来的文件会在你关闭它之后被销毁——因此，这种双击压缩包内某文件来打开它的方式**只适用于临时预览压缩包中某一个文件的内容**。所以，在运行以压缩包形式提供的应用程序时，请**一定完全解压到某个干净的地方后再运行**！
 
@@ -129,7 +129,7 @@ RAR 格式的压缩率通常比 ZIP 高上不少。除此之外，它还支持�
 
 {{</hint>}}
 
-### Windows 资源管理器
+### 资源管理器
 
 虽然严格来说 Windows 自己的资源管理器不算一个「压缩软件」，但我们还是在此介绍一下，用以应对别的什么压缩软件都没装的情形。
 
@@ -137,7 +137,7 @@ RAR 格式的压缩率通常比 ZIP 高上不少。除此之外，它还支持�
 
 在资源管理器作为打开压缩文件的默认软件时，打开一个压缩包只需双击它，然后它就会在当前窗口下打开，行为看起来有点像一个普通文件夹。按理来说，它能带给用户无缝的体验，但实际上，如果压缩包里文件太多，硬盘又有点慢，那么打开压缩包（或者其内的子目录）就要卡顿好一会，性能似乎不太行。
 
-![Explorer Open Zip](archive-formats-and-tools/explorer-open-zip.png#center)
+![在资源管理器中打开一个 ZIP 压缩包](archive-formats-and-tools/explorer-open-zip.png#center)
 
 用资源管理器解压一个压缩包只需选中压缩文件，右键 →【全部解压缩…】，然后输入解压路径即可；欲将文件压缩为 ZIP，只需选中需要压缩的文件（夹），右键 →【压缩为 ZIP 文件】，指定文件名即可。
 
@@ -163,17 +163,17 @@ Bandizip 是由 Bandisoft 开发的一款压缩软件，有免费的标准版与
 
 Bandizip的主界面大致如下图所示。可以看见，它的界面较为简洁、现代，但美中不足的便是右下角的广告。这广告需要我们购买专业版或企业版才能去除，不过实际使用上却几乎没有干扰，因为广告仅在没有打开任何文件时出现，而实际使用时我们基本上不会来到这里。
 
-![Bandizip_main_window](archive-formats-and-tools/Bandizip_main_window.jpg#center)
+![Bandizip 的主界面](archive-formats-and-tools/Bandizip_main_window.jpg#center)
 
 当你使用 Bandizip 打开一个压缩文件时，软件界面大致如下图。这里是没有广告的。你可以在此对压缩文件进行各种操作。
 
-![Bandizip_opening_archive](archive-formats-and-tools/Bandizip_opening_archive.jpg#center)
+![在 Bandizip 中打开一个压缩包](archive-formats-and-tools/Bandizip_opening_archive.jpg#center)
 
 Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是「智能解压」。
 
 「压缩文件预览」是说，当你右击一个压缩文件时，若这个文件没有加密文件名[^2]，你的右键菜单便会显示出这个压缩包内部的部分文件；若是连文件名都加密了，那当然什么都看不见啦。这个功能默认未启用，需要在 Bandizip 的【设置】→【上下文菜单】→【选择解压菜单】中开启。可惜这个功能只支持旧式菜单，不支持 Windows 11 的新式菜单。
 
-![Compressed_Preview.jpg](archive-formats-and-tools/Compressed_Preview.png#center)
+![Bandizip 可以直接在右键菜单中预览压缩文件](archive-formats-and-tools/Compressed_Preview.png#center)
 
 「智能解压」则是一种「傻瓜式解压操作」。还记得 [文件与文件管理]({{<relref "file-and-file-management.md">}}) 中我们介绍的「解压到当前文件夹」和「解压到 xxxxxx\」的区别吗？「智能解压」能够自动在这两种模式中选择更合适的那个——当你的压缩文件根目录仅有一个项目（无论文件或文件夹）时，Bandizip 便选择「解压到当前文件夹」；若有多个项目， Bandizip 则会选择「解压到 xxxxxx\」。
 
@@ -181,7 +181,7 @@ Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是�
 
 「智能解压」既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议始终使用「智能解压」来解压文件，除非你有特殊目的。
 
-![Smart_Extract.jpg](archive-formats-and-tools/Smart_Extract.png#center)
+![智能解压](archive-formats-and-tools/Smart_Extract.png#center)
 
 ### WinRAR
 
@@ -199,7 +199,7 @@ WinRAR 的国际官网是 [https://www.rarlab.com/](https://www.rarlab.com/)，�
 
 最后我们再来介绍一下压缩软件中的「深水区」——国产压缩软件们。和 [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}}) 一样，国产压缩软件也良莠不齐，其中不乏佳作也不少恶意软件。由于除了 RAR 之外的几乎所有压缩格式都是公开的，因此几乎所有的国产压缩软件都和前文介绍的 7-Zip 或 Bandizip 一样，支持绝大多数格式压缩文件的解压，但不支持 RAR 格式压缩文件的制作。例如，下面是「360 压缩」的客服人员对「『360 压缩』能否压缩 RAR 格式」这一问题的答复：
 
-![360Zip_not_supporting_rar_compress](archive-formats-and-tools/360Zip_not_supporting_rar_compress.png#center)
+![360 压缩不支持制作 RAR 压缩包](archive-formats-and-tools/360Zip_not_supporting_rar_compress.png#center)
 
 与「360 压缩」这种还算「好用」的国产压缩软件相比，有些软件等则表现出了许多恶意软件的特征——静默捆绑安装、大量的广告推送，以及难以卸载和清除。同时，一些国产压缩软件还推出了各种所谓的「会员」功能，用于所谓「去除广告」「提升解压速度」「支持更多压缩格式」等，为这些原本就是免费的内容付费，实无任何必要。
 
