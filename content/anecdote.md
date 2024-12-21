@@ -51,3 +51,7 @@ type: docs
 ## 真正的空间管理大师
 
 ![多就是好](anecdote/free_space.png)
+
+## 《你缺计课》编委会第一届诗词大会
+
+![好诗好诗](anecdote/poems.png)

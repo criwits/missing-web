@@ -181,15 +181,17 @@ Firefox 与 Chrome 相当。在界面上，Firefox 同样设计得较为合理�
 
 ![Windows 10 设置默认浏览器](browsers-and-how-to-choose/Setting_default_browser.png#center)
 
-而在 Windows 11 中，微软为了强行推荐新 Edge 浏览器，将手动选择默认浏览器的功能砍掉了 ~~微软你真的坏事做尽~~，要想在系统中将一款浏览器设置成默认浏览器需要这样操作：
+而在 Windows 11 中，要想在系统中将一款浏览器设置成默认浏览器需要这样操作：
 
 - 打开系统【设置】→【应用】→【默认应用】，然后找到你希望设置成默认浏览器的浏览器：
     
     ![Windows 11 设置默认浏览器 (1)](browsers-and-how-to-choose/Windows_11_default_browser.png#center)
     
-- 点击后，将「`.htm`」「`.html`」「HTTP」「HTTPS」四个项目设置成这款浏览器（图中只展示了其中的两个）：
+- 点按页面上面的【设置默认值】按钮[^nodefaultbutton]。
 
     ![Windows 11 设置默认浏览器 (2)](browsers-and-how-to-choose/Setting_default_browser_Windows_11.png#center)
+
+[^nodefaultbutton]: 如果界面上没有这个按钮，请手动将下面的「`.htm`」「`.html`」「HTTP」「HTTPS」四个项目修改成你想要的默认浏览器。
 
 ## 练习
 
