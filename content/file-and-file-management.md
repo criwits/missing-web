@@ -339,7 +339,7 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 3. 试着根据我们的建议，选择合适的分区运用策略。如果需要，可以试试迁移一部分已知文件夹。
     
    {{<hint warning>}}
-   注意迁移的时候千万看清楚目标路径是完整的 `D:\Documents`、 `D:\Desktop` 这样的路径，而不是光秃秃的一个 `D:\`。
+   注意：迁移的时候千万看清楚目标路径是完整的 `D:\Documents`、 `D:\Desktop` 这样的路径，而不是光秃秃的一个 `D:\`。
    {{</hint>}}
     
 4. 整理你的「下载」文件夹。
