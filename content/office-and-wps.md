@@ -41,7 +41,7 @@ Microsoft Office 是由微软开发的办公软件套装。称它「软件套装
 
 目前（2024 年），最新版本的 Office 三件套的软件图标如下图所示。
 
-![Office_icons](office-and-wps/Office_icons.png#center)
+![Word、PowerPoint 和 Excel 的图标](office-and-wps/Office_icons.png#center)
 
 ### Office 的历史与版本
 
@@ -49,27 +49,27 @@ Office 是一款历史悠久的软件套装，它诞生于二十世纪八九十�
 
 Office 2003 是十分经典的一代 Office。与现在的 Office 软件界面有很大不同，Office 2003 的功能按钮是一排排地「罗列」在软件界面上方的。下图是 Word 2003 的软件界面，在你的回忆中，是否有这样的画面呢？
 
-![Office_2003](office-and-wps/Office_2003.png#center)
+![Office 2003](office-and-wps/Office_2003.png#center)
 
 经典归经典，由于年代实在太过久远，在今天（2024 年），除了部分尚未更新的中小学「信息技术」课堂等少见场景外，我们几乎很少再见到这一版 Office。
 
 Office 2007 同样是经典的一代 Office。自 Office 2007 开始，Office 软件采用了一种新的用户界面，将各种各样的功能根据种类分列在不同的「标签卡」中，排列在界面上方。这种「大标签、大按钮」的结构称为「Ribbon」。直到今天，Office 的软件界面仍然有着 2007 版本的许多影子。另一方面，这种新的界面与 2003 版及其之前的版本有着很大的不同。出于这个原因，当时许多人不愿意转向新版本。下图是 Word 2007 的软件界面。
 
-![Office_2007](office-and-wps/Office_2007.png#center)
+![Office 2007](office-and-wps/Office_2007.png#center)
 
 不难发现，Ribbon 界面的主要特点是：功能按钮按照一定的分类分置于不同的「选项卡」中，在软件上方错落排开，与 Office 2003 那种按钮一排排罗列的操作方式大相径庭。
 
 Office 2010 与 Office 2007 在软件界面和风格上并没有什么很大的差别。在 2021 年以前，我国计算机二级考试 Office 科目使用的就是 Office 2010 版本，因而下面的 Word 2010 软件界面想必许多读者都不会陌生。
 
-![Office_2010](office-and-wps/Office_2010.png#center)
+![Office 2010](office-and-wps/Office_2010.png#center)
 
 自 Office 2013 开始，Office 的界面画风放弃了原来有些许立体感的「拟物」风格，转向了完完全全纯色块与简单几何图形构成的「扁平」风格，不过操作逻辑仍然继承了自 Office 2007 以来的那一套。不仅如此，后来将近十年内推出的版本——Office 2013、2016、2019 乃至 2021，都有着相同的界面设计风格。~~（虽说「科技以换壳为本」，但这连壳都没怎么换。）~~ 下图是 Word 2016 的软件界面。
 
-![Office_2019](office-and-wps/Office_2016.png#center)
+![Office 2019](office-and-wps/Office_2016.png#center)
 
 而到了 2024 年，为了配合 Windows 11 的风格，微软在这一年的 Office 版本中稍稍更改了界面设计，采用了所谓「Fluent」的设计理念。虽然操作界面大体上仍然沿用了 Ribbon 设计，但标题栏拓宽、加入搜索框，上方的 Ribbon 菜单也加入了圆角与阴影，给人以「立体浮动」的感觉。下图就是 Office 2024 的界面。
 
-![Office_2024](office-and-wps/Office_2024.png#center)
+![Office 2024](office-and-wps/Office_2024.png#center)
 
 在 Office 转向扁平风的那几年中，除了这种传统的「年份」Office，微软还推出了一种不断迭代更新的「Office 365」（现改名为「Microsoft 365」）。Office 365 采用持续「滚动更新」的策略，不再使用年份命名，这样始终能获得最新的功能。不过，事实上，Office 365 与年份版本 Office 的最大区别还是在于各项「云服务」，例如文件跨设备同步等。
 
@@ -88,7 +88,7 @@ Office 2010 与 Office 2007 在软件界面和风格上并没有什么很大的�
 
 尽管新格式看起来扩展名只是多了个字母 `x`，但是与旧版格式是**完全不兼容**的。Office 2007 以及之后的各版本，可以打开新旧两种格式的文档，并且在保存文件时可以选择保存为新旧两种格式中的某一种。下图中，上方「Word 文档 (\*.docx)」便是新格式，而下方「Word 97-2003 文档 (\*.doc)」则是旧格式。
 
-![Word_formats.png](office-and-wps/Word_formats.png#center)
+![在 Word 中保存文件时的格式选择](office-and-wps/Word_formats.png#center)
 
 新格式（即扩展名带 `x` 的那些格式）相比旧格式支持更多的功能和排版特性。在今天人们普遍使用 Office 2007 及以上版本的情况下，我们建议始终为自己的文档选用新格式，除非你有明确的理由去选用旧格式，例如接收方指定了文件的扩展名。自 Office 2007 以后的 Office 都是默认保存成新格式的。
 
@@ -96,29 +96,29 @@ Office 2010 与 Office 2007 在软件界面和风格上并没有什么很大的�
 
 Office 是付费软件。对于 Office 365，其付费方式是「订阅制」，每年都需要付费才能使用；对于年份版本的 Office，则采用「买断制」，一次购买便可永久使用。同一版本的 Office（例如 Office 2019），又根据包含子应用的多少、高级功能的有无、售后服务的等级等，分为不同的档次。例如「家庭与学生版」只包含 Word、PPT 和 Excel 三件套，没有 VBA 等高级开发功能；「专业增强版」则包含几乎所有的 Office 功能，但售价高昂。下图是在微软官网购买 Office 365 的产品介绍页面。
 
-![Buying_Office_365](office-and-wps/Buying_Office_365.png#center)
+![购买 Office 365](office-and-wps/Buying_Office_365.png#center)
 
 如果需要购买 Office 365，可以前往 [微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365) 或者 Microsoft Store 进行购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心、正版软件服务中心等有关部门来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
 
-![Geniune_platform](office-and-wps/Geniune_platform.png#center)
+![某高校的正版软件平台](office-and-wps/Geniune_platform.png#center)
 
 今天，许多笔记本电脑和品牌机台式机在出厂时会附赠用户一套正版 Office 软件。这种情况下，机器首次开机后就内置了 Office 软件（通常包含 Word、PowerPoint 和 Excel）我们只需要启动它们，按照软件的提示，登录或创建一个自己的微软账号，即可完成正版验证。不过，如果你是在电脑城组装的电脑，或者使用的非品牌零售渠道的机器，那么很可能没有这项福利。下图是在电商平台购买某笔记本电脑时的 Office 附赠提示。
 
-![Preinstalled_Office](office-and-wps/Preinstalled_Office.png#center)
+![电脑中预装 Office 的广告页](office-and-wps/Preinstalled_Office.png#center)
 
 Office 软件的安装方式比较简单。取决于你获取到软件的方式，如果你是通过 Microsoft Store 购买的 Office，那么直接在 Microsoft Store 点击「安装」就可以完成 Office 软件的安装。对于通过其他官方途径获取的 Office 安装器，大多数情况下也只需要简单地双击并按提示操作即可完成安装。
 
 Office 这种软件自然免不了被盗版的命运。但是除了常规的盗版之外，在互联网还上有很多民间二次打包的「优化版」「精简版」「修改版」Office，它们在直接安装后，无需更多操作就能免费使用。我们非常不建议大家使用这样的 Office 软件——除了「盗版」本身不值得提倡外，这些二次打包的 Office 往往经过一些「魔改」，这可能导致少数情况下软件工作不正常甚至无法使用。此外，这些魔改 Office 往往会有一些使用上的不便，例如每次启动时触发 UAC 弹窗（弹出窗口「你要允许此应用……」），以及文件关联莫名失效等。更有甚者，某些来历不明的 Office 软件很可能含有各种各样的病毒。下图是当我们试图在某网站上下载一个「Office 2007 三合一精简版」时，知名杀毒软件卡巴斯基弹出的提示。
 
-![Kaspersky](office-and-wps/Kaspersky_blocks_pirate_Office.png#center)
+![卡巴斯基在扫描某「三合一精简版」Office 安装包后弹出的警告](office-and-wps/Kaspersky_blocks_pirate_Office.png#center)
 
 ### 「网页版」 Office
 
-![Fake_Office](office-and-wps/Fake_Office.png#floatright)
+![网页版 Office 入口](office-and-wps/Fake_Office.png#floatright)
 
 即使你没有购买和安装过 Office，你或许仍会发现电脑的「开始菜单」中有 Office 甚至 Word、PowerPoint、Excel 等软件的图标，如右侧所示。如果你尝试去点击这些 app，会发现打开了一个网页。在这个页面按提示登录微软账号，最后会来到这个页面：
 
-![Fake_Office_2](office-and-wps/Fake_Office_2.png#center)
+![网页版 Office](office-and-wps/Fake_Office_2.png#center)
 
 这是微软提供的免费的「网页版」Office，类似于腾讯文档或金山文档等网页产品。点击左侧的 Word、Excel 等图标，会打开对应的网页版应用。这些网页版的 Office 可以免费使用，但功能受限，且只有在网络良好时才能正常工作，故只能作为没有安装 Office 的应急替代品。
 
@@ -142,7 +142,7 @@ WPS 是由 [金山公司](https://www.kingsoft.com/) 开发的国产免费软件
 
 但彼时的 Super-WPS，运行在 DOS 系统上（就是那个「漆黑的屏幕上闪烁着 `C:>_`」的操作系统），所以使用起来并没有今天的 WPS Office 这般方便与所见即所得（What you see is what you get，简称 WYSIWYG）。在编辑状态下，你没有办法看到文本真正在纸上呈现的样子，要想知道效果，必须切换到「打印预览」模式，而这个模式又无法直接编辑内容。不过，虽然麻烦，但比一无所有还是好上许多。下图左侧是编辑模式，右侧则是「打印预览」模式。
 
-![Super-WPS 文字编辑](office-and-wps/Super-WPS_Editing.png#center)
+![在 Super-WPS 中进行文字编辑](office-and-wps/Super-WPS_Editing.png#center)
 
 1990年，微软发布了首个面向 Windows 平台的 Office 版本。然而，由于当时 Office 对中文的支持不够完善，而市场早已习惯使用 Super-WPS，Office 在中国并未引起太大的反响。据传，为了与 WPS 争夺市场份额，微软与金山达成了共享协议，使双方可以交叉使用彼此的文件格式。这一协议让 WPS 得以兼容 Office 文件，但也让微软凭借其庞大的体量优势以及对盗版的放任态度，迅速占领了中国文字处理软件的绝大部分市场。自此，WPS 在激烈的竞争中逐渐失去了市场主导地位。
 
@@ -154,15 +154,15 @@ WPS 对 Office 文件格式有着高度的兼容性，这意味着在绝大多�
 
 [^wpsind]: 严格来说，我们通常下载的「WPS」实际上是「WPS 软件个人版」。根据其最终用户许可协议，该版本仅限于个人计算机上使用。
 
-![WPS_Office](office-and-wps/WPS_Office.png#center)
+![WPS 的界面](office-and-wps/WPS_Office.png#center)
 
 WPS 针对中国用户的使用习惯推出了一系列额外功能。例如，WPS 有一套自己的模板库。在其中，你能找到各种各样的适合不同场景的文稿、幻灯片和表格模板，并将它们应用在自己的文档之中（可能需要额外付费）。在一些情况下，使用这些模板能够省时省力地制作出精美的文档。又比如，WPS 提供了自己的云服务平台（金山文档），借助金山文档能够实现多人协同编辑文件等高级功能。下图是 WPS 提供的部分模板。
 
-![WPS_templates](office-and-wps/WPS_templates.png#center)
+![WPS 提供的模板](office-and-wps/WPS_templates.png#center)
 
 然而，作为国产软件的 WPS，自然有着一系列国产软件常有的问题——例如，一些广告和「不登录不给用」。在上一小节的 WPS 主界面截图中，可以看到整个 Ribbon 区域的按钮都呈灰色状态，下方还有显眼的登录提示。只有在注册并登录一个金山办公账号之后，才能使用完整的应用功能。对于那些注重数据私密性的用户来说，这无疑是一个极大的缺点。
 
-![WPS Login](office-and-wps/WPS_no_login.png#center)
+![现在，WPS 必须登录账号才能正常使用](office-and-wps/WPS_no_login.png#center)
 
 ## 练习
 

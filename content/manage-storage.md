@@ -25,11 +25,11 @@ type: docs
 
 早年间，大约到 Windows 7 时代为止，C 盘空间大小并没有今天这般令人苦恼。彼时的日常用户，为 C 盘提供约 60 GB 空间，就能满足这台电脑以后一直使用的需求。Windows 8 系列暂且不论（反正也没多少人用），自 Windows 10 时代开始，系统本身与后续使用对空间的需求似乎迅速提升了。人们想着:「大概为 C 盘分个 100 GB 应该差不多吧。」然而事与愿违，如此想法总是导致了这样的事情：
 
-![Red C](manage-storage/Red_C_Drive.png#center)
+![C 盘空间即将告罄](manage-storage/Red_C_Drive.png#center)
 
 但是，系统在初装时只占用了 20 至 30 GB 不等的空间，而为空间所困的大家都会想着把软件尽量装到其他分区中，但为何用着用着 C 盘还是变成「红盘」了呢？这是因为软件所占的空间不止是本体，还有它在运行期间所产生的各种数据。
 
-![Scan C](manage-storage/Scan_C_Drive.png#center)
+![用 WizTree 分析 C 盘的文件构成](manage-storage/Scan_C_Drive.png#center)
 
 用 WizTree 分析一下 C 盘（详见 [工具类软件推荐]({{<relref "tools-software.md#WizTree">}})），你可能会发现，占空间最多的部分，除了系统文件夹 `Windows` 以外，还有应用程序相关的文件夹（`Program Files`、`Program Files (x86)`，以及 `Program Data`）、你自己的用户文件夹，以及两个神秘的 `hiberfil.sys` 和 `pagefile.sys` 文件。让我们来一一探查它们。
 
@@ -58,11 +58,11 @@ type: docs
 
 值得一提的是，按下 `Windows` + `R`，或直接在资源管理器的地址栏内，输入 `%appdata%` 就能进入上述 `Roaming` 文件夹，而输入 `%localappdata%` 则是 `Local` 文件夹。
 
-![AppData](manage-storage/AppData.png#center)
+![`AppData` 文件夹](manage-storage/AppData.png#center)
 
 `AppData` 文件夹一般不能乱动，软件通常会自己管理里面的内容。如果你对自己没有十足的信心，移动、删除里面的内容很有可能造成软件工作异常。不到万不得已的时候，不要考虑动它。
 
-![Dev Tool Files](manage-storage/Dev_Tool_Files.png#center)
+![用户文件夹下的 `.` 开头目录](manage-storage/Dev_Tool_Files.png#center)
 
 此外，如果你是开发人员，装了许许多多软件开发工具，那么打开用户文件夹时映入眼帘的很可能会是一大列以 `.` 开头的文件夹。这些文件夹多是不同开发工具放在这里的数据，包括但不限于软件包、SDK、插件等等内容，这些也占据了相当一部分的空间。
 
@@ -98,7 +98,7 @@ type: docs
 
 我们把整个硬盘想象成一个条带，分区则是将条带划分成了几个部分，每个部分都有自己的起始位置与终止位置。在每个分区内，我们可以认为数据是向前堆码的，也就是说，在每个分区内，数据都在「前」方，而可用空间在「后」方。
 
-![Partition Data](manage-storage/Disk_partitions.png#center)
+![分区中数据的存放方式](manage-storage/Disk_partitions.png#center)
 
 这种结构决定了分区可以在尾部进行无损的空间调节。例如，我们可以在一个分区尾部「切」出一个新的分区（请参见 [笔记本新机「开荒」指南]({{<relref "new-laptop-setup.md#划分新的分区">}})），也可以删除一个分区并把它的空间合并给前一个分区。这些操作都可以使用 Windows 自带的「磁盘管理」工具来完成。
 
@@ -110,34 +110,34 @@ type: docs
 
 ### 用 DiskGenius 进行高级分区调整
 
-DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁盘迁移等操作（其实它还支持数据恢复，不过免费版不提供）。它有免费版，以及付费的标准版和专业版三种版本，不过我们普通用户所需的功能，免费版就已经包含在内了。免费版可以前往[官网下载页面](https://www.diskgenius.cn/download.php)下载。
+DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁盘迁移等操作（其实它还支持数据恢复，不过免费版不提供）。它有免费版，以及付费的标准版和专业版三种版本，不过我们普通用户所需的功能，免费版就已经包含在内了。免费版可以前往它的官网下载页面 [https://www.diskgenius.cn/download.php](https://www.diskgenius.cn/download.php) 下载。
 
 值得一提的是，DiskGenius 的启动画面上也会写有本章开头的「八字真言」，再一次提醒我们「数据无价」这不争的事实，也提醒我们自己的数据一定要做好备份，尤其是在这样需要对硬件进行危险的操作之前。
 
-![Disk Genius](manage-storage/DiskGenius.png#center)
+![DiskGenius](manage-storage/DiskGenius.png#center)
 
 打开 DiskGenius，你电脑上所有的磁盘信息均会映入眼帘：左侧是你所有磁盘与分区的列表，上方有当前磁盘的使用情况，中间一大块则是选中分区的信息。想要操作某个分区，就再上方选中那个分区，点击右键即可。
 
-![Part Operation](manage-storage/Part_Operation.png#center)
+![DiskGenius 提供的分区操作](manage-storage/Part_Operation.png#center)
 
 现在我们的分区结构是：C 盘、D 盘（一个很小的分区）、以及一片 30 GB 的空闲空间。现在，让我们来尝试将之前那磁盘尾部的 30 GB 空间分给在中间的 C 盘。
 为了实现这样的操作，我们需要将 D 盘数据后移，把空闲空间移到 C 盘后面，再将 C 盘向后扩大。
 
 右击空闲区域之前的那一个小分区，选择【调整分区大小】，接着，软件会弹出这样的界面：
 
-![Adjust Part](manage-storage/Adjust_Part.png#center)
+![调整分区](manage-storage/Adjust_Part.png#center)
 
 上方的条条是选中的分区与它周围空闲空间的情况，下面是此次调整的详细参数。你可以选择在上面的条条中直接操作，也可以选择在底下的参数中做精细调整。如果你要删除某个分区，记得先把里面的所有文件移出来或做备份。
 
 但这次我们的任务只是想把这个小分区移到末尾去，直接在上方条条中将这个小分区拖到末尾即可（注意鼠标光标的形状，别把分区拉大了）。如果想要指定分区的容量，最好还是在底下的参数中直接输入你想要的数值。
 
-![Merge To C](manage-storage/Merge_To_C.png#center)
+![将空间合并到 C 盘](manage-storage/Merge_To_C.png#center)
 
-拖过去之后，下方「分区前部的空间」右侧下拉框就有用了，在这里选择【合并到 本地磁盘(C:)】，然后点击【开始】，点两下【是】。由于我们在操作系统盘，DiskGenius 会弹出「需要重启到 Windows PE」的警告，请仔细阅读警告，按其行事，然后再点【确定】，软件将开始工作。这段时间你可以喝杯茶，看看电脑上还有没有【确定】要点。一切顺利的话，电脑重启完毕后，你就能看到一个更大的 C 盘了！
+拖过去之后，下方「分区前部的空间」右侧下拉框就有用了，在这里选择【合并到 本地磁盘(C:)】，然后点击【开始】，点两下【是】。**由于我们在操作 C 盘，DiskGenius 会弹出「需要重启到 Windows PE」的警告**，请仔细阅读警告，按其行事，然后再点【确定】，软件将开始工作。这段时间你可以喝杯茶，看看电脑上还有没有【确定】要点。一切顺利的话，电脑重启完毕后，你就能看到一个更大的 C 盘了！
 
-![Larger C](manage-storage/Larger_C.png#center)
+![一个更大的 C 盘](manage-storage/Larger_C.png#center)
 
-> 正常来说，进行分区调整是不需要重新启动的，这个例子中重启的原因是我们调整的范围涉及到 C 盘，而 C 盘上 Windows 操作系统本身正在运行，所以需要重启到一个独立的临时系统环境（即 Windows PE）中进行操作。
+> **正常来说，进行分区调整是不需要重新启动的**，这个例子中重启的原因是我们调整的范围涉及到 C 盘，而 C 盘上 Windows 操作系统本身正在运行，所以需要重启到一个独立的临时系统环境（即 Windows PE）中进行操作。
 
 以上就是 DiskGenius 分区管理的基本使用方法。不同于「磁盘管理」工具只能对分区的尾部进行调整，DiskGenius 不仅可以将分区向前、向后扩大或缩小，还可以移动分区在整个磁盘中的位置，这使得它成为了一个非常强大的磁盘管理工具。
 
@@ -147,23 +147,23 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 
 ### 清理磁盘
 
-很多人在提到「清理硬盘空间」的时候总会联想到✕✕卫士与〇〇管家中的「垃圾清理」功能，但实际上 Windows 自带了清理硬盘空间的小工具——「磁盘清理」。
+很多人在提到「清理硬盘空间」的时候总会联想到各种「卫士」「管家」中的「垃圾清理」功能，但实际上 Windows 自带了清理硬盘空间的小工具——「磁盘清理」。
 
 要寻找磁盘清理工具，Windows 10 可以右击某个分区，点击【属性】，再点击【磁盘清理】，就可以打开清理对应分区的磁盘清理工具了。
 
-![Win 10 Disk Clean](manage-storage/Win_10_Disk_Clean.png#center)
+![Windows 10 的磁盘清理工具](manage-storage/Win_10_Disk_Clean.png#center)
 
 但是 Windows 11 中的这个地方被换成了「详细信息」。要找到磁盘清理，最快的方法是按下 `Windows` + `S`，输入「磁盘清理」就能找到，打开它，选择你需要清理的分区即可。
 
-![Search For Disk Clean](manage-storage/Search_For_Disk_Clean.jpg#center)
+![在 Windows 11 中搜索「磁盘清理」工具](manage-storage/Search_For_Disk_Clean.jpg#center)
 
 等待系统扫描可以清理的文件，一个窗口将会出现在屏幕上，询问你想要清除的项目。如果你不是以管理员的权限来运行它，那么左下方会有一个「清理系统文件」的按钮，可以点击它来清理更多内容。事实上，这些地方所列出的可清理内容（包括所谓的「系统文件」）均是系统在使用过程中产生的临时文件或不那么重要的内容，如果你的空间吃紧，可以考虑全部删除。
 
-![Disk Clean](manage-storage/Disk_Clean.png#center)
+![磁盘清理工具](manage-storage/Disk_Clean.png#center)
 
 除此之外，Windows 11 系统也可以转到【设置】→【系统】→【存储】→【清理建议】中清理系统产生的临时文件。不过要注意的是，比起「磁盘清理」工具，这里的清理内容还能包含你的「下载」文件夹。
 
-![Clean Suggest](manage-storage/Clean_Suggestion.jpg#center)
+![清理建议](manage-storage/Clean_Suggestion.jpg#center)
 
 除此之外，按下 `Windows` + `R`，输入 `%temp%` 按回车，你就来到了你用户文件夹下的本地临时文件夹。如果实在没东西可删，这里的所有内容你都可以删除（不是 `Temp` 文件夹本身，是它里面的所有内容），不过删除之前建议重启电脑。
 
@@ -213,15 +213,15 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 打开 DiskGenius，选中待迁移的磁盘，在上方点击【系统迁移】，软件会弹出窗口来询问迁移的目标磁盘，选择你的新硬盘。默认情况下，DiskGenius 只会迁移与系统有关的分区，如果你的硬盘上还有别的数据分区，则需要进一步配置。
 
-![Configure System Migration](manage-storage/Configure_System_Migration.png#center)
+![系统迁移设置](manage-storage/Configure_System_Migration.png#center)
 
 点击中间右侧的【分区管理】，在弹出的窗口中点击【添加分区】，选择你需要的分区，点【确定】即可添加。
 
-![Select Migrating Partition](manage-storage/Select_Migrating_Partition.png#center)
+![选择要迁移的分区](manage-storage/Select_Migrating_Partition.png#center)
 
 回到刚才的窗口，勾选【完成后，更改电脑启动顺序】，点击【开始】，软件将会询问你想采用的执行方式，可以选择【热迁移】，它会立即开始迁移工作，不过我们不建议这时还运行别的程序。这时你可以喝杯茶，等待软件完成工作，然后重启电脑。重启之后，你会发现现在的系统已经位于刚刚换上来的那块硬盘了，而原来的硬盘你可以选择格式化，让它来做点别的事情。
 
-![Migration Result](manage-storage/Migration_Result.png#center)
+![迁移结果](manage-storage/Migration_Result.png#center)
 
 
 ## 文件链接 *
@@ -241,7 +241,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 符号链接的行为有点像快捷方式，即一个指向其目标的「指针」，只不过，快捷方式只对资源管理器有效，而符号链接则对几乎任何软件来说都是快捷方式。既然它的行为类似快捷方式，那关于「删了它会怎么样」之类的问题想必不用多费口舌。总结起来就几句话：删除链接不会影响本体；删除本体则链接还在，但是找不到目标。
 
-![Symbolic Link](manage-storage/Symbolic_Link.png#center)
+![符号链接](manage-storage/Symbolic_Link.png#center)
 
 要想创建符号链接，你可以使用命令提示符中的 `mklink` 命令或者 PowerShell 中的 `New-Item` 命令。这两种方法各有优劣，需要根据实际情况来决定使用哪一种。欲使用 `mklink`，按照以下步骤来：
 
@@ -273,7 +273,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 硬链接的作用，一言以蔽之——从多个位置访问、修改磁盘上同一块内容。看起来好像和符号链接没差多少，但，请看下图。
 
-![Hard Link](manage-storage/Hard_Link.png#center)
+![硬链接](manage-storage/Hard_Link.png#center)
 
 以一个文件为目标建立硬链接，其实是与目标文件对应的硬盘数据相连接。从某种意义上而言，这些连接到同一块数据的不同文件，彼此之间都是硬链接关系。这样一来，如果我们打开其中一个文件做修改，这实际上是通过其中一个文件修改了硬盘数据，那么再打开其他硬链接的文件，我们会发现内容是我们刚刚修改过的。譬如上图中，给 `E:\高数秘籍.txt` 加一句话，那么查看 `E:\高数攻略.txt` 则会发现也多了一句完全一样的话。但若删除一部分链接（例如删除 `E:\高数攻略.txt`），只要这块数据仍存有链接，那么它就不会被真正删除。也就是说，要想删除硬链接过的文件，需要删除链接到同块数据的所有文件。
 
@@ -301,7 +301,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 按照硬链接的行为，**无论一份数据有多少硬链接，磁盘上都应该只有一份文件的数据，只占一份文件的空间**。事实的确如此，但文件资源管理器不这么想——有多少链接，它就给你算多少份文件大小，于是乎，就有了这样占用空间比整个硬盘还大的奇景：
 
-![Interesting_Storage_Size](manage-storage/Interesting_Storage_Size.png#center)
+![奇怪的占用空间](manage-storage/Interesting_Storage_Size.png#center)
 
 ### 目录联接
 
