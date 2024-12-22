@@ -34,7 +34,7 @@ type: docs
 
 我们来借助这个例子理解电脑硬件上的各个结构。
 
-### 处理器 / CPU
+### 处理器（CPU）
 
 中央处理器（Central Processing Unit），简称「处理器」，英文简写「CPU」，是电脑内部最重要的一枚芯片，可以想象成是电脑的「大脑」。在上面的例子中，「老师」就相当于电脑中的处理器：「老师」的作用是对「作业」进行批改，从而完成教学任务；处理器的作用是进行各种的运算，从而实现电脑不同的功能。
 
@@ -81,7 +81,7 @@ type: docs
 
 ![CPU](computer-and-its-components/Check_CPU.png#center)
 
-### 内存 / RAM
+### 内存（RAM）
 
 紧接着，我们介绍能直接与处理器交流的部件——内存，英文简写「RAM」。上一小节提到，处理器相当于大脑，但与大脑不同的是，处理器只能**处理**数据，而这些待处理的数据，需要依赖外部的元件来临时存放。内存就是用来临时存放数据的。
 
@@ -137,7 +137,7 @@ type: docs
 
 ![检查磁盘状态](computer-and-its-components/Check_disk_status.png#center)
 
-### 显卡 / GPU
+### 显卡（GPU）
 
 对于喜欢玩游戏的同学来说，「显卡」是他们在选购电脑时会着重考虑的一个因素。
 
@@ -204,7 +204,7 @@ Windows 由美国的微软公司所开发，诞生于 1985 年。到今天（202
 
 ![检查 Windows 版本](computer-and-its-components/Check_Windows_version.png#center)
 
-**本书假定读者使用的系统是 Windows 11 或者 Windows 10，其中所有的操作都是基于 Windows 11 或者 Windows 10 简体中文版系统来描述的**。不过，本书所介绍的知识是通用的，如果你使用的是 Windows 7、Windows 8 或者 Windows 8.1，本书提到的多数操作你也能正常使用。一些明确仅能用于 Windows 10 和 / 或 Windows 11 的操作和技巧一般会特别标注。
+**本书假定读者使用的系统是 Windows 11 或者 Windows 10，其中所有的操作都是基于 Windows 11 或者 Windows 10 简体中文版系统来描述的**。不过，本书所介绍的知识是通用的，如果你使用的是 Windows 7、Windows 8 或者 Windows 8.1，本书提到的多数操作你也能正常使用。一些明确仅能用于 Windows 10 和/或 Windows 11 的操作和技巧一般会特别标注。
 
 ## 练习
 

@@ -23,7 +23,7 @@ type: docs
 
 蓝屏死机，英文叫 BSoD（Blue Screen of Death，「死亡蓝屏」，很形象啊）。如今的 2023 年，大多数个人电脑上搭载的都是 Windows 10 或 Windows 11 操作系统，它们的蓝屏错误界面很有特色，大概长这样：
 
-![Win-10-BSoD](recover-from-bsod/Win-10-BSoD.png#center)
+![Windows 10 蓝屏](recover-from-bsod/Win-10-BSoD.png#center)
 
 以一个大大的文字表情「 :( 」开头，代表了人们遇到这个界面时的心声，接下来是一些说明性文字，看起来很简洁。略览这些文字，我们不难推测，**蓝屏死机一般是操作系统遭受某种不可抗错误而被迫终止运行造就的结果**。但最初的蓝色错误界面（事实上是如今蓝屏错误的前身）与这可有天壤之别。
 
@@ -31,19 +31,19 @@ type: docs
 
 第一个名叫「Windows」的操作系统是微软在 1985 年 11 月发布的 Windows 1.0，它是一个基于 DOS（Disk Operating System，磁盘操作系统）的操作系统。但作为发布的第一个版本，Windows 1.01 有着神奇的缺陷——它只能在特定 DOS 版本下运行，高了就出错。这一错，造就了历史上最早的「蓝色错误界面」（谁让 Windows 1.0 的启动界面就是蓝底白字呢）：
 
-![Win-1.0-Error](recover-from-bsod/Win-1.0-Error.png#center)
+![Windows 1.01 的蓝屏](recover-from-bsod/Win-1.0-Error.png#center)
 
 在这个错误界面上，最上方可见一些微软的版权信息，紧接着就是一句「不正确的 DOS 版本」昭示错误，随后便是满屏的乱码。但这些乱码的由来与如今的蓝屏不一样，早年的电脑，没有独立的显存，用内存的一块区域当作显存。错误的 DOS 版本导致 Windows 徽标那张图所在内存出错，又因为当时的 Windows 缺乏内存保护，于是溢出到显存区域，并不是由于系统崩溃而生。之后的 Windows 1.02 版本似乎修复了这个问题，但 Windows 2.03 版本也有同样的 bug，呈现形式也是这样 ~~，所以微软你到底是修了还是没修呢~~。
 
 1990 年，微软发布了 Windows 3.0 操作系统，这个版本获得了巨大成功，发布的半年内就卖了 200 万份。它仍然基于 DOS，但带来了更好的性能……与更新的报错界面。值得注意的一点是，在这个版本的 Windows 中，用户可以按下 `Ctrl` + `Alt` + `Delete` 来手动触发错误 ~~（随时随地蓝屏）~~。之后发布于 1994 年的 Windows 3.2 则是第一个得到广泛使用的中文版 Windows 系统（还可以玩扫雷哦），于是我们可以看到这样带中文的蓝色错误界面：
 
-![Win-3.2-Error](recover-from-bsod/Win-3.2-Error.png#center)
+![Windows 3.2 的蓝屏](recover-from-bsod/Win-3.2-Error.png#center)
 
 不过仍然与之前一样，这并不是系统崩溃，真正崩溃的话，计算机早就退回那黑黑的 DOS 界面了，更不会提供回到 Windows 的机会。但与之前不同的是，这个错误界面会提示用户系统出错的原因，更有了现代蓝屏的味道。
 
 次年，微软又发布了新一代 Windows，这次微软开始以两位数年份命名产品，叫作 Windows 95（著名的 IE 浏览器就是在这个系统中首次亮相的）。三年后，微软又发布了 Windows 98；到了 2000 年，微软~~发现把新系统命名为 00 不太合适，~~ 将新发布的系统命名为 Windows Me，这个「Me」不是英文的「我」，而是代表「千禧年版（Millennium Edition）」。这三个系统后来统一被大家称呼为「Windows 9x」（虽说最后一个似乎不太一样），想必它们的蓝屏界面也差不多。
 
-![Win-95-Error](recover-from-bsod/Win-95-Error.png#center)
+![Windows 95 的蓝屏](recover-from-bsod/Win-95-Error.png#center)
 
 嗯……看来不仅是 Windows 9x 之间差不多，它们与 Windows 3.x 也差不多，但与之前的相比增加了错误代码与错误发生的内存地址，帮助用户排查错误。然而，即便是中文版的 Windows 9x，蓝屏界面语言也依然是英文，微软似乎去掉了蓝屏界面的本地化。~~（开倒车？）~~
 
@@ -57,7 +57,7 @@ type: docs
 
 Windows NT 的第一个大版本系列是 Windows NT 3.x，它包括 1993 年发布的 3.1、1994 年发布的 3.4 与 1995 年发布的 3.51。从这个系列起，Windows 蓝屏可以真正地叫做蓝屏了，因为它来自系统运行时的崩溃，一崩溃就只能重启。
 
-![Win-NT-3.51-BSoD](recover-from-bsod/Win-NT-3.51-BSoD.png#center)
+![Windows NT 3.51 的蓝屏](recover-from-bsod/Win-NT-3.51-BSoD.png#center)
 
 这是一张 Windows NT 3.51 的蓝屏截图，可以看到上面包含了许多复杂的信息，大概分为四个部分：
 - 第一行是由一个十六进制数代表的蓝屏错误代码（指示错误类型）、四个十六进制数代表的错误参数，第二行是错误的名称以及发生的内存地址；
@@ -71,13 +71,13 @@ Windows NT 的第一个大版本系列是 Windows NT 3.x，它包括 1993 年发
 
 2000 年，微软发布了 Windows 2000 操作系统（又称 Windows 2K），即便它属于 NT 系列，却使用了与此前 DOS 系列类似的「年份命名法」，或许在千禧年发布的东西总要沾点它的光呢。在这个系统中，微软将曾经 Windows 95 与 98 里的许多特性都引入进来，让 NT 系列成为开发的主赛道。不过 Windows 2000 的蓝屏界面没有之前 NT 系列那么眼花缭乱，东西比较少，但这之中基本的东西，诸如蓝屏代码、参数，内存地址，蓝屏转储，建议话语之类还是有的，像这样：
 
-![Win-2K-BSoD](recover-from-bsod/Win-2K-BSoD.png#center)
+![Windows 2000 的蓝屏](recover-from-bsod/Win-2K-BSoD.png#center)
 
 Windows 2000 的后继者便是大名鼎鼎的 Windows XP，在前者发布的次年便很快发布，名字中的「XP」代表「eXPerience（体验）」。正如其名，Windows XP 为用户带来了不同于以往 NT 系列的体验，包括令人耳目一新的用户界面与大量性能改进。这个系统实在过于经典，以至于大概二十年后的现在，仍有一些重要设备在运行它。
 
 Windows XP 的蓝屏界面长这样：
 
-![Win-XP-BSoD](recover-from-bsod/Win-XP-BSoD.png#center)
+![Windows XP 的蓝屏](recover-from-bsod/Win-XP-BSoD.png#center)
 
 可以看到蓝屏界面的开头多了一句话：
 
@@ -102,7 +102,7 @@ Windows XP 的后继者是 Windows Vista，它于 2007 年正式发布，但似�
 
 至于蓝屏界面，自 Windows 8 开始，它就从曾经的类似命令行上一大堆信息的画面变成了现在标志性的「 :( 」画面。 ~~（那是不是说「简洁」时代其实应该叫「 :( 」时代呢？）~~
 
-![Win-8.1-BSoD](recover-from-bsod/Win-8.1-BSoD.png#center)
+![Windows 8.1 的蓝屏](recover-from-bsod/Win-8.1-BSoD.png#center)
 
 啊，时隔多年，我们再一次在蓝屏界面上看到了中文，真是可喜可贺、可歌可泣啊。但这提供的信息量相比之前的 Windows XP 到 7 的蓝屏界面少了许多，这里只告诉你「你的电脑有问题，得重启」，反倒没有了之前所看到的那一大段具体建议。此外，蓝屏代码由之前的十六进制数字变成了一串英文[^2]。比起之前那不明所以的数字，这样的错误代码倒是显得更直观，但还是很笼统。至于技术层面的错误信息，除了这个蓝屏代码就没有其他的了，甚至没有与之相关的进程信息，这导致普通用户只能根据这个蓝屏代码来搜索解决方案，增大了排查难度。 ~~（看来微软这倒车是越开越远了啊。）~~
 
@@ -110,7 +110,7 @@ Windows 8.1 的下一代是 2014 年发布的 Windows 10 ~~（9 呢？记住，�
 
 Windows 10 的下一代是 2021 年发布的 Windows 11，正式版的蓝屏界面与 Windows 10 的一模一样，但值得一提的是，在某个时段的预览版中，蓝屏界面变成了黑色，就像这样：
 
-![Win-11-Pre-BSoD](recover-from-bsod/Win-11-Pre-BSoD.png#center)
+![某些 Windows 11 预览版的「蓝」屏](recover-from-bsod/Win-11-Pre-BSoD.png#center)
 
 嗯……怎么说呢，看起来死气沉沉的。
 
@@ -132,7 +132,7 @@ Beginning dump of physical memory.
 
 这就要说到 Windows 会在蓝屏时做些什么「幕后工作」了。在蓝屏发生之时，系统会收集发生错误的进程所在的内存与堆栈内容，并将它们放入一个「蓝屏内存转储文件」中。如今的蓝屏上「我们只收集某些错误信息」说的就是这个事。也就是说，即便蓝屏界面上没有了相关的技术信息，我们也可以通过分析内存转储文件的方式查找真正的蓝屏原因。当你遇到蓝屏时，不妨在重启后立刻打开 `C:\Windows\Minidump` 目录（如果系统提示【你当前无权访问该文件夹】，请点击【继续】），你应当能看见一个（或多个）`dmp` 格式的文件。它们就是之前遇到蓝屏时，系统留下的转储文件。
 
-![Dump files](recover-from-bsod/Dump_files.png#center)
+![转储文件](recover-from-bsod/Dump_files.png#center)
 
 根据文件的修改日期，我们可以找到历次蓝屏所对应的转储文件。将它们复制出来（如果系统仍然不稳定，可以尽快复制到其他电脑上），我们就可以对它们进行分析，从而找出具体的蓝屏原因了。
 
@@ -144,19 +144,19 @@ Beginning dump of physical memory.
 
 打开 Microsoft Store，也就是微软应用商店，在上面搜索「WinDbg」，跳出来的第一个应用就会是它，点击【获取】，等待一会，就安装好了。如果不想在 Microsoft Store 安装，也可以去微软提供的 [WinDbg 官方页面](https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/)下载。
 
-![WinDbg](recover-from-bsod/WinDbg.png)
+![在 Microsoft Store 中搜索 WinDbg](recover-from-bsod/WinDbg.png)
 
 安装好之后，电脑上的蓝屏内存转储文件就能直接双击打开了。转到之前设置转储选项时看到的内存转储路径中，打开最近一次蓝屏的转储文件，你大概会看到这样的界面：
 
-![WinDbg-1](recover-from-bsod/WinDbg-1.png)
+![WinDbg 打开转储文件](recover-from-bsod/WinDbg-1.png)
 
 其中偏下方的位置有用醒目的蓝色写出的 `!analyze -v`，结合它旁边的说明就能知道，**运行这个命令就可以分析转储文件**。WinDbg 也很方便，**点击这里的蓝色文字就可以运行命令**。在命令执行过程中，左侧中下部的状态会显示 `*BUSY*`，同时最下方会显示正在从服务器下载哪些所需的文件。这时可以喝杯茶，等待分析过程完成。
 
-![WinDbg-2](recover-from-bsod/WinDbg-2.png)
+![WinDbg 分析转储文件](recover-from-bsod/WinDbg-2.png)
 
 分析完毕之后，你会发现出来了一大堆令人眼花缭乱头晕目眩的分析结果，这些结果都是以灰色背景显示的。
 
-![WinDbg-3](recover-from-bsod/WinDbg-3.png)
+![WinDbg 分析结果](recover-from-bsod/WinDbg-3.png)
 
 但是不要紧张，在里面**找到以 `PROCESS_NAME`、`MODULE_NAME` 与 `IMAGE_NAME` 开头的几行**。这几行正是与此次蓝屏相关的进程。在这个例子中，这几行分别是
 
@@ -185,7 +185,7 @@ IMAGE_NAME:  ntkrnlmp.exe
 2. 点击【高级系统设置】，弹出「系统属性」窗口；
 3. 在「系统属性」窗口中点击【高级】→「启动和故障恢复」下的【设置】，就可以看到「写入调试信息」部分有内存转储的相关设置。
 
-![DumpSetting](recover-from-bsod/Dump_Settings.png)
+![设置转储方式](recover-from-bsod/Dump_Settings.png)
 
 可见，内存转储的类型有五种，除去「小内存转储」默认保存在 `%SystemRoot%\Minidump` 文件夹下以外，其余选项默认均会生成一个路径为 `%SystemRoot%\MEMORY.DMP` 的文件。这些路径中的「`%SystemRoot%`」指的是电脑上 Windows 系统所在的目录，一般而言是 `C:\Windows`（应该不会有人大动干戈把系统移到别处去吧）。五种内存转储类型的特征大致是这样的：
 - 小内存转储：大小一般在 256 KB 到几 MB 不等，包含了最基本的崩溃进程、线程、内核堆栈数据与已加载的驱动程序列表，提供最基础的崩溃信息。它的文件名以 `MMDDYY-NNNNN-XX.dmp` 为格式，`MMDDYY` 是「月日年」格式的日期，`XX` 是两位数的当天文件编号。
@@ -206,7 +206,7 @@ IMAGE_NAME:  ntkrnlmp.exe
 
 再次审视 Windows 10/11 的蓝屏界面：
 
-![Win-10-BSoD](recover-from-bsod/Win-10-BSoD.png#center)
+![Windows 10 和 11 的蓝屏界面](recover-from-bsod/Win-10-BSoD.png#center)
 
 这上面说：
 
@@ -214,7 +214,7 @@ IMAGE_NAME:  ntkrnlmp.exe
 
 好咯，那我们就去看看。用还能联网的设备打开这个页面，映入眼帘的是这样的说明：
 
-![Stopcode-Webpage](recover-from-bsod/Stopcode-Webpage.png)
+![微软官方对蓝屏错误代码的解读](recover-from-bsod/Stopcode-Webpage.png)
 
 嗯……它说：
 

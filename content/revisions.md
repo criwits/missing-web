@@ -43,7 +43,7 @@ type: docs
 - Content update: 完成「怎样寻找优质教程」一章 (22/2/10)
 - Content update: 完成「压缩」一章 (22/2/8)
 - ~~Engine changed: 更换页面引擎为 GitBook (22/2/8)~~ (于 24/5/3 更换为 Hugo)
-- Content update: 完成「Office / WPS」「浏览器」两章 (22/1/29)
+- Content update: 完成「Office/WPS」「浏览器」两章 (22/1/29)
 - Breaking news: 教程的编写动机改变了，因此删去了「致谢」部分 (22/1/19)
 - First release: 完成「问题」一章，基础篇暂定完成，在域名上发布 (21/12/28)
 - Content update: 完成「维护与防护」一章 (21/12/27)

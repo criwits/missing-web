@@ -107,7 +107,7 @@ type: docs
 1. 计算 1 GB 等于多少 KB？等于多少字节？假设一个汉字占两个字节，1 GB 大约可以记录多少个汉字？
 2. 尝试计算，一个按「1000 进位」计算得到容量为 64 GB 的 U 盘，它按「1024 进位」得到的容量是多少？
 3. 在自己电脑上尝试这些快捷键：
-    1. `Windows` + `Shift` + `S` （仅限 Windows 10 / 11）
+    1. `Windows` + `Shift` + `S` （仅限 Windows 10/11）
     2. `Ctrl` + `Shift` + `Esc`
     3. `Windows` + `D`
     {.bracket-num}

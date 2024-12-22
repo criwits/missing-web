@@ -14,7 +14,7 @@ type: docs
 
 - 下面五个名词之间的关系：Word、PowerPoint (简称 PPT)、Excel、Office、WPS。
 - Office 版本好多，我该选哪个？2003？2007？2019？
-- 为什么我电脑上自带的 Office 点开之后却打开了一个网页 / 购买链接？
+- 为什么我电脑上自带的 Office 点开之后却打开了一个网页/购买链接？
 - Office 怎么安装？为什么还要花钱购买？
 - WPS 跟 Office 有什么区别？我如何在它们当中选择？
 
