@@ -22,7 +22,7 @@ type: docs
 
 我们绝大多数人使用电脑，都逃不开「文档写作」「幻灯片制作」「表格处理」这么三件事。也许你早已会用 WPS，或者 Word、PowerPoint 以及 Excel 这些再熟悉不过的软件来做这三件事，但这些软件背后的故事或许并不为你所知晓。
 
-需要强调的是，这部分并不是一份 Office 软件教程。我们不会介绍有关 Office 和 WPS 具体的使用方法——如果想要学习这些软件，不妨在看完本章后，按照 [怎样寻找优质的教程]({{<relref "how-to-find-tutorials.md">}}) 所介绍的方法去寻找 Office 的使用方法。
+需要强调的是，这部分并不是一份 Office 软件教程。我们不会介绍有关 Office 和 WPS 具体的使用方法——如果想要学习这些软件，不妨在看完本章后，按照 [怎样寻找优质的教程]({{<relref "how-to-find-tutorials.md">}}) 所介绍的方法去寻找 Office 的教程。
 
 ## Microsoft Office
 

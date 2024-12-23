@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="151.66043mm"
+   height="70.171242mm"
+   viewBox="0 0 151.66043 70.171242"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="Compress_and_Extract.svg"
+   inkscape:export-filename="Compress_and_Extract.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4877245"
+     inkscape:cx="228.20086"
+     inkscape:cy="73.602339"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path21" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.43873,-15.845119)">
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:0.413999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23"
+       width="66.513771"
+       height="48.462578"
+       x="106.45877"
+       y="25.827959"
+       rx="1.7127097"
+       ry="1.7127097" />
+    <path
+       id="path2"
+       style="fill:#f5edd4;stroke-width:0.343459;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 45.608846,33.282212 c -0.900464,0 -1.625685,0.724793 -1.625685,1.625257 v 28.323454 c 0,0.900463 0.725221,1.625257 1.625685,1.625257 h 21.24109 c 0.900465,0 1.625257,-0.724794 1.625257,-1.625257 V 43.270832 l -9.989048,-9.98862 z" />
+    <path
+       id="rect1"
+       style="fill:#ffe8b7;fill-opacity:1;stroke-width:0.343459;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 68.475193,43.270832 -9.989048,-9.98862 v 8.363363 c 0,0.900464 0.724792,1.625257 1.625257,1.625257 z" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 46.655073,50.427721 H 65.32968"
+       id="path3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 46.655073,51.884382 H 65.32968"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 46.655073,53.341043 H 65.32968"
+       id="path5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 46.655073,54.797704 h 7.356664"
+       id="path6"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="path7"
+       style="fill:#d4f5f5;fill-opacity:1;stroke-width:0.343459;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 111.59126,33.282212 c -0.90046,0 -1.62569,0.724793 -1.62569,1.625257 v 28.323454 c 0,0.900463 0.72523,1.625257 1.62569,1.625257 h 21.24109 c 0.90046,0 1.62526,-0.724794 1.62526,-1.625257 V 43.270832 l -9.98905,-9.98862 z" />
+    <path
+       id="path8"
+       style="fill:#b7f2ff;fill-opacity:1;stroke-width:0.343459;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 134.45761,43.270832 -9.98905,-9.98862 v 8.363363 c 0,0.900464 0.72479,1.625257 1.62526,1.625257 z" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 46.655073,46.361496 H 65.32968"
+       id="path9" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 46.655073,47.818157 H 65.32968"
+       id="path10" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';letter-spacing:0px;text-orientation:upright;fill:#b7f2ff;fill-opacity:1;stroke:#e0aa7a;stroke-width:0.514001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="112.68658"
+       y="48.75462"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.9;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#09bbe2;fill-opacity:1;stroke:none;stroke-width:0.514"
+         x="112.68658"
+         y="48.75462">011011101</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.9;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#09bbe2;fill-opacity:1;stroke:none;stroke-width:0.514"
+         x="112.68658"
+         y="52.679176"
+         id="tspan11">100010010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.9;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#09bbe2;fill-opacity:1;stroke:none;stroke-width:0.514"
+         x="112.68658"
+         y="56.603737"
+         id="tspan12">011101110</tspan></text>
+    <g
+       id="g15"
+       transform="translate(2.0120787,2.9437592)">
+      <rect
+         style="fill:#00462b;fill-opacity:1;stroke:none;stroke-width:0.555432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect13"
+         width="16.236813"
+         height="20.135"
+         x="150.43636"
+         y="37.525154"
+         rx="0.67833859"
+         ry="0.58091605" />
+      <rect
+         style="fill:#c5bba1;fill-opacity:1;stroke:none;stroke-width:0.555432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect14"
+         width="15.847431"
+         height="20.112772"
+         x="150.43636"
+         y="37.116451"
+         rx="0.67833859"
+         ry="0.58091605" />
+      <path
+         id="rect12"
+         style="fill:#00603b;stroke-width:0.555432;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="m 151.11468,34.59072 h 14.88014 c 0.3758,0 0.67834,0.259088 0.67834,0.580916 v 18.973168 c 0,0.321827 -0.30254,0.58078 -0.67834,0.580916 l -15.3409,0.0056 c -0.3758,1.36e-4 -0.21757,-0.264647 -0.21757,-0.586474 v -18.97321 c 0,-0.321828 0.30254,-0.580916 0.67833,-0.580916 z"
+         sodipodi:nodetypes="sssssssss" />
+      <path
+         style="fill:#00462b;fill-opacity:1;stroke:none;stroke-width:0.555432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 150.62385,54.505743 c 0,0 0.048,0.23898 -0.0252,0.300891 -0.19144,0.172286 -0.14462,0.300378 -0.14462,1.086346 0,0.785969 0.12651,1.232493 0.57822,1.336146 0.4517,0.103654 1.16558,0.06288 1.16558,0.06288 v 0.3629 h -1.27478 c 0,0 -0.96696,-0.155613 -0.96696,-1.778442 V 35.929386 c 0.10825,-0.491573 0.33238,-0.883869 0.67922,-1.171094 v 19.517569 z"
+         id="path14"
+         sodipodi:nodetypes="ccsscccscccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.13383px;line-height:0.9;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';letter-spacing:0px;text-orientation:upright;fill:none;fill-opacity:1;stroke:#ebc811;stroke-width:0.380503;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="152.77042"
+         y="41.548134"
+         id="text15"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.380502"
+           x="152.77042"
+           y="41.548134">Dictionary</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:3.37001px;line-height:0.9;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';letter-spacing:0px;text-orientation:upright;fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.409178;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="51.194382"
+       y="70.69854"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:0.409178"
+         x="51.194382"
+         y="70.69854">原文件</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:3.37001px;line-height:0.9;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';letter-spacing:0px;text-orientation:upright;fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.409178;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="117.15152"
+       y="70.69854"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:0.409178"
+         x="117.15152"
+         y="70.69854">符号表</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:3.37001px;line-height:0.9;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';letter-spacing:0px;text-orientation:upright;fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.409178;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="156.90784"
+       y="70.69854"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:0.409178"
+         x="156.90784"
+         y="70.69854">字典</tspan></text>
+    <g
+       id="g19"
+       transform="translate(2.9291958,1.7181494)">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#313131;stroke-width:0.414;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 138.31841,47.351047 h 4.44611"
+         id="path18" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#313131;stroke-width:0.414;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 140.54147,45.127992 v 4.44611"
+         id="path19" />
+    </g>
+    <g
+       id="g23"
+       transform="translate(0.0557913,3.8411351)">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#313131;stroke-width:0.413999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+         d="M 77.402152,43.726767 H 97.20855"
+         id="path20" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#313131;stroke-width:0.413999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+         d="M 97.397792,46.725986 H 77.591394"
+         id="path22" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:3.37001px;line-height:0.9;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';letter-spacing:0px;text-orientation:upright;fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.409178;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="84.058609"
+         y="41.906944"
+         id="text22"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:0.409178"
+           x="84.058609"
+           y="41.906944">压缩</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:3.37001px;line-height:0.9;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';letter-spacing:0px;text-orientation:upright;fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.409178;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="84.058609"
+         y="51.110386"
+         id="text23"><tspan
+           sodipodi:role="line"
+           id="tspan23"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:0.409178"
+           x="84.058609"
+           y="51.110386">解压</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:3.37001px;line-height:0.9;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Bold Semi-Condensed';letter-spacing:0px;text-orientation:upright;fill:#ffd200;fill-opacity:1;stroke:none;stroke-width:0.409178;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       x="133.00092"
+       y="30.429071"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke-width:0.409178"
+         x="133.00092"
+         y="30.429071">压缩文件</tspan></text>
+  </g>
+</svg>
