@@ -219,7 +219,7 @@ Windy 持有的公钥和私钥，只能供别人给他发送消息，因此 Hans
 - 首先，Windy 随机挑选两个超大质数 {{<katex>}}p{{</katex>}} 和 {{<katex>}}q{{</katex>}}。但在轻松体验环节，这里就选择较小的 {{<katex>}}p=2,q=11{{</katex>}}，实际的 RSA 算法中这两个质数可能有成百上千位数。
 - 计算 {{<katex>}}n=p\times q{{</katex>}} 和 {{<katex>}}\phi(n)=(p-1)(q-1){{</katex>}}。由上面选的数可得 {{<katex>}}n=22,\phi(n)=10{{</katex>}}。
 - 随后，Windy 随机挑选一个小于 {{<katex>}}\phi(n){{</katex>}} 且与它互质的数 {{<katex>}}e{{</katex>}}，比如说 3。
-- 找到一个正整数 {{<katex>}}d{{</katex>}}，使得 {{<katex>}}(e \times d){{</katex>}} 除以 {{<katex>}}\phi(n){{</katex>}} 的余数为 1。不妨选择 {{<katex>}}d=7{{</katex>}}，这样 {{<katex>}}e \times d = 21{{</katex>}}，除以 10 正好余 1。
+- 找一个正整数 {{<katex>}}d{{</katex>}}，让 {{<katex>}}(e \times d){{</katex>}} 除以 {{<katex>}}\phi(n){{</katex>}} 的余数为 1。不妨选择 {{<katex>}}d=7{{</katex>}}，这样 {{<katex>}}e \times d = 21{{</katex>}}，除以 10 正好余 1。
 
 现在，Windy 将 {{<katex>}}(n, e){{</katex>}}两个数，也就是 {{<katex>}}(22, 3){{</katex>}} 公开作为公钥，将 {{<katex>}}d=7{{</katex>}} 保留在自己手中作为私钥，并将 {{<katex>}}p, q, \phi(n){{</katex>}} 等销毁。至此，Windy 就完成了公钥和私钥的生成。
 
@@ -252,12 +252,12 @@ Windy 收到 {{<katex>}}C{{</katex>}} 后，按这个式子
 {{<katex display>}}
     C^d\,\mathrm{mod}\,n=(m^e)^d\,\mathrm{mod}\,n=m\,\mathrm{mod}\,n=m\text{。}
 {{</katex>}}
-证明过程 ~~留作大家的练习~~ 可以在网上自行搜索，不过要有一定的数学基础才能看懂哦。
+证明过程 ~~留作大家的练习~~ 可以在网上自行搜索。
 
 > 留给想尝试的读者：证明上式的关键就是证明 {{<katex>}}(m^e)^d\,\mathrm{mod}\,n=m\,\mathrm{mod}\,n{{</katex>}}，而证明它需要用到欧拉定理并分情况讨论。
 >
 
-对于第二个问题，即这样的加密能否保障安全，核心是证明「从公钥无法推导出私钥」。事实上，只要从 {{<katex>}}n=p\times q{{</katex>}} 难以反向推导出 {{<katex>}}p{{</katex>}} 和 {{<katex>}}q{{</katex>}}，就更难以知道 {{<katex>}}\phi(n)=(p-1)(q-1){{</katex>}}，因而仅拥有公钥 {{<katex>}}(n, e){{</katex>}} 时，无法计算出私钥 {{<katex>}}d{{</katex>}}。也就是说，只要分解乘积 {{<katex>}}n{{</katex>}} 足够困难，只凭公钥就推不出私钥。此外，用于加密的操作 {{<katex>}}C= m^e\,\mathrm{mod}\,n{{</katex>}} 是一个难以逆向的数学过程，这使得从密文无法直接推出明文。
+对于第二个问题，即这样的加密能否保障安全，核心是证明「从公钥无法推导出私钥」和「从密文无法推导出明文」。对于前者，只要从 {{<katex>}}n=p\times q{{</katex>}} 难以反向推导出 {{<katex>}}p{{</katex>}} 和 {{<katex>}}q{{</katex>}}，就更难以知道 {{<katex>}}\phi(n)=(p-1)(q-1){{</katex>}}，因而仅拥有公钥 {{<katex>}}(n, e){{</katex>}} 时，无法计算出私钥 {{<katex>}}d{{</katex>}}。也就是说，只要分解乘积 {{<katex>}}n{{</katex>}} 足够困难，只凭公钥就推不出私钥。对于后者，用于加密的操作 {{<katex>}}C= m^e\,\mathrm{mod}\,n{{</katex>}} （称为「模幂运算」）具有很强的单向性，这使得无法有效地从密文直接推出明文。
 
 这样一来，RSA 的安全性直接与 {{<katex>}}n{{</katex>}} 的大小挂钩。上面的例子中，我们为了方便理解，为 {{<katex>}}p{{</katex>}} 和 {{<katex>}}q{{</katex>}}选取了很小的质数。但实际上，目前广泛使用的 RSA 要求 {{<katex>}}n=p\times q{{</katex>}} 的长度为 2048 位——即数量级在 {{<katex>}}2^{2048}{{</katex>}} 左右。小于这一长度的密钥被认为是不安全的，并且有被破解的先例。可以想象，随着计算技术的不断发展，或许在未来，2048 位的密钥也不再安全，那时人们只能选择更长的 3072 甚至是 4096 位密钥。
 
