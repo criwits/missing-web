@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="178.91138mm"
+   height="102.79401mm"
+   viewBox="0 0 178.91138 102.79401"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="Smart_watch.svg"
+   inkscape:export-filename="Smart_watch.png"
+   inkscape:export-xdpi="250"
+   inkscape:export-ydpi="250"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0519801"
+     inkscape:cx="299.91063"
+     inkscape:cy="242.87533"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern44"
+       preserveAspectRatio="xMidYMid"
+       id="pattern61"
+       patternTransform="matrix(0.07528384,0,0,0.07528384,435.39927,166.15464)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6"
+       preserveAspectRatio="xMidYMid"
+       id="pattern44"
+       patternTransform="matrix(0.07528384,0,0,0.07528384,346.36479,166.15464)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5-6"
+       preserveAspectRatio="xMidYMid"
+       id="pattern6"
+       patternTransform="matrix(0.07528384,0,0,0.07528384,342.63297,166.15464)"
+       x="0"
+       y="0" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="20"
+       height="20"
+       patternTransform="translate(525,250)"
+       preserveAspectRatio="xMidYMid"
+       style="fill:#282828"
+       id="pattern5-6"
+       inkscape:label="Grid 1"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         id="path1-2-7-2"
+         style="display:inline;stroke-width:4.8561;stroke-linecap:square;paint-order:stroke markers fill;stop-color:#000000"
+         d="m 10,10 v 5 l 5,5 h 5 V 15 L 15,10 Z M 0,20 v -5 l 5,-5 h 5 v 5 L 5,20 Z M 10,10 V 5 l 5,-5 h 5 v 5 l -5,5 z M 0,0 v 5 l 5,5 h 5 V 5 L 5,0 Z" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath25">
+      <rect
+         style="fill:#ff0000;stroke:none;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect25-8"
+         width="78"
+         height="45.033199"
+         x="763.61322"
+         y="452.82422" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter13"
+       x="-0.057181986"
+       y="-0.057181986"
+       width="1.114364"
+       height="1.1381898">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.321569"
+         flood-color="rgb(0,0,0)"
+         id="feFlood12" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="2.000000"
+         id="feGaussianBlur12" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="2.000000"
+         id="feOffset12" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite12" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite13" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath22">
+      <g
+         id="g23">
+        <circle
+           style="fill:#232323;fill-opacity:1;stroke:none;stroke-width:0.809432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="circle23"
+           cx="103.86108"
+           cy="93.368256"
+           r="37.169464" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23">
+      <g
+         id="g24"
+         transform="matrix(1.3914195,0,0,1.3914195,57.31505,-71.987514)">
+        <circle
+           style="fill:#232323;fill-opacity:1;stroke:none;stroke-width:0.809432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="circle24"
+           cx="103.86108"
+           cy="93.368256"
+           r="37.169464" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath28">
+      <circle
+         style="fill:#232323;fill-opacity:1;stroke:none;stroke-width:0.809432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle29"
+         cx="103.86108"
+         cy="93.368256"
+         r="37.169464" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter70"
+       x="-0.1510384"
+       y="-0.24169712"
+       width="1.3020768"
+       height="1.5709657">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.600000"
+         flood-color="rgb(0,0,0)"
+         id="feFlood69" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="2.300000"
+         id="feGaussianBlur69" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="2.000000"
+         id="feOffset69" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite69" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite70" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.71137726,-0.71137726)">
+    <g
+       id="g73"
+       transform="translate(-12.324507,-8.098956)">
+      <circle
+         style="fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:0.914;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter13)"
+         id="circle30"
+         cx="69.003593"
+         cy="82.697601"
+         r="41.97126"
+         transform="matrix(0.68439856,0,0,0.68439856,10.74837,3.6092167)" />
+      <rect
+         style="fill:#7a7a7a;fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect30"
+         width="4.3209319"
+         height="9.4330206"
+         x="84.508514"
+         y="55.490829"
+         rx="0.99920797"
+         ry="0.99920797" />
+      <rect
+         style="fill:#1c1c1c;fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect31"
+         width="34.770859"
+         height="78.320496"
+         x="40.588913"
+         y="21.047089"
+         rx="0.99920797"
+         ry="0.99920797" />
+      <rect
+         style="fill:url(#pattern44);fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect32"
+         width="34.770859"
+         height="78.320496"
+         x="40.588913"
+         y="21.047089"
+         rx="0.99920797"
+         ry="0.99920797" />
+      <circle
+         style="fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle32"
+         cx="57.974331"
+         cy="60.207336"
+         r="28.725069" />
+      <circle
+         style="fill:#232323;fill-opacity:1;stroke:none;stroke-width:0.553974;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle33"
+         cx="57.974331"
+         cy="60.207336"
+         r="25.438728" />
+      <g
+         id="g35"
+         transform="matrix(0.49187077,0,0,0.49187077,-41.299636,18.630696)"
+         style="stroke-width:1.00026;stroke-dasharray:none">
+        <path
+           id="path33"
+           style="fill:none;fill-opacity:1;stroke:#ffe7ad;stroke-width:1.00026;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 171.13909,90.669401 a 6.9793978,6.9793978 0 0 0 -6.97942,6.979419 6.9793978,6.9793978 0 0 0 2.98638,5.70715 v 1.49034 c 0,0.80883 0.65155,1.45986 1.46038,1.45986 h 5.06532 c 0.80883,0 1.45986,-0.65103 1.45986,-1.45986 v -1.49034 a 6.9793978,6.9793978 0 0 0 2.9869,-5.70715 6.9793978,6.9793978 0 0 0 -6.97942,-6.979419 z" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#c2c0ba;stroke-width:1.00026;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="path34"
+           sodipodi:type="arc"
+           sodipodi:cx="171.1391"
+           sodipodi:cy="119.0899"
+           sodipodi:rx="10.060393"
+           sodipodi:ry="10.060393"
+           sodipodi:start="4.3633231"
+           sodipodi:end="5.0614548"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="m 167.69824,109.63622 a 10.060393,10.060393 0 0 1 6.88172,0" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.00026;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 171.16456,95.213396 -1.696,2.937566 h 3.34106 l -1.78128,3.085268"
+           id="path35" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="58.831966"
+         y="67.10331"
+         id="text35"><tspan
+           sodipodi:role="line"
+           id="tspan35"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="58.831966"
+           y="67.10331">卧室主灯</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="56.5368"
+         y="72.267296"
+         id="text36"><tspan
+           sodipodi:role="line"
+           id="tspan36"
+           style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="56.5368"
+           y="72.267296">已点亮</tspan></text>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#747474;stroke-width:0.516523;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path36"
+         sodipodi:type="arc"
+         sodipodi:cx="57.974331"
+         sodipodi:cy="60.207336"
+         sodipodi:rx="23.718967"
+         sodipodi:ry="23.718967"
+         sodipodi:start="5.4977871"
+         sodipodi:end="0.78539816"
+         sodipodi:arc-type="arc"
+         d="m 74.746173,43.435493 a 23.718967,23.718967 0 0 1 6.947125,16.771843 23.718967,23.718967 0 0 1 -6.947124,16.771843"
+         sodipodi:open="true" />
+      <circle
+         style="fill:#dbdbdb;fill-opacity:1;stroke:none;stroke-width:0.207408;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle36"
+         cx="79.928925"
+         cy="51.306816"
+         r="0.80518126" />
+      <g
+         id="g39"
+         transform="matrix(0.49187077,0,0,0.49187077,-41.299636,31.714787)"
+         clip-path="url(#clipPath23)">
+        <path
+           id="path37"
+           style="fill:none;fill-opacity:1;stroke:#67655f;stroke-width:1.214;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 171.13909,90.669401 a 6.9793978,6.9793978 0 0 0 -6.97942,6.979419 6.9793978,6.9793978 0 0 0 2.98638,5.70715 v 1.49034 c 0,0.80883 0.65155,1.45986 1.46038,1.45986 h 5.06532 c 0.80883,0 1.45986,-0.65103 1.45986,-1.45986 v -1.49034 a 6.9793978,6.9793978 0 0 0 2.9869,-5.70715 6.9793978,6.9793978 0 0 0 -6.97942,-6.979419 z" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#636363;stroke-width:1.214;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="path38"
+           sodipodi:type="arc"
+           sodipodi:cx="171.1391"
+           sodipodi:cy="119.0899"
+           sodipodi:rx="10.060393"
+           sodipodi:ry="10.060393"
+           sodipodi:start="4.3633231"
+           sodipodi:end="5.0614548"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="m 167.69824,109.63622 a 10.060393,10.060393 0 0 1 6.88172,0" />
+        <path
+           style="fill:#dbdbdb;fill-opacity:1;stroke:#636363;stroke-width:1.09153;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 169.42307,98.158508 h 3.42164"
+           id="path39" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="58.831966"
+         y="80.237617"
+         id="text39"><tspan
+           sodipodi:role="line"
+           id="tspan39"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="58.831966"
+           y="80.237617">卧室台灯</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.80231px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.95071;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="101.76065"
+         y="130.18051"
+         id="text40"
+         clip-path="url(#clipPath28)"
+         transform="matrix(0.68439856,0,0,0.68439856,-13.108039,-3.6937673)"><tspan
+           sodipodi:role="line"
+           id="tspan40"
+           style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:1.95071"
+           x="101.76065"
+           y="130.18051">已熄灭</tspan></text>
+      <g
+         id="g42"
+         transform="matrix(0.68439856,0,0,0.68439856,-13.108039,-1.4023963)">
+        <text
+           xml:space="preserve"
+           style="font-size:6.80231px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.95071;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           x="101.71304"
+           y="80.884789"
+           id="text41"><tspan
+             sodipodi:role="line"
+             id="tspan41"
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.95071"
+             x="101.71304"
+             y="80.884789">卧室门</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:6.80231px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.95071;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           x="101.76065"
+           y="88.430077"
+           id="text42"><tspan
+             sodipodi:role="line"
+             id="tspan42"
+             style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:1.95071"
+             x="101.76065"
+             y="88.430077">已反锁</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="57.911495"
+         y="42.315334"
+         id="text43"><tspan
+           sodipodi:role="line"
+           id="tspan43"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="57.911495"
+           y="42.315334">卧室</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.93948px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.84296;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="57.908199"
+         y="46.298019"
+         id="text44"><tspan
+           sodipodi:role="line"
+           id="tspan44"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.84296;stroke-opacity:1"
+           x="57.908199"
+           y="46.298019">6 个设备</tspan></text>
+      <g
+         id="g45"
+         transform="matrix(0.97892864,0,0,0.97892864,-88.782102,0.99890638)">
+        <g
+           id="g40"
+           transform="matrix(0.36950188,0,0,0.36950188,104.4162,24.204268)">
+          <g
+             id="g44"
+             transform="translate(0.00271861,0.95761336)">
+            <rect
+               style="fill:none;fill-opacity:1;stroke:#88e2e8;stroke-width:1.08797;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+               id="rect40"
+               width="7.983254"
+               height="5.7716775"
+               x="77.785942"
+               y="81.93586"
+               rx="1.252478"
+               ry="1.252478"
+               clip-path="url(#clipPath22)"
+               transform="translate(-0.37726476)" />
+            <path
+               id="path40"
+               style="fill:none;fill-opacity:1;stroke:#88e2e8;stroke-width:1.08797;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+               d="m 78.984279,81.936312 c -0.03362,-0.123307 -0.05156,-0.253215 -0.05156,-0.387467 v -2.370909 c 0,-0.808828 0.651152,-1.459979 1.45998,-1.459979 v 0 h 2.01522 c 0.808828,0 1.45998,0.651151 1.45998,1.459979 v 2.370909 c 0,0.134252 -0.01794,0.26416 -0.05156,0.387467" />
+          </g>
+        </g>
+        <path
+           id="rect44"
+           style="fill:none;fill-opacity:1;stroke:#1f99a1;stroke-width:0.479;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 131.535,58.759437 v -7.17771 c 0,-0.398756 0.26748,-0.719777 0.59972,-0.719777 v 0 h 4.7201 c 0.33224,0 0.59972,0.321021 0.59972,0.719777 v 7.17771" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#1f99a1;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 130.8045,59.02208 h 7.38054"
+           id="path45" />
+      </g>
+      <circle
+         style="fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:0.914;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter13)"
+         id="circle45"
+         cx="69.003593"
+         cy="82.697601"
+         r="41.97126"
+         transform="matrix(0.68439856,0,0,0.68439856,99.782852,3.6092167)" />
+      <rect
+         style="fill:#7a7a7a;fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect45"
+         width="4.3209319"
+         height="9.4330206"
+         x="173.543"
+         y="55.490829"
+         rx="0.99920797"
+         ry="0.99920797" />
+      <rect
+         style="fill:#1c1c1c;fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect46"
+         width="34.770859"
+         height="78.320496"
+         x="129.6234"
+         y="21.047089"
+         rx="0.99920797"
+         ry="0.99920797" />
+      <rect
+         style="fill:url(#pattern61);fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect47"
+         width="34.770859"
+         height="78.320496"
+         x="129.6234"
+         y="21.047089"
+         rx="0.99920797"
+         ry="0.99920797" />
+      <circle
+         style="fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:0.62554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle47"
+         cx="147.00882"
+         cy="60.207336"
+         r="28.725069" />
+      <circle
+         style="fill:#232323;fill-opacity:1;stroke:none;stroke-width:0.553974;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle48"
+         cx="147.00882"
+         cy="60.207336"
+         r="25.438728" />
+      <g
+         id="g50"
+         transform="matrix(0.49187077,0,0,0.49187077,47.734846,18.630696)"
+         style="opacity:0.539735;stroke-width:1.00026;stroke-dasharray:none">
+        <path
+           id="path48"
+           style="fill:none;fill-opacity:1;stroke:#ffe7ad;stroke-width:1.00026;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 171.13909,90.669401 a 6.9793978,6.9793978 0 0 0 -6.97942,6.979419 6.9793978,6.9793978 0 0 0 2.98638,5.70715 v 1.49034 c 0,0.80883 0.65155,1.45986 1.46038,1.45986 h 5.06532 c 0.80883,0 1.45986,-0.65103 1.45986,-1.45986 v -1.49034 a 6.9793978,6.9793978 0 0 0 2.9869,-5.70715 6.9793978,6.9793978 0 0 0 -6.97942,-6.979419 z" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#c2c0ba;stroke-width:1.00026;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="path49"
+           sodipodi:type="arc"
+           sodipodi:cx="171.1391"
+           sodipodi:cy="119.0899"
+           sodipodi:rx="10.060393"
+           sodipodi:ry="10.060393"
+           sodipodi:start="4.3633231"
+           sodipodi:end="5.0614548"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="m 167.69824,109.63622 a 10.060393,10.060393 0 0 1 6.88172,0" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.00026;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 171.16456,95.213396 -1.696,2.937566 h 3.34106 l -1.78128,3.085268"
+           id="path50" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;opacity:0.539735;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="147.86646"
+         y="67.10331"
+         id="text50"><tspan
+           sodipodi:role="line"
+           id="tspan50"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="147.86646"
+           y="67.10331">卧室主灯</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;opacity:0.539735;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="145.57129"
+         y="72.267296"
+         id="text51"><tspan
+           sodipodi:role="line"
+           id="tspan51"
+           style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="145.57129"
+           y="72.267296">已点亮</tspan></text>
+      <path
+         style="opacity:0.539735;fill:none;fill-opacity:1;stroke:#747474;stroke-width:0.516523;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path51"
+         sodipodi:type="arc"
+         sodipodi:cx="147.00882"
+         sodipodi:cy="60.207336"
+         sodipodi:rx="23.718967"
+         sodipodi:ry="23.718967"
+         sodipodi:start="5.4977871"
+         sodipodi:end="0.78539816"
+         sodipodi:arc-type="arc"
+         d="m 163.78066,43.435493 a 23.718967,23.718967 0 0 1 6.94713,16.771843 23.718967,23.718967 0 0 1 -6.94713,16.771843"
+         sodipodi:open="true" />
+      <circle
+         style="opacity:1;fill:#767676;fill-opacity:1;stroke:none;stroke-width:0.207408;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle51"
+         cx="168.96341"
+         cy="51.306816"
+         r="0.80518126" />
+      <g
+         id="g54"
+         transform="matrix(0.49187077,0,0,0.49187077,47.734846,31.714787)"
+         clip-path="url(#clipPath23)"
+         style="opacity:0.539735">
+        <path
+           id="path52"
+           style="fill:none;fill-opacity:1;stroke:#67655f;stroke-width:1.214;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 171.13909,90.669401 a 6.9793978,6.9793978 0 0 0 -6.97942,6.979419 6.9793978,6.9793978 0 0 0 2.98638,5.70715 v 1.49034 c 0,0.80883 0.65155,1.45986 1.46038,1.45986 h 5.06532 c 0.80883,0 1.45986,-0.65103 1.45986,-1.45986 v -1.49034 a 6.9793978,6.9793978 0 0 0 2.9869,-5.70715 6.9793978,6.9793978 0 0 0 -6.97942,-6.979419 z" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#636363;stroke-width:1.214;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="path53"
+           sodipodi:type="arc"
+           sodipodi:cx="171.1391"
+           sodipodi:cy="119.0899"
+           sodipodi:rx="10.060393"
+           sodipodi:ry="10.060393"
+           sodipodi:start="4.3633231"
+           sodipodi:end="5.0614548"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="m 167.69824,109.63622 a 10.060393,10.060393 0 0 1 6.88172,0" />
+        <path
+           style="fill:#dbdbdb;fill-opacity:1;stroke:#636363;stroke-width:1.09153;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 169.42307,98.158508 h 3.42164"
+           id="path54" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;opacity:0.539735;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="147.86646"
+         y="80.237617"
+         id="text54"><tspan
+           sodipodi:role="line"
+           id="tspan54"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="147.86646"
+           y="80.237617">卧室台灯</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.80231px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;opacity:0.539735;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.95071;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="101.76065"
+         y="130.18051"
+         id="text55"
+         clip-path="url(#clipPath28)"
+         transform="matrix(0.68439856,0,0,0.68439856,75.926443,-3.6937673)"><tspan
+           sodipodi:role="line"
+           id="tspan55"
+           style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:1.95071"
+           x="101.76065"
+           y="130.18051">已熄灭</tspan></text>
+      <g
+         id="g57"
+         transform="matrix(0.68439856,0,0,0.68439856,75.926443,-1.4023963)"
+         style="opacity:0.539735">
+        <text
+           xml:space="preserve"
+           style="font-size:6.80231px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.95071;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           x="101.71304"
+           y="80.884789"
+           id="text56"><tspan
+             sodipodi:role="line"
+             id="tspan56"
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.95071"
+             x="101.71304"
+             y="80.884789">卧室门</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:6.80231px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.95071;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           x="101.76065"
+           y="88.430077"
+           id="text57"><tspan
+             sodipodi:role="line"
+             id="tspan57"
+             style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:1.95071"
+             x="101.76065"
+             y="88.430077">已反锁</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4.65549px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;opacity:0.539735;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:1.33506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="146.94598"
+         y="42.315334"
+         id="text58"><tspan
+           sodipodi:role="line"
+           id="tspan58"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33506"
+           x="146.94598"
+           y="42.315334">卧室</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.93948px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;opacity:0.539735;fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.84296;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="146.94269"
+         y="46.298019"
+         id="text59"><tspan
+           sodipodi:role="line"
+           id="tspan59"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.84296;stroke-opacity:1"
+           x="146.94269"
+           y="46.298019">6 个设备</tspan></text>
+      <g
+         id="g61"
+         transform="matrix(0.97892864,0,0,0.97892864,0.25238032,0.99890638)"
+         style="opacity:0.539735">
+        <g
+           id="g60"
+           transform="matrix(0.36950188,0,0,0.36950188,104.4162,24.204268)">
+          <g
+             id="g59"
+             transform="translate(0.00271861,0.95761336)">
+            <rect
+               style="fill:none;fill-opacity:1;stroke:#88e2e8;stroke-width:1.08797;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+               id="rect59"
+               width="7.983254"
+               height="5.7716775"
+               x="77.785942"
+               y="81.93586"
+               rx="1.252478"
+               ry="1.252478"
+               clip-path="url(#clipPath22)"
+               transform="translate(-0.37726476)" />
+            <path
+               id="path59"
+               style="fill:none;fill-opacity:1;stroke:#88e2e8;stroke-width:1.08797;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+               d="m 78.984279,81.936312 c -0.03362,-0.123307 -0.05156,-0.253215 -0.05156,-0.387467 v -2.370909 c 0,-0.808828 0.651152,-1.459979 1.45998,-1.459979 v 0 h 2.01522 c 0.808828,0 1.45998,0.651151 1.45998,1.459979 v 2.370909 c 0,0.134252 -0.01794,0.26416 -0.05156,0.387467" />
+          </g>
+        </g>
+        <path
+           id="path60"
+           style="fill:none;fill-opacity:1;stroke:#1f99a1;stroke-width:0.479;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 131.535,58.759437 v -7.17771 c 0,-0.398756 0.26748,-0.719777 0.59972,-0.719777 v 0 h 4.7201 c 0.33224,0 0.59972,0.321021 0.59972,0.719777 v 7.17771" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#1f99a1;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 130.8045,59.02208 h 7.38054"
+           id="path61" />
+      </g>
+      <rect
+         style="fill:#2c2c2c;fill-opacity:1;stroke:none;stroke-width:0.349999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter70)"
+         id="rect61"
+         width="36.546997"
+         height="22.838501"
+         x="128.73532"
+         y="45.08353"
+         rx="3.9209738"
+         ry="3.9209738" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.52419px;line-height:0.9;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:0.723865;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="137.73233"
+         y="49.303307"
+         id="text70"><tspan
+           sodipodi:role="line"
+           id="tspan70"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.723865"
+           x="137.73233"
+           y="49.303307">微信 <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';stroke-width:0.723865"
+   id="tspan71">· 现在</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.25673px;line-height:1.2;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;white-space:pre;inline-size:34.1833;display:inline;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:0.933937;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="141.49026"
+         y="55.254234"
+         id="text72"
+         transform="matrix(0.95662232,0,0,0.95662232,12.613315,7.5804276)"><tspan
+           x="141.49026"
+           y="55.254234"
+           id="tspan2"><tspan
+             style="text-align:start;text-anchor:start;fill:#ffffff;stroke:none"
+             id="tspan1">你怎么在玩家里的门和</tspan></tspan><tspan
+           x="141.49026"
+           y="59.162311"
+           id="tspan4"><tspan
+             style="text-align:start;text-anchor:start;fill:#ffffff;stroke:none"
+             id="tspan3">灯？</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.25673px;line-height:1.2;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;white-space:pre;inline-size:34.1833;display:inline;fill:none;fill-opacity:1;stroke:#fbd26e;stroke-width:0.933937;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="141.49026"
+         y="55.254234"
+         id="text73"
+         transform="matrix(0.95662232,0,0,0.95662232,12.560352,2.111715)"><tspan
+           x="141.49026"
+           y="55.254234"
+           id="tspan6"><tspan
+             style="text-align:start;text-anchor:start;fill:#ffffff;stroke:none"
+             id="tspan5">老妈（1 条新消息）</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
