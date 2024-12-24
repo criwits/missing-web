@@ -55,3 +55,11 @@ type: docs
 ## 《你缺计课》编委会第一届诗词大会
 
 ![好诗好诗](anecdote/poems.png)
+
+## 据说 Hans 用的是五笔
+
+![也许吧](anecdote/wubi_or.png)
+
+## 批判与自我批判
+
+![这是好的，值得批判](anecdote/self_critics.png)
