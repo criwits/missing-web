@@ -132,11 +132,11 @@ Office 这种软件自然免不了被盗版的命运。但是除了常规的盗�
 
 ## WPS Office
 
-**WPS Office 是除了微软 Office 自身外，对 Office 文件格式（包含新旧两种格式）支持最好的办公软件**，可以说没有之一。人们一般会把 WPS Office 简称为「WPS」，它包含三个主要的子组件，分别是「WPS 文字」「WPS 演示」和「WPS 表格」，依次对标 Office 套装中的 Word、PowerPoint 和 Excel。WPS 使用类似于 Office 的界面，默认使用 Office 文件格式进行文件保存，因而在大多数情况下都可以作为 Office 的替代品。
+**WPS Office 是除了微软 Office 自身外，对 Office 文件格式（包含新旧两种格式）支持最好的办公软件**，可以说没有之一。人们一般会把 WPS Office 简称为「**WPS**」，它包含三个主要的子组件，分别是「WPS 文字」「WPS 演示」和「WPS 表格」，依次对标 Office 套装中的 Word、PowerPoint 和 Excel。WPS 使用类似于 Office 的界面，默认使用 Office 文件格式进行文件保存，因而在大多数情况下都可以作为 Office 的替代品。
 
 ### WPS 的历史
 
-WPS 是由 [金山公司](https://www.kingsoft.com/) 开发的国产免费软件，但与很多人的臆想不同，WPS 并不是靠「模仿」Office 起家的。1989 年，香港金山公司的年轻工程师求伯君开发了一款中文文字处理系统（word processing system, WPS），名叫「Super-WPS」，一经出现，风靡全国，几乎占据了中国文字处理软件市场的绝大部分份额。下图是 Super-WPS 的启动界面。
+WPS 是由我国公司金山软件开发的免费软件，但与很多人的臆想不同，WPS 并不是靠「模仿」Office 起家的。1989 年，香港金山公司的年轻工程师求伯君开发了一款中文文字处理系统（word processing system, WPS），名叫「Super-WPS」，一经出现，风靡全国，几乎占据了中国文字处理软件市场的绝大部分份额。下图是 Super-WPS 的启动界面。
 
 ![Super-WPS](office-and-wps/Super-WPS.png#center)
 
