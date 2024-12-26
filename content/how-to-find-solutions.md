@@ -197,12 +197,12 @@ AI 模型的训练语料极为庞大，网上无数有关常见的电脑错误�
 
 1. 如果你准备使用「Premiere」软件制作一个视频，但在导出时弹出了下面的窗口，你应该用什么样的搜索语句上网检索？
     
-    ![Encoder_error](how-to-find-solutions/Encoder_error.png#center)
+    ![Adobe Media Encoder 错误](how-to-find-solutions/Encoder_error.png#center)
     
 2. 如果你准备打开一个小工具程序时，弹出了这样的窗口，你应该怎么办？
     
-    ![Requiring_dotNET](how-to-find-solutions/Requiring_dotNET.png#center)
+    ![缺少 .Net 3.5](how-to-find-solutions/Requiring_dotNET.png#center)
     
 3. 如果你准备打开一个应用时，弹出了这样的窗口，你应该怎么办？
     
-    ![Requiring_MSVC](how-to-find-solutions/Requiring_MSVC.png#center)
+    ![缺失一个动态库文件](how-to-find-solutions/Requiring_MSVC.png#center)
