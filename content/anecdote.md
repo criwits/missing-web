@@ -63,3 +63,7 @@ type: docs
 ## 批判与自我批判
 
 ![这是好的，值得批判](anecdote/self_critics.png)
+
+## 《原神》入脑
+
+![没救了](anecdote/too_expensive.png)
