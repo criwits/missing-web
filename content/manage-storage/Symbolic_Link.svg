@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="293.77563mm"
+   height="111.41978mm"
+   viewBox="0 0 293.77563 111.41978"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="符号链接.svg"
+   inkscape:export-filename="符号链接.png"
+   inkscape:export-xdpi="220"
+   inkscape:export-ydpi="220"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="1.0444209"
+     inkscape:cx="406.92406"
+     inkscape:cy="168.99317"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_5"
+       id="pattern7770"
+       patternTransform="matrix(0.28098288,0.28098288,-8.357906,8.357906,-3.1750001,0)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips1_5"
+       inkscape:stockid="Stripes 1:5">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect1858" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3096"
+       id="pattern6307"
+       patternTransform="matrix(0,0.97920109,-6.6736197,0,80.299813,-2.5078408)" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L" />
+    </marker>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern3096"
+       patternTransform="matrix(0,0.97920109,-6.6736197,0,-20.241858,-2.5078408)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips1_1"
+       inkscape:stockid="Stripes 1:1"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect1828" />
+    </pattern>
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.5235224,-7.1652594)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.813423;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect9904"
+       width="293.77563"
+       height="111.41978"
+       x="7.5235224"
+       y="7.1652594"
+       sodipodi:insensitive="true" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.853;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 38.879759,13.255729 H 21.85404 V 45.499397 H 46.053245 V 20.062726 Z"
+       id="path236"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:url(#pattern3096);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 38.350592,16.959896 H 25.02904 V 41.79523 H 42.878245 V 21.121059 Z"
+       id="path3043"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="33.717464"
+       y="51.831486"
+       id="text3152"><tspan
+         sodipodi:role="line"
+         id="tspan3150"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="33.717464"
+         y="51.831486">E:\高数秘籍.txt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="35.55085"
+       y="97.031502"
+       id="text3152-1"><tspan
+         sodipodi:role="line"
+         id="tspan3150-90"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="35.55085"
+         y="97.031502">某处的符号链接</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="82.767212"
+       y="68.511513"
+       id="text3152-5"><tspan
+         sodipodi:role="line"
+         id="tspan3150-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="82.767212"
+         y="68.511513">硬盘某处</tspan></text>
+    <rect
+       style="fill:#fffd9d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.77303;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect3506"
+       width="21.993031"
+       height="25.919647"
+       x="71.803673"
+       y="36.465023" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="82.86351"
+       y="39.16497"
+       id="text3510"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="82.86351"
+         y="39.16497"
+         id="tspan5730">111010011010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="82.86351"
+         y="43.751083"
+         id="tspan5741">101110011000</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="82.86351"
+         y="48.337196"
+         id="tspan5743">111001101001</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="82.86351"
+         y="52.923313"
+         id="tspan5745">010110110000</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="82.86351"
+         y="57.509426"
+         id="tspan5747">111001111010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="82.86351"
+         y="62.095539"
+         id="tspan5751">011110011000</tspan></text>
+    <g
+       id="g5837"
+       transform="matrix(0.71649202,0.39089589,-0.39089589,0.71649202,-7.0480547,-8.2019263)"
+       style="stroke:#c36a00;stroke-opacity:1">
+      <path
+         id="path3366"
+         style="fill:none;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;stroke-opacity:1"
+         d="m 85.837138,12.357696 c 0.357219,-0.618771 0.357219,-1.381107 0,-1.999878 C 85.479924,9.739155 84.819846,9.357879 84.105461,9.357879 h -3.292306 c -0.71453,0 -1.374412,0.381137 -1.731677,0.999939 -0.357265,0.618801 -0.357265,1.381076 0,1.999878 0.357265,0.618801 1.017147,0.999939 1.731677,0.999939 1.097435,0 2.625757,1.13e-4 3.292306,0 0.714385,-1.21e-4 1.374463,-0.381276 1.731677,-0.999939 z"
+         sodipodi:nodetypes="sssssssss" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m 84.81403,11.359087 h 7.263051"
+         id="path3497"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g5810"
+         transform="translate(17.047439,-29.63963)"
+         style="stroke:#c36a00;stroke-opacity:1">
+        <path
+           id="path5806"
+           style="fill:none;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;stroke-opacity:1"
+           d="m 80.960532,41.997326 c 0.357219,-0.618771 0.357219,-1.381107 0,-1.999878 -0.357214,-0.618663 -1.017292,-0.999939 -1.731677,-0.999939 h -3.292306 c -0.71453,0 -1.374412,0.381137 -1.731677,0.999939 -0.357265,0.618801 -0.357265,1.381076 0,1.999878 0.357265,0.618801 1.017147,0.999939 1.731677,0.999939 1.097435,0 2.625757,1.13e-4 3.292306,0 0.714385,-1.21e-4 1.374463,-0.381276 1.731677,-0.999939 z"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+           d="m 79.937424,40.998717 h 7.263051"
+           id="path5808"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g5816"
+         transform="translate(29.218274,-29.63963)"
+         style="stroke:#c36a00;stroke-opacity:1">
+        <path
+           id="path5812"
+           style="fill:none;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;stroke-opacity:1"
+           d="m 80.960532,41.997326 c 0.357219,-0.618771 0.357219,-1.381107 0,-1.999878 -0.357214,-0.618663 -1.017292,-0.999939 -1.731677,-0.999939 h -3.292306 c -0.71453,0 -1.374412,0.381137 -1.731677,0.999939 -0.357265,0.618801 -0.357265,1.381076 0,1.999878 0.357265,0.618801 1.017147,0.999939 1.731677,0.999939 1.097435,0 2.625757,1.13e-4 3.292306,0 0.714385,-1.21e-4 1.374463,-0.381276 1.731677,-0.999939 z"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+           d="m 79.937424,40.998717 h 7.263051"
+           id="path5814"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <path
+       id="rect5891"
+       style="fill:#82ebff;fill-rule:evenodd;stroke:#000000;stroke-width:0.509992;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;fill-opacity:1"
+       d="m 22.757324,73.272409 h 18.358133 l 8.152645,8.232421 -8.152645,8.232421 H 22.757324 Z"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="25.317232"
+       y="80.470413"
+       id="text5923"><tspan
+         sodipodi:role="line"
+         id="tspan5921"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="25.317232"
+         y="80.470413">E:\高数</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="25.317232"
+         y="85.056526"
+         id="tspan5975">  秘籍.txt</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.853;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2);stop-color:#000000"
+       d="M 44.782871,80.430036 C 50.521705,74.969838 50.858322,63.494602 42.633292,56.247284"
+       id="path6006"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.853;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 139.42145,13.255729 h -17.02573 v 32.243668 h 24.19922 V 20.062726 Z"
+       id="path6245"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:url(#pattern6307);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 138.89229,16.959896 H 125.57072 V 41.79523 h 17.84922 V 21.121059 Z"
+       id="path6247"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="134.25912"
+       y="51.831486"
+       id="text6251"><tspan
+         sodipodi:role="line"
+         id="tspan6249"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="134.25912"
+         y="51.831486">E:\高数秘籍.txt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="183.3089"
+       y="68.511513"
+       id="text6259"><tspan
+         sodipodi:role="line"
+         id="tspan6257"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="183.3089"
+         y="68.511513">硬盘某处</tspan></text>
+    <rect
+       style="fill:#fffd9d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.77303;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect6261"
+       width="21.993031"
+       height="25.919647"
+       x="172.34537"
+       y="36.465023" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="183.40521"
+       y="39.16497"
+       id="text6275"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="183.40521"
+         y="39.16497"
+         id="tspan6263">111010011010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="183.40521"
+         y="43.751083"
+         id="tspan6265">101110011000</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="183.40521"
+         y="48.337196"
+         id="tspan6267">111001101001</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="183.40521"
+         y="52.923313"
+         id="tspan6269">010110110000</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="183.40521"
+         y="57.509426"
+         id="tspan6271">111001111010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="183.40521"
+         y="62.095539"
+         id="tspan6273">011110011000</tspan></text>
+    <g
+       id="g6293"
+       transform="matrix(0.71649202,0.39089589,-0.39089589,0.71649202,93.493617,-8.2019263)"
+       style="stroke:#c36a00;stroke-opacity:1">
+      <path
+         id="path6277"
+         style="fill:none;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;stroke-opacity:1"
+         d="m 85.837138,12.357696 c 0.357219,-0.618771 0.357219,-1.381107 0,-1.999878 C 85.479924,9.739155 84.819846,9.357879 84.105461,9.357879 h -3.292306 c -0.71453,0 -1.374412,0.381137 -1.731677,0.999939 -0.357265,0.618801 -0.357265,1.381076 0,1.999878 0.357265,0.618801 1.017147,0.999939 1.731677,0.999939 1.097435,0 2.625757,1.13e-4 3.292306,0 0.714385,-1.21e-4 1.374463,-0.381276 1.731677,-0.999939 z"
+         sodipodi:nodetypes="sssssssss" />
+      <path
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m 84.81403,11.359087 h 7.263051"
+         id="path6279"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g6285"
+         transform="translate(17.047439,-29.63963)"
+         style="stroke:#c36a00;stroke-opacity:1">
+        <path
+           id="path6281"
+           style="fill:none;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;stroke-opacity:1"
+           d="m 80.960532,41.997326 c 0.357219,-0.618771 0.357219,-1.381107 0,-1.999878 -0.357214,-0.618663 -1.017292,-0.999939 -1.731677,-0.999939 h -3.292306 c -0.71453,0 -1.374412,0.381137 -1.731677,0.999939 -0.357265,0.618801 -0.357265,1.381076 0,1.999878 0.357265,0.618801 1.017147,0.999939 1.731677,0.999939 1.097435,0 2.625757,1.13e-4 3.292306,0 0.714385,-1.21e-4 1.374463,-0.381276 1.731677,-0.999939 z"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+           d="m 79.937424,40.998717 h 7.263051"
+           id="path6283"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g6291"
+         transform="translate(29.218274,-29.63963)"
+         style="stroke:#c36a00;stroke-opacity:1">
+        <path
+           id="path6287"
+           style="fill:none;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;stroke-opacity:1"
+           d="m 80.960532,41.997326 c 0.357219,-0.618771 0.357219,-1.381107 0,-1.999878 -0.357214,-0.618663 -1.017292,-0.999939 -1.731677,-0.999939 h -3.292306 c -0.71453,0 -1.374412,0.381137 -1.731677,0.999939 -0.357265,0.618801 -0.357265,1.381076 0,1.999878 0.357265,0.618801 1.017147,0.999939 1.731677,0.999939 1.097435,0 2.625757,1.13e-4 3.292306,0 0.714385,-1.21e-4 1.374463,-0.381276 1.731677,-0.999939 z"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c36a00;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+           d="m 79.937424,40.998717 h 7.263051"
+           id="path6289"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 105.86671,16.659228 V 93.506633"
+       id="path6501" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="233.4593"
+       y="97.031502"
+       id="text6916"><tspan
+         sodipodi:role="line"
+         id="tspan6914"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="233.4593"
+         y="97.031502">某处的符号链接</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="280.67554"
+       y="68.511513"
+       id="text6920"><tspan
+         sodipodi:role="line"
+         id="tspan6918"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="280.67554"
+         y="68.511513">硬盘某处</tspan></text>
+    <rect
+       style="fill:#fffd9d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.77303;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect1"
+       width="21.993031"
+       height="25.919647"
+       x="269.71204"
+       y="36.465023" />
+    <rect
+       style="fill:url(#pattern7770);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.77303;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect6922"
+       width="21.993031"
+       height="25.919647"
+       x="269.71204"
+       y="36.465023" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="280.77185"
+       y="39.16497"
+       id="text6936"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="280.77185"
+         y="39.16497"
+         id="tspan6924">111010011010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="280.77185"
+         y="43.751083"
+         id="tspan6926">101110011000</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="280.77185"
+         y="48.337196"
+         id="tspan6928">111001101001</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="280.77185"
+         y="52.923313"
+         id="tspan6930">010110110000</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="280.77185"
+         y="57.509426"
+         id="tspan6932">111001111010</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#010000;fill-opacity:1;stroke:none;stroke-width:0.853"
+         x="280.77185"
+         y="62.095539"
+         id="tspan6934">011110011000</tspan></text>
+    <path
+       id="path6956"
+       style="fill:#82ebff;fill-rule:evenodd;stroke:#000000;stroke-width:0.509992;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;fill-opacity:1"
+       d="m 220.66572,73.272409 h 18.35814 l 8.15265,8.232421 -8.15265,8.232421 h -18.35814 z"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="223.22568"
+       y="80.470413"
+       id="text6962"><tspan
+         sodipodi:role="line"
+         id="tspan6958"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="223.22568"
+         y="80.470413">E:\高数</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;stroke-width:0.853"
+         x="223.22568"
+         y="85.056526"
+         id="tspan6960">  秘籍.txt</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.853;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2);stop-color:#000000"
+       d="m 242.69128,80.430036 c 5.73883,-5.460198 6.07545,-16.935434 -2.14958,-24.182752"
+       id="path6964"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 206.93761,16.659228 V 93.506633"
+       id="path7316" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff4300;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="227.54639"
+       y="54.814232"
+       id="text8116"><tspan
+         sodipodi:role="line"
+         id="tspan8114"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff4300;fill-opacity:1;stroke:none;stroke-width:0.853;stroke-opacity:1"
+         x="227.54639"
+         y="54.814232">？</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="56.724606"
+       y="111.77804"
+       id="text8120"><tspan
+         sodipodi:role="line"
+         id="tspan8118"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.853"
+         x="56.724606"
+         y="111.77804">指向文件的符号链接</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="156.20795"
+       y="111.77804"
+       id="text8124"><tspan
+         sodipodi:role="line"
+         id="tspan8122"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.853"
+         x="156.20795"
+         y="111.77804">删除符号链接</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.853001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       x="253.57472"
+       y="111.77804"
+       id="text8128"><tspan
+         sodipodi:role="line"
+         id="tspan8126"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.853"
+         x="253.57472"
+         y="111.77804">删除文件</tspan></text>
+  </g>
+</svg>

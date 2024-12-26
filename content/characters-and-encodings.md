@@ -163,7 +163,7 @@ ASCII 使用 7 位二进制数来编码字符，可以表示的数据范围是 0
 「少<span style="display: inline-block; transform: scaleX(.5) translateX(-.51em); width: 1em; white-space: nowrap;">口罗</span>嗦！」方<span style="font-family: simsun, serif;">镕</span>打断道。
 {{< /hint >}}
 
-另一方面，人们也在推动更多字符被收进编码体系中。1995 年，《汉字内码扩展规范》发布，通称「GBK」，意为「国标扩」，收录汉字的总量达到了 21003，代替了 GB2312 在代码页 936 中的位置。它在双字节中没有用上的很大一部分都塞上了汉字，如下图「GBK」部分所示，其中「GBK/1」「GBK/2」部分就是 GB2312。还是为了避免与 ASCII 相冲突，GBK 仅使用 `80` 及以上的值作为双字节编码开头——这已经切着 ASCII `7F` 的上限了。
+另一方面，人们也在推动更多字符被收进编码体系中。1995 年，《汉字内码扩展规范》发布，通称「GBK」，意为「国标扩」，收录汉字的总量达到了 21003，代替了 GB2312 在代码页 936 中的位置。它在双字节中没有用上的很大一部分都塞上了汉字，如下图「GBK」部分所示，其中「GBK/1」「GBK/2」部分就是 GB2312。还是为了避免与 ASCII 相冲突，GBK 仅使用 `80` 以上的值作为双字节编码开头——这差不多切着 ASCII `7F` 的上限了。
 
 ![GBK](characters-and-encodings/GBK.png)
 
