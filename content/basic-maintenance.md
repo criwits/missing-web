@@ -102,7 +102,7 @@ type: docs
 
 Windows 一直在不断的更新之中——这里的「更新」指的不是诸如「Windows 7」「Windows 10」这样的大版本的更新，而是那时不时阻碍我们关机睡觉的「Windows 更新」。打开系统设置，Windows 10 选择【更新与安全】（下左图）、Windows 11 选择【Windows 更新】（下右图），你就能看到现在可用的一些 Windows 更新以及它们的状态。
 
-![Windows 更新](basic-maintenance/Update.jpg#center)
+![Windows 更新](basic-maintenance/Update.png#center)
 
 在今天的 Windows 10 或者 Windows 11 系统中，Windows 更新主要会包括以下这些内容：
 
