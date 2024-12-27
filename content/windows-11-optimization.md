@@ -178,3 +178,7 @@ Windows Registry Editor Version 5.00
 ```
 
 你可以将这两个 `reg` 文件留着，以备不时之需。
+
+## 练习
+
+如果你不习惯 Windows 11 的某些改变，不妨按本章提供的方法进行修整。

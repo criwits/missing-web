@@ -17,7 +17,7 @@ type: docs
 | :-: | :-: |
 | Intel Corporation | 英特尔 |
 | Advanced Micro Devices, Inc. | AMD |
-| Nvidia Corporation | 英伟达 |
+| Nvidia Corporation | 英伟达、NVIDIA |
 | Microsoft Corporation | 微软 |
 | 华为技术有限公司 | 华为 |
 | 海思半导体有限公司 | 海思、华为海思 |
@@ -29,3 +29,7 @@ type: docs
 | 金山软件有限公司 | 金山软件、金山 |
 | Google LLC | 谷歌 |
 | 摩尔线程智能科技（北京）有限责任公司 | 摩尔线程 |
+| Qualcomm Inc. | 高通 |
+| Samsung Electronics Co., Ltd. | 三星 |
+| 联发科技股份有限公司 | 联发科 |
+| Texas Instruments Incorporated | 德州仪器 |
