@@ -5,11 +5,7 @@ type: docs
 
 # 借物表
 
-{{<hint warning>}}
-我们的图片版权标注工作还在进行，因此本列表并不完整。
-{{</hint>}}
-
-在《你缺失的那门计算机课》中，为便于进行讲解，我们使用了一些来自互联网的图片等素材。在此，我们按章节逐一列出它们的来源、作者和版权信息，供读者查阅。我们对这些内容的作者表示衷心的感谢。
+在《你缺失的那门计算机课》中，为便于讲解，我们使用了一些来自互联网的图片等素材。在此，我们按章节逐一列出它们的来源、作者和版权信息，供读者查阅。我们对这些内容的作者表示衷心的感谢。
 
 本书中提及和展示的商标、标志及相关知识产权，无论是否标注有 ® 或 ™ 及其他标识，均归它们各自的权利持有人所有。引用这些商标或标志仅用于识别和介绍相关产品、服务或公司，并无意侵犯其商标或版权。鉴于许多商标和标志图像的版权与授权方式难以界定，我们将它们一并在本页列出，并注明它们的原始来源。
 
@@ -75,7 +71,7 @@ type: docs
    Licensed under CC BY-SA 3.0.
 2. ARM 徽标<br>
    [*Arm logo 2017*](https://upload.wikimedia.org/wikipedia/commons/7/77/Arm_logo_2017.svg) by ARM Holdings. Transformed from SVG to PNG.<br>
-   Under public domain.
+   © ARM Holdings. ARM and the arm logo are trademarks of ARM Holdings.
 3. ARM 610 核心照片<br>
    [*GPS ARM610 die*](https://upload.wikimedia.org/wikipedia/commons/9/9a/GPS_ARM610_die.JPG) by Pauli Rautakorpi. Edited to proper aspect ratio.<br>
    Licensed under CC BY 3.0.
