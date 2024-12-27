@@ -261,14 +261,14 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 你可以在【此电脑】窗口的左侧看到这些文件夹。
 
-![Windows 11 已知文件夹](file-and-file-management/Win11_user_folders.png#center)
+![在 Windows 11 中查看已知文件夹](file-and-file-management/Win11_user_folders.png#center)
 
 {{% /tab %}}
 {{% tab "Windows 10" %}}
 
 双击桌面上的【此电脑】，展开【文件夹】折叠项看到这些文件夹：
 
-![Windows 10 已知文件夹](file-and-file-management/User_directories.png#center)
+![在 Windows 10 中查看已知文件夹](file-and-file-management/User_directories.png#center)
 
 {{% /tab %}}
 {{< /tabs >}}
