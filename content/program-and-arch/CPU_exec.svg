@@ -7,7 +7,7 @@
    viewBox="0 0 210 70"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="CPU_exec.svg"
    inkscape:export-filename="CPU_exec.png"
    inkscape:export-xdpi="200"
@@ -27,10 +27,10 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0519801"
-     inkscape:cx="343.63769"
-     inkscape:cy="190.59297"
+     inkscape:cx="377.38356"
+     inkscape:cy="139.26119"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -73,7 +73,7 @@
        rx="1.2355076"
        ry="1.1181521" />
     <rect
-       style="fill:#84b8ff;fill-opacity:1;stroke:none;stroke-width:0.496992;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="fill:#98c3ff;fill-opacity:1;stroke:none;stroke-width:0.496992;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect12"
        width="12.048044"
        height="19.868704"
@@ -82,7 +82,7 @@
        rx="1.2594218"
        ry="1.3754212" />
     <rect
-       style="fill:#7da987;fill-opacity:1;stroke-width:0.12811;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       style="fill:#84e396;fill-opacity:1;stroke-width:0.12811;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect1"
        width="69.798096"
        height="49.160629"
@@ -113,7 +113,7 @@
          x="11.145227"
          y="43.635918">008: 11011101 00111100</tspan></text>
     <rect
-       style="fill:#5e8266;fill-opacity:1;stroke-width:0.135638;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       style="fill:#64a06e;fill-opacity:1;stroke-width:0.135638;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect8"
        width="65.735817"
        height="4.9136891"
@@ -215,7 +215,7 @@
          x="116.771"
          y="10.135185">译码</tspan></text>
     <rect
-       style="fill:#84b8ff;fill-opacity:1;stroke:none;stroke-width:0.496992;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="fill:#98c3ff;fill-opacity:1;stroke:none;stroke-width:0.496992;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect13"
        width="12.048044"
        height="19.868704"
@@ -224,7 +224,7 @@
        rx="1.2594218"
        ry="1.3754212" />
     <rect
-       style="fill:#84b8ff;fill-opacity:1;stroke:none;stroke-width:0.684107;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="fill:#98c3ff;fill-opacity:1;stroke:none;stroke-width:0.684107;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect16"
        width="22.827873"
        height="19.868704"
@@ -245,17 +245,17 @@
          y="24.824394">0010 1111 10010101</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.77904px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';letter-spacing:0px;text-orientation:upright;fill:#ff4700;fill-opacity:1;stroke-width:0.0899359;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       style="font-size:2.77904px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';letter-spacing:0px;text-orientation:upright;fill:#da2222;fill-opacity:1;stroke-width:0.0899359;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="99.839714"
        y="31.979723"
        id="text12"><tspan
          sodipodi:role="line"
          id="tspan12"
-         style="fill:#ff4700;fill-opacity:1;stroke-width:0.0899359"
+         style="fill:#da2222;fill-opacity:1;stroke-width:0.0899359"
          x="99.839714"
          y="31.979723">指令</tspan><tspan
          sodipodi:role="line"
-         style="fill:#ff4700;fill-opacity:1;stroke-width:0.0899359"
+         style="fill:#da2222;fill-opacity:1;stroke-width:0.0899359"
          x="99.839714"
          y="35.592476"
          id="tspan13">类别</tspan></text>
@@ -277,14 +277,14 @@
          id="tspan16">寄存器</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.77904px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';letter-spacing:0px;text-orientation:upright;fill:#47ff00;fill-opacity:1;stroke-width:0.0899359;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       style="font-size:2.77904px;line-height:1.3;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';letter-spacing:0px;text-orientation:upright;fill:#8200c7;fill-opacity:1;stroke-width:0.0899359;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="135.70384"
-       y="35.790966"
+       y="33.923599"
        id="text18"><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;fill:#db00ff;fill-opacity:1;stroke-width:0.0899359"
+         style="text-align:center;text-anchor:middle;fill:#8200c7;fill-opacity:1;stroke-width:0.0899359"
          x="135.70384"
-         y="35.790966"
+         y="33.923599"
          id="tspan18">操作数</tspan></text>
     <rect
        style="fill:#b9d7ff;fill-opacity:1;stroke:none;stroke-width:0.529124;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -307,7 +307,7 @@
          y="46.887314"
          id="tspan20">译码结果</tspan></text>
     <rect
-       style="fill:#84b8ff;fill-opacity:1;stroke:none;stroke-width:0.724938;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="fill:#98c3ff;fill-opacity:1;stroke:none;stroke-width:0.724938;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect21"
        width="50.728607"
        height="10.040037"
@@ -328,9 +328,9 @@
          id="tspan21">给 <tspan
    style="fill:#0004ff;fill-opacity:1;stroke-width:0.113326"
    id="tspan22">15 号寄存器</tspan><tspan
-   style="fill:#ff0d00;fill-opacity:1;stroke-width:0.113326"
+   style="fill:#da2222;fill-opacity:1;stroke-width:0.113326"
    id="tspan23">加上</tspan> <tspan
-   style="fill:#ff00dc;fill-opacity:1;stroke-width:0.113326"
+   style="fill:#8200c7;fill-opacity:1;stroke-width:0.113326"
    id="tspan24">149</tspan></tspan></text>
     <path
        style="fill:#5e8266;fill-opacity:1;stroke:#000000;stroke-width:0.519378;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
