@@ -22,6 +22,8 @@ def preprocess_md(text: str) -> str:
         text,
         flags=re.DOTALL
     )
+    # 将 {{<mermaid>}}...{{</mermaid>}} 替换为 ```mermaid...```
+    text = re.sub(r'\[([^\]]+)\]\(\{\{<relref "[^"]+">}}\)', r'《\1》', text, flags=re.DOTALL)
     # 将「」替换成 “”
     text = text.replace("「", "“").replace("」", "”")
     # 将『』替换成 ‘’
