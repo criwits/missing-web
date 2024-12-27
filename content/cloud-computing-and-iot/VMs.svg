@@ -2,13 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="157.2944mm"
-   height="99.406059mm"
-   viewBox="0 0 157.2944 99.406059"
+   width="169.29401mm"
+   height="99.405998mm"
+   viewBox="0 0 169.294 99.406"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="VMs.svg"
+   inkscape:export-filename="VMs.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="false"
-     inkscape:zoom="0.96896321"
-     inkscape:cx="273.4882"
-     inkscape:cy="339.53817"
+     inkscape:zoom="1.3703209"
+     inkscape:cx="313.06535"
+     inkscape:cy="241.91414"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -122,52 +125,7 @@
          y="90.172318">4 TB 硬盘</tspan></text>
     <g
        id="g25"
-       transform="translate(0,-0.31691034)">
-      <g
-         id="g7"
-         transform="translate(-1.5667307,-11.954444)">
-        <g
-           id="g5"
-           transform="translate(1.4230457,10.672843)">
-          <rect
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="rect5"
-             width="11.463735"
-             height="7.0849776"
-             x="79.255684"
-             y="29.660839"
-             rx="0"
-             ry="0" />
-          <path
-             sodipodi:type="star"
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="path5"
-             inkscape:flatsided="true"
-             sodipodi:sides="3"
-             sodipodi:cx="84.032532"
-             sodipodi:cy="28.779202"
-             sodipodi:r1="8.2097988"
-             sodipodi:r2="4.1048994"
-             sodipodi:arg1="2.0943951"
-             sodipodi:arg2="3.1415927"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
-             inkscape:transform-center-x="-1.2612675"
-             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-           x="87.50399"
-           y="45.440388"
-           id="text7"><tspan
-             sodipodi:role="line"
-             id="tspan7"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
-             x="87.50399"
-             y="45.440388">分配</tspan></text>
-      </g>
+       transform="translate(10.332691,-0.31691034)">
       <rect
          style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
          id="rect7"
@@ -265,53 +223,59 @@
            y="33.460541">50 GB</tspan></text>
     </g>
     <g
-       id="g31"
-       transform="translate(0,22.263707)">
+       id="g8"
+       transform="translate(-3.7612979,21.59957)">
       <g
-         id="g27"
-         transform="translate(-1.5667307,-11.954444)">
-        <g
-           id="g26"
-           transform="translate(1.4230457,10.672843)">
-          <rect
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="rect25"
-             width="11.463735"
-             height="7.0849776"
-             x="79.255684"
-             y="29.660839"
-             rx="0"
-             ry="0" />
-          <path
-             sodipodi:type="star"
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="path25"
-             inkscape:flatsided="true"
-             sodipodi:sides="3"
-             sodipodi:cx="84.032532"
-             sodipodi:cy="28.779202"
-             sodipodi:r1="8.2097988"
-             sodipodi:r2="4.1048994"
-             sodipodi:arg1="2.0943951"
-             sodipodi:arg2="3.1415927"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
-             inkscape:transform-center-x="-1.2612675"
-             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-           x="87.50399"
-           y="45.440388"
-           id="text26"><tspan
-             sodipodi:role="line"
-             id="tspan26"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
-             x="87.50399"
-             y="45.440388">分配</tspan></text>
+         id="g6"
+         transform="translate(1.4230457,10.672843)"
+         style="fill:#bbf3ff;fill-opacity:1">
+        <rect
+           style="fill:#bbf3ff;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect6"
+           width="11.463735"
+           height="7.0849776"
+           x="79.255684"
+           y="29.660839"
+           rx="0"
+           ry="0" />
+        <path
+           sodipodi:type="star"
+           style="fill:#bbf3ff;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="path6"
+           inkscape:flatsided="true"
+           sodipodi:sides="3"
+           sodipodi:cx="84.032532"
+           sodipodi:cy="28.779202"
+           sodipodi:r1="8.2097988"
+           sodipodi:r2="4.1048994"
+           sodipodi:arg1="2.0943951"
+           sodipodi:arg2="3.1415927"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
+           inkscape:transform-center-x="-1.2612675"
+           transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
       </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#0079d8;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="87.50399"
+         y="45.440388"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#0079d8;fill-opacity:1;stroke-width:3"
+           x="87.50399"
+           y="45.440388">分配</tspan></text>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#0079d8;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         d="m 107.38043,1.3308738 c -3.54976,0 -3.20302,2.693577 -3.20302,20.0066782 0,19.644975 -0.96888,22.537095 -5.687382,22.537095 4.742692,0 5.613712,1.874788 5.613712,22.627208 0,16.216921 -0.0897,18.79441 3.27669,18.79441"
+         id="path8"
+         sodipodi:nodetypes="cscsc" />
+    </g>
+    <g
+       id="g31"
+       transform="translate(10.332691,22.263707)">
       <rect
          style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
          id="rect27"
@@ -410,52 +374,7 @@
     </g>
     <g
        id="g37"
-       transform="translate(0,44.844324)">
-      <g
-         id="g33"
-         transform="translate(-1.5667307,-11.954444)">
-        <g
-           id="g32"
-           transform="translate(1.4230457,10.672843)">
-          <rect
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="rect31"
-             width="11.463735"
-             height="7.0849776"
-             x="79.255684"
-             y="29.660839"
-             rx="0"
-             ry="0" />
-          <path
-             sodipodi:type="star"
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="path31"
-             inkscape:flatsided="true"
-             sodipodi:sides="3"
-             sodipodi:cx="84.032532"
-             sodipodi:cy="28.779202"
-             sodipodi:r1="8.2097988"
-             sodipodi:r2="4.1048994"
-             sodipodi:arg1="2.0943951"
-             sodipodi:arg2="3.1415927"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
-             inkscape:transform-center-x="-1.2612675"
-             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-           x="87.50399"
-           y="45.440388"
-           id="text32"><tspan
-             sodipodi:role="line"
-             id="tspan32"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
-             x="87.50399"
-             y="45.440388">分配</tspan></text>
-      </g>
+       transform="translate(10.332691,44.844324)">
       <rect
          style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
          id="rect33"
@@ -554,52 +473,7 @@
     </g>
     <g
        id="g43"
-       transform="translate(0,67.424941)">
-      <g
-         id="g39"
-         transform="translate(-1.5667307,-11.954444)">
-        <g
-           id="g38"
-           transform="translate(1.4230457,10.672843)">
-          <rect
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="rect37"
-             width="11.463735"
-             height="7.0849776"
-             x="79.255684"
-             y="29.660839"
-             rx="0"
-             ry="0" />
-          <path
-             sodipodi:type="star"
-             style="fill:#d0edf4;fill-opacity:1;stroke:none;stroke-width:0.592;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="path37"
-             inkscape:flatsided="true"
-             sodipodi:sides="3"
-             sodipodi:cx="84.032532"
-             sodipodi:cy="28.779202"
-             sodipodi:r1="8.2097988"
-             sodipodi:r2="4.1048994"
-             sodipodi:arg1="2.0943951"
-             sodipodi:arg2="3.1415927"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m 79.927632,35.889096 0,-14.219789 12.314699,7.109894 z"
-             inkscape:transform-center-x="-1.2612675"
-             transform="matrix(0.61451876,0,0,1,38.730018,4.4241264)" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-weight:bold;font-size:4.23333px;line-height:1.3;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC Bold';text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#34bee0;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-           x="87.50399"
-           y="45.440388"
-           id="text38"><tspan
-             sodipodi:role="line"
-             id="tspan38"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa Mono SC';-inkscape-font-specification:'Sarasa Mono SC';fill:#34bee0;fill-opacity:1;stroke-width:3"
-             x="87.50399"
-             y="45.440388">分配</tspan></text>
-      </g>
+       transform="translate(10.332691,67.424941)">
       <rect
          style="fill:#e6ddd8;fill-opacity:1;stroke:none;stroke-width:0.986581;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
          id="rect39"
