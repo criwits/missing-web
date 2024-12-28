@@ -8,7 +8,7 @@ type: docs
 {{< hint info >}}
 2021 年 10 月 5 日，微软发布了~~又新又好的~~ Windows 11。在那之后，许多品牌的笔记本电脑和台式机开始出厂即预装这款新系统，一些原本使用 Windows 10 的用户也~~在微软的蛊惑之下~~升级到了 Windows 11。
 
-一方面，Windows 11 在外观和部分使用体验上有着不小进步；但另一方面，Windows 11 在很多地方都让人「火大」——性能损失、花式 bug、部分操作反人类……为了让现阶段的 Windows 11 变得更好用一些，我们总结了一些对 Windows 11 系统进行「修整」的方法和技巧，以供大家参考使用。
+一方面，Windows 11 在外观和部分使用体验上有着不小进步；但另一方面，Windows 11 在很多地方仍然存在问题——老旧硬件下的性能损失、越来越多的 bug、「反人类」的部分操作……为了让现阶段的 Windows 11 变得更好用一些，我们总结了一些对 Windows 11 系统进行「修整」的方法和技巧，以供大家参考使用。
 
 {{< /hint >}}
 
@@ -35,7 +35,7 @@ type: docs
 
 Windows 11 在「文件资源管理器」（包括桌面）中引入了一套新的右键菜单：
 
-![屏幕截图 2022-02-08 154624.jpg](windows-11-optimization/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2022-02-08_154624.jpg#center)
+![Windows 11 的新右键菜单](windows-11-optimization/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2022-02-08_154624.jpg#center)
 
 这套新的右键菜单虽然相比旧式菜单略显美观，但在很多时候并不实用：先不说这个新式菜单的 bug（例如「属性」之下的选项在第一次唤出菜单时不见了），由于今天的大多数应用仍然没有接入这套新的菜单系统，很多时候我们不得不在右键后点选【显示更多选项】这一项来打开旧式菜单以找到我们需要的功能。
 
@@ -52,7 +52,7 @@ reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpr
 
 这样设置之后，在文件资源管理器（包括桌面）中右键，都将继续使用旧式菜单：
 
-![Untitled](windows-11-optimization/Untitled.png#center)
+![在 Windows 11 中使用旧式右键菜单](windows-11-optimization/Untitled.png#center)
 
 如果需要返回新版菜单，使用下面这行命令：
 
@@ -64,7 +64,7 @@ reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" 
 
 在 Windows 11 21H2 版本更新后，资源管理器变成了这样：
 
-![New Explorer](windows-11-optimization/new-explorer.png)
+![Windows 11 21H2 起的新资源管理器](windows-11-optimization/new-explorer.png)
 
 曾经上方便捷的大按钮（或称「Ribbon 菜单」）已无影无踪，转而以 Windows 11 样式呈现。对已经习惯，甚至依赖旧式菜单那方便快捷操作的用户来说，这无疑是雪上加霜。不过，按照 Windows 一贯的兼容性，旧版资源管理器一定还在系统中。的确，不仅如此，甚至还有多种办法调出它。
 
@@ -74,15 +74,15 @@ reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" 
 
 - 打开资源管理器，点击地址栏第一个向右的箭头，选择【控制面板】；
   
-  ![Go To Control](windows-11-optimization/go-to-control.png)
+  ![打开【控制面板】](windows-11-optimization/go-to-control.png)
 
 - 再如法炮制，这次选择【此电脑】；
   
-  ![Back To This PC](windows-11-optimization/back-to-this-pc.png)
+  ![回到【此电脑】](windows-11-optimization/back-to-this-pc.png)
 
 - 成了。
   
-  ![Old Explorer](windows-11-optimization/old-explorer.png)
+  ![是的，现在就回到旧版资源管理器了](windows-11-optimization/old-explorer.png)
 
 ### 永久使用旧版资源管理器
 
