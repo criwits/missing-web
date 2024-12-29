@@ -19,7 +19,7 @@ type: docs
 
 <p align="center" style="font-size: 24px; font-weight: bold;">数据无价，谨慎操作！<br>Data is Precious, Operate Carefully!</p>
 
-如果要给「常见电脑问题」列个榜单，除了「软件怎么不能用」「为什么电脑变慢了」这种笼统的问题外，「我电脑又满了」肯定榜上有名。其中这「满」，大部分指的是系统分区 C 盘。本章的所有内容，正是围绕「怎么样让我的电脑不那么满」这一需求展开的。
+如果要给「常见电脑问题」列个榜单，除了「软件怎么不能用」「为什么电脑变慢了」这种笼统的问题外，「我电脑又满了」肯定榜上有名。「满」，大部分指的是系统分区 C 盘。本章的所有内容，正是围绕「怎么样让我的电脑不那么满」这一需求展开的。
 
 ## 谁「吃」了我的 C 盘？
 
@@ -56,7 +56,7 @@ type: docs
 - `Local`：意为「本地」，这个文件夹一般是三个中最大的，存放那些「只为当前用户安装的软件本体」与「当前账户本地使用的所有软件数据」，不会同步；
 - `LocalLow`：意为「本地低权限」，软件处于类似「受限模式」下可以访问的数据（例如浏览器的无痕模式），里面内容最少，也不会同步。
 
-值得一提的是，按下 `Windows` + `R`，或直接在资源管理器的地址栏内，输入 `%appdata%` 就能进入上述 `Roaming` 文件夹，而输入 `%localappdata%` 则是 `Local` 文件夹。
+值得一提的是，Windows 中定义了几个「环境变量」指向这些文件夹：`%appdata%` 指向上述 `Roaming` 文件夹、`%localappdata%` 则是 `Local` 文件夹。大部分时候，这些环境变量可替代它们的真实路径来使用：按下 `Windows` + `R`，或直接在资源管理器的地址栏内输入这些环境变量，就能进入这些文件夹。
 
 ![`AppData` 文件夹](manage-storage/AppData.png#center)
 
@@ -90,7 +90,7 @@ type: docs
 
 > 当然了，如果你喜欢往 C 盘塞东西，无论是「桌面」也好，还是「文档」也好，另一种方案就是真的拿一块单独的、巨大的硬盘作为整个 C 盘，不考虑分区，也就不用考虑「软件装哪」这样的问题，不过我们实在不推荐这样。在曾经的机械硬盘时代，由于磁盘的转速一定，那么磁盘上外圈的读取速度就要快于内圈，分区可以把外圈的部分留给需要速度的数据，例如操作系统，而剩下的就可以分给其他的个人数据。但如今固态硬盘大行其道，它不存在所谓「转速」「寻道」等概念，所以也就无所谓分区，我们分区更多是为了方便管理文件。
 
-## 空间挪移之术
+## 空间大挪移术
 
 我们已经知道，「分区」是人为地把硬盘分成的小部分，分区之间互相独立，互不影响。一般来说，我们在使用一块硬盘之前，就会对它划分分区。然而在很多时候，我们在一开始划分分区时并不能很好地考虑到未来的使用需求——就如同上文提到的 C 盘空间大小问题，若不提前细致规划，我们往往只能在空间已经告急之时才意识到最初的划分并不合理。不过，我们仍然有办法对已经划分好的分区施展「空间大挪移」。
 
@@ -195,7 +195,7 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 - 你的用户文件夹（不建议全移走）；
 - `Program Files` 与 `Program Files (x86)` 里面**你自己装上去的程序**（不推荐，不如直接在安装的时候装到别处）。
 
-其余的文件/文件夹均不推荐移动。也就是说，只有在实在没有办法的前提下，优先移动你用户文件夹内或前述 `Local`、`Roaming` 文件夹内的大型文件/文件夹。例如，Mathematica 安装的本地文档位置在 `C:\用户\<用户名>\AppData\Local\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn`，这是一个占用空间几 GB 的文件夹，我们可以将它移到别处，譬如 `F:\Link\Documentation.zh-Hans-cn`，再在原位置建立同名的文件夹符号链接即可。
+其余的文件/文件夹均不推荐移动。也就是说，只有在实在没有办法的前提下，优先移动你用户文件夹内或前述 `Local`、`Roaming` 文件夹内的大型文件/文件夹。例如，Mathematica 安装的本地文档位置在 `%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn`，这是一个占用空间几 GB 的文件夹，我们可以将它移到别处，譬如 `F:\Link\Documentation.zh-Hans-cn`，再在原位置建立同名的文件夹符号链接即可。
 
 要建立符号链接，首先按 `Windows` + `S`，搜索 `cmd`，右击【命令提示符】，选择【以管理员身份运行】。在弹出的窗口中输入下面的命令：
 
@@ -203,7 +203,7 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn" "F:\Link\Documentation.zh-Hans-cn"
 ```
 
-其中 `%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn` 是符号链接的位置，环境变量「`%localappdata%`」指的就是 `C:\用户\<用户名>\AppData\Local`。`F:\Link\Documentation.zh-Hans-cn` 是符号链接指向的位置，也就是本体的实际位置。`/d` 表示「目录」，表示建立的符号链接是用于文件夹的。如果你移动的是文件而非文件夹，可以将 `/d` 删掉。
+其中 `%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn` 是符号链接的位置，`F:\Link\Documentation.zh-Hans-cn` 是符号链接指向的位置，也就是本体的实际位置。`/d` 表示「目录」，表示建立的符号链接是用于文件夹的。如果你移动的是文件而非文件夹，可以将 `/d` 删掉。
 
 但是这「暗度陈仓」的弊端也很明显。如果你一番操作下来，建立了许多符号链接，虽然这么一来 C 盘的空间压力减轻了，但是文件之间的相互关系却变得更加混乱了。如果在放置文件本体时随性而为，那只会让混乱不堪的文件指向关系更加雪上加霜。
 
@@ -233,7 +233,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 ![迁移结果](manage-storage/Migration_Result.png#center)
 
 
-## 文件链接 *
+## 到底什么是文件链接 *
 
 上文中，我们简单介绍了「符号链接」，这是一种可以让文件/文件夹指向其他文件/文件夹的方法。其实，符号链接是「文件链接」的一种，Windows 还提供了其他类型的文件链接。本节我们将深入介绍文件链接的概念与使用方法。
 
@@ -263,7 +263,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
    ```bat
    mklink /d <链接所在路径> <本体所在路径>
    ```
-   此前提到的 `%localappdata%` 这样的环境变量也可以使用，带空格的路径记得打上双引号。
+   此前提到的 `%appdata%` 这样的环境变量也可以使用，带空格的路径记得打上双引号。
 
 欲使用 `New-Item`（简写为 `ni`），按照以下步骤来：
 
@@ -272,7 +272,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
    ```powershell
    ni <链接所在路径> -i SymbolicLink -ta <本体所在路径>
    ```
-   这种方式对文件与文件夹都有效，但 PowerShell 无法识别 `%localappdata%` 这样的环境变量。同样，带空格的路径记得打上双引号。
+   这种方式对文件与文件夹都有效，但 PowerShell 无法识别 `%appdata%` 这样的环境变量。同样，带空格的路径记得打上双引号。
 
 看上去 `New-Item` 可以用一个命令搞定文件与文件夹，挺通用，但目前它有一个重大问题——无法处理带西文方括号（「`[`」和「`]`」）的路径。所以**如果有路径包含了西文方括号，请使用 `mklink`**。如果提示什么「权限不足」之类的信息，请用管理员权限再试一次。
 
