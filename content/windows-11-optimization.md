@@ -8,7 +8,7 @@ type: docs
 {{< hint info >}}
 2021 年 10 月 5 日，微软发布了~~又新又好的~~ Windows 11。在那之后，许多品牌的笔记本电脑和台式机开始出厂即预装这款新系统，一些原本使用 Windows 10 的用户也~~在微软的蛊惑之下~~升级到了 Windows 11。
 
-一方面，Windows 11 在外观和部分使用体验上有着不小进步；但另一方面，Windows 11 在很多地方仍然存在问题——老旧硬件下的性能损失、越来越多的 bug、「反人类」的部分操作……为了让现阶段的 Windows 11 变得更好用一些，我们总结了一些对 Windows 11 系统进行「修整」的方法和技巧，以供大家参考使用。
+一方面，Windows 11 在外观和部分使用体验上有着不小进步；但另一方面，Windows 11 在很多地方仍然存在问题——老旧硬件下的性能损失、不断出现的神奇 bug、「反人类」的部分操作……为了让现阶段的 Windows 11 变得更好用一些，我们总结了一些「修整 Windows 11 系统」的方法和技巧，以供大家参考使用。
 
 {{< /hint >}}
 
@@ -144,7 +144,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Bloc
 
 这两个文件可以一直留着，以备不时之需。
 
-此外，若不喜欢繁琐的操作，更简单的方法是求助于第三方软件，例如 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/)。ExplorerPatcher 也附带了其他「回退到旧版」的功能，例如右键菜单或任务栏等，我们在 [工具类软件推荐]({{<relref "tools-software.md">}}) 中已有介绍。
+此外，若不喜欢繁琐的操作，更简单的方法是求助于第三方软件，例如 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/)。ExplorerPatcher 也附带了其他「回退到旧版」的功能，例如右键菜单或任务栏等，我们在 [工具类软件推荐]({{<relref "tools-software.md#explorerpatcher">}}) 中已有介绍。
 
 ## 禁止资源管理器中的 `F1` 打开 Edge 浏览器搜索帮助
 
