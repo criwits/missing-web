@@ -159,7 +159,7 @@ type: docs
 
 ![高校邮箱](mail-and-instant-messaging/HUST_Mailbox.png#center)
 
-相较于普通邮箱，很多工具与应用都会特别为教育邮箱的账户提供免费使用权限或额外福利（但有时也需要额外认证以确认你的学生或教师身份）。例如 JetBrains 家族的代码开发工具，就为高校师生提供了一年期教育许可证；又或者 Autodesk 公司的各种工程软件，也提供一年期教育许可证；再或者开源平台 GitHub，为通过教育认证的用户提供为期两年的专业版服务。
+教育邮箱是「值钱」的邮箱——许多软件厂商会为高校师生提供免费许可或额外福利，而教育邮箱就是它们验证师生身份的重要手段。例如，JetBrains 会为通过验证的学生免费提供其全套开发工具，而教育邮箱就是一种主要的验证方式；Autodesk 允许使用教育邮箱获取一年期限的专业设计软件授权；GitHub 则为持有教育邮箱的用户提供 Student Developer Pack，内含众多开发工具和服务的免费或优惠权益。
 
 ![各种教育邮箱福利](mail-and-instant-messaging/Edu_Mail_Benefits.png)
 

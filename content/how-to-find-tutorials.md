@@ -17,15 +17,15 @@ type: docs
 
 例如，如果你想学习 Excel 软件中「函数」部分的使用，那么可以查阅微软官方的 Excel 文档，例如 [这一份](https://support.microsoft.com/zh-cn/office/excel-%E5%87%BD%E6%95%B0-%E6%8C%89%E7%B1%BB%E5%88%AB%E5%88%97%E5%87%BA-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb)：
 
-![MS_document_for_Excel](how-to-find-tutorials/MS_document_for_Excel.png#center)
+![微软官方的 Excel 函数文档](how-to-find-tutorials/MS_document_for_Excel.png#center)
 
 这份官方文档不仅对每个常用的 Excel 函数都有介绍，并且还附上了示例和教学视频，因而比较容易学习。下面是 `SUM` 函数的介绍、示例和视频：
 
-![MS_document_for_Excel_2](how-to-find-tutorials/MS_document_for_Excel_2.png#center)
+![`SUM` 函数的介绍、示例和视频](how-to-find-tutorials/MS_document_for_Excel_2.png#center)
 
 又比如说，你想了解 Photoshop 的使用，那么 Adobe 官方也有制作 [一套详细的文档](https://helpx.adobe.com/cn/photoshop/user-guide.html)。
 
-![Adobe_document_for_PS](how-to-find-tutorials/Adobe_document_for_PS.png#center)
+![Adobe 官方的 Photoshop 文档](how-to-find-tutorials/Adobe_document_for_PS.png#center)
 
 一般来说，我们可以通过访问软件的官方网站（不知道怎么找官网？请参看 [软件的寻找与安装]({{<relref "software-installation.md">}})），并在官方网站寻找名为「帮助」或「支持」的栏目来查找官方文档/官方教程。此外，你也可以直接在网上搜索「<软件名>  官方文档」「<软件名> 帮助 支持」等来尝试直接寻找相关的官方文档。
 
@@ -63,9 +63,9 @@ type: docs
 
 ### 各种中文网络平台
 
-在诸如 CSDN、博客园、哔哩哔哩等常见中文网络平台上，充满了各种各样的软件使用教程，其中不乏优质的作品。在这些平台上，我们往往能找到一些教程供自己参考。例如，如果你想学习视频剪辑，那么视频网站上有大量的相关软件教程可以观看；你想学习文字排版，在相关论坛里必然有很多专业人士分享经验；至于学习各种开发类、技术类软件，那么一些技术性博客网站里的海量技术博客一定能满足你的需求。另一方面，在微信上，还有许多撰写或翻译各种优质软件教程的公众号，它们往往侧重于某一个领域（例如，软件开发或者建筑设计），时常推送相关软件的教程推文。
+在诸如 CSDN、博客园、哔哩哔哩等常见中文网络平台上，充满了各种各样的软件使用教程，其中不乏优质的作品。在这些平台上，我们往往能找到一些教程供自己参考。例如，如果你想学习视频剪辑，那么视频网站上有大量的相关软件教程可以观看；你想学习文字排版，在相关论坛里必然有很多专业人士分享经验；至于学习各种开发类、技术类软件，那么一些技术性博客网站里的海量文章一定能满足你的需求。另一方面，在微信上，还有许多撰写或翻译各种优质软件教程的公众号，它们往往侧重于某一个领域（例如，软件开发或者建筑设计），时常推送相关软件的教程推文。
 
-对于各种网络平台，我们可以直接在它们的搜索框中检索关键字，然后依据点击量或评论数等来轻松地筛选出更可能是优质内容的教程。比如，在某个视频网站上搜索「Revit 教程」，然后选择【最多播放】来将结果按播放量排序：
+对于各种网络平台，我们可以直接在它们的搜索框中检索关键字，然后依据点击量或评论数等来轻松地筛选出更可能是优质内容的教程。比如，在视频网站上搜索「Revit 教程」，然后选择【最多播放】来将结果按播放量排序：
 
 ![在视频网站上搜索 Revit 教程](how-to-find-tutorials/Searching_Revit_tutorials_on_bilibili.png#center)
 
