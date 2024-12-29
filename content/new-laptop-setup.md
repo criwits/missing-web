@@ -84,10 +84,12 @@ type: docs
 2. 输入 `oobe\bypassnro.cmd`，然后按回车。电脑会重启。
 3. 再次来到联网界面，点击右下方【我没有 Internet 连接】。
 
+**若你发现上述方法不能跳过连接网络，请向我们提出反馈（发送邮件至 [missing@criwits.top](mailto:missing@criwits.top)）**。在这种极端情况下，你只能选择连接到网络。
+
 {{% /tab %}}
 {{% tab "Windows 10" %}}
 
-如果你的电脑预装的是 Windows 10 系统，那么在第一次开机进行到这个界面时：
+如果你的电脑预装的是 Windows 10，那么在第一次开机进行到这个界面时：
 
 ![Windows 10 可以直接跳过联网步骤](new-laptop-setup/Windows_10_skip_internet.png#center)
 
@@ -96,7 +98,6 @@ type: docs
 {{% /tab %}}
 {{< /tabs >}}
 
-**若你发现上述方法不能跳过连接网络，请向我们提出反馈（发送邮件至 [missing@criwits.top](mailto:missing@criwits.top)）**。在这种极端情况下，你只能选择连接到网络。
 
 ## 配置用户信息
 
