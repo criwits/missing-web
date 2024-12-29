@@ -128,6 +128,7 @@ GitHub 发布页：[https://github.com/microsoft/PowerToys/releases/latest](http
 ![Powertoys 欢迎页](tools-software/PowerToys.png)
 
 PowerToys 是由微软主导，集合社区之力共同开发的一套小工具集合，可以辅助我们进行各种各样的工作。这里简单介绍一下几个有用的模块：
+
 - 始终置顶：快速将桌面上已经打开的任意窗口置顶。
 - 唤醒：保持电脑处于唤醒状态（即不会自动休眠、睡眠或关机）。
 - 颜色选择器：识别并提取屏幕上任意一点的颜色，获取它在各种颜色表示方式下的色值。
