@@ -33,3 +33,6 @@ type: docs
 | Samsung Electronics Co., Ltd. | 三星 |
 | 联发科技股份有限公司 | 联发科 |
 | Texas Instruments Incorporated | 德州仪器 |
+| 北京智谱华章科技有限公司 | 智谱 |
+| 阿里云计算有限公司 | 阿里云 |
+| 阿里巴巴集团控股有限公司 | 阿里 |
