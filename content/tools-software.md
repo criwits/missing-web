@@ -31,7 +31,7 @@ type: docs
 
 官网下载地址：[https://www.rizonesoft.com/downloads/notepad3/](https://www.rizonesoft.com/downloads/notepad3/)。
 
-Notepad3 是一款用来替代系统内置「记事本」的文本编辑器。它具有语法高亮、代码折叠、括号匹配、自动缩进、自动编码、多次撤销以及高级搜索等许多功能，适用于替代记事本进行简单的文本编辑，以及进行轻度的代码编写。
+Notepad3 是一款用来替代系统内置「记事本」的文本编辑器。它具有语法高亮、代码折叠、括号匹配、自动缩进、自动编码、多次撤销以及高级搜索等许多功能，适用于替代记事本进行简单的文本编辑，以及轻度的代码编写。
 
 ![Notepad3 主界面](tools-software/Notepad3.png)
 
@@ -41,7 +41,7 @@ Notepad3 是一款用来替代系统内置「记事本」的文本编辑器。�
 
 官网下载地址：[https://www.sumatrapdfreader.org/download-free-pdf-viewer](https://www.sumatrapdfreader.org/download-free-pdf-viewer)。
 
-SumatraPDF 是一个小巧（安装包不到 10 MB）却功能强大的 PDF 阅读器。除了基本的 PDF 阅读功能外，它还可以帮助我们「记忆」打开过的文档和它们的阅读位置，因而省去每次打开文件都重新翻页的烦恼。
+SumatraPDF 是一个小巧（安装包不到 10 MB）却功能强大的 PDF 阅读器。除了基本的 PDF 阅读功能外，它还可以帮助我们记住打开过的文档和它们的阅读位置，因而省去每次打开文件都重新翻页的烦恼。
 
 ![SumatraPDF 主界面](tools-software/SumatraPDF.png)
 
@@ -77,7 +77,7 @@ Motrix 官网下载地址：[https://motrix.app/zh-CN/](https://motrix.app/zh-CN
 
 ImFile 官网下载地址：[https://imfile.io/](https://imfile.io/)。
 
-Motrix，如它在网页上宣传的那样，是「一款全能的下载工具」，它基本上支持所有常见的资源协议的下载，包括 FTP、BitTorrent 种子，以及群众喜闻乐见的磁力链接等。它界面精巧、代码开源、使用方便，是一款不可多得的优良下载工具。不过，从 2023 年 6 月到 2024 年末，Motrix 一直没有更新，因此可能存在一些未修复的问题。ImFile 则是 Motrix 的一个「分支版」，由另外的作者在 Motrix 的基础上改进、维护，和 Motrix 保持了类似的操作体验，并引入了新功能，修复了一些问题。
+Motrix，如它在网页上宣传的那样，是「一款全能的下载工具」，它基本上支持所有常见的资源协议的下载，包括 FTP、BitTorrent 种子，以及群众喜闻乐见的磁力链接等。它界面精巧、代码开源、使用方便，是一款不可多得的优良下载工具。不过，自 2023 年 6 月以来，Motrix 已经一年半没有更新了，因此可能存在一些未修复的问题。ImFile 则是 Motrix 的一个「分支版」，由另外的作者在 Motrix 的基础上改进、维护，和 Motrix 保持了类似的操作体验，并引入了新功能，修复了一些问题。
 
 ![Motrix 主界面](tools-software/Motrix.png)
 
@@ -172,7 +172,7 @@ ExplorerPatcher 界面的左方，列出了「任务栏」「托盘菜单」「�
 
 ![Windows 11，但是 Windows 10 风格](tools-software/EP_cosplay.png#center)
 
-> 有一些「回退到旧版」的功能不需要 ExplorerPatcher 也能实现，详情请参见 [Windows 11 优化指南]({{<relref "windows-11-optimization.md">}})。
+> 有一些「回退到旧版」的功能不需要 ExplorerPatcher 也能实现，详情请参见 [Windows 11 修整指南]({{<relref "windows-11-optimization.md">}})。
 >
 
 需要注意的是，正如其「ExplorerPatcher」（意为「资源管理器补丁」）之名，ExplorerPatcher 是通过对系统部件「打补丁」的方式实现功能的，而这些补丁有可能随着 Windows 更新而失效，或者对系统的稳定性造成一定影响。如果需要卸载 ExplorerPatcher，既可以在系统设置中以普通 app 的方式卸载，也可以在它的主界面左侧选择【设置与卸载】，然后选择【卸载 ExplorerPatcher】。
