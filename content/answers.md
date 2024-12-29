@@ -28,14 +28,11 @@ type: docs
 
 ## 软件的寻找与安装
 
-1. 灰色的【本地下载】按钮：
-    
-    ![Black](answers/Black_local_download_button.png#center)
-    
-2. 「普通下载地址」下方的四个：
-    
-    ![Four_downloads](answers/Four_downloads.png#center)
-    
+1. 灰色的【本地下载】按钮。
+
+    ![灰色的【本地下载】按钮](answers/SoftInst_1.png#center)
+
+2. 「普通下载地址」下方的四个「✕✕远程下载」按钮。
 3. 取消勾选「使用搜狗软件助手下载软件」，然后寻找「普通下载」按钮。
 4. 5 个。
 5. C 项。
@@ -44,29 +41,24 @@ type: docs
 
 ## 基本维护与安全防护
 
-1. 左方没有高亮的【继续卸载】按钮：
-    
-    ![Continue_uninstalling](answers/Continue_uninstalling.png#center)
-    
-2. 左方没有高亮的【确认卸载】按钮：
-    
-    ![Confirm_uninstalling](answers/Confirm_uninstalling.png#center)
-    
+1. 左下方没有高亮的【继续卸载】按钮。
+2. 左下方没有高亮的【确认卸载】按钮。
 3. 右下方的【残忍卸载】小字：
     
-    ![Uninstall_now](answers/Uninstall_now.png#center)
+    ![【残忍卸载】四个小字](answers/BasicMaint_3.png#center)
+
     
 4. 先点选【卸载】，然后寻找「残忍卸载」之类的按钮：
     
-    ![Real_uninstall](answers/Real_uninstall.png#center)
+    ![点击【卸载】选项](answers/BasicMaint_4.png#center)
     
 5. 略。
 
 ## 遇到问题怎么办
 
-1. 当然具体怎么搜索是我们每个人自己决定的事情。不过，下面这样的搜索语句应该更容易帮助你找到答案：
+1. 使用下面这样的搜索语句应该更容易帮助你找到答案：
     
-    > pr 加速渲染器错误 无法生成帧 -1609629690
+    > Premiere 加速渲染器错误 无法生成帧 -1609629690
     > 
 2. 弹出这个说明这个软件需要「.Net Framework 3.5」这个东西，而你的电脑没有。既然系统给出了解决方案，那么我们直接点击【下载并安装此功能】就可以了。
 3. 弹出这个说明这个软件需要某个组件，而我们的电脑缺少它。用下面的搜索语句在网络上搜索：
