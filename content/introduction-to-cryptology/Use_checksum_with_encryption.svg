@@ -7,7 +7,7 @@
    viewBox="0 0 108.52064 96.78603"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="Use_checksum_with_encryption.svg"
    inkscape:export-filename="Use_checksum_with_encryption.png"
    inkscape:export-xdpi="300"
@@ -28,25 +28,23 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4843401"
-     inkscape:cx="140.80331"
-     inkscape:cy="200.42576"
-     inkscape:window-width="1536"
-     inkscape:window-height="793"
+     inkscape:cx="211.20497"
+     inkscape:cy="137.77166"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g74"
+     inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#ffffffff" />
   <defs
      id="defs1">
     <pattern
        inkscape:collect="always"
-       xlink:href="#pattern8350"
-       id="pattern9"
-       patternTransform="matrix(0.2,0,0,0.2,125,600)"
-       x="0"
-       y="0"
-       preserveAspectRatio="xMidYMid" />
+       xlink:href="#pattern8"
+       preserveAspectRatio="xMidYMid"
+       id="pattern2"
+       patternTransform="matrix(0.2,0,0,0.2,79.962002,646.33369)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern8350"
@@ -186,6 +184,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-22.116688,-18.02043)">
+    <rect
+       style="fill:url(#pattern2);fill-opacity:1;stroke:#000000;stroke-width:0.222222;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect2"
+       width="13.038732"
+       height="14.75912"
+       x="36.872379"
+       y="88.523979"
+       ry="1.0600189" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:3.88056px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -199,48 +205,50 @@
          id="tspan5" /></text>
     <g
        id="g24"
-       transform="translate(5.9416602,3.3669408)">
+       transform="translate(5.9416602,3.3669408)"
+       style="stroke-width:0.22222221;stroke-dasharray:none">
       <path
          id="rect1"
-         style="fill:#ffe8b5;stroke:#000000;stroke-width:0.34555554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;fill-opacity:1"
+         style="fill:#ffe8b5;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;fill-opacity:1"
          d="m 25.994279,26.018567 c -0.590041,0 -1.065051,0.475011 -1.065051,1.065051 v 14.077694 c 0,0.59004 0.47501,1.065051 1.065051,1.065051 h 12.281938 c 0.59004,0 1.065051,-0.475011 1.065051,-1.065051 V 29.859676 l -3.840593,-3.841109 z" />
       <path
          id="rect3"
-         style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          d="m 39.328431,29.885124 -3.840594,-3.841109 v 2.776058 c 0,0.590041 0.475011,1.065051 1.065051,1.065052 z" />
       <text
          xml:space="preserve"
          transform="scale(0.26458333)"
          id="text6"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect6);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect6);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.023998"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan2"><tspan
+           id="tspan7"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan1">Your Missing </tspan></tspan><tspan
+             id="tspan6">Your Missing </tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan4"><tspan
+           id="tspan10"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan3">Semester of </tspan></tspan><tspan
+             id="tspan8">Semester of </tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan53"><tspan
+           id="tspan13"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan12">Using </tspan></tspan><tspan
+             id="tspan11">Using </tspan></tspan><tspan
            x="99.082031"
            y="144.0461"
-           id="tspan75"><tspan
+           id="tspan20"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan54">Computer</tspan></tspan></text>
+             id="tspan14">Computer</tspan></tspan></text>
     </g>
     <g
        id="g26"
-       transform="translate(5.9416602,3.3669408)">
+       transform="translate(5.9416602,3.3669408)"
+       style="stroke-width:0.22222221;stroke-dasharray:none">
       <rect
-         style="fill:#b5efff;fill-opacity:1;stroke:#000000;stroke-width:0.34111109;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#b5efff;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="rect7"
          width="14.416311"
          height="7.3772335"
@@ -251,29 +259,27 @@
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,1.1158409,25.921151)"
          id="text7"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect8);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect8);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.02733"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan77"><tspan
+           id="tspan22"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan76">20438174
-</tspan></tspan><tspan
+             id="tspan21">20438174&#10;</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan79"><tspan
+           id="tspan24"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan78">09149731
-</tspan></tspan><tspan
+             id="tspan23">09149731&#10;</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan81"><tspan
+           id="tspan26"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan80">......</tspan></tspan></text>
+             id="tspan25">......</tspan></tspan></text>
     </g>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="M 38.076908,46.352464 V 58.269702"
        id="path8" />
     <text
@@ -285,17 +291,17 @@
        y="0" />
     <path
        id="path7"
-       style="fill:#ffe8b5;stroke:#000000;stroke-width:0.34555554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;fill-opacity:1"
+       style="fill:#ffe8b5;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;fill-opacity:1"
        d="m 59.315712,38.949567 c -0.59004,0 -1.065051,0.475012 -1.065051,1.065051 v 13.809493 c -7.57e-4,0.01651 -0.0026,0.0329 -0.0026,0.04961 v 5.25601 c 0,0.587594 0.473324,1.060401 1.060917,1.060401 h 12.294857 c 0.587593,0 1.060917,-0.472807 1.060917,-1.060401 v -5.25601 c 0,-0.0134 -0.0016,-0.02651 -0.0021,-0.03979 V 42.790676 L 68.82206,38.949567 Z" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="36.000622"
        y="47.422623"
        id="text9"><tspan
          sodipodi:role="line"
          id="tspan9"
-         style="writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="36.000622"
          y="47.422623">计算校验和</tspan></text>
     <path
@@ -312,24 +318,24 @@
        y="0"><tspan
          x="99.082031"
          y="122.04608"
-         id="tspan83"><tspan
+         id="tspan28"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan82">Your Missing </tspan></tspan><tspan
+           id="tspan27">Your Missing </tspan></tspan><tspan
          x="99.082031"
          y="129.37942"
-         id="tspan85"><tspan
+         id="tspan38"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan84">Semester of </tspan></tspan><tspan
+           id="tspan30">Semester of </tspan></tspan><tspan
          x="99.082031"
          y="136.71275"
-         id="tspan87"><tspan
+         id="tspan40"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan86">Using </tspan></tspan><tspan
+           id="tspan39">Using </tspan></tspan><tspan
          x="99.082031"
          y="144.0461"
-         id="tspan89"><tspan
+         id="tspan42"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan88">Computer</tspan></tspan></text>
+           id="tspan41">Computer</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,34.437016,22.435862)"
@@ -339,42 +345,40 @@
        y="0"><tspan
          x="99.082031"
          y="122.04608"
-         id="tspan91"><tspan
+         id="tspan44"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan90">20438174
-</tspan></tspan><tspan
+           id="tspan43">20438174&#10;</tspan></tspan><tspan
          x="99.082031"
          y="129.37942"
-         id="tspan93"><tspan
+         id="tspan46"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan92">09149731
-</tspan></tspan><tspan
+           id="tspan45">09149731&#10;</tspan></tspan><tspan
          x="99.082031"
          y="136.71275"
-         id="tspan101"><tspan
+         id="tspan48"><tspan
            style="text-align:start;fill:#000000;stroke:none"
-           id="tspan100">......</tspan></tspan></text>
+           id="tspan47">......</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.345, 1.035;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="M 59.224941,51.75109 H 71.687904"
        id="path11" />
     <path
        id="path12"
-       style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 72.664776,42.790652 -3.840594,-3.841109 v 2.776058 c 0,0.590041 0.475011,1.065051 1.065051,1.065052 z" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="51.268391"
        y="48.508789"
        id="text15"><tspan
          sodipodi:role="line"
          id="tspan15"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="51.268391"
          y="48.508789">拼接</tspan></text>
     <rect
-       style="fill:url(#pattern8);fill-opacity:1;stroke:#000000;stroke-width:0.34555554;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="fill:url(#pattern8);fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect15"
        width="13.038732"
        height="14.75912"
@@ -383,13 +387,13 @@
        ry="1.0600189" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="86.659683"
        y="47.650467"
        id="text16"><tspan
          sodipodi:role="line"
          id="tspan16"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC Bold';font-family:'Sarasa UI SC';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
          x="86.659683"
          y="47.650467">密文</tspan></text>
     <g
@@ -420,28 +424,20 @@
          transform="scale(-1)" />
     </g>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="m 73.542637,49.569849 h 7.317632"
        id="path17" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="75.180206"
        y="48.5229"
        id="text17"><tspan
          sodipodi:role="line"
          id="tspan17"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="75.180206"
          y="48.5229">加密</tspan></text>
-    <rect
-       style="fill:url(#pattern9);fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect17"
-       width="13.038732"
-       height="14.75912"
-       x="36.872379"
-       y="88.523979"
-       ry="1.0600189" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -481,7 +477,7 @@
          transform="scale(-1)" />
     </g>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="m 51.0933,95.903541 h 7.31763"
        id="path19"
        sodipodi:nodetypes="cc" />
@@ -493,7 +489,7 @@
        id="text19"><tspan
          sodipodi:role="line"
          id="tspan19"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
          x="52.780384"
          y="94.847404">解密</tspan></text>
     <text
@@ -504,61 +500,61 @@
        id="text29"><tspan
          sodipodi:role="line"
          id="tspan29"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
          x="75.70845"
          y="94.835938">分拆</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="M 99.804245,90.984899 H 108.5571"
        id="path30" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.6;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:1.76389px;line-height:1.6;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="103.9743"
        y="90.279716"
        id="text31"><tspan
          sodipodi:role="line"
          id="tspan31"
-         style="line-height:1.6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="line-height:1.6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="103.9743"
          y="90.279716">计算</tspan><tspan
          sodipodi:role="line"
-         style="line-height:1.6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="line-height:1.6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="103.9743"
          y="93.101944"
          id="tspan32">校验和</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWideRounded);marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWideRounded);marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="m 100.24117,104.72505 c 0,0 12.07055,3.95532 16.70783,-8.660782"
        id="path32" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="112.5489"
        y="104.83752"
        id="text33"><tspan
          sodipodi:role="line"
          id="tspan33"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="112.5489"
          y="104.83752">比对：是否相同？</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="M 95.935213,49.56985 H 122.21023"
        id="path33" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:1.76389px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="107.39526"
        y="48.5229"
        id="text34"><tspan
          sodipodi:role="line"
          id="tspan34"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="107.39526"
          y="48.5229">发送</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="m 28.249348,95.903537 7.71487,0"
        id="path34"
        sodipodi:nodetypes="cc" />
@@ -570,170 +566,166 @@
        id="text35"><tspan
          sodipodi:role="line"
          id="tspan35"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.345;stroke-opacity:1"
          x="29.962002"
          y="94.847404">接收</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:4.33542px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.847972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:4.33542px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.847972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="70.45887"
        y="26.389256"
        id="text36"><tspan
          sodipodi:role="line"
          id="tspan36"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.847969;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.847969;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="70.45887"
          y="26.389256">发送方</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:4.33542px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.847972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-weight:normal;font-size:4.33542px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC';text-align:start;letter-spacing:0px;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.847972;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;font-style:normal;font-stretch:normal;font-variant:normal"
        x="70.454536"
        y="78.782028"
        id="text37"><tspan
          sodipodi:role="line"
          id="tspan37"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.847969;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.847969;stroke-opacity:1;-inkscape-font-specification:'Sarasa UI SC';font-family:'Sarasa UI SC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="70.454536"
          y="78.782028">接收方</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.3822222;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 46.0646,38.467185 3.361111,0 v 24.508098 l -3.291088,0"
        id="path1"
        sodipodi:nodetypes="cccc" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="m 49.506182,49.569849 h 7.807793"
        id="path3"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
-       d="m 49.506182,49.569849 h 7.807793"
-       id="path4"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.345555;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideRounded);marker-end:url(#ArrowWideRounded)"
+       style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideRounded);marker-end:url(#ArrowWideRounded)"
        d="m 83.414814,90.904792 h -2.673746 v 13.814378 h 2.723259"
        id="path5" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.345555;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 74.700377,95.903541 H 80.64204"
        id="path6" />
     <g
        id="g54"
-       transform="translate(1.2604164,46.333691)">
+       transform="translate(1.2604164,46.333691)"
+       style="stroke-width:0.22222221;stroke-dasharray:none">
       <path
          id="path10"
-         style="fill:#ffe8b5;fill-opacity:1;stroke:#000000;stroke-width:0.345556;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#ffe8b5;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          d="m 59.315712,38.949567 c -0.59004,0 -1.065051,0.475012 -1.065051,1.065051 v 13.809493 c -7.57e-4,0.01651 -0.0026,0.0329 -0.0026,0.04961 v 5.25601 c 0,0.587594 0.473324,1.060401 1.060917,1.060401 h 12.294857 c 0.587593,0 1.060917,-0.472807 1.060917,-1.060401 v -5.25601 c 0,-0.0134 -0.0016,-0.02651 -0.0021,-0.03979 V 42.790676 L 68.82206,38.949567 Z" />
       <path
          id="path13"
-         style="fill:#b5efff;fill-opacity:1;stroke:none;stroke-width:0.345556;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#b5efff;fill-opacity:1;stroke:none;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          d="m 58.425719,51.763139 c -7.57e-4,0.01651 -0.0026,0.0329 -0.0026,0.04961 v 7.316982 c 0,0.478977 0.359536,0.884008 0.885859,0.884008 h 12.294857 c 0.51757,0 0.887619,-0.394726 0.887619,-0.884008 v -7.351993 c -2.863307,0.0053 -14.065735,-0.0146 -14.065735,-0.0146 z"
          sodipodi:nodetypes="cssssscc" />
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,33.650318,11.828856)"
          id="text46"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect53);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect53);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.023998"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan103"><tspan
+           id="tspan50"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan102">Your Missing </tspan></tspan><tspan
+             id="tspan49">Your Missing </tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan105"><tspan
+           id="tspan52"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan104">Semester of </tspan></tspan><tspan
+             id="tspan51">Semester of </tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan107"><tspan
+           id="tspan54"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan106">Using </tspan></tspan><tspan
+             id="tspan53">Using </tspan></tspan><tspan
            x="99.082031"
            y="144.0461"
-           id="tspan109"><tspan
+           id="tspan56"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan108">Computer</tspan></tspan></text>
+             id="tspan55">Computer</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,34.437016,22.435862)"
          id="text52"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect54);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect54);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.02733"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan111"><tspan
+           id="tspan58"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan110">20438174
-</tspan></tspan><tspan
+             id="tspan57">20438174&#10;</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan113"><tspan
+           id="tspan60"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan112">09149731
-</tspan></tspan><tspan
+             id="tspan59">09149731&#10;</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan115"><tspan
+           id="tspan62"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan114">......</tspan></tspan></text>
+             id="tspan61">......</tspan></tspan></text>
       <path
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.345, 1.035;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          d="M 59.224941,51.75109 H 71.687904"
          id="path52" />
       <path
          id="path53"
-         style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          d="m 72.664776,42.790652 -3.840594,-3.841109 v 2.776058 c 0,0.590041 0.475011,1.065051 1.065051,1.065052 z" />
     </g>
     <g
        id="g62"
-       transform="translate(59.39709,56.862434)">
+       transform="translate(59.39709,56.862434)"
+       style="stroke-width:0.22222221;stroke-dasharray:none">
       <path
          id="path54"
-         style="fill:#ffe8b5;fill-opacity:1;stroke:#000000;stroke-width:0.345556;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#ffe8b5;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          d="m 25.994279,26.018567 c -0.590041,0 -1.065051,0.475011 -1.065051,1.065051 v 14.077694 c 0,0.59004 0.47501,1.065051 1.065051,1.065051 h 12.281938 c 0.59004,0 1.065051,-0.475011 1.065051,-1.065051 V 29.859676 l -3.840593,-3.841109 z" />
       <path
          id="path55"
-         style="fill:none;stroke:#000000;stroke-width:0.345;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="fill:none;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          d="m 39.328431,29.885124 -3.840594,-3.841109 v 2.776058 c 0,0.590041 0.475011,1.065051 1.065051,1.065052 z" />
       <text
          xml:space="preserve"
          transform="scale(0.26458333)"
          id="text62"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect62);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect62);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.023998"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan117"><tspan
+           id="tspan64"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan116">Your Missing </tspan></tspan><tspan
+             id="tspan63">Your Missing </tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan119"><tspan
+           id="tspan66"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan118">Semester of </tspan></tspan><tspan
+             id="tspan65">Semester of </tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan121"><tspan
+           id="tspan68"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan120">Using </tspan></tspan><tspan
+             id="tspan67">Using </tspan></tspan><tspan
            x="99.082031"
            y="144.0461"
-           id="tspan123"><tspan
+           id="tspan70"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan122">Computer</tspan></tspan></text>
+             id="tspan69">Computer</tspan></tspan></text>
     </g>
     <g
        id="g68"
-       transform="translate(59.397091,45.380821)">
+       transform="translate(59.397091,45.380821)"
+       style="stroke-width:0.22222221;stroke-dasharray:none">
       <rect
-         style="fill:#b5efff;fill-opacity:1;stroke:#000000;stroke-width:0.341111;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#b5efff;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="rect63"
          width="14.416311"
          height="7.3772335"
@@ -744,32 +736,31 @@
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,1.1158409,25.921151)"
          id="text68"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect68);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect68);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.02733"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan125"><tspan
+           id="tspan72"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan124">20438174
-</tspan></tspan><tspan
+             id="tspan71">20438174&#10;</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan127"><tspan
+           id="tspan74"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan126">09149731
-</tspan></tspan><tspan
+             id="tspan73">09149731&#10;</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan129"><tspan
+           id="tspan76"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan128">......</tspan></tspan></text>
+             id="tspan75">......</tspan></tspan></text>
     </g>
     <g
        id="g74"
-       transform="translate(84.748173,31.514636)">
+       transform="translate(84.748173,31.514636)"
+       style="stroke-width:0.22222221;stroke-dasharray:none">
       <rect
-         style="fill:#b9ffb5;fill-opacity:1;stroke:#000000;stroke-width:0.341111;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         style="fill:#b9ffb5;fill-opacity:1;stroke:#000000;stroke-width:0.22222221;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="rect69"
          width="14.416311"
          height="7.3772335"
@@ -780,26 +771,24 @@
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,1.1158409,25.921151)"
          id="text74"
-         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect74);display:inline;fill:none;stroke:#000000;stroke-width:1.30394;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-weight:bold;font-size:6.66667px;line-height:1.1;font-family:'Sarasa UI SC';-inkscape-font-specification:'Sarasa UI SC Bold';text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect74);display:inline;fill:none;stroke:#000000;stroke-width:0.83989498;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          x="-21.02733"
          y="0"><tspan
            x="99.082031"
            y="122.04608"
-           id="tspan131"><tspan
+           id="tspan78"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan130">20438174
-</tspan></tspan><tspan
+             id="tspan77">20438174&#10;</tspan></tspan><tspan
            x="99.082031"
            y="129.37942"
-           id="tspan133"><tspan
+           id="tspan80"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan132">09149731
-</tspan></tspan><tspan
+             id="tspan79">09149731&#10;</tspan></tspan><tspan
            x="99.082031"
            y="136.71275"
-           id="tspan135"><tspan
+           id="tspan82"><tspan
              style="text-align:start;fill:#000000;stroke:none"
-             id="tspan134">......</tspan></tspan></text>
+             id="tspan81">......</tspan></tspan></text>
     </g>
   </g>
 </svg>
