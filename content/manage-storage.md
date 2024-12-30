@@ -1,5 +1,5 @@
 ---
-title: 空间管理大师
+title: 成为空间管理大师
 type: docs
 ---
 
@@ -152,14 +152,14 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 {{< tabs >}}
 {{% tab "Windows 11" %}}
 
-要找到磁盘清理，最快的方法是按下 `Windows` + `S`，输入「磁盘清理」。打开它，选择你需要清理的分区即可。
+在 Windows 11 中，要找到磁盘清理工具，最快的方法是按下 `Windows` + `S`，输入「磁盘清理」。打开它，选择你需要清理的分区即可。
 
 ![在 Windows 11 中搜索「磁盘清理」工具](manage-storage/Search_For_Disk_Clean.jpg#center)
 
 {{% /tab %}}
 {{% tab "Windows 10" %}}
 
-要寻找磁盘清理工具，Windows 10 可以右击某个分区，点击【属性】，再点击【磁盘清理】，就可以打开清理对应分区的磁盘清理工具。~~但是 Windows 11 中的这个地方被换成了「详细信息」。~~
+要寻找磁盘清理工具，在 Windows 10 中可以右击某个分区，点击【属性】，再点击【磁盘清理】，就可以打开清理对应分区的磁盘清理工具。
 
 ![Windows 10 的磁盘清理工具](manage-storage/Win_10_Disk_Clean.png#center)
 
@@ -240,6 +240,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 在 [文件与文件管理]({{<relref "file-and-file-management.md#文件的替身快捷方式">}}) 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 `lnk` 的文件。「不同类型的文件需要用不同的 app 来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。
 
 不妨试一试用记事本来打开一个快捷方式[^1]：
+
 - 在桌面按住 `Shift` 点右键，选择【在此处打开 PowerShell 窗口】；
 - 先输入 `dir`，你就可以看到目前你桌面上的所有文件与文件夹；
 - 再挑一个快捷方式，输入 `notepad <快捷方式（带扩展名）>`，你就会看到你选的快捷方式的「真面目」。
