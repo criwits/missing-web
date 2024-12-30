@@ -62,6 +62,7 @@ type: docs
 ![Windows NT 3.51 的蓝屏](recover-from-bsod/Win-NT-3.51-BSoD.png#center)
 
 这是一张 Windows NT 3.51 的蓝屏截图，可以看到上面包含了许多复杂的信息，大概分为四个部分：
+
 - 第一行是由一个十六进制数代表的蓝屏错误代码（指示错误类型）、四个十六进制数代表的错误参数，第二行是错误的名称以及发生的内存地址；
 - 接下来一大段展示电脑刚才已经加载的各种驱动；
 - 第三部分则是出错时的内存堆栈状况；
@@ -83,16 +84,15 @@ Windows XP 的蓝屏界面长这样：
 
 可以看到蓝屏界面的开头多了一句话：
 
-```
-A problem has been detected and Windows has been shut down to prevent damage
-to your computer.
-```
+{{<hint quoting>}}
+A problem has been detected and Windows has been shut down to prevent damage to your computer.
+{{</hint>}}
 
 什么意思呢？
 
-```
+{{<hint quoting>}}
 检测到了一个问题，Windows 已停止运行从而避免损害您的电脑。
-```
+{{</hint>}}
 
 ~~多贴心啊！~~ 这比以前直接一个「STOP」糊脸似乎温和得多，但仍然改变不了它是个蓝屏界面的事实。不过接下来的大段文字，几乎都是在向用户提供建议，例如重启、检查安装的新硬件及其驱动等等，不得不说确实「人性化」许多。当然，放在最后的还是必不可少的蓝屏代码、错误参数以及进程信息。
 
@@ -128,9 +128,9 @@ Windows 10 的下一代是 2021 年发布的 Windows 11，正式版的蓝屏界�
 
 你如果仔细观察过之前「早期 NT 时代」的各种蓝屏界面的话，可能会发现最后一段有一句话：
 
-```
+{{<hint quoting>}}
 Beginning dump of physical memory.
-```
+{{</hint>}}
 
 这就要说到 Windows 会在蓝屏时做些什么「幕后工作」了。在蓝屏发生之时，系统会收集发生错误的进程所在的内存与堆栈内容，并将它们放入一个「蓝屏内存转储文件」中。如今的蓝屏上「我们只收集某些错误信息」说的就是这个事。也就是说，即便蓝屏界面上没有了相关的技术信息，我们也可以通过分析内存转储文件的方式查找真正的蓝屏原因。当你遇到蓝屏时，不妨在重启后立刻打开 `C:\Windows\Minidump` 目录（如果系统提示【你当前无权访问该文件夹】，请点击【继续】），你应当能看见一个（或多个）`dmp` 格式的文件。它们就是之前遇到蓝屏时，系统留下的转储文件。
 
