@@ -1,6 +1,6 @@
 /* 常量 */
-const wrapContextLength = 3; // 禁折区上下文长度
-const floatImageWidthThreshold = 0.7; // 浮动图片宽度阈值
+const wrapContextLength = 8; // 禁折区上下文长度
+const floatImageWidthThreshold = 0.65; // 浮动图片宽度阈值
 const rerenderInterval = 300; // 重新渲染间隔
 
 /* 中文行首尾标点挤压 */
@@ -32,7 +32,7 @@ function destroyPunct() {
 
 
 function renderPunct() {
-    const article = document.querySelector('article');
+    const article = document.querySelector('body');
     const textNodes = getTextNodes(article);
     const chinesePunctuations = /[，。？！；：、「」『』《》〈〉（）【】]/g;
     
@@ -41,22 +41,31 @@ function renderPunct() {
         const tailPuncts = []
     
         const text = node.nodeValue;
+
+        let leadingSpaces = 0;
+        for (let i = 0; i < text.length; i++) {
+            if (text[i] === ' ' || text[i] === '\t' || text[i] === '\n' || text[i] === '\r') {
+                leadingSpaces += 1;
+            } else {
+                break;
+            }
+        }
+
         let match;
-    
+
         while ((match = chinesePunctuations.exec(text)) !== null) {
             const punctuation = match[0];
             const index = match.index;
-    
+
             // 获取该标点在页面上的位置
             const range = document.createRange();
             range.setStart(node, index);
             range.setEnd(node, index + punctuation.length);
             const rect = range.getBoundingClientRect();
     
-            // 如果该标点是 node 的首个字符或者最后一个字符，打印「首」或「尾」
-            if (index === 0) {
-                // 只处理 <p>、<h1>、<h2>、<h3>、<h4>、<h5>、<h6> 和 <li> 下的首尾标点
-                if (!node.parentNode || !['P', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'LI'].includes(node.parentNode.tagName)) {
+            if (index === leadingSpaces) {
+                // 只处理 <p>、<h1>、<h2>、<h3>、<h4>、<h5>、<h6>、<li> 和 <a> 下的首尾标点
+                if (!node.parentNode || !['P', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'LI', 'A'].includes(node.parentNode.tagName)) {
                     continue;
                 }
                 const previousNode = node.previousSibling;
@@ -108,22 +117,106 @@ function renderPunct() {
         const parent = node.parentNode; // 父节点
     
         let spanIntervals = [];
+
+        function checkIfHalfWidth(char) {
+            const charCode = char.charCodeAt(0);
+            return charCode < 0x2100; // U+2100 之前的字符可以当作比较窄的字符
+        }
+
+        function calcHeadFwdPosition(text, index) {
+            // 测试ABCD字符「测试字符」
+            //            ^i
+            //      [][][]  
+            let pos = 0;
+            let wrapCount = 0;
+            for (pos = index - 1; pos >= 0; pos--) {
+                if (checkIfHalfWidth(text[pos])) {
+                    wrapCount += 1;
+                } else {
+                    wrapCount += 2;
+                }
+                if (wrapCount >= wrapContextLength) {
+                    break;
+                }
+            }
+            return Math.max(0, pos);
+        }
+
+        function calcHeadBwdPosition(text, index) {
+            // 测试ABCD字符「测试字符」
+            //            ^i
+            //           [][][]
+            let pos = 0;
+            let wrapCount = -1;
+            for (pos = index; pos < text.length; pos++) {
+                if (checkIfHalfWidth(text[pos])) {
+                    wrapCount += 1;
+                } else {
+                    wrapCount += 2;
+                }
+                if (wrapCount >= wrapContextLength) {
+                    break;
+                }
+            }
+            return Math.min(text.length - 1, pos);
+        }
+
+        function calcTailFwdPosition(text, index) {
+            // 「测试字符」测试字ABCD
+            //         ^i
+            //     [][][]
+            let pos = 0;
+            let wrapCount = -1;
+            for (pos = index; pos >= 0; pos--) {
+                if (checkIfHalfWidth(text[pos])) {
+                    wrapCount += 1;
+                }
+                else {
+                    wrapCount += 2;
+                }
+                if (wrapCount >= wrapContextLength) {
+                    break;
+                }
+            }
+            return Math.max(0, pos);
+        }
+
+        function calcTailBwdPosition(text, index) {
+            // 「测试字符」测试字ABCD
+            //         ^i
+            //           [][][]
+            let pos = 0;
+            let wrapCount = 0;
+            for (pos = index + 1; pos < text.length; pos++) {
+                if (checkIfHalfWidth(text[pos])) {
+                    wrapCount += 1;
+                }
+                else {
+                    wrapCount += 2;
+                }
+                if (wrapCount >= wrapContextLength) {
+                    break;
+                }
+            }
+            return Math.min(text.length - 1, pos);
+        }
+
     
         for (let i = 0; i < text.length; i++) {
             if (headPuncts.includes(i)) {
                 // 对于行首标点，从 (i - ctx) 开始，到 (i - 1) 为前禁折区，从 (i) 到 (i + ctx - 1) 为后禁折区
-                const f_start = Math.max(0, i - wrapContextLength);
+                const f_start = calcHeadFwdPosition(text, i);
                 const f_end = Math.max(0, i - 1);
                 const b_start = i;
-                const b_end = Math.min(text.length - 1, i + wrapContextLength - 1);
+                const b_end = calcHeadBwdPosition(text, i);
                 spanIntervals.push([f_start, f_end]);
                 spanIntervals.push([b_start, b_end]);
             } else if (tailPuncts.includes(i)) {
                 // 对于行尾标点，从 (i - ctx + 1) 开始，到 (i) 为前禁折区，从 (i + 1) 到 (i + ctx) 为后禁折区
-                const f_start = Math.max(0, i - wrapContextLength + 1);
+                const f_start = calcTailFwdPosition(text, i);
                 const f_end = i;
                 const b_start = Math.min(text.length - 1, i + 1);
-                const b_end = Math.min(text.length - 1, i + wrapContextLength);
+                const b_end = calcTailBwdPosition(text, i);
                 spanIntervals.push([f_start, f_end]);
                 spanIntervals.push([b_start, b_end]);
             }

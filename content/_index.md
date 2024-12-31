@@ -72,13 +72,13 @@ type: docs
 
 {{< commit_info >}}
 
+- Everything done: 全书初步定稿 (24/12/31)
 - Content update:「云物」换新颜，向着 2025 进发！ (24/12/22)
 - Content update:「程序」一章基本修订完毕 (24/12/20)
 - Content update:「邮件通信」一章基本修订完毕 (24/12/8)
 - Content update:「编码」一章基本修订完毕 (24/12/8)
 - Almost there: 《你缺计课》所有章节的文字部分基本完成 (24/12/4)
 - Content update: 基本完成「电子邮件与即时通信」一章，等待绘图和修订 (24/12/2)
-- Content update: 基本完成「云上世界，万物互联」一章，等待绘图和修订 (24/12/2)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 作者
@@ -88,13 +88,13 @@ type: docs
 - [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪和睡觉。
 - [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨是「摸鱼万岁！」
 
-[点击这里]({{<relref "anecdote.md">}})查看作者轶闻专栏！
+点击 [这里]({{<relref "anecdote.md">}}) 查看作者轶闻专栏！
 
 ## 反馈
 
 若您对本作品有任何意见或建议，都请发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。
 
-> 本作品仍然持续更新之中，因此十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
+> 我们十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
 > 
 
 ## 著作权、许可与声明

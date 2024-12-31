@@ -77,7 +77,7 @@ type: docs
 
 ### 初试电子邮箱
 
-了解了电子邮件的工作方式，你是否也希望拥有自己的电子邮箱呢？我们以 QQ 邮箱为例，来看看电子邮件怎么用吧。打开 QQ 邮箱的官网（[mail.qq.com](https://mail.qq.com/)），在右侧，你可以登录你的 QQ 账号。默认情况下，当你注册 QQ 账号时，就会自动获得一个格式为 `<QQ 号>@qq.com` 的电子邮箱地址。
+了解了电子邮件的工作方式，你是否也希望拥有自己的电子邮箱呢？我们以 QQ 邮箱为例，来看看电子邮件怎么用吧。打开 QQ 邮箱的官网（[https://mail.qq.com](https://mail.qq.com/)），在右侧，你可以登录你的 QQ 账号。默认情况下，当你注册 QQ 账号时，就会自动获得一个格式为 `<QQ 号>@qq.com` 的电子邮箱地址。
 
 ![QQ 邮箱登录页](mail-and-instant-messaging/QQ_Mail_Login.png#center)
 

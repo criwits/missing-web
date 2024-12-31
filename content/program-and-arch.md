@@ -195,7 +195,7 @@ fn main() {
 {{% /tab %}}
 {{% tab "文言" %}}
 
-「文言」（wenyan-lang）还真是一门编程语言哦，你可以在它的 [官方网站](https://wy-lang.org/) 查看更多信息。
+「文言」（wenyan-lang）还真是一门编程语言哦，你可以在它的官方网站 [https://wy-lang.org/](https://wy-lang.org/) 查看更多信息。
 
 ```wenyan-lang
 吾有二數。曰一。曰零。名之曰「計」。曰「和」。
