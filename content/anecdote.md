@@ -67,3 +67,7 @@ type: docs
 ## 《原神》入脑
 
 ![没救了](anecdote/too_expensive.png)
+
+## 此地无银三百两
+
+![嗯嗯，你说得对](anecdote/clumsy_denial.png)
