@@ -15,7 +15,7 @@ type: docs
 
 零门槛、易理解、有深度，与时俱进、开放共享——这是《你缺失的那门计算机课》不断追求的目标，也是我们努力的方向。
 
-> 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.tsinghua.edu.cn/) 出版，敬请期待！
+> 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 
 ## 目录
 
@@ -65,11 +65,29 @@ type: docs
 ## 本作品的各种版本
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
-- 纸质版：将由 [清华大学出版社](https://www.tup.tsinghua.edu.cn/) 出版发行，敬请期待！
+- 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待
 - 开源 PDF 版：[腾讯微云](https://share.weiyun.com/CSJSKtl2)（24/4/20 更新），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（第三方提供，24/1/20 更新）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
 请注意，开源 PDF 版本的更新不如网页版频繁，同时已与网页版内容相差较多。若您想要查看网页版和开源 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
+
+## 反馈与交流
+
+若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=0Osd1tkNAzUEs6Hz3DG8-8Td-8XDDoUR&jump_from=webapi&authKey=hSDdlTT41FQCWKcjNfjyVc6jq+lMFviLyammCQiD0qCZ2tEP7OLLmj9tQAVhyaG8) 或扫描下方二维码，加入我们的交流 QQ 群。
+
+![QQ 群二维码](misc/QQ_group.svg#center)
+
+> 我们十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
+>
+
+## 作者
+
+《你缺失的那门计算机课》编委会：
+
+- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪和睡觉。
+- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨是「摸鱼万岁！」
+
+点击 [这里]({{<relref "anecdote.md">}}) 查看作者轶闻专栏！
 
 ## 修订记录
 
@@ -83,24 +101,6 @@ type: docs
 - Almost there: 《你缺计课》所有章节的文字部分基本完成 (24/12/4)
 - Content update: 基本完成「电子邮件与即时通信」一章，等待绘图和修订 (24/12/2)
 - [查看更多……]({{<relref "revisions.md">}})
-
-## 作者
-
-《你缺失的那门计算机课》编委会：
-
-- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪和睡觉。
-- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨是「摸鱼万岁！」
-
-点击 [这里]({{<relref "anecdote.md">}}) 查看作者轶闻专栏！
-
-## 反馈与交流
-
-若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=0Osd1tkNAzUEs6Hz3DG8-8Td-8XDDoUR&jump_from=webapi&authKey=hSDdlTT41FQCWKcjNfjyVc6jq+lMFviLyammCQiD0qCZ2tEP7OLLmj9tQAVhyaG8) 或扫描下方二维码，加入我们的交流 QQ 群。
-
-![QQ 群二维码](misc/QQ_group.svg#center)
-
-> 我们十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
-> 
 
 ## 著作权、许可与声明
 
