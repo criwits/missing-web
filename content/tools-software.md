@@ -83,7 +83,7 @@ Motrix，如它在网页上宣传的那样，是「一款全能的下载工具�
 
 ### Free Download Manager
 
-官网下载地址：[https://www.freedownloadmanager.org/zh/download.htm](https://www.freedownloadmanager.org/zh/download.htm)
+官网下载地址：[https://www.freedownloadmanager.org/zh/download.htm](https://www.freedownloadmanager.org/zh/download.htm)。
 
 Free Download Manager，简称 FDM，是另一款开源的全能下载器。和 Motrix 一样，它支持多种不同的资源协议，如 FTP 和 BitTorrent，还能下载一些网站上的视频，同时具有不错的下载速度。
 
@@ -165,7 +165,7 @@ ExplorerPatcher 是一款**第三方** Windows 界面优化工具，它不可避
 
 GitHub 发布页：[https://github.com/valinet/ExplorerPatcher/releases](https://github.com/valinet/ExplorerPatcher/releases)，一般下载 `ep_setup.exe` 即可。如果你使用的是 ARM 指令集的 CPU（参见 [软件的寻找与安装]({{<relref "software-installation.md#优先考虑官方网站">}})，详见 [「程序」是怎样炼成的]({{<relref "program-and-arch.md#指令集的明争暗斗">}})），请下载 `ep_setup_arm64.exe`。
 
-觉得 Windows 11 的任务栏不好用？界面上有按钮移除不掉？觉得资源管理器地址栏太宽？一切尽在 ExplorerPatcher！ExplorerPatcher 是一款开源工具，可以对 Windows 10/11 的任务栏、文件资源管理器、开始菜单等系统组件进行多样的调整。在 GitHub 发布页下载 `ep_setup.exe` 或 `ep_setup_arm64.exe` 后，双击即可自动启动安装。安装完成后，按 `Windows` + `S` 并搜索「ExplorerPatcher」，点击【属性 (ExplorerPatcher)】即可打开 ExplorerPatcher:
+觉得 Windows 11 的任务栏不好用？界面上有按钮移除不掉？觉得资源管理器地址栏太宽？一切尽在 ExplorerPatcher！ExplorerPatcher 是一款开源工具，可以对 Windows 10/11 的任务栏、文件资源管理器、开始菜单等系统组件进行多样的调整。在 GitHub 发布页下载 `ep_setup.exe` 或 `ep_setup_arm64.exe` 后，双击即可自动启动安装。安装完成后，按 `Windows` + `S` 并搜索「ExplorerPatcher」，点击【属性 (ExplorerPatcher)】即可打开 ExplorerPatcher：
 
 ![打开 ExplorerPatcher](tools-software/EP_open.png#center)
 
