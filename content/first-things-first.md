@@ -113,5 +113,4 @@ type: docs
     1. `Windows` + `Shift` + `S` （仅限 Windows 10/11）
     2. `Ctrl` + `Shift` + `Esc`
     3. `Windows` + `D`
-    {.bracket-num}
 4. 如果你在用笔记本电脑，了解并体验它 `F1`—`F12` 功能键的扩展功能。

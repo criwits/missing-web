@@ -202,9 +202,9 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 | 扩展名 | 用什么软件打开 | 软件主程序的路径在哪                                        |
 | ------ | -------------- | ----------------------------------------------------------- |
-| txt    | 记事本         | `C:\Windows\system32\notepad.exe`                             |
-| docx   | Word           | `C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE` |
-| mp3    | 网易云音乐     | `D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe`    |
+| txt    | 记事本         | <code style="white-space: pre">C:\Windows\system32\notepad.exe</code>                             |
+| docx   | Word           | <code style="white-space: pre">C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE</code> |
+| mp3    | 网易云音乐     | <code style="white-space: pre">D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe</code>    |
 | ……   | ……           | ……                                                        |
 
 有了这张表，系统就能自动地帮我们选择文件对应的打开方式。有时，我们不想要用这张表帮我们预置的方式来打开文件。比如，打开 `png` 图片的默认方式是「照片」软件，但如果我们想**暂时**用「画图」来打开它，我们可以这样做：
