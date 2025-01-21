@@ -247,7 +247,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 ![假的 OBS Studio 安装包](software-installation/Fake_OBS_installer.png#center)
 
-若是双击运行这个文件，Windows 会弹出这样一个窗口，询问【你要允许此应用对你的设备进行更改吗？】这个窗口称为「UAC 弹窗」，在下一章 [基本维护与安全防护]({{<relref "basic-maintenance.md">}}) 我们会详细介绍它。假设我们以为这个可执行文件就是 OBS Studio 的安装器，自然就放心地选择了【是】。这时，眼前自动弹出了进度条，看似正在为我们安装 OBS Studio：
+若是双击运行这个文件，Windows 会弹出这样一个窗口，询问【你要允许此应用对你的设备进行更改吗？】这个窗口称为「UAC 弹窗」，在下一章 [基本维护和安全防护]({{<relref "basic-maintenance.md">}}) 我们会详细介绍它。假设我们以为这个可执行文件就是 OBS Studio 的安装器，自然就放心地选择了【是】。这时，眼前自动弹出了进度条，看似正在为我们安装 OBS Studio：
 
 ![假的 OBS Studio 安装过程](software-installation/Fake_OBS_install.png#center)
 

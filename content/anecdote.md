@@ -71,3 +71,7 @@ type: docs
 ## 此地无银三百两
 
 ![嗯嗯，你说得对](anecdote/clumsy_denial.png)
+
+## 出师未捷
+
+![唉](anecdote/how_to_visit.png)
