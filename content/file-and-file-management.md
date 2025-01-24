@@ -283,6 +283,8 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 - 在资源管理器中，右击某个我们想要迁移的文件夹（比如【文档】），选择【属性】，然后切换到【位置】选项卡，如图：
 
+    ![查看「文档」的位置](file-and-file-management/Pos_of_Documents.png#center)
+
 - 我们将这里文本框中
 
     ```

@@ -203,7 +203,7 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn" "F:\Link\Documentation.zh-Hans-cn"
 ```
 
-其中 `%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn` 是符号链接的位置，`F:\Link\Documentation.zh-Hans-cn` 是符号链接指向的位置，也就是本体的实际位置。`/d` 表示「目录」，表示建立的符号链接是用于文件夹的。如果你移动的是文件而非文件夹，可以将 `/d` 删掉。
+其中 `%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans-cn` 是符号链接的位置，`F:\Link\Documentation.zh-Hans-cn` 是符号链接指向的位置，也就是本体的实际位置。`/d` 表示「目录」，表示建立的符号链接是用于文件夹的。如果你移动的是文件而非文件夹，需要将 `/d` 删掉。
 
 但是这「暗度陈仓」的弊端也很明显。如果你一番操作下来，建立了许多符号链接，虽然这么一来 C 盘的空间压力减轻了，但是文件之间的相互关系却变得更加混乱了。如果在放置文件本体时随性而为，那只会让混乱不堪的文件指向关系更加雪上加霜。
 
@@ -237,7 +237,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 上文中，我们简单介绍了「符号链接」，这是一种可以让文件/文件夹指向其他文件/文件夹的方法。其实，符号链接是「文件链接」的一种，Windows 还提供了其他类型的文件链接。本节我们将深入介绍文件链接的概念与使用方法。
 
-在 [文件与文件管理]({{<relref "file-and-file-management.md#文件的替身快捷方式">}}) 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 `lnk` 的文件。「不同类型的文件需要用不同的 app 来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。
+在 [文件与文件管理]({{<relref "file-and-file-management.md#文件的替身快捷方式">}}) 一章中我们已经介绍了「快捷方式」的基本概念，但快捷方式说到底是一个文件，一个扩展名为 `lnk` 的文件。「不同类型的文件需要用不同的软件来打开」，这也是我们已经知道的，那么快捷方式呢？答案是文件资源管理器，快捷方式是作为文件资源管理器的扩展而存在的，资源管理器读取它，就知道该去哪里找文件。
 
 不妨试一试用记事本来打开一个快捷方式[^1]：
 
@@ -307,7 +307,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
    ```powershell
    ni <链接所在路径> -i HardLink -ta <本体所在路径>
    ```
-   它对文件与文件夹都有效，但也无法处理带西文方括号的路径，无法识别特殊路径语法。当然，带空格的路径记得打上双引号。
+   它对文件与文件夹都有效，但也无法处理带西文方括号的路径，无法识别环境变量。当然，带空格的路径记得打上双引号。
 
 按照硬链接的行为，**无论一份数据有多少硬链接，磁盘上都应该只有一份文件的数据，只占一份文件的空间**。事实的确如此，但文件资源管理器不这么想——有多少链接，它就给你算多少份文件大小，于是乎，就有了这样占用空间比整个硬盘还大的奇景：
 
