@@ -203,4 +203,4 @@ type: docs
 
 ## 安装软件，开始使用吧！
 
-按照自己的喜好安装各种软件，并享受新电脑吧！更多细节，不妨参阅 [软件的寻找与安装]({{<relref "software-installation.md">}})，以及 [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}})、[压缩文件与压缩工具]({{<relref "archive-formats-and-tools.md">}})、[工具类软件推荐]({{<relref "tools-software.md">}}) 等「软件篇」的章节。
+按照自己的喜好安装各种软件，并享受新电脑吧！更多细节，不妨参阅 [软件的寻找与安装]({{<relref "software-installation.md">}})，以及 [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}})、[压缩文件与压缩工具]({{<relref "archive-formats-and-tools.md">}})、[工具类软件推荐]({{<relref "tools-software.md">}}) 等「软件篇」的章节。此外，你还可以看看这篇《[给电脑新手的笔记本开荒指南导读](https://blog.zhilu.cyou/2024/new-laptop-guide)》，其中提到了许多本章未提及的细节和技巧。
