@@ -3,9 +3,6 @@ name: Reject Pull Requests on Content
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-  push:
-    branches:
-      - main
 
 jobs:
   run:
@@ -20,7 +17,7 @@ jobs:
       - name: Check if `content` directory is modified
         id: check_content
         run: |
-          if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '^content/'; then
+          if git diff --name-only origin/${{ github.event.pull_request.base.ref }} | grep -q '^content/'; then
             echo "PR_MODIFIED_CONTENT=true" >> $GITHUB_ENV
           else
             echo "PR_MODIFIED_CONTENT=false" >> $GITHUB_ENV
