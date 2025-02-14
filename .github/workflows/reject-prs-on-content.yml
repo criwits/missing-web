@@ -25,7 +25,7 @@ jobs:
 
       - name: Close PR if necessary
         if: steps.check_content.outputs.content == 'true'
-        - uses: crondaemon/close-pr@v1
+        uses: crondaemon/close-pr@v1
         with:
           comment: "您好，感谢您的贡献！很抱歉，为了控制文章的质量和行文风格，**我们不接受直接针对正文、图片部分（位于 `content` 目录下）的拉取请求（Pull Request），请您谅解**。\n\n您可以将建议、意见发送邮件到 [missing@criwits.top](mailto:missing@criwits.top)，或在本仓库中提交议题（Issue）。"
         env:
