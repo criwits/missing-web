@@ -104,7 +104,7 @@ type: docs
 
 ## 著作权、许可与声明
 
-《你缺失的那门计算机课》网页版 版权所有 © 2021–2025 Hans Wan 和 Windy Deng。
+《你缺失的那门计算机课》网页版 · 版权所有 © 2021–2025 Hans Wan 和 Windy Deng。
 
 ![CC BY-NC-SA](misc/CC_sign.svg#floatright)
 
