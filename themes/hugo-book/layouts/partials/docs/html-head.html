@@ -1,9 +1,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ default .Summary .Description }}">
+<meta name="description" content="{{ default .Site.Params.Description }}">
 <meta name="theme-color" content="#FFFFFF">
 
-{{- template "_internal/opengraph.html" . -}}
+{{ partial "docs/opengraph" . }}
 
 <title>{{ partial "docs/title" . }} | 你缺失的那门计算机课 | 计算机技术学习札记</title>
 
