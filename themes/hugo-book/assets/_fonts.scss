@@ -75,12 +75,11 @@
 }
 
 // 从某个神秘的字体 CDN 整点思源黑体
-@import url('https://static.zeoseven.com/zsft/69/main/result.css');
+@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC&display=swap');
 
 body {
-  font-family: Inter, 'Noto Sans CJK SC', sans-serif;
+  font-family: Inter, 'Noto Sans SC', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
-  // text-spacing-trim: trim-both; // 反正放在这里，有朝一日浏览器会支持的吧。
   /* fix for Chrome */
 }
 
@@ -93,10 +92,10 @@ body {
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: InterVariable, 'Noto Sans CJK SC', sans-serif;
+    font-family: InterVariable, 'Noto Sans SC', sans-serif;
   }
 }
 
 code, pre, kbd {
-  font-family: 'Roboto Mono', 'Noto Sans CJK SC', monospace;
+  font-family: 'Roboto Mono', 'Noto Sans SC', monospace;
 }
