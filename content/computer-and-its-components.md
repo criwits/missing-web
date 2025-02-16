@@ -196,7 +196,7 @@ type: docs
 
 今天，主流的手机操作系统有「安卓」（Android）、「iOS」以及「鸿蒙」（Harmony OS）。安卓系统是开放的，因此被各个手机厂商广泛使用，而 iOS 和鸿蒙目前则分别用在苹果和华为的设备上。如果你在网上下载过手机 app，一定会注意到厂商要根据操作系统提供不同的下载入口，这正是因为不同系统上的软件相互不兼容。
 
-而在电脑上，「Windows」「Linux」及「macOS」是最常见的三种操作系统。**Windows 最为普遍，几乎所有的个人电脑都运行着 Windows 系统**。Linux 是一种开源的操作系统，主要在服务器上使用，一些专业人士也会在日常使用；macOS 则是苹果推出的电脑操作系统，理论上只能用于苹果的电脑。下图中，(a) 至 (c) 依次是 Windows 11、Linux（使用 GNOME 桌面环境）和 macOS Sonoma 的界面。
+而在电脑上，「Windows」「Linux」及「macOS」是最常见的三种操作系统。**Windows 最为普遍，几乎所有的个人电脑都运行着 Windows 系统**。Linux 是一种开源的操作系统，主要在服务器上使用，一些专业人士也会在日常使用。此外，近年来，一些机关和事业单位也开始使用基于 Linux 的国产操作系统（如统信 UOS、银河麒麟等）以保障国家信息安全。macOS 则是苹果推出的电脑操作系统，理论上只能用于苹果的电脑。下图中，(a) 至 (c) 依次是 Windows 11、Linux（使用 GNOME 桌面环境）和 macOS Sonoma 的界面。
 
 ![三种操作系统](computer-and-its-components/Three_systems.png#center)
 
