@@ -33,7 +33,7 @@ type: docs
     
     先后按下这些快捷键组合中的几个，说不定能够将你的几个窗口吸附到屏幕的四个角落，就像这样：
     
-    ![屏幕四角的窗口们](shortcut-keys/Window_Grid.png)
+    ![屏幕四角的窗口们](shortcut-keys/Window_Grid.png#center)
     
 - 「虚拟桌面」相关：
     
@@ -41,7 +41,7 @@ type: docs
     
     - 按 `Windows` + `Tab`，你可以看到一个【新建桌面】的按钮。Windows 10 的这个按钮位于画面顶部，Windows 11 则在底部。按这个按钮，你原来打开的应用全部留在「桌面 1」，而一个新的虚拟桌面「桌面 2」则会呈现在你面前。桌面 1 上的应用全部继续工作，而在桌面 2 上，你亦可以打开一些新的应用，干一些其他的事情。下图展示的是 Windows 11 下的两个虚拟桌面：
     
-    ![两个虚拟桌面](shortcut-keys/Virtual_Desktop.png)
+    ![两个虚拟桌面](shortcut-keys/Two_Virtual_Desktops.png#center)
     
     - 在 `Windows` + `Tab` 中，你可以在两个桌面间切换。
     - `Windows` + `Ctrl` + `D` 可以用来创建一个新的虚拟桌面，这等价于按 `Windows` + `Tab` 然后手动点击【新建桌面】按钮。
