@@ -5,7 +5,11 @@
 {{- end }}
 
 {{- with or .Title site.Title site.Params.title | plainify }}
-  <meta property="og:title" content="{{ . }}">
+  {{ if eq . "首页" }}
+    <meta property="og:title" content="{{ site.Title }}">
+  {{ else }}
+    <meta property="og:title" content="{{ . }} | {{ site.Title }}">
+  {{ end }}
 {{- end }}
 
 {{- with or .Site.Params.Description | plainify | htmlUnescape }}

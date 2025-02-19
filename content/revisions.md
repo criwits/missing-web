@@ -7,6 +7,8 @@ type: docs
 
 这里记录了本作品自面世以来的所有内容更新和修订。每次更新和修订都会在这里记录，以便读者查阅。
 
+- Patch things up: 各种小修小补 (25/2/19)
+- The more the merrier: 建立了交流 QQ 群 (25/1/1)
 - Everything done: 全书初步定稿 (24/12/31)
 - Content update:「云物」换新颜，向着 2025 进发 (24/12/22)
 - Content update:「程序」一章基本修订完毕 (24/12/20)

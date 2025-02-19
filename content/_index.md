@@ -84,8 +84,8 @@ type: docs
 
 《你缺失的那门计算机课》编委会：
 
-- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，现于本校继续攻读硕士学位，研究兴趣为机器学习和大语言模型应用。喜好网上冲浪和睡觉。
-- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，现于 [喻家山大学](https://www.hust.edu.cn/) 攻读硕士学位，研究兴趣为计算光刻。重度音游玩家，生活宗旨是「摸鱼万岁！」
+- [Hans Wan](https://criwits.top/about)：毕业于 [圣马家沟男子职业技术学院（平山村校区）](https://www.hitsz.edu.cn/)，喜好网上冲浪和睡大觉。
+- [Windy Deng](https://github.com/Wenti-D)：毕业于 [岳麓山说唱学院](https://www.hnu.edu.cn/)，重度音游玩家，生活宗旨是「摸鱼万岁！」
 
 点击 [这里]({{<relref "anecdote.md">}}) 查看作者轶闻专栏！
 
@@ -93,13 +93,13 @@ type: docs
 
 {{< commit_info >}}
 
+- Patch things up: 各种小修小补 (25/2/19)
+- The more the merrier: 建立了交流 QQ 群 (25/1/1)
 - Everything done: 全书初步定稿 (24/12/31)
 - Content update:「云物」换新颜，向着 2025 进发！ (24/12/22)
 - Content update:「程序」一章基本修订完毕 (24/12/20)
 - Content update:「邮件通信」一章基本修订完毕 (24/12/8)
 - Content update:「编码」一章基本修订完毕 (24/12/8)
-- Almost there: 《你缺计课》所有章节的文字部分基本完成 (24/12/4)
-- Content update: 基本完成「电子邮件与即时通信」一章，等待绘图和修订 (24/12/2)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明
@@ -116,7 +116,9 @@ type: docs
 
 ## 统计信息
 
-- 全站页面浏览量：<span id="busuanzi_value_site_pv">统计中</span>
-- 全站独立访客数：<span id="busuanzi_value_site_uv">统计中</span>
+自 2024 年 5 月 9 日以来，本站的访问量如下：
 
-以上统计信息由 <a href="https://cn.vercount.one/" target="_blank">Vercount</a> 提供，统计起始于 2024 年 5 月 9 日。
+- 全站页面浏览量（PV）：<span id="busuanzi_value_site_pv">统计中</span>
+- 全站独立访客数（UV）：<span id="busuanzi_value_site_uv">统计中</span>
+
+以上统计信息由 [Vercount](https://cn.vercount.one/) 提供。
