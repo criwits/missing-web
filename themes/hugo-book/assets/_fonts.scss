@@ -83,11 +83,14 @@ body {
   /* fix for Chrome */
 }
 
-.force-compress-punct {
-  font-feature-settings: 'liga' 1, 'calt' 1, 'palt' 1;
-}
-.force-no-wrap {
-  white-space: nowrap;
+// 当在屏幕上显示时，启用标点压缩，配合 JS 脚本实现
+@media screen {
+  .force-compress-punct {
+    font-feature-settings: 'liga' 1, 'calt' 1, 'palt' 1;
+  }
+  .force-no-wrap {
+    white-space: nowrap;
+  }
 }
 
 @supports (font-variation-settings: normal) {
