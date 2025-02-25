@@ -93,13 +93,11 @@ type: docs
 
 {{< commit_info >}}
 
-- ADs are not welcomed: 调整对某压缩软件的推荐程度 (25/2/25)
+- ADs are not welcome: 调整对某压缩软件的推荐程度 (25/2/25)
 - Patch things up: 各种小修小补 (25/2/19)
 - The more the merrier: 建立了交流 QQ 群 (25/1/1)
 - Everything done: 全书初步定稿 (24/12/31)
 - Content update:「云物」换新颜，向着 2025 进发！ (24/12/22)
-- Content update:「程序」一章基本修订完毕 (24/12/20)
-- Content update:「邮件通信」一章基本修订完毕 (24/12/8)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明

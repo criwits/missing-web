@@ -129,7 +129,7 @@ RAR 格式的压缩率通常比 ZIP 高上不少。除此之外，它还支持�
 分卷压缩文件分为「主文件」与「分卷文件」，它们的扩展名与普通压缩文件有一些联系，但也有自己的规则。下面是一些常见的分卷压缩文件扩展名规则：
 - ZIP 格式：主文件为 `zip`，分卷为 `z01`、`z02`……
 - RAR 格式：主文件为 `part1.rar`，分卷为 `part2.rar`、`part3.rar`……
-- 7Z 格式：主文件为 `7z.001`，分卷为 `7z.002`、`7z.003`……
+- 7z 格式：主文件为 `7z.001`，分卷为 `7z.002`、`7z.003`……
 
 如果想要查看或解压这样的一组分卷压缩文件，只需要将它们放在同一目录下，然后操作主文件即可。压缩工具会自动找到所有的分卷并加载它们。
 
@@ -197,11 +197,11 @@ Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是�
 
 举个例子：上图中的压缩包内部就有许多图片，假设这个压缩包的路径是 `D:\Touhou_Street.zip`，点击【智能解压到此处】之类的选项，那么图片就会被提取到 `D:\Touhou_Street\` 下；若这压缩包里面就一张图，则会被提取到 `D:\` 下。
 
-智能解压既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议你使用智能解压来解压文件，除非你有特殊目的。
+智能解压既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议你使用智能解压来解压文件，这样就不用担心会弄乱自己的工作目录了。
 
 ![智能解压](archive-formats-and-tools/Smart_Extract.png#center)
 
-Bandizip 免费版可以在 [https://www.bandisoft.com/bandizip/](https://www.bandisoft.com/bandizip/) 下载到，如果你能忍受不时出现的右下角广告，那么它的使用体验还算不错。
+Bandizip 免费版可以在 [https://www.bandisoft.com/bandizip/](https://www.bandisoft.com/bandizip/) 下载到，如果你能忍受不时出现的小广告，那么它的使用体验还算不错。
 
 ### WinRAR
 
@@ -209,7 +209,7 @@ WinRAR 是 RAR 格式的作者设计的软件。顾名思义，WinRAR 最大的�
 
 ![WinRAR 的主界面](archive-formats-and-tools/WinRAR_main_window.png#center)
 
-WinRAR 是收费的商业软件——换言之，这款软件需要购买才能使用。不过，WinRAR 在中国也提供了一个「个人免费版本」，这个版本包含恶性弹窗广告——与 Bandizip 那种不同，WinRAR 的广告在打开压缩文件的时候也会弹出。如果你能接受那样的弹窗广告，那么 WinRAR 也许是一个不错的选择。
+WinRAR 是收费的商业软件——换言之，这款软件需要购买才能使用。不过，WinRAR 在中国也提供了一个「个人免费版本」，这个版本包含弹窗广告，在打开每次压缩文件的时候都会弹出，如下图所示。如果你能接受这样的弹窗广告，那么 WinRAR 也许是一个不错的选择。
 
 ![WinRAR 的弹窗广告](archive-formats-and-tools/WinRAR_ad.png#center)
 
