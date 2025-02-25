@@ -173,19 +173,23 @@ NanaZip 可以在 Microsoft Store 搜索「NanaZip」直接安装。或者，你
 
 ### Bandizip
 
-Bandizip 是由 Bandisoft 开发的一款压缩软件，有免费的标准版与付费的专业版、企业版。免费版可以在 [https://www.bandisoft.com/bandizip/](https://www.bandisoft.com/bandizip/) 下载到。它也支持读取几乎所有格式的压缩包，也能制作包括但不限于 ZIP、7z 等格式的压缩包。当然，和 7-Zip 一样，Bandizip 无法制作 RAR 压缩包。
+Bandizip 是由 Bandisoft 开发的一款压缩软件，有免费的标准版与付费的专业版、企业版。它也支持读取几乎所有格式的压缩包，也能制作包括但不限于 ZIP、7z 等格式的压缩包。当然，和 7-Zip 一样，Bandizip 无法制作 RAR 压缩包。
 
-Bandizip的主界面大致如下图所示。可以看见，它的界面较为简洁、现代，但美中不足的便是右下角的广告。这广告需要我们购买专业版或企业版才能去除，不过实际使用上却几乎没有干扰，因为广告仅在没有打开任何文件时出现，而实际使用时我们基本上不会来到这里。
+Bandizip的主界面大致如下图所示。可以看见，它的界面较为简洁、现代，但美中不足的便是右下角的广告。这广告需要我们购买专业版或企业版才能去除。
 
 ![Bandizip 的主界面](archive-formats-and-tools/Bandizip_main_window.png#center)
 
-当你使用 Bandizip 打开一个压缩文件时，软件界面大致如下图，这里是没有广告的。你可以在此对压缩文件进行各种操作。
+此外，在 2025 年 2 月的某次更新后，Bandizip 的免费版会每隔两三天，在当天第一次运行软件（无论是打开、压缩还是解压压缩包）的时候，从屏幕的右下角弹出一些广告，如下图所示，它同样也需要购买专业版或企业版去除。虽然广告的内容不像下文的 WinRAR 那样离谱，但仍对我们的使用体验造成了不小的打击。
+
+![Bandizip 的右下角弹窗广告](archive-formats-and-tools/Bandizip_popup.png#center)
+
+当你使用 Bandizip 打开一个压缩文件时，软件界面大致如下图，你可以在此对压缩文件进行各种操作。
 
 ![在 Bandizip 中打开一个压缩包](archive-formats-and-tools/Bandizip_opening_archive.png#center)
 
 Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是「智能解压」。
 
-「压缩文件预览」是说，当你右击一个压缩文件时，若这个文件没有加密文件名[^2]，你的右键菜单便会显示出这个压缩包内部的部分文件；若是连文件名都加密了，那当然什么都看不见啦。这个功能默认未启用，需要在 Bandizip 的【设置】→【上下文菜单】→【选择解压菜单】中开启。可惜这个功能只支持旧式菜单，不支持 Windows 11 的新式菜单。
+「压缩文件预览」是说，当你右击一个压缩文件时，若这个文件没有加密文件名[^2]，你的右键菜单便会显示出这个压缩包内部的部分文件；若是连文件名都加密了，那当然什么都看不见啦。这个功能默认未启用，需要在 Bandizip 的【设置】→【上下文菜单】→【选择解压菜单】中开启。但这个功能只支持旧式菜单，不支持 Windows 11 的新式菜单。
 
 ![Bandizip 可以直接在右键菜单中预览压缩文件](archive-formats-and-tools/Compressed_Preview.png#center)
 
@@ -196,6 +200,8 @@ Bandizip 值得一提的两个功能，一是「压缩文件预览」，二是�
 智能解压既支持旧式右键菜单也支持 Windows 11 的新式右键菜单，若使用 Bandizip，我们建议你使用智能解压来解压文件，除非你有特殊目的。
 
 ![智能解压](archive-formats-and-tools/Smart_Extract.png#center)
+
+Bandizip 免费版可以在 [https://www.bandisoft.com/bandizip/](https://www.bandisoft.com/bandizip/) 下载到，如果你能忍受不时出现的右下角广告，那么它的使用体验还算不错。
 
 ### WinRAR
 
