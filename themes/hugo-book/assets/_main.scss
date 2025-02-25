@@ -102,10 +102,18 @@ ul.pagination {
 
   .book-menu-content {
     width: $menu-width;
-    padding: $padding-16;
+    padding: 0 $padding-16 $padding-16;
     background: var(--body-background);
 
     @include fixed;
+  }
+
+  .book-menu-brand {
+    padding: $padding-16 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: var(--body-background);
   }
 
   a,
@@ -386,8 +394,13 @@ ul.pagination {
 // Extra space for big screens
 @media screen and (min-width: $container-max-width) {
   .book-page,
-  .book-menu .book-menu-content,
   .book-toc .book-toc-content {
     padding: $padding-16 * 2 $padding-16;
+  }
+  .book-menu .book-menu-content {
+    padding: 0 $padding-16 $padding-16 * 2;
+  }
+  .book-menu .book-menu-brand {
+    padding: $padding-16 * 2 0 0;
   }
 }

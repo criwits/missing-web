@@ -77,7 +77,7 @@ rt {
 }
 
 .hidden-text {
-    background-color: black;
+    background-color: var(--body-font-color);
 }
 
 .hover-change {
@@ -130,8 +130,8 @@ rt {
         top: 0;
         padding: 1rem;
         margin: 0 -1rem 1rem -1rem;
-        z-index: 9999;
-        background: white;
+        z-index: 9990;
+        background: var(--body-background);
     }
     .book-header:not(:first-child) {
         box-shadow: 0 5.5;
