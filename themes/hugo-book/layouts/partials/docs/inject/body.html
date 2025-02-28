@@ -10,6 +10,9 @@
 <script defer src="{{ $headerCtrlJS.RelPermalink }}" integrity="{{ $headerCtrlJS.Data.Integrity }}"></script>
 {{ $pageElmtCtrlJS := resources.Get "page-element-controller.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $pageElmtCtrlJS.RelPermalink }}" integrity="{{ $pageElmtCtrlJS.Data.Integrity }}"></script>
+{{ $sideBarScrollJS := resources.Get "sidebar-scroll.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $sideBarScrollJS.RelPermalink }}" integrity="{{ $sideBarScrollJS.Data.Integrity }}"></script>
+
 
 <!--第三方脚本-->
 <script defer src="https://cn.vercount.one/js"></script>
