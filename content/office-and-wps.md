@@ -37,7 +37,7 @@ Microsoft Office 是由微软开发的办公软件套装。称它「软件套装
 - Visio，用于绘制流程图、示意图等图形；
 - ……
 
-上面列表中的前三位——Word、PowerPoint 和 Excel，是 Office 套装中人们耳熟能详的三个子软件，民间又俗称「Office 三件套」。它们三个能满足普通人大多数的基本办公需求，具有庞大的用户群体；相比之下，其他 Office 子软件更加专业而复杂，使用的人相对不多，而且还有别的厂商出品的替代品，因而很多时候都没什么人安装。
+上面列表中的前三位——Word、PowerPoint 和 Excel，是 Office 套装中人们耳熟能详的三个子软件，民间又俗称「Office 三件套」。它们三个能满足普通人大多数的基本办公需求，具有庞大的用户群体；相比之下，其他 Office 子软件的知名度就不那么高了，安装使用它们的人也相对不多。
 
 目前（2024 年），最新版本的 Office 三件套的软件图标如下图所示。
 
@@ -94,11 +94,11 @@ Office 2010 与 Office 2007 在软件界面和风格上并没有什么很大的�
 
 ### Office 的购买和安装
 
-Office 是付费软件。其中，Office 365 的付费方式是「订阅制」，每年都需要付费才能使用；而年份版本的 Office，则采用「买断制」，一次购买便可永久使用。同一版本的 Office（例如 Office 2019），又根据包含多少子软件、有无高级功能、售后服务等级等，分为不同的档次。例如「家庭与学生版」只包含 Word、PowerPoint 和 Excel 三件套，售价也较低；「专业增强版」则包含几乎所有的 Office 产品与功能，但售价高昂。下图是在微软官网购买 Office 365 的产品介绍页面。
+Office 是付费软件。其中，Office 365 的付费方式是「订阅制」，需要按年或月付费才能使用；而年份版本的 Office，则采用「买断制」，一次购买便可永久使用。对于同一版本的 Office（例如 Office 2019），又根据包含多少子软件、有无高级功能、售后服务等级等，分为不同的档次。例如「家庭与学生版」只包含 Word、PowerPoint、Excel 和 OneNote 四个子软件，同时功能有一定的精简，售价较低；「专业增强版」则包含几乎所有的 Office 产品与功能，但售价高昂。下图是在微软官网购买 Office 365 的产品介绍页面。
 
 ![购买 Office 365](office-and-wps/Buying_Office_365.png#center)
 
-如果需要购买 Office 365，可以前往 [微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365) 或者 Microsoft Store 购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心、正版软件服务中心等有关部门来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
+如果需要购买 Office，可以前往 [微软官网](https://www.microsoft.com/zh-CN/microsoft-365/buy/microsoft-365) 或者 Microsoft Store 购买。如果你是大学生或大学教职工，或许你所在的学校已经为你们批量购买过正版 Office 软件。此时，你可以通过查阅自己学校官网，或者咨询学校网络信息中心、正版软件服务中心等有关部门来了解正版 Office 的获取方式。下图是某学校正版软件平台的截图，在这里可以获取到正版的各版本 Office。
 
 ![某高校的正版软件平台](office-and-wps/Geniune_platform.png#center)
 
