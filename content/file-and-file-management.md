@@ -263,7 +263,7 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
 ![在 Windows 11 中查看已知文件夹](file-and-file-management/Win11_user_folders.png#center)
 
-如果你在【此电脑】窗口左侧没有看见这些已知文件夹，有可能是它们被不小心解除固定了。为了找到它们，你可以双击资源管理器的地址栏，输入「桌面」两个字并回车，就能看见所有的已知文件夹了。
+如果你在【此电脑】窗口左侧没有看见这些已知文件夹，有可能是它们被不小心解除固定了。为了找到它们，你可以双击资源管理器的地址栏，输入「桌面」两个字并回车，就能看见所有的已知文件夹了。你可以趁此机会右键 →【固定到快速访问】来把它们固定回去。
 
 ![在 Windows 11 中，手动前往「桌面」查看所有已知文件夹](file-and-file-management/Reach_known_folders_manually.png#center)
 

@@ -209,7 +209,7 @@ WinRAR 是 RAR 格式的作者设计的软件。顾名思义，WinRAR 最大的�
 
 ![WinRAR 的主界面](archive-formats-and-tools/WinRAR_main_window.png#center)
 
-WinRAR 是收费的商业软件——换言之，这款软件需要购买才能使用。不过，WinRAR 在中国也提供了一个「个人免费版本」，这个版本包含弹窗广告，在打开每次压缩文件的时候都会弹出，如下图所示。如果你能接受这样的弹窗广告，那么 WinRAR 也许是一个不错的选择。
+WinRAR 是收费的商业软件——换言之，这款软件需要购买才能使用。不过，WinRAR 在中国也提供了一个「个人免费版本」，这个版本包含弹窗广告，在每次打开压缩文件的时候都会弹出，如下图所示。如果你能接受这样的弹窗广告，那么 WinRAR 也许是一个不错的选择。
 
 ![WinRAR 的弹窗广告](archive-formats-and-tools/WinRAR_ad.png#center)
 
