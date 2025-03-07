@@ -120,3 +120,9 @@ type: docs
 - 全站独立访客数（UV）：<span id="busuanzi_value_site_uv">统计中</span>
 
 以上统计信息由 [Vercount](https://cn.vercount.one/) 提供。
+
+自 2022 年以来，《你缺失的那门计算机课》网页版 GitHub 仓库的 Star 数变化如下图所示：
+
+![GitHub Star 统计](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
+
+以上图表由 [star-history.com](https://star-history.com/) 提供。
