@@ -47,4 +47,8 @@
 
 ## GitHub Star 数历史
 
-[![GitHub Star 数历史](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)](https://star-history.com/#criwits/missing-web&Date)
+自 2022 年以来，本仓库的 Star 数变化如下图所示：
+
+![GitHub Star 数历史](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
+
+以上图表由 [star-history.com](https://star-history.com/) 提供。
