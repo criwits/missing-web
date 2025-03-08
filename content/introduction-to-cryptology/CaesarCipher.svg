@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="99.272903mm"
+   height="49.032368mm"
+   viewBox="0 0 99.272903 49.032368"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="CaesarCipher.svg"
-   inkscape:export-filename="CaesarCipher.png"
+   inkscape:export-filename="CaesarCipher.pdf"
    inkscape:export-xdpi="330"
    inkscape:export-ydpi="330"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,8 +28,8 @@
      inkscape:deskcolor="#474747"
      inkscape:document-units="mm"
      inkscape:zoom="2.8504787"
-     inkscape:cx="379.23454"
-     inkscape:cy="682.16611"
+     inkscape:cx="179.96977"
+     inkscape:cy="71.391518"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -61,7 +61,8 @@
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-52.683179,-161.54984)">
     <g
        id="g208"
        transform="translate(0,0.39666939)">

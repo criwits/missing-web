@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="221.09016mm"
+   height="222.48781mm"
+   viewBox="0 0 221.09016 222.48781"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="VigenèreCipher.svg"
-   inkscape:export-filename="VigenèreCipher.png"
+   inkscape:export-filename="VigenèreCipher.pdf"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,10 +27,10 @@
      inkscape:deskcolor="#4f4f4f"
      inkscape:document-units="mm"
      inkscape:zoom="0.52649411"
-     inkscape:cx="345.68288"
-     inkscape:cy="373.22355"
-     inkscape:window-width="1536"
-     inkscape:window-height="793"
+     inkscape:cx="254.51377"
+     inkscape:cy="371.32419"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -38,16 +38,17 @@
   <defs
      id="defs1">
     <rect
-       x="311.49446"
+       x="311.49445"
        y="178.53951"
-       width="439.70103"
+       width="439.70102"
        height="83.571686"
        id="rect1" />
   </defs>
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-24.433268,-0.57005517)">
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -106,12 +107,12 @@
          sodipodi:role="line"
          style="line-height:1.62;stroke-width:0.147"
          x="29.050526"
-         y="185.60278"
+         y="185.60277"
          id="tspan8">N</tspan><tspan
          sodipodi:role="line"
          style="line-height:1.62;stroke-width:0.147"
          x="28.985703"
-         y="217.60686"
+         y="217.60684"
          id="tspan9">G</tspan></text>
     <g
        id="g11"

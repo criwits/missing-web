@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="81.563019mm"
+   height="35.843372mm"
+   viewBox="0 0 81.563019 35.843372"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="Public_key_encryption.svg"
-   inkscape:export-filename="Public_key_encryption.png"
+   inkscape:export-filename="Public_key_encryption.pdf"
    inkscape:export-xdpi="360"
    inkscape:export-ydpi="360"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,8 +28,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.8504787"
-     inkscape:cx="232.24169"
-     inkscape:cy="122.26016"
+     inkscape:cx="134.71421"
+     inkscape:cy="45.430966"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -353,7 +353,8 @@
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-25.773415,-27.749694)">
     <g
        id="g38"
        transform="matrix(0.48085146,0,0,0.48085146,85.870716,20.904863)"
@@ -567,18 +568,18 @@
        transform="translate(3.3879543,-0.90203469)"><tspan
          x="33.482975"
          y="31.240084"
-         id="tspan6"><tspan
+         id="tspan13"><tspan
            style="font-weight:normal;-inkscape-font-specification:'Sarasa UI SC';text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan5">收信方生成</tspan></tspan><tspan
+           id="tspan12">收信方生成</tspan></tspan><tspan
          x="33.482975"
          y="33.19156"
-         id="tspan10"><tspan
+         id="tspan17"><tspan
            style="fill:#00c4d6"
-           id="tspan7">公钥</tspan><tspan
+           id="tspan14">公钥</tspan><tspan
            style="font-weight:normal;-inkscape-font-specification:'Sarasa UI SC';text-align:start;text-anchor:start;fill:#000000;stroke:none"
-           id="tspan8">与</tspan><tspan
+           id="tspan15">与</tspan><tspan
            style="fill:#faa023"
-           id="tspan9">私钥</tspan></tspan></text>
+           id="tspan16">私钥</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#00c3d5;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers stroke fill"
        d="M 39.297869,34.142305 C 55.490251,31.4063 78.149002,32.044797 86.32738,39.100094"
