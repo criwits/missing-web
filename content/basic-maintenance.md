@@ -58,7 +58,7 @@ type: docs
 
 一般来说，卸载很快就能完成。但需要特别注意的是，一些软件的卸载界面错综复杂，**充斥有大量的无关选项**（例如【再想想】【我要重装】），因此在点选时务必十分小心。**甚至有些软件在卸载完成后会诱导用户装一个新的其他软件，请千万注意**。例如：
 
-![诱导重新安装的按钮](basic-maintenance/WDP_software_manager.png#center)
+![诱导重新安装的按钮](basic-maintenance/Recommending_others_during_uninstallation.png#center)
 
 有的软件可能会在卸载完成后，提示你需要重启电脑来进行一些最后的清理工作。通常，我们可以选择立即重启；如果你手头还正需要使用电脑，也可以在合适的时候手动重启。
 
