@@ -75,3 +75,7 @@ type: docs
 ## 出师未捷
 
 ![唉](anecdote/how_to_visit.png)
+
+## Hans（正在睡觉）
+
+![吾好梦中干活](anecdote/work_in_dream.jpg)
