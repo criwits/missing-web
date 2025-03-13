@@ -79,3 +79,7 @@ type: docs
 ## Hans（正在睡觉）
 
 ![吾好梦中干活](anecdote/work_in_dream.jpg)
+
+## 焊丝俳句秀
+
+![最仙人](anecdote/Hans-haiku.png)
