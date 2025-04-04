@@ -289,19 +289,7 @@ D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe
 
     ![查看「文档」的位置](file-and-file-management/Pos_of_Documents.png#center)
 
-- 我们将这里文本框中
-
-    ```
-    C:\Users\<你的用户名>\
-    ```
-
-    这一部分（注意：**最后一个 `Documents` 之类的名字不要动**）[^6]改成
-
-    ```
-    D:\
-    ```
-
-    **也就是说，对于「文档」而言，改完之后的完整路径是：**
+- 我们将此处文本框中内容的 `C:\Users\<你的用户名>\` 这一部分（**注意：最后一个 `Documents` 之类的名字不要动**）[^6]改成 `D:\`。也就是说，**对于「文档」而言，改完之后的完整路径是：**
 
     ```
     D:\Documents
