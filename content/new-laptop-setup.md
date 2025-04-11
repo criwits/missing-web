@@ -78,13 +78,28 @@ type: docs
 
 ![Windows 11 无法直接跳过联网步骤](new-laptop-setup/Windows_11_no_skip_internet.png#center)
 
-这是 Windows 11 的一个离谱要求——它要求我们必须联网才能完成首次开机。~~（辣鸡微软，断我后路。）~~ 为了避免联网激活造成七天无理由失效，我们就需要用一些「特殊方法」来强行跳过联网步骤。经过我们测试，在 2025 年，以下方法可以跳过联网步骤：
+这是 Windows 11 的一个离谱要求——它要求我们必须联网才能完成首次开机。~~（辣鸡微软，断我后路。）~~ 为了避免联网激活造成七天无理由失效，我们就需要用一些「特殊方法」来强行跳过联网步骤。请依次尝试以下方法，跳过联网步骤：
 
-1. 在这个界面尝试按 `Shift` + `F10`，如果没有效果，请再按 `Fn` + `Shift` + `F10`。
-2. 输入 `oobe\bypassnro.cmd`，然后按回车。电脑会重启。
-3. 再次来到联网界面，点击右下方【我没有 Internet 连接】。
+- 方法 1：
+  1. 在这个界面尝试按 `Shift` + `F10`，如果没有效果，请再按 `Fn` + `Shift` + `F10`。
+  2. 输入 `oobe\bypassnro.cmd`，然后按回车。正常情况下，电脑会重启。如果提示错误，请尝试方法 2。
+  3. 再次来到联网界面，点击右下方【我没有 Internet 连接】。
+- 方法 2：
+  1. 在这个界面尝试按 `Shift` + `F10`，如果没有效果，请再按 `Fn` + `Shift` + `F10`。
+  2. 输入 `start ms-cxh:localonly`，然后按回车。
+  3. 你将直接进入配置用户信息的界面，请见本章「配置用户信息」一节，设置你的用户名和密码。如果没有弹出配置用户信息的界面，请尝试方法 3。
+- 方法 3：
+  1. 在这个界面尝试按 `Shift` + `F10`，如果没有效果，请再按 `Fn` + `Shift` + `F10`。
+  2. 输入如下命令，然后按回车：
 
-**若你发现上述方法不能跳过连接网络，请向我们提出反馈（发送邮件至 [missing@criwits.top](mailto:missing@criwits.top)）**。在这种极端情况下，你只能选择连接到网络。
+    ```bat
+    reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+    ```
+
+  3. 输入 `shutdown /r /t 0`，然后按回车。电脑会重启。
+  4. 再次来到联网界面，点击右下方【我没有 Internet 连接】。
+
+**若你发现上述方法都不能跳过连接网络，请向我们提出反馈（发送邮件至 [missing@criwits.top](mailto:missing@criwits.top)）**。在这种极端情况下，你只能选择连接到网络。
 
 {{% /tab %}}
 {{% tab "Windows 10" %}}
