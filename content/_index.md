@@ -66,14 +66,14 @@ type: docs
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
 - 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待
-- 开源 PDF 版（25/3/13 更新）：[本地下载](https://www.criwits.top/assets/missing-2.0.pdf)（推荐），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（可能需要登录，第三方提供）
+- 开源 PDF 版（25/3/13 更新）：[本地下载](https://www.criwits.top/assets/missing-2.0.pdf)（略慢，推荐），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（可能需要登录，第三方提供）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
 请注意，开源 PDF 版本的更新不如网页版频繁，可能与网页版内容存在差异。若您想要查看网页版和开源 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
 
 ## 反馈与交流
 
-若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=0Osd1tkNAzUEs6Hz3DG8-8Td-8XDDoUR&jump_from=webapi&authKey=hSDdlTT41FQCWKcjNfjyVc6jq+lMFviLyammCQiD0qCZ2tEP7OLLmj9tQAVhyaG8) 或扫描下方二维码，加入我们的交流 QQ 群。
+若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=0Osd1tkNAzUEs6Hz3DG8-8Td-8XDDoUR&jump_from=webapi&authKey=hSDdlTT41FQCWKcjNfjyVc6jq+lMFviLyammCQiD0qCZ2tEP7OLLmj9tQAVhyaG8) 或扫描下方二维码，加入我们的交流 QQ 群。欢迎大家加群来玩！
 
 ![QQ 群二维码](misc/QQ_group.svg#center)
 
@@ -123,6 +123,6 @@ type: docs
 
 自 2022 年以来，《你缺失的那门计算机课》网页版 GitHub 仓库的 Star 数变化如下图所示：
 
-![GitHub Star 统计](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
+![GitHub Star 统计图暂无法加载](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
 
 以上图表由 [star-history.com](https://star-history.com/) 提供。

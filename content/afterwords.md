@@ -5,8 +5,27 @@ type: docs
 
 # 跋
 
+<p align="center" style="font-size: 24px; font-weight: bold;">临江仙</p>
+<p align="center">
+虽立云端观万象，叹迷雾锁重林。<br>
+闲书随笔指迷津。<br>
+顺心插柳树，无意使成荫。<br>
+<br>
+拙著未敢期付梓，闻清华有佳音。<br>
+推敲细葺始成今。<br>
+倘能启寸益，欣然泪沾襟。<br>
+</p>
+
+
+<p style="text-align: end">Hans<br>2025/4/18
+
+---
+
+<p align="center" style="font-size: 24px; font-weight: bold;">记《你缺计课》成书二首</p>
+
 {{<auto_columns>}}
 <p align="center">
+  其一<br>
   欣闻全卷将付梓，行文却又起波澜。<br>
   人工智能显身手，密码锋刃护网安。<br>
   零一舞动程序现，云物交融变革瞻。<br>
@@ -14,6 +33,7 @@ type: docs
 </p>
 <--->
 <p align="center">
+  其二<br>
   或问何能成此作，皆言只要肯登攀。<br>
   基础为贵需牢靠，软件虽杂选优端。<br>
   进阶技巧拿在手，超越未来起风帆。<br>
