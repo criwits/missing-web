@@ -200,7 +200,8 @@ type: docs
 - 完成向导，你将得到一个新的分区。
     
     ![得到了两个分区](new-laptop-setup/Two_partitions.png#center)
-    
+
+但是磁盘管理工具只能在各分区末尾进行操作，如果你有其他需求，可以参看 [成为空间管理大师]({{<relref "manage-storage.md">}}) 一章。
 
 ## 登录微软账号
 
