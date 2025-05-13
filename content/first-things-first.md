@@ -50,6 +50,12 @@ type: docs
 > 像这样使用灰色背景衬托的文字，通常是一些题外话。它们可能是一些供你思考的问题，或是一些有助于理解正文的额外知识。
 >
 
+## 最基础的预备知识
+
+![电脑各部分的结构](first-things-first/Simple_Computer.png#center)
+
+![Windows 的基本组件](first-things-first/Simple_Windows.png#center)
+
 ## 快捷键的操作说明
 
 如果你按快捷键（组合键）后，电脑并没有行使预想的功能，可能是你的按法不对。快捷键的按法并不是「同时按下所有的键」，而是「依展示次序按下各键不松手，最后一起松开」。例如，若要按快捷键「`Windows` + `Shift` + `S`」：
