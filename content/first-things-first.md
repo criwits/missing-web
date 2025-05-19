@@ -50,6 +50,16 @@ type: docs
 > 像这样使用灰色背景衬托的文字，通常是一些题外话。它们可能是一些供你思考的问题，或是一些有助于理解正文的额外知识。
 >
 
+## 《你缺计课》适合我的电脑吗？
+
+《你缺计课》适合于所有使用 Windows 11 或 Windows 10 操作系统的电脑。本书中所有的操作均基于 Windows 11 或者 Windows 10 简体中文版进行描述。如果你使用的是 Windows 11 或者 Windows 10，那么《你缺计课》非常适合你！
+
+一些早期的 Windows 版本，比如 Windows 7 或 Windows 8.1，在部分操作的细节上与 Windows 11 和 Windows 10 有不同——例如，在 Windows 7 中，系统设置要通过「控制面板」而非「设置」app 进行修改。如果你使用的是这些早期 Windows 版本，你依然可以运用本书学习大量的通用知识，但在涉及具体操作时，你可能需要查阅其他资料。
+
+如果你在使用其他的操作系统，比如苹果电脑上的 macOS、华为的「鸿蒙」系统或是各种 Linux 发行版，本书介绍的所有操作都可能不再适用。不过，本书中介绍的大量通用的计算机科学知识，从 [电脑硬件的组成](({{<relref "computer-and-its-components.md">}}))，到「[文件]({{<relref "file-and-file-management.md">}})」「[压缩]({{<relref "archive-formats-and-tools.md">}})」等概念，以及 [浏览器]({{<relref "browsers-and-how-to-choose.md">}})、[即时通信工具]({{<relref "mail-and-instant-messaging.md">}})、[办公软件]({{<relref "office-and-wps.md">}}) 之间的相互比较，再到 [人工智能]({{<relref "bring-intelligence-to-machines.md">}})、[密码学]({{<relref "introduction-to-cryptology.md">}}) 和 [云计算]({{<relref "cloud-computing-and-iot.md">}}) 这些前沿话题，与具体的操作系统并无关系。你可以将本书作为一本科普读物，尽管它无法指导你具体的电脑操作，但你仍然可以从中学习这些知识。
+
+不知道什么是「操作系统」？请参阅 [认识你的电脑]({{<relref "computer-and-its-components.md">}})。
+
 ## 最最基础的预备知识
 
 虽然《你缺计课》自称「『零门槛』电脑课」，但我们还是希望读者有按过几下键盘、点过几下鼠标的经验。我们不会一个个按钮地告诉各位怎么去点，也不会一块块区域地告诉各位它在哪里，如果有些基本术语你不甚了解，下面的示意图可能会有所帮助。（可以长按保存后放大查看哦！）
