@@ -52,11 +52,11 @@ type: docs
 
 ## 《你缺计课》适合我的电脑吗？
 
-《你缺计课》适合于所有使用 Windows 11 或 Windows 10 操作系统的电脑。本书中所有的操作均基于 Windows 11 或者 Windows 10 简体中文版进行描述。如果你使用的是 Windows 11 或者 Windows 10，那么《你缺计课》非常适合你！
+《你缺计课》适合所有使用 Windows 11 或 Windows 10 操作系统的电脑，书中所有操作均基于它们的简体中文版描述。如果你使用的是 Windows 11 或者 Windows 10，那么《你缺计课》非常适合你！
 
-一些早期的 Windows 版本，比如 Windows 7 或 Windows 8.1，在部分操作的细节上与 Windows 11 和 Windows 10 有不同——例如，在 Windows 7 中，系统设置要通过「控制面板」而非「设置」app 进行修改。如果你使用的是这些早期 Windows 版本，你依然可以运用本书学习大量的通用知识，但在涉及具体操作时，你可能需要查阅其他资料。
+上一代的 Windows 版本，比如 Windows 7 或 Windows 8.1，在部分操作的细节上与 Windows 11 和 Windows 10 有不同——例如，在 Windows 7 中，修改系统设置要前往「控制面板」而非「设置」app。如果你使用的是这些早期 Windows 版本，你依然可以运用本书学习大量的通用知识，但在涉及具体操作时，你可能需要查阅其他资料。
 
-如果你在使用其他的操作系统，比如苹果电脑上的 macOS、华为的「鸿蒙」系统或是各种 Linux 发行版，本书介绍的所有操作都可能不再适用。不过，本书中介绍的大量通用的计算机科学知识，从 [电脑硬件的组成](({{<relref "computer-and-its-components.md">}}))，到「[文件]({{<relref "file-and-file-management.md">}})」「[压缩]({{<relref "archive-formats-and-tools.md">}})」等概念，以及 [浏览器]({{<relref "browsers-and-how-to-choose.md">}})、[即时通信工具]({{<relref "mail-and-instant-messaging.md">}})、[办公软件]({{<relref "office-and-wps.md">}}) 之间的相互比较，再到 [人工智能]({{<relref "bring-intelligence-to-machines.md">}})、[密码学]({{<relref "introduction-to-cryptology.md">}}) 和 [云计算]({{<relref "cloud-computing-and-iot.md">}}) 这些前沿话题，与具体的操作系统并无关系。你可以将本书作为一本科普读物，尽管它无法指导你具体的电脑操作，但你仍然可以从中学习这些知识。
+如果你在使用非 Windows 的操作系统，比如苹果电脑上的 macOS、华为的「鸿蒙」系统或是各种 Linux 发行版，本书介绍的所有操作都可能不再适用。不过，本书介绍的大量通用的计算机科学知识——从 [电脑硬件的组成](({{<relref "computer-and-its-components.md">}}))，到「[文件]({{<relref "file-and-file-management.md">}})」「[压缩]({{<relref "archive-formats-and-tools.md">}})」等概念，以及 [浏览器]({{<relref "browsers-and-how-to-choose.md">}})、[即时通信工具]({{<relref "mail-and-instant-messaging.md">}})、[办公软件]({{<relref "office-and-wps.md">}}) 之间的相互比较，再到 [人工智能]({{<relref "bring-intelligence-to-machines.md">}})、[密码学]({{<relref "introduction-to-cryptology.md">}}) 和 [云计算]({{<relref "cloud-computing-and-iot.md">}}) 这些前沿话题——并不局限于某一特定的操作系统。你可以将本书作为一本科普读物，尽管它无法指导你具体的电脑操作，但仍然可以教给你许多知识。
 
 不知道什么是「操作系统」？请参阅 [认识你的电脑]({{<relref "computer-and-its-components.md">}})。
 
