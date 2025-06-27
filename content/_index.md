@@ -17,7 +17,7 @@ type: docs
 
 > 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 
-> 📢 [庆祝国际电信联盟（ITU）成立 160 周年！]({{<relref "special/itu160.md">}})
+> 📢 [欢迎报考哈尔滨工业大学（深圳）！](https://www.hitsz.edu.cn/)
 
 ## 目录
 
