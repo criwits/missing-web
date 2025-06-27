@@ -1,4 +1,8 @@
-# 《你缺失的那门计算机课》网页版
+<p align="center">
+  <img src="content/misc/Readme_banner.svg" alt="《你缺失的那门计算机课》网页版">
+</p>
+
+---
 
 这是 [《你缺失的那门计算机课》网页版](https://www.criwits.top/missing)（下称「本作品」）的源码仓库。本作品使用 [Hugo](https://gohugo.io/) 生成静态网页，使用修改过的 [Book](https://themes.gohugo.io/themes/hugo-book/) 主题。
 
