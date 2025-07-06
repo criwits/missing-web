@@ -74,8 +74,7 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-// 从某个神秘的字体 CDN 整点思源黑体
-@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC&display=swap');
+@import url('https://static.criwits.top/source-han-sans-sc.css');
 
 body {
   font-family: Inter, 'Noto Sans SC', sans-serif;
@@ -95,10 +94,10 @@ body {
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: InterVariable, 'Noto Sans SC', sans-serif;
+    font-family: InterVariable, 'Source Han Sans SC', sans-serif;
   }
 }
 
 code, pre, kbd {
-  font-family: 'Roboto Mono', 'Noto Sans SC', monospace;
+  font-family: 'Roboto Mono', 'Source Han Sans SC', monospace;
 }
