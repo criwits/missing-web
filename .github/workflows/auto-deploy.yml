@@ -20,19 +20,22 @@ jobs:
 
       - name: Generate
         run: |
-          hugo
+          hugo --minify 
 
-      - name: Setup Tencent Cloud COSCLI
-        run: |
-          curl -sSL -o coscli https://github.com/tencentyun/coscli/releases/download/v1.0.6/coscli-v1.0.6-linux-amd64
-          chmod +x coscli
-          ./coscli --version
+      - name: Setup Python and PyPI
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
 
-      - name: Write cos.yaml
+      - name: Install Tencent Cloud COSCMD
         run: |
-          echo "${{ secrets.COS_YAML }}" > cos.yaml
+          pip install coscmd
+
+      - name: Configure COSCMD
+        run: |
+          coscmd config -a ${{ secrets.COS_SECRET_ID }} -s ${{ secrets.COS_SECRET_KEY }} -b ${{ secrets.COS_BUCKET_NAME }} -r ap-guangzhou
 
       - name: Deploy to Tencent Cloud COS
         run: |
-          ./coscli sync -r _book cos://${{ secrets.COS_BUCKET_NAME }}/missing -c cos.yaml
+          coscmd upload -rs --delete -f _book missing
 
