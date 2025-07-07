@@ -21,17 +21,18 @@ jobs:
       - name: Generate
         run: |
           hugo
-          
-      - name: Configure SSH
-        run: |
-          mkdir -p ~/.ssh/
-          echo "${{ secrets.SERVER_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -t ed25519 -p ${{ secrets.SERVER_SSH_PORT }} ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
-      - name: Deploy to Server
+      - name: Setup Tencent Cloud COSCLI
         run: |
-          cd ./_book
-          rsync -e 'ssh -p ${{ secrets.SERVER_SSH_PORT }}' -avz --delete ./ ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }}:${{ secrets.SERVER_MISSING_PATH }}
-          
+          curl -sSL -o coscli https://github.com/tencentyun/coscli/releases/download/v1.0.6/coscli-v1.0.6-linux-amd64
+          chmod +x coscli
+          ./coscli --version
+
+      - name: Write cos.yaml
+        run: |
+          echo "${{ secrets.COS_YAML }}" > cos.yaml
+
+      - name: Deploy to Tencent Cloud COS
+        run: |
+          ./coscli sync -r _book cos://${{ secrets.COS_BUCKET_NAME }}/missing -c cos.yaml
 
