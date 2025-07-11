@@ -68,7 +68,7 @@ type: docs
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
 - 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待
-- 开源 PDF 版（25/3/13 更新）：[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（可能需要登录，第三方提供）
+- 开源 PDF 版（25/3/13 更新）：<a href="https://static.criwits.top/assets/missing-2.0.pdf" target="_blank">本地下载</a>，[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（可能需要登录，第三方提供）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
 请注意，开源 PDF 版本的更新不如网页版频繁，可能与网页版内容存在差异。若您想要查看网页版和开源 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
