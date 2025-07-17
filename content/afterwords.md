@@ -7,7 +7,7 @@ type: docs
 
 <p align="center" style="font-size: 24px; font-weight: bold;">临江仙</p>
 <p align="center">
-虽立云端观万象，叹迷雾锁重林。<br>
+欲立云端观万象，叹迷雾锁重林。<br>
 闲书随笔指迷津。<br>
 顺心插柳树，无意待垂荫。<br>
 <br>
