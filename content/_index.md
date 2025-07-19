@@ -15,9 +15,11 @@ type: docs
 
 零门槛、易理解、有深度，与时俱进、开放共享——这是《你缺失的那门计算机课》不断追求的目标，也是我们努力的方向。
 
-> 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
+{{<hint warning>}}
+🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
+{{</hint>}}
 
-> 📢 [欢迎报考哈尔滨工业大学（深圳）！](https://www.hitsz.edu.cn/)
+> 📢 [共建一个充满和平、尊严和平等的未来](https://www.un.org/zh/UN80#celebrating-80)
 
 ## 目录
 
@@ -95,11 +97,11 @@ type: docs
 
 {{< commit_info >}}
 
+- More more patches: 又修了一堆小地方 (25/7/19)
 - More patches: 修整许许多多在排 PDF 时遇到的不佳语段 (25/3/10)
 - ADs are not welcome: 调整对某压缩软件的推荐程度 (25/2/25)
 - Patch things up: 各种小修小补 (25/2/19)
 - The more the merrier: 建立了交流 QQ 群 (25/1/1)
-- Everything done: 全书初步定稿 (24/12/31)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明

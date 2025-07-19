@@ -7,6 +7,7 @@ type: docs
 
 这里记录了本作品自面世以来的所有内容更新和修订。每次更新和修订都会在这里记录，以便读者查阅。
 
+- More more patches: 又修了一堆小地方 (25/7/19)
 - More patches: 修整许许多多在排 PDF 时遇到的不佳语段 (25/3/10)
 - ADs are not welcome: 调整对某压缩软件的推荐程度 (25/2/25)
 - Patch things up: 各种小修小补 (25/2/19)

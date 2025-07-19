@@ -8,14 +8,13 @@ type: docs
 <p align="center" style="font-size: 24px; font-weight: bold;">临江仙</p>
 <p align="center">
 欲立云端观万象，叹迷雾锁重林。<br>
-闲书随笔指迷津。<br>
+闲书随笔觅欢欣。<br>
 顺心插柳树，无意待垂荫。<br>
 <br>
 拙著未曾期付梓，闻清华有佳音。<br>
 推敲细葺始成今。<br>
 倘能启寸益，欣然泪沾襟。<br>
 </p>
-
 
 <p style="text-align: end">Hans<br>2025/4/18
 

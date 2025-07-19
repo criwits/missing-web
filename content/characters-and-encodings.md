@@ -393,7 +393,7 @@ UTF-8 是一种彻彻底底的变长编码方案，它的单字符编码码长�
 | :----------: | -------------------------------------- | ------------------------------ | -------------------------------------- |
 |   GB18030    | 一去二三里，烟村四五家。[^shancunyonghuai]               | <p style="overflow-wrap: anywhere">һȥ������̴�����ҡ�<p>| 一去二三里，烟村四五家。               |
 |    UTF-8     | 山光悦鸟性，潭影空人心。[^tipo]                | 山光悦鸟性，潭影空人心。        | 灞卞厜鎮﹂笩鎬э紝娼奖绌轰汉蹇冦��    |
-|    大五码    | 斯是陋室，唯吾德馨。[^loushiming]                  | <p style="overflow-wrap: anywhere">���O���ǡA�ߧ^�w�ɡC</p>| 吹琌斑紈纳                        |
+|    大五码    | 斯是陋室，惟吾德馨。[^loushiming]                  | <p style="overflow-wrap: anywhere">���O���ǡA���^�w�ɡC</p>| 吹琌暴紈纳                        |
 |  Shift-JIS   | 祇園精舍の鐘の声、諸行無常の響きあり。[^heike] | <p style="overflow-wrap: anywhere">�_�����q�̏��̐��A���s����̋�������B</p> | 媉墍惛鋛偺忇偺惡丄彅峴柍忢偺嬁偒偁傝丅 |
 | Windows-1252 | Gud är min säkra borg.[^god]                 | Gud �r min s�kra borg.         | Gud 鋜 min s鋕ra borg.                 |
 
