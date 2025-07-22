@@ -19,7 +19,7 @@ type: docs
 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 {{</hint>}}
 
-> 📢 [共建一个充满和平、尊严和平等的未来](https://www.un.org/zh/UN80#celebrating-80)
+> 📢 [共建健康地球上的和平、尊严和平等](https://www.un.org/zh/UN80)
 
 ## 目录
 
