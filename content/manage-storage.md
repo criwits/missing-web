@@ -140,7 +140,7 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 
 {{< /hint >}}
 
-想要操作某个分区，就再上方选中那个分区，点击右键即可。
+想要操作某个分区，就在上方选中那个分区，点击右键即可。
 
 ![DiskGenius 提供的分区操作](manage-storage/Part_Operation.png#center)
 
