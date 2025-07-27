@@ -27,7 +27,7 @@ type: docs
 |                Apple Inc.                |      苹果      |
 |      Samsung Electronics Co., Ltd.       |      三星      |
 | 杭州深度求索人工智能基础技术研究有限公司 |    深度求索    |
-| Xerox Corporation | 施乐 |
+|            Xerox Corporation             |      施乐      |
 |             腾讯控股有限公司             |      腾讯      |
 |          Microsoft Corporation           |      微软      |
 |            Intel Corporation             |     英特尔     |

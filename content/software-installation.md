@@ -227,13 +227,13 @@ D:\Program Files (x86)\Tencent\QQ\
 
 ![开始菜单中的 Microsoft Store](software-installation/Microsoft_Store.png#center)
 
-可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在 2020 年完全谢幕。或许是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。而到了今天，UWP 应用的数量越来越少，Microsoft Store 也开始提供普通应用的安装服务，向着更加通用的「应用商店」转型。
+可是，时过境迁：微软终究没有能在手机市场打下一片江山，微软做的手机系统最终在 2020 年完全谢幕。或许是微软心想，这「UWP 应用」的先进构想和 Microsoft Store 不能开了头就没了尾，因此它们直到今天依然被保留在 Windows 系统之中。而到了今天，UWP 应用越来越少，Microsoft Store 也开始包装普通应用，向着更加通用的「应用商店」转型。
 
 如果你有打开过 Microsoft Store，你会发现，尽管其中不乏我们日常生活中的常用应用，但亦有许多名不见经传甚至是「山寨」的应用，利用与知名应用相似的图标和名字来吸引点击和下载。
 
 ![Microsoft Store 中的软件](software-installation/MS_Store_Content.png#center)
 
-事实上，这就是 Microsoft Store 的现状：作为 Windows 上的官方「软件中心」或者「应用商店」，它的应用却相当不全，应用质量也并不理想。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
+事实上，这就是 Microsoft Store 的现状：作为 Windows 上的官方「软件中心」或者「应用商店」，收录的应用相当不全，应用质量也不理想。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
 
 ## 演示：【安全下载】到底下载了什么
 
