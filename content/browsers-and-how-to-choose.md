@@ -113,12 +113,9 @@ Firefox——或者说火狐——是今天 Chrome 垄断浏览器市场背景�
 
 ![在 Firefox 中打开《你缺计课》网页版](browsers-and-how-to-choose/Missing_homepage_in_Firefox.png#center)
 
-Firefox 与 Chrome 相当。在界面上，Firefox 同样设计得较为合理美观。~~（怎么它俩长得差不多啊？）~~ Firefox 是可以在国内正常使用同步功能的。具体来说，在国内能够下载到的 Firefox 有两个版本：
+Firefox 与 Chrome 相当。在界面上，Firefox 同样设计得较为合理美观。~~（怎么它俩长得差不多啊？）~~ 与 Chrome 不同的是，Firefox 可以在国内正常使用同步功能，只需注册一个 Mozilla 账户，即可跨设备同步你的收藏夹、浏览历史等内容。要下载 Firefox，可以直接访问它的官方网站 [https://www.firefox.com/](https://www.firefox.com/)。
 
-- 国际版 Firefox，即全球通用的 Firefox，从 Firefox 国际官网上下载到的 Firefox 就是这个版本。使用国际版 Firefox 的同步功能时，你的账号和数据可能会存储在境外。国际版 Firefox 可以正常在国内使用同步等功能。
-- 中国版 Firefox，是由 Mozilla 在国内设立的公司发行的针对中国市场供应的 Firefox。与国际版 Firefox 最大的不同是，使用中国版 Firefox 的同步功能时，你的账号和数据会存储在境内，以符合我国的网络安全相关法规。
-
-国际版 Firefox 可以在 [https://www.mozilla.org/zh-CN/firefox/new/](https://www.mozilla.org/zh-CN/firefox/new/) 下载到；中国版 Firefox 可以在 [https://www.firefox.com.cn/](https://www.firefox.com.cn/) 下载到。二者在功能和性能上并无二致（中国版 Firefox 内置了一些「实用插件」，但实测用处不大），用户可以自行选择。惟需注意：国际版和中国版 Firefox 账号不互通。
+> Mozilla 曾与国内的代理公司推出过一款「中国版 Firefox」。中国版 Firefox 的体验与国际版一致，但其账号系统与国际版不互通：中国版会将用户的数据存储在中国内地，以遵守数据出境的相关法规。[自 2025 年 7 月底开始，中国版 Firefox 不再提供下载，亦不再提供用户注册功能，并于 9 月底完全停止运营](https://www.firefox.com.cn/farewell/)，而国际版 Firefox 则可继续在中国内地继续使用。
 
 ## Edge：微软最后的妥协
 
