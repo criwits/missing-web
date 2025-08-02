@@ -113,9 +113,9 @@ Firefox——或者说火狐——是今天 Chrome 垄断浏览器市场背景�
 
 ![在 Firefox 中打开《你缺计课》网页版](browsers-and-how-to-choose/Missing_homepage_in_Firefox.png#center)
 
-Firefox 与 Chrome 相当。在界面上，Firefox 同样设计得较为合理美观。~~（怎么它俩长得差不多啊？）~~ 与 Chrome 不同的是，Firefox 可以在国内正常使用同步功能，只需注册一个 Mozilla 账户，即可跨设备同步你的收藏夹、浏览历史等内容。要下载 Firefox，可以直接访问它的官方网站 [https://www.firefox.com/](https://www.firefox.com/)。
+Firefox 与 Chrome 性能相当。在界面上，Firefox 同样设计得较为合理美观。~~（怎么它俩长得差不多啊？）~~ 与 Chrome 不同的是，Firefox 可以在国内正常使用同步功能，只需注册一个 Mozilla 账户，即可跨设备同步你的收藏夹、浏览历史等内容。要下载 Firefox，可以直接访问它的官方网站 [https://www.firefox.com/](https://www.firefox.com/)。
 
-> Mozilla 曾与国内的代理公司推出过一款「中国版 Firefox」。中国版 Firefox 的体验与国际版一致，但其账号系统与国际版不互通：中国版会将用户的数据存储在中国内地，以遵守数据出境的相关法规。[自 2025 年 7 月底开始，中国版 Firefox 不再提供下载，亦不再提供用户注册功能，并于 9 月底完全停止运营](https://www.firefox.com.cn/farewell/)，而国际版 Firefox 则可继续在中国内地继续使用。
+> Mozilla 曾与国内的代理公司合作推出过「中国版 Firefox」，它的体验与国际版一致，唯有账号系统与国际版不互通：中国版会将用户的数据存储在中国内地，以遵守数据出境的相关法规。[但是，2025 年 7 月底之后，中国版 Firefox 不再提供下载，也不再接受新用户注册，到了 9 月底则完全停止运营](https://www.firefox.com.cn/farewell/)，而国际版 Firefox 仍可继续在中国内地使用。
 
 ## Edge：微软最后的妥协
 

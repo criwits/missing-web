@@ -83,3 +83,7 @@ type: docs
 ## 焊丝俳句秀
 
 ![最仙人](anecdote/Hans-haiku.png)
+
+## 左右脑搏击
+
+![唉，原神](anecdote/self-contradictory.png)
