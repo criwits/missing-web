@@ -87,3 +87,9 @@ type: docs
 ## 左右脑搏击
 
 ![唉，原神](anecdote/self-contradictory.png)
+
+## 五十步笑五十步
+
+水果比冰棍健康，焊丝还是赢了。
+
+![就知道吃](anecdote/All_you_do_is_eat.png)
