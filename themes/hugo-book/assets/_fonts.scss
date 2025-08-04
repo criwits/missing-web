@@ -74,10 +74,11 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-@import url('https://static.criwits.top/source-han-sans-sc.css');
+@import "fonts/SourceHanSansSC/v1/regular.css";
+@import "fonts/SourceHanSansSC/v1/bold.css";
 
 body {
-  font-family: Inter, 'Noto Sans SC', sans-serif;
+  font-family: Inter, 'Source Han Sans SC', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
   /* fix for Chrome */
 }
