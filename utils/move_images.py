@@ -6,6 +6,10 @@ import os
 content_dir = Path("content")
 target_dir = Path("_images")
 
+# 清空目标目录（如果存在）
+if target_dir.exists():
+    shutil.rmtree(target_dir)
+
 # 创建目标目录（如果不存在）
 target_dir.mkdir(exist_ok=True)
 
@@ -42,7 +46,7 @@ def remove_empty_dirs(base_dir: Path):
     for sub in sorted(base_dir.rglob("*"), reverse=True):
         if sub.is_dir() and not any(sub.iterdir()):
             sub.rmdir()
-            print(f"Removed empty directory: {sub}")
+            print(f"已删除空目录 {sub}")
 
 # 主逻辑
 for chapter in content_dir.iterdir():
@@ -56,7 +60,7 @@ for chapter in content_dir.iterdir():
             # 不含 .md 文件 → 整个目录移动
             dest = target_dir / chapter.name
             shutil.move(str(chapter), str(dest))
-            print(f"Moved entire directory: {chapter} → {dest}")
+            print(f"已移动 {chapter} → {dest}")
 
 print("所有图片目录移动完成。")
 
