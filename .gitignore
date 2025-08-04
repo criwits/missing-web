@@ -1,7 +1,7 @@
 assets/*
 node_modules/*
 _book/*
-_image/*
+_images/*
 temp/*
 public/
 .hugo_build.lock

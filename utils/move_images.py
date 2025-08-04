@@ -70,7 +70,7 @@ os.makedirs("layouts/_default/_markup/", exist_ok=True)
 # 写入 render-image.html 文件
 with open("layouts/_default/_markup/render-image.html", "w") as f:
     f.write("""
-{{- $src := .Destination | printf "https://my.image.site/%s" -}}
+{{- $src := .Destination | printf "https://static.criwits.top/images/%s" -}}
 <img src="{{ $src }}" alt="{{ .Text | html }}" loading="lazy" />
             """)
     

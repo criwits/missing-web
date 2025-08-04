@@ -12,6 +12,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Setup Python and PyPI
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Run `utils/move_images.py`
+        run: |
+          python utils/move_images.py
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -22,11 +31,6 @@ jobs:
         run: |
           hugo --minify 
 
-      - name: Setup Python and PyPI
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'
-
       - name: Install Tencent Cloud COSCMD
         run: |
           pip install coscmd
@@ -35,7 +39,11 @@ jobs:
         run: |
           coscmd config -a ${{ secrets.COS_SECRET_ID }} -s ${{ secrets.COS_SECRET_KEY }} -b ${{ secrets.COS_BUCKET_NAME }} -r ap-guangzhou
 
-      - name: Deploy to Tencent Cloud COS
+      - name: Deploy to Tencent Cloud COS (Main)
         run: |
           coscmd upload -rs --delete -f _book missing
+
+      - name: Deploy to Tencent Cloud COS (Images)
+        run: |
+          coscmd -b ${{ secrets.COS_BUCKET_NAME_STATIC }} -r ap-guangzhou upload -rs --delete -f _images images
 
