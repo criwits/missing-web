@@ -128,6 +128,6 @@ type: docs
 
 自 2022 年以来，《你缺失的那门计算机课》网页版 GitHub 仓库的 Star 数变化如下图所示：
 
-![GitHub Star 统计图暂无法加载](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
+<img src="https://api.star-history.com/svg?repos=criwits/missing-web&amp;type=Date" alt="GitHub Star 统计图暂无法加载" loading="lazy">
 
 以上图表由 [star-history.com](https://star-history.com/) 提供。
