@@ -240,7 +240,7 @@ IMAGE_NAME:  ntkrnlmp.exe
 ## 练习
 
 1. 你还见过什么样类似「蓝屏」性质的系统错误界面，它们与「蓝屏」有何异同？
-2. 尝试自己分析一个蓝屏转储文件，如果自己电脑里没有可以找找朋友的电脑，或者使用我们提供的 [这个](https://static.criwits.top/assets/unknown-bsod.dmp)。
+2. 尝试自己分析一个蓝屏转储文件，如果自己电脑里没有可以找找朋友的电脑，或者使用我们提供的 [这个](https://www.criwits.top/files/unknown-bsod.dmp)。
 
 
 [^1]: 那时 NT 代表「New Technology」，但后来却失去了含义，变成了单纯的代号。
