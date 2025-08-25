@@ -70,8 +70,8 @@ type: docs
 ## 本作品的各种版本
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
-- 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待
-- 开源 PDF 版（25/3/13 更新，版本 2.0）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（可能需要登录，第三方提供）
+- 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待（[出版动态]({{<relref "publishing-news.md">}})）
+- 开源 PDF 版（25/3/13 更新，版本 2.0）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
 请注意，开源 PDF 版本的更新不如网页版频繁，可能与网页版内容存在差异。若您想要查看网页版和开源 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
@@ -98,11 +98,11 @@ type: docs
 
 {{< commit_info >}}
 
+- Publishing news: 更新出版动态 (25/8/23)
 - More more patches: 又修了一堆小地方 (25/7/19)
 - More patches: 修整许许多多在排 PDF 时遇到的不佳语段 (25/3/10)
 - ADs are not welcome: 调整对某压缩软件的推荐程度 (25/2/25)
 - Patch things up: 各种小修小补 (25/2/19)
-- The more the merrier: 建立了交流 QQ 群 (25/1/1)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明
