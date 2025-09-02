@@ -19,7 +19,7 @@ type: docs
 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 {{</hint>}}
 
-> 📢 [纪念中国人民抗日战争暨世界反法西斯战争胜利 80 周年](https://news.cctv.cn/2025/06/24/ARTIOpnLfB2f7WIdmsnDeJlX250624.shtml)
+> 📢 [纪念中国人民抗日战争暨世界反法西斯战争胜利 80 周年](https://news.cctv.com/special/kzsl80/index.shtml)
 
 ## 目录
 
