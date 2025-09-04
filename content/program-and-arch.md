@@ -416,7 +416,7 @@ x86 的巨大成功还吸引来了其他一些 CPU 厂商，它们从英特尔�
 
 1985 年，来自英国的艾康电脑公司（Acorn Computers）发布了一款名叫「ARM1」的原型处理器，「ARM」的含义是「Acorn 精简指令集机器」（Acorn RISC[^3] Machine）。作为一款 32 位处理器，它与同时代包括 80286 在内的 CPU 最大的不同是：**它指令集极为简单，只有数十条基本指令**，并且舍弃了其他许多处理器中的复杂设计。这种指令集就称为「ARM」指令集。次年，ARM2 投产，**精简的设计使得它只需消耗极少的电能，就能实现多样的功能**，这为它日后在便捷式设备和微型设备中的大放异彩埋下了伏笔。
 
-[^3]: 是「精简指令集电脑」（Reduced Instruction Set Computer）的缩写。
+[^3]: 「RISC」是「Reduced Instruction Set Computer」（精简指令集电脑）的缩写。
 
 ![ARM Logo](program-and-arch/Arm_logo_2017.png#floatright)
 

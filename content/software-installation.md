@@ -233,7 +233,7 @@ D:\Program Files (x86)\Tencent\QQ\
 
 ![Microsoft Store 中的软件](software-installation/MS_Store_Content.png#center)
 
-事实上，这就是 Microsoft Store 的现状：作为 Windows 上的官方「软件中心」或者「应用商店」，收录的应用相当不全，应用质量也不理想。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
+事实上，这就是 Microsoft Store 的现状：作为 Windows 上的官方「软件中心」或者「应用商店」，它收录的应用相当不全，应用质量也不理想。微软在 Microsoft Store 和 UWP 应用上充满了雄心壮志，却最终落得今天的结局。
 
 ## 演示：【安全下载】到底下载了什么
 

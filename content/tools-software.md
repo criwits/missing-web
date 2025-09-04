@@ -65,7 +65,7 @@ ImageGlass 是一款开源、轻量的图片查看器。相比于 Windows 自带
 
 ![用 ImageGlass 查看照片](tools-software/ImageGlass.png#center)
 
-尽管 ImageGlass 是开源的免费软件，但是它也在 Microsoft Store 提供了一个「付费」版本——你可以通过购买这个版本去捐赠开发者。如果你只是希望免费下载软件本体的话，只需要在它的官网下载页面选择【Get ImageGlass Classic】，或是在它的 GitHub 发布页下载扩展名是 `msi` 的文件。
+尽管 ImageGlass 是开源的免费软件，但是它也在 Microsoft Store 提供了一个「付费」版本——你可以通过购买这个版本去捐赠开发者。如果你只想免费下载软件本体的话，仅需在它的官网下载页面选择【Get ImageGlass Classic】，或是在它的 GitHub 发布页下载扩展名是 `msi` 的文件。
 
 ## 网络类
 
