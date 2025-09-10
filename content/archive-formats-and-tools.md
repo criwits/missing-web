@@ -221,7 +221,7 @@ WinRAR 的国际官网是 [https://www.rarlab.com/](https://www.rarlab.com/)，�
 
 最后我们来介绍一下压缩软件中的「深水区」——国产压缩软件们。和 [浏览器——网上冲浪必备]({{<relref "browsers-and-how-to-choose.md">}}) 一样，国产压缩软件也良莠不齐，其中不乏佳作也不少恶意软件。由于除了 RAR 之外的几乎所有压缩格式都是公开的，因此几乎所有的国产压缩软件都和前文介绍的 7-Zip 或 Bandizip 一样，支持绝大多数格式压缩文件的解压，但不支持 RAR 格式压缩文件的制作。例如，下面是「360 压缩」的客服人员对「『360 压缩』能否压缩 RAR 格式」这一问题的答复：
 
-![360 压缩不支持制作 RAR 压缩包](archive-formats-and-tools/360Zip_not_supporting_rar_compress.png#center)
+![360 压缩不支持制作 RAR 压缩包](archive-formats-and-tools/360Zip_not_supporting_rar_compress.png?updated=20250910#center)
 
 与「360 压缩」这种大厂推出的压缩软件相比，有些软件等则表现出了许多恶意软件的特征——静默捆绑安装、大量的广告推送，以及难以卸载和清除。同时，如前文所言，一些国产压缩软件还推出了各种所谓的「会员」功能，用于所谓「去除广告」「提升解压速度」或支持「设置密码」「分卷压缩」等，为这些原本就是免费的内容付费，实无任何必要。
 
