@@ -150,7 +150,7 @@ type: docs
 
 此外，在这些「软件管家」类工具中，我们也会遇到上文所提的广告和「冒牌货」现象。例如，下图是在某软件管家中搜索「Bandizip」（一款压缩工具，详见 [压缩文件与压缩工具]({{<relref "archive-formats-and-tools.md#bandizip">}})）时的结果，其中前四项均不是我们所需要的软件（甚至还标榜「无忧退」「金牌开发者」，而我们真正需要的却没有任何标注）。因此，在使用各种软件管家时，我们仍然必须擦亮双眼，谨防被骗。
 
-![在某软件管家中搜索 Bandizip](software-installation/Ads_in_store.png#center)
+![在某软件管家中搜索 Bandizip](software-installation/Ads_in_store.png?updated=20250910#center)
 
 ## 安装软件
 
