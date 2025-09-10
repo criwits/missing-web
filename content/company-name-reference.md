@@ -29,6 +29,7 @@ type: docs
 | 杭州深度求索人工智能基础技术研究有限公司 |    深度求索    |
 |            Xerox Corporation             |      施乐      |
 |             腾讯控股有限公司             |      腾讯      |
+|         广州网易计算机系统有限公司           |      网易      |
 |          Microsoft Corporation           |      微软      |
 |            Intel Corporation             |     英特尔     |
 |            Nvidia Corporation            | 英伟达、NVIDIA |
