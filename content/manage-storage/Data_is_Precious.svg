@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="396.70331"
+   height="65"
+   viewBox="0 0 104.96108 17.197917"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Data_is_Precious.svg"
+   inkscape:export-filename="Data_is_Precious.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="4.325982"
+     inkscape:cx="187.24072"
+     inkscape:cy="43.227179"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.144333,-29.405636)">
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.1;font-family:'Noto Sans SC';-inkscape-font-specification:'Noto Sans SC';text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#343434;fill-opacity:1;stroke:#d1d1d1;stroke-width:0.701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="130.04362"
+       y="39.681484"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Han Serif CN';-inkscape-font-specification:'Source Han Serif CN Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.701"
+         x="130.04362"
+         y="39.681484" /></text>
+    <g
+       id="g17"
+       transform="translate(0,-1.9843755)">
+      <rect
+         style="fill:#e7e7e7;fill-opacity:1;stroke:none;stroke-width:0.701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="rect1"
+         width="81.055145"
+         height="14.559597"
+         x="58.097301"
+         y="32.709171"
+         rx="1.119455"
+         ry="1.119455" />
+      <rect
+         style="fill:#f0c147;fill-opacity:1;stroke:none;stroke-width:0.681351;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="rect10"
+         width="79.001282"
+         height="12.724747"
+         x="59.124233"
+         y="33.626598"
+         rx="0.31526563"
+         ry="0.31526563" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.39435px;line-height:1.1;font-family:'Noto Sans SC';-inkscape-font-specification:'Noto Sans SC';text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#0b0b0b;fill-opacity:1;stroke:#d1d1d1;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="98.61528"
+         y="40.881153"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Han Serif CN';-inkscape-font-specification:'Source Han Serif CN Bold';fill:#0b0b0b;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none"
+           x="98.61528"
+           y="40.881153">数据无价 谨慎操作</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.97053px;line-height:1.1;font-family:'Noto Sans SC';-inkscape-font-specification:'Noto Sans SC';text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#0b0b0b;fill-opacity:1;stroke:#d1d1d1;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="98.612991"
+         y="44.611324"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'PT Sans';-inkscape-font-specification:'PT Sans Bold';fill:#0b0b0b;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none"
+           x="98.612991"
+           y="44.611324">Data is Precious, Proceed with Caution</tspan></text>
+    </g>
+    <g
+       id="g14"
+       transform="translate(0.26711655,1.0381575)" />
+  </g>
+</svg>

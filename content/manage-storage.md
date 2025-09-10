@@ -17,7 +17,7 @@ type: docs
 
 在正式进入这一章之前，请大声朗读三遍以下八字真言，并时刻牢记于心：
 
-<p align="center" style="font-size: 24px; font-weight: bold;">数据无价，谨慎操作！<br>Data is Precious, Operate Carefully!</p>
+![数据无价，谨慎操作](manage-storage/Data_is_Precious.png#center)
 
 如果要给「常见电脑问题」列个榜单，除了「软件怎么不能用」「为什么电脑变慢了」这种笼统的问题外，「我电脑又满了」肯定榜上有名。「满」，大部分指的是系统分区 C 盘。本章的所有内容，正是围绕「怎么样让我的电脑不那么满」这一需求展开的。
 
