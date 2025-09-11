@@ -5,7 +5,7 @@ type: docs
 
 # 二次创作指南
 
-《你缺失的那门计算机课》网页版（下称《你缺计课》或「本作品」）是一套自由、开放、共享的网络教程。为了让《你缺计课》能更好地帮助更多的人，Hans 和 Windy（下称「我们」）选择 [知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) 作为它的许可协议。任何人都可以在该协议允许的范围内，自由地对本作品进行传播、共享，并基于本作品进行二次创作（下文简称「二创」），如录制讲解视频、撰写扩展读物等。
+《你缺失的那门计算机课》网页版和开源 PDF 版（下称《你缺计课》或「本作品」）是一套自由、开放、共享的网络教程。为了让《你缺计课》能更好地帮助更多的人，Hans 和 Windy（下称「我们」）选择 [知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) 作为它的许可协议。任何人都可以在该协议允许的范围内，自由地对本作品进行传播、共享，并基于本作品进行二次创作（下文简称「二创」），如录制讲解视频、撰写扩展读物等。
 
 ## 规矩
 
@@ -25,9 +25,9 @@ type: docs
 
 ### 必须正确署名
 
-任何基于本作品的二创作品都必须在其合适的地方，说明其是基于原作品（《你缺失的那门计算机课》网页版）进行二次创作得来，并正确标注原作者信息（Hans Wan 和 Windy Deng），以及附上 [本作品的链接](https://www.criwits.top/missing)。同时，还需要清楚说明原作品「以 CC BY-NC-SA 4.0 协议许可」并提供该许可协议的 [原文](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 或 [链接](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)。
+任何基于本作品的二创作品都必须在其合适的地方，说明其是基于原作品（《你缺失的那门计算机课》网页版或开源 PDF 版）进行二次创作得来，并正确标注原作者信息（Hans Wan 和 Windy Deng），以及附上 [本作品的链接](https://www.criwits.top/missing)。同时，还需要清楚说明原作品「以 CC BY-NC-SA 4.0 协议许可」并提供该许可协议的 [原文](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 或 [链接](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)。
 
-以上要求是必须遵守的合规性要求。例如，一集基于本作品录制的讲解视频，可通过在片尾或片头展示如下的说明文字来满足这些要求。
+以上要求是必须遵守的合规性要求。例如，一集基于本作品网页版录制的讲解视频，可通过在片尾或片头展示如下的说明文字来满足这些要求。
 
 {{<hint quoting>}}
 本视频采用 CC BY-NC-SA 4.0 协议许可。<br>
