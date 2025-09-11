@@ -64,29 +64,3 @@ for chapter in content_dir.iterdir():
 
 print("所有图片目录移动完成。")
 
-# 创建 _markup 目录
-os.makedirs("layouts/_default/_markup/", exist_ok=True)
-
-# 写入 render-image.html 文件
-with open("layouts/_default/_markup/render-image.html", "w") as f:
-    f.write("""
-{{- $src := .Destination -}}
-{{- $alt := .Text | default "" -}}
-{{- $srcClean := replaceRE "([?#].*)$" "" $src -}}
-{{- $srcWithMissing := printf "/missing/%s" (urlize $srcClean) -}}
-{{- $srcStatic := .Destination | printf "https://static.criwits.top/images/%s" -}}
-{{- $result := first 1 (where .Page.Resources "RelPermalink" $srcWithMissing) -}}
-{{- with $result -}}
-    {{- $r := index . 0 -}}
-    {{- if eq $r.MediaType.SubType "svg" -}}
-        <img src="{{ $srcStatic }}" alt="{{ $alt }}" loading="lazy" />
-    {{- else -}}
-        <img src="{{ $srcStatic }}" alt="{{ $alt }}" width="{{ $r.Width }}" height="{{ $r.Height }}" loading="lazy" />
-    {{- end -}}
-{{- else -}}
-        <img src="{{ $srcStatic }}" alt="{{ $alt }}" loading="lazy" />
-{{- end -}}
-            """)
-    
-print("render-image.html 文件已创建。")
-
