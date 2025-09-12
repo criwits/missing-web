@@ -1,4 +1,6 @@
 import os
+import re
+from pathlib import Path
 
 # 创建 _markup 目录
 os.makedirs("layouts/_default/_markup/", exist_ok=True)
@@ -25,3 +27,24 @@ with open("layouts/_default/_markup/render-image.html", "w") as f:
     
 print("render-image.html 文件已创建。")
 
+def update_front_matter(file_path: str):
+    path = Path(file_path)
+    text = path.read_text(encoding="utf-8")
+
+    # 使用正则匹配 front matter
+    pattern = re.compile(r"^---\s*\ntitle:\s*首页\s*\ntype:\s*docs\s*\n---", re.MULTILINE)
+    replacement = """---
+title: 首页
+type: docs
+cascade:
+  build:
+    publishResources: false
+---"""
+
+    new_text = pattern.sub(replacement, text, count=1)
+
+    # 写回文件（或另存为）
+    path.write_text(new_text, encoding="utf-8")
+    print(f"{file_path} 已更新。")
+
+update_front_matter("content/_index.md")

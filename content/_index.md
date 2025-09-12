@@ -1,9 +1,6 @@
 ---
 title: 首页
 type: docs
-cascade:
-  build:
-    publishResources: false
 ---
 
 # 你缺失的那门计算机课（网页版）
