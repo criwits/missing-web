@@ -77,7 +77,7 @@ type: docs
 
 ### 自由和开源软件
 
-我们相信自由和开源软件（Free and Open Source Software，简称 FOSS）的力量，并始终支持自由和开源软件的发展。
+我们相信自由和开源软件（free and open-source software，简称 FOSS）的力量，并始终支持自由和开源软件的发展。
 
 我们非常鼓励您使用自由和开源软件制作二创作品。例如：使用 LibreOffice 撰写文字性的内容，使用 Inkscape、GIMP 和 Krita 绘制相关的图片，使用 Kdenlive 剪辑您的视频……如果您使用了 FOSS，您可以在二创作品的合适位置进行标注，这样能让更多的人了解到它们。
 

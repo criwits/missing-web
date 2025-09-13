@@ -21,7 +21,7 @@ type: docs
 
 ## :(
 
-蓝屏死机，英文叫 BSoD（Blue Screen of Death，「死亡蓝屏」，很形象啊）。如今的 2024 年，大多数个人电脑上搭载的都是 Windows 10 或 Windows 11 操作系统，它们的蓝屏错误界面很有特色，大概长这样：
+蓝屏死机，英文叫 BSoD（blue screen of death，「死亡蓝屏」，很形象啊）。如今的 2024 年，大多数个人电脑上搭载的都是 Windows 10 或 Windows 11 操作系统，它们的蓝屏错误界面很有特色，大概长这样：
 
 ![Windows 10/11 蓝屏](recover-from-bsod/Win-10-BSoD.png#center)
 
