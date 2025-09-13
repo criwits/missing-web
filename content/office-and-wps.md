@@ -140,7 +140,7 @@ WPS 是由我国公司金山软件开发的免费软件，但与很多人的臆�
 
 ![Super-WPS](office-and-wps/Super-WPS.png#center)
 
-但彼时的 Super-WPS，运行在 DOS 系统上（就是那个「漆黑的屏幕上闪烁着 `C:>_`」的操作系统），所以使用起来并没有今天的 WPS Office 这般方便与所见即所得（what you see is what you get，简称 WYSIWYG）。在编辑状态下，你没有办法看到文本真正在纸上呈现的样子，要想知道效果，必须切换到「打印预览」模式，而这个模式又无法直接编辑内容。不过，虽然麻烦，但比一无所有还是好上许多。下图左侧是编辑模式，右侧则是「打印预览」模式。
+但彼时的 Super-WPS，运行在 DOS 系统上（就是那个「漆黑的屏幕上闪烁着 `C:>_`」的操作系统），所以使用起来并没有今天的 WPS Office 这般方便与所见即所得（What you see is what you get，简称 WYSIWYG）。在编辑状态下，你没有办法看到文本真正在纸上呈现的样子，要想知道效果，必须切换到「打印预览」模式，而这个模式又无法直接编辑内容。不过，虽然麻烦，但比一无所有还是好上许多。下图左侧是编辑模式，右侧则是「打印预览」模式。
 
 ![在 Super-WPS 中进行文字编辑](office-and-wps/Super-WPS_Editing.png#center)
 
