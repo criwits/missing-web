@@ -142,7 +142,9 @@ DiskGenius 是一款多功能磁盘管理软件，可以进行自由分区、磁
 
 [^EFI]: 那么 EFI 又是什么呢？你可以自行上网搜索。
 
-想要操作某个分区，就在上方选中那个分区，点击右键即可。
+想要操作某个分区，就在上方选中那个分区，点击右键即可。[^bitlocked]
+
+[^bitlocked]: 如果你的电脑启用了设备加密，请在操作前关掉它（详见 [用户与微软账号]({{<relref "user-and-ms-account.md#设备加密与微软账号">}}) 一章）。DiskGenius 无法操作加密后的分区。
 
 ![DiskGenius 提供的分区操作](manage-storage/Part_Operation.png#center)
 
