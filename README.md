@@ -8,13 +8,13 @@
 
 ## 作品简介
 
-这是一份适合电脑小白入门的电脑使用课程。它平易近人，娓娓道来，介绍了从基本的文件管理，到软件的寻找安装，再到各类使用技巧与优良软件推荐的许多内容，旨在帮助读者在信息化时代更灵活地使用电脑。
+这是一份适合电脑小白入门的电脑使用课程。它平易近人，娓娓道来，介绍了从 [基本的文件管理](https://www.criwits.top/missing/file-and-file-management.html)，到 [软件的寻找安装](https://www.criwits.top/missing/software-installation.html)，再到 [各类使用技巧](https://www.criwits.top/missing/windows-11-optimization.html) 与 [优良软件推荐](https://www.criwits.top/missing/tools-software.html) 的许多内容，旨在帮助读者在信息化时代更灵活地使用电脑。
 
-这也是一份面向今日与未来的信息时代指南。它立足当下，探索变革，讲述了当今热门的生成式 AI、网络安全、物联网与云计算等前沿技术的概念、原理和应用，能够引导读者立于数字化时代的潮头，把握科技发展的方向。
+这也是一份面向今日与未来的信息时代指南。它立足当下，探索变革，讲述了当今热门的 [生成式 AI](https://www.criwits.top/missing/bring-intelligence-to-machines.html)、[网络安全](https://www.criwits.top/missing/introduction-to-cryptology.html)、[物联网与云计算](https://www.criwits.top/missing/cloud-computing-and-iot.html) 等前沿技术的概念、原理和应用，能够引导读者立于数字化时代的潮头，把握科技发展的方向。
 
 零门槛、易理解、有深度，与时俱进、开放共享——这是《你缺失的那门计算机课》不断追求的目标，也是我们努力的方向。
 
-本书纸质版预计于 2026 年初由清华大学出版社出版，敬请期待！~~（对，鸽了！）~~
+**本书纸质版预计于 ~~2025 年末~~ 2026 年初由清华大学出版社出版，敬请期待！**~~（对，鸽了！）~~
 
 ## 如何使用
 
