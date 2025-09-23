@@ -25,7 +25,7 @@ type: docs
 
 ## 文档类
 
-这一节介绍「文档类」实用工具，例如文本编辑器和 PDF 阅读器。
+这一节介绍「文档类」实用工具，例如文本编辑器。
 
 ### Notepad3
 
@@ -71,23 +71,21 @@ ImageGlass 是一款开源、轻量的图片查看器。相比于 Windows 自带
 
 这一节介绍「网络类」实用工具，例如下载器。
 
-### Motrix 和 ImFile
-
-Motrix 官网下载地址：[https://motrix.app/zh-CN/](https://motrix.app/zh-CN/)。
-
-ImFile 官网下载地址：[https://imfile.io/](https://imfile.io/)。
-
-Motrix，如它在网页上宣传的那样，是「一款全能的下载工具」，它基本上支持所有常见的资源协议的下载，包括 FTP、BitTorrent 种子，以及群众喜闻乐见的磁力链接等。它界面精巧、代码开源、使用方便，是一款不可多得的优良下载工具。不过，自 2023 年 6 月以来，Motrix 已经一年半没有更新了，因此可能存在一些未修复的问题。ImFile 则是 Motrix 的一个「分支版」，由另外的作者在 Motrix 的基础上改进、维护，和 Motrix 保持了类似的操作体验，并引入了新功能，修复了一些问题。
-
-![Motrix 主界面](tools-software/Motrix.png)
-
 ### Free Download Manager
 
 官网下载地址：[https://www.freedownloadmanager.org/zh/download.htm](https://www.freedownloadmanager.org/zh/download.htm)。
 
-Free Download Manager，简称 FDM，是另一款开源的全能下载器。和 Motrix 一样，它支持多种不同的资源协议，如 FTP 和 BitTorrent，还能下载一些网站上的视频，同时具有不错的下载速度。
+Free Download Manager，简称 FDM，是一款开源的全能下载器。它基本上支持所有常见的资源协议的下载，包括 FTP、BitTorrent 种子，以及群众喜闻乐见的磁力链接等，还能下载一些网站上的视频，同时具有不错的下载速度。借助其推出的浏览器插件，FDM 可以与主流浏览器「无缝」集成，使用相当方便。
 
 ![FDM 主界面](tools-software/FDM.png#center)
+
+### Motrix 及其分支
+
+Motrix 官网下载地址：[https://motrix.app/zh-CN/](https://motrix.app/zh-CN/)。
+
+Motrix 与 FDM 类似，是另一款全能的下载工具。相比于 FDM，Motrix 同样支持各种常见协议，同时提供了更加精巧美观的软件界面。不过，作为一款个人作品，Motrix 的软件更新比较迟缓，因此可能存在一些未修复的问题。在 Motrix 的代码之上，一些「有志之士」推出了 Motrix 的各种「分支版」，例如 ImFile。它们和 Motrix 保持了类似的操作体验，并引入了新功能，修复了一些问题。
+
+![Motrix 主界面](tools-software/Motrix.png)
 
 ## 文件类
 
