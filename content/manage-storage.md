@@ -346,7 +346,7 @@ mklink /d "%localappdata%\Programs\Common\Wolfram Research\Documentation.zh-Hans
 
 按照硬链接的行为，**无论一份数据有多少硬链接，磁盘上都应该只有一份文件的数据，只占一份文件的空间**。虽说事实如此，但文件资源管理器不这么想——有多少链接，它就给你算多少份文件大小，于是乎，就有了这样占用空间比整个硬盘还大的奇景（这显然是不对的）：
 
-![奇怪的占用空间](manage-storage/Interesting_Storage_Size.png#center)
+![奇怪的占用空间](manage-storage/Interesting_Storage_Size.png?updated=20250929#center)
 
 ### 目录联接
 
