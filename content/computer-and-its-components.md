@@ -25,7 +25,7 @@ type: docs
 
 在开始之前，我们先假设这样一个场景：某位老师收集了一个班的作业，现在需要批改它们，如下图所示。
 
-![正在批改作业的老师](computer-and-its-components/Teacher_and_homework.png?updated=20250929#center)
+![正在批改作业的老师](computer-and-its-components/Teacher_and_homework.png?updated=20250930#center)
 
 我们可以把老师批改作业的过程分解成下面的步骤：
 
