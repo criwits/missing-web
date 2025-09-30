@@ -56,7 +56,9 @@ type: docs
 
 ![IE 8 的界面](browsers-and-how-to-choose/IE8.png#center)
 
-与此同时，越来越多的企业和组织意识到了浏览器市场的重要性。除了 Mozilla 的 Firefox 和微软的 IE 外，其他许多竞争者也参与到了这场新的浏览器大战中。2008 年，**美国科技巨头谷歌推出了一款全新浏览器——Chrome 浏览器，也就是我们俗称的「谷歌浏览器」**。下面便是早期 Chrome 浏览器的界面。
+与此同时，越来越多的企业和组织意识到了浏览器市场的重要性。除了 Mozilla 的 Firefox 和微软的 IE 外，其他许多竞争者也参与到了这场新的浏览器大战中。2008 年，**美国科技巨头谷歌推出了一款全新浏览器——Chrome 浏览器，也就是我们俗称的「谷歌浏览器」**[^browser-and-search-engine]。下面便是早期 Chrome 浏览器的界面。
+
+[^browser-and-search-engine]: 虽说 Chrome 由谷歌公司推出，也被称为「谷歌浏览器」，但并不是说它只能使用谷歌的搜索引擎——IE、火狐、Chrome 等「浏览器」是上网的工具，而百度、必应、谷歌等「搜索引擎」则是一类特殊的网站，二者没有任何必然的联系。
 
 ![Chrome 8 的界面](browsers-and-how-to-choose/Chrome_8.png#center)
 
