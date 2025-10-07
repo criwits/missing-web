@@ -53,14 +53,14 @@ type: docs
 
   中科大 Linux 用户协会撰写的 Linux 教学读物<span>~~（Linux 界的《你缺计课》）~~。
 
-- [PGuide Docs](https://docs.pguide.studio/)
+- [~~PGuide Docs~~](https://github.com/PGuideDev/PGuide-Docs)
 
-  来自重庆医科大学的一本计算机专业手册，包含一些计算机相关内容的学习笔记，亦有一些与校园、社会生活相关的内容。
+  > 全新项导文档 2.0 更新中，敬请关注。<br>
+  > 来自重庆医科大学的一本计算机专业手册，包含一些计算机相关内容的学习笔记，亦有一些与校园、社会生活相关的内容。全新项导文档 2.0 更新中，敬请关注。
 
 - [Windows 实用软件推荐](https://blog.wfso.cn/archives/115/)
 
   一篇收录了许多 Windows 常用软件的博客文章，值得收藏以备参考。
-
 
 ## 探索生活与世界
 
