@@ -1,86 +1,58 @@
 @font-face {
-  font-family: InterVariable;
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: local('Inter Variable'), url('fonts/InterVariable.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: InterVariable;
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: local('Inter Variable Italic'), url('fonts/InterVariable-Italic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Inter var';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: local('Inter Variable'), url('fonts/InterVariable.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: local('Inter Variable Italic'), url('fonts/InterVariable-Italic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: Inter;
+  font-family: "Inter Online";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Inter Regular'), url("fonts/Inter-Regular.woff2") format("woff2");
+  src: url("fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: Inter;
+  font-family: "Inter Online";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Inter Italic'), url("fonts/Inter-Italic.woff2") format("woff2");
+  src: url("fonts/Inter-Italic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: Inter;
+  font-family: "Inter Online";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Inter Bold'), url("fonts/Inter-Bold.woff2") format("woff2");
+  src: url("fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: Inter;
+  font-family: "Inter Online";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: local('Inter Bold Italic'), url("fonts/Inter-BoldItalic.woff2") format("woff2");
+  src: url("fonts/Inter-BoldItalic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Roboto Mono';
+  font-family: 'Roboto Mono Online';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'),
-    url('fonts/roboto-mono-v6-latin-regular.woff2') format('woff2'),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('fonts/roboto-mono-v6-latin-regular.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('fonts/roboto-mono-v6-latin-regular.woff2') format('woff2')
 }
 
-@import url("https://cf.criwits.top/fonts/SourceHanSansSC/v1/regular.css");
-@import url("https://cf.criwits.top/fonts/SourceHanSansSC/v1/bold.css");
+@import url("https://cf.criwits.top/fonts/SourceHanSansSC/v1/regular-online.css");
+@import url("https://cf.criwits.top/fonts/SourceHanSansSC/v1/bold-online.css");
+
 
 body {
-  font-family: Inter, 'Source Han Sans SC', sans-serif;
+  font-family: "Inter", "Inter Online", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans SC Online", system-ui, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
-  /* fix for Chrome */
+}
+
+code, pre, kbd {
+  font-family: "Roboto Mono", "Roboto Mono Online", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC", 'Source Han Sans SC Online', monospace;
+}
+
+.beian-mono {
+  font-family: 'Roboto Mono', 'Roboto Mono Online', monospace;
 }
 
 // 当在屏幕上显示时，启用标点压缩，配合 JS 脚本实现
@@ -91,14 +63,4 @@ body {
   .force-no-wrap {
     white-space: nowrap;
   }
-}
-
-@supports (font-variation-settings: normal) {
-  body {
-    font-family: InterVariable, 'Source Han Sans SC', sans-serif;
-  }
-}
-
-code, pre, kbd {
-  font-family: 'Roboto Mono', 'Source Han Sans SC', monospace;
 }
