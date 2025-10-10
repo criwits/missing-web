@@ -51,6 +51,10 @@ code, pre, kbd {
   font-family: "Roboto Mono", "Roboto Mono Online", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC", 'Source Han Sans SC Online', monospace;
 }
 
+.beian-mono {
+  font-family: 'Roboto Mono', 'Roboto Mono Online', monospace;
+}
+
 // 当在屏幕上显示时，启用标点压缩，配合 JS 脚本实现
 @media screen {
   .force-compress-punct {
