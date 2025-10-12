@@ -93,3 +93,7 @@ type: docs
 水果比冰棍健康，焊丝还是赢了。
 
 ![就知道吃](anecdote/All_you_do_is_eat.png)
+
+## 血肉苦痛，机械飞升
+
+![健康作息，从我做起](anecdote/hans_is_robot.png?updated=20251012)
