@@ -105,9 +105,9 @@ Chromium 套壳千千万，但我们始终最推荐 Chrome 自身，正所谓「
 
 ![在 Chrome 中打开《你缺计课》网页版](browsers-and-how-to-choose/Missing_homepage_in_Chrome.png#center)
 
-Chrome 性能出色，界面干净简洁，没有多余繁杂的功能栏，设计优雅美观。Chrome 稍微影响使用的缺点，可能是在中国大陆无法方便地使用「同步」「扩展」等功能。（毕竟 Chrome 的老东家是谷歌，而谷歌服务无法正常在中国大陆访问。）「同步」功能，是指在浏览器上登录自己的账号之后，就能同步自己的收藏夹、历史记录、密码本等数据，实现多设备联动；「扩展」功能则可以给浏览器安装各种插件，实现划词翻译、广告屏蔽等高级功能。所以。一般情况下我们只能不登录使用 Chrome，也只能采用手动下载安装等方式安装 Chrome 扩展插件。不过，若是自己对这些功能依赖不深，这一缺点也是可以忽略的。
+Chrome 性能出色，界面干净简洁，没有多余繁杂的功能栏，设计优雅美观。Chrome 稍微影响使用的缺点，可能是在中国内地无法方便地使用「同步」「扩展」等功能。（毕竟 Chrome 的老东家是谷歌，而谷歌服务无法正常在中国内地访问。）「同步」功能，是指在浏览器上登录自己的账号之后，就能同步自己的收藏夹、历史记录、密码本等数据，实现多设备联动；「扩展」功能则可以给浏览器安装各种插件，实现划词翻译、广告屏蔽等高级功能。所以。一般情况下我们只能不登录使用 Chrome，也只能采用手动下载安装等方式安装 Chrome 扩展插件。不过，若是自己对这些功能依赖不深，这一缺点也是可以忽略的。
 
-Chrome 浏览器的官方下载地址是 [https://www.google.cn/intl/zh-CN/chrome/](https://www.google.cn/intl/zh-CN/chrome/)。此链接是可以在中国大陆直接访问并正常下载的。下载安装之后的 Chrome 也是可以正常在中国大陆更新的。~~（难能可贵难能可贵。）~~
+Chrome 浏览器的官方下载地址是 [https://www.google.cn/intl/zh-CN/chrome/](https://www.google.cn/intl/zh-CN/chrome/)。此链接是可以在中国内地直接访问并正常下载的。下载安装之后的 Chrome 也是可以正常在中国内地更新的。~~（难能可贵难能可贵。）~~
 
 ## Firefox：星星之火，正将燎原
 
@@ -115,7 +115,7 @@ Firefox——或者说火狐——是今天 Chrome 垄断浏览器市场背景�
 
 ![在 Firefox 中打开《你缺计课》网页版](browsers-and-how-to-choose/Missing_homepage_in_Firefox.png#center)
 
-Firefox 与 Chrome 性能相当，界面也同样设计得较为合理美观。~~（怎么它俩长得差不多啊？）~~ Firefox 也有自己的同步功能，只需注册一个 Mozilla 账户，即可跨设备同步你的收藏夹、浏览历史等内容；同样，它也拥有自己的扩展系统（称为「附加组件」），你可以去扩展商店安装插件。与 Chrome 不同的是，Firefox 的同步和扩展都可以在中国大陆正常使用。要下载 Firefox，可以直接访问它的官方网站 [https://www.firefox.com/](https://www.firefox.com/)。
+Firefox 与 Chrome 性能相当，界面也同样设计得较为合理美观。~~（怎么它俩长得差不多啊？）~~ Firefox 也有自己的同步功能，只需注册一个 Mozilla 账户，即可跨设备同步你的收藏夹、浏览历史等内容；同样，它也拥有自己的扩展系统（称为「附加组件」），你可以去扩展商店安装插件。与 Chrome 不同的是，Firefox 的同步和扩展都可以在国内正常使用。要下载 Firefox，可以直接访问它的官方网站 [https://www.firefox.com/](https://www.firefox.com/)。
 
 > Mozilla 曾与国内的代理公司合作推出过「中国版 Firefox」，它的体验与国际版一致，唯有账号系统与国际版不互通：中国版会将用户的数据存储在中国内地，以遵守数据出境的相关法规。[但是，2025 年 7 月底之后，中国版 Firefox 不再提供下载，也不再接受新用户注册，到了 9 月底则完全停止运营](https://www.firefox.com.cn/farewell/)，而国际版 Firefox 仍可继续在中国内地使用。
 
@@ -125,7 +125,7 @@ Firefox 与 Chrome 性能相当，界面也同样设计得较为合理美观。~
 
 ![在 Edge 中打开《你缺计课》网页版](browsers-and-how-to-choose/Missing_homepage_in_Edge.png#center)
 
-由于使用了 Chromium 内核，新 Edge 的性能自然和 Chrome 站到了同一梯队。在外观上，新 Edge 和 Chrome 基本一致，但加入了一些比较有用的小功能，例如「垂直标签页」等。~~（怎么它们仨都长得差不多啊？）~~ Edge 使用微软账号登录，因而也能在中国大陆正常同步。对于想使用 Chrome 却苦于同步等功能的用户来说，新 Edge 是他们非常不错的一个选择。此外，Edge 不仅拥有自己的扩展商店（可以直接在中国大陆访问），也在一定程度上兼容 Chrome 的扩展插件，使用起来更为便利。~~（唉，Chrome。）~~
+由于使用了 Chromium 内核，新 Edge 的性能自然和 Chrome 站到了同一梯队。在外观上，新 Edge 和 Chrome 基本一致，但加入了一些比较有用的小功能，例如「垂直标签页」等。~~（怎么它们仨都长得差不多啊？）~~ Edge 使用微软账号登录，因而也能在国内正常同步。对于想使用 Chrome 却苦于同步等功能的用户来说，新 Edge 是他们非常不错的一个选择。此外，Edge 不仅拥有自己的扩展商店（可以直接在国内访问），也在一定程度上兼容 Chrome 的扩展插件，使用起来更为便利。~~（唉，Chrome。）~~
 
 新 Edge 在现在的 Windows 10 或 11 系统中预置，打开即可使用；如果你想下载安装，可以访问 [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge) 。
 
