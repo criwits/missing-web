@@ -76,9 +76,9 @@ type: docs
 
 ## 反馈与交流
 
-若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=0Osd1tkNAzUEs6Hz3DG8-8Td-8XDDoUR&jump_from=webapi&authKey=hSDdlTT41FQCWKcjNfjyVc6jq+lMFviLyammCQiD0qCZ2tEP7OLLmj9tQAVhyaG8) 或扫描下方二维码，加入我们的交流 QQ 群。欢迎大家加群来玩！
+若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=pmHnhzpVQgsm2ftYGmtI7h9vgYxBvF7k&jump_from=webapi&authKey=BQA8sXIDDaV0UklabaFcBJRzNO4NYrYlcLgmPgo55cPaPMY74c+11Jrv8BzNoUFc) 或扫描下方二维码，加入我们的交流 QQ 群。欢迎大家加群来玩！
 
-![QQ 群二维码](misc/QQ_group.svg#center)
+![QQ 群二维码](misc/QQ_group.svg?updated=20251015#center)
 
 > 我们十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
 >
