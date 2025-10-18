@@ -7,6 +7,8 @@ type: docs
 
 这里记录了本作品自面世以来的内容更新和修订。较大的更新和修订都会在这里记录，以便读者查阅。
 
+- Content update: 增加禁用 Windows 搜索联网功能的操作说明 (25/10/17)
+- Experience update: 现在点击图片可以放大查看了 (25/9/30)
 - More more patches again: 各种小修改，主要是微调表述、补充说明和改正错别字 (25/9/24)
 - Publishing news: 更新出版动态 (25/8/23)
 - More more patches: 又修了一堆小地方 (25/7/19)

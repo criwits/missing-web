@@ -96,11 +96,11 @@ type: docs
 
 {{< commit_info >}}
 
+- Content update: 增加禁用 Windows 搜索联网功能的操作说明 (25/10/17)
+- Experience update: 现在点击图片可以放大查看了 (25/9/30)
 - More more patches again: 各种小修改，主要是微调表述、补充说明和改正错别字 (25/9/24)
 - Publishing news: 更新出版动态 (25/8/23)
 - More more patches: 又修了一堆小地方 (25/7/19)
-- More patches: 修整许许多多在排 PDF 时遇到的不佳语段 (25/3/10)
-- ADs are not welcome: 调整对某压缩软件的推荐程度 (25/2/25)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明

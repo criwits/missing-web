@@ -107,7 +107,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Bloc
 适用于 22H2 及以上版本系统的方法不太一样：
 
 - 找一个你喜欢的地方，新建一个文件，命名为 `ribbon.reg`（注意，此文件的扩展名是 `reg`，记得预先将「显示文件扩展名」打开）；
-- 用记事本打开刚刚的文件，写入以下内容，保存：
+- 用记事本打开刚刚的文件（或者右键选择【编辑】或【在记事本中编辑】），写入以下内容，保存：
   ```
   Windows Registry Editor Version 5.00
 
@@ -155,7 +155,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Bloc
 可以通过如下的方式，禁用这一行为。此方法在 Windows 10 中亦可使用。
 
 - 找一个你喜欢的地方，新建一个文件，命名为 `disable_f1_help_in_explorer.reg`（注意，此文件的扩展名是 `reg`，记得预先将「显示文件扩展名」打开）；
-- 用记事本打开刚才新建的文件（或者右键选择【编辑】），然后写入如下内容，保存：
+- 用记事本打开刚才新建的文件（或者右键选择【编辑】或【在记事本中编辑】），然后写入如下内容，保存：
   ```
   Windows Registry Editor Version 5.00
 
@@ -168,7 +168,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Bloc
 - 关掉记事本，双击刚才编辑的文件，点两下【是】，然后点击【确定】。
 - 此时在资源管理器中按 F1 键，就不会再打开 Edge 浏览器了。
 
-如果想恢复该功能，则使用如下的内容：
+如果想恢复该功能，请用相同的方法再新建一个 `reg` 文件，写入如下的内容后双击导入。
 
 ```
 Windows Registry Editor Version 5.00
@@ -178,6 +178,30 @@ Windows Registry Editor Version 5.00
 ```
 
 你可以将这两个 `reg` 文件留着，以备不时之需。
+
+## 禁用 Windows 搜索联网功能
+
+在 Windows 10 和 Windows 11 中，Windows 搜索功能（包括任务栏搜索框、`Windows` + `S` 或是开始菜单中的搜索框）默认会使用必应搜索引擎联网搜索结果，并可能在我们未搜索内容时，提供一些广告内容，如下图所示：
+
+![Windows 搜索提供的广告和在线结果](windows-11-optimization/Windows_Search_online_content.png#center)
+
+要禁用 Windows 搜索的联网功能，可以按如下的方法操作：
+
+- 按 `Windows` + `X`，选择【终端管理员】，然后选择【是】。（旧称「Windows Powershell（管理员）」或「Windows 终端（管理员）」。）
+- 输入这行命令，然后按一次回车。重启后即见效果。
+  ```
+  reg add "HKCU\Software\Policies\Microsoft\Windows\Explorer" /f /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 
+  ```
+
+此时，Windows 搜索功能将只会搜索本机上的项目，而不再提供必应搜索结果；同时，未有搜索内容时，也不会再展示任何广告等推荐内容，如下图：
+
+![干净的 Windows 搜索](windows-11-optimization/Clear_Windows_Search.png#center)
+
+如果想恢复相关功能，请执行下面这条命令，重启即可恢复。
+
+```
+reg delete "HKCU\Software\Policies\Microsoft\Windows\Explorer" /f /v DisableSearchBoxSuggestions
+```
 
 ## 练习
 
