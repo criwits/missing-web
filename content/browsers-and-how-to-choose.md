@@ -139,15 +139,11 @@ Firefox 与 Chrome 性能相当，界面也同样设计得较为合理美观。~
 
 当然你也可以打开「开始菜单」后，直接输入「Internet Explorer」来找到它。
 
-而在 Windows 11，以及最新的 Windows 10 中，IE 已被移出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】。
+而在 Windows 11，以及最新的 Windows 10 中，IE 已被移出系统。在这种情况下，如果网站要求使用 IE 浏览器，你可以尝试使用 Edge 的「IE 模式」。具体来说，你需要首先打开 Edge 并进入「设置」（右上角【⋯】→【设置】），然后选择【默认浏览器】，将「允许在 Internet Explorer 模式下重新加载网站」设置为【允许】，然后单击「Internet Explorer 模式页面」右侧的【添加页面】，将需要打开页面的网址填入其中，再单击【添加】，如下图所示。
 
-![启用 Edge 的 IE 模式](browsers-and-how-to-choose/Edge_IE_Mode_1.png#center)
+![启用 Edge 的 IE 模式](browsers-and-how-to-choose/Edge_IE_Mode_1.png?updated=20251105#center)
 
-设置完之后关闭 Edge 再重新打开。然后，用 Edge 打开你需要用 IE 打开的网页，点击右上角【⋯】并选择【在 Internet Explorer 模式下重新加载】：
-
-![在 IE 模式重新加载网页](browsers-and-how-to-choose/Reload_in_IE_mode.png#center)
-
-这样网页就相当于是通过 IE 打开了。当然，对于 Windows 10 上的 Edge，也可以用这个方法进入「Internet Explorer 模式」，从而打开那些只支持 IE 浏览器的网站。
+设置完成之后，关闭 Edge 再重新启动。此时，当你使用 Edge 打开之前添加的页面时，浏览器将使用 IE 内核来加载它。当你不再需要使用 IE 模式打开相关页面时，只需在「Internet Explorer 模式页面」设置项下方删除对应网址即可。
 
 ## 国产套壳浏览器：众口难调，各取所需
 
