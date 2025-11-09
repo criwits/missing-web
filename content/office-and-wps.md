@@ -39,9 +39,9 @@ Microsoft Office 是由微软开发的办公软件套装。称它「软件套装
 
 上面列表中的前三位——Word、PowerPoint 和 Excel，是 Office 套装中人们耳熟能详的三个子软件，民间又俗称「Office 三件套」。它们三个能满足普通人大多数的基本办公需求，具有庞大的用户群体；相比之下，其他 Office 子软件的知名度就不那么高了，安装使用它们的人也相对不多。
 
-目前（2024 年），最新版本的 Office 三件套的软件图标如下图所示。
+在 21 世纪的头 25 年里，Office 的图标屡次经历改版，下面这些图标，相信你或多或少见过些。图标的变迁不仅反映了设计潮流的更迭轮转，也承载着软件的发展历史。
 
-![Word、PowerPoint 和 Excel 的图标](office-and-wps/Office_icons.png#center)
+![Word、PowerPoint 和 Excel 的图标历史](office-and-wps/Office_icons.png#center)
 
 ### Office 的历史与版本
 
