@@ -73,7 +73,7 @@ type: docs
 
 这个过程如下图所示，看起来与之前展示的「送信」过程大同小异，这或许就是为什么电子邮件要叫「电子邮件」吧。
 
-![电子邮件的发送流程](mail-and-instant-messaging/E_mail.png#center)
+![电子邮件的发送流程](mail-and-instant-messaging/E_mail.png?updated=20251113#center)
 
 ### 初试电子邮箱
 

@@ -41,7 +41,7 @@ Microsoft Office 是由微软开发的办公软件套装。称它「软件套装
 
 在 21 世纪的头 25 年里，Office 的图标屡次经历改版，下面这些图标，相信你或多或少见过些。图标的变迁不仅反映了设计潮流的更迭轮转，也承载着软件的发展历史。
 
-![Word、PowerPoint 和 Excel 的图标历史](office-and-wps/Office_icons.png#center)
+![Word、PowerPoint 和 Excel 的图标历史](office-and-wps/Office_icons.png?updated=20251111#center)
 
 ### Office 的历史与版本
 
