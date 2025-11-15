@@ -105,7 +105,7 @@ SpaceSniffer——直白的名字，专注于磁盘空间分析嗅探。在你�
 
 虽说 WizTree 干的事情其实和上面的 SpaceSniffer 差不多，但是相较后者而言它有几个优点：超快分析——500 G 左右的固态硬盘只需 10 秒不到；多种视图——包括框图可视化、文件夹占比排序、文件类型占比排序等；实时响应——你删了什么东西它马上就知道，并给你标出来。但美中不足的是，它的免费版右上角有个「捐助请求」，只有捐点钱才能去掉。
 
-![WizTree 分析结果](tools-software/WizTree.png)
+![WizTree 分析结果](tools-software/WizTree.png?updated=20251116)
 
 ### Everything
 

@@ -148,19 +148,19 @@ Beginning dump of physical memory.
 
 打开 Microsoft Store，也就是微软应用商店，在上面搜索「WinDbg」，跳出来的第一个应用就会是它，点击【获取】，等待一会，就安装好了。如果不想在 Microsoft Store 安装，也可以去微软提供的 [WinDbg 官方页面](https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/) 下载。
 
-![在 Microsoft Store 中搜索 WinDbg](recover-from-bsod/WinDbg.png)
+![在 Microsoft Store 中搜索 WinDbg](recover-from-bsod/WinDbg.png?updated=20251116)
 
 安装好之后，电脑上的蓝屏内存转储文件就能直接双击打开了。转到之前设置转储选项时看到的内存转储路径中，打开最近一次蓝屏的转储文件，你大概会看到这样的界面：
 
-![WinDbg 打开转储文件](recover-from-bsod/WinDbg-1.png)
+![WinDbg 打开转储文件](recover-from-bsod/WinDbg-1.png?updated=20251116)
 
 其中偏下方的位置有用醒目的蓝色写出的 `!analyze -v`，结合它旁边的说明就能知道，**运行这个命令就可以分析转储文件**。WinDbg 也很方便，**点击这里的蓝色文字就可以运行命令**。在命令执行过程中，左侧中下部的状态会显示 `*BUSY*`，同时最下方会显示正在从服务器下载哪些所需的文件。这时可以喝杯茶，等待分析过程完成。
 
-![WinDbg 分析转储文件](recover-from-bsod/WinDbg-2.png)
+![WinDbg 分析转储文件](recover-from-bsod/WinDbg-2.png?updated=20251116)
 
 分析完毕之后，你会发现出来了一大堆令人眼花缭乱头晕目眩的分析结果，这些结果都是以灰色背景显示的。
 
-![WinDbg 分析结果](recover-from-bsod/WinDbg-3.png)
+![WinDbg 分析结果](recover-from-bsod/WinDbg-3.png?updated=20251116)
 
 但是不要紧张，在里面**找到以 `PROCESS_NAME`、`MODULE_NAME` 与 `IMAGE_NAME` 开头的几行**。这几行正是与此次蓝屏相关的进程。在这个例子中，这几行分别是
 
@@ -191,7 +191,7 @@ IMAGE_NAME:  ntkrnlmp.exe
 2. 点击【高级系统设置】，弹出「系统属性」窗口；
 3. 在「系统属性」窗口中点击【高级】→「启动和故障恢复」下的【设置】，就可以看到「写入调试信息」部分有内存转储的相关设置。
 
-![设置转储方式](recover-from-bsod/Dump_Settings.png)
+![设置转储方式](recover-from-bsod/Dump_Settings.png?updated=20251116)
 
 可见，内存转储的类型有五种，除去「小内存转储」默认保存在 `%SystemRoot%\Minidump` 文件夹下以外，其余选项默认均会生成一个路径为 `%SystemRoot%\MEMORY.DMP` 的文件。这些路径中的「`%SystemRoot%`」是一个「环境变量」，它指的是电脑上 Windows 系统所在的目录，即 `C:\Windows`（应该不会有人大动干戈把系统移到别处去吧）。五种内存转储类型的特征大致是这样的：
 
