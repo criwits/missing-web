@@ -19,9 +19,6 @@ type: docs
 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 {{</hint>}}
 
-> 🎉 [<ruby>激<rp>（</rp><rt>gik1<rp>）</rp></ruby><ruby>情<rp>（</rp><rt>cing4<rp>）</rp></ruby><ruby>全<rp>（</rp><rt>cyun4<rp>）</rp></ruby><ruby>运<rp>（</rp><rt>wan6<rp>）</rp></ruby><ruby>会<rp>（</rp><rt>wui2<rp>）</rp></ruby>，<ruby>活<rp>（</rp><rt>wut6<rp>）</rp></ruby><ruby>力<rp>（</rp><rt>lik6<rp>）</rp></ruby><ruby>大<rp>（</rp><rt>daai6<rp>）</rp></ruby><ruby>湾<rp>（</rp><rt>waan1<rp>）</rp></ruby><ruby>区<rp>（</rp><rt>keoi1<rp>）</rp></ruby>](https://www.baygames.cn/)
->
-
 ## 目录
 
 《你缺失的那门计算机课》网页版目录如下，您可以点击各标题跳转到对应的章节。
