@@ -59,13 +59,13 @@ type: docs
 - 一个 `@` 符号，读作「at」，意思是「在」；
 - 收件人所在的邮件服务商的域名，比如网易 163 邮箱是 `163.com`，而 QQ 邮箱就是 `qq.com`。
 
-例如，Hans 在 `mymail.test` 网站上注册的电子邮箱地址就可以是 `hans@mymail.test`[^MailExample]；而 Windy 在 `wdp.test` 网站注册的邮箱地址就可以是 `windy@wdp.test`[^MailExample]。《你缺计课》则在自己的网站上搭建了自己的邮件服务，并使用邮箱地址 `missing@criwits.top` 来接收读者的反馈邮件。
+例如，Hans 在「我的邮箱网」（`mymail.test`）网站上注册的电子邮箱地址就可以是 `hans@mymail.test`[^MailExample]；而 Windy 在「Windy Palace」（`wdp.test`）网站注册的邮箱地址就可以是 `windy@wdp.test`[^MailExample]。《你缺计课》则在自己的网站上搭建了自己的邮件服务，并使用邮箱地址 `missing@criwits.top` 来接收读者的反馈邮件。
 
 全世界有无数正在运营的电子邮件服务商，每个服务商都有自己的用户，它们之间使用「互联网电子邮件协议」来传输用户的邮件。以上面的邮箱地址为例，假定 Hans（`hans@mymail.test`） 要给 Windy 发邮件，他知道 Windy 的邮箱是 `windy@wdp.test`，于是他写好邮件后，在收件地址上写上 Windy 的邮箱名字，点击「发送」。这封邮件就走上了这样的路途：
 
-1. `mymail.test` 邮箱的服务器将 Hans 写好的邮件装入「电子信封」，填写好发送时间、邮件大小、收件人、收件服务器等信息；
-2. `mymail.test` 邮箱的服务器使用一种邮件协议，将封好的电子邮件发送给 `wdp.test` 邮箱的服务器；
-3. `wdp.test` 邮箱的服务器将信封拆开，取出邮件本体，并提示 Windy「收到新邮件」。
+1. 「我的邮箱网」的服务器将 Hans 写好的邮件装入「电子信封」，填写好发送时间、邮件大小、收件人、收件服务器等信息；
+2. 「我的邮箱网」的服务器使用一种邮件协议，将封好的电子邮件发送给「Windy Palace」的服务器；
+3. 「Windy Palace」的服务器将信封拆开，取出邮件本体，并提示 Windy「收到新邮件」。
 
 [^MailExample]: 你是不是想给这里展示的邮箱发邮件呀？可惜这些邮箱都是编出来的例子。
 
@@ -73,7 +73,7 @@ type: docs
 
 这个过程如下图所示，看起来与之前展示的「送信」过程大同小异，这或许就是为什么电子邮件要叫「电子邮件」吧。
 
-![电子邮件的发送流程](mail-and-instant-messaging/E_mail.png?updated=20251113#center)
+![电子邮件的发送流程](mail-and-instant-messaging/E_mail.png?updated=20251224#center)
 
 ### 初试电子邮箱
 

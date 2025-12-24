@@ -63,6 +63,12 @@ type: docs
    图片下载自《[情感的容器　被寄托了的QQ2010视觉设计](http://cdc.tencent.com/?p=2200)》（[页面存档](https://web.archive.org/web/20140816090252/http://cdc.tencent.com/?p=2200)）。<br>
    © 猕猴桃和 Tencent CDC。
 
+## 万言皆数：字符与编码规则
+
+1. Unicode 联盟徽标<br>
+   原图下载自网页「[About Unicode](https://unicode.org/about.html)」。<br>
+   © Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.<br>
+
 ## 从加减乘除到 AI 对话
 
 1. NVIDIA V100 计算卡<br>

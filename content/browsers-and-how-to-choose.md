@@ -77,9 +77,9 @@ Chrome 浏览器诞生不久就开始迅猛发展并占领市场。这有着多�
 
 ![360 极速浏览器官网](browsers-and-how-to-choose/360_ee.png#center)
 
-再比如说，QQ 浏览器的「关于」页面中就写明了此版本浏览器所依赖的 Chrome 内核版本，呃，以及 IE 内核版本 ~~（不过现在 Chromium 都版本 120+ 了你怎么还在用 94 啊？）~~：
+再比如说，QQ 浏览器的「关于」页面中就写明了此版本浏览器所依赖的 Chrome 内核版本，呃，以及 IE 内核版本 ~~（不过现在 Chromium 都版本 140+ 了你怎么还在用 116 啊？）~~：
 
-![QQ 浏览器的「关于」页面](browsers-and-how-to-choose/QQ_Browser.png#center)
+![QQ 浏览器的「关于」页面](browsers-and-how-to-choose/QQ_Browser.png?updated=20251224#center)
 
 就连微软——又是你微软——也在最后走上了套壳 Chromium 的道路。先回头看看 IE 浏览器，它自 2013 年的 IE 11 以来就没有再更新过大版本。倒是在 2015 年前后，微软发布了一款新的浏览器「Edge」，彼时的 Edge 还是在 IE 的基础上开发的，可以算是 IE 的正统后继者——连 IE 的缺点也一并后继了。于是之后几年，Edge 一直不温不火，尽管它和 Windows 10 捆绑，但市场占有率一直比较低迷。~~毕竟 IE 的底子实在太差，那几年的 Edge 只能说稍微比过去的 IE 好那么一丁点。~~
 

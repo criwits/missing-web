@@ -13,7 +13,7 @@ type: docs
 <br>
 拙著未曾期付梓，闻清华有佳音。<br>
 推敲细葺始成今。<br>
-倘能启寸益，欣然泪沾襟。<br>
+倘能启寸益，喜悦泪沾襟。<br>
 </p>
 
 <p style="text-align: end">Hans<br>2025/4/18

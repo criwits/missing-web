@@ -19,6 +19,8 @@ type: docs
 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 {{</hint>}}
 
+> 📢 携手迈入新的一年！
+
 ## 目录
 
 《你缺失的那门计算机课》网页版目录如下，您可以点击各标题跳转到对应的章节。
@@ -96,11 +98,11 @@ type: docs
 
 {{< commit_info >}}
 
+- Almost there: 调整了一些在纸书编辑加工过程中发现的不佳片段 (25/12/24)
 - Content update: 增加禁用 Windows 搜索联网功能的操作说明 (25/10/17)
 - Experience update: 现在点击图片可以放大查看了 (25/9/30)
 - More more patches again: 各种小修改，主要是微调表述、补充说明和改正错别字 (25/9/24)
 - Publishing news: 更新出版动态 (25/8/23)
-- More more patches: 又修了一堆小地方 (25/7/19)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明

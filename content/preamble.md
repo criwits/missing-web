@@ -19,4 +19,4 @@ type: docs
 
 在这趟旅程中，本书会简称自己为「《你缺计课》」或者「本书」。《你缺失的那门计算机课》的起名致敬了麻省理工大学的在线课程《[计算机教育中缺失的一课 (The Missing Semester of Your CS Education)](https://missing.csail.mit.edu/)》。受限于作者的知识水平，文中难免会有用词不当甚至错漏的知识，望各位多多海涵，批评指正。
 
-<p style="text-align: end">Hans 和 Windy<br>2024 年 12 月
+<p style="text-align: end">Hans 和 Windy<br>2024 年 12 月</p>
