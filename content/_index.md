@@ -19,7 +19,7 @@ type: docs
 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
 {{</hint>}}
 
-> 📢 携手迈入新的一年！
+> 📢 [携手迈入新的一年！](https://tv.cctv.com/2025/12/31/VIDEHOlDrLTPrfK2K06cPtrp251231.shtml)
 
 ## 目录
 
