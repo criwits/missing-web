@@ -112,6 +112,10 @@ Office 这种软件自然免不了被盗版的命运。但是除了常规的盗�
 
 ![卡巴斯基在扫描某「三合一精简版」Office 安装包后弹出的警告](office-and-wps/Kaspersky_blocks_pirate_Office.png#center)
 
+值得注意的是，近年来，微软在中国内地市场推出了一款名为「OfficePLUS」的 Office 插件，提供诸如模板库、图片库、论文查重、PPT 制作助手等功能。该插件的部分功能需要付费开通会员，如下图所示。**此处开通的「OfficePLUS 会员」只能用于解锁该插件的部分功能，不是购买 Office 软件本身**。即使你不开通此会员，你也可以正常使用 Office 软件本身的全部功能。如果你不需要这款插件，可以在系统设置中将其卸载。
+
+![OfficePLUS 会员](office-and-wps/OfficePLUS_Pay.png#center?updated=20260206)
+
 ### 「网页版」 Office
 
 ![网页版 Office 入口](office-and-wps/Fake_Office.png#floatright)
