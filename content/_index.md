@@ -96,11 +96,11 @@ type: docs
 
 {{< commit_info >}}
 
+- Content update:「电脑组成」章增加对超线程和「i9 级」CPU 的介绍 (26/2/7)
 - Almost there: 调整了一些在纸书编辑加工过程中发现的不佳片段 (25/12/24)
 - Content update: 增加禁用 Windows 搜索联网功能的操作说明 (25/10/17)
 - Experience update: 现在点击图片可以放大查看了 (25/9/30)
 - More more patches again: 各种小修改，主要是微调表述、补充说明和改正错别字 (25/9/24)
-- Publishing news: 更新出版动态 (25/8/23)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明
