@@ -13,7 +13,7 @@ type: docs
 
 这也是一份面向今日与未来的信息时代指南。它立足当下，探索变革，讲述了当今热门的生成式 AI、网络安全、物联网与云计算等前沿技术的概念、原理和应用，能够引导读者立于数字化时代的潮头，把握科技发展的方向。
 
-零门槛、易理解、有深度，与时俱进、开放共享——这是《你缺失的那门计算机课》不断追求的目标，也是我们努力的方向。
+零门槛、易理解、有深度，与时俱进、开放共享——自 2021 年诞生以来，这始终是《你缺失的那门计算机课》不断追求的目标，也是我们持之以恒努力的方向。
 
 {{<hint warning>}}
 🎉 本书纸质版将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待！
@@ -122,9 +122,9 @@ type: docs
 - 全站页面浏览量（PV）：<span id="busuanzi_value_site_pv">统计中</span>
 - 全站独立访客数（UV）：<span id="busuanzi_value_site_uv">统计中</span>
 
-以上统计信息由 [Vercount](https://cn.vercount.one/) 提供。
+以上数据由 [Vercount](https://cn.vercount.one/) 提供。
 
-自 2022 年以来，《你缺失的那门计算机课》网页版 GitHub 仓库的 Star 数变化如下图所示：
+自 2021 年 12 月 26 日以来，《你缺失的那门计算机课》网页版 GitHub 仓库的 Star 数变化如下图所示：
 
 <img src="https://api.star-history.com/svg?repos=criwits/missing-web&amp;type=Date" alt="GitHub Star 统计图暂无法加载" loading="lazy">
 

@@ -12,7 +12,7 @@
 
 这也是一份面向今日与未来的信息时代指南。它立足当下，探索变革，讲述了当今热门的 [生成式 AI](https://www.criwits.top/missing/bring-intelligence-to-machines.html)、[网络安全](https://www.criwits.top/missing/introduction-to-cryptology.html)、[物联网与云计算](https://www.criwits.top/missing/cloud-computing-and-iot.html) 等前沿技术的概念、原理和应用，能够引导读者立于数字化时代的潮头，把握科技发展的方向。
 
-零门槛、易理解、有深度，与时俱进、开放共享——这是《你缺失的那门计算机课》不断追求的目标，也是我们努力的方向。
+零门槛、易理解、有深度，与时俱进、开放共享——自 2021 年诞生以来，这始终是《你缺失的那门计算机课》不断追求的目标，也是我们持之以恒努力的方向。
 
 **本书纸质版预计于 ~~2025 年末~~ 2026 年初由清华大学出版社出版，敬请期待！**~~（对，鸽了！）~~
 
@@ -51,7 +51,7 @@
 
 ## GitHub Star 数历史
 
-自 2022 年以来，本仓库的 Star 数变化如下图所示：
+自诞生以来，本仓库的 Star 数变化如下图所示：
 
 ![GitHub Star 数历史](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
 
