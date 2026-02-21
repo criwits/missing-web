@@ -39,7 +39,7 @@
 
 ## 著作权与许可
 
-《你缺失的那门计算机课》网页版 · 版权所有 © 2021–2025 Hans Wan 和 Windy Deng。
+《你缺失的那门计算机课》网页版 · 版权所有 © 2021–2026 Hans Wan 和 Windy Deng。
 
 本作品中的所有原创内容及设计整体，除非特别说明，均以 [知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议授权。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。请参阅 [二次创作指南](https://www.criwits.top/missing/adapt-guide.html) 了解更多信息。
 
