@@ -67,7 +67,7 @@ type: docs
 
 ![在搜索引擎中搜索「Steam 下载」的结果](software-installation/Ads_in_search_engine_2.png#center)
 
-作为一款国外平台，图中 ➊、➋、➍ 和 ➐ 的由国内公司提供的内容显然都不可能是官网。而对于 ➌ 和 ➎，虽然它们看起来好像是 Steam 官方网站，但请注意它们的介绍中都含有「手机版」字样，而 Steam 是用来购买电脑游戏的平台（不过 Steam 确实有手机版，用于在手机上浏览和购买游戏等），同时这两个结果的域名也并非 Steam 官方的 `steampowered.com`。事实上，只有 ➏ 所对应的 `store.steampowered.com` 网址，才是 Steam 真正的官网。
+作为一款国外平台，图中 ➊、➋、➍ 和 ➐ 的由国内公司提供的内容显然都不可能是官网。而对于 ➌、➎ 和 ➑，虽然它们看起来好像是 Steam 官方网站，但请注意它们的介绍中都含有「手机版」字样，而 Steam 是用来购买电脑游戏的平台（不过 Steam 确实有手机版，用于在手机上浏览和购买游戏等），同时这两个结果的域名也并非 Steam 官方的 `steampowered.com`。事实上，只有 ➏ 所对应的 `store.steampowered.com` 网址，才是 Steam 真正的官网。
 
 再以著名的开源录屏与直播软件 OBS Studio（简称 OBS）为例。我们搜索「OBS 下载」，会得到下面的搜索结果：
 
