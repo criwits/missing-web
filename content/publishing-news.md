@@ -13,6 +13,8 @@ type: docs
 
 ![封面候选](misc/Cover_Comparison.png#center)
 
+<p style="text-align: end">Hans<br>2026/5/8</p>
+
 ---
 
 目前，《你缺失的那门计算机课》纸质版已经由出版社完成一校，当前二校进行中，预计下月正式出版。近期纸质版封面将会出炉，欢迎各位读者朋友加入 QQ 交流群（1050412745）了解更多！

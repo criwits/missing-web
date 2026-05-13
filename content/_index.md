@@ -7,7 +7,7 @@ type: docs
 
 ---
 
-![《你缺失的那门计算机课》Logo](misc/missing_logo.svg#floatright)
+![《你缺失的那门计算机课》网页版标志](misc/missing_logo.svg#floatright)
 
 这是一份适合电脑小白入门的电脑使用课程。它平易近人，娓娓道来，介绍了从基本的文件管理，到软件的寻找安装，再到各类使用技巧与优良软件推荐的许多内容，旨在帮助读者在信息化时代更灵活地使用电脑。
 
@@ -16,7 +16,7 @@ type: docs
 零门槛、易理解、有深度，与时俱进、开放共享——自 2021 年诞生以来，这始终是《你缺失的那门计算机课》不断追求的目标，也是我们持之以恒努力的方向。
 
 {{<hint warning>}}
-🎉 本书纸质版即将由 [清华大学出版社](https://www.tup.com.cn/) 出版，[封面投票中]({{<relref "publishing-news.md">}})！ 
+🎉 本书纸质版预计 2026 年 5 月底由 [清华大学出版社](https://www.tup.com.cn/) 正式出版，当前正在 [征集封面设计意见]({{<relref "publishing-news.md">}})，欢迎大家提出自己的建议！
 {{</hint>}}
 
 ## 目录
@@ -69,19 +69,20 @@ type: docs
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
 - 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待（[出版动态]({{<relref "publishing-news.md">}})）
-- 开源 PDF 版（25/3/13 更新，版本 2.0）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
+- 开源 PDF 版（**25/3/13 更新，版本 2.0**，请注意更新时间）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
 请注意，开源 PDF 版本的更新不如网页版频繁，可能与网页版内容存在差异。若您想要查看网页版和开源 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
 
 ## 反馈与交流
 
+我们十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
+
 若您对本作品有任何意见或建议，都可以发至电子邮箱 [missing@criwits.top](mailto:missing@criwits.top)。大家的来信都会回复，但可能需要一些时间。此外，您还可以点 [这里](https://qm.qq.com/cgi-bin/qm/qr?k=pmHnhzpVQgsm2ftYGmtI7h9vgYxBvF7k&jump_from=webapi&authKey=BQA8sXIDDaV0UklabaFcBJRzNO4NYrYlcLgmPgo55cPaPMY74c+11Jrv8BzNoUFc) 或扫描下方二维码，加入我们的交流 QQ 群。欢迎大家加群来玩！
 
 ![QQ 群二维码](misc/QQ_group.svg?updated=20251015#center)
 
-> 我们十分期望得到读者的建议和意见。无论是对编写方向有好的建议，还是发现了叙述不正确或不严谨的地方，亦或是找到了一个错别字，都请向我们反馈哦！
->
+> 「交流群」「直流群」为各交流 QQ 群的「戏称」，您可以选择任一群聊加入。由于 QQ 群聊人数存在上限，若某一群聊人数已满，我们将无法同意您的入群申请，请您选择其他群聊加入。
 
 ## 作者
 
