@@ -34,10 +34,12 @@ def update_front_matter(file_path: str):
     text = path.read_text(encoding="utf-8")
 
     # 使用正则匹配 front matter
-    pattern = re.compile(r"^---\s*\ntitle:\s*首页\s*\ntype:\s*docs\s*\n---", re.MULTILINE)
+    # pattern = re.compile(r"^---\s*\ntitle:\s*首页\s*\ntype:\s*docs\s*\n---", re.MULTILINE)
+    pattern = re.compile(r"^---\s*\ntitle:\s*首页\s*\ntype:\s*docs\s*\nchapter:\s*-2\s*\n---", re.MULTILINE)
     replacement = """---
 title: 首页
 type: docs
+chapter: -2
 cascade:
   build:
     publishResources: false
