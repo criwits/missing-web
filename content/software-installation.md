@@ -1,6 +1,7 @@
 ---
 title: 软件的寻找与安装
 type: docs
+chapter: 3
 ---
 
 # 软件的寻找与安装

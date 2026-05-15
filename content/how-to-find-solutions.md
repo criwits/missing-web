@@ -1,6 +1,7 @@
 ---
 title: 遇到问题怎么办
 type: docs
+chapter: 5
 ---
 
 # 遇到问题怎么办

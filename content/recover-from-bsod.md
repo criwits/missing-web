@@ -1,6 +1,7 @@
 ---
 title: 蓝屏与解决蓝屏
 type: docs
+chapter: 15
 ---
 
 # 蓝屏与解决蓝屏

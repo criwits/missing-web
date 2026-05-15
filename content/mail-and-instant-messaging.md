@@ -1,6 +1,7 @@
 ---
 title: 电子邮件与即时通信
 type: docs
+chapter: 9
 ---
 
 # 电子邮件与即时通信

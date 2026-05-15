@@ -1,6 +1,7 @@
 ---
 title: 怎样寻找优质的教程
 type: docs
+chapter: 12
 ---
 
 # 怎样寻找优质的教程

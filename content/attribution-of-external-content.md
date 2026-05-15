@@ -1,6 +1,7 @@
 ---
 title: 借物表
 type: docs
+chapter: 27
 ---
 
 # 借物表

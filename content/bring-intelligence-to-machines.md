@@ -1,6 +1,7 @@
 ---
 title: 从加减乘除到 AI 对话
 type: docs
+chapter: 19
 ---
 
 # 从加减乘除到 AI 对话

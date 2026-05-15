@@ -1,6 +1,7 @@
 ---
 title: 显示器的二三事
 type: docs
+chapter: 13
 ---
 
 # 显示器的二三事

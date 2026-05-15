@@ -1,6 +1,7 @@
 ---
 title: Office 和 WPS——办公样样行
 type: docs
+chapter: 7
 ---
 
 # Office 和 WPS——办公样样行

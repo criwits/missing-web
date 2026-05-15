@@ -1,0 +1,51 @@
+{{/*
+  Prev / Next chapter navigation
+  Expects a numeric front-matter parameter named `chapter`, `chapter_id`, or `chap`.
+  Shows links to previous/next pages within the same section.
+*/}}
+{{ $ctx := . }}
+{{ $paramNames := (slice "chapter" "chapter_id" "chap") }}
+
+{{ $pages := slice }}
+{{ range $p := .Site.RegularPages }}
+  {{ if and (eq $p.Section $ctx.Section) (or (isset $p.Params "chapter") (isset $p.Params "chapter_id") (isset $p.Params "chap")) }}
+    {{ $pages = $pages | append $p }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $pages) 0 }}
+  {{ $pages = sort $pages "Params.chapter" "asc" }}
+
+  {{ $index := -1 }}
+  {{ range $i, $p := $pages }}
+    {{ if eq $p.RelPermalink $ctx.RelPermalink }}
+      {{ $index = $i }}
+    {{ end }}
+  {{ end }}
+
+  {{ if ge $index 0 }}
+    {{ $len := len $pages }}
+
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      {{ if gt $index 0 }}
+        {{ $prev := index $pages (sub $index 1) }}
+        <a class="chapter-nav-item chapter-prev" href="{{ $prev.RelPermalink }}">
+          <span class="chapter-nav-label">上一章</span>
+          <span class="chapter-nav-title">{{ $prev.Title }}</span>
+        </a>
+      {{ else }}
+        <div class="chapter-nav-item chapter-prev disabled" aria-hidden="true"></div>
+      {{ end }}
+
+      {{ if lt $index (sub $len 1) }}
+        {{ $next := index $pages (add $index 1) }}
+        <a class="chapter-nav-item chapter-next" href="{{ $next.RelPermalink }}">
+          <span class="chapter-nav-label">下一章</span>
+          <span class="chapter-nav-title">{{ $next.Title }}</span>
+        </a>
+      {{ else }}
+        <div class="chapter-nav-item chapter-next disabled" aria-hidden="true"></div>
+      {{ end }}
+    </nav>
+  {{ end }}
+{{ end }}

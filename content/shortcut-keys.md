@@ -1,6 +1,7 @@
 ---
 title: 那些好用的键盘快捷键
 type: docs
+chapter: 6
 ---
 
 # 那些好用的键盘快捷键

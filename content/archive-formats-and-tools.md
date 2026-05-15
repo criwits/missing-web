@@ -1,6 +1,7 @@
 ---
 title: 压缩文件与压缩工具
 type: docs
+chapter: 10
 ---
 
 # 压缩文件与压缩工具

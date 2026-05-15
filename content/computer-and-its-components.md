@@ -1,6 +1,7 @@
 ---
 title: 认识你的电脑
 type: docs
+chapter: 1
 ---
 
 # 认识你的电脑

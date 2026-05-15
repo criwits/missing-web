@@ -1,6 +1,7 @@
 ---
 title: 二次创作指南
 type: docs
+chapter: 25
 ---
 
 # 二次创作指南

@@ -1,6 +1,7 @@
 ---
 title: Windows 11 修整指南
 type: docs
+chapter: 18
 ---
 
 # Windows 11 修整指南
