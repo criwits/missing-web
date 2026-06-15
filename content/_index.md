@@ -17,7 +17,13 @@ chapter: -2
 零门槛、易理解、有深度，与时俱进、开放共享——自 2021 年诞生以来，这始终是《你缺失的那门计算机课》不断追求的目标，也是我们持之以恒努力的方向。
 
 {{<hint warning>}}
-🎉 本书纸质版预计近日（2026 年 6 月）由 [清华大学出版社](https://www.tup.com.cn/) 正式出版上市。来看看我们的 [宣传视频](https://www.bilibili.com/video/BV1xuEd6JEbb)！
+🎉 本书纸质版已由清华大学出版社正式出版上市，点击 [此处]({{<relref "buy-paper-book.md">}}) 前往购买！多谢大家的支持与等待。
+
+📢 **6 月 17 日（星期三）晚上 19:00 前往清华大学出版社抖音/小红书/视频号直播间**，观看《你缺计课》专题直播，与我们互动的同时，可享直播间福利价！详见 [此处]({{<relref "publishing-news.md">}})。
+
+<a data-fancybox data-src="https://static.criwits.top/images/misc/Live_poster.jpg#center">
+<img src="https://static.criwits.top/images/misc/Live_poster.jpg#center" alt="直播海报" style="max-width:400px;width:100%;height:auto;">
+</a>
 {{</hint>}}
 
 ## 目录
@@ -69,8 +75,8 @@ chapter: -2
 ## 本作品的各种版本
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
-- 纸质版：将由 [清华大学出版社](https://www.tup.com.cn/) 出版，敬请期待（[出版动态]({{<relref "publishing-news.md">}})）
-- 开源 PDF 版（**25/3/13 更新，版本 2.0**，请注意更新时间）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
+- 纸质版：已由 [清华大学出版社](https://www.tup.com.cn/) 出版，[购买渠道]({{<relref "buy-paper-book.md">}})（[出版动态]({{<relref "publishing-news.md">}})）
+- 开源 PDF 版（25/3/13 更新，版本 2.0，**请注意更新时间**）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
 请注意，开源 PDF 版本的更新不如网页版频繁，可能与网页版内容存在差异。若您想要查看网页版和开源 PDF 版本的源代码，可以访问它们的 GitHub 仓库。
@@ -111,7 +117,7 @@ chapter: -2
 
 ![CC BY-NC-SA 标志](misc/CC_sign.svg#floatright)
 
-《你缺失的那门计算机课》网页版（下称「本作品」）中的所有原创内容及设计整体，除非特别说明，均以 [知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议授权。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。请参阅 [二次创作指南]({{<relref "adapt-guide.md">}}) 了解更多信息。
+《你缺失的那门计算机课》网页版（下称「本作品」）中的所有原创内容及设计整体，除非特别说明，均以 [知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) 协议授权。您可以在协议允许的范围内自由地分享、复制本作品的内容及基于本作品内容进行创作，但必须注明原作者和链接，并且不得用于任何商业目的。请参阅 [二次创作指南]({{<relref "adapt-guide.md">}}) 了解更多信息。
 
 本作品所有内容「按原样」提供，并且不含有任何明示或者暗示的担保。我们不保证本作品中任何部分的绝对正确。若您认为本文中叙述的内容与您从其他地方看到的不同甚至相悖，请遵循您自己的判断。本作品所涉及的知识和操作均基于 Windows 操作系统。如果您使用其他操作系统，本作品中的内容可能不适用。
 
