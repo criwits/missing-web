@@ -17,13 +17,7 @@ chapter: -2
 零门槛、易理解、有深度，与时俱进、开放共享——自 2021 年诞生以来，这始终是《你缺失的那门计算机课》不断追求的目标，也是我们持之以恒努力的方向。
 
 {{<hint warning>}}
-🎉 本书纸质版已由清华大学出版社正式出版上市，点击 [此处]({{<relref "buy-paper-book.md">}}) 前往购买！多谢大家的支持与等待。
-
-📢 **6 月 17 日（星期三）晚上 19:00 前往清华大学出版社抖音/小红书/视频号直播间**，观看《你缺计课》专题直播，与我们互动的同时，可享直播间福利价！详见 [此处]({{<relref "publishing-news.md">}})。
-
-<a data-fancybox data-src="https://static.criwits.top/images/misc/Live_poster.jpg#center">
-<img src="https://static.criwits.top/images/misc/Live_poster.jpg#center" alt="直播海报" style="max-width:400px;width:100%;height:auto;">
-</a>
+🎉 本书纸质版已由清华大学出版社正式出版上市，点击 [此处]({{<relref "_index.md#本作品的各种版本">}}) 查看购买方式。多谢大家的支持与等待！
 {{</hint>}}
 
 ## 目录
@@ -75,7 +69,10 @@ chapter: -2
 ## 本作品的各种版本
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
-- 纸质版：已由 [清华大学出版社](https://www.tup.com.cn/) 出版，[购买渠道]({{<relref "buy-paper-book.md">}})（[出版动态]({{<relref "publishing-news.md">}})）
+- 纸质版：已由 [清华大学出版社](https://www.tup.com.cn/) 出版，目前已上架 [抖音](https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3825169060937728257)、[小红书](https://www.xiaohongshu.com/goods-detail/6a2b6d51963c4c0001e83caf) 和 [微信小店](https://store.weixin.qq.com/shop/a/xmzBDoYpZPSxUke) 三个新媒体平台。若您想要购买，可以点击前面的链接或扫描下图中各平台二维码直达商品页面。
+
+![抖音、小红书、微信小店平台购买链接二维码](misc/Paper_book_links.png#center)
+
 - 开源 PDF 版（25/3/13 更新，版本 2.0，**请注意更新时间**）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
 
