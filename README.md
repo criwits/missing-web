@@ -6,6 +6,8 @@
 
 这是 [《你缺失的那门计算机课》网页版](https://www.criwits.top/missing)（下称「本作品」）的源码仓库。本作品使用 [Hugo](https://gohugo.io/) 生成静态网页，使用修改过的 [Book](https://themes.gohugo.io/themes/hugo-book/) 主题。另有 [开源 PDF 版](https://github.com/criwits/missing-pdf)。
 
+**本书纸质版已由清华大学出版社出版上市，点击 [此处](http://www.criwits.top/missing/buy-paper-book.html) 前往购买！**
+
 ## 作品简介
 
 这是一份适合电脑小白入门的电脑使用课程。它平易近人，娓娓道来，介绍了从 [基本的文件管理](https://www.criwits.top/missing/file-and-file-management.html)，到 [软件的寻找安装](https://www.criwits.top/missing/software-installation.html)，再到 [各类使用技巧](https://www.criwits.top/missing/windows-11-optimization.html) 与 [优良软件推荐](https://www.criwits.top/missing/tools-software.html) 的许多内容，旨在帮助读者在信息化时代更灵活地使用电脑。
@@ -13,8 +15,6 @@
 这也是一份面向今日与未来的信息时代指南。它立足当下，探索变革，讲述了当今热门的 [生成式 AI](https://www.criwits.top/missing/bring-intelligence-to-machines.html)、[网络安全](https://www.criwits.top/missing/introduction-to-cryptology.html)、[物联网与云计算](https://www.criwits.top/missing/cloud-computing-and-iot.html) 等前沿技术的概念、原理和应用，能够引导读者立于数字化时代的潮头，把握科技发展的方向。
 
 零门槛、易理解、有深度，与时俱进、开放共享——自 2021 年诞生以来，这始终是《你缺失的那门计算机课》不断追求的目标，也是我们持之以恒努力的方向。
-
-**本书纸质版已由清华大学出版社出版上市，点击 [此处](http://www.criwits.top/missing/buy-paper-book.html) 前往购买！**
 
 ## 如何使用
 
@@ -28,14 +28,12 @@
 
 如果您对本作品内容有任何意见、建议，或发现本书中的错误，请优先发送邮件到 [missing@criwits.top](mailto:missing@criwits.top)。您也可以在本仓库中提交议题（issue）。
 
-现阶段，由于稿件仍然在为正式出版而编修中，为了控制文章的质量和行文风格，**我们暂时无法接受直接针对正文、图片部分（位于 `content` 目录下）的拉取请求（pull request），请您谅解**。这些拉取请求会被自动关闭。
-
-如果您发现作品网页的使用体验存在问题，除了向我们提出外，您还可以在本仓库中发起拉取请求。当您在提交（commit）时，请注意提交规范：
+如果您想直接对本书内容进行补充或修改，或是发现作品网页的使用体验存在问题，除了向我们提出外，您还可以在本仓库中发起拉取请求。当您在提交（commit）时，请注意提交规范：
 
 - 一次提交请尽量只做一件事；
 - 请使用中文撰写提交消息，以动词开头，末尾不带标点符号；
 - 撰写提交消息时，请手动在汉字和西文间留一个空格；
-- 请不要修改 `content` 目录，否则对应的拉取请求会被自动关闭。
+- 当需要引入图片时，请注意潜在的权利问题。
 
 ## 著作权与许可
 
