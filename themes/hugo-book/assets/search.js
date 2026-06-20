@@ -11,7 +11,7 @@
 
   if (!input || !resultsPanel || !resultsInner) return;
 
-  const SNIPPET_RADIUS = 80;    // chars around match
+  const SNIPPET_RADIUS = 40;    // chars around match
   const MAX_RESULTS = 10;       // max results to show
 
   let activeIndex = -1;
@@ -115,7 +115,7 @@
     const terms = tokenizeQuery(query);
     const results = [];
 
-    for (let i = 0; i < Math.min(rawHits.length, MAX_RESULTS); i++) {
+    for (let i = 0; i < Math.min(rawHits.length, MAX_RESULTS * 2); i++) {
       const hit = rawHits[i];
       const id = hit.id;
       const page = store[id];
@@ -128,11 +128,21 @@
         title: page.title,
         section: page.section,
         snippet: snippet,
-        allTerms: terms
+        allTerms: terms,
+        chapter: page.chapter
       });
     }
 
-    return results;
+    // Sort by chapter number ascending, pages without chapter go last
+    results.sort(function (a, b) {
+      var ca = a.chapter, cb = b.chapter;
+      // Treat undefined/null as large number
+      if (ca == null) ca = 9999;
+      if (cb == null) cb = 9999;
+      return ca - cb;
+    });
+
+    return results.slice(0, MAX_RESULTS);
   }
 
   function tokenizeQuery(query) {

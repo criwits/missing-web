@@ -35,7 +35,8 @@
     'href': '{{ $page.RelPermalink }}',
     'title': {{ (partial "docs/title" $page) | jsonify }},
     'section': {{ (partial "docs/title" $page.Parent) | jsonify }},
-    'content': {{ $page.Plain | jsonify }}
+    'content': {{ $page.Plain | jsonify }},
+    'chapter': {{ with $page.Params.chapter }}{{ . }}{{ else }}9999{{ end }}
   };
   {{- end -}}
 })();
