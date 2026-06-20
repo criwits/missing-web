@@ -1,0 +1,17 @@
+{{ if default true .Site.Params.BookSearch }}
+<div class="book-search">
+  <input
+    type="text"
+    id="book-search-input"
+    placeholder="{{ i18n "Search" }}"
+    aria-label="{{ i18n "Search" }}"
+    maxlength="64"
+    data-hotkeys="s/"
+    autocomplete="off"
+  />
+  <div class="book-search-spinner hidden"></div>
+  <div id="book-search-results" class="book-search-results" role="listbox" aria-label="{{ i18n "Search" }} results">
+    <div id="book-search-results-inner" class="book-search-results-inner"></div>
+  </div>
+</div>
+{{ end }}

@@ -26,4 +26,4 @@ params:
   description: 一份适合电脑小白入门的电脑使用课程，一份面向今日与未来的信息时代指南。
   BookTheme: "light"
   BookMenuBundle: /menu
-  BookSearch: false
+  BookSearch: true

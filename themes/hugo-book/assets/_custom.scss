@@ -174,6 +174,150 @@ rt {
     }
 }
 
+// ═══════════════════════════════════════════════════════════
+//  Search results panel
+// ═══════════════════════════════════════════════════════════
+
+.book-search {
+  position: relative;
+
+  input {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--color-link);
+    }
+  }
+
+  .book-search-spinner {
+    opacity: 0.4;
+    &.hidden {
+      display: none;
+    }
+  }
+}
+
+// ── Results dropdown ────────────────────────────────────
+
+.book-search-results {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  background: var(--body-background);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.08),
+    0 1px 4px rgba(0, 0, 0, 0.04);
+  max-height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &.visible {
+    display: block;
+    animation: searchFadeIn 0.15s ease-out;
+  }
+}
+
+.book-search-results-inner {
+  padding: 4px 0;
+}
+
+@keyframes searchFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// ── Individual result item ──────────────────────────────
+
+.book-search-result-item {
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: var(--body-font-color);
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: background 0.12s ease, border-color 0.12s ease;
+
+  &:hover,
+  &.active {
+    background: var(--gray-100);
+    border-left-color: var(--color-link);
+  }
+
+  & + & {
+    border-top: 1px solid var(--gray-100);
+  }
+}
+
+.book-search-result-title {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--body-font-color);
+  margin-bottom: 2px;
+}
+
+.book-search-result-section {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-link);
+  background: var(--gray-100);
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.book-search-result-snippet {
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--gray-500);
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  mark {
+    background: #fff3b0;
+    color: inherit;
+    padding: 1px 2px;
+    border-radius: 2px;
+    font-weight: 500;
+  }
+}
+
+// ── Empty / loading state ───────────────────────────────
+
+.book-search-result-empty {
+  padding: 24px 14px;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--gray-400);
+}
+
+// ── Scrollbar styling ───────────────────────────────────
+
+.book-search-results {
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--gray-300);
+    border-radius: 10px;
+  }
+}
+
 // Mobile hint and Auto Columns
 // Default case: no hint, wide columns
 
