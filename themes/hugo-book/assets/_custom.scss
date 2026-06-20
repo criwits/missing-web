@@ -175,11 +175,23 @@ rt {
 }
 
 // ═══════════════════════════════════════════════════════════
-//  Search results panel
+//  Sticky menu header (brand + search)
+// ═══════════════════════════════════════════════════════════
+
+.book-menu-header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: var(--body-background);
+}
+
+// ═══════════════════════════════════════════════════════════
+//  Search bar
 // ═══════════════════════════════════════════════════════════
 
 .book-search {
-  position: relative;
+  margin: 0;
+  padding: 0 0 8px;
 
   input {
     transition: border-color 0.2s ease, box-shadow 0.2s ease;

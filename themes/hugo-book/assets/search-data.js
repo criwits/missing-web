@@ -10,11 +10,14 @@
   indexCfg.doc = {
     id: 'id',
     field: ['title', 'content'],
-    store: ['title', 'href', 'section'],
+    store: ['id', 'title', 'href', 'section'],
   };
 
   const index = FlexSearch.create('balance', indexCfg);
   window.bookSearchIndex = index;
+
+  // Content store for snippet extraction
+  window.bookSearchStore = [];
 
   {{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
   {{- $pages = where $pages "Params.booksearchexclude" "!=" true -}}
@@ -28,5 +31,11 @@
     'section': {{ (partial "docs/title" $page.Parent) | jsonify }},
     'content': {{ $page.Plain | jsonify }}
   });
+  window.bookSearchStore[{{ $index }}] = {
+    'href': '{{ $page.RelPermalink }}',
+    'title': {{ (partial "docs/title" $page) | jsonify }},
+    'section': {{ (partial "docs/title" $page.Parent) | jsonify }},
+    'content': {{ $page.Plain | jsonify }}
+  };
   {{- end -}}
 })();
