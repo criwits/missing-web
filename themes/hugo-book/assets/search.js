@@ -239,14 +239,14 @@
 
       if (idx === 0) item.classList.add('active');
 
-      var sectionHTML = '';
-      if (hit.section) {
-        sectionHTML = '<span class="book-search-result-section">' + escapeHTML(hit.section) + '</span>';
-      }
+      // var sectionHTML = '';
+      // if (hit.section) {
+        // sectionHTML = '<span class="book-search-result-section">' + escapeHTML(hit.section) + '</span>';
+      // }
 
       item.innerHTML =
         '<span class="book-search-result-title">' + escapeHTML(hit.title) + '</span>' +
-        sectionHTML +
+        // sectionHTML +
         '<span class="book-search-result-snippet">' + hit.snippet + '</span>';
 
       item.addEventListener('click', function (e) {
