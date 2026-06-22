@@ -1,0 +1,15 @@
+{{ partial "docs/inject/toc-before" . }}
+{{ .TableOfContents }}
+{{ partial "docs/inject/toc-after" . }}
+
+<div class="book-theme-toggle">
+  <span class="book-theme-toggle-label">主题</span>
+  <div class="book-theme-toggle-buttons">
+    <button data-theme-value="light" title="浅色">☀️</button>
+    <button data-theme-value="auto" title="自动">⚙️</button>
+    <button data-theme-value="dark" title="深色">🌙</button>
+  </div>
+</div>
+
+{{- $themeToggle := resources.Get "theme-toggle.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $themeToggle.RelPermalink }}" integrity="{{ $themeToggle.Data.Integrity }}"></script>

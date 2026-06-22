@@ -24,12 +24,6 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 $mobile-warning-breakpoint-small: $mobile-breakpoint * 0.6 !default;
 $mobile-warning-breakpoint-large: $mobile-breakpoint * 1.2 !default;
 
-$hint-colors: (
-  quoting: #119,
-  info: #6bf,
-  warning: #ffc266,
-  danger: #f44,
-) !default;
 
 // Themes
 @mixin theme-light {
@@ -45,6 +39,12 @@ $hint-colors: (
   --body-font-color: black;
 
   --icon-filter: none;
+
+  --hint-block-quote: #f1f2f3;
+  --hint-quoting: #119;
+  --hint-info: #6bf;
+  --hint-warning: #ffc266;
+  --hint-danger: #f44;
 }
 
 @mixin theme-dark {
@@ -54,10 +54,24 @@ $hint-colors: (
   --gray-800: rgba(255, 255, 255, 0.8);
 
   --color-link: #62a4df;
-  --color-visited-link: #85c4fa;
+  --color-visited-link: hsl(231, 92%, 75%);
 
   --body-background: #343a40;
   --body-font-color: #e9ecef;
 
+  --hint-block-quote: rgba(255, 255, 255, 0.1);
+  --hint-quoting: #6cf;
+  --hint-info: #6bf;
+  --hint-warning: #ffc266;
+  --hint-danger: #f44;
+
   --icon-filter: brightness(0) invert(1);
 }
+
+$hint-colors: (
+  block-quote: var(--hint-block-quote, #f1f2f3),
+  quoting: var(--hint-quoting, #119),
+  info: var(--hint-info, #6bf),
+  warning: var(--hint-warning, #ffc266),
+  danger: var(--hint-danger, #f44)
+) !default;

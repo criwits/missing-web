@@ -13,35 +13,48 @@
 - id: No results found
   translation: 未找到匹配的结果
 
+- id: On this page
+  translation: 在本页中
+
+- id: In the book
+  translation: 在全书中
+
+- id: More
+  translation: 更多…
+
 - id: bookSearchConfig
   translation: |
     {
       encode: false,
       tokenize: function(str) {
         var tokens = [];
-        // ── CJK: bigrams + full word boost ──
-        //   "人工智能" → ["人工","工智","智能","人工智能"]
-        //   "电"       → ["电"]
+        // ── CJK: unigrams + bigrams + full word ──
         var cjkRe = /[\u4e00-\u9fff\u3400-\u4dbf\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af]+/g;
         var cjk;
         while ((cjk = cjkRe.exec(str)) !== null) {
           var seq = cjk[0];
-          if (seq.length === 1) {
-            tokens.push(seq);
-          } else {
-            // Bigrams
+          for (var i = 0; i < seq.length; i++) {
+            tokens.push(seq[i]);
+          }
+          if (seq.length > 1) {
             for (var j = 0; j < seq.length - 1; j++) {
               tokens.push(seq.substring(j, j + 2));
             }
-            // Full word as bonus boost for exact phrase match
             tokens.push(seq);
           }
         }
-        // ── Latin / numbers: lowercase whole words ──
+        // ── Latin: full word + trigrams ──
+        //   "Windy" → ["windy","win","ind","ndy"]
         var latinRe = /[a-zA-Z0-9\u00c0-\u024f]+/g;
         var latin;
         while ((latin = latinRe.exec(str)) !== null) {
-          tokens.push(latin[0].toLowerCase());
+          var word = latin[0].toLowerCase();
+          tokens.push(word);
+          if (word.length >= 3) {
+            for (var k = 0; k <= word.length - 3; k++) {
+              tokens.push(word.substring(k, k + 3));
+            }
+          }
         }
         return tokens;
       }

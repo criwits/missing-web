@@ -315,6 +315,69 @@ rt {
   color: var(--gray-400);
 }
 
+// ── Section headers & separator ────────────────────────
+
+.book-search-section-header {
+  padding: 8px 14px 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.book-search-separator {
+  margin: 4px 14px;
+  border-top: 1px solid var(--gray-200);
+}
+
+// ── In-page result item ────────────────────────────────
+
+.book-search-result-inpage {
+  cursor: pointer;
+
+  .book-search-result-heading {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--color-link);
+    background: var(--gray-100);
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+  }
+}
+
+.book-search-result-heading {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-link);
+  background: var(--gray-100);
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+
+// ── Load more button ───────────────────────────────────
+
+.book-search-more-btn {
+  display: block;
+  width: 100%;
+  padding: 8px 14px;
+  border: none;
+  background: none;
+  color: var(--color-link);
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.12s ease;
+
+  &:hover {
+    background: var(--gray-100);
+  }
+}
+
 // ── Scrollbar styling ───────────────────────────────────
 
 .book-search-results {
@@ -343,6 +406,74 @@ rt {
 
 .auto-columns-narrow {
   display: none;
+}
+
+// ═══════════════════════════════════════════════════════════
+//  Theme toggle (in TOC sidebar)
+// ═══════════════════════════════════════════════════════════
+
+.book-toc .book-theme-toggle {
+  display: block;
+}
+
+// Hide duplicate toggle in mobile header
+.hidden .book-theme-toggle {
+  display: none;
+}
+
+.book-theme-toggle {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--gray-200);
+}
+
+.book-theme-toggle-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.book-theme-toggle-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.book-theme-toggle-buttons button {
+  flex: 1;
+  padding: 4px 2px;
+  border: 1px solid var(--gray-200);
+  border-radius: 5px;
+  background: var(--body-background);
+  color: var(--body-font-color);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+
+  &:hover {
+    background: var(--gray-100);
+  }
+
+  &.active {
+    background: var(--color-link);
+    border-color: var(--color-link);
+    // Make emoji visible on colored bg
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  Explicit theme overrides (when data-theme is set)
+// ═══════════════════════════════════════════════════════════
+
+[data-theme="light"] {
+  @include theme-light;
+}
+
+[data-theme="dark"] {
+  @include theme-dark;
 }
 
 // Shrink when the screen is narrow enough

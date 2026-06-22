@@ -114,7 +114,7 @@
     padding: $padding-8 $padding-16 $padding-8 ($padding-16 - $padding-4); //to keep total left space 16dp
 
     border-inline-start: $padding-4 solid var(--gray-500);
-    background-color: #f1f2f3;
+    background-color: var(--hint-block-quote);
     border-radius: $border-radius;
 
     :first-child {
