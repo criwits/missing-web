@@ -350,17 +350,6 @@ rt {
   }
 }
 
-.book-search-result-heading {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 500;
-  color: var(--color-link);
-  background: var(--gray-100);
-  padding: 1px 7px;
-  border-radius: 3px;
-  margin-bottom: 4px;
-}
-
 // ── Load more button ───────────────────────────────────
 
 .book-search-more-btn {
@@ -503,7 +492,7 @@ rt {
 // Shrink when the screen is narrow enough
 
 @media screen and (max-width: $mobile-warning-breakpoint-large) and (min-width: $mobile-breakpoint), 
-       screen and (max-width: $mobile-breakpoint) and (max-width: $mobile-warning-breakpoint-small) {
+       screen and (max-width: $mobile-warning-breakpoint-small) {
   .mobile-hint {
     display: block;
   }
