@@ -69,9 +69,9 @@ chapter: -2
 ## 本作品的各种版本
 
 - 网页版：[https://www.criwits.top/missing]({{<relref "_index.md">}})
-- 纸质版：已由 [清华大学出版社](https://www.tup.com.cn/) 出版，目前已上架 [抖音](https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3825169060937728257)、[小红书](https://www.xiaohongshu.com/goods-detail/6a2b6d51963c4c0001e83caf) 和 [微信小店](https://store.weixin.qq.com/shop/a/xmzBDoYpZPSxUke) 三个新媒体平台。若您想要购买，可以点击前面的链接或扫描下图中各平台二维码直达商品页面。
+- 纸质版：ISBN 9787302716266，已由 [清华大学出版社](https://www.tup.com.cn/) 出版，目前已上架 [京东](https://3.cn/2U-4BQbf)、[抖音](https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3825169060937728257)、[小红书](https://www.xiaohongshu.com/goods-detail/6a2b6d51963c4c0001e83caf) 和 [微信小店](https://store.weixin.qq.com/shop/a/xmzBDoYpZPSxUke) 等平台。若您想要购买，可以点击前面各链接或扫描下图中各平台二维码直达商品页面。多谢您的支持！
 
-![抖音、小红书、微信小店平台购买链接二维码](misc/Paper_book_links.png#center)
+![各平台购买链接二维码](misc/Paper_book_links.png?updated=20260701#center)
 
 - 开源 PDF 版（25/3/13 更新，版本 2.0，**请注意更新时间**）：[蓝奏云](https://wwnv.lanzoul.com/b014wlzbne)（密码：`3ugq`），[百度网盘](https://pan.baidu.com/s/1Ud2v8wupC_10L6Rz4QoHYw?pwd=YSQD)（密码：`YSQD`，第三方提供），[GitHub 发布页](https://github.com/criwits/missing-pdf/releases/latest)（可能无法访问）
 - GitHub 仓库：[criwits/missing-web](https://github.com/criwits/missing-web/)（网页版），[criwits/missing-pdf](https://github.com/criwits/missing-pdf/)（开源 PDF 版）
@@ -101,11 +101,11 @@ chapter: -2
 
 {{< commit_info >}}
 
+- Dark mode: 网页版支持深色模式 (26/6/22)
+- Finally published: 纸质版正式出版上架 (26/6/12)
 - Experience update: 增加了「上一章」「下一章」按钮 (26/5/15)
 - Content update:「电脑组成」章增加对超线程和「i9 级」CPU 的介绍 (26/2/7)
 - Almost there: 调整了一些在纸书编辑加工过程中发现的不佳片段 (25/12/24)
-- Content update: 增加禁用 Windows 搜索联网功能的操作说明 (25/10/17)
-- Experience update: 现在点击图片可以放大查看了 (25/9/30)
 - [查看更多……]({{<relref "revisions.md">}})
 
 ## 著作权、许可与声明

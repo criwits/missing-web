@@ -162,7 +162,8 @@ rt {
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: rgba(255, 255, 255, 0.3);
+        // background-color: rgba(255, 255, 255, 0.3);
+        background-color: var(--toc-overlay-background);
     }
 
     .book-header-checked {
@@ -299,7 +300,8 @@ rt {
 
   mark {
     background: #fff3b0;
-    color: inherit;
+    // color: inherit;
+    color: #565d54;
     padding: 1px 2px;
     border-radius: 2px;
     font-weight: 500;
@@ -443,6 +445,9 @@ rt {
 }
 
 .book-theme-toggle-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   padding: 4px 2px;
   border: 1px solid var(--gray-200);
@@ -453,6 +458,10 @@ rt {
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
 
+  img {
+    display: block;
+  }
+
   &:hover {
     background: var(--gray-100);
   }
@@ -460,7 +469,6 @@ rt {
   &.active {
     background: var(--color-link);
     border-color: var(--color-link);
-    // Make emoji visible on colored bg
   }
 }
 
@@ -474,6 +482,22 @@ rt {
 
 [data-theme="dark"] {
   @include theme-dark;
+
+  .book-theme-toggle-buttons button img {
+    filter: brightness(0) invert(1);
+  }
+}
+
+// Active button always has colored background → SVG should be white
+.book-theme-toggle-buttons button.active img {
+  filter: brightness(0) invert(1);
+}
+
+// Auto mode with dark OS preference → all SVGs white
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .book-theme-toggle-buttons button img {
+    filter: brightness(0) invert(1);
+  }
 }
 
 // Shrink when the screen is narrow enough

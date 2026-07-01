@@ -45,6 +45,8 @@ $mobile-warning-breakpoint-large: $mobile-breakpoint * 1.2 !default;
   --hint-info: #6bf;
   --hint-warning: #ffc266;
   --hint-danger: #f44;
+
+  --toc-overlay-background: rgba(255, 255, 255, 0.3);
 }
 
 @mixin theme-dark {
@@ -59,13 +61,15 @@ $mobile-warning-breakpoint-large: $mobile-breakpoint * 1.2 !default;
   --body-background: #343a40;
   --body-font-color: #e9ecef;
 
+  --icon-filter: brightness(0) invert(1);
+
   --hint-block-quote: rgba(255, 255, 255, 0.1);
   --hint-quoting: #6cf;
   --hint-info: #6bf;
   --hint-warning: #ffc266;
   --hint-danger: #f44;
 
-  --icon-filter: brightness(0) invert(1);
+  --toc-overlay-background: rgba(0, 0, 0, 0.3);
 }
 
 $hint-colors: (
