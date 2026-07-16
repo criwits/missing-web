@@ -157,10 +157,10 @@ ASCII 使用 7 位二进制数来编码字符，可以表示的数据范围是 0
 
 > 什么是「为了不和 ASCII 打架」呢？由于在中文里，我们通常会不可避免地夹杂使用英文，人们希望这些英文能正常地以 ASCII 编码和解码来保持兼容性。而 ASCII 所占用的范围是 `00`~`7F`，如果 GB2312 亦使用了这个区域，就会导致机器无法区分该内容是「2 个 ASCII 编码的英文字母」还是「1 个 GB2312 编码的字符」。
 
-目前看来一切都还不错，直到人们发现 GB2312 漏掉了一些经常使用的字，例如在「啰嗦」这个常用词中的「啰」，以及许多人名字中的生僻字，例如「镕」。一方面，人们为了能够显示出这些字，使用了一系列替代方案，比如拼字或者换专用字体：
+目前看来一切都还不错，直到人们发现 GB2312 漏掉了一些经常使用的字，例如在「啰嗦」这个常用词中的「啰」，以及人名、地名中的部分生僻字，如「镕」「磡」。一方面，人们为了能够显示出这些字，使用了一系列替代方案，比如拼字或者换专用字体：
 
 {{< hint quoting >}}
-「少<span style="display: inline-block; transform: scaleX(.5) translateX(-.51em); width: 1em; white-space: nowrap;">口罗</span>嗦！」方<span style="font-family: simsun, serif;">镕</span>打断道。
+到红<span style="font-family: simsun, serif;">磡</span>的路上，方<span style="font-family: simsun, serif;">镕</span>一直<span style="display: inline-block; transform: scaleX(.5) translateX(-.51em); width: 1em; white-space: nowrap;">口罗</span>嗦个不停。
 {{< /hint >}}
 
 另一方面，人们也在推动更多字符被收进编码体系中。1995 年，《汉字内码扩展规范》发布，通称「GBK」，意为「国标扩」，收录汉字的总量达到了 21003，代替了 GB2312 在代码页 936 中的位置。它在双字节中没有用上的很大一部分都塞上了汉字，如下图「GBK」部分所示，其中「GBK/1」「GBK/2」部分就是 GB2312。还是为了避免与 ASCII 相冲突，GBK 仅使用 `80` 以上的值作为双字节编码开头——这差不多切着 ASCII `7F` 的上限了。
