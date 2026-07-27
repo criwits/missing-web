@@ -1,0 +1,11 @@
+{{ if and .Parent (eq .Parent.Name "random_contents") }}
+  {{ $group := printf "random-%d" .Parent.Ordinal }}
+
+  {{ if not (.Parent.Scratch.Get $group) }}
+    {{ .Parent.Scratch.Set $group slice }}
+  {{ end }}
+
+  {{ .Parent.Scratch.Add $group (dict "Content" .Inner) }}
+{{ else }}
+  {{ errorf "%q: 'random_content' shortcode must be inside 'random_contents' shortcode" .Page.Path }}
+{{ end }}

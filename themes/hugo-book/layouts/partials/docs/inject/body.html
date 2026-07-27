@@ -4,6 +4,8 @@
 <!--本地脚本-->
 {{ $easterEggsJS := resources.Get "easter-eggs.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $easterEggsJS.RelPermalink }}" integrity="{{ $easterEggsJS.Data.Integrity }}"></script>
+{{ $randomContentJS := resources.Get "random-content.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $randomContentJS.RelPermalink }}" integrity="{{ $randomContentJS.Data.Integrity }}"></script>
 {{ $scrollJS := resources.Get "scroll.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $scrollJS.RelPermalink }}" integrity="{{ $scrollJS.Data.Integrity }}"></script>
 {{ $headerCtrlJS := resources.Get "header-controller.js" | resources.Minify | resources.Fingerprint }}

@@ -1,0 +1,19 @@
+{{ if .Inner }}{{ end }}
+{{ $group := printf "random-%d" .Ordinal }}
+
+<div class="random-contents" id="{{ $group }}">
+{{- range $index, $item := .Scratch.Get $group -}}
+  <div class="random-content-item" data-random-index="{{ $index }}" style="display:none;">
+    {{- .Content | markdownify -}}
+  </div>
+{{- end -}}
+  <noscript>
+    {{- range $index, $item := .Scratch.Get $group -}}
+      {{- if eq $index 0 -}}
+    <div class="random-content-item">
+      {{- .Content | markdownify -}}
+    </div>
+      {{- end -}}
+    {{- end -}}
+  </noscript>
+</div>
