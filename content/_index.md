@@ -145,6 +145,6 @@ chapter: -2
 
 自 2021 年 12 月 26 日以来，《你缺失的那门计算机课》网页版 GitHub 仓库的 Star 数变化如下图所示：
 
-<img src="https://api.star-history.com/svg?repos=criwits/missing-web&amp;type=Date" alt="GitHub Star 统计图暂无法加载" loading="lazy">
+<img src="https://star-history.dera.page/svg?repos=criwits/missing-web&amp;type=Date" alt="GitHub Star 统计图暂无法加载" loading="lazy">
 
-以上图表由 [star-history.com](https://star-history.com/) 提供。
+以上图表由 [star-history.dera.page](https://star-history.dera.page/) 提供。
