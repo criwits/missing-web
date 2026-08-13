@@ -51,6 +51,6 @@
 
 自诞生以来，本仓库的 Star 数变化如下图所示：
 
-![GitHub Star 数历史](https://api.star-history.com/svg?repos=criwits/missing-web&type=Date)
+![GitHub Star 数历史](https://star-history.dera.page/svg?repos=criwits/missing-web&type=Date)
 
-以上图表由 [star-history.com](https://star-history.com/) 提供。
+以上图表由 [star-history.dera.page](https://star-history.dera.page/) 提供。
