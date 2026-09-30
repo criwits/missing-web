@@ -42,8 +42,12 @@ for line in content:
             plt.imshow(plt.imread(image_path_abs))
             plt.show()
             new_name = input("Enter new name: ")
+            new_name = os.path.basename(new_name)
             new_image_path = os.path.join(assets_folder_abs, new_name + "." + image_name_ext)
             new_image_path = os.path.abspath(new_image_path)
+            if not new_image_path.startswith(assets_folder_abs + os.sep):
+                print("Invalid name: path traversal detected")
+                exit(1)
 
             place = input("Where? (l/c/r): ")
             if place == "l":
